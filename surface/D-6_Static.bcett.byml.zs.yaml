@@ -4865,6 +4865,21 @@ root:
         - 1778,65800
     - Dynamic: {PlacementMotion_MotionType: !l 0}
       Gyaml: Obj_FireWoodBundle
+      Hash: '13227983701207430566'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 13227983701207430566}
+      Rotate:
+        - -3,09168
+        - -0,79169
+        - -3,11119
+      SRTHash: !u 2301636188
+      Translate:
+        - -1719,26000
+        - 111,87830
+        - 1740,89900
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: Obj_FireWoodBundle
       Hash: '10217743317828928064'
       IsPhysicsStable: true
       Phive:
@@ -5446,6 +5461,7 @@ root:
       IsPhysicsStable: true
       Links:
         - {Dst: 10217743317828928064, Gyaml: StackInfo, Name: StackInfo, Src: 18080597347000621947}
+        - {Dst: 13227983701207430566, Gyaml: StackInfo, Name: StackInfo, Src: 18080597347000621947}
       Phive:
         Placement: {ID: 18080597347000621947}
       Rotate:
@@ -6247,6 +6263,7 @@ root:
         - 1259,58900
     - Gyaml: Kibako_Contain_01
       Hash: '9163164353407359864'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 9163164353407359864}
@@ -12334,6 +12351,8 @@ root:
     - Dynamic: {InitState: !l 1, Life_BossLifeGaugeSubtitle: Ground_086, NestUser_ChangeDefaultTerritoryToCustomKeyName: Colosseum}
       Gyaml: Enemy_Drake_Electric
       Hash: '3563560582355181031'
+      Links:
+        - {Dst: 3594733799029550258, Gyaml: MoveTarget, Name: MoveTarget, Src: 3563560582355181031}
       Phive:
         Placement: {ID: 3563560582355181031}
       Rotate:
@@ -12399,6 +12418,20 @@ root:
         - -1150,14500
         - -347,81260
         - 1262,96600
+    - Gyaml: AnchorWaypoint1
+      Hash: '3594733799029550258'
+      Phive:
+        Placement: {ID: 3594733799029550258}
+      Rotate:
+        - 3,14159
+        - 0,22783
+        - 3,14159
+      SRTHash: !u 3767040696
+      Translate:
+        - -1150,14500
+        - 252,18740
+        - 1262,96600
+      Version: !l 101
     - Dynamic:
         HideType: !l 9
         KorokLeftPlant: !l 0
@@ -14394,6 +14427,7 @@ root:
       Links:
         - {Dst: 8351989664352653230, Gyaml: Reference, Name: Reference, Src: 1164894430454493936}
         - {Dst: 3500417031981298484, Gyaml: Reference, Name: Reference, Src: 1164894430454493936}
+        - {Dst: 10149076081911633461, Gyaml: Reference, Name: Reference, Src: 1164894430454493936}
         - {Dst: 3643785449856294086, Gyaml: Reference, Name: Reference, Src: 1164894430454493936}
         - {Dst: 11331850105864529296, Gyaml: Reference, Name: Reference, Src: 1164894430454493936}
         - {Dst: 6833666938185991750, Gyaml: Reference, Name: Reference, Src: 1164894430454493936}
@@ -14800,6 +14834,24 @@ root:
         - -1086,36900
         - 179,27980
         - 1672,91400
+    - Gyaml: NavMeshPaintBoxArea_GiantNoEntryNotForce
+      Hash: '9467346299713854593'
+      Phive:
+        Placement: {ID: 9467346299713854593}
+      Rotate:
+        - 3,14159
+        - -0,80593
+        - 3,14159
+      SRTHash: !u 2535892418
+      Scale:
+        - 21,10000
+        - 21,10000
+        - 21,10000
+      Translate:
+        - -1086,36900
+        - 179,27980
+        - 1672,91400
+      Version: !l 110
     - Gyaml: Npc_SmallOasis001
       Hash: '12388881017280410959'
       Links:
@@ -14913,7 +14965,8 @@ root:
         - -1268,68600
         - 303,75000
         - 1390,08600
-    - Gyaml: Area
+    - Dynamic: {IsNeedAutoSave: true}
+      Gyaml: Area
       Hash: '18148422313914988361'
       Phive:
         Placement: {ID: 18148422313914988361}
@@ -16207,6 +16260,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodWheel_A_02
       Hash: '9330142026357343213'
+      IsForceActive: true
       Links:
         - {Dst: 4104168178511915877, Gyaml: Owned, Name: Owned, Src: 9330142026357343213}
       Name: FrontR
@@ -17359,11 +17413,11 @@ root:
       Hash: '11625232021550793417'
       Phive:
         Placement: {ID: 11625232021550793417}
-      SRTHash: !u 2753794371
+      SRTHash: !u 2556600990
       Scale:
-        - 15,00000
-        - 355,60000
-        - 15,00000
+        - 14,00000
+        - 354,60000
+        - 14,00000
       Translate:
         - -1431,57000
         - -375,82610
@@ -17721,6 +17775,7 @@ root:
     - Bakeable: true
       Gyaml: Obj_KorokPot_A_01
       Hash: '7305235102374209209'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -19524,7 +19579,7 @@ root:
     - Dynamic:
         MarginNegative:
           - 150,00000
-          - 20,00000
+          - 55,00000
           - 150,00000
         MarginPositive:
           - 49,00000
@@ -19833,6 +19888,24 @@ root:
         - -1409,64600
         - 137,50000
         - 1262,49600
+    - Gyaml: AreaInvalidateRestartPosForHorseNoMarge
+      Hash: '10773947424107823599'
+      Phive:
+        Placement: {ID: 10773947424107823599}
+      Rotate:
+        - 0,00000
+        - 0,72334
+        - 0,00000
+      SRTHash: !u 2838075103
+      Scale:
+        - 50,00000
+        - 65,00000
+        - 80,00000
+      Translate:
+        - -1857,77600
+        - 98,83838
+        - 1507,61400
+      Version: !l 110
     - Bakeable: true
       Gyaml: FldObj_CliffOrangeWall_A_15_Far
       Hash: '7254336477541438461'
@@ -33829,7 +33902,7 @@ root:
             - 1073,31600
         - Gyaml: Route
           Hash: '1967346142900346734'
-          NextDistance: 7,35515
+          NextDistance: 7,25530
           PrevDistance: 10,38333
           Translate:
             - -1900,52100
@@ -33837,28 +33910,28 @@ root:
             - 1072,04600
         - Gyaml: Route
           Hash: '744057602941113467'
-          NextDistance: 6,84826
-          PrevDistance: 7,35515
+          NextDistance: 6,80759
+          PrevDistance: 7,25530
           Translate:
             - -1893,52000
-            - 209,21610
-            - 1069,84400
+            - 208,85550
+            - 1070,14800
         - Gyaml: Route
           Hash: '9025287775731304694'
-          NextDistance: 7,96593
-          PrevDistance: 6,84826
+          NextDistance: 7,95896
+          PrevDistance: 6,80759
           Translate:
             - -1886,73300
-            - 209,52420
-            - 1068,98000
+            - 209,26540
+            - 1069,80600
         - Dynamic: {CheckPointName: D-6_Npc_Road_046_Start}
           Gyaml: Route
           Hash: '14074998439394895478'
-          PrevDistance: 7,96593
+          PrevDistance: 7,95896
           Translate:
             - -1878,82900
-            - 210,25970
-            - 1069,64900
+            - 209,73730
+            - 1070,61500
   SimultaneousGroups:
     - - 8414617433662007
       - 184752033318978547

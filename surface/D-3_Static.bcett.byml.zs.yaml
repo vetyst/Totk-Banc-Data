@@ -10584,6 +10584,24 @@ root:
         - -1447,52700
         - 238,94190
         - -1026,15600
+    - Gyaml: NavMeshPaintBoxArea_GiantNoEntryNotForce
+      Hash: '15074210957940902182'
+      Phive:
+        Placement: {ID: 15074210957940902182}
+      Rotate:
+        - 3,14159
+        - 1,18026
+        - 3,14159
+      SRTHash: !u 127669791
+      Scale:
+        - 21,10000
+        - 21,10000
+        - 21,10000
+      Translate:
+        - -1450,74000
+        - 242,28270
+        - -1003,67100
+      Version: !l 110
     - Bakeable: true
       Gyaml: AsbObj_WoodSquare_A_M_01
       Hash: '12591375873409303128'
@@ -12034,6 +12052,7 @@ root:
         - {Dst: 3018105909220653755, Gyaml: Reference, Name: Reference, Src: 4133078490861602972}
         - {Dst: 10570756262804676184, Gyaml: Reference, Name: Reference, Src: 4133078490861602972}
         - {Dst: 16960082569738250857, Gyaml: Reference, Name: Reference, Src: 4133078490861602972}
+        - {Dst: 16745268505115873355, Gyaml: Reference, Name: Reference, Src: 4133078490861602972}
       MoveRadius: 21,07480
       Name: Ground
       Phive:
@@ -12378,6 +12397,8 @@ root:
     - Dynamic: {RequestEventName: MiniGame_CollectObject_OwningObjectMoved}
       Gyaml: EventRequestActor
       Hash: '4956381307345269837'
+      Links:
+        - {Dst: 16745268505115873355, Gyaml: Reference, Name: Reference, Src: 4956381307345269837}
       Phive:
         Placement: {ID: 4956381307345269837}
       Rotate:
@@ -12412,6 +12433,8 @@ root:
     - Dynamic: {RequestEventName: MiniGame_CollectObject_Burn}
       Gyaml: EventRequestActor
       Hash: '12694121610059101034'
+      Links:
+        - {Dst: 16745268505115873355, Gyaml: Reference, Name: Reference, Src: 12694121610059101034}
       Phive:
         Placement: {ID: 12694121610059101034}
       Rotate:
@@ -12603,6 +12626,8 @@ root:
     - Dynamic: {RequestEventName: MiniGame_CollectObject_DollsOutOfArea}
       Gyaml: EventRequestActor
       Hash: '14047417291532775847'
+      Links:
+        - {Dst: 16745268505115873355, Gyaml: Reference, Name: Reference, Src: 14047417291532775847}
       Name: DollsOutOfArea
       Phive:
         Placement: {ID: 14047417291532775847}
@@ -12618,6 +12643,8 @@ root:
     - Dynamic: {RequestEventName: MiniGame_CollectObject_PlayerOutOfArea}
       Gyaml: EventRequestActor
       Hash: '6924896133999825929'
+      Links:
+        - {Dst: 16745268505115873355, Gyaml: Reference, Name: Reference, Src: 6924896133999825929}
       Name: PlayerOutOfArea
       Phive:
         Placement: {ID: 6924896133999825929}
@@ -12648,6 +12675,21 @@ root:
         - -1570,28200
         - 221,66910
         - -1805,67800
+    - Gyaml: DestinationAnchor
+      Hash: '16745268505115873355'
+      Name: WagonPosForCollectObject
+      Phive:
+        Placement: {ID: 16745268505115873355}
+      Rotate:
+        - -0,03956
+        - 0,87456
+        - -0,00573
+      SRTHash: !u 1409339950
+      Translate:
+        - -1550,15800
+        - 212,23520
+        - -1795,12000
+      Version: !l 101
     - Dynamic: {RigidBodyShapeType: !l 0}
       Gyaml: Area
       Hash: '208932353441108103'
@@ -12836,6 +12878,7 @@ root:
       Links:
         - {Dst: 18169857466035390822, Gyaml: Reference, Name: Reference, Src: 9884822371644735617}
         - {Dst: 12224600099118685475, Gyaml: Reference, Name: Reference, Src: 9884822371644735617}
+        - {Dst: 430198447219845070, Gyaml: Reference, Name: Reference, Src: 9884822371644735617}
         - {Dst: 13222893714975519401, Gyaml: Reference, Name: Reference, Src: 9884822371644735617}
         - {Dst: 2615863920341166976, Gyaml: Reference, Name: Reference, Src: 9884822371644735617}
         - {Dst: 13952920222862528553, Gyaml: Reference, Name: Reference, Src: 9884822371644735617}

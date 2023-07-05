@@ -3768,6 +3768,8 @@ root:
     - Dynamic: {InitState: !l 1, Life_BossLifeGaugeSubtitle: Ground_024}
       Gyaml: Enemy_Drake_Ice
       Hash: '7375109460783924447'
+      Links:
+        - {Dst: 428589116083912154, Gyaml: MoveTarget, Name: MoveTarget, Src: 7375109460783924447}
       Phive:
         Placement: {ID: 7375109460783924447}
       Rotate:
@@ -3833,6 +3835,20 @@ root:
         - -4022,20900
         - 315,30980
         - 954,98550
+    - Gyaml: AnchorWaypoint1
+      Hash: '428589116083912154'
+      Phive:
+        Placement: {ID: 428589116083912154}
+      Rotate:
+        - 0,00103
+        - 0,00000
+        - 0,00312
+      SRTHash: !u 1351297071
+      Translate:
+        - -4024,08100
+        - 915,30650
+        - 955,60290
+      Version: !l 101
     - Dynamic: {Drop__DropActor: Obj_ArrowBundle_A_01}
       Gyaml: TBox_Field_Iron_Zonau
       Hash: '5339031141655352494'
@@ -4207,6 +4223,7 @@ root:
       Links:
         - {Dst: 3647775101804974671, Gyaml: Reference, Name: Reference, Src: 5816613647579139296}
         - {Dst: 15498070378308954179, Gyaml: Reference, Name: Reference, Src: 5816613647579139296}
+        - {Dst: 12072472425983714597, Gyaml: Reference, Name: Reference, Src: 5816613647579139296}
         - {Dst: 8497568152468259638, Gyaml: Reference, Name: Reference, Src: 5816613647579139296}
         - {Dst: 10836126175795297319, Gyaml: Reference, Name: Reference, Src: 5816613647579139296}
         - {Dst: 1708229802679049401, Gyaml: Reference, Name: Reference, Src: 5816613647579139296}
@@ -5801,6 +5818,7 @@ root:
       Links:
         - {Dst: 6768759652262101986, Gyaml: Reference, Name: Reference, Src: 3612146822957939036}
         - {Dst: 1650330613085700064, Gyaml: Reference, Name: Reference, Src: 3612146822957939036}
+        - {Dst: 7412169901315723678, Gyaml: Reference, Name: Reference, Src: 3612146822957939036}
         - {Dst: 1197214492947962803, Gyaml: Reference, Name: Reference, Src: 3612146822957939036}
         - {Dst: 8595478667688321212, Gyaml: Reference, Name: Reference, Src: 3612146822957939036}
         - {Dst: 8693129169516972340, Gyaml: Reference, Name: Reference, Src: 3612146822957939036}

@@ -452,8 +452,7 @@ root:
         - 406,74080
         - 335,74030
         - -2198,09800
-    - Dynamic: {PlacementMotion_MotionType: !l 2}
-      Gyaml: Weapon_Shield_023
+    - Gyaml: Weapon_Shield_023
       Hash: '10174534501244150360'
       Phive:
         Placement: {ID: 10174534501244150360}
@@ -6298,8 +6297,6 @@ root:
         - -2167,10100
     - Gyaml: AnchorAction2
       Hash: '15692475165041510765'
-      Links:
-        - {Dst: 9172158743744299771, Gyaml: Reference, Name: Reference, Src: 15692475165041510765}
       Phive:
         Placement: {ID: 15692475165041510765}
       Rotate:
@@ -6471,7 +6468,6 @@ root:
       Hash: '1645363438956278558'
       Links:
         - {Dst: 14069377087366215815, Gyaml: Reference, Name: Reference, Src: 1645363438956278558}
-        - {Dst: 16190239693163851365, Gyaml: StackInfo, Name: StackInfo, Src: 1645363438956278558}
       Name: KeyCrystalInstance_Kokiri
       Phive:
         Placement: {ID: 1645363438956278558}
@@ -8910,6 +8906,10 @@ root:
     - Dynamic: {OwningObjectZonauMagicedEventName: TouchItem_kokiri009}
       Gyaml: Npc_kokiri009
       Hash: '17313823417642667980'
+      Links:
+        - {Dst: 9172158743744299771, Gyaml: Reference, Name: Reference, Src: 17313823417642667980}
+        - {Dst: 15692475165041510765, Gyaml: Reference, Name: Reference, Src: 17313823417642667980}
+      MoveRadius: 0,91352
       Name: ForCallange
       Phive:
         Placement: {ID: 17313823417642667980}

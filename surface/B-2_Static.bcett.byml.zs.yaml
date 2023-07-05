@@ -1621,6 +1621,8 @@ root:
     - Dynamic: {RequestEventName: SageOfWind_GetBack}
       Gyaml: EventRequestActor
       Hash: '4135421431927277338'
+      Links:
+        - {Dst: 11014033479277301416, Gyaml: Reference, Name: Reference, Src: 4135421431927277338}
       Phive:
         Placement: {ID: 4135421431927277338}
       SRTHash: !u 4122619123
@@ -10642,6 +10644,8 @@ root:
     - Dynamic: {Life_BossLifeGaugeSubtitle: Ground_054}
       Gyaml: Enemy_Drake_Ice
       Hash: '18215301882184071282'
+      Links:
+        - {Dst: 18024350248120037631, Gyaml: MoveTarget, Name: MoveTarget, Src: 18215301882184071282}
       Phive:
         Placement: {ID: 18215301882184071282}
       Presence: {FlagName: ShieldSurfing_NowPlay, IsCheckLazy: false, IsNegation: true}
@@ -17775,6 +17779,16 @@ root:
         - -3250,39800
         - 533,41890
         - -2565,60200
+    - Gyaml: AnchorWaypoint1
+      Hash: '18024350248120037631'
+      Phive:
+        Placement: {ID: 18024350248120037631}
+      SRTHash: !u 2121751221
+      Translate:
+        - -3743,28700
+        - 549,79900
+        - -2991,55500
+      Version: !l 101
     - Bakeable: true
       Gyaml: FldObj_CliffSnowLargeWall_D_01_Far
       Hash: '1092846349321260537'

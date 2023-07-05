@@ -1274,10 +1274,10 @@ root:
         - 0,00000
         - -0,78540
         - 0,00000
-      SRTHash: !u 722670968
+      SRTHash: !u 2729561747
       Scale:
         - 22,00000
-        - 6,00000
+        - 8,00000
         - 22,00000
       Translate:
         - -4518,55400
@@ -2349,6 +2349,22 @@ root:
         - -4577,24400
         - 139,66540
         - 3552,87200
+    - Bakeable: true
+      Gyaml: DgnObj_ElectricStoneBoard_A_02
+      Hash: '5588350384628644659'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 5588350384628644659}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonFind_Exp, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 646561252
+      Translate:
+        - -4654,17600
+        - 93,46630
+        - 3631,21900
     - Bakeable: true
       Gyaml: DgnObj_ElectricBoxStone_A_02
       Hash: '5014985113442085372'
@@ -4805,6 +4821,24 @@ root:
         - 100,61870
         - 3628,06600
     - Bakeable: true
+      Gyaml: DgnObj_ElectricStoneBoard_A_01
+      Hash: '10312185531814193407'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 5588350384628644659, Gyaml: StackInfo, Name: StackInfo, Src: 10312185531814193407}
+      Phive:
+        Placement: {ID: 10312185531814193407}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonFind_Exp, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -0,05851
+        - 0,87267
+        - -0,00006
+      SRTHash: !u 791872184
+      Translate:
+        - -4656,27600
+        - 93,58997
+        - 3629,95800
+    - Bakeable: true
       Dynamic: {ChangedSpawnActorName: Enemy_Zombie_Boss_Junior, ChangedSpawnMax: !l 3, SpawnActorName: Enemy_Zombie_Junior, SpawnMax: !l 8, SpawnNum: !l 2}
       Gyaml: FldObj_Gerudo_ZombieNest_A_02
       Hash: '8788025453829145582'
@@ -7117,6 +7151,63 @@ root:
         - -4517,71700
         - 130,04970
         - 3632,37500
+    - Gyaml: Area
+      Hash: '16320760361928791553'
+      Phive:
+        Placement: {ID: 16320760361928791553}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonFind_Exp, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - -0,78540
+        - 0,00000
+      SRTHash: !u 2145857050
+      Scale:
+        - 10,00000
+        - 10,00000
+        - 10,00000
+      Translate:
+        - -4482,49100
+        - 166,66540
+        - 3575,49900
+      Version: !l 101
+    - Gyaml: Area
+      Hash: '12280736954195658457'
+      Phive:
+        Placement: {ID: 12280736954195658457}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonFind_Exp, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - -0,78540
+        - 0,00000
+      SRTHash: !u 2648496392
+      Scale:
+        - 4,00000
+        - 4,00000
+        - 4,00000
+      Translate:
+        - -4463,39900
+        - 168,66540
+        - 3556,40700
+      Version: !l 101
+    - Gyaml: Area
+      Hash: '369999525774729233'
+      Phive:
+        Placement: {ID: 369999525774729233}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonFind_Exp, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - -0,78540
+        - 0,00000
+      SRTHash: !u 3361688110
+      Scale:
+        - 10,00000
+        - 10,00000
+        - 10,00000
+      Translate:
+        - -4679,77400
+        - 90,66544
+        - 3659,64500
+      Version: !l 101
     - Bakeable: true
       Dynamic: {BancPath: Banc/MainField/Merged/Mrg_1c0edc3a_Unified_0-0-0-4EEFAC56.bcett.byml}
       Gyaml: MergedActorUncond
@@ -7523,6 +7614,10 @@ root:
       Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
       References:
         - {Id: Area_c7d0, Path: Area_c7d0, Reference: 384220915837568760}
+    - Hash: '5899211062465656184'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 369999525774729233}
     - Hash: '6110156449185761927'
       Logic: Logic/Module/LargeDungeonThunder/LargeDungeonThunder_b420.logic.module.ain
       References:
@@ -7684,6 +7779,10 @@ root:
         - {Id: Area_77a1, Path: Area_77a1, Reference: 16741518464607863710}
         - {Id: EventRequestActor_efe4, Path: EventRequestActor_efe4, Reference: 8270552145793992781}
         - {Id: AsbObj_StoneRectangle_B_LL_01_ce0e, Path: AsbObj_StoneRectangle_B_LL_01_ce0e, Reference: 10176879911973437529}
+    - Hash: '12998452456661505834'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 16320760361928791553}
     - Hash: '13092552840223629612'
       Logic: Logic/Module/Pyramid_FireBallRamp/Pyramid_FireBallRamp_47b9.logic.module.ain
       References:
@@ -7766,6 +7865,10 @@ root:
         - {Id: DesignateMatrixActor_6909, Path: DesignateMatrixActor_6909, Reference: 10295653992802646232}
         - {Id: DesignateMatrixActor_9fe5, Path: DesignateMatrixActor_9fe5, Reference: 1758295061407268599}
         - {Id: DesignateMatrixActor_b0d5, Path: DesignateMatrixActor_b0d5, Reference: 6434884699916065520}
+    - Hash: '15573728907339395390'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 12280736954195658457}
     - Hash: '17120772745028925448'
       Logic: Logic/Module/LargeDungeonThunder/LargeDungeonThunder_babc.logic.module.ain
       References:

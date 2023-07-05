@@ -166,7 +166,7 @@ root:
         - -396,57500
         - -598,93960
         - -2735,14200
-    - Dynamic: {Drop__DropTable: Minus, GolemSleepType: SleepForward_A, WeakPointUser_WeakPointActorAttachBoneName: Point_A}
+    - Dynamic: {Drop__DropTable: Minus, GolemSleepType: SleepForward_A, NestUser_ChangeDefaultTerritoryToCustomKeyName: GroundSmall, WeakPointUser_WeakPointActorAttachBoneName: Point_A}
       Gyaml: Enemy_Golem_Middle
       Hash: '13253920385584715510'
       Phive:
@@ -290,6 +290,7 @@ root:
         - {Dst: 13424713487864629086, Gyaml: Reference, Name: Reference, Src: 1101218096794594061}
         - {Dst: 9628098792957335619, Gyaml: Reference, Name: Reference, Src: 1101218096794594061}
         - {Dst: 14940699134580364793, Gyaml: Reference, Name: Reference, Src: 1101218096794594061}
+        - {Dst: 4775146891949891852, Gyaml: Reference, Name: Reference, Src: 1101218096794594061}
       Phive:
         Placement: {ID: 1101218096794594061}
       Rotate:
@@ -3203,6 +3204,7 @@ root:
         - {Dst: 13424713487864629086, Gyaml: Reference, Name: Reference, Src: 1242153388771419914}
         - {Dst: 9628098792957335619, Gyaml: Reference, Name: Reference, Src: 1242153388771419914}
         - {Dst: 14940699134580364793, Gyaml: Reference, Name: Reference, Src: 1242153388771419914}
+        - {Dst: 4775146891949891852, Gyaml: Reference, Name: Reference, Src: 1242153388771419914}
       Phive:
         Placement: {ID: 1242153388771419914}
       Rotate:
@@ -3249,6 +3251,21 @@ root:
         - -118,90790
         - -521,08500
         - -2426,21200
+    - Gyaml: DestinationAnchor
+      Hash: '4775146891949891852'
+      Name: ActorDeleteAnchorMinusColosseum
+      Phive:
+        Placement: {ID: 4775146891949891852}
+      Rotate:
+        - 0,00000
+        - -0,55701
+        - 0,00000
+      SRTHash: !u 3641991367
+      Translate:
+        - -87,71777
+        - -516,58500
+        - -2476,29400
+      Version: !l 101
     - Dynamic: {Location: MinusField_RirimukuMt, RigidBodyShapeType: !l 3}
       Gyaml: LocationArea
       Hash: '9295793853654221346'
@@ -3280,7 +3297,7 @@ root:
         - -566,90860
         - -697,97810
         - -2569,72900
-    - Dynamic: {Life_BossLifeGaugeSubtitle: MinusField}
+    - Dynamic: {Life_BossLifeGaugeSubtitle: MinusField, NestUser_ChangeDefaultTerritoryToCustomKeyName: AreaSmall}
       Gyaml: Enemy_Mogurudo_Middle
       Hash: '1037511654320139812'
       Links:
@@ -3291,11 +3308,11 @@ root:
         - 0,00000
         - 0,22046
         - 0,00000
-      SRTHash: !u 3092546306
+      SRTHash: !u 2473854952
       Translate:
-        - -190,06770
-        - -510,85780
-        - -2937,94600
+        - -165,01300
+        - -511,71060
+        - -2943,56000
     - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
       Gyaml: Area
       Hash: '12312166594089458959'

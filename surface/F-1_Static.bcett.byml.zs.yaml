@@ -3070,6 +3070,7 @@ root:
     - Bakeable: true
       Gyaml: SpObj_FlameThrower_A_01
       Hash: '11016970419221670043'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 11016970419221670043}
@@ -5232,22 +5233,6 @@ root:
         - 579,89070
         - 286,87070
         - -3142,04900
-    - Gyaml: Enemy_Lizalfos_Junior
-      Hash: '12719808391420391106'
-      IsInWater: true
-      Phive:
-        Placement: {ID: 12719808391420391106}
-      Rails:
-        - {Dst: 1500931717746132948, Gyaml: Reference, Name: Reference}
-      Rotate:
-        - 0,00000
-        - 1,39626
-        - 0,00000
-      SRTHash: !u 541471718
-      Translate:
-        - 526,00000
-        - 277,90550
-        - -3141,00000
     - Dynamic: {IsLevelSensorTarget: true}
       Gyaml: Enemy_Lizalfos_Junior
       Hash: '9026624031271348865'
@@ -7123,6 +7108,7 @@ root:
       Links:
         - {Dst: 3188783400184400096, Gyaml: Reference, Name: Reference, Src: 11695023447408644365}
         - {Dst: 9315274319481443235, Gyaml: Reference, Name: Reference, Src: 11695023447408644365}
+        - {Dst: 15407086419783878981, Gyaml: Reference, Name: Reference, Src: 11695023447408644365}
         - {Dst: 9734881248452388660, Gyaml: Reference, Name: Reference, Src: 11695023447408644365}
         - {Dst: 14172517173283875078, Gyaml: Reference, Name: Reference, Src: 11695023447408644365}
         - {Dst: 16792423658434052533, Gyaml: Reference, Name: Reference, Src: 11695023447408644365}
@@ -7666,6 +7652,7 @@ root:
       Links:
         - {Dst: 8251027800277325810, Gyaml: Reference, Name: Reference, Src: 1550019510027086417}
         - {Dst: 3244053474346552215, Gyaml: Reference, Name: Reference, Src: 1550019510027086417}
+        - {Dst: 7967743108284972445, Gyaml: Reference, Name: Reference, Src: 1550019510027086417}
         - {Dst: 4278308988828624825, Gyaml: Reference, Name: Reference, Src: 1550019510027086417}
         - {Dst: 5920708390038371635, Gyaml: Reference, Name: Reference, Src: 1550019510027086417}
         - {Dst: 5892616013995122233, Gyaml: Reference, Name: Reference, Src: 1550019510027086417}
@@ -15103,7 +15090,6 @@ root:
       Meta: AI/Root/MetaAI/EnemyCampNormal.metaai.root.ain
       References:
         - {Id: '', Reference: 13348093281953249999}
-        - {Id: '', Reference: 12719808391420391106}
         - {Id: '', Reference: 9026624031271348865}
     - Hash: '1013783561428191471'
       Logic: Logic/Module/MiniChallange_BlindRuins/MiniChallange_BlindRuins_bb14.logic.module.ain
@@ -15579,9 +15565,6 @@ root:
     - - 5242265063076991618
       - 6050616546842452324
       - 12298260312812637137
-    - - 9026624031271348865
-      - 12719808391420391106
-      - 13348093281953249999
     - - 1104126270113423113
       - 6340493912097902038
     - - 1460982953841439923
@@ -15608,6 +15591,8 @@ root:
       - 7040917921985278539
     - - 6184743943309792240
       - 9099377535432456505
+    - - 9026624031271348865
+      - 13348093281953249999
     - - 12256951991842489282
       - 14300430302621670662
     - - 15020317194295338937
@@ -16809,9 +16794,6 @@ root:
     - - 5242265063076991618
       - 6050616546842452324
       - 12298260312812637137
-    - - 9026624031271348865
-      - 12719808391420391106
-      - 13348093281953249999
     - - 1104126270113423113
       - 6340493912097902038
     - - 1460982953841439923
@@ -16838,6 +16820,8 @@ root:
       - 7040917921985278539
     - - 6184743943309792240
       - 9099377535432456505
+    - - 9026624031271348865
+      - 13348093281953249999
     - - 12256951991842489282
       - 14300430302621670662
     - - 15020317194295338937

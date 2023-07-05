@@ -170,6 +170,55 @@ root:
         - 4642,79200
         - 105,22430
         - -1089,79100
+    - Bakeable: true
+      Gyaml: FldObj_PushRockIron_A_M_01
+      Hash: '12242649864752494502'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 12242649868212194240, Gyaml: StackInfo, Name: StackInfo, Src: 12242649864752494502}
+      Phive:
+        Placement: {ID: 12242649864752494502}
+      Rotate:
+        - 0,01726
+        - -0,15203
+        - 0,05747
+      SRTHash: !u 4245109408
+      Translate:
+        - 4616,38100
+        - 248,77270
+        - -937,49260
+    - Bakeable: true
+      Gyaml: FldObj_PushRockIron_A_M_01
+      Hash: '12242649868212194240'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 12242649868212194240}
+      Rotate:
+        - -1,86073
+        - -1,32317
+        - 1,85285
+      SRTHash: !u 2841093809
+      Translate:
+        - 4614,35300
+        - 248,73350
+        - -935,15850
+    - Bakeable: true
+      Gyaml: FldObj_PushRockIron_A_M_01
+      Hash: '12242649864973352432'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 12242649864752494502, Gyaml: StackInfo, Name: StackInfo, Src: 12242649864973352432}
+      Phive:
+        Placement: {ID: 12242649864973352432}
+      Rotate:
+        - 3,11746
+        - -0,74290
+        - -3,02263
+      SRTHash: !u 3535961874
+      Translate:
+        - 4615,84100
+        - 248,68120
+        - -940,56230
     - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
       Gyaml: Area
       Hash: '8940449779509333707'
@@ -3112,6 +3161,9 @@ root:
     - Gyaml: Obj_BreakBoxIron
       Hash: '18394395147308404814'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 18394395144125023007, Gyaml: StackInfo, Name: StackInfo, Src: 18394395147308404814}
+        - {Dst: 18394395145521576298, Gyaml: StackInfo, Name: StackInfo, Src: 18394395147308404814}
       Phive:
         Placement: {ID: 18394395147308404814}
       Rotate:
@@ -3240,6 +3292,9 @@ root:
     - Gyaml: Obj_BreakBoxIron
       Hash: '10077798343600197287'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 10077798340341182966, Gyaml: StackInfo, Name: StackInfo, Src: 10077798343600197287}
+        - {Dst: 10077798340974237571, Gyaml: StackInfo, Name: StackInfo, Src: 10077798343600197287}
       Phive:
         Placement: {ID: 10077798343600197287}
       Rotate:
@@ -4001,6 +4056,7 @@ root:
         - {Dst: 13826076398354225952, Gyaml: Reference, Name: Reference, Src: 14635949842126189684}
         - {Dst: 2035425758045275847, Gyaml: Reference, Name: Reference, Src: 14635949842126189684}
         - {Dst: 8720651025769306768, Gyaml: Reference, Name: Reference, Src: 14635949842126189684}
+        - {Dst: 6511819843550065884, Gyaml: Reference, Name: Reference, Src: 14635949842126189684}
       MoveRadius: 24,10637
       Name: Cliff
       Phive:
@@ -4345,6 +4401,8 @@ root:
     - Dynamic: {RequestEventName: MiniGame_CollectObject_Cliff_OwningObjectMoved}
       Gyaml: EventRequestActor
       Hash: '15170956127512550130'
+      Links:
+        - {Dst: 6511819843550065884, Gyaml: Reference, Name: Reference, Src: 15170956127512550130}
       Phive:
         Placement: {ID: 15170956127512550130}
       Rotate:
@@ -4379,6 +4437,8 @@ root:
     - Dynamic: {RequestEventName: MiniGame_CollectObject_Cliff_Burn}
       Gyaml: EventRequestActor
       Hash: '447882113011217123'
+      Links:
+        - {Dst: 6511819843550065884, Gyaml: Reference, Name: Reference, Src: 447882113011217123}
       Phive:
         Placement: {ID: 447882113011217123}
       Rotate:
@@ -4571,6 +4631,8 @@ root:
     - Dynamic: {RequestEventName: MiniGame_CollectObject_Cliff_DollsOutOfArea}
       Gyaml: EventRequestActor
       Hash: '6120738496117297133'
+      Links:
+        - {Dst: 6511819843550065884, Gyaml: Reference, Name: Reference, Src: 6120738496117297133}
       Name: DollsOutOfArea
       Phive:
         Placement: {ID: 6120738496117297133}
@@ -4586,6 +4648,8 @@ root:
     - Dynamic: {RequestEventName: MiniGame_CollectObject_Cliff_PlayerOutOfArea}
       Gyaml: EventRequestActor
       Hash: '17449331212917340802'
+      Links:
+        - {Dst: 6511819843550065884, Gyaml: Reference, Name: Reference, Src: 17449331212917340802}
       Name: PlayerOutOfArea
       Phive:
         Placement: {ID: 17449331212917340802}
@@ -4616,6 +4680,21 @@ root:
         - 4276,47800
         - 379,22580
         - -812,04470
+    - Gyaml: DestinationAnchor
+      Hash: '6511819843550065884'
+      Name: WagonPosForCollectObject
+      Phive:
+        Placement: {ID: 6511819843550065884}
+      Rotate:
+        - -0,27560
+        - 1,43273
+        - -0,38405
+      SRTHash: !u 281561904
+      Translate:
+        - 4278,22600
+        - 337,23970
+        - -822,85290
+      Version: !l 101
     - Dynamic: {Drop__DropActor: Weapon_Lsword_127}
       Gyaml: TBox_Field_Wood
       Hash: '1598528900170496168'
@@ -4690,6 +4769,156 @@ root:
         - 4674,03300
         - 327,22230
         - -994,01070
+    - Bakeable: true
+      Gyaml: AsbObj_WoodRectangle_A_LL_01
+      Hash: '6494518440462305926'
+      Links:
+        - {Dst: 2902256791772977301, Gyaml: StackInfo, Name: StackInfo, Src: 6494518440462305926}
+      Phive:
+        Placement: {ID: 6494518440462305926}
+      Rotate:
+        - -1,55643
+        - 0,31366
+        - -1,56639
+      SRTHash: !u 1110032266
+      Translate:
+        - 4093,36700
+        - 375,17990
+        - -535,98960
+    - Bakeable: true
+      Gyaml: AsbObj_WoodSquare_A_M_01
+      Hash: '18056809189683716047'
+      Phive:
+        Placement: {ID: 18056809189683716047}
+      Rotate:
+        - -3,14132
+        - -0,01801
+        - -3,14150
+      SRTHash: !u 1690354182
+      Translate:
+        - 4090,28100
+        - 373,35390
+        - -538,90660
+    - Bakeable: true
+      Gyaml: AsbObj_WoodWheel_A_01
+      Hash: '12792584401172152912'
+      Links:
+        - {Dst: 10992239981919116489, Gyaml: StackInfo, Name: StackInfo, Src: 12792584401172152912}
+      Phive:
+        Placement: {ID: 12792584401172152912}
+      Rotate:
+        - 3,03443
+        - 0,42515
+        - 3,12743
+      SRTHash: !u 2538570338
+      Translate:
+        - 4095,80300
+        - 373,38220
+        - -541,54980
+    - Bakeable: true
+      Gyaml: AsbObj_WoodRectangle_A_M_01
+      Hash: '1510244305990077344'
+      Phive:
+        Placement: {ID: 1510244305990077344}
+      Rotate:
+        - -0,03557
+        - -1,56535
+        - 0,03532
+      SRTHash: !u 2402538602
+      Translate:
+        - 4090,81500
+        - 373,35400
+        - -542,54730
+    - Bakeable: true
+      Gyaml: AsbObj_WoodSquare_A_M_01
+      Hash: '16018894232175837071'
+      Links:
+        - {Dst: 18056809189683716047, Gyaml: StackInfo, Name: StackInfo, Src: 16018894232175837071}
+      Phive:
+        Placement: {ID: 16018894232175837071}
+      Rotate:
+        - -3,14109
+        - -0,01801
+        - -3,14158
+      SRTHash: !u 322275264
+      Translate:
+        - 4090,79900
+        - 373,55200
+        - -538,88460
+    - Bakeable: true
+      Gyaml: AsbObj_WoodWheel_A_01
+      Hash: '17863835501046243718'
+      Phive:
+        Placement: {ID: 17863835501046243718}
+      Rotate:
+        - -3,07866
+        - 0,17853
+        - -3,07338
+      SRTHash: !u 3264552521
+      Translate:
+        - 4094,33600
+        - 373,37430
+        - -541,76330
+    - Bakeable: true
+      Gyaml: AsbObj_WoodWheel_A_01
+      Hash: '11935051212286166381'
+      Links:
+        - {Dst: 17863835501046243718, Gyaml: StackInfo, Name: StackInfo, Src: 11935051212286166381}
+      Phive:
+        Placement: {ID: 11935051212286166381}
+      Rotate:
+        - -0,14232
+        - 0,91790
+        - -0,03770
+      SRTHash: !u 3443259455
+      Translate:
+        - 4093,74900
+        - 373,38930
+        - -542,63280
+    - Bakeable: true
+      Gyaml: AsbObj_WoodRectangle_A_M_01
+      Hash: '6421836121019049760'
+      Links:
+        - {Dst: 1510244305990077344, Gyaml: StackInfo, Name: StackInfo, Src: 6421836121019049760}
+      Phive:
+        Placement: {ID: 6421836121019049760}
+      Rotate:
+        - 3,09793
+        - -1,55400
+        - -3,09800
+      SRTHash: !u 207728077
+      Translate:
+        - 4090,99000
+        - 373,55180
+        - -542,17270
+    - Bakeable: true
+      Gyaml: AsbObj_WoodWheel_A_01
+      Hash: '10992239981919116489'
+      Phive:
+        Placement: {ID: 10992239981919116489}
+      Rotate:
+        - 3,05094
+        - 0,45030
+        - 3,12530
+      SRTHash: !u 3188832485
+      Translate:
+        - 4096,17800
+        - 373,37430
+        - -542,64790
+    - Bakeable: true
+      Gyaml: AsbObj_WoodRectangle_A_LL_01
+      Hash: '2902256791772977301'
+      Phive:
+        Placement: {ID: 2902256791772977301}
+      Rotate:
+        - -1,55655
+        - 0,28611
+        - -1,56680
+      SRTHash: !u 4015806868
+      Translate:
+        - 4093,36300
+        - 375,19410
+        - -535,72090
     - Gyaml: ForbidAutoPlacementAreaOnlySphere
       Hash: '18269090952350856409'
       Phive:
@@ -5016,6 +5245,7 @@ root:
       Links:
         - {Dst: 13158820040632304094, Gyaml: Reference, Name: Reference, Src: 3457578701268277885}
         - {Dst: 8868793230936497867, Gyaml: Reference, Name: Reference, Src: 3457578701268277885}
+        - {Dst: 6524048066078372536, Gyaml: Reference, Name: Reference, Src: 3457578701268277885}
         - {Dst: 661645095586149546, Gyaml: Reference, Name: Reference, Src: 3457578701268277885}
         - {Dst: 5917842024716890006, Gyaml: Reference, Name: Reference, Src: 3457578701268277885}
         - {Dst: 10661344221819768362, Gyaml: Reference, Name: Reference, Src: 3457578701268277885}
@@ -5180,6 +5410,38 @@ root:
         - 4054,91700
         - 381,75450
         - -947,95510
+    - Bakeable: true
+      Gyaml: AsbObj_WhiteWoodRectangle_A_LL_01
+      Hash: '14124759385135854696'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 10736799223165201441, Gyaml: StackInfo, Name: StackInfo, Src: 14124759385135854696}
+      Phive:
+        Placement: {ID: 14124759385135854696}
+      Rotate:
+        - -3,12921
+        - -0,63514
+        - 3,12136
+      SRTHash: !u 2272396991
+      Translate:
+        - 4045,12500
+        - 381,22110
+        - -898,60210
+    - Bakeable: true
+      Gyaml: AsbObj_WhiteWoodRectangle_A_LL_01
+      Hash: '10736799223165201441'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 10736799223165201441}
+      Rotate:
+        - -3,13149
+        - -0,20153
+        - 3,12722
+      SRTHash: !u 531858284
+      Translate:
+        - 4044,34700
+        - 381,03410
+        - -898,45530
     - Dynamic: {ForbiddenAll: false, ForbiddenGeneratingAnimal: true, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingSkyFallenBox: true}
       Gyaml: ForbidAutoPlacementAreaOnlySphere
       Hash: '10600453885449022730'
@@ -5420,6 +5682,21 @@ root:
         - 4174,72000
         - 354,05500
         - -698,98830
+    - Bakeable: true
+      Gyaml: AsbObj_WhiteWoodRectangle_A_LL_01
+      Hash: '9336421326083898775'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 9336421326083898775}
+      Rotate:
+        - 3,10344
+        - 0,70140
+        - 3,13204
+      SRTHash: !u 1841437417
+      Translate:
+        - 4253,78500
+        - 324,07490
+        - -821,64130
     - Dynamic: {ForbiddenAll: false, ForbiddenGeneratingAnimal: true, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingSkyFallenBox: true}
       Gyaml: ForbidAutoPlacementAreaOnlySphere
       Hash: '7482310890310393782'
@@ -5534,6 +5811,7 @@ root:
     - Bakeable: true
       Gyaml: SpObj_Beamos_A_01
       Hash: '13541537631116785245'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 13541537631116785245}
@@ -5976,6 +6254,23 @@ root:
         - 4388,59300
         - 380,60160
         - -612,00610
+    - Bakeable: true
+      Gyaml: AsbObj_WhiteWoodRectangle_A_LL_01
+      Hash: '16352942093812307575'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 9336421326083898775, Gyaml: StackInfo, Name: StackInfo, Src: 16352942093812307575}
+      Phive:
+        Placement: {ID: 16352942093812307575}
+      Rotate:
+        - 3,10318
+        - 0,00086
+        - -3,13869
+      SRTHash: !u 990698109
+      Translate:
+        - 4254,85100
+        - 324,16450
+        - -818,25460
     - Dynamic: {RigidBodyShapeType: !l 0}
       Gyaml: Area
       Hash: '2592179802935731681'

@@ -3206,6 +3206,8 @@ root:
       Gyaml: TwnObj_HyruleCastleObject_Shelf_A_01
       Hash: '11158503330852394860'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 17802647396831480782, Gyaml: StackInfo, Name: StackInfo, Src: 11158503330852394860}
       Phive:
         Placement: {ID: 11158503330852394860}
       Rotate:
@@ -3235,6 +3237,8 @@ root:
       Gyaml: TwnObj_HyruleCastleObject_Shelf_A_01
       Hash: '11158503328048494595'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 17802647398301575831, Gyaml: StackInfo, Name: StackInfo, Src: 11158503328048494595}
       Phive:
         Placement: {ID: 11158503328048494595}
       Rotate:
@@ -3264,6 +3268,8 @@ root:
       Gyaml: TwnObj_HyruleCastleObject_Shelf_A_01
       Hash: '11158503331672309791'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 17802647398166643331, Gyaml: StackInfo, Name: StackInfo, Src: 11158503331672309791}
       Phive:
         Placement: {ID: 11158503331672309791}
       Rotate:
@@ -3299,6 +3305,8 @@ root:
       IsPhysicsStable: true
       Links:
         - {Dst: 11158503328048494595, Gyaml: Reference, Name: Reference, Src: 14190689936345249305}
+        - {Dst: 11158503328048494595, Gyaml: StackInfo, Name: StackInfo, Src: 14190689936345249305}
+        - {Dst: 11158503331672309791, Gyaml: StackInfo, Name: StackInfo, Src: 14190689936345249305}
       Phive:
         Placement: {ID: 14190689936345249305}
       Rotate:
@@ -3314,6 +3322,8 @@ root:
       Gyaml: Weapon_Shield_035
       Hash: '5367396612661899760'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 11158503330852394860, Gyaml: StackInfo, Name: StackInfo, Src: 5367396612661899760}
       Phive:
         Placement: {ID: 5367396612661899760}
       Rotate:
@@ -3718,9 +3728,24 @@ root:
         - 210,67320
         - -858,07460
     - Gyaml: Kibako_Contain_01
+      Hash: '5367858942671001020'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 5367858942671001020}
+      Rotate:
+        - -0,08271
+        - 1,15248
+        - 0,05607
+      SRTHash: !u 974538567
+      Translate:
+        - -86,01309
+        - 210,76860
+        - -860,04770
+    - Gyaml: Kibako_Contain_01
       Hash: '12859319566918266388'
       IsPhysicsStable: true
       Links:
+        - {Dst: 5367858942671001020, Gyaml: StackInfo, Name: StackInfo, Src: 12859319566918266388}
         - {Dst: 16939878338470626694, Gyaml: StackInfo, Name: StackInfo, Src: 12859319566918266388}
       Phive:
         Placement: {ID: 12859319566918266388}
@@ -9381,6 +9406,7 @@ root:
         - {Dst: 10553605226176668476, Gyaml: Reference, Name: Reference, Src: 18183283516505594688}
         - {Dst: 18307405781074203050, Gyaml: Reference, Name: Reference, Src: 18183283516505594688}
         - {Dst: 18416739184172744445, Gyaml: Reference, Name: Reference, Src: 18183283516505594688}
+        - {Dst: 8966782777033606174, Gyaml: Reference, Name: Reference, Src: 18183283516505594688}
       MoveRadius: 60,47454
       Phive:
         Placement: {ID: 18183283516505594688}
@@ -9466,6 +9492,7 @@ root:
         - {Dst: 9673280061951405358, Gyaml: Reference, Name: Reference, Src: 2128656561845133857}
         - {Dst: 5386672368196268729, Gyaml: Reference, Name: Reference, Src: 2128656561845133857}
         - {Dst: 3137473083591651179, Gyaml: Reference, Name: Reference, Src: 2128656561845133857}
+        - {Dst: 8966782777033606174, Gyaml: Reference, Name: Reference, Src: 2128656561845133857}
       MoveRadius: 50,51759
       Phive:
         Placement: {ID: 2128656561845133857}
@@ -11001,7 +11028,7 @@ root:
       Hash: '1077499984034697382'
       Links:
         - {Dst: 6288008169059781328, Gyaml: Reference, Name: Reference, Src: 1077499984034697382}
-      MoveRadius: 2,29677
+      MoveRadius: 2,01129
       Phive:
         Placement: {ID: 1077499984034697382}
       SRTHash: !u 1871655594
@@ -11013,7 +11040,7 @@ root:
       Hash: '1718564328282693172'
       Links:
         - {Dst: 14180637876527432808, Gyaml: Reference, Name: Reference, Src: 1718564328282693172}
-      MoveRadius: 0,73171
+      MoveRadius: 0,73204
       Phive:
         Placement: {ID: 1718564328282693172}
       SRTHash: !u 2899481836
@@ -11029,11 +11056,11 @@ root:
         - 3,14159
         - -1,48353
         - 3,14159
-      SRTHash: !u 834959274
+      SRTHash: !u 1677433175
       Translate:
-        - -254,05190
+        - -254,52030
         - 126,99400
-        - -105,54390
+        - -105,55460
     - Gyaml: AnchorAction1
       Hash: '14180637876527432808'
       Phive:
@@ -11044,7 +11071,7 @@ root:
         - 0,00000
       SRTHash: !u 1166304021
       Translate:
-        - -257,40030
+        - -257,40000
         - 126,99400
         - -106,49750
     - Gyaml: Npc_BaseCamp_Rito012_Simplify
@@ -11151,7 +11178,6 @@ root:
       Hash: '2620475106163981107'
       Links:
         - {Dst: 4735847660036567796, Gyaml: Owned, Name: Owned, Src: 2620475106163981107}
-        - {Dst: 13837616688960274140, Gyaml: StackInfo, Name: StackInfo, Src: 2620475106163981107}
       Phive:
         Placement: {ID: 2620475106163981107}
       Rotate:
@@ -11228,7 +11254,6 @@ root:
       Hash: '6618545175263272862'
       Links:
         - {Dst: 4735847660036567796, Gyaml: Owned, Name: Owned, Src: 6618545175263272862}
-        - {Dst: 6333639234045285326, Gyaml: StackInfo, Name: StackInfo, Src: 6618545175263272862}
       Phive:
         Placement: {ID: 6618545175263272862}
       Rotate:
@@ -11496,7 +11521,6 @@ root:
       Hash: '2419485579526677113'
       Links:
         - {Dst: 4735847660036567796, Gyaml: Owned, Name: Owned, Src: 2419485579526677113}
-        - {Dst: 5421573651131979624, Gyaml: StackInfo, Name: StackInfo, Src: 2419485579526677113}
       Phive:
         Placement: {ID: 2419485579526677113}
       Rotate:
@@ -11529,7 +11553,6 @@ root:
       Hash: '3119705904815457889'
       Links:
         - {Dst: 4735847660036567796, Gyaml: Owned, Name: Owned, Src: 3119705904815457889}
-        - {Dst: 17346630442001329929, Gyaml: StackInfo, Name: StackInfo, Src: 3119705904815457889}
       Phive:
         Placement: {ID: 3119705904815457889}
       Rotate:
@@ -11546,7 +11569,6 @@ root:
       Hash: '17788404697022450179'
       Links:
         - {Dst: 4735847660036567796, Gyaml: Owned, Name: Owned, Src: 17788404697022450179}
-        - {Dst: 17175972615659726701, Gyaml: StackInfo, Name: StackInfo, Src: 17788404697022450179}
       Phive:
         Placement: {ID: 17788404697022450179}
       Rotate:
@@ -11595,7 +11617,6 @@ root:
       Hash: '5808114916646166973'
       Links:
         - {Dst: 4735847660036567796, Gyaml: Owned, Name: Owned, Src: 5808114916646166973}
-        - {Dst: 4549958942511726323, Gyaml: StackInfo, Name: StackInfo, Src: 5808114916646166973}
       Phive:
         Placement: {ID: 5808114916646166973}
       Rotate:
@@ -12450,19 +12471,20 @@ root:
         - -208,17170
         - 124,76700
         - -85,99038
-    - Gyaml: Area
+    - Dynamic: {RigidBodyShapeType: !l 0}
+      Gyaml: Area
       Hash: '12558528500016481970'
       Phive:
         Placement: {ID: 12558528500016481970}
-      SRTHash: !u 3857831003
+      SRTHash: !u 533365967
       Scale:
-        - 7,50000
-        - 3,00000
-        - 12,00000
+        - 25,00000
+        - 25,00000
+        - 25,00000
       Translate:
-        - -254,95860
-        - 124,61790
-        - -52,57037
+        - -250,63000
+        - 99,59800
+        - -51,07999
     - Gyaml: Npc_RitoHatago001
       Hash: '11884750793685239347'
       Links:
@@ -12480,6 +12502,7 @@ root:
         - {Dst: 16757453307519243444, Gyaml: Reference, Name: Reference, Src: 11884750793685239347}
         - {Dst: 5795814492958582474, Gyaml: Reference, Name: Reference, Src: 11884750793685239347}
         - {Dst: 6540761276900239336, Gyaml: Reference, Name: Reference, Src: 11884750793685239347}
+        - {Dst: 8966782777033606174, Gyaml: Reference, Name: Reference, Src: 11884750793685239347}
       MoveRadius: 10,93374
       Phive:
         Placement: {ID: 11884750793685239347}
@@ -16551,6 +16574,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodRectangle_A_LL_01
       Hash: '6790728170738589879'
+      IsForceActive: true
       Links:
         - {Dst: 1204207613482981223, Gyaml: StackInfo, Name: StackInfo, Src: 6790728170738589879}
       Phive:
@@ -16848,6 +16872,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodWheel_A_01
       Hash: '17195664506269554506'
+      IsForceActive: true
       Links:
         - {Dst: 3002125481142932817, Gyaml: StackInfo, Name: StackInfo, Src: 17195664506269554506}
       Phive:
@@ -17148,6 +17173,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodRectangle_A_LL_01
       Hash: '4818102787558809035'
+      IsForceActive: true
       Links:
         - {Dst: 1212157656603535707, Gyaml: StackInfo, Name: StackInfo, Src: 4818102787558809035}
       Phive:
@@ -17178,6 +17204,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodWheel_A_01
       Hash: '12015023631410766479'
+      IsForceActive: true
       Links:
         - {Dst: 17345821573677125006, Gyaml: StackInfo, Name: StackInfo, Src: 12015023631410766479}
       Phive:
@@ -17270,6 +17297,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodWheel_A_01
       Hash: '17345821573677125006'
+      IsForceActive: true
       Phive:
         Placement: {ID: 17345821573677125006}
       Rotate:
@@ -17284,6 +17312,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodRectangle_A_LL_01
       Hash: '1212157656603535707'
+      IsForceActive: true
       Phive:
         Placement: {ID: 1212157656603535707}
       Rotate:
@@ -19517,6 +19546,24 @@ root:
         - -785,09970
         - 154,46440
         - -815,44730
+    - Gyaml: NavMeshPaintBoxArea_GiantNoEntryNotForce
+      Hash: '11155092086641366246'
+      Phive:
+        Placement: {ID: 11155092086641366246}
+      Rotate:
+        - -3,14159
+        - -0,13586
+        - -3,14159
+      SRTHash: !u 884105215
+      Scale:
+        - 21,10000
+        - 21,10000
+        - 21,10000
+      Translate:
+        - -785,09970
+        - 154,46440
+        - -815,44730
+      Version: !l 110
     - Dynamic: {Drop__DropActor: Item_Ore_D, PlacementMotion_MotionType: !l 2}
       Gyaml: TBox_Field_Iron
       Hash: '13237430856016215614'
@@ -21747,6 +21794,7 @@ root:
     - Bakeable: true
       Gyaml: Obj_TreeBroadleaf_A_L_Trunk_Aligned
       Hash: '8942835479485103875'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -21789,6 +21837,7 @@ root:
     - Bakeable: true
       Gyaml: Obj_TreeBroadleaf_A_L_Trunk_Aligned
       Hash: '6205346043707987313'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -21834,6 +21883,7 @@ root:
     - Bakeable: true
       Gyaml: Obj_TreeBroadleaf_A_L_Trunk_Aligned
       Hash: '3900770285320708334'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -22076,6 +22126,7 @@ root:
         - {Dst: 6540761276900239336, Gyaml: Reference, Name: Reference, Src: 12104872795005426992}
         - {Dst: 12529332706715784651, Gyaml: Reference, Name: Reference, Src: 12104872795005426992}
         - {Dst: 10336461330718915847, Gyaml: Reference, Name: Reference, Src: 12104872795005426992}
+        - {Dst: 8966782777033606174, Gyaml: Reference, Name: Reference, Src: 12104872795005426992}
       Phive:
         Placement: {ID: 12104872795005426992}
       SRTHash: !u 2222303858
@@ -22086,6 +22137,7 @@ root:
     - Bakeable: true
       Gyaml: TwnObj_HyruleCastleWallGate_OpenDoorR_A_01
       Hash: '6085802807411707078'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -22147,6 +22199,7 @@ root:
     - Bakeable: true
       Gyaml: TwnObj_HyruleCastleWallGate_OpenDoorL_A_01
       Hash: '1718726525318157516'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -22914,6 +22967,7 @@ root:
       Links:
         - {Dst: 16020891392991747633, Gyaml: Reference, Name: Reference, Src: 11849718034578156627}
         - {Dst: 9534985414399396017, Gyaml: Reference, Name: Reference, Src: 11849718034578156627}
+        - {Dst: 16847167288521294991, Gyaml: Reference, Name: Reference, Src: 11849718034578156627}
         - {Dst: 9707096629495885452, Gyaml: Reference, Name: Reference, Src: 11849718034578156627}
         - {Dst: 14356274610669370221, Gyaml: Reference, Name: Reference, Src: 11849718034578156627}
         - {Dst: 16248959239999439883, Gyaml: Reference, Name: Reference, Src: 11849718034578156627}
@@ -24147,6 +24201,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodRectangle_A_LL_01
       Hash: '16919087065486107335'
+      IsForceActive: true
       Phive:
         Placement: {ID: 16919087065486107335}
       Rotate:
@@ -24345,6 +24400,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodRectangle_A_LL_01
       Hash: '4619834625091227355'
+      IsForceActive: true
       Links:
         - {Dst: 1051337005569989794, Gyaml: StackInfo, Name: StackInfo, Src: 4619834625091227355}
       Phive:
@@ -24481,6 +24537,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodRectangle_A_LL_01
       Hash: '1051337005569989794'
+      IsForceActive: true
       Phive:
         Placement: {ID: 1051337005569989794}
       Rotate:
@@ -24619,6 +24676,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodSquare_A_M_01
       Hash: '11236713370579515020'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -24639,6 +24697,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodWheel_A_01
       Hash: '10377034874719918463'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -24681,6 +24740,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodWheel_A_01
       Hash: '15807840003393209139'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -24870,6 +24930,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodSquare_A_M_01
       Hash: '17878846760873032226'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -24889,6 +24950,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodSquare_A_M_01
       Hash: '16836646288159835188'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -27387,36 +27449,40 @@ root:
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 5,00000
+          - 5,00000
+          - 20,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 5,00000
+          - 5,00000
+          - 5,00000
       Gyaml: AreaCulling
       Hash: '3321923500888545267'
       Phive:
         Placement: {ID: 3321923500888545267}
-      SRTHash: !u 2916526975
+      Rotate:
+        - 0,00000
+        - -0,01573
+        - 0,00000
+      SRTHash: !u 2970994505
       Scale:
-        - 14,05933
+        - 9,97975
         - 14,65542
-        - 17,17668
+        - 14,70207
       Translate:
-        - -293,08400
+        - -286,89670
         - 176,22600
-        - -802,65750
+        - -798,14380
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 30,00000
-          - 2,00000
-          - 2,00000
-        MarginPositive:
+          - 5,00000
+          - 5,00000
           - 20,00000
+        MarginPositive:
           - 10,00000
-          - 50,00000
+          - 5,00000
+          - 25,00000
       Gyaml: AreaCulling
       Hash: '14596849303848691300'
       Phive:
@@ -27425,38 +27491,34 @@ root:
         - 0,00000
         - -0,96000
         - 0,00000
-      SRTHash: !u 3938797733
+      SRTHash: !u 1943351894
       Scale:
-        - 6,40013
-        - 6,79953
-        - 8,95720
+        - 8,66530
+        - 5,98718
+        - 9,85961
       Translate:
-        - -307,39450
-        - 176,22600
-        - -790,00490
+        - -305,35640
+        - 177,84930
+        - -788,66300
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 5,00000
+          - 50,00000
+          - 40,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 90,00000
+          - 30,00000
+          - 50,00000
       Gyaml: AreaCulling
       Hash: '13847558816019133639'
       Phive:
         Placement: {ID: 13847558816019133639}
-      SRTHash: !u 2467769883
-      Scale:
-        - 26,91013
-        - 14,25310
-        - 13,16532
+      SRTHash: !u 2042852611
       Translate:
-        - -372,70750
-        - 115,22600
-        - -1002,76800
+        - -404,00750
+        - 124,23820
+        - -997,80210
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
@@ -27471,13 +27533,13 @@ root:
       Hash: '18144797436562255390'
       Phive:
         Placement: {ID: 18144797436562255390}
-      SRTHash: !u 2293234344
+      SRTHash: !u 2520619700
       Scale:
-        - 33,35935
+        - 32,62383
         - 8,09891
         - 40,52980
       Translate:
-        - -506,95800
+        - -506,21210
         - 117,45800
         - -900,30050
     - Dynamic:
@@ -27485,119 +27547,61 @@ root:
         MarginNegative:
           - 1,00000
           - 1,00000
-          - 100,00000
-        MarginPositive:
-          - 50,00000
-          - 60,00000
           - 1,00000
-      Gyaml: AreaCulling
-      Hash: '263301174706484793'
-      Phive:
-        Placement: {ID: 263301174706484793}
-      Rotate:
-        - 0,00000
-        - 0,34000
-        - 0,00000
-      SRTHash: !u 79005361
-      Scale:
-        - 37,85354
-        - 12,10137
-        - 87,27489
-      Translate:
-        - -337,55220
-        - 363,74720
-        - -927,81760
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 5,00000
+          - 20,00000
+          - 18,00000
       Gyaml: AreaCulling
       Hash: '8300210354649538700'
       Phive:
         Placement: {ID: 8300210354649538700}
       Rotate:
         - 0,00000
-        - -0,80000
+        - -0,66323
         - 0,00000
-      SRTHash: !u 2937676486
+      SRTHash: !u 2764814167
       Scale:
-        - 23,93884
-        - 11,28776
-        - 23,01198
+        - 23,31773
+        - 12,87917
+        - 22,15059
       Translate:
-        - -386,53660
-        - 164,34600
-        - -854,71390
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 70,00000
-          - 1,00000
-          - 1,00000
-        MarginPositive:
-          - 1,00000
-          - 1,00000
-          - 20,00000
-      Gyaml: AreaCulling
-      Hash: '10470061614359308203'
-      Phive:
-        Placement: {ID: 10470061614359308203}
-      Rotate:
-        - 0,09518
-        - -0,59332
-        - -0,16911
-      SRTHash: !u 1443988722
-      Scale:
-        - 88,05759
-        - 33,38509
-        - 46,77745
-      Translate:
-        - -106,62350
-        - 403,18670
-        - -982,08420
+        - -385,26070
+        - 164,32010
+        - -855,29900
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
           - 6,00000
-          - 8,00000
-          - 0,10000
+          - 13,00000
+          - 45,00000
         MarginPositive:
           - 6,00000
-          - 6,00000
-          - 10,00000
+          - 40,00000
+          - 60,00000
       Gyaml: AreaCulling
       Hash: '10144602787297877584'
       Phive:
         Placement: {ID: 10144602787297877584}
-      Rotate:
-        - -0,40000
-        - 0,00000
-        - 0,00000
-      SRTHash: !u 4279937638
+      SRTHash: !u 2194018653
       Scale:
-        - 13,77328
+        - 12,08400
         - 10,79900
-        - 14,65542
+        - 12,38342
       Translate:
-        - -254,09770
+        - -255,79450
         - 198,24300
-        - -769,09380
+        - -771,37000
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 19,34696
+          - 10,00000
           - 4,00000
-          - 19,34696
+          - 90,00000
         MarginPositive:
-          - 19,34696
-          - 19,34696
-          - 19,34696
+          - 100,00000
+          - 20,00000
+          - 20,00000
       Gyaml: AreaCulling
       Hash: '12291760770441243261'
       Phive:
@@ -27606,71 +27610,48 @@ root:
         - 0,00000
         - 0,04000
         - 0,00000
-      SRTHash: !u 950814891
+      SRTHash: !u 1890062863
       Scale:
-        - 24,57363
-        - 20,80662
+        - 21,81698
+        - 12,29754
         - 38,69392
       Translate:
-        - -149,30520
-        - 320,44060
-        - -1033,89100
+        - -152,20770
+        - 320,53290
+        - -1033,77500
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 20,00000
+          - 1,00000
+          - 1,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
-      Gyaml: AreaCulling
-      Hash: '9710866416735319330'
-      Phive:
-        Placement: {ID: 9710866416735319330}
-      Rotate:
-        - 0,00000
-        - -0,34642
-        - 0,00000
-      SRTHash: !u 627579194
-      Translate:
-        - -159,74370
-        - 417,63790
-        - -879,38720
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
-        MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 20,00000
+          - 1,00000
+          - 15,00000
       Gyaml: AreaCulling
       Hash: '9600312966380784790'
       Phive:
         Placement: {ID: 9600312966380784790}
-      SRTHash: !u 2866150377
+      SRTHash: !u 368089730
       Scale:
-        - 16,40184
-        - 12,23548
-        - 21,44439
+        - 17,23513
+        - 10,10604
+        - 20,83754
       Translate:
-        - -253,99850
-        - 182,09300
-        - -827,78910
+        - -254,83090
+        - 189,21000
+        - -827,53850
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 1,00000
+          - 1,00000
+          - 1,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 1,00000
+          - 50,00000
+          - 1,00000
       Gyaml: AreaCulling
       Hash: '10665241731528355476'
       Phive:
@@ -27679,10 +27660,10 @@ root:
         - 0,00000
         - -0,11486
         - 0,00000
-      SRTHash: !u 1843424271
+      SRTHash: !u 2150986777
       Scale:
         - 32,51295
-        - 19,24807
+        - 17,68641
         - 30,78443
       Translate:
         - -481,20610
@@ -27691,13 +27672,13 @@ root:
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
+          - 1,00000
+          - 1,00000
           - 30,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 1,00000
+          - 1,00000
+          - 1,00000
       Gyaml: AreaCulling
       Hash: '11621336804756081519'
       Phive:
@@ -27716,15 +27697,14 @@ root:
         - 117,21400
         - -1033,20500
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
-          - 1,00000
-          - 4,00000
-          - 1,00000
+          - 100,00000
+          - 10,00000
+          - 100,00000
         MarginPositive:
-          - 1,00000
-          - 1,00000
-          - 20,00000
+          - 100,00000
+          - 400,00000
+          - 80,00000
       Gyaml: AreaCulling
       Hash: '623565106289684802'
       Phive:
@@ -27733,25 +27713,24 @@ root:
         - 0,00000
         - -0,72000
         - 0,00000
-      SRTHash: !u 1908283751
+      SRTHash: !u 482815025
       Scale:
-        - 60,64039
-        - 19,40890
-        - 43,37292
+        - 12,78014
+        - 5,00000
+        - 5,00000
       Translate:
-        - -195,20120
-        - 366,92330
-        - -1152,84300
+        - -173,64040
+        - 384,35190
+        - -1165,54000
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
-          - 16,62604
-          - 16,62604
-          - 16,62604
+          - 40,00000
+          - 30,00000
+          - 60,00000
         MarginPositive:
-          - 16,62604
-          - 16,62604
-          - 16,62604
+          - 50,00000
+          - 300,00000
+          - 50,00000
       Gyaml: AreaCulling
       Hash: '7699926542299800461'
       Phive:
@@ -27760,67 +27739,25 @@ root:
         - 0,00000
         - -0,34642
         - 0,00000
-      SRTHash: !u 1878455281
+      SRTHash: !u 883785659
       Scale:
-        - 28,62676
-        - 33,25207
-        - 28,64762
+        - 20,03945
+        - 7,92601
+        - 19,83479
       Translate:
-        - -159,33840
-        - 381,50520
-        - -878,82810
+        - -159,65700
+        - 381,50230
+        - -878,93680
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 4,00000
-          - 4,00000
-          - 4,00000
+          - 1,00000
+          - 1,00000
+          - 1,00000
         MarginPositive:
-          - 4,00000
-          - 4,00000
-          - 4,00000
-      Gyaml: AreaCulling
-      Hash: '11848739564115479718'
-      Phive:
-        Placement: {ID: 11848739564115479718}
-      SRTHash: !u 2354066095
-      Translate:
-        - -193,78760
-        - 367,11290
-        - -922,59330
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
-        MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
-      Gyaml: AreaCulling
-      Hash: '6869145630606257891'
-      Phive:
-        Placement: {ID: 6869145630606257891}
-      SRTHash: !u 628860104
-      Scale:
-        - 14,13091
-        - 8,05420
-        - 7,41645
-      Translate:
-        - -298,33980
-        - 403,16330
-        - -986,67190
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
-        MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 1,00000
+          - 1,00000
+          - 1,00000
       Gyaml: AreaCulling
       Hash: '11612872825504611953'
       Phive:
@@ -27841,36 +27778,13 @@ root:
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 20,00000
+          - 5,00000
+          - 5,00000
+          - 5,00000
         MarginPositive:
-          - 20,00000
-          - 0,10000
-          - 0,10000
-      Gyaml: AreaCulling
-      Hash: '6253394436385793291'
-      Phive:
-        Placement: {ID: 6253394436385793291}
-      SRTHash: !u 2210172178
-      Scale:
-        - 17,54625
-        - 17,21842
-        - 17,02173
-      Translate:
-        - -194,59130
-        - 337,73380
-        - -871,34030
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
-        MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 5,00000
+          - 5,00000
+          - 5,00000
       Gyaml: AreaCulling
       Hash: '7547962532147671424'
       Phive:
@@ -27885,38 +27799,37 @@ root:
         - 339,71040
         - -991,13720
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
           - 30,00000
           - 10,00000
           - 10,00000
         MarginPositive:
           - 10,00000
-          - 0,20000
+          - 1,00000
           - 10,00000
       Gyaml: AreaCulling
       Hash: '1550050374754590398'
       Phive:
         Placement: {ID: 1550050374754590398}
-      SRTHash: !u 1882981300
+      SRTHash: !u 137184719
       Scale:
-        - 22,04045
-        - 35,88062
+        - 27,42172
+        - 16,69947
         - 18,97379
       Translate:
-        - -368,26860
-        - 290,67480
+        - -362,89860
+        - 329,22450
         - -996,95950
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 15,00000
+          - 10,00000
+          - 15,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 40,00000
+          - 1,00000
+          - 1,00000
       Gyaml: AreaCulling
       Hash: '1678966611867167458'
       Phive:
@@ -27925,25 +27838,25 @@ root:
         - 0,00000
         - 0,62000
         - 0,00000
-      SRTHash: !u 2039722743
+      SRTHash: !u 2652667189
       Scale:
-        - 19,31354
+        - 32,27662
         - 17,48664
-        - 10,40563
+        - 13,96686
       Translate:
-        - -190,34180
+        - -193,53420
         - 189,48400
-        - -830,15820
+        - -832,05790
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 30,00000
-          - 40,00000
-          - 1,00000
+          - 140,00000
+          - 10,00000
+          - 80,00000
         MarginPositive:
-          - 20,00000
-          - 1,00000
-          - 16,00000
+          - 150,00000
+          - 350,00000
+          - 200,00000
       Gyaml: AreaCulling
       Hash: '11151596516677347130'
       Phive:
@@ -27952,215 +27865,88 @@ root:
         - -0,12000
         - -0,66000
         - 0,00000
-      SRTHash: !u 2124075856
-      Scale:
-        - 36,74670
-        - 29,60611
-        - 69,58537
+      SRTHash: !u 1655930423
       Translate:
-        - -212,62990
-        - 417,30260
-        - -930,43120
+        - -107,79920
+        - 407,46410
+        - -988,13780
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 60,00000
-          - 1,00000
-          - 20,00000
+          - 10,00000
+          - 4,00000
+          - 5,00000
         MarginPositive:
-          - 1,00000
-          - 60,00000
-          - 1,00000
-      Gyaml: AreaCulling
-      Hash: '9779996078389850940'
-      Phive:
-        Placement: {ID: 9779996078389850940}
-      Rotate:
-        - 0,00000
-        - 1,56000
-        - 0,00000
-      SRTHash: !u 1947040657
-      Scale:
-        - 14,04322
-        - 18,06363
-        - 19,80048
-      Translate:
-        - -358,79200
-        - 419,59120
-        - -996,14210
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 4,00000
-          - 4,00000
-          - 4,00000
-        MarginPositive:
-          - 4,00000
-          - 4,00000
-          - 4,00000
-      Gyaml: AreaCulling
-      Hash: '12605765827923230601'
-      Phive:
-        Placement: {ID: 12605765827923230601}
-      SRTHash: !u 1361826184
-      Translate:
-        - -253,03030
-        - 320,47220
-        - -1023,00200
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 1,00000
-          - 1,00000
-          - 1,00000
-        MarginPositive:
-          - 180,00000
-          - 60,00000
-          - 180,00000
-      Gyaml: AreaCulling
-      Hash: '2656907801061693455'
-      Phive:
-        Placement: {ID: 2656907801061693455}
-      Rotate:
-        - 0,09122
-        - -0,43323
-        - -0,15003
-      SRTHash: !u 2963797511
-      Scale:
-        - 60,35303
-        - 24,23869
-        - 17,96464
-      Translate:
-        - -402,98680
-        - 167,14400
-        - -794,93970
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 30,00000
-          - 4,00000
-          - 50,00000
-        MarginPositive:
-          - 17,09988
-          - 17,09988
           - 100,00000
+          - 20,00000
+          - 90,00000
       Gyaml: AreaCulling
       Hash: '6225890322297287016'
       Phive:
         Placement: {ID: 6225890322297287016}
       Rotate:
         - 0,00000
-        - 0,44000
+        - 0,33707
         - 0,00000
-      SRTHash: !u 1162389828
+      SRTHash: !u 2957263581
       Scale:
-        - 23,39942
-        - 20,80662
-        - 34,19976
+        - 22,40999
+        - 12,19491
+        - 34,19977
       Translate:
-        - -161,83500
-        - 320,44100
-        - -1094,72100
+        - -162,87610
+        - 320,34120
+        - -1094,01300
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 50,00000
+          - 25,00000
+          - 25,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
-      Gyaml: AreaCulling
-      Hash: '14617609507130864606'
-      Phive:
-        Placement: {ID: 14617609507130864606}
-      SRTHash: !u 407521174
-      Scale:
-        - 13,29685
-        - 7,30659
-        - 12,92730
-      Translate:
-        - -167,88040
-        - 357,91350
-        - -869,27780
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 25,40429
-          - 25,40429
-          - 25,40429
-        MarginPositive:
-          - 25,40429
-          - 25,40429
-          - 25,40429
+          - 25,00000
+          - 50,00000
+          - 25,00000
       Gyaml: AreaCulling
       Hash: '16062931679653950008'
       Phive:
         Placement: {ID: 16062931679653950008}
       Rotate:
         - 0,00000
-        - -0,83394
+        - -0,83045
         - 0,00000
-      SRTHash: !u 33631214
+      SRTHash: !u 3237070378
       Scale:
-        - 12,93285
-        - 9,42214
+        - 10,90933
+        - 8,14144
         - 50,80858
       Translate:
-        - -133,95460
-        - 205,73000
-        - -865,87700
+        - -132,55970
+        - 205,72980
+        - -864,38370
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
+          - 40,00000
           - 1,00000
-          - 1,00000
-          - 15,00000
+          - 20,00000
         MarginPositive:
-          - 1,00000
-          - 1,00000
-          - 1,00000
-      Gyaml: AreaCulling
-      Hash: '10897825781005667843'
-      Phive:
-        Placement: {ID: 10897825781005667843}
-      Rotate:
-        - 0,23998
-        - 0,24000
-        - 0,00000
-      SRTHash: !u 96961578
-      Scale:
-        - 60,35310
-        - 37,22653
-        - 34,30235
-      Translate:
-        - -224,33540
-        - 146,03500
-        - -710,09130
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
-        MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 5,00000
+          - 20,00000
+          - 100,00000
       Gyaml: AreaCulling
       Hash: '3436708455321382788'
       Phive:
         Placement: {ID: 3436708455321382788}
-      SRTHash: !u 2453927545
+      SRTHash: !u 392158128
       Scale:
         - 13,35605
         - 16,24091
-        - 15,38854
+        - 10,37320
       Translate:
         - -315,53910
         - 325,35070
-        - -893,14450
+        - -898,15990
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
@@ -28187,79 +27973,26 @@ root:
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 5,00000
+          - 5,00000
+          - 5,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 5,00000
+          - 5,00000
+          - 5,00000
       Gyaml: AreaCulling
       Hash: '16341928795743381859'
       Phive:
         Placement: {ID: 16341928795743381859}
-      SRTHash: !u 3083173800
+      SRTHash: !u 2649620915
       Scale:
-        - 32,70967
-        - 18,95888
-        - 53,45501
+        - 17,85758
+        - 8,46635
+        - 46,01590
       Translate:
-        - -320,80080
-        - 320,20150
-        - -948,98440
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 30,00000
-          - 50,00000
-          - 30,00000
-        MarginPositive:
-          - 30,00000
-          - 50,00000
-          - 100,00000
-      Gyaml: AreaCulling
-      Hash: '3681173317350049531'
-      Phive:
-        Placement: {ID: 3681173317350049531}
-      Rotate:
-        - 0,12000
-        - 0,00000
-        - 0,00000
-      SRTHash: !u 315072510
-      Scale:
-        - 29,40039
-        - 13,41150
-        - 99,28969
-      Translate:
-        - -253,79150
-        - 145,01000
-        - -651,74120
-    - Dynamic:
-        MarginNegative:
-          - 25,00000
-          - 23,40000
-          - 30,00000
-        MarginPositive:
-          - 50,00000
-          - 18,00000
-          - 50,00000
-      Gyaml: AreaCulling
-      Hash: '2862057287638682207'
-      Phive:
-        Placement: {ID: 2862057287638682207}
-      Rotate:
-        - 0,00000
-        - 0,30000
-        - 0,00000
-      SRTHash: !u 3763471572
-      Scale:
-        - 44,12989
-        - 13,81500
-        - 90,10586
-      Translate:
-        - -349,81450
-        - 375,07740
-        - -949,20900
+        - -305,69980
+        - 341,22270
+        - -941,51940
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
@@ -28274,25 +28007,24 @@ root:
       Hash: '8809145209930567348'
       Phive:
         Placement: {ID: 8809145209930567348}
-      SRTHash: !u 505055754
+      SRTHash: !u 938032616
       Scale:
-        - 22,43979
-        - 6,76079
+        - 17,53257
+        - 6,96794
         - 31,46096
       Translate:
-        - -416,90720
+        - -421,81600
         - 122,01900
         - -974,41750
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
-          - 1,00000
-          - 1,00000
-          - 1,00000
+          - 200,00000
+          - 15,00000
+          - 200,00000
         MarginPositive:
-          - 10,00000
-          - 1,00000
-          - 1,00000
+          - 200,00000
+          - 100,00000
+          - 200,00000
       Gyaml: AreaCulling
       Hash: '14134273598972635876'
       Phive:
@@ -28301,25 +28033,25 @@ root:
         - 0,00000
         - -0,64000
         - 0,00000
-      SRTHash: !u 2602071617
+      SRTHash: !u 3858080609
       Scale:
-        - 35,96891
-        - 38,71369
-        - 41,63369
+        - 7,00000
+        - 3,00000
+        - 7,00000
       Translate:
-        - -367,68260
-        - 210,88300
-        - -835,93310
+        - -362,75640
+        - 213,35780
+        - -871,17620
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 30,00000
+          - 30,10000
+          - 40,00000
+          - 50,00000
         MarginPositive:
-          - 10,00000
-          - 0,10000
-          - 20,00000
+          - 30,00000
+          - 8,00000
+          - 2,00000
       Gyaml: AreaCulling
       Hash: '17110836937280703065'
       Phive:
@@ -28328,178 +28060,96 @@ root:
         - 0,00000
         - -0,44000
         - 0,00000
-      SRTHash: !u 1335955510
+      SRTHash: !u 2321207137
       Scale:
-        - 13,96402
-        - 18,75920
-        - 21,86164
+        - 8,50691
+        - 7,15815
+        - 17,97356
       Translate:
-        - -325,02780
-        - 167,46500
-        - -865,02290
+        - -321,73700
+        - 191,54960
+        - -859,13020
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 1,00000
-          - 20,00000
           - 50,00000
+          - 36,90141
+          - 36,90141
         MarginPositive:
-          - 30,00000
           - 50,00000
-          - 1,00000
-      Gyaml: AreaCulling
-      Hash: '7155375443167263393'
-      Phive:
-        Placement: {ID: 7155375443167263393}
-      Rotate:
-        - 0,00000
-        - 0,14000
-        - 0,00000
-      SRTHash: !u 748549359
-      Scale:
-        - 57,91345
-        - 23,67957
-        - 101,14760
-      Translate:
-        - -504,64920
-        - 155,30400
-        - -938,99800
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 34,00000
-          - 34,00000
-          - 34,00000
-        MarginPositive:
-          - 34,00000
-          - 5,00000
-          - 34,00000
+          - 14,00000
+          - 36,90141
       Gyaml: AreaCulling
       Hash: '9301763570867204286'
       Phive:
         Placement: {ID: 9301763570867204286}
-      SRTHash: !u 3998394088
+      SRTHash: !u 1027350885
       Scale:
-        - 68,00000
-        - 31,27917
-        - 50,57317
+        - 73,80281
+        - 25,58497
+        - 44,31237
       Translate:
-        - -225,00000
-        - 94,94800
-        - -1154,07500
-    - Dynamic:
-        MarginNegative:
-          - 2,00000
-          - 23,00969
-          - 0,10000
-        MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 2,00000
-      Gyaml: AreaCulling
-      Hash: '9470184993781476999'
-      Phive:
-        Placement: {ID: 9470184993781476999}
-      Rotate:
-        - 0,00000
-        - -0,44000
-        - 0,00000
-      SRTHash: !u 1548379266
-      Scale:
-        - 46,01937
-        - 45,00000
-        - 44,95842
-      Translate:
-        - -252,38870
-        - 321,50000
-        - -1062,89600
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 10,00000
-          - 10,00000
-          - 10,00000
-        MarginPositive:
-          - 10,00000
-          - 10,00000
-          - 10,00000
-      Gyaml: AreaCulling
-      Hash: '2859674063068799744'
-      Phive:
-        Placement: {ID: 2859674063068799744}
-      Rotate:
-        - 0,00000
-        - -0,54000
-        - 0,00000
-      SRTHash: !u 3147935727
-      Scale:
-        - 4,11464
-        - 4,82690
-        - 6,44816
-      Translate:
-        - -383,87890
-        - 419,33510
-        - -995,87110
+        - -219,38170
+        - 94,94431
+        - -1163,34500
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
           - 50,00000
-          - 6,00000
-          - 2,00000
+          - 30,00000
+          - 1,00000
         MarginPositive:
           - 70,00000
-          - 6,00000
+          - 100,00000
           - 120,00000
       Gyaml: AreaCulling
       Hash: '5960637659249833262'
       Phive:
         Placement: {ID: 5960637659249833262}
-      SRTHash: !u 2230725243
+      SRTHash: !u 2554409955
       Scale:
-        - 13,77328
+        - 13,81260
         - 8,03633
-        - 9,91984
+        - 9,72190
       Translate:
-        - -254,09770
+        - -254,05910
         - 208,78500
-        - -749,98930
+        - -749,79820
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
-          - 50,00000
-          - 0,10000
-          - 0,10000
+          - 82,00000
+          - 15,00000
+          - 42,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 22,00000
+          - 50,00000
+          - 40,00000
       Gyaml: AreaCulling
       Hash: '4507918016803338341'
       Phive:
         Placement: {ID: 4507918016803338341}
       Rotate:
         - 0,00000
-        - -0,54000
+        - -0,50615
         - 0,00000
-      SRTHash: !u 922792633
+      SRTHash: !u 1289836849
       Scale:
-        - 24,83591
-        - 15,45413
-        - 6,28396
+        - 28,65616
+        - 11,97573
+        - 10,18627
       Translate:
-        - -376,08400
-        - 169,29000
-        - -813,76760
+        - -369,16480
+        - 176,24350
+        - -815,45460
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
-          - 5,00000
-          - 28,00000
-          - 5,00000
+          - 150,00000
+          - 18,00000
+          - 150,00000
         MarginPositive:
-          - 25,00000
-          - 5,00000
-          - 5,00000
+          - 150,00000
+          - 120,00000
+          - 150,00000
       Gyaml: AreaCulling
       Hash: '8998988315296681139'
       Phive:
@@ -28508,25 +28158,24 @@ root:
         - 0,00000
         - -0,42000
         - 0,00000
-      SRTHash: !u 3469425430
+      SRTHash: !u 3146966081
       Scale:
-        - 41,72663
-        - 18,51365
-        - 53,14929
+        - 2,00000
+        - 2,00000
+        - 2,00000
       Translate:
-        - -433,37790
+        - -461,97170
         - 204,68300
-        - -854,12500
+        - -857,58310
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
-          - 40,00000
-          - 5,00000
-          - 30,00000
-        MarginPositive:
-          - 1,00000
+          - 200,00000
           - 10,00000
-          - 1,00000
+          - 20,00000
+        MarginPositive:
+          - 200,00000
+          - 400,00000
+          - 200,00000
       Gyaml: AreaCulling
       Hash: '13571330865896251529'
       Phive:
@@ -28535,101 +28184,72 @@ root:
         - 0,00000
         - -0,04000
         - 0,00000
-      SRTHash: !u 2113357783
-      Scale:
-        - 33,71696
-        - 10,64105
-        - 43,40577
+      SRTHash: !u 864299751
       Translate:
-        - -282,72660
-        - 408,87190
-        - -924,15530
+        - -253,90250
+        - 409,35370
+        - -944,67460
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
-          - 24,79933
-          - 24,79933
-          - 24,79933
+          - 80,00000
+          - 40,00000
+          - 100,00000
         MarginPositive:
-          - 24,79933
-          - 24,79933
-          - 24,79933
-      Gyaml: AreaCulling
-      Hash: '4547381030287556017'
-      Phive:
-        Placement: {ID: 4547381030287556017}
-      Rotate:
-        - 0,00000
-        - -0,59887
-        - 0,00000
-      SRTHash: !u 1624139438
-      Scale:
-        - 38,29166
-        - 26,15316
-        - 49,59866
-      Translate:
-        - -355,23970
-        - 209,94800
-        - -836,09960
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
+          - 5,00000
           - 20,00000
-          - 6,95370
-          - 6,95370
-        MarginPositive:
-          - 6,95370
-          - 6,95370
-          - 6,95370
+          - 20,00000
       Gyaml: AreaCulling
       Hash: '1743265228791143466'
       Phive:
         Placement: {ID: 1743265228791143466}
-      SRTHash: !u 2048021233
+      Rotate:
+        - 0,00000
+        - 0,00949
+        - 0,00000
+      SRTHash: !u 2853612967
       Scale:
-        - 11,62156
-        - 10,32514
-        - 13,90739
+        - 21,49042
+        - 5,84040
+        - 12,49152
       Translate:
-        - -320,96190
-        - 403,16330
-        - -996,97190
+        - -310,71250
+        - 404,24800
+        - -995,07750
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
+          - 100,00000
           - 10,00000
-          - 10,00000
-          - 10,00000
+          - 100,00000
         MarginPositive:
-          - 10,00000
-          - 10,00000
-          - 10,00000
+          - 70,00000
+          - 100,00000
+          - 100,00000
       Gyaml: AreaCulling
       Hash: '12933345354853248527'
       Phive:
         Placement: {ID: 12933345354853248527}
       Rotate:
         - 0,00000
-        - 0,46000
+        - 0,00576
         - 0,00000
-      SRTHash: !u 2948387651
+      SRTHash: !u 3981251608
       Scale:
-        - 3,85238
-        - 4,82690
-        - 6,12034
+        - 4,00000
+        - 1,00000
+        - 4,00000
       Translate:
         - -383,78520
         - 419,13980
         - -995,61720
     - Dynamic:
         MarginNegative:
-          - 100,00000
-          - 10,00000
-          - 8,00000
+          - 200,00000
+          - 5,00000
+          - 200,00000
         MarginPositive:
+          - 200,00000
           - 100,00000
-          - 50,00000
-          - 8,00000
+          - 200,00000
       Gyaml: AreaCulling
       Hash: '18048969711230285465'
       Phive:
@@ -28638,25 +28258,25 @@ root:
         - 0,00000
         - -0,59887
         - 0,00000
-      SRTHash: !u 1947527234
+      SRTHash: !u 4115976171
       Scale:
         - 17,50000
-        - 14,05485
+        - 3,49083
         - 17,50000
       Translate:
         - -351,32570
-        - 209,98400
+        - 213,43770
         - -830,58640
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 20,00000
+          - 20,00000
+          - 5,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 20,00000
+          - 20,00000
+          - 40,00000
       Gyaml: AreaCulling
       Hash: '13958981588159853698'
       Phive:
@@ -28673,36 +28293,13 @@ root:
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
-        MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
-      Gyaml: AreaCulling
-      Hash: '1724246921483637312'
-      Phive:
-        Placement: {ID: 1724246921483637312}
-      Rotate:
-        - 0,00000
-        - -0,34642
-        - 0,00000
-      SRTHash: !u 2794211559
-      Translate:
-        - -159,74370
-        - 394,22600
-        - -879,38720
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
           - 29,30977
           - 29,30977
-          - 29,30977
+          - 50,00000
         MarginPositive:
           - 29,30977
           - 18,00000
-          - 29,30977
+          - 60,00000
       Gyaml: AreaCulling
       Hash: '1263218144725897602'
       Phive:
@@ -28721,15 +28318,14 @@ root:
         - 113,00000
         - -1046,49300
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
-          - 50,00000
-          - 0,10000
-          - 30,00000
+          - 90,00000
+          - 23,00000
+          - 35,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 15,00000
+          - 5,00000
+          - 3,50000
+          - 8,00000
       Gyaml: AreaCulling
       Hash: '14813757777265859834'
       Phive:
@@ -28738,97 +28334,74 @@ root:
         - 0,00000
         - -0,42000
         - 0,00000
-      SRTHash: !u 3676458310
+      SRTHash: !u 3509851108
       Scale:
-        - 16,32730
+        - 12,38330
         - 13,49909
-        - 16,34221
+        - 13,82476
       Translate:
-        - -331,39650
+        - -327,93850
         - 178,27300
-        - -812,85330
+        - -810,01640
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 1,00000
-          - 10,00000
-          - 15,00000
+          - 200,00000
+          - 80,00000
+          - 3,00000
         MarginPositive:
-          - 1,00000
-          - 20,00000
-          - 1,00000
+          - 200,00000
+          - 300,00000
+          - 200,00000
       Gyaml: AreaCulling
       Hash: '16480673877130270281'
       Phive:
         Placement: {ID: 16480673877130270281}
       Rotate:
         - 0,00000
-        - -0,04000
+        - -0,38139
         - 0,00000
-      SRTHash: !u 794501624
+      SRTHash: !u 2621923675
       Scale:
-        - 33,71696
-        - 15,98163
-        - 47,22053
+        - 10,00000
+        - 3,00000
+        - 8,00000
       Translate:
-        - -307,70070
-        - 426,08720
-        - -973,37300
+        - -313,91490
+        - 433,68970
+        - -969,38230
     - Dynamic:
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 300,00000
+          - 100,00000
+          - 300,00000
         MarginPositive:
-          - 0,10000
-          - 1,00000
-          - 0,10000
-      Gyaml: AreaCulling
-      Hash: '10068992276870053470'
-      Phive:
-        Placement: {ID: 10068992276870053470}
-      SRTHash: !u 3205420250
-      Scale:
-        - 17,27441
-        - 14,31258
-        - 19,24163
-      Translate:
-        - -254,02150
-        - 409,42190
-        - -1061,69400
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 10,00000
-          - 10,00000
-          - 10,00000
-        MarginPositive:
-          - 10,00000
-          - 10,00000
-          - 10,00000
+          - 300,00000
+          - 300,00000
+          - 300,00000
       Gyaml: AreaCulling
       Hash: '13754779642925601473'
       Phive:
         Placement: {ID: 13754779642925601473}
-      SRTHash: !u 166671972
+      SRTHash: !u 1591362752
       Scale:
-        - 15,50000
-        - 9,04159
-        - 15,50000
+        - 6,02253
+        - 26,54141
+        - 3,96072
       Translate:
-        - -254,00000
-        - 486,91410
-        - -1061,69400
+        - -254,14660
+        - 568,85680
+        - -1063,10800
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 8,83570
-          - 8,83570
-          - 8,83570
+          - 50,00000
+          - 10,00000
+          - 20,00000
         MarginPositive:
-          - 8,83570
-          - 8,83570
-          - 8,83570
+          - 10,00000
+          - 40,00000
+          - 10,00000
       Gyaml: AreaCulling
       Hash: '5465189625862390580'
       Phive:
@@ -28847,91 +28420,88 @@ root:
         - 341,25270
         - -1166,20900
     - Dynamic:
+        IsConnectNeighborArea: true
         MarginNegative:
-          - 11,79900
-          - 0,01000
-          - 6,39500
+          - 4,00000
+          - 20,00000
+          - 60,00000
         MarginPositive:
-          - 11,79900
-          - 13,70000
-          - 6,39500
+          - 80,00000
+          - 50,00000
+          - 60,00000
       Gyaml: AreaCulling
       Hash: '17555619799910944079'
       Phive:
         Placement: {ID: 17555619799910944079}
       Rotate:
         - 3,14159
-        - -0,62160
+        - -1,03358
         - 3,14159
-      SRTHash: !u 474072634
+      SRTHash: !u 1091537394
       Translate:
         - -312,00000
-        - 176,23000
+        - 188,75490
         - -786,68990
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 1,00000
+          - 10,00000
+          - 1,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 15,00000
+          - 1,00000
+          - 1,00000
+          - 1,00000
       Gyaml: AreaCulling
       Hash: '11320297360652032103'
       Phive:
         Placement: {ID: 11320297360652032103}
       Rotate:
         - 0,00000
-        - 0,70000
+        - -0,91647
         - 0,00000
-      SRTHash: !u 1046258221
+      SRTHash: !u 4209287943
       Scale:
-        - 16,25325
-        - 7,30659
-        - 22,55346
+        - 6,70620
+        - 1,55578
+        - 50,80858
       Translate:
-        - -154,76320
-        - 207,91300
-        - -885,30520
+        - -135,12130
+        - 221,04600
+        - -867,25470
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 8,99962
-          - 8,99962
-          - 8,99962
+          - 5,00000
+          - 5,00000
+          - 20,00000
         MarginPositive:
-          - 8,99962
-          - 8,99962
-          - 8,99962
+          - 5,00000
+          - 15,00000
+          - 50,00000
       Gyaml: AreaCulling
       Hash: '12253673420787011847'
       Phive:
         Placement: {ID: 12253673420787011847}
-      Rotate:
-        - -0,26000
-        - 0,00000
-        - 0,00000
-      SRTHash: !u 553664118
+      SRTHash: !u 3108889227
       Scale:
-        - 6,85914
-        - 9,50559
-        - 17,99924
+        - 12,60000
+        - 12,60000
+        - 12,60000
       Translate:
         - -254,09770
-        - 195,61900
-        - -795,26030
+        - 189,60810
+        - -794,92930
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 5,00000
+          - 5,00000
+          - 10,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 5,00000
+          - 5,00000
+          - 5,00000
       Gyaml: AreaCulling
       Hash: '1494610516540523413'
       Phive:
@@ -28949,12 +28519,12 @@ root:
         IsConnectNeighborArea: true
         MarginNegative:
           - 20,00000
-          - 13,65175
+          - 30,00000
           - 20,00000
         MarginPositive:
-          - 15,00000
-          - 13,65175
-          - 20,00000
+          - 60,00000
+          - 50,00000
+          - 40,00000
       Gyaml: AreaCulling
       Hash: '8251595953840014058'
       Phive:
@@ -28963,15 +28533,15 @@ root:
         - 0,00000
         - -0,75394
         - 0,00000
-      SRTHash: !u 3419617375
+      SRTHash: !u 443597499
       Scale:
-        - 17,00384
+        - 17,91290
         - 10,28640
         - 27,30349
       Translate:
-        - -101,60640
+        - -100,95730
         - 206,97300
-        - -864,21680
+        - -863,60720
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
@@ -29002,90 +28572,62 @@ root:
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 100,00000
+          - 1,00000
+          - 20,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 61,00000
+          - 1,00000
+          - 5,00000
       Gyaml: AreaCulling
       Hash: '17854998254519449785'
       Phive:
         Placement: {ID: 17854998254519449785}
-      SRTHash: !u 2078426047
+      SRTHash: !u 4191326049
       Scale:
-        - 15,75511
-        - 13,04610
+        - 10,14472
+        - 10,93762
         - 6,97239
       Translate:
-        - -222,57620
-        - 182,68700
+        - -228,27980
+        - 187,44090
         - -824,51560
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
-          - 20,00000
-          - 13,50573
-          - 20,00000
+          - 80,00000
+          - 30,00000
+          - 200,00000
         MarginPositive:
-          - 15,00000
-          - 13,50573
-          - 20,00000
-      Gyaml: AreaCulling
-      Hash: '12205883367878777745'
-      Phive:
-        Placement: {ID: 12205883367878777745}
-      Rotate:
-        - 0,00000
-        - -0,95394
-        - 0,00000
-      SRTHash: !u 4182011105
-      Scale:
-        - 17,28399
-        - 10,28640
-        - 27,01145
-      Translate:
-        - -139,32810
-        - -14716,10000
-        - -831,62740
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 1,00000
-          - 1,00000
-          - 1,00000
-        MarginPositive:
-          - 1,00000
-          - 1,00000
-          - 1,00000
+          - 200,00000
+          - 300,00000
+          - 200,00000
       Gyaml: AreaCulling
       Hash: '5851408186869585766'
       Phive:
         Placement: {ID: 5851408186869585766}
       Rotate:
         - 0,00000
-        - 0,02000
+        - -0,96564
         - 0,00000
-      SRTHash: !u 3127629185
+      SRTHash: !u 15665408
       Scale:
-        - 35,90350
-        - 33,39697
-        - 83,35996
+        - 6,83773
+        - 3,00000
+        - 7,20201
       Translate:
-        - -247,95310
-        - 423,94610
-        - -938,48970
+        - -209,48080
+        - 441,04130
+        - -968,41280
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 1,00000
+          - 15,00000
+          - 1,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 1,00000
+          - 1,00000
+          - 24,00000
       Gyaml: AreaCulling
       Hash: '2411675102727408809'
       Phive:
@@ -29094,101 +28636,73 @@ root:
         - 0,00000
         - -0,38000
         - 0,00000
-      SRTHash: !u 1509378674
+      SRTHash: !u 1744998931
       Scale:
-        - 23,53051
-        - 7,47903
-        - 6,95747
+        - 24,24532
+        - 7,10777
+        - 10,45863
       Translate:
-        - -321,91990
-        - 190,42100
-        - -833,18850
+        - -325,09560
+        - 191,16810
+        - -830,72070
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
-          - 10,00000
-          - 10,00000
-          - 10,00000
+          - 300,00000
+          - 15,00000
+          - 300,00000
         MarginPositive:
-          - 10,00000
-          - 10,00000
-          - 10,00000
+          - 300,00000
+          - 300,00000
+          - 300,00000
       Gyaml: AreaCulling
       Hash: '4909476172016064757'
       Phive:
         Placement: {ID: 4909476172016064757}
-      SRTHash: !u 1942344127
+      SRTHash: !u 2646863005
       Scale:
-        - 29,00000
-        - 23,00889
-        - 27,62909
+        - 31,79685
+        - 49,96877
+        - 29,19333
       Translate:
-        - -254,00000
+        - -252,87700
         - 442,31250
-        - -1061,69400
-    - Dynamic:
-        MarginNegative:
-          - 8,00000
-          - 0,10000
-          - 8,00000
-        MarginPositive:
-          - 8,00000
-          - 0,10000
-          - 8,00000
-      Gyaml: AreaCulling
-      Hash: '2394505234630996755'
-      Phive:
-        Placement: {ID: 2394505234630996755}
-      Rotate:
-        - 0,00000
-        - -0,59887
-        - 0,00000
-      SRTHash: !u 2304893255
-      Scale:
-        - 10,02184
-        - 9,30063
-        - 10,02184
-      Translate:
-        - -351,32570
-        - 235,18700
-        - -830,58640
+        - -1063,25600
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 50,00000
-          - 0,10000
-          - 0,10000
+          - 32,00000
+          - 5,00000
+          - 8,00000
         MarginPositive:
           - 30,00000
-          - 0,10000
-          - 0,10000
+          - 2,00000
+          - 20,00000
       Gyaml: AreaCulling
       Hash: '15524854821536564954'
       Phive:
         Placement: {ID: 15524854821536564954}
       Rotate:
         - 0,00000
-        - -0,54000
+        - -0,48765
         - 0,00000
-      SRTHash: !u 3461269921
+      SRTHash: !u 1467357501
       Scale:
         - 24,83591
-        - 15,45413
-        - 21,49804
+        - 10,48996
+        - 17,75380
       Translate:
-        - -362,02150
-        - 169,29100
-        - -837,22560
+        - -359,94900
+        - 169,27180
+        - -840,56540
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 5,00000
+          - 5,00000
+          - 5,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 6,00000
+          - 5,00000
+          - 5,00000
       Gyaml: AreaCulling
       Hash: '2373518044443062885'
       Phive:
@@ -29197,102 +28711,47 @@ root:
         - 0,00000
         - 0,30000
         - 0,00000
-      SRTHash: !u 2046168672
+      SRTHash: !u 89915084
       Scale:
-        - 8,53999
+        - 5,39580
         - 10,31025
         - 19,44168
       Translate:
-        - -183,66800
+        - -186,68000
         - 314,51330
-        - -1073,45700
+        - -1072,52500
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 20,00000
-          - 1,00000
-          - 7,00000
-        MarginPositive:
-          - 53,00000
-          - 60,00000
-          - 55,00000
-      Gyaml: AreaCulling
-      Hash: '6910637388788756249'
-      Phive:
-        Placement: {ID: 6910637388788756249}
-      Rotate:
-        - 0,07759
-        - -0,55617
-        - -0,11631
-      SRTHash: !u 260884019
-      Scale:
-        - 68,57858
-        - 25,16256
-        - 20,47996
-      Translate:
-        - -293,96000
-        - 151,81900
-        - -739,71800
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 1,00000
-          - 1,00000
-          - 1,00000
-        MarginPositive:
           - 5,00000
-          - 1,00000
-          - 1,00000
+          - 12,00000
+          - 100,00000
+        MarginPositive:
+          - 120,00000
+          - 60,00000
+          - 70,00000
       Gyaml: AreaCulling
       Hash: '4318546148990402759'
       Phive:
         Placement: {ID: 4318546148990402759}
       Rotate:
-        - 0,16000
-        - -0,40000
         - 0,00000
-      SRTHash: !u 1646827252
-      Scale:
-        - 29,04695
-        - 13,31730
-        - 42,57723
+        - 0,53129
+        - 0,00000
+      SRTHash: !u 563291354
       Translate:
-        - -313,66210
-        - 364,17460
-        - -1047,45700
+        - -263,17830
+        - 370,91700
+        - -1142,75600
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
-          - 40,00000
-          - 10,00000
-          - 0,10000
+          - 80,00000
+          - 15,00000
+          - 20,00000
         MarginPositive:
-          - 0,10000
-          - 10,00000
-          - 0,10000
-      Gyaml: AreaCulling
-      Hash: '17693871207343365839'
-      Phive:
-        Placement: {ID: 17693871207343365839}
-      SRTHash: !u 59324826
-      Scale:
-        - 15,96970
-        - 8,73371
-        - 13,85077
-      Translate:
-        - -332,10500
-        - 298,15060
-        - -1001,75000
-    - Dynamic:
-        IsConnectNeighborArea: true
-        MarginNegative:
-          - 1,00000
-          - 1,00000
-          - 1,00000
-        MarginPositive:
-          - 1,00000
-          - 1,00000
-          - 1,00000
+          - 5,00000
+          - 5,00000
+          - 20,00000
       Gyaml: AreaCulling
       Hash: '12213053927927403184'
       Phive:
@@ -29301,47 +28760,46 @@ root:
         - 3,14159
         - 1,42159
         - 3,14159
-      SRTHash: !u 860832449
+      SRTHash: !u 3790510777
       Scale:
-        - 43,03194
-        - 22,72471
-        - 28,75313
+        - 3,00000
+        - 3,00000
+        - 3,00000
       Translate:
-        - -197,06050
-        - 176,53200
-        - -725,26610
+        - -208,93720
+        - 184,97190
+        - -770,60350
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 1,00000
+          - 1,00000
+          - 15,00000
         MarginPositive:
-          - 0,10000
-          - 0,10000
-          - 0,10000
+          - 100,00000
+          - 4,00000
+          - 8,00000
       Gyaml: AreaCulling
       Hash: '3905226289674310571'
       Phive:
         Placement: {ID: 3905226289674310571}
-      SRTHash: !u 2443430906
+      SRTHash: !u 2770126843
       Scale:
-        - 17,62965
-        - 13,49909
-        - 6,42400
+        - 17,37428
+        - 8,96578
+        - 10,46958
       Translate:
-        - -285,20900
-        - 178,94500
-        - -825,82500
+        - -288,16530
+        - 188,01680
+        - -821,76010
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
-          - 15,00000
+          - 100,00000
           - 1,00000
           - 65,00000
         MarginPositive:
           - 10,00000
-          - 16,00000
+          - 50,00000
           - 35,00000
       Gyaml: AreaCulling
       Hash: '2727638589383542077'
@@ -29361,37 +28819,36 @@ root:
         - 112,54800
         - -1133,09400
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
+          - 5,00000
           - 20,00000
-          - 20,00000
-          - 20,00000
+          - 5,00000
         MarginPositive:
-          - 20,00000
-          - 20,00000
-          - 20,00000
+          - 50,00000
+          - 7,00000
+          - 35,00000
       Gyaml: AreaCulling
       Hash: '12303044912529784107'
       Phive:
         Placement: {ID: 12303044912529784107}
-      SRTHash: !u 3087543570
+      SRTHash: !u 3305672794
       Scale:
-        - 25,22334
-        - 12,12819
-        - 15,58226
+        - 2,66198
+        - 1,75859
+        - 3,07237
       Translate:
-        - -346,03420
-        - 341,50700
-        - -912,76390
+        - -358,57690
+        - 353,86980
+        - -921,15640
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 15,00000
-          - 10,00000
-          - 23,00000
+          - 55,00000
+          - 25,00000
+          - 83,00000
         MarginPositive:
-          - 30,00000
-          - 10,00000
+          - 40,00000
+          - 8,00000
           - 20,00000
       Gyaml: AreaCulling
       Hash: '4638331891528356925'
@@ -29447,85 +28904,66 @@ root:
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 30,00000
-          - 10,00000
-          - 21,17498
+          - 100,00000
+          - 13,00000
+          - 5,00000
         MarginPositive:
-          - 21,17498
-          - 21,17498
-          - 21,17498
+          - 4,00000
+          - 18,00000
+          - 200,00000
       Gyaml: AreaCulling
       Hash: '16290140988470786926'
       Phive:
         Placement: {ID: 16290140988470786926}
       Rotate:
         - 0,00000
-        - -0,43968
+        - -0,52427
         - 0,00000
-      SRTHash: !u 1178693965
+      SRTHash: !u 3506146484
       Scale:
-        - 23,47816
-        - 21,79871
-        - 42,34997
+        - 11,92702
+        - 8,58026
+        - 24,55786
       Translate:
-        - -281,65980
-        - 370,87280
-        - -1119,33300
+        - -274,42690
+        - 370,92970
+        - -1122,52700
     - Dynamic:
-        IsConnectNeighborArea: true
         MarginNegative:
-          - 18,13456
+          - 5,00000
           - 20,00000
-          - 20,00000
+          - 150,00000
         MarginPositive:
-          - 110,00000
-          - 50,00000
-          - 70,00000
+          - 200,00000
+          - 400,00000
+          - 120,00000
       Gyaml: AreaCulling
       Hash: '8823201022752717964'
       Phive:
         Placement: {ID: 8823201022752717964}
-      SRTHash: !u 556837033
+      Rotate:
+        - 0,00000
+        - 0,37103
+        - 0,00000
+      SRTHash: !u 3565077785
       Scale:
-        - 24,10396
-        - 18,59165
-        - 36,26913
+        - 31,81285
+        - 9,81110
+        - 33,25307
       Translate:
-        - -170,88900
-        - 371,36190
-        - -1071,22700
-    - Dynamic:
-        MarginNegative:
-          - 11,64804
-          - 11,64804
-          - 11,64804
-        MarginPositive:
-          - 11,64804
-          - 11,64804
-          - 11,64804
-      Gyaml: AreaCulling
-      Hash: '11468645540986763537'
-      Phive:
-        Placement: {ID: 11468645540986763537}
-      SRTHash: !u 1303892103
-      Scale:
-        - 16,42498
-        - 10,69788
-        - 23,29608
-      Translate:
-        - -333,36830
-        - 399,86380
-        - -978,48470
+        - -170,84470
+        - 371,65700
+        - -1062,80100
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 17,28716
-          - 0,10000
+          - 17,00000
+          - 7,00000
           - 50,00000
         MarginPositive:
-          - 17,28716
-          - 0,10000
-          - 17,28716
+          - 17,00000
+          - 1,00000
+          - 17,00000
       Gyaml: AreaCulling
       Hash: '3570019834027603341'
       Phive:
@@ -29534,15 +28972,15 @@ root:
         - -0,00707
         - 0,00000
         - 0,00000
-      SRTHash: !u 3522461539
+      SRTHash: !u 2788124477
       Scale:
-        - 34,57432
-        - 23,38116
-        - 33,01604
+        - 34,57400
+        - 3,50000
+        - 33,01600
       Translate:
         - -242,11800
-        - 76,40728
-        - -108,92210
+        - 112,51900
+        - -109,17800
     - Gyaml: AnchorAction3
       Hash: '1770764099596738754'
       Phive:
@@ -30609,26 +30047,26 @@ root:
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 21,00000
-          - 0,10000
           - 22,00000
+          - 1,00000
+          - 23,00000
         MarginPositive:
-          - 15,00000
+          - 16,00000
           - 150,00000
-          - 14,00000
+          - 15,00000
       Gyaml: AreaCulling
       Hash: '3904914950240061166'
       Phive:
         Placement: {ID: 3904914950240061166}
       Rotate:
-        - -0,00510
         - 0,00000
-        - 0,00510
-      SRTHash: !u 1086736330
+        - 0,80285
+        - 0,00000
+      SRTHash: !u 1323320713
       Translate:
-        - -250,39500
-        - 123,05180
-        - -94,49869
+        - -249,44300
+        - 118,84200
+        - -96,32700
     - Dynamic: {RigidBodyShapeType: !l 3}
       Gyaml: Area
       Hash: '10330157079629405135'
@@ -30955,6 +30393,1687 @@ root:
         - -295,46000
         - 130,89100
         - -141,00800
+    - Dynamic:
+        MarginNegative:
+          - 300,00000
+          - 10,00000
+          - 300,00000
+        MarginPositive:
+          - 300,00000
+          - 300,00000
+          - 6,00000
+      Gyaml: AreaCulling
+      Hash: '3385488383168079958'
+      Phive:
+        Placement: {ID: 3385488383168079958}
+      Rotate:
+        - 0,00000
+        - -0,17453
+        - 0,00000
+      SRTHash: !u 2535804622
+      Scale:
+        - 7,22383
+        - 1,00000
+        - 4,81030
+      Translate:
+        - -229,92210
+        - 121,01480
+        - -165,36400
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 8,00000
+          - 5,00000
+          - 10,00000
+        MarginPositive:
+          - 8,00000
+          - 25,00000
+          - 5,00000
+      Gyaml: AreaCulling
+      Hash: '6002388967252771212'
+      Phive:
+        Placement: {ID: 6002388967252771212}
+      Rotate:
+        - -0,34907
+        - 0,00000
+        - 0,00000
+      SRTHash: !u 2308350322
+      Translate:
+        - -254,90770
+        - 107,46010
+        - -94,46552
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 300,00000
+          - 50,00000
+          - 300,00000
+        MarginPositive:
+          - 300,00000
+          - 400,00000
+          - 50,00000
+      Gyaml: AreaCulling
+      Hash: '8457007725503511413'
+      Phive:
+        Placement: {ID: 8457007725503511413}
+      Rotate:
+        - 0,00000
+        - -1,07714
+        - 0,00000
+      SRTHash: !u 3399209510
+      Scale:
+        - 12,36368
+        - 2,00000
+        - 12,76543
+      Translate:
+        - -135,42210
+        - 384,16020
+        - -1021,56000
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 150,00000
+          - 8,50000
+          - 150,00000
+        MarginPositive:
+          - 150,00000
+          - 400,00000
+          - 150,00000
+      Gyaml: AreaCulling
+      Hash: '11503251981537502440'
+      Phive:
+        Placement: {ID: 11503251981537502440}
+      Rotate:
+        - -0,03629
+        - 0,00000
+        - 0,01438
+      SRTHash: !u 208899809
+      Scale:
+        - 5,00000
+        - 3,00000
+        - 5,00000
+      Translate:
+        - -299,27940
+        - 125,88190
+        - -142,55330
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 85,00000
+          - 50,00000
+          - 85,00000
+        MarginPositive:
+          - 125,00000
+          - 40,00000
+          - 125,00000
+      Gyaml: AreaCulling
+      Hash: '18347893069453239646'
+      Phive:
+        Placement: {ID: 18347893069453239646}
+      Rotate:
+        - 0,00000
+        - -0,63414
+        - 0,00000
+      SRTHash: !u 2275349874
+      Scale:
+        - 15,03959
+        - 25,07768
+        - 27,92031
+      Translate:
+        - -215,90520
+        - 51,89613
+        - -722,77810
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 200,00000
+          - 100,00000
+          - 5,00000
+        MarginPositive:
+          - 120,00000
+          - 300,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '1802206699071955238'
+      Phive:
+        Placement: {ID: 1802206699071955238}
+      SRTHash: !u 2450052422
+      Translate:
+        - -321,40240
+        - 390,67410
+        - -893,55420
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 5,00000
+          - 4,00000
+          - 5,00000
+        MarginPositive:
+          - 5,00000
+          - 25,00000
+          - 5,00000
+      Gyaml: AreaCulling
+      Hash: '14308706688653925712'
+      Phive:
+        Placement: {ID: 14308706688653925712}
+      SRTHash: !u 3346276802
+      Translate:
+        - -214,17000
+        - 106,76800
+        - -134,93100
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 100,00000
+          - 10,00000
+          - 30,00000
+        MarginPositive:
+          - 30,00000
+          - 400,00000
+          - 100,00000
+      Gyaml: AreaCulling
+      Hash: '931356100136591995'
+      Phive:
+        Placement: {ID: 931356100136591995}
+      SRTHash: !u 3135108754
+      Scale:
+        - 0,30000
+        - 0,30000
+        - 0,30000
+      Translate:
+        - -159,63210
+        - 429,93330
+        - -879,30480
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 200,00000
+          - 100,00000
+          - 200,00000
+        MarginPositive:
+          - 120,00000
+          - 5,00000
+          - 5,00000
+      Gyaml: AreaCulling
+      Hash: '12732841063053099905'
+      Phive:
+        Placement: {ID: 12732841063053099905}
+      SRTHash: !u 1811037768
+      Translate:
+        - -400,69900
+        - 358,10260
+        - -1036,29000
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 300,00000
+          - 2,00000
+          - 10,00000
+        MarginPositive:
+          - 300,00000
+          - 300,00000
+          - 300,00000
+      Gyaml: AreaCulling
+      Hash: '1549559965112143253'
+      Phive:
+        Placement: {ID: 1549559965112143253}
+      SRTHash: !u 4022098379
+      Scale:
+        - 8,00000
+        - 2,00000
+        - 8,00389
+      Translate:
+        - -230,80450
+        - 121,14520
+        - -31,23291
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 28,00000
+          - 8,00000
+          - 5,00000
+        MarginPositive:
+          - 5,00000
+          - 15,00000
+          - 5,00000
+      Gyaml: AreaCulling
+      Hash: '5508900060342333793'
+      Phive:
+        Placement: {ID: 5508900060342333793}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 1742975197
+      Scale:
+        - 11,68842
+        - 6,97887
+        - 11,81814
+      Translate:
+        - -233,65930
+        - 144,77310
+        - -788,91970
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 400,00000
+          - 65,00000
+          - 400,00000
+        MarginPositive:
+          - 400,00000
+          - 400,00000
+          - 400,00000
+      Gyaml: AreaCulling
+      Hash: '1907249335006051606'
+      Phive:
+        Placement: {ID: 1907249335006051606}
+      Rotate:
+        - 0,00000
+        - -0,07717
+        - -0,27253
+      SRTHash: !u 2252439065
+      Translate:
+        - -86,01367
+        - 421,13480
+        - -908,46360
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 75,00000
+          - 5,00000
+          - 15,00000
+        MarginPositive:
+          - 1,00000
+          - 8,00000
+          - 15,00000
+      Gyaml: AreaCulling
+      Hash: '7834700240859970062'
+      Phive:
+        Placement: {ID: 7834700240859970062}
+      Rotate:
+        - 0,00000
+        - -0,57603
+        - 0,00000
+      SRTHash: !u 1756531353
+      Translate:
+        - -255,64380
+        - 160,73480
+        - -784,32820
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 300,00000
+          - 4,50000
+          - 300,00000
+        MarginPositive:
+          - 300,00000
+          - 300,00000
+          - 300,00000
+      Gyaml: AreaCulling
+      Hash: '8573205255235108688'
+      Phive:
+        Placement: {ID: 8573205255235108688}
+      SRTHash: !u 679595075
+      Scale:
+        - 9,81498
+        - 3,52518
+        - 8,06371
+      Translate:
+        - -238,14450
+        - 123,48900
+        - -49,48114
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 50,00000
+          - 20,00000
+          - 100,00000
+        MarginPositive:
+          - 50,00000
+          - 20,00000
+          - 100,00000
+      Gyaml: AreaCulling
+      Hash: '17949993598019397031'
+      Phive:
+        Placement: {ID: 17949993598019397031}
+      SRTHash: !u 1569863836
+      Scale:
+        - 7,00000
+        - 7,00000
+        - 7,00000
+      Translate:
+        - -83,08401
+        - 148,79690
+        - -1067,79800
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 200,00000
+          - 100,00000
+          - 200,00000
+        MarginPositive:
+          - 200,00000
+          - 100,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '14447923339634425529'
+      Phive:
+        Placement: {ID: 14447923339634425529}
+      Rotate:
+        - 0,00000
+        - -0,88241
+        - 0,00000
+      SRTHash: !u 1785103749
+      Scale:
+        - 10,00000
+        - 9,00000
+        - 10,00000
+      Translate:
+        - -291,95380
+        - 179,70020
+        - -1123,99000
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 300,00000
+          - 10,00000
+          - 300,00000
+        MarginPositive:
+          - 10,00000
+          - 300,00000
+          - 300,00000
+      Gyaml: AreaCulling
+      Hash: '8224571180315912591'
+      Phive:
+        Placement: {ID: 8224571180315912591}
+      Rotate:
+        - -0,00250
+        - 0,00000
+        - 0,00000
+      SRTHash: !u 1277559883
+      Scale:
+        - 3,97440
+        - 1,36922
+        - 6,23200
+      Translate:
+        - -312,30300
+        - 120,05650
+        - -90,68622
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 100,00000
+          - 10,00000
+          - 40,00000
+        MarginPositive:
+          - 22,00000
+          - 100,00000
+          - 40,00000
+      Gyaml: AreaCulling
+      Hash: '17816992434504853622'
+      Phive:
+        Placement: {ID: 17816992434504853622}
+      Rotate:
+        - 0,00000
+        - 0,61027
+        - 0,00000
+      SRTHash: !u 3094435910
+      Scale:
+        - 5,32200
+        - 1,00000
+        - 8,00000
+      Translate:
+        - -310,12300
+        - 120,67400
+        - -62,92300
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 1,00000
+          - 1,00000
+          - 15,00000
+        MarginPositive:
+          - 32,00000
+          - 20,00000
+          - 1,00000
+      Gyaml: AreaCulling
+      Hash: '8868394758326299513'
+      Phive:
+        Placement: {ID: 8868394758326299513}
+      Rotate:
+        - 0,00000
+        - -0,48765
+        - 0,00000
+      SRTHash: !u 2994424573
+      Scale:
+        - 5,72599
+        - 5,05600
+        - 5,05600
+      Translate:
+        - -355,74650
+        - 168,59830
+        - -813,84080
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 130,00000
+          - 15,00000
+          - 200,00000
+        MarginPositive:
+          - 150,00000
+          - 300,00000
+          - 77,00000
+      Gyaml: AreaCulling
+      Hash: '12696300609448441023'
+      Phive:
+        Placement: {ID: 12696300609448441023}
+      Rotate:
+        - 0,09518
+        - -0,59332
+        - -0,16911
+      SRTHash: !u 2320597260
+      Scale:
+        - 27,53016
+        - 5,86908
+        - 10,47371
+      Translate:
+        - -87,65494
+        - 396,62770
+        - -971,56150
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 300,00000
+          - 10,00000
+          - 300,00000
+        MarginPositive:
+          - 300,00000
+          - 300,00000
+          - 4,00000
+      Gyaml: AreaCulling
+      Hash: '17927112868783283792'
+      Phive:
+        Placement: {ID: 17927112868783283792}
+      Rotate:
+        - 0,00000
+        - 0,26180
+        - 0,00000
+      SRTHash: !u 2615290131
+      Scale:
+        - 7,36139
+        - 0,85655
+        - 4,02811
+      Translate:
+        - -271,42170
+        - 121,09380
+        - -159,38080
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 200,00000
+          - 200,00000
+          - 200,00000
+        MarginPositive:
+          - 200,00000
+          - 100,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '9317929620787247762'
+      Phive:
+        Placement: {ID: 9317929620787247762}
+      SRTHash: !u 2150493299
+      Translate:
+        - -128,33990
+        - 201,98120
+        - -813,65020
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 510,00000
+          - 55,00000
+          - 510,00000
+        MarginPositive:
+          - 510,00000
+          - 155,00000
+          - 510,00000
+      Gyaml: AreaCulling
+      Hash: '9641067888308795221'
+      Phive:
+        Placement: {ID: 9641067888308795221}
+      SRTHash: !u 2904491689
+      Translate:
+        - -590,71050
+        - 156,93680
+        - -634,54430
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 200,00000
+          - 110,00000
+          - 200,00000
+        MarginPositive:
+          - 200,00000
+          - 100,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '13156234556623735055'
+      Phive:
+        Placement: {ID: 13156234556623735055}
+      Rotate:
+        - -0,01039
+        - 0,34904
+        - 0,01298
+      SRTHash: !u 2061759567
+      Translate:
+        - -287,32900
+        - 208,92040
+        - -839,87670
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 150,00000
+          - 50,00000
+          - 150,00000
+        MarginPositive:
+          - 150,00000
+          - 100,00000
+          - 150,00000
+      Gyaml: AreaCulling
+      Hash: '9872953941490373956'
+      Phive:
+        Placement: {ID: 9872953941490373956}
+      SRTHash: !u 3576644120
+      Scale:
+        - 30,00000
+        - 10,00000
+        - 30,00000
+      Translate:
+        - -493,08780
+        - 158,41710
+        - -1043,41400
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 200,00000
+          - 100,00000
+          - 200,00000
+        MarginPositive:
+          - 200,00000
+          - 90,00000
+          - 4,00000
+      Gyaml: AreaCulling
+      Hash: '12650415238273106620'
+      Phive:
+        Placement: {ID: 12650415238273106620}
+      Rotate:
+        - 0,00000
+        - 0,89631
+        - 0,00000
+      SRTHash: !u 1144989022
+      Translate:
+        - -288,95140
+        - 342,36680
+        - -1131,05100
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 100,00000
+          - 1,00000
+          - 200,00000
+        MarginPositive:
+          - 120,00000
+          - 400,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '1073235202857441140'
+      Phive:
+        Placement: {ID: 1073235202857441140}
+      SRTHash: !u 1906952194
+      Translate:
+        - -400,65400
+        - 415,36460
+        - -997,25430
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 15,00000
+          - 10,00000
+          - 5,00000
+        MarginPositive:
+          - 100,00000
+          - 300,00000
+          - 100,00000
+      Gyaml: AreaCulling
+      Hash: '15574227270475338721'
+      Phive:
+        Placement: {ID: 15574227270475338721}
+      Rotate:
+        - 0,00000
+        - -0,08340
+        - 0,00000
+      SRTHash: !u 4206122016
+      Scale:
+        - 2,93642
+        - 0,30000
+        - 2,00000
+      Translate:
+        - -297,95560
+        - 130,82900
+        - -142,19890
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 200,00000
+          - 100,00000
+          - 200,00000
+        MarginPositive:
+          - 50,00000
+          - 200,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '3614963357901163581'
+      Phive:
+        Placement: {ID: 3614963357901163581}
+      Rotate:
+        - 0,00000
+        - -0,68311
+        - 0,00000
+      SRTHash: !u 845272508
+      Translate:
+        - -323,60680
+        - 352,42440
+        - -1101,07600
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 200,00000
+          - 15,00000
+          - 200,00000
+        MarginPositive:
+          - 200,00000
+          - 300,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '12032576468731854092'
+      Phive:
+        Placement: {ID: 12032576468731854092}
+      Rotate:
+        - 0,00000
+        - -0,38139
+        - 0,00000
+      SRTHash: !u 1570095253
+      Translate:
+        - -313,91490
+        - 438,76760
+        - -969,38230
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 300,00000
+          - 5,80000
+          - 300,00000
+        MarginPositive:
+          - 300,00000
+          - 300,00000
+          - 15,00000
+      Gyaml: AreaCulling
+      Hash: '802875664503543429'
+      Phive:
+        Placement: {ID: 802875664503543429}
+      SRTHash: !u 192621126
+      Translate:
+        - -250,43480
+        - 124,89360
+        - -170,96270
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 510,00000
+          - 32,40000
+          - 510,00000
+        MarginPositive:
+          - 510,00000
+          - 510,00000
+          - 510,00000
+      Gyaml: AreaCulling
+      Hash: '5673238385116414052'
+      Phive:
+        Placement: {ID: 5673238385116414052}
+      SRTHash: !u 2973359729
+      Scale:
+        - 25,00000
+        - 5,00000
+        - 3,44900
+      Translate:
+        - -254,78700
+        - 151,81050
+        - -261,57700
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 10,00000
+          - 10,00000
+          - 300,00000
+        MarginPositive:
+          - 300,00000
+          - 300,00000
+          - 300,00000
+      Gyaml: AreaCulling
+      Hash: '14573558913770036214'
+      Phive:
+        Placement: {ID: 14573558913770036214}
+      Rotate:
+        - 0,00000
+        - -0,17453
+        - 0,00000
+      SRTHash: !u 1315551058
+      Scale:
+        - 4,93794
+        - 1,00000
+        - 5,95367
+      Translate:
+        - -194,70330
+        - 120,61940
+        - -68,48483
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 510,00000
+          - 42,30000
+          - 510,00000
+        MarginPositive:
+          - 510,00000
+          - 510,00000
+          - 510,00000
+      Gyaml: AreaCulling
+      Hash: '15860308479713691626'
+      Phive:
+        Placement: {ID: 15860308479713691626}
+      SRTHash: !u 4085871370
+      Scale:
+        - 2,00000
+        - 2,00000
+        - 2,00000
+      Translate:
+        - -17,00757
+        - 161,64030
+        - -282,43500
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 510,00000
+          - 95,00000
+          - 510,00000
+        MarginPositive:
+          - 510,00000
+          - 150,00000
+          - 510,00000
+      Gyaml: AreaCulling
+      Hash: '6248955860083330795'
+      Phive:
+        Placement: {ID: 6248955860083330795}
+      SRTHash: !u 851232975
+      Translate:
+        - 149,04680
+        - 162,05850
+        - -708,11550
+      Version: !l 101
+    - Gyaml: DestinationAnchor
+      Hash: '8966782777033606174'
+      Name: StableRemove
+      Phive:
+        Placement: {ID: 8966782777033606174}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 652881054
+      Translate:
+        - -247,67800
+        - 124,51100
+        - -52,30600
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 200,00000
+          - 100,00000
+          - 8,50000
+        MarginPositive:
+          - 190,00000
+          - 350,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '11418006118491015823'
+      Phive:
+        Placement: {ID: 11418006118491015823}
+      Rotate:
+        - 0,00000
+        - 0,04840
+        - 0,00000
+      SRTHash: !u 2537453186
+      Translate:
+        - -400,69900
+        - 381,56060
+        - -967,76070
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 200,00000
+          - 130,00000
+          - 200,00000
+        MarginPositive:
+          - 200,00000
+          - 70,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '4826729891777216707'
+      Phive:
+        Placement: {ID: 4826729891777216707}
+      SRTHash: !u 554019470
+      Scale:
+        - 25,00000
+        - 15,00000
+        - 15,00000
+      Translate:
+        - -272,38040
+        - 231,43100
+        - -740,57690
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 100,00000
+          - 10,00000
+          - 100,00000
+        MarginPositive:
+          - 15,00000
+          - 15,00000
+          - 100,00000
+      Gyaml: AreaCulling
+      Hash: '16475272985769233428'
+      Phive:
+        Placement: {ID: 16475272985769233428}
+      Rotate:
+        - 0,00000
+        - -0,08340
+        - 0,00000
+      SRTHash: !u 2647958399
+      Scale:
+        - 2,93642
+        - 0,20000
+        - 2,00000
+      Translate:
+        - -297,95560
+        - 130,82900
+        - -142,19890
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 15,00000
+          - 1,00000
+          - 15,00000
+        MarginPositive:
+          - 15,00000
+          - 100,00000
+          - 15,00000
+      Gyaml: AreaCulling
+      Hash: '12430445103989424809'
+      Phive:
+        Placement: {ID: 12430445103989424809}
+      Rotate:
+        - 0,00000
+        - -0,76794
+        - 0,00000
+      SRTHash: !u 322099909
+      Translate:
+        - -254,54700
+        - 107,39200
+        - -98,51801
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 2,00000
+          - 4,00000
+          - 15,00000
+        MarginPositive:
+          - 5,00000
+          - 4,00000
+          - 5,00000
+      Gyaml: AreaCulling
+      Hash: '12697837684644290058'
+      Phive:
+        Placement: {ID: 12697837684644290058}
+      Rotate:
+        - 0,00000
+        - -0,84556
+        - 0,00000
+      SRTHash: !u 4096455503
+      Scale:
+        - 7,75400
+        - 2,58389
+        - 29,35900
+      Translate:
+        - -237,24000
+        - 102,81700
+        - -116,40200
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 300,00000
+          - 5,30000
+          - 300,00000
+        MarginPositive:
+          - 300,00000
+          - 300,00000
+          - 300,00000
+      Gyaml: AreaCulling
+      Hash: '8555865739680506664'
+      Phive:
+        Placement: {ID: 8555865739680506664}
+      SRTHash: !u 1180283055
+      Translate:
+        - -300,87320
+        - 124,72060
+        - -106,24600
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 510,00000
+          - 42,30000
+          - 510,00000
+        MarginPositive:
+          - 510,00000
+          - 510,00000
+          - 510,00000
+      Gyaml: AreaCulling
+      Hash: '2373893196282750175'
+      Phive:
+        Placement: {ID: 2373893196282750175}
+      SRTHash: !u 3415655267
+      Scale:
+        - 2,00000
+        - 2,00000
+        - 2,00000
+      Translate:
+        - -447,68800
+        - 161,79880
+        - -243,12450
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 15,00000
+          - 10,00000
+          - 20,00000
+        MarginPositive:
+          - 4,00000
+          - 25,00000
+          - 1,00000
+      Gyaml: AreaCulling
+      Hash: '17496641770624659369'
+      Phive:
+        Placement: {ID: 17496641770624659369}
+      Rotate:
+        - 0,00000
+        - -0,41888
+        - 0,00000
+      SRTHash: !u 3774926312
+      Scale:
+        - 1,00000
+        - 1,13898
+        - 2,04184
+      Translate:
+        - -324,53320
+        - 165,52670
+        - -788,16600
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 300,00000
+          - 4,80000
+          - 300,00000
+        MarginPositive:
+          - 150,00000
+          - 300,00000
+          - 300,00000
+      Gyaml: AreaCulling
+      Hash: '14184453749458352890'
+      Phive:
+        Placement: {ID: 14184453749458352890}
+      SRTHash: !u 2089800817
+      Translate:
+        - -450,55560
+        - 124,25600
+        - -127,89200
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 80,00000
+          - 15,00000
+          - 55,00000
+        MarginPositive:
+          - 10,00000
+          - 15,00000
+          - 50,00000
+      Gyaml: AreaCulling
+      Hash: '6959094101936074867'
+      Phive:
+        Placement: {ID: 6959094101936074867}
+      SRTHash: !u 1047686938
+      Scale:
+        - 20,98105
+        - 18,14649
+        - 18,46143
+      Translate:
+        - -120,13990
+        - 141,55260
+        - -1115,73200
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 150,00000
+          - 150,00000
+          - 150,00000
+        MarginPositive:
+          - 150,00000
+          - 100,00000
+          - 150,00000
+      Gyaml: AreaCulling
+      Hash: '4763597528462657303'
+      Phive:
+        Placement: {ID: 4763597528462657303}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 2499518685
+      Scale:
+        - 30,00000
+        - 10,00000
+        - 30,00000
+      Translate:
+        - -44,63235
+        - 207,98560
+        - -823,85690
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 8,00000
+          - 80,00000
+          - 120,00000
+        MarginPositive:
+          - 301,00000
+          - 300,00000
+          - 120,00000
+      Gyaml: AreaCulling
+      Hash: '15542659524348208413'
+      Phive:
+        Placement: {ID: 15542659524348208413}
+      Rotate:
+        - 0,00000
+        - 0,47262
+        - 0,00000
+      SRTHash: !u 1693357976
+      Scale:
+        - 1,00000
+        - 1,15549
+        - 14,80319
+      Translate:
+        - -137,04170
+        - 343,56890
+        - -1061,17100
+      Version: !l 110
+    - Dynamic:
+        MarginNegative:
+          - 300,00000
+          - 15,00000
+          - 300,00000
+        MarginPositive:
+          - 300,00000
+          - 300,00000
+          - 300,00000
+      Gyaml: AreaCulling
+      Hash: '11268026636823764737'
+      Phive:
+        Placement: {ID: 11268026636823764737}
+      SRTHash: !u 3724888475
+      Scale:
+        - 0,90200
+        - 0,37700
+        - 0,87800
+      Translate:
+        - -254,27200
+        - 151,74700
+        - -257,17800
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 200,00000
+          - 100,00000
+          - 50,00000
+        MarginPositive:
+          - 5,00000
+          - 300,00000
+          - 50,00000
+      Gyaml: AreaCulling
+      Hash: '8827806653290958128'
+      Phive:
+        Placement: {ID: 8827806653290958128}
+      SRTHash: !u 2558600882
+      Scale:
+        - 4,95900
+        - 35,98547
+        - 34,46640
+      Translate:
+        - -395,32270
+        - 356,01670
+        - -1002,14400
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 5,00000
+          - 5,00000
+          - 5,00000
+        MarginPositive:
+          - 50,00000
+          - 5,00000
+          - 28,00000
+      Gyaml: AreaCulling
+      Hash: '17962886755675962948'
+      Phive:
+        Placement: {ID: 17962886755675962948}
+      Rotate:
+        - 0,00000
+        - -0,46147
+        - 0,00000
+      SRTHash: !u 977506053
+      Scale:
+        - 23,72268
+        - 8,00000
+        - 8,00000
+      Translate:
+        - -301,07140
+        - 155,98590
+        - -812,41680
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 28,00000
+          - 8,00000
+          - 5,00000
+        MarginPositive:
+          - 5,00000
+          - 15,00000
+          - 5,00000
+      Gyaml: AreaCulling
+      Hash: '4349564564930350641'
+      Phive:
+        Placement: {ID: 4349564564930350641}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 1882251814
+      Scale:
+        - 11,68842
+        - 6,97887
+        - 11,81814
+      Translate:
+        - -234,64560
+        - 172,89570
+        - -789,23500
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 100,00000
+          - 30,00000
+          - 100,00000
+        MarginPositive:
+          - 100,00000
+          - 150,00000
+          - 100,00000
+      Gyaml: AreaCulling
+      Hash: '16724580751542180401'
+      Phive:
+        Placement: {ID: 16724580751542180401}
+      SRTHash: !u 1419008112
+      Scale:
+        - 2,00000
+        - 2,00000
+        - 2,00000
+      Translate:
+        - -162,05580
+        - 128,53210
+        - -760,39230
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 5,00000
+          - 35,00000
+          - 5,00000
+        MarginPositive:
+          - 80,00000
+          - 50,00000
+          - 50,00000
+      Gyaml: AreaCulling
+      Hash: '13943946569379909089'
+      Phive:
+        Placement: {ID: 13943946569379909089}
+      Rotate:
+        - 0,00000
+        - -1,01304
+        - 0,00000
+      SRTHash: !u 1225626279
+      Scale:
+        - 14,81489
+        - 8,48880
+        - 27,92701
+      Translate:
+        - -136,33340
+        - 210,24110
+        - -829,76390
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 200,00000
+          - 100,00000
+          - 30,00000
+        MarginPositive:
+          - 200,00000
+          - 200,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '5903368723292381227'
+      Phive:
+        Placement: {ID: 5903368723292381227}
+      Rotate:
+        - 0,00000
+        - -0,20286
+        - 0,00000
+      SRTHash: !u 3952637955
+      Translate:
+        - -255,42710
+        - 211,62400
+        - -740,20950
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 100,00000
+          - 100,00000
+          - 100,00000
+        MarginPositive:
+          - 100,00000
+          - 50,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '8113271814361166051'
+      Phive:
+        Placement: {ID: 8113271814361166051}
+      Rotate:
+        - -0,29882
+        - 0,00000
+        - 0,00000
+      SRTHash: !u 1493242055
+      Translate:
+        - -318,52540
+        - 376,79890
+        - -891,57130
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 5,00000
+          - 15,00000
+          - 30,00000
+        MarginPositive:
+          - 5,00000
+          - 25,00000
+          - 5,00000
+      Gyaml: AreaCulling
+      Hash: '4242874502165596941'
+      Phive:
+        Placement: {ID: 4242874502165596941}
+      Rotate:
+        - 0,00000
+        - -0,66826
+        - 0,00000
+      SRTHash: !u 848371338
+      Scale:
+        - 10,18617
+        - 25,26503
+        - 10,78237
+      Translate:
+        - -254,33800
+        - 144,21020
+        - -769,50200
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 150,00000
+          - 50,00000
+          - 150,00000
+        MarginPositive:
+          - 150,00000
+          - 120,00000
+          - 150,00000
+      Gyaml: AreaCulling
+      Hash: '1353981104409617409'
+      Phive:
+        Placement: {ID: 1353981104409617409}
+      Rotate:
+        - -0,06791
+        - 0,78540
+        - -0,06314
+      SRTHash: !u 3564597414
+      Scale:
+        - 30,00000
+        - 10,00000
+        - 30,00000
+      Translate:
+        - -10,00467
+        - 142,73020
+        - -1099,90100
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 200,00000
+          - 20,00000
+          - 200,00000
+        MarginPositive:
+          - 140,00000
+          - 350,00000
+          - 30,00000
+      Gyaml: AreaCulling
+      Hash: '13367958395589736783'
+      Phive:
+        Placement: {ID: 13367958395589736783}
+      SRTHash: !u 791265953
+      Translate:
+        - -400,65400
+        - 381,56060
+        - -1035,51600
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 300,00000
+          - 2,40000
+          - 300,00000
+        MarginPositive:
+          - 300,00000
+          - 300,00000
+          - 40,00000
+      Gyaml: AreaCulling
+      Hash: '15309057753441770086'
+      Phive:
+        Placement: {ID: 15309057753441770086}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 3556293560
+      Scale:
+        - 3,04200
+        - 1,37169
+        - 3,00000
+      Translate:
+        - -323,75300
+        - 121,52350
+        - -151,80500
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 300,00000
+          - 40,00000
+          - 300,00000
+        MarginPositive:
+          - 170,00000
+          - 400,00000
+          - 100,00000
+      Gyaml: AreaCulling
+      Hash: '10215499894725812576'
+      Phive:
+        Placement: {ID: 10215499894725812576}
+      Rotate:
+        - 0,00000
+        - -0,89878
+        - 0,00000
+      SRTHash: !u 3606502506
+      Scale:
+        - 41,66534
+        - 10,39055
+        - 45,32249
+      Translate:
+        - -204,49900
+        - 368,28480
+        - -1153,87700
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 200,00000
+          - 1,00000
+          - 200,00000
+        MarginPositive:
+          - 40,00000
+          - 300,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '8676623014951159673'
+      Phive:
+        Placement: {ID: 8676623014951159673}
+      SRTHash: !u 3251184646
+      Translate:
+        - -322,86250
+        - 413,22660
+        - -962,85810
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 200,00000
+          - 1,00000
+          - 2,00000
+        MarginPositive:
+          - 9,00000
+          - 350,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '15993828075524802427'
+      Phive:
+        Placement: {ID: 15993828075524802427}
+      SRTHash: !u 908793707
+      Scale:
+        - 28,34853
+        - 27,25862
+        - 38,99052
+      Translate:
+        - -371,82840
+        - 362,48010
+        - -996,17080
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 200,00000
+          - 40,00000
+          - 1,00000
+        MarginPositive:
+          - 200,00000
+          - 350,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '15243623868971281221'
+      Phive:
+        Placement: {ID: 15243623868971281221}
+      Rotate:
+        - 0,00000
+        - -0,94509
+        - 0,00000
+      SRTHash: !u 110987745
+      Scale:
+        - 5,00000
+        - 11,40147
+        - 4,00000
+      Translate:
+        - -322,90950
+        - 391,48910
+        - -964,76750
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 200,00000
+          - 1,00000
+          - 70,00000
+        MarginPositive:
+          - 200,00000
+          - 350,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '11087283267719650929'
+      Phive:
+        Placement: {ID: 11087283267719650929}
+      SRTHash: !u 3251184646
+      Translate:
+        - -322,86250
+        - 413,22660
+        - -962,85810
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 2,00000
+          - 5,00000
+          - 5,00000
+        MarginPositive:
+          - 10,00000
+          - 14,00000
+          - 5,00000
+      Gyaml: AreaCulling
+      Hash: '8521501322299973942'
+      Phive:
+        Placement: {ID: 8521501322299973942}
+      Rotate:
+        - 0,00000
+        - 0,00000
+        - -0,38397
+      SRTHash: !u 894256361
+      Scale:
+        - 2,01000
+        - 2,01000
+        - 2,01000
+      Translate:
+        - -260,54460
+        - 107,92530
+        - -99,51157
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 200,00000
+          - 10,00000
+          - 200,00000
+        MarginPositive:
+          - 200,00000
+          - 200,00000
+          - 150,00000
+      Gyaml: AreaCulling
+      Hash: '10489574838379106306'
+      Phive:
+        Placement: {ID: 10489574838379106306}
+      Rotate:
+        - 0,00000
+        - 0,12374
+        - 0,00000
+      SRTHash: !u 423265433
+      Scale:
+        - 3,00000
+        - 1,20000
+        - 3,50000
+      Translate:
+        - -313,12690
+        - 129,02070
+        - -324,29690
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 200,00000
+          - 35,00000
+          - 20,00000
+        MarginPositive:
+          - 50,00000
+          - 350,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '8517774609114085125'
+      Phive:
+        Placement: {ID: 8517774609114085125}
+      SRTHash: !u 4002484493
+      Scale:
+        - 18,98227
+        - 14,19723
+        - 35,33045
+      Translate:
+        - -321,40240
+        - 385,92140
+        - -928,01540
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 200,00000
+          - 40,00000
+          - 200,00000
+        MarginPositive:
+          - 5,00000
+          - 300,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '3830633087650871112'
+      Phive:
+        Placement: {ID: 3830633087650871112}
+      SRTHash: !u 142615098
+      Translate:
+        - -340,68480
+        - 390,65090
+        - -957,25980
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 45,00000
+          - 2,00000
+          - 10,00000
+        MarginPositive:
+          - 80,00000
+          - 100,00000
+          - 100,00000
+      Gyaml: AreaCulling
+      Hash: '15346749597497315739'
+      Phive:
+        Placement: {ID: 15346749597497315739}
+      SRTHash: !u 3849779690
+      Translate:
+        - -288,83290
+        - 403,47370
+        - -967,57920
+      Version: !l 101
     - Bakeable: true
       Gyaml: FldObj_CliffWhiteParts_A_06
       Hash: '10477170452384552017'

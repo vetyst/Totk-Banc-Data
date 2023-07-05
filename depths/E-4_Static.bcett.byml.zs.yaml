@@ -2634,6 +2634,82 @@ root:
         - -249,34160
         - -2366,88500
         - -691,23160
+    - Gyaml: NavMeshCutBoxArea
+      Hash: '1810322446392656366'
+      Phive:
+        Placement: {ID: 1810322446392656366}
+      Presence: {FlagName: DefeatGanondorf_AppearZonauBoss, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 1169341924
+      Scale:
+        - 60,00000
+        - 10,00000
+        - 2,00000
+      Translate:
+        - -274,21820
+        - -2366,88500
+        - -731,27250
+      Version: !l 101
+    - Gyaml: NavMeshCutBoxArea
+      Hash: '18355922327144289608'
+      Phive:
+        Placement: {ID: 18355922327144289608}
+      Presence: {FlagName: DefeatGanondorf_AppearZonauBoss, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 1844877592
+      Scale:
+        - 65,00000
+        - 10,00000
+        - 2,00000
+      Translate:
+        - -249,21820
+        - -2366,88500
+        - -756,27250
+      Version: !l 101
+    - Gyaml: NavMeshCutBoxArea
+      Hash: '9321769660966593265'
+      Phive:
+        Placement: {ID: 9321769660966593265}
+      Presence: {FlagName: DefeatGanondorf_AppearZonauBoss, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 474062481
+      Scale:
+        - 2,00000
+        - 10,00000
+        - 65,00000
+      Translate:
+        - -249,21820
+        - -2366,88500
+        - -706,27250
+      Version: !l 101
+    - Gyaml: NavMeshCutBoxArea
+      Hash: '7711813921370125302'
+      Phive:
+        Placement: {ID: 7711813921370125302}
+      Presence: {FlagName: DefeatGanondorf_AppearZonauBoss, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 3565135278
+      Scale:
+        - 2,00000
+        - 10,00000
+        - 65,00000
+      Translate:
+        - -224,21820
+        - -2366,88500
+        - -731,27250
+      Version: !l 101
     - Dynamic: {IsOverrideCave: true, Location: MinusField_OpeningFieldEnd}
       Gyaml: LocationArea
       Hash: '12983555832769117655'
@@ -19685,6 +19761,10 @@ root:
       Logic: Logic/Module/Set_Ganondorf_ArmyBattle/Set_Ganondorf_ArmyBattle_05ad.logic.module.ain
       References:
         - {Id: Enemy_DungeonBoss_Zonau_5b3d, Path: Enemy_DungeonBoss_Zonau_5b3d, Reference: 3390239066210577991}
+        - {Id: NavMeshCutBoxArea_4ac0, Path: NavMeshCutBoxArea_4ac0, Reference: 18355922327144289608}
+        - {Id: NavMeshCutBoxArea_a296, Path: NavMeshCutBoxArea_a296, Reference: 7711813921370125302}
+        - {Id: NavMeshCutBoxArea_4c6e, Path: NavMeshCutBoxArea_4c6e, Reference: 9321769660966593265}
+        - {Id: NavMeshCutBoxArea_421b, Path: NavMeshCutBoxArea_421b, Reference: 1810322446392656366}
     - Hash: '5302966095041075161'
       Logic: Logic/Module/Set_Ganondorf_AllArea/Set_Ganondorf_AllArea_c55b.logic.module.ain
       References:
@@ -20081,6 +20161,11 @@ root:
       - 6022333228945637039
       - 8603260898831830643
       - 17722964486388858272
+    - - 1810322446392656366
+      - 3390239066210577991
+      - 7711813921370125302
+      - 9321769660966593265
+      - 18355922327144289608
     - - 3672570572336648996
       - 4041417977918910278
       - 4861612370587008215
@@ -20525,6 +20610,11 @@ root:
       - 6022333228945637039
       - 8603260898831830643
       - 17722964486388858272
+    - - 1810322446392656366
+      - 3390239066210577991
+      - 7711813921370125302
+      - 9321769660966593265
+      - 18355922327144289608
     - - 3672570572336648996
       - 4041417977918910278
       - 4861612370587008215

@@ -4358,22 +4358,6 @@ root:
         - -3526,36500
         - 146,01620
         - 2958,06500
-    - Dynamic: {Drop__DropTable: Gerudo}
-      Gyaml: KibakoGerudo_Contain_01
-      Hash: '16886452773890753410'
-      IsPhysicsStable: true
-      Phive:
-        Placement: {ID: 16886452773890753410}
-      Rotate:
-        - 0,01135
-        - -0,44366
-        - 0,00004
-      SRTHash: !u 3463028379
-      Translate:
-        - -3466,68700
-        - 174,05640
-        - 2946,91300
-      TurnActorNearEnemy: true
     - Dynamic: {Drop__DropActor: Obj_ArrowBundle_A_01}
       Gyaml: TBox_Field_Stone
       Hash: '17283478136424774123'
@@ -10847,6 +10831,22 @@ root:
         - -3798,52300
         - 150,19210
         - 2938,52300
+    - Bakeable: true
+      Gyaml: Obj_GerudoHoleCover_A_02
+      Hash: '7011065276641868995'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 7011065276641868995}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: false, IsNegation: true}
+      Rotate:
+        - 0,00024
+        - -0,43614
+        - -0,00001
+      SRTHash: !u 194661877
+      Translate:
+        - -3889,00000
+        - 149,87690
+        - 2946,50000
     - Gyaml: NavMeshCutBoxArea
       Hash: '15053340536994376469'
       Phive:
@@ -11050,6 +11050,38 @@ root:
         - -3828,01600
         - 150,34550
         - 2915,22000
+    - Bakeable: true
+      Gyaml: Obj_GerudoHoleCover_A_02
+      Hash: '16532569706777243524'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 16532569706777243524}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -0,00008
+        - -0,78537
+        - 0,00013
+      SRTHash: !u 4211208107
+      Translate:
+        - -3888,89100
+        - 149,87680
+        - 2946,39100
+    - Bakeable: true
+      Gyaml: Obj_GerudoHoleCover_A_03
+      Hash: '927228792716507019'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 927228792716507019}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: false, IsNegation: true}
+      Rotate:
+        - -3,14154
+        - 0,58116
+        - -3,14156
+      SRTHash: !u 437530665
+      Translate:
+        - -3896,00000
+        - 159,70880
+        - 2975,00000
     - Gyaml: StartPos
       Hash: '119266412982553166'
       Name: PyramidDungeonEnd
@@ -12680,7 +12712,7 @@ root:
       Hash: '251533609419176652'
       Phive:
         Placement: {ID: 251533609419176652}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - 2,91591
         - 1,17265
@@ -12695,7 +12727,7 @@ root:
       Hash: '16546329915135360268'
       Phive:
         Placement: {ID: 16546329915135360268}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - 0,11373
         - 0,49445
@@ -12710,7 +12742,7 @@ root:
       Hash: '8964713251694630231'
       Phive:
         Placement: {ID: 8964713251694630231}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -2,87884
         - 0,64071
@@ -12725,7 +12757,7 @@ root:
       Hash: '15850970181656953998'
       Phive:
         Placement: {ID: 15850970181656953998}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -3,14159
         - -1,36182
@@ -12740,7 +12772,7 @@ root:
       Hash: '17099301463359227676'
       Phive:
         Placement: {ID: 17099301463359227676}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -2,81445
         - 1,28214
@@ -12755,7 +12787,7 @@ root:
       Hash: '17306534110922014028'
       Phive:
         Placement: {ID: 17306534110922014028}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -2,97178
         - 0,86158
@@ -12844,7 +12876,7 @@ root:
       Hash: '398178248958205460'
       Phive:
         Placement: {ID: 398178248958205460}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -0,25026
         - 0,90320
@@ -12859,7 +12891,7 @@ root:
       Hash: '982304045960921082'
       Phive:
         Placement: {ID: 982304045960921082}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -0,11339
         - 0,00000
@@ -12874,7 +12906,7 @@ root:
       Hash: '10078481921559580621'
       Phive:
         Placement: {ID: 10078481921559580621}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - 0,01463
         - 1,01095
@@ -12889,7 +12921,7 @@ root:
       Hash: '13637774552400099360'
       Phive:
         Placement: {ID: 13637774552400099360}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - 0,20222
         - 0,05661
@@ -12904,7 +12936,7 @@ root:
       Hash: '7810016543669996397'
       Phive:
         Placement: {ID: 7810016543669996397}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - 2,54311
         - -1,53596
@@ -13132,7 +13164,7 @@ root:
       Hash: '556646923741854534'
       Phive:
         Placement: {ID: 556646923741854534}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -0,02558
         - 0,01064
@@ -13258,7 +13290,7 @@ root:
       Hash: '16682208120468931726'
       Phive:
         Placement: {ID: 16682208120468931726}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - 2,98157
         - -0,01889
@@ -13273,7 +13305,7 @@ root:
       Hash: '15118421170899437910'
       Phive:
         Placement: {ID: 15118421170899437910}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -0,11339
         - 0,00000
@@ -13510,7 +13542,7 @@ root:
       Hash: '15923042920729224054'
       Phive:
         Placement: {ID: 15923042920729224054}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -3,14159
         - 0,89773
@@ -13525,7 +13557,7 @@ root:
       Hash: '2280455344489765013'
       Phive:
         Placement: {ID: 2280455344489765013}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - 2,64974
         - 1,09122
@@ -13772,7 +13804,7 @@ root:
       Hash: '3982850522630876787'
       Phive:
         Placement: {ID: 3982850522630876787}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - 3,14159
         - -1,46019
@@ -14533,10 +14565,10 @@ root:
       Phive:
         Placement: {ID: 2504938945312678681}
       Rotate:
-        - 3,14159
+        - -3,14159
         - 1,00341
-        - 3,14159
-      SRTHash: !u 4025113300
+        - 2,71832
+      SRTHash: !u 3015907073
       Translate:
         - -3529,17200
         - 176,65100
@@ -14548,11 +14580,11 @@ root:
       Rotate:
         - 1,70484
         - 0,49246
-        - 2,10123
-      SRTHash: !u 1710615989
+        - 1,67796
+      SRTHash: !u 3199995717
       Translate:
-        - -3529,22600
-        - 176,85560
+        - -3529,13700
+        - 176,85960
         - 2112,14500
     - Gyaml: Item_Fruit_F
       Hash: '3498624697293558452'
@@ -14561,11 +14593,11 @@ root:
       Rotate:
         - -2,64492
         - -0,23458
-        - -1,06059
-      SRTHash: !u 2892887975
+        - -1,48386
+      SRTHash: !u 2213220988
       Translate:
-        - -3528,35500
-        - 176,97100
+        - -3528,29600
+        - 176,60720
         - 2112,20300
     - Bakeable: true
       Gyaml: Obj_PlantMelonGrass_A_01
@@ -14575,8 +14607,8 @@ root:
       Rotate:
         - 0,00000
         - 1,50900
-        - 0,00000
-      SRTHash: !u 393959587
+        - -0,41005
+      SRTHash: !u 2411687728
       Translate:
         - -3885,81300
         - 153,90800
@@ -14588,11 +14620,11 @@ root:
       Rotate:
         - 0,97872
         - 0,70050
-        - 1,67851
-      SRTHash: !u 3692860537
+        - 1,26846
+      SRTHash: !u 2005969493
       Translate:
-        - -3885,86500
-        - 154,11260
+        - -3885,77900
+        - 154,11620
         - 2271,89600
     - Gyaml: Item_Fruit_F
       Hash: '6707126985738081256'
@@ -14601,11 +14633,11 @@ root:
       Rotate:
         - -2,02507
         - -0,48640
-        - -1,28734
-      SRTHash: !u 2050246069
+        - -1,69739
+      SRTHash: !u 2387713563
       Translate:
-        - -3885,19500
-        - 154,22800
+        - -3885,11900
+        - 153,95520
         - 2272,45600
     - Bakeable: true
       Gyaml: Obj_PlantMelonGrass_A_01
@@ -14653,10 +14685,10 @@ root:
       Phive:
         Placement: {ID: 14310971041802368021}
       Rotate:
-        - 3,14159
+        - -3,14159
         - 1,07741
-        - 3,14159
-      SRTHash: !u 1146258373
+        - 2,86895
+      SRTHash: !u 1914005695
       Translate:
         - -3503,26700
         - 146,23800
@@ -14668,11 +14700,11 @@ root:
       Rotate:
         - 1,63092
         - 0,52876
-        - 2,06509
-      SRTHash: !u 1472115021
+        - 1,79244
+      SRTHash: !u 4224817400
       Translate:
-        - -3503,32200
-        - 146,44260
+        - -3503,26500
+        - 146,44980
         - 2257,37000
     - Gyaml: Item_Fruit_F
       Hash: '8375524484737154120'
@@ -14681,11 +14713,11 @@ root:
       Rotate:
         - -2,57793
         - -0,27019
-        - -1,07733
-      SRTHash: !u 3046711411
+        - -1,34997
+      SRTHash: !u 2880211063
       Translate:
-        - -3502,45800
-        - 146,55800
+        - -3502,40200
+        - 146,32830
         - 2257,49300
     - Bakeable: true
       Gyaml: Obj_PlantMelonGrass_A_01
@@ -19257,10 +19289,10 @@ root:
       Phive:
         Placement: {ID: 3296745422399113300}
       Rotate:
-        - 0,00000
-        - -0,44200
-        - 0,00000
-      SRTHash: !u 612408053
+        - 0,26797
+        - -0,35023
+        - 0,25595
+      SRTHash: !u 3220857775
       Translate:
         - -3012,87400
         - 130,98100
@@ -19270,27 +19302,27 @@ root:
       Phive:
         Placement: {ID: 3826428009986779917}
       Rotate:
-        - -0,95262
-        - -0,16362
-        - 0,87943
-      SRTHash: !u 1649767731
+        - -0,72210
+        - -0,30226
+        - 1,18585
+      SRTHash: !u 3099996955
       Translate:
-        - -3012,83600
-        - 131,18560
-        - 2256,82600
+        - -3012,91300
+        - 131,18920
+        - 2256,87500
     - Gyaml: Item_Fruit_F
       Hash: '3826428008154950008'
       Phive:
         Placement: {ID: 3826428008154950008}
       Rotate:
-        - 0,01269
-        - -0,05614
-        - -2,12545
-      SRTHash: !u 1510509951
+        - -0,18667
+        - 0,11653
+        - -1,77153
+      SRTHash: !u 3989408432
       Translate:
-        - -3013,60400
-        - 131,30100
-        - 2257,24000
+        - -3013,59900
+        - 130,93230
+        - 2257,36300
     - Bakeable: true
       Gyaml: Obj_PlantMelonGrass_A_01
       Hash: '10398069281930469530'
@@ -21705,10 +21737,10 @@ root:
       Phive:
         Placement: {ID: 3908025979382221419}
       Rotate:
-        - 3,14159
+        - -3,14159
         - 1,32141
-        - 3,14159
-      SRTHash: !u 524587767
+        - 2,78363
+      SRTHash: !u 2181879063
       Translate:
         - -3104,62800
         - 122,85700
@@ -21720,11 +21752,11 @@ root:
       Rotate:
         - 1,36475
         - 0,62917
-        - 1,91866
-      SRTHash: !u 2238108582
+        - 1,56070
+      SRTHash: !u 2245554188
       Translate:
-        - -3104,68300
-        - 123,06160
+        - -3104,60800
+        - 123,06800
         - 2759,25300
     - Gyaml: Item_Fruit_F
       Hash: '9284980003634887294'
@@ -21733,11 +21765,11 @@ root:
       Rotate:
         - -2,34693
         - -0,37825
-        - -1,15132
-      SRTHash: !u 788112811
+        - -1,50928
+      SRTHash: !u 2924658764
       Translate:
-        - -3103,87500
-        - 123,17700
+        - -3103,81000
+        - 122,89280
         - 2759,58100
     - Gyaml: Item_Mushroom_H
       Hash: '4866022013777033176'

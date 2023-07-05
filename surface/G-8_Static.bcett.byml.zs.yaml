@@ -13249,6 +13249,8 @@ root:
     - Dynamic: {InitState: !l 1, Life_BossLifeGaugeSubtitle: Ground_100}
       Gyaml: Enemy_Drake_Electric
       Hash: '17618439493369911666'
+      Links:
+        - {Dst: 10918986863089062189, Gyaml: MoveTarget, Name: MoveTarget, Src: 17618439493369911666}
       Phive:
         Placement: {ID: 17618439493369911666}
       Rotate:
@@ -13314,6 +13316,20 @@ root:
         - 1059,00000
         - -316,06800
         - 3614,00000
+    - Gyaml: AnchorWaypoint1
+      Hash: '10918986863089062189'
+      Phive:
+        Placement: {ID: 10918986863089062189}
+      Rotate:
+        - 3,14159
+        - 1,33840
+        - 3,14159
+      SRTHash: !u 3626946828
+      Translate:
+        - 1059,00000
+        - 283,93200
+        - 3614,00000
+      Version: !l 101
     - Gyaml: SageLightOrbAreaBox
       Hash: '2187116041431837341'
       Phive:
@@ -13548,11 +13564,11 @@ root:
         - 0,00000
         - 0,34907
         - 0,00000
-      SRTHash: !u 1921236295
+      SRTHash: !u 721241580
       Translate:
-        - 1157,58600
-        - 132,86910
-        - 3107,73400
+        - 1157,71500
+        - 132,72670
+        - 3108,08700
     - Dynamic: {EquipmentUser_Shield: Weapon_Shield_006, EquipmentUser_Weapon: Weapon_Sword_108, Role: !l 7}
       Gyaml: Enemy_Bokoblin_Senior
       Hash: '3613391976231139226'
@@ -13573,7 +13589,7 @@ root:
       Links:
         - {Dst: 15655050288016967485, Gyaml: Reference, Name: Reference, Src: 17896598304271118343}
         - {Dst: 15620689916192887249, Gyaml: Reference, Name: Reference, Src: 17896598304271118343}
-      MoveRadius: 11,42351
+      MoveRadius: 11,06762
       Name: Firone_G-8
       Phive:
         Placement: {ID: 17896598304271118343}
@@ -15160,6 +15176,7 @@ root:
       Links:
         - {Dst: 3741922227516486772, Gyaml: Reference, Name: Reference, Src: 5976151609698792855}
         - {Dst: 17214730710559115789, Gyaml: Reference, Name: Reference, Src: 5976151609698792855}
+        - {Dst: 12627484138987413200, Gyaml: Reference, Name: Reference, Src: 5976151609698792855}
         - {Dst: 8971903895020413263, Gyaml: Reference, Name: Reference, Src: 5976151609698792855}
         - {Dst: 10470760111844334254, Gyaml: Reference, Name: Reference, Src: 5976151609698792855}
         - {Dst: 2081559388171206095, Gyaml: Reference, Name: Reference, Src: 5976151609698792855}
@@ -15439,6 +15456,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_CaravanWagon_A_01
       Hash: '5255127371842524810'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -15462,6 +15480,7 @@ root:
       Dynamic: {PlacementMotion_MotionType: !l 1}
       Gyaml: AsbObj_WoodWheel_A_01
       Hash: '9856408659245654155'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -15494,13 +15513,13 @@ root:
               UserData: {IsManufactured: true}
         Placement: {ID: 9856408659245654155}
       Rotate:
-        - 1,58746
-        - 0,05932
-        - 1,61908
-      SRTHash: !u 12723969
+        - 1,58998
+        - 0,05892
+        - 1,61936
+      SRTHash: !u 2195683368
       Translate:
-        - 1612,44100
-        - 165,89600
+        - 1612,43800
+        - 165,89440
         - 3465,78100
     - Bakeable: true
       Dynamic: {PlacementMotion_MotionType: !l 1}
@@ -15538,14 +15557,14 @@ root:
               UserData: {IsManufactured: true}
         Placement: {ID: 9443835305976001110}
       Rotate:
-        - -1,58918
-        - 0,00492
-        - -1,52353
-      SRTHash: !u 203504161
+        - -1,58998
+        - -0,05892
+        - -1,52224
+      SRTHash: !u 3872079402
       Translate:
-        - 1609,09700
-        - 165,81930
-        - 3468,90800
+        - 1609,09300
+        - 165,91660
+        - 3468,91100
     - Bakeable: true
       Dynamic: {PlacementMotion_MotionType: !l 1}
       Gyaml: AsbObj_WoodWheel_A_01
@@ -15582,14 +15601,14 @@ root:
               UserData: {IsManufactured: true}
         Placement: {ID: 13449493308304151547}
       Rotate:
-        - -1,58661
-        - -0,05908
-        - -1,52252
-      SRTHash: !u 3097752144
+        - -1,58998
+        - -0,05892
+        - -1,52224
+      SRTHash: !u 3260038657
       Translate:
-        - 1612,48000
-        - 166,06480
-        - 3468,59500
+        - 1612,48400
+        - 166,06280
+        - 3468,59600
     - Bakeable: true
       Dynamic: {PlacementMotion_MotionType: !l 1}
       Gyaml: AsbObj_WoodWheel_A_01
@@ -15626,14 +15645,14 @@ root:
               UserData: {IsManufactured: true}
         Placement: {ID: 14908819337767579276}
       Rotate:
-        - 1,59011
-        - -0,00363
-        - 1,61809
-      SRTHash: !u 1571943562
+        - 1,58998
+        - 0,05892
+        - 1,61936
+      SRTHash: !u 2647804649
       Translate:
-        - 1609,03400
-        - 165,83040
-        - 3465,59000
+        - 1609,03900
+        - 165,71820
+        - 3465,59700
     - Bakeable: true
       Gyaml: AsbObj_WhiteWoodRectangle_A_LL_01
       Hash: '9196857786298925297'
@@ -15930,6 +15949,7 @@ root:
     - Bakeable: true
       Gyaml: HiddenKorok_SilhouettePazzle_003
       Hash: '1770478894964760666'
+      IsForceActive: true
       IsPhysicsStable: true
       Links:
         - {Dst: 15492507602723340244, Gyaml: Snapping, Name: Snapping, Src: 1770478894964760666}
@@ -16205,6 +16225,7 @@ root:
     - Bakeable: true
       Gyaml: HiddenKorok_SilhouettePazzle_009
       Hash: '3209226152784648405'
+      IsForceActive: true
       IsPhysicsStable: true
       Links:
         - {Dst: 7130007397976632108, Gyaml: Snapping, Name: Snapping, Src: 3209226152784648405}
@@ -16621,6 +16642,7 @@ root:
       Links:
         - {Dst: 2832303903800302496, Gyaml: Reference, Name: Reference, Src: 7803865430457438659}
         - {Dst: 15884293919529742049, Gyaml: Reference, Name: Reference, Src: 7803865430457438659}
+        - {Dst: 13491218682896022022, Gyaml: Reference, Name: Reference, Src: 7803865430457438659}
         - {Dst: 5634362082519974124, Gyaml: Reference, Name: Reference, Src: 7803865430457438659}
         - {Dst: 9343980577187068098, Gyaml: Reference, Name: Reference, Src: 7803865430457438659}
         - {Dst: 2481540777747423596, Gyaml: Reference, Name: Reference, Src: 7803865430457438659}

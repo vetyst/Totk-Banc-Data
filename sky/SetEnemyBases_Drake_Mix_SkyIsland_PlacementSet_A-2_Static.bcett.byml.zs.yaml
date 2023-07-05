@@ -7,6 +7,8 @@ root:
     - Dynamic: {Life_BossLifeGaugeSubtitle: SkyIsland_Drake_HebraWest, NestUser_ChangeDefaultTerritoryToCustomKeyName: FloatingIsland}
       Gyaml: Enemy_Drake_Mix
       Hash: '17371437495503120726'
+      Links:
+        - {Dst: 17305147969443491979, Gyaml: MoveTarget, Name: MoveTarget, Src: 17371437495503120726}
       Phive:
         Placement: {ID: 17371437495503120726}
       SRTHash: !u 1746207283
@@ -56,6 +58,16 @@ root:
         - -4470,63500
         - 889,90080
         - -2275,43100
+    - Gyaml: AnchorWaypoint1
+      Hash: '17305147969443491979'
+      Phive:
+        Placement: {ID: 17305147969443491979}
+      SRTHash: !u 1254952830
+      Translate:
+        - -4470,63500
+        - 1452,50100
+        - -2275,43100
+      Version: !l 101
     - Dynamic: {Drop__DropActor: Obj_SageWill}
       ExtraCreateRadius: 220,00000
       Gyaml: TBox_Field_Enemy_Zonau

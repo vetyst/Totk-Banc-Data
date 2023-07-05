@@ -8864,6 +8864,7 @@ root:
     - Bakeable: true
       Gyaml: FldObj_MessageBottle
       Hash: '8488645138830514145'
+      IsForceActive: true
       IsPhysicsStable: true
       Links:
         - {Dst: 2053742653879625937, Gyaml: Reference, Name: Reference, Src: 8488645138830514145}
@@ -11819,6 +11820,7 @@ root:
       Links:
         - {Dst: 13831644003110899202, Gyaml: Reference, Name: Reference, Src: 15464853460656461924}
         - {Dst: 8283634649517497472, Gyaml: Reference, Name: Reference, Src: 15464853460656461924}
+        - {Dst: 5453661921124315298, Gyaml: Reference, Name: Reference, Src: 15464853460656461924}
         - {Dst: 17594093809162698318, Gyaml: Reference, Name: Reference, Src: 15464853460656461924}
         - {Dst: 5863190182912876652, Gyaml: Reference, Name: Reference, Src: 15464853460656461924}
         - {Dst: 10726857209115560396, Gyaml: Reference, Name: Reference, Src: 15464853460656461924}
@@ -12457,6 +12459,7 @@ root:
       Links:
         - {Dst: 9317817919741455348, Gyaml: Reference, Name: Reference, Src: 14001066057656302938}
         - {Dst: 9097397728614072213, Gyaml: Reference, Name: Reference, Src: 14001066057656302938}
+        - {Dst: 6429484242838050207, Gyaml: Reference, Name: Reference, Src: 14001066057656302938}
         - {Dst: 17015045044967365539, Gyaml: Reference, Name: Reference, Src: 14001066057656302938}
         - {Dst: 8047250097386687546, Gyaml: Reference, Name: Reference, Src: 14001066057656302938}
         - {Dst: 10088140068165496099, Gyaml: Reference, Name: Reference, Src: 14001066057656302938}
@@ -12721,6 +12724,7 @@ root:
       Dynamic: {PlacementMotion_MotionType: !l 1}
       Gyaml: AsbObj_WoodWheel_A_01
       Hash: '10347420446733683426'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -12765,6 +12769,7 @@ root:
       Dynamic: {PlacementMotion_MotionType: !l 1}
       Gyaml: AsbObj_WoodWheel_A_01
       Hash: '13768862712574010773'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -13085,16 +13090,6 @@ root:
         - -2966,65300
         - 276,62610
         - -540,98750
-    - Gyaml: BarrelBomb2
-      Hash: '16710969436338402502'
-      IsPhysicsStable: true
-      Phive:
-        Placement: {ID: 16710969436338402502}
-      SRTHash: !u 635468027
-      Translate:
-        - -2851,64100
-        - 340,96160
-        - -374,59440
     - Dynamic: {NonEnemySearch: true}
       Gyaml: ForbidAutoPlacementAreaSphere
       Hash: '4983207027707493247'
@@ -14096,6 +14091,20 @@ root:
         - 331,74810
         - -381,17230
     - Bakeable: true
+      Gyaml: BoarMeat_Frame
+      Hash: '3029600358263091763'
+      Phive:
+        Placement: {ID: 3029600358263091763}
+      Rotate:
+        - -0,00001
+        - 1,53814
+        - -0,00001
+      SRTHash: !u 3668752987
+      Translate:
+        - -2836,59600
+        - 331,98180
+        - -380,89150
+    - Bakeable: true
       Gyaml: FireWood
       Hash: '11019236070891844872'
       Phive:
@@ -14151,6 +14160,33 @@ root:
         - -2850,72100
         - 343,55000
         - -368,88860
+    - Dynamic:
+        MarginNegative:
+          - 18,35570
+          - 18,35570
+          - 60,00000
+        MarginPositive:
+          - 18,35570
+          - 1,00000
+          - 18,35570
+      Gyaml: AreaCulling
+      Hash: '3309696756434986232'
+      Phive:
+        Placement: {ID: 3309696756434986232}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 1117744751
+      Scale:
+        - 27,92470
+        - 16,63651
+        - 36,71140
+      Translate:
+        - -2895,06200
+        - 239,25280
+        - -478,66050
+      Version: !l 110
     - Bakeable: true
       Gyaml: FldObj_CliffYellowWall_A_01_Far
       Hash: '13450726110469679979'
@@ -24104,6 +24140,9 @@ root:
     - - 2850439719787244309
       - 14380709949928131067
       - 18280329515629281391
+    - - 3029600358263091763
+      - 11019236070891844872
+      - 11733757975603154897
     - - 3641004036858762018
       - 14984202890664499511
       - 15688364342618453738
@@ -24125,8 +24164,6 @@ root:
       - 6871540259242371193
     - - 8237156279142410475
       - 8554041849134446217
-    - - 11019236070891844872
-      - 11733757975603154897
   FilePath: Work/Banc/Scene/MainField/C-4.bcett.json
   PhiveHeader:
     PlacementGroups: []
@@ -27230,6 +27267,9 @@ root:
     - - 2850439719787244309
       - 14380709949928131067
       - 18280329515629281391
+    - - 3029600358263091763
+      - 11019236070891844872
+      - 11733757975603154897
     - - 3641004036858762018
       - 14984202890664499511
       - 15688364342618453738
@@ -27251,5 +27291,3 @@ root:
       - 6871540259242371193
     - - 8237156279142410475
       - 8554041849134446217
-    - - 11019236070891844872
-      - 11733757975603154897

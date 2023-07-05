@@ -5846,39 +5846,39 @@ root:
       Hash: '11519219185753910207'
       Phive:
         Placement: {ID: 11519219185753910207}
-      SRTHash: !u 1568980435
+      SRTHash: !u 4247152433
       Scale:
         - 500,00000
         - 10,00000
         - 500,00000
       Translate:
-        - 2492,96300
-        - 850,61500
-        - 1510,23000
+        - 2500,00000
+        - 870,00000
+        - 1751,00000
     - Gyaml: DestinationAnchor
       Hash: '3619212993573645785'
       Phive:
         Placement: {ID: 3619212993573645785}
-      SRTHash: !u 104923122
+      SRTHash: !u 2624988459
       Scale:
         - 10,00000
         - 10,00000
         - 10,00000
       Translate:
-        - 2492,96300
-        - 860,61500
-        - 1959,23000
+        - 2500,00000
+        - 880,00000
+        - 2200,00000
     - Gyaml: Item_CatchInAir
       Hash: '18237133012669713249'
       Links:
         - {Dst: 3619212993573645785, Gyaml: Reference, Name: Reference, Src: 18237133012669713249}
       Phive:
         Placement: {ID: 18237133012669713249}
-      SRTHash: !u 1438982139
+      SRTHash: !u 192635084
       Translate:
-        - 2492,96300
-        - 860,61500
-        - 1510,23000
+        - 2500,00000
+        - 880,00000
+        - 1751,00000
     - Dynamic: {Location: SkyIslands_Hateru01}
       Gyaml: LocationArea
       Hash: '14988995970591471368'
@@ -11047,6 +11047,7 @@ root:
     - Bakeable: true
       Gyaml: KibakoSeaside_Contain_01
       Hash: '2686105110075398976'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 2686105110075398976}
@@ -14755,6 +14756,7 @@ root:
       Links:
         - {Dst: 17695304862896986033, Gyaml: Reference, Name: Reference, Src: 10447989290767438494}
         - {Dst: 10441879450081651478, Gyaml: Reference, Name: Reference, Src: 10447989290767438494}
+        - {Dst: 16541489680964073948, Gyaml: Reference, Name: Reference, Src: 10447989290767438494}
         - {Dst: 12847198751504072774, Gyaml: Reference, Name: Reference, Src: 10447989290767438494}
         - {Dst: 15221222177331493234, Gyaml: Reference, Name: Reference, Src: 10447989290767438494}
         - {Dst: 15778914419670687430, Gyaml: Reference, Name: Reference, Src: 10447989290767438494}
@@ -14968,6 +14970,7 @@ root:
     - Bakeable: true
       Gyaml: FldObj_FallingRock_B_01
       Hash: '8569678881131495799'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 8569678881131495799}
@@ -14983,6 +14986,7 @@ root:
     - Bakeable: true
       Gyaml: FldObj_FallingRock_B_01
       Hash: '3819586141823244533'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 3819586141823244533}
@@ -15427,6 +15431,7 @@ root:
       Links:
         - {Dst: 5478250778223042323, Gyaml: Reference, Name: Reference, Src: 8518581162423710059}
         - {Dst: 3715438967809913750, Gyaml: Reference, Name: Reference, Src: 8518581162423710059}
+        - {Dst: 9442627662823418192, Gyaml: Reference, Name: Reference, Src: 8518581162423710059}
         - {Dst: 5869665143813001026, Gyaml: Reference, Name: Reference, Src: 8518581162423710059}
         - {Dst: 13033635755742984491, Gyaml: Reference, Name: Reference, Src: 8518581162423710059}
         - {Dst: 5421367538347680194, Gyaml: Reference, Name: Reference, Src: 8518581162423710059}
@@ -17466,6 +17471,81 @@ root:
         - 2787,22600
         - 335,58210
         - 2572,48800
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 300,00000
+          - 150,00000
+          - 300,00000
+        MarginPositive:
+          - 35,00000
+          - 300,00000
+          - 300,00000
+      Gyaml: AreaCulling
+      Hash: '493876196169404614'
+      Phive:
+        Placement: {ID: 493876196169404614}
+      Rotate:
+        - -0,19918
+        - 0,42229
+        - -0,45763
+      SRTHash: !u 1983559985
+      Scale:
+        - 7,34255
+        - 6,33202
+        - 8,02610
+      Translate:
+        - 2368,51500
+        - 329,21120
+        - 2661,41500
+      Version: !l 110
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 200,00000
+          - 250,00000
+          - 300,00000
+        MarginPositive:
+          - 200,00000
+          - 300,00000
+          - 10,00000
+      Gyaml: AreaCulling
+      Hash: '12692631492524910386'
+      Phive:
+        Placement: {ID: 12692631492524910386}
+      Rotate:
+        - 0,59419
+        - -0,14226
+        - -0,01875
+      SRTHash: !u 685659630
+      Translate:
+        - 2368,88200
+        - 334,18730
+        - 2654,12900
+      Version: !l 110
+    - Dynamic:
+        MarginNegative:
+          - 1500,00000
+          - 650,00000
+          - 1500,00000
+        MarginPositive:
+          - 1500,00000
+          - 1500,00000
+          - 1500,00000
+      Gyaml: AreaCulling
+      Hash: '7152698276653536225'
+      Phive:
+        Placement: {ID: 7152698276653536225}
+      SRTHash: !u 2283770286
+      Scale:
+        - 158,26420
+        - 82,98090
+        - 93,20319
+      Translate:
+        - 2698,77300
+        - 1159,55400
+        - 2815,76100
+      Version: !l 110
     - Bakeable: true
       Dynamic: {BancPath: Banc/MainField/Merged/Mrg_H-7_MrgD1000_15-14-13-BF482EFD.bcett.byml}
       Gyaml: MergedActorD1000

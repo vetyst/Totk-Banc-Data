@@ -3864,13 +3864,13 @@ root:
       Presence: {FlagName: TauraChallenge001_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - 0,00000
-        - -0,73680
+        - 0,74296
         - 0,00000
-      SRTHash: !u 2244804196
+      SRTHash: !u 1731303253
       Translate:
-        - 2940,35700
-        - 99,29778
-        - 3373,63600
+        - 2933,02300
+        - 99,36758
+        - 3373,12800
     - Gyaml: PeekAttentionActor
       Hash: '7283089832623999866'
       Phive:
@@ -9457,6 +9457,23 @@ root:
         - 2959,94600
         - 107,61330
         - 3698,16800
+    - Bakeable: true
+      Gyaml: KibakoSeaside_Contain_01
+      Hash: '12793260296105929277'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 12793260296105929277}
+      Presence: {FlagName: Revive_Restaurant_DeleteBase_BoolExp, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 3,13982
+        - 0,85832
+        - 3,14021
+      SRTHash: !u 51458600
+      Translate:
+        - 2883,21700
+        - 114,61940
+        - 3401,42700
+      TurnActorNearEnemy: true
     - Gyaml: AnchorSleep2
       Hash: '3720750368910842308'
       Phive:
@@ -9739,7 +9756,42 @@ root:
         - 3434,05100
     - Bakeable: true
       Gyaml: KibakoSeaside_Contain_01
+      Hash: '12662145973852428655'
+      IsForceActive: true
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 12662145973852428655}
+      Rotate:
+        - 0,00551
+        - -0,29737
+        - -0,07209
+      SRTHash: !u 140463487
+      Translate:
+        - 2915,57900
+        - 118,77230
+        - 3341,46700
+      TurnActorNearEnemy: true
+    - Gyaml: KibakoSeaside_Contain_01
+      Hash: '5933210035959142066'
+      IsForceActive: true
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 5933210035959142066}
+      Presence: {FlagName: TauraChallenge001_DeleteActor, IsCheckLazy: true, IsNegation: true}
+      Rotate:
+        - -0,00199
+        - 0,36460
+        - 0,00940
+      SRTHash: !u 2486362984
+      Translate:
+        - 2946,59500
+        - 117,97210
+        - 3374,56400
+      TurnActorNearEnemy: true
+    - Bakeable: true
+      Gyaml: KibakoSeaside_Contain_01
       Hash: '5016104519309691630'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 5016104519309691630}
@@ -9756,6 +9808,7 @@ root:
     - Bakeable: true
       Gyaml: KibakoSeaside_Contain_01
       Hash: '16987254397730697905'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 16987254397730697905}
@@ -9771,6 +9824,7 @@ root:
       TurnActorNearEnemy: true
     - Gyaml: KibakoSeaside_Contain_01
       Hash: '7966948836160404872'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 7966948836160404872}
@@ -9790,6 +9844,7 @@ root:
       IsPhysicsStable: true
       Links:
         - {Dst: 7966948836160404872, Gyaml: StackInfo, Name: StackInfo, Src: 14352927980270576563}
+        - {Dst: 5933210035959142066, Gyaml: StackInfo, Name: StackInfo, Src: 14352927980270576563}
       Phive:
         Placement: {ID: 14352927980270576563}
       Presence: {FlagName: TauraChallenge001_DeleteActor, IsCheckLazy: true, IsNegation: true}
@@ -9810,6 +9865,7 @@ root:
       Links:
         - {Dst: 16987254397730697905, Gyaml: StackInfo, Name: StackInfo, Src: 14863454368402550752}
         - {Dst: 5016104519309691630, Gyaml: StackInfo, Name: StackInfo, Src: 14863454368402550752}
+        - {Dst: 12662145973852428655, Gyaml: StackInfo, Name: StackInfo, Src: 14863454368402550752}
       Phive:
         Placement: {ID: 14863454368402550752}
       Rotate:
@@ -10687,6 +10743,10 @@ root:
       Gyaml: Kibako_Contain_01
       Hash: '5457673670864452517'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 5197651659833895088, Gyaml: StackInfo, Name: StackInfo, Src: 5457673670864452517}
+        - {Dst: 1266688750929328762, Gyaml: StackInfo, Name: StackInfo, Src: 5457673670864452517}
+        - {Dst: 6042561243499774580, Gyaml: StackInfo, Name: StackInfo, Src: 5457673670864452517}
       Phive:
         Placement: {ID: 5457673670864452517}
       Presence: {FlagName: UotoriPirateShip_Broken_BoolExp, IsCheckLazy: true, IsNegation: true}
@@ -10821,6 +10881,9 @@ root:
       Gyaml: Kibako_Contain_01
       Hash: '14725269738014659962'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 4601610557991144917, Gyaml: StackInfo, Name: StackInfo, Src: 14725269738014659962}
+        - {Dst: 5805181453652234335, Gyaml: StackInfo, Name: StackInfo, Src: 14725269738014659962}
       Phive:
         Placement: {ID: 14725269738014659962}
       Presence: {FlagName: UotoriPirateShip_Broken_BoolExp, IsCheckLazy: true, IsNegation: true}
@@ -14766,6 +14829,23 @@ root:
         - 3931,75000
     - Bakeable: true
       Gyaml: KibakoSeaside_Contain_01
+      Hash: '8098066934126821308'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 8098066934126821308}
+      Presence: {FlagName: Revive_Restaurant_DeleteBase_BoolExp, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00075
+        - 0,33468
+        - 0,00116
+      SRTHash: !u 3644081208
+      Translate:
+        - 2885,39300
+        - 114,61920
+        - 3402,72600
+      TurnActorNearEnemy: true
+    - Bakeable: true
+      Gyaml: KibakoSeaside_Contain_01
       Hash: '3563023195076892500'
       IsPhysicsStable: true
       Phive:
@@ -14787,6 +14867,8 @@ root:
       IsPhysicsStable: true
       Links:
         - {Dst: 3563023195076892500, Gyaml: StackInfo, Name: StackInfo, Src: 17555986283724266103}
+        - {Dst: 8098066934126821308, Gyaml: StackInfo, Name: StackInfo, Src: 17555986283724266103}
+        - {Dst: 12793260296105929277, Gyaml: StackInfo, Name: StackInfo, Src: 17555986283724266103}
       Phive:
         Placement: {ID: 17555986283724266103}
       Presence: {FlagName: Revive_Restaurant_DeleteBase_BoolExp, IsCheckLazy: true, IsNegation: false}
@@ -15062,6 +15144,7 @@ root:
       Links:
         - {Dst: 5856050748883447169, Gyaml: Reference, Name: Reference, Src: 1682432606093328063}
         - {Dst: 2052127592354708737, Gyaml: Reference, Name: Reference, Src: 1682432606093328063}
+        - {Dst: 8661743808758458339, Gyaml: Reference, Name: Reference, Src: 1682432606093328063}
         - {Dst: 3039055495308853332, Gyaml: Reference, Name: Reference, Src: 1682432606093328063}
         - {Dst: 6027575012207168357, Gyaml: Reference, Name: Reference, Src: 1682432606093328063}
         - {Dst: 5914759508119249620, Gyaml: Reference, Name: Reference, Src: 1682432606093328063}
@@ -15319,6 +15402,7 @@ root:
     - Bakeable: true
       Gyaml: SpObj_SwitchWheel_B_01
       Hash: '9860299542521769452'
+      IsForceActive: true
       IsPhysicsStable: true
       Links:
         - {Dst: 10226379673303683988, Gyaml: StackInfo, Name: StackInfo, Src: 9860299542521769452}
@@ -15337,6 +15421,7 @@ root:
       Dynamic: {PlacementMotion_MotionType: !l 1}
       Gyaml: AsbObj_StoneRectangle_B_LL_01
       Hash: '10226379673303683988'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 10226379673303683988}
@@ -16052,6 +16137,7 @@ root:
       Links:
         - {Dst: 6316215413336855378, Gyaml: Reference, Name: Reference, Src: 8981752939098967691}
         - {Dst: 14709170259789229905, Gyaml: Reference, Name: Reference, Src: 8981752939098967691}
+        - {Dst: 10073264975339677103, Gyaml: Reference, Name: Reference, Src: 8981752939098967691}
         - {Dst: 6773575892270236835, Gyaml: Reference, Name: Reference, Src: 8981752939098967691}
         - {Dst: 12787287847140818316, Gyaml: Reference, Name: Reference, Src: 8981752939098967691}
         - {Dst: 3612281765652781603, Gyaml: Reference, Name: Reference, Src: 8981752939098967691}
@@ -16237,6 +16323,7 @@ root:
     - Bakeable: true
       Gyaml: Obj_TreePalmBeach_A_01_Trunk_Aligned
       Hash: '11845560938467550865'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 11845560938467550865}
@@ -35401,14 +35488,10 @@ root:
       IsClosed: false
       Name: Guide
       Points:
-        - Dynamic: {IsAdjustPosAndDirToPoint: true, MoveASKeyName: Walk}
+        - Dynamic: {MoveASKeyName: Walk}
           Gyaml: Guide
           Hash: '1376856065097082875'
           NextDistance: 19,31459
-          Rotate:
-            - 0,00000
-            - 0,57985
-            - 0,00000
           Translate:
             - 2843,89800
             - 106,56940
@@ -35530,14 +35613,10 @@ root:
             - 2981,14800
             - 107,80350
             - 3438,80900
-        - Dynamic: {IsAdjustPosAndDirToPoint: true, MoveASKeyName: Walk}
+        - Dynamic: {MoveASKeyName: Walk}
           Gyaml: Guide
           Hash: '13644191140065593192'
           PrevDistance: 15,62288
-          Rotate:
-            - 0,00000
-            - 1,09969
-            - 0,00000
           Translate:
             - 2995,04900
             - 106,95350

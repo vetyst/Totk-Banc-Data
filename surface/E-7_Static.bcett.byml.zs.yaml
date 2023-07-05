@@ -3194,6 +3194,8 @@ root:
     - Dynamic: {InitState: !l 1, Life_BossLifeGaugeSubtitle: Ground_048, NestUser_ChangeDefaultTerritoryToCustomKeyName: Bridge}
       Gyaml: Enemy_Drake_Fire
       Hash: '3292507397962573828'
+      Links:
+        - {Dst: 6748661875643701191, Gyaml: MoveTarget, Name: MoveTarget, Src: 3292507397962573828}
       Phive:
         Placement: {ID: 3292507397962573828}
       Rotate:
@@ -3259,6 +3261,20 @@ root:
         - -47,46593
         - -355,00000
         - 2491,09600
+    - Gyaml: AnchorWaypoint1
+      Hash: '6748661875643701191'
+      Phive:
+        Placement: {ID: 6748661875643701191}
+      Rotate:
+        - -3,14159
+        - -0,34058
+        - -3,14159
+      SRTHash: !u 195660888
+      Translate:
+        - -47,46605
+        - 245,00000
+        - 2491,09600
+      Version: !l 101
     - Gyaml: DesignateMatrixActor
       Hash: '3173175931257082241'
       Name: PeekCameraPos
@@ -3445,6 +3461,7 @@ root:
     - Bakeable: true
       Gyaml: Obj_TreeWhiteBirch_A_01_Trunk_Aligned
       Hash: '7540946852952801086'
+      IsForceActive: true
       IsPhysicsStable: true
       Links:
         - {Dst: 7590435912954402782, Gyaml: StackInfo, Name: StackInfo, Src: 7540946852952801086}
@@ -4885,6 +4902,7 @@ root:
       Links:
         - {Dst: 11960301656631814693, Gyaml: Reference, Name: Reference, Src: 2514797198075599880}
         - {Dst: 1080098445213487292, Gyaml: Reference, Name: Reference, Src: 2514797198075599880}
+        - {Dst: 7928358455587435714, Gyaml: Reference, Name: Reference, Src: 2514797198075599880}
         - {Dst: 55136037473008208, Gyaml: Reference, Name: Reference, Src: 2514797198075599880}
         - {Dst: 9193712286038789145, Gyaml: Reference, Name: Reference, Src: 2514797198075599880}
         - {Dst: 8710613961916968144, Gyaml: Reference, Name: Reference, Src: 2514797198075599880}

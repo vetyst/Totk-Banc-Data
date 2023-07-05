@@ -753,6 +753,7 @@ root:
       Hash: '2240252836736822145'
       Links:
         - {Dst: 17231573215475746051, Gyaml: Reference, Name: Reference, Src: 2240252836736822145}
+        - {Dst: 16791424068526071440, Gyaml: Reference, Name: Reference, Src: 2240252836736822145}
         - {Dst: 15803292107647403577, Gyaml: Reference, Name: Reference, Src: 2240252836736822145}
       Phive:
         Placement: {ID: 2240252836736822145}
@@ -844,6 +845,7 @@ root:
       Hash: '14211117840089912762'
       Links:
         - {Dst: 17711070065835373548, Gyaml: Reference, Name: Reference, Src: 14211117840089912762}
+        - {Dst: 16791424068526071440, Gyaml: Reference, Name: Reference, Src: 14211117840089912762}
         - {Dst: 8741355725792099548, Gyaml: Reference, Name: Reference, Src: 14211117840089912762}
       Phive:
         Placement: {ID: 14211117840089912762}
@@ -870,6 +872,17 @@ root:
         - -4310,56300
         - -374,20700
         - 3782,03800
+    - Gyaml: DestinationAnchor
+      Hash: '16791424068526071440'
+      Name: ActorDeleteAnchorMinusColosseum
+      Phive:
+        Placement: {ID: 16791424068526071440}
+      SRTHash: !u 2184379717
+      Translate:
+        - -4310,56300
+        - -374,70690
+        - 3731,03800
+      Version: !l 101
     - Dynamic: {CreateHorablinMovingType: !l 1, Drop__DropTable: Minus, EquipmentUser_Weapon: Weapon_Spear_108, IsStartForceBattle: true}
       Gyaml: Enemy_Horablin_Junior
       Hash: '8258340236136065145'
@@ -4615,6 +4628,90 @@ root:
         - -4409,36400
         - -355,40600
         - 3620,87100
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 50,00000
+          - 0,00100
+          - 200,00000
+        MarginPositive:
+          - 50,00000
+          - 50,00000
+          - 0,00100
+      Gyaml: AreaCulling
+      Hash: '10579566150943225913'
+      Phive:
+        Placement: {ID: 10579566150943225913}
+      Rotate:
+        - 0,00000
+        - -0,03590
+        - 0,00000
+      SRTHash: !u 3698911457
+      Scale:
+        - 11,13863
+        - 20,80610
+        - 27,01502
+      Translate:
+        - -4310,99000
+        - -406,12000
+        - 3823,60900
+      Version: !l 110
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 0,00100
+          - 0,00100
+          - 0,00100
+        MarginPositive:
+          - 0,00100
+          - 0,00100
+          - 0,00100
+      Gyaml: AreaCulling
+      Hash: '9175936285450927955'
+      Phive:
+        Placement: {ID: 9175936285450927955}
+      Rotate:
+        - -3,11287
+        - -1,04498
+        - -3,13269
+      SRTHash: !u 33411107
+      Scale:
+        - 12,65297
+        - 22,76228
+        - 72,56977
+      Translate:
+        - -4308,83900
+        - -410,11930
+        - 3784,63400
+      Version: !l 110
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 0,00100
+          - 0,00100
+          - 0,00100
+        MarginPositive:
+          - 0,00100
+          - 0,00100
+          - 0,00100
+      Gyaml: AreaCulling
+      Hash: '8345249240213861012'
+      Phive:
+        Placement: {ID: 8345249240213861012}
+      Rotate:
+        - 0,00000
+        - -1,08290
+        - 0,00000
+      SRTHash: !u 1079908288
+      Scale:
+        - 12,65297
+        - 22,21868
+        - 69,67436
+      Translate:
+        - -4307,14800
+        - -408,94520
+        - 3788,47900
+      Version: !l 110
     - Bakeable: true
       Gyaml: MinusObj_UDSpot_C_01_Far
       Hash: '14097149730168129698'

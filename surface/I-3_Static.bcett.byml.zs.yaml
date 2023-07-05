@@ -2082,6 +2082,7 @@ root:
     - Bakeable: true
       Gyaml: SpObj_FastWheel_A_01
       Hash: '3093022373532413254'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 3093022373532413254}
@@ -2097,6 +2098,7 @@ root:
     - Bakeable: true
       Gyaml: SpObj_FastWheel_A_01
       Hash: '17153579222514334862'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 17153579222514334862}
@@ -2420,6 +2422,22 @@ root:
     - Bakeable: true
       ExtraCreateRadius: 20,00000
       Gyaml: Kibako_Contain_01
+      Hash: '849945269961652590'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 849945269961652590}
+      Rotate:
+        - 3,14135
+        - 0,98415
+        - 3,14157
+      SRTHash: !u 2533987598
+      Translate:
+        - 4007,52400
+        - 234,07590
+        - -1636,84400
+    - Bakeable: true
+      ExtraCreateRadius: 20,00000
+      Gyaml: Kibako_Contain_01
       Hash: '1273692314513214573'
       IsPhysicsStable: true
       Phive:
@@ -2516,7 +2534,7 @@ root:
       Gyaml: SpObj_FastWheel_A_01
       Hash: '16637025651587547293'
       IsPhysicsStable: true
-      Name: Ropeway
+      Name: Ropeway_WheelB
       Phive:
         ConstraintLink:
           ID: 16637025651587547293
@@ -2727,6 +2745,7 @@ root:
       IsPhysicsStable: true
       Links:
         - {Dst: 1273692314513214573, Gyaml: StackInfo, Name: StackInfo, Src: 7370255272928877380}
+        - {Dst: 849945269961652590, Gyaml: StackInfo, Name: StackInfo, Src: 7370255272928877380}
       Phive:
         Placement: {ID: 7370255272928877380}
       Rotate:
@@ -2741,6 +2760,7 @@ root:
     - Bakeable: true
       Gyaml: SpObj_SlipBoard_A_01
       Hash: '15405027983458182745'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 15405027983458182745}
@@ -5122,13 +5142,13 @@ root:
         Placement: {ID: 8383278027948051795}
       Presence: {FlagName: FairyAllClear, IsCheckLazy: true, IsNegation: false}
       Rotate:
-        - -2,67039
-        - 0,00012
-        - 1,57055
-      SRTHash: !u 767127641
+        - -2,67035
+        - 0,00000
+        - 1,57080
+      SRTHash: !u 2498547346
       Translate:
         - 3130,92000
-        - 307,46840
+        - 307,44600
         - -1665,00500
     - Bakeable: true
       Gyaml: AsbObj_WoodWheel_A_02
@@ -5202,7 +5222,7 @@ root:
         - 2,67035
         - 0,00000
         - -1,57080
-      SRTHash: !u 2912374500
+      SRTHash: !u 2068667975
       Translate:
         - 3135,19900
         - 307,44600
@@ -5276,13 +5296,13 @@ root:
         Placement: {ID: 4457742608326900172}
       Presence: {FlagName: FairyAllClear, IsCheckLazy: true, IsNegation: false}
       Rotate:
-        - 2,67050
-        - -0,00007
-        - -1,57093
-      SRTHash: !u 3245475612
+        - 2,67035
+        - 0,00000
+        - -1,57080
+      SRTHash: !u 785556211
       Translate:
         - 3133,43300
-        - 307,47280
+        - 307,44600
         - -1666,28500
     - Bakeable: true
       Gyaml: AsbObj_WoodWheel_A_02
@@ -5356,7 +5376,7 @@ root:
         - -2,67035
         - 0,00000
         - 1,57080
-      SRTHash: !u 351142427
+      SRTHash: !u 1048968264
       Translate:
         - 3132,24100
         - 307,44600
@@ -9112,6 +9132,24 @@ root:
         - 3933,58700
         - 350,58860
         - -1187,07300
+    - Gyaml: NavMeshPaintBoxArea_GiantNoEntryNotForce
+      Hash: '16061807449333490079'
+      Phive:
+        Placement: {ID: 16061807449333490079}
+      Rotate:
+        - 3,13835
+        - -0,50482
+        - 3,13334
+      SRTHash: !u 2692681970
+      Scale:
+        - 21,10000
+        - 21,10000
+        - 21,10000
+      Translate:
+        - 3933,58700
+        - 350,58860
+        - -1187,07300
+      Version: !l 110
     - Bakeable: true
       Gyaml: FldObj_HyliaWoodWell_A_01
       Hash: '4569579402553836926'
@@ -10006,6 +10044,7 @@ root:
         - {Dst: 8405047279153285262, Gyaml: Reference, Name: Reference, Src: 12826372992785797071}
         - {Dst: 9570748008626997410, Gyaml: Reference, Name: Reference, Src: 12826372992785797071}
         - {Dst: 5375158427027549864, Gyaml: Reference, Name: Reference, Src: 12826372992785797071}
+        - {Dst: 7919022260423066037, Gyaml: Reference, Name: Reference, Src: 12826372992785797071}
       MoveRadius: 5,52268
       Name: Figures
       Phive:
@@ -10028,6 +10067,7 @@ root:
         - {Dst: 5391503264405894573, Gyaml: Reference, Name: Reference, Src: 15405036094008088004}
         - {Dst: 9570748008626997410, Gyaml: Reference, Name: Reference, Src: 15405036094008088004}
         - {Dst: 5375158427027549864, Gyaml: Reference, Name: Reference, Src: 15405036094008088004}
+        - {Dst: 7919022260423066037, Gyaml: Reference, Name: Reference, Src: 15405036094008088004}
       MoveRadius: 3,82764
       Name: Figures
       Phive:
@@ -12252,6 +12292,8 @@ root:
     - Dynamic: {InitState: !l 1, Life_BossLifeGaugeSubtitle: Ground_097, NestUser_ChangeDefaultTerritoryToCustomKeyName: I-3_Cliff}
       Gyaml: Enemy_Drake_Electric
       Hash: '16188501114549156914'
+      Links:
+        - {Dst: 9489325390268085702, Gyaml: MoveTarget, Name: MoveTarget, Src: 16188501114549156914}
       Phive:
         Placement: {ID: 16188501114549156914}
       Rotate:
@@ -12317,6 +12359,20 @@ root:
         - 3424,24400
         - -57,21970
         - -1289,67800
+    - Gyaml: AnchorWaypoint1
+      Hash: '9489325390268085702'
+      Phive:
+        Placement: {ID: 9489325390268085702}
+      Rotate:
+        - -3,12362
+        - -0,21763
+        - 3,14059
+      SRTHash: !u 575544901
+      Translate:
+        - 3422,51700
+        - 542,68540
+        - -1300,20700
+      Version: !l 101
     - Gyaml: StableHostelPictureInterestEmitActor
       Hash: '16651029804803216214'
       Phive:
@@ -12725,6 +12781,7 @@ root:
     - Bakeable: true
       Gyaml: SpObj_Chaser_A_01
       Hash: '1861340745490258815'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 1861340745490258815}
@@ -13362,6 +13419,9 @@ root:
       Gyaml: Kibako_Contain_01
       Hash: '14072029874176296535'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 16825330605389109923, Gyaml: StackInfo, Name: StackInfo, Src: 14072029874176296535}
+        - {Dst: 14982681575774639725, Gyaml: StackInfo, Name: StackInfo, Src: 14072029874176296535}
       Phive:
         Placement: {ID: 14072029874176296535}
       Rotate:
@@ -13376,6 +13436,7 @@ root:
     - Dynamic: {Drop__DropTable: NoDrop}
       Gyaml: Kibako_Contain_01
       Hash: '16825330605389109923'
+      IsForceActive: true
       IsInWater: true
       IsPhysicsStable: true
       Phive:
@@ -13393,6 +13454,9 @@ root:
       Gyaml: Kibako_Contain_01
       Hash: '16417960508352841541'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 14072029874176296535, Gyaml: StackInfo, Name: StackInfo, Src: 16417960508352841541}
+        - {Dst: 8287798426739640278, Gyaml: StackInfo, Name: StackInfo, Src: 16417960508352841541}
       Phive:
         Placement: {ID: 16417960508352841541}
       Rotate:
@@ -13407,6 +13471,7 @@ root:
     - Dynamic: {Drop__DropTable: NoDrop}
       Gyaml: Kibako_Contain_01
       Hash: '12494521236987238769'
+      IsForceActive: true
       IsInWater: true
       IsPhysicsStable: true
       Phive:
@@ -13423,6 +13488,7 @@ root:
     - Dynamic: {Drop__DropTable: NoDrop}
       Gyaml: Kibako_Contain_01
       Hash: '14982681575774639725'
+      IsForceActive: true
       IsInWater: true
       IsPhysicsStable: true
       Phive:
@@ -13440,6 +13506,9 @@ root:
       Gyaml: Kibako_Contain_01
       Hash: '8287798426739640278'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 14982681575774639725, Gyaml: StackInfo, Name: StackInfo, Src: 8287798426739640278}
+        - {Dst: 12494521236987238769, Gyaml: StackInfo, Name: StackInfo, Src: 8287798426739640278}
       Phive:
         Placement: {ID: 8287798426739640278}
       Rotate:
@@ -14130,16 +14199,16 @@ root:
         Placement: {ID: 18048818276855934270}
       Rotate:
         - -3,14159
-        - -0,06753
+        - 0,00000
         - -3,14159
-      SRTHash: !u 2579607748
+      SRTHash: !u 2656674519
       Scale:
         - 1000,00000
         - 10,00000
         - 1000,00000
       Translate:
         - 4120,72800
-        - 772,53690
+        - 879,50000
         - -2199,72800
     - Gyaml: DestinationAnchor
       Hash: '11718567059645194832'
@@ -14147,17 +14216,17 @@ root:
         Placement: {ID: 11718567059645194832}
       Rotate:
         - -3,14159
-        - -0,06753
+        - 0,00000
         - -3,14159
-      SRTHash: !u 3988393236
+      SRTHash: !u 361970846
       Scale:
         - 10,00000
         - 10,00000
         - 10,00000
       Translate:
-        - 4056,69500
-        - 782,53670
-        - -3146,56500
+        - 4120,72800
+        - 889,49990
+        - -3148,72800
     - Gyaml: Item_CatchInAir
       Hash: '14158542154526266874'
       Links:
@@ -14166,12 +14235,12 @@ root:
         Placement: {ID: 14158542154526266874}
       Rotate:
         - -3,14159
-        - -0,06753
+        - 0,00000
         - -3,14159
-      SRTHash: !u 604861818
+      SRTHash: !u 3658378459
       Translate:
         - 4120,72800
-        - 782,53690
+        - 889,50000
         - -2199,72800
     - Bakeable: true
       Gyaml: Ef_CloudPlacementArea_02
@@ -15173,6 +15242,7 @@ root:
     - Bakeable: true
       Gyaml: SpObj_SwitchWheel_B_01
       Hash: '3378618714203203302'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -15215,6 +15285,7 @@ root:
     - Bakeable: true
       Gyaml: SpObj_SwitchWheel_B_01
       Hash: '10149579541182601054'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -17128,6 +17199,7 @@ root:
       Links:
         - {Dst: 17699560374924232594, Gyaml: Reference, Name: Reference, Src: 17342496547950330352}
         - {Dst: 12693312141403286284, Gyaml: Reference, Name: Reference, Src: 17342496547950330352}
+        - {Dst: 2157543010209504811, Gyaml: Reference, Name: Reference, Src: 17342496547950330352}
         - {Dst: 14913775068882522158, Gyaml: Reference, Name: Reference, Src: 17342496547950330352}
         - {Dst: 3408194258266069201, Gyaml: Reference, Name: Reference, Src: 17342496547950330352}
         - {Dst: 14856147269065339311, Gyaml: Reference, Name: Reference, Src: 17342496547950330352}
@@ -17370,6 +17442,9 @@ root:
       Gyaml: Kibako_Contain_01
       Hash: '2770465571398115982'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 13888647697886879592, Gyaml: StackInfo, Name: StackInfo, Src: 2770465571398115982}
+        - {Dst: 3875565726807073748, Gyaml: StackInfo, Name: StackInfo, Src: 2770465571398115982}
       Phive:
         Placement: {ID: 2770465571398115982}
       Rotate:
@@ -17400,6 +17475,9 @@ root:
       Gyaml: Kibako_Contain_01
       Hash: '15641648088967271177'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 2770465571398115982, Gyaml: StackInfo, Name: StackInfo, Src: 15641648088967271177}
+        - {Dst: 6753579435159354280, Gyaml: StackInfo, Name: StackInfo, Src: 15641648088967271177}
       Phive:
         Placement: {ID: 15641648088967271177}
       Rotate:
@@ -17414,6 +17492,7 @@ root:
     - Dynamic: {Drop__DropTable: NoDrop}
       Gyaml: Kibako_Contain_01
       Hash: '10844786022620745965'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 10844786022620745965}
@@ -17429,6 +17508,7 @@ root:
     - Dynamic: {Drop__DropTable: NoDrop}
       Gyaml: Kibako_Contain_01
       Hash: '3875565726807073748'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 3875565726807073748}
@@ -17445,6 +17525,9 @@ root:
       Gyaml: Kibako_Contain_01
       Hash: '6753579435159354280'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 3875565726807073748, Gyaml: StackInfo, Name: StackInfo, Src: 6753579435159354280}
+        - {Dst: 10844786022620745965, Gyaml: StackInfo, Name: StackInfo, Src: 6753579435159354280}
       Phive:
         Placement: {ID: 6753579435159354280}
       Rotate:
@@ -17460,6 +17543,9 @@ root:
       Gyaml: Kibako_Contain_01
       Hash: '8441854947332779579'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 7481955318957054782, Gyaml: StackInfo, Name: StackInfo, Src: 8441854947332779579}
+        - {Dst: 8154667855070125797, Gyaml: StackInfo, Name: StackInfo, Src: 8441854947332779579}
       Phive:
         Placement: {ID: 8441854947332779579}
       Rotate:
@@ -17490,6 +17576,9 @@ root:
       Gyaml: Kibako_Contain_01
       Hash: '7855605520704556976'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 8441854947332779579, Gyaml: StackInfo, Name: StackInfo, Src: 7855605520704556976}
+        - {Dst: 16816321080821938177, Gyaml: StackInfo, Name: StackInfo, Src: 7855605520704556976}
       Phive:
         Placement: {ID: 7855605520704556976}
       Rotate:
@@ -17535,6 +17624,9 @@ root:
       Gyaml: Kibako_Contain_01
       Hash: '16816321080821938177'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 8154667855070125797, Gyaml: StackInfo, Name: StackInfo, Src: 16816321080821938177}
+        - {Dst: 15271598882210041284, Gyaml: StackInfo, Name: StackInfo, Src: 16816321080821938177}
       Phive:
         Placement: {ID: 16816321080821938177}
       Rotate:
@@ -17654,6 +17746,9 @@ root:
       Gyaml: Obj_BreakBoxIron
       Hash: '17762731355827409493'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 18211679644413101930, Gyaml: StackInfo, Name: StackInfo, Src: 17762731355827409493}
+        - {Dst: 14032430986793052157, Gyaml: StackInfo, Name: StackInfo, Src: 17762731355827409493}
       Phive:
         Placement: {ID: 17762731355827409493}
       Rotate:
@@ -17714,6 +17809,9 @@ root:
       Gyaml: Obj_BreakBoxIron
       Hash: '10937117012115197689'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 9818821748575347672, Gyaml: StackInfo, Name: StackInfo, Src: 10937117012115197689}
+        - {Dst: 13445804376374598542, Gyaml: StackInfo, Name: StackInfo, Src: 10937117012115197689}
       Phive:
         Placement: {ID: 10937117012115197689}
       Rotate:
@@ -18194,6 +18292,7 @@ root:
     - Dynamic: {Drop__DropTable: NoDrop}
       Gyaml: Kibako_Contain_01
       Hash: '12240068802325093638'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 12240068802325093638}
@@ -18209,6 +18308,7 @@ root:
     - Dynamic: {Drop__DropTable: NoDrop}
       Gyaml: Kibako_Contain_01
       Hash: '529954788680995528'
+      IsForceActive: true
       IsInWater: true
       IsPhysicsStable: true
       Phive:
@@ -18226,6 +18326,9 @@ root:
       Gyaml: Kibako_Contain_01
       Hash: '443898837499379063'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 12240068802325093638, Gyaml: StackInfo, Name: StackInfo, Src: 443898837499379063}
+        - {Dst: 17919096827905431810, Gyaml: StackInfo, Name: StackInfo, Src: 443898837499379063}
       Phive:
         Placement: {ID: 443898837499379063}
       Rotate:
@@ -18240,6 +18343,7 @@ root:
     - Dynamic: {Drop__DropTable: NoDrop}
       Gyaml: Kibako_Contain_01
       Hash: '17487031460270365007'
+      IsForceActive: true
       IsInWater: true
       IsPhysicsStable: true
       Phive:
@@ -18257,6 +18361,9 @@ root:
       Gyaml: Kibako_Contain_01
       Hash: '1621812788906379973'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 311985760435007321, Gyaml: StackInfo, Name: StackInfo, Src: 1621812788906379973}
+        - {Dst: 1952978360257135241, Gyaml: StackInfo, Name: StackInfo, Src: 1621812788906379973}
       Phive:
         Placement: {ID: 1621812788906379973}
       Rotate:
@@ -18271,6 +18378,7 @@ root:
     - Dynamic: {Drop__DropTable: NoDrop}
       Gyaml: Kibako_Contain_01
       Hash: '311985760435007321'
+      IsForceActive: true
       IsInWater: true
       IsPhysicsStable: true
       Phive:
@@ -18287,6 +18395,7 @@ root:
     - Dynamic: {Drop__DropTable: NoDrop}
       Gyaml: Kibako_Contain_01
       Hash: '5099976641114480904'
+      IsForceActive: true
       IsInWater: true
       IsPhysicsStable: true
       Phive:
@@ -18303,6 +18412,7 @@ root:
     - Dynamic: {Drop__DropTable: NoDrop}
       Gyaml: Kibako_Contain_01
       Hash: '1952978360257135241'
+      IsForceActive: true
       IsInWater: true
       IsPhysicsStable: true
       Phive:
@@ -18447,6 +18557,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodRectangle_A_M_01
       Hash: '8376567131172426175'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -21852,11 +21963,11 @@ root:
       Name: ExhibitionSweep1
       Phive:
         Placement: {ID: 5375158427027549864}
-      SRTHash: !u 1158897313
+      SRTHash: !u 4288895858
       Translate:
-        - 3966,20000
+        - 3965,85000
         - 234,00000
-        - -1645,00000
+        - -1644,95000
     - Gyaml: DesignateMatrixActor
       Hash: '17389347859477709865'
       Name: AbsenceTalk_CameraAnchor
@@ -22329,6 +22440,53 @@ root:
         - 3296,49100
         - 320,04840
         - -1284,18300
+    - Gyaml: DestinationAnchor
+      Hash: '7919022260423066037'
+      Name: ExhibitionSweep2
+      Phive:
+        Placement: {ID: 7919022260423066037}
+      SRTHash: !u 412477530
+      Translate:
+        - 3967,20000
+        - 234,00000
+        - -1645,00000
+      Version: !l 101
+    - Gyaml: NavMeshPaintBoxArea_GiantNoEntry
+      Hash: '4956884913517042615'
+      Phive:
+        Placement: {ID: 4956884913517042615}
+      Rotate:
+        - -0,03531
+        - 0,81158
+        - -0,01578
+      SRTHash: !u 2405305234
+      Scale:
+        - 36,22364
+        - 11,76068
+        - 4,08295
+      Translate:
+        - 3405,27900
+        - 442,45770
+        - -1305,01800
+      Version: !l 110
+    - Gyaml: NavMeshPaintBoxArea_GiantNoEntry
+      Hash: '18012630242932388457'
+      Phive:
+        Placement: {ID: 18012630242932388457}
+      Rotate:
+        - -0,02518
+        - -0,26406
+        - 0,01641
+      SRTHash: !u 911545126
+      Scale:
+        - 44,32073
+        - 11,76068
+        - 4,08295
+      Translate:
+        - 3434,88600
+        - 442,34530
+        - -1311,49400
+      Version: !l 110
     - Bakeable: true
       Gyaml: FldObj_CliffZoraWall_A_01_Far
       Hash: '18319762840665427017'
@@ -37776,6 +37934,7 @@ root:
       - 12535026853733211285
       - 12903090040233604280
       - 17491810521607724223
+      - 17887124723951841452
       - 18107512067936863777
     - - 631651428606545588
       - 1091400266132837610
@@ -39307,29 +39466,27 @@ root:
       IsClosed: true
       Name: Guide
       Points:
-        - Connections:
-            - {RailHash: '14671054365027839595', RailPointIndex: !l 0}
-          Control0:
-            - 3979,61100
+        - Control0:
+            - 3980,24200
             - 233,34570
-            - -1619,54300
+            - -1618,41000
           Control1:
-            - 3977,29500
+            - 3977,92700
             - 233,33240
-            - -1623,04800
+            - -1621,91600
           Dynamic: {IsAdjustPosAndDirToPoint: true}
           Gyaml: Guide
           Hash: '16312731846901967807'
-          NextDistance: 10,81999
-          PrevDistance: 16,67803
+          NextDistance: 11,95036
+          PrevDistance: 15,50924
           Rotate:
             - 3,11568
             - -0,13962
             - -3,14146
           Translate:
-            - 3978,45300
+            - 3979,08400
             - 233,33910
-            - -1621,29500
+            - -1620,16300
         - Connections:
             - {RailHash: '3657544206051750673', RailPointIndex: !l 6}
             - {RailHash: '14671054365027839595', RailPointIndex: !l 1}
@@ -39345,7 +39502,7 @@ root:
           Gyaml: Guide
           Hash: '16898360781278287090'
           NextDistance: 12,42951
-          PrevDistance: 10,81999
+          PrevDistance: 11,95036
           Rotate:
             - 3,12957
             - -0,13961
@@ -39480,7 +39637,7 @@ root:
           Dynamic: {IsAdjustPosAndDirToPoint: true}
           Gyaml: Guide
           Hash: '4660086024924629918'
-          NextDistance: 16,67803
+          NextDistance: 15,50924
           PrevDistance: 17,59326
           Rotate:
             - -3,13511
@@ -39730,7 +39887,7 @@ root:
             - -1693,21900
         - Gyaml: Route
           Hash: '991765588849086125'
-          NextDistance: 11,67036
+          NextDistance: 6,79560
           PrevDistance: 6,51592
           Translate:
             - 3095,99200
@@ -39739,11 +39896,11 @@ root:
         - Dynamic: {CheckPointName: AK_02_START}
           Gyaml: Route
           Hash: '15249456084034501833'
-          PrevDistance: 11,67036
+          PrevDistance: 6,79560
           Translate:
             - 3096,37500
-            - 306,99660
-            - -1675,05300
+            - 306,98970
+            - -1679,93300
     - Gyaml: Guide
       Hash: '5633160547432599336'
       IsClosed: true
@@ -44704,9 +44861,7 @@ root:
       IsClosed: true
       Name: Guide
       Points:
-        - Connections:
-            - {RailHash: '4282935871533787068', RailPointIndex: !l 0}
-          Control0:
+        - Control0:
             - 3978,95300
             - 233,38820
             - -1619,74000
@@ -45807,6 +45962,7 @@ root:
       - 12535026853733211285
       - 12903090040233604280
       - 17491810521607724223
+      - 17887124723951841452
       - 18107512067936863777
     - - 631651428606545588
       - 1091400266132837610

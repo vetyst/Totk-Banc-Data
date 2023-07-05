@@ -2609,11 +2609,11 @@ root:
         - 0,00000
         - -1,57080
         - 0,00000
-      SRTHash: !u 2670695989
+      SRTHash: !u 4140322977
       Translate:
-        - 2356,47500
+        - 2353,74000
         - 123,99200
-        - 1778,73500
+        - 1780,64700
     - Dynamic: {Location: Cave_LanayruMountain_0014}
       Gyaml: LocationArea
       Hash: '7764210204243066165'
@@ -8950,6 +8950,20 @@ root:
         - 217,30490
         - 1344,20500
     - Gyaml: Obj_FireWoodBundle
+      Hash: '2512349663330709914'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 2512349663330709914}
+      Rotate:
+        - -0,52070
+        - 1,41530
+        - 0,00447
+      SRTHash: !u 765789867
+      Translate:
+        - 2399,94100
+        - 118,69820
+        - 1843,73600
+    - Gyaml: Obj_FireWoodBundle
       Hash: '16792053304100516671'
       IsPhysicsStable: true
       Phive:
@@ -8969,6 +8983,7 @@ root:
       IsPhysicsStable: true
       Links:
         - {Dst: 16792053304100516671, Gyaml: StackInfo, Name: StackInfo, Src: 5855786580870149475}
+        - {Dst: 2512349663330709914, Gyaml: StackInfo, Name: StackInfo, Src: 5855786580870149475}
       Phive:
         Placement: {ID: 5855786580870149475}
       Rotate:
@@ -10233,6 +10248,7 @@ root:
         - 213,55400
         - 1715,32400
     - Dynamic: {RigidBodyShapeType: !l 0}
+      ExtraCreateRadius: 300,00000
       Gyaml: Area
       Hash: '9560119309261868534'
       Phive:
@@ -11395,6 +11411,7 @@ root:
       Links:
         - {Dst: 9716879615176512675, Gyaml: Reference, Name: Reference, Src: 16138647234059762309}
         - {Dst: 7192409779335413358, Gyaml: Reference, Name: Reference, Src: 16138647234059762309}
+        - {Dst: 5424101195754660545, Gyaml: Reference, Name: Reference, Src: 16138647234059762309}
         - {Dst: 18235969829881518418, Gyaml: Reference, Name: Reference, Src: 16138647234059762309}
         - {Dst: 2497092420316327563, Gyaml: Reference, Name: Reference, Src: 16138647234059762309}
         - {Dst: 11236689658583559890, Gyaml: Reference, Name: Reference, Src: 16138647234059762309}
@@ -11878,6 +11895,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodSail_A_01
       Hash: '5919974779427490100'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 5919974779427490100}
@@ -13783,7 +13801,7 @@ root:
           - 100,62840
         MarginPositive:
           - 100,62840
-          - 1,00000
+          - 200,00000
           - 100,62840
       Gyaml: AreaCulling
       Hash: '13198293716215363167'
@@ -14366,6 +14384,106 @@ root:
         - 2529,82000
         - 128,72930
         - 1802,28800
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 4,00000
+          - 10,00000
+          - 300,00000
+        MarginPositive:
+          - 300,00000
+          - 300,00000
+          - 4,00000
+      Gyaml: AreaCulling
+      Hash: '12814894017975826119'
+      Phive:
+        Placement: {ID: 12814894017975826119}
+      Presence: {FlagName: MercenaryChallenge_Hebra_IsEqual_BattleStart_Presence_Exp, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - 0,26180
+        - 0,00000
+      SRTHash: !u 3002513820
+      Translate:
+        - 2191,33500
+        - 116,59590
+        - 1819,54600
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 300,00000
+          - 10,00000
+          - 300,00000
+        MarginPositive:
+          - 50,00000
+          - 300,00000
+          - 300,00000
+      Gyaml: AreaCulling
+      Hash: '16539010217579352632'
+      Phive:
+        Placement: {ID: 16539010217579352632}
+      Presence: {FlagName: MercenaryChallenge_Hebra_IsEqual_BattleStart_Presence_Exp, IsCheckLazy: true, IsNegation: false}
+      SRTHash: !u 666998952
+      Scale:
+        - 25,71483
+        - 5,31282
+        - 24,56970
+      Translate:
+        - 2166,98800
+        - 116,57190
+        - 1843,65500
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 4,00000
+          - 10,00000
+          - 4,00000
+        MarginPositive:
+          - 300,00000
+          - 300,00000
+          - 300,00000
+      Gyaml: AreaCulling
+      Hash: '13248700833519061448'
+      Phive:
+        Placement: {ID: 13248700833519061448}
+      Presence: {FlagName: MercenaryChallenge_Hebra_IsEqual_BattleStart_Presence_Exp, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - -0,08727
+        - 0,00000
+      SRTHash: !u 1150748318
+      Translate:
+        - 2191,33500
+        - 116,63190
+        - 1868,30800
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 4,00000
+          - 5,00000
+          - 300,00000
+        MarginPositive:
+          - 300,00000
+          - 300,00000
+          - 300,00000
+      Gyaml: AreaCulling
+      Hash: '17276084037689080678'
+      Phive:
+        Placement: {ID: 17276084037689080678}
+      Presence: {FlagName: MercenaryChallenge_Hebra_IsEqual_BattleStart_Presence_Exp, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - 0,00000
+        - 0,12217
+      SRTHash: !u 2490832966
+      Translate:
+        - 2192,53500
+        - 117,46930
+        - 1842,36100
+      Version: !l 101
     - Bakeable: true
       Gyaml: FldObj_SpiderMountainDebris_A_02_Far
       Hash: '14747496431946624927'
@@ -24653,6 +24771,10 @@ root:
       - 3542897457569421051
       - 4459829108910354962
       - 8619977140196291095
+    - - 2989923886143614763
+      - 3526721188785800794
+      - 9560119309261868534
+      - 14133375768203512535
     - - 4887969343591915585
       - 5914054276594681238
       - 14063682901144661186
@@ -24683,14 +24805,10 @@ root:
       - 5281503558932173940
     - - 2840118277741972245
       - 13546931141870714275
-    - - 2989923886143614763
-      - 9560119309261868534
     - - 2991722772766161650
       - 3217483380610221457
     - - 3339483108600821238
       - 8371421644001634645
-    - - 3526721188785800794
-      - 14133375768203512535
     - - 4992987838202956208
       - 11381516420645861915
     - - 5489286141292798984
@@ -29643,6 +29761,10 @@ root:
       - 3542897457569421051
       - 4459829108910354962
       - 8619977140196291095
+    - - 2989923886143614763
+      - 3526721188785800794
+      - 9560119309261868534
+      - 14133375768203512535
     - - 4887969343591915585
       - 5914054276594681238
       - 14063682901144661186
@@ -29676,14 +29798,10 @@ root:
       - 5281503558932173940
     - - 2840118277741972245
       - 13546931141870714275
-    - - 2989923886143614763
-      - 9560119309261868534
     - - 2991722772766161650
       - 3217483380610221457
     - - 3339483108600821238
       - 8371421644001634645
-    - - 3526721188785800794
-      - 14133375768203512535
     - - 4992987838202956208
       - 11381516420645861915
     - - 5489286141292798984

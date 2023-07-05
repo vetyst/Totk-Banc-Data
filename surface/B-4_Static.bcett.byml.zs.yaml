@@ -6121,6 +6121,8 @@ root:
     - Dynamic: {InitState: !l 1, Life_BossLifeGaugeSubtitle: Ground_096}
       Gyaml: Enemy_Drake_Fire
       Hash: '2677006142106004616'
+      Links:
+        - {Dst: 6767538746233095597, Gyaml: MoveTarget, Name: MoveTarget, Src: 2677006142106004616}
       Phive:
         Placement: {ID: 2677006142106004616}
       Rotate:
@@ -6186,6 +6188,20 @@ root:
         - -3624,72400
         - -134,57240
         - -420,24400
+    - Gyaml: AnchorWaypoint1
+      Hash: '6767538746233095597'
+      Phive:
+        Placement: {ID: 6767538746233095597}
+      Rotate:
+        - 0,00000
+        - -1,53694
+        - 0,00000
+      SRTHash: !u 3041292596
+      Translate:
+        - -3624,72400
+        - 465,42760
+        - -420,24400
+      Version: !l 101
     - Bakeable: true
       Dynamic: {MoveDis: '12,00000', OpenMoveAxis: !l 0, Speed: '0,10000'}
       Gyaml: FldObj_RuinStoneWall_A_30_Shutter
@@ -8517,6 +8533,7 @@ root:
       Links:
         - {Dst: 2324890632722914600, Gyaml: Reference, Name: Reference, Src: 11727618585416257101}
         - {Dst: 9675222567571729755, Gyaml: Reference, Name: Reference, Src: 11727618585416257101}
+        - {Dst: 15667847585089316742, Gyaml: Reference, Name: Reference, Src: 11727618585416257101}
         - {Dst: 9539946314806298996, Gyaml: Reference, Name: Reference, Src: 11727618585416257101}
         - {Dst: 13905237419855704948, Gyaml: Reference, Name: Reference, Src: 11727618585416257101}
         - {Dst: 16554493779803642612, Gyaml: Reference, Name: Reference, Src: 11727618585416257101}
@@ -10062,6 +10079,7 @@ root:
       Links:
         - {Dst: 8853081125766204138, Gyaml: Reference, Name: Reference, Src: 1799992107909432843}
         - {Dst: 2943585744828114653, Gyaml: Reference, Name: Reference, Src: 1799992107909432843}
+        - {Dst: 10314513046676201044, Gyaml: Reference, Name: Reference, Src: 1799992107909432843}
         - {Dst: 4192588996974612514, Gyaml: Reference, Name: Reference, Src: 1799992107909432843}
         - {Dst: 11363170959557679419, Gyaml: Reference, Name: Reference, Src: 1799992107909432843}
         - {Dst: 6775315671377162914, Gyaml: Reference, Name: Reference, Src: 1799992107909432843}
@@ -10919,6 +10937,21 @@ root:
         - -3115,99900
         - 24,48651
         - -610,31950
+    - Dynamic: {IsNeedAutoSave: true}
+      Gyaml: Area
+      Hash: '7227343354962689185'
+      Phive:
+        Placement: {ID: 7227343354962689185}
+      SRTHash: !u 213772687
+      Scale:
+        - 11,00000
+        - 11,00000
+        - 11,00000
+      Translate:
+        - -3129,87900
+        - 20,54505
+        - -612,30470
+      Version: !l 110
     - Bakeable: true
       Gyaml: FldObj_SkullRockBroken_A_01_Far
       Hash: '11713810195948952582'

@@ -5651,6 +5651,8 @@ root:
     - Dynamic: {IsLimitPatrolMovement: true, Life_BossLifeGaugeSubtitle: Ground_087}
       Gyaml: Enemy_Drake_Ice
       Hash: '17202757845512439687'
+      Links:
+        - {Dst: 9465996934119963716, Gyaml: MoveTarget, Name: MoveTarget, Src: 17202757845512439687}
       Phive:
         Placement: {ID: 17202757845512439687}
       SRTHash: !u 3439378887
@@ -5700,6 +5702,16 @@ root:
         - -1834,50200
         - -146,00000
         - -3009,06400
+    - Gyaml: AnchorWaypoint1
+      Hash: '9465996934119963716'
+      Phive:
+        Placement: {ID: 9465996934119963716}
+      SRTHash: !u 1841204899
+      Translate:
+        - -1834,50200
+        - 446,92000
+        - -3009,06400
+      Version: !l 101
     - Dynamic: {Location: Cave_Hebra_0036}
       Gyaml: LocationArea
       Hash: '351273480328625563'
@@ -6441,6 +6453,7 @@ root:
       Links:
         - {Dst: 6848291711480216435, Gyaml: Reference, Name: Reference, Src: 3531905636839607764}
         - {Dst: 1333198548408004368, Gyaml: Reference, Name: Reference, Src: 3531905636839607764}
+        - {Dst: 7645548880596358161, Gyaml: Reference, Name: Reference, Src: 3531905636839607764}
         - {Dst: 1467646013161089597, Gyaml: Reference, Name: Reference, Src: 3531905636839607764}
         - {Dst: 8208761824700734899, Gyaml: Reference, Name: Reference, Src: 3531905636839607764}
         - {Dst: 8378761314506735036, Gyaml: Reference, Name: Reference, Src: 3531905636839607764}

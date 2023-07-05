@@ -7326,13 +7326,9 @@ root:
       Phive:
         Placement: {ID: 5139321922591932515}
       Presence: {FlagName: SageOfGerudo_IsAfter_DungeonEnd_Exp, IsCheckLazy: false, IsNegation: true}
-      Rotate:
-        - 0,00000
-        - 0,73304
-        - 0,00000
-      SRTHash: !u 3068801832
+      SRTHash: !u 4122776119
       Translate:
-        - -3540,65000
+        - -4040,65000
         - 113,00000
         - 2903,80000
     - Gyaml: Npc_OasisHylia_002
@@ -7705,6 +7701,7 @@ root:
       IsPhysicsStable: true
       Links:
         - {Dst: 1888235531471962818, Gyaml: StackInfo, Name: StackInfo, Src: 12504906704072702504}
+        - {Dst: 16886452773890753410, Gyaml: StackInfo, Name: StackInfo, Src: 12504906704072702504}
       Phive:
         Placement: {ID: 12504906704072702504}
       Rotate:
@@ -7716,6 +7713,22 @@ root:
         - -3467,72300
         - 176,04670
         - 2947,73700
+      TurnActorNearEnemy: true
+    - Dynamic: {Drop__DropTable: Gerudo}
+      Gyaml: KibakoGerudo_Contain_01
+      Hash: '16886452773890753410'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 16886452773890753410}
+      Rotate:
+        - 0,01135
+        - -0,44366
+        - 0,00004
+      SRTHash: !u 3463028379
+      Translate:
+        - -3466,68700
+        - 174,05640
+        - 2946,91300
       TurnActorNearEnemy: true
     - Dynamic: {Drop__DropTable: Gerudo}
       Gyaml: KibakoGerudo_Contain_01
@@ -8402,40 +8415,6 @@ root:
         - 127,29940
         - 2849,26700
     - Bakeable: true
-      Gyaml: Obj_GerudoHoleCover_A_02
-      Hash: '7011065276641868995'
-      IsPhysicsStable: true
-      Links:
-        - {Dst: 16532569706777243524, Gyaml: StackInfo, Name: StackInfo, Src: 7011065276641868995}
-      Phive:
-        Placement: {ID: 7011065276641868995}
-      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: false, IsNegation: true}
-      Rotate:
-        - 0,00024
-        - -0,43614
-        - -0,00001
-      SRTHash: !u 194661877
-      Translate:
-        - -3889,00000
-        - 149,87690
-        - 2946,50000
-    - Bakeable: true
-      Gyaml: Obj_GerudoHoleCover_A_02
-      Hash: '16532569706777243524'
-      IsPhysicsStable: true
-      Phive:
-        Placement: {ID: 16532569706777243524}
-      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: false}
-      Rotate:
-        - -0,00008
-        - -0,78537
-        - 0,00013
-      SRTHash: !u 4211208107
-      Translate:
-        - -3888,89100
-        - 149,87680
-        - 2946,39100
-    - Bakeable: true
       Gyaml: FldObj_MessageBottle_01
       Hash: '8239421195119544387'
       Name: GerudoPot_08
@@ -8735,24 +8714,6 @@ root:
         - -3257,00000
         - 132,80000
         - 2598,25000
-    - Bakeable: true
-      Gyaml: Obj_GerudoHoleCover_A_03
-      Hash: '927228792716507019'
-      IsPhysicsStable: true
-      Links:
-        - {Dst: 4033404103330225490, Gyaml: StackInfo, Name: StackInfo, Src: 927228792716507019}
-      Phive:
-        Placement: {ID: 927228792716507019}
-      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: false, IsNegation: true}
-      Rotate:
-        - -3,14154
-        - 0,58116
-        - -3,14156
-      SRTHash: !u 437530665
-      Translate:
-        - -3896,00000
-        - 159,70880
-        - 2975,00000
     - Bakeable: true
       Gyaml: TwnObj_City_GerudoWaterFall_B_01
       Hash: '15120233342799611674'
@@ -13289,13 +13250,9 @@ root:
       Phive:
         Placement: {ID: 1538077386485774477}
       Presence: {FlagName: SageOfGerudo_IsAfter_DungeonFind_Exp, IsCheckLazy: false, IsNegation: true}
-      Rotate:
-        - 0,00000
-        - 0,73304
-        - 0,00000
-      SRTHash: !u 3068801832
+      SRTHash: !u 4122776119
       Translate:
-        - -3540,65000
+        - -4040,65000
         - 113,00000
         - 2903,80000
     - Dynamic: {RequestEventName: Gerudo_OasisTeacher_LessonNoon2}
@@ -20456,13 +20413,11 @@ root:
         - 163,71950
         - 2971,07300
     - Bakeable: true
-      Dynamic: {DestinationAnchorInOpenSpaceGameDataFlag: HeroStatues_BallEnterArea6_Not, DestinationAnchorInOpenSpaceInstanceName: Ball6_Area, DestinationAnchorInPedestalGameDataFlag: HeroStatues_InitPosition_Ball6_pedestal, DestinationAnchorInPedestalInstanceName: Ball6_pedestal, PlacementMotion_MotionType: !l 4}
+      Dynamic: {PlacementMotion_MotionType: !l 4}
       Gyaml: Obj_GerudoStatueBall_A_06
       Hash: '158531408133627114'
       Links:
         - {Dst: 748205404574373225, Gyaml: Owned, Name: Owned, Src: 158531408133627114}
-        - {Dst: 9725099714747584115, Gyaml: Reference, Name: Reference, Src: 158531408133627114}
-        - {Dst: 16971932102930033103, Gyaml: Reference, Name: Reference, Src: 158531408133627114}
       Phive:
         Placement: {ID: 158531408133627114}
       Rotate:
@@ -25229,6 +25184,7 @@ root:
       Links:
         - {Dst: 9904763614765639732, Gyaml: Reference, Name: Reference, Src: 4254106097407386194}
         - {Dst: 8609452051509216922, Gyaml: Reference, Name: Reference, Src: 4254106097407386194}
+        - {Dst: 5061131394196511391, Gyaml: Reference, Name: Reference, Src: 4254106097407386194}
         - {Dst: 1559566833430240376, Gyaml: Reference, Name: Reference, Src: 4254106097407386194}
         - {Dst: 7480990131830904702, Gyaml: Reference, Name: Reference, Src: 4254106097407386194}
         - {Dst: 9533559081145448187, Gyaml: Reference, Name: Reference, Src: 4254106097407386194}
@@ -29882,7 +29838,6 @@ root:
       Links:
         - {Dst: 10131989618645199098, Gyaml: Reference, Name: Reference, Src: 13781362066334802607}
         - {Dst: 10030573276636212510, Gyaml: Reference, Name: Reference, Src: 13781362066334802607}
-        - {Dst: 1235185471490200141, Gyaml: StackInfo, Name: StackInfo, Src: 13781362066334802607}
       Phive:
         Placement: {ID: 13781362066334802607}
       Rotate:
@@ -30021,13 +29976,13 @@ root:
         - 2857,35800
     - Dynamic:
         MarginNegative:
-          - 5,27433
-          - 5,27433
-          - 5,27433
+          - 6,00000
+          - 6,00000
+          - 20,00000
         MarginPositive:
           - 65,00000
-          - 10,00000
-          - 5,27433
+          - 100,00000
+          - 6,00000
       Gyaml: AreaCulling
       Hash: '5157477199431078133'
       Phive:
@@ -30127,11 +30082,11 @@ root:
     - Dynamic:
         MarginNegative:
           - 50,00000
-          - 4,08522
+          - 1,00000
           - 20,00000
         MarginPositive:
-          - 4,08522
-          - 4,08522
+          - 5,00000
+          - 100,00000
           - 10,00000
       Gyaml: AreaCulling
       Hash: '10193001450501320655'
@@ -30141,15 +30096,15 @@ root:
         - 3,14159
         - 0,78159
         - 3,14159
-      SRTHash: !u 996491675
+      SRTHash: !u 1962212045
       Scale:
-        - 6,97536
+        - 5,60988
         - 4,17097
         - 8,17044
       Translate:
-        - -3834,83300
+        - -3833,86400
         - 146,94410
-        - 2872,64200
+        - 2873,60400
     - Dynamic:
         MarginNegative:
           - 50,00000
@@ -30205,13 +30160,13 @@ root:
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 5,05678
-          - 5,05678
-          - 5,05678
+          - 4,84501
+          - 4,84501
+          - 4,84501
         MarginPositive:
-          - 5,05678
-          - 5,05678
-          - 5,05678
+          - 4,84501
+          - 4,84501
+          - 4,84501
       Gyaml: AreaCulling
       Hash: '1839168465034139272'
       Phive:
@@ -30220,15 +30175,15 @@ root:
         - 3,14159
         - 0,78159
         - 3,14159
-      SRTHash: !u 2961224331
+      SRTHash: !u 4131069980
       Scale:
         - 5,67598
         - 4,49581
-        - 10,11355
+        - 9,69003
       Translate:
-        - -3872,62400
+        - -3872,92200
         - 146,83320
-        - 2912,42900
+        - 2912,72900
     - Dynamic:
         MarginNegative:
           - 40,00000
@@ -31176,7 +31131,7 @@ root:
     - Dynamic:
         MarginNegative:
           - 100,00000
-          - 8,00000
+          - 13,00000
           - 85,00000
         MarginPositive:
           - 85,00000
@@ -31190,14 +31145,14 @@ root:
         - 0,00000
         - 0,78540
         - 0,00000
-      SRTHash: !u 34438229
+      SRTHash: !u 4082198171
       Scale:
         - 2,00000
-        - 2,00000
+        - 0,40640
         - 2,00000
       Translate:
         - -3800,62400
-        - 162,84170
+        - 164,01380
         - 2971,18400
     - Dynamic: {RigidBodyShapeType: !l 3}
       Gyaml: Area
@@ -31600,6 +31555,7 @@ root:
         - 148,72930
         - 2917,61800
     - Dynamic:
+        IsConnectNeighborArea: true
         MarginNegative:
           - 20,00000
           - 2,00000
@@ -31616,15 +31572,15 @@ root:
         - 0,00000
         - 0,78540
         - 0,00000
-      SRTHash: !u 4142193675
+      SRTHash: !u 834111291
       Scale:
         - 6,26303
         - 3,65517
-        - 7,77125
+        - 8,79280
       Translate:
-        - -3796,53000
+        - -3797,25000
         - 147,81310
-        - 2932,66000
+        - 2931,93900
     - Gyaml: Area
       Hash: '7418184938211359796'
       Phive:
@@ -32988,14 +32944,14 @@ root:
         - 0,00000
         - 0,78540
         - 0,00000
-      SRTHash: !u 248184885
+      SRTHash: !u 2245784384
       Scale:
         - 2,05838
-        - 1,17851
+        - 0,88316
         - 3,81133
       Translate:
         - -3835,03500
-        - 148,62000
+        - 148,61890
         - 2946,30700
     - Gyaml: DestinationAnchor
       Hash: '13687133441444788105'
@@ -33346,6 +33302,385 @@ root:
         - -3849,80000
         - 69,32000
         - 2778,76000
+    - Gyaml: BGM_GerudoVillage_Underground
+      Hash: '17683877424202095802'
+      Links:
+        - {Dst: 17965912273113796615, Gyaml: Reference, Name: Reference, Src: 17683877424202095802}
+      Phive:
+        Placement: {ID: 17683877424202095802}
+      SRTHash: !u 1684704546
+      Translate:
+        - -3891,78700
+        - 140,05040
+        - 2927,39400
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 60,00000
+          - 15,00000
+          - 70,00000
+        MarginPositive:
+          - 60,00000
+          - 8,00000
+          - 50,00000
+      Gyaml: AreaCulling
+      Hash: '15675003151896404104'
+      Phive:
+        Placement: {ID: 15675003151896404104}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 26453926
+      Scale:
+        - 0,50000
+        - 0,50000
+        - 0,50000
+      Translate:
+        - -3883,28700
+        - 139,15200
+        - 2961,03600
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 5,00000
+          - 50,00000
+          - 20,00000
+        MarginPositive:
+          - 30,00000
+          - 0,30000
+          - 5,00000
+      Gyaml: AreaCulling
+      Hash: '14692046736164922289'
+      Phive:
+        Placement: {ID: 14692046736164922289}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 1160311042
+      Scale:
+        - 0,20000
+        - 0,20000
+        - 4,49900
+      Translate:
+        - -3840,77200
+        - 148,17090
+        - 2878,75100
+      Version: !l 110
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 13,00000
+          - 1,00000
+          - 5,00000
+        MarginPositive:
+          - 1,00000
+          - 5,00000
+          - 5,00000
+      Gyaml: AreaCulling
+      Hash: '5298381246396893846'
+      Phive:
+        Placement: {ID: 5298381246396893846}
+      Rotate:
+        - 0,00000
+        - 0,83776
+        - 0,00000
+      SRTHash: !u 2876506018
+      Scale:
+        - 0,50000
+        - 0,50000
+        - 0,50000
+      Translate:
+        - -3889,84900
+        - 149,02010
+        - 2969,14500
+      Version: !l 101
+    - Gyaml: Area
+      Hash: '11910340384068920738'
+      Phive:
+        Placement: {ID: 11910340384068920738}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 3867262037
+      Scale:
+        - 8,50000
+        - 4,00000
+        - 5,00000
+      Translate:
+        - -3894,00000
+        - 148,00000
+        - 2973,00000
+      Version: !l 101
+    - Bakeable: true
+      Dynamic: {DestinationAnchorInOpenSpaceGameDataFlag: HeroStatues_BallEnterArea6_Not, DestinationAnchorInOpenSpaceInstanceName: Ball6_Area, DestinationAnchorInPedestalGameDataFlag: HeroStatues_InitPosition_Ball6_pedestal, DestinationAnchorInPedestalInstanceName: Ball6_pedestal, PlacementMotion_MotionType: !l 0}
+      Gyaml: Obj_GerudoStatueBall_A_06
+      Hash: '16302427445111609944'
+      Links:
+        - {Dst: 9725099714747584115, Gyaml: Reference, Name: Reference, Src: 16302427445111609944}
+        - {Dst: 16971932102930033103, Gyaml: Reference, Name: Reference, Src: 16302427445111609944}
+      Phive:
+        Placement: {ID: 16302427445111609944}
+      Rotate:
+        - 0,02686
+        - 0,00000
+        - 0,01474
+      SRTHash: !u 3586772759
+      Translate:
+        - -3825,25000
+        - 135,76700
+        - 2971,75000
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 101,00000
+          - 15,00000
+          - 86,00000
+        MarginPositive:
+          - 86,00000
+          - 120,00000
+          - 51,00000
+      Gyaml: AreaCulling
+      Hash: '5673547884844448412'
+      Phive:
+        Placement: {ID: 5673547884844448412}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 2541485929
+      Scale:
+        - 2,00000
+        - 0,40640
+        - 2,00000
+      Translate:
+        - -3800,62400
+        - 163,42500
+        - 2971,18400
+      Version: !l 110
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 1,00000
+          - 20,00000
+          - 15,00000
+        MarginPositive:
+          - 20,00000
+          - 1,00000
+          - 2,00000
+      Gyaml: AreaCulling
+      Hash: '16938601732827007873'
+      Phive:
+        Placement: {ID: 16938601732827007873}
+      Rotate:
+        - 0,00000
+        - 0,78518
+        - 0,00000
+      SRTHash: !u 2617725434
+      Scale:
+        - 1,00000
+        - 1,00000
+        - 0,86224
+      Translate:
+        - -3800,39900
+        - 148,13150
+        - 2921,70500
+      Version: !l 110
+    - Dynamic:
+        MarginNegative:
+          - 40,00000
+          - 10,45599
+          - 50,00000
+        MarginPositive:
+          - 10,45599
+          - 7,00000
+          - 10,45599
+      Gyaml: AreaCulling
+      Hash: '15419964021661909465'
+      Phive:
+        Placement: {ID: 15419964021661909465}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 2586587433
+      Scale:
+        - 10,42740
+        - 7,27710
+        - 20,91198
+      Translate:
+        - -3806,90200
+        - 127,96990
+        - 2915,11100
+      Version: !l 101
+    - Gyaml: SkyOccluder
+      Hash: '13686910202159557984'
+      Phive:
+        Placement: {ID: 13686910202159557984}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,06606
+      SRTHash: !u 1001898066
+      Scale:
+        - 0,30900
+        - 1,00000
+        - 1,00000
+      Translate:
+        - -3797,16000
+        - 148,77700
+        - 2907,76300
+      Version: !l 110
+    - Gyaml: Area
+      Hash: '13149334928434349720'
+      Phive:
+        Placement: {ID: 13149334928434349720}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 2683474536
+      Scale:
+        - 6,00000
+        - 6,00000
+        - 6,00000
+      Translate:
+        - -4595,48000
+        - 164,00000
+        - 3688,48600
+      Version: !l 110
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 70,00000
+          - 100,00000
+          - 300,00000
+        MarginPositive:
+          - 300,00000
+          - 500,00000
+          - 300,00000
+      Gyaml: AreaCulling
+      Hash: '10262492615811448758'
+      Phive:
+        Placement: {ID: 10262492615811448758}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 751920061
+      Translate:
+        - -3782,80000
+        - 139,76900
+        - 2766,34900
+      Version: !l 101
+    - Gyaml: Area
+      Hash: '11236144382626957816'
+      Phive:
+        Placement: {ID: 11236144382626957816}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 399090272
+      Scale:
+        - 8,00000
+        - 9,00000
+        - 6,00000
+      Translate:
+        - -4596,47700
+        - 164,00000
+        - 3534,40700
+      Version: !l 110
+    - Gyaml: SkyOccluder
+      Hash: '17914991228304457530'
+      Phive:
+        Placement: {ID: 17914991228304457530}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,06606
+      SRTHash: !u 4185286355
+      Scale:
+        - 1,02500
+        - 1,00000
+        - 1,00000
+      Translate:
+        - -3799,67700
+        - 145,17900
+        - 2901,91600
+      Version: !l 110
+    - Dynamic:
+        MarginNegative:
+          - 140,00000
+          - 100,00000
+          - 300,00000
+        MarginPositive:
+          - 300,00000
+          - 500,00000
+          - 300,00000
+      Gyaml: AreaCulling
+      Hash: '16966195515404291074'
+      Phive:
+        Placement: {ID: 16966195515404291074}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 2159019997
+      Scale:
+        - 2,00000
+        - 2,00000
+        - 2,00000
+      Translate:
+        - -3600,00900
+        - 156,12190
+        - 2845,61300
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 300,00000
+          - 4,00000
+          - 300,00000
+        MarginPositive:
+          - 4,00000
+          - 500,00000
+          - 4,00000
+      Gyaml: AreaCulling
+      Hash: '17130358613386813856'
+      Phive:
+        Placement: {ID: 17130358613386813856}
+      Rotate:
+        - 0,00000
+        - 0,69813
+        - 0,00000
+      SRTHash: !u 4177207013
+      Translate:
+        - -3784,18700
+        - 139,67550
+        - 2765,28700
+      Version: !l 101
+    - Gyaml: Area
+      Hash: '17965912273113796615'
+      Phive:
+        Placement: {ID: 17965912273113796615}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 1513442963
+      Scale:
+        - 5,30272
+        - 3,43027
+        - 4,56135
+      Translate:
+        - -3893,14500
+        - 136,32660
+        - 2925,48100
+      Version: !l 101
     - Bakeable: true
       Dynamic: {BancPath: Banc/MainField/Merged/Mrg_B-7_MrgDgn_0-0-0-BADBF6AA.bcett.byml}
       Gyaml: MergedActorUncond
@@ -48107,7 +48442,7 @@ root:
         - {Dst: 13080884236676690967, Gyaml: Reference, Name: Reference, Src: 17746112155964848652}
       Phive:
         Placement: {ID: 17746112155964848652}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -3,04805
         - 0,67828
@@ -48122,7 +48457,7 @@ root:
       Hash: '13080884236676690967'
       Phive:
         Placement: {ID: 17746112155964848652}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -3,04805
         - 0,67828
@@ -48139,7 +48474,7 @@ root:
         - {Dst: 5194603941924833947, Gyaml: Reference, Name: Reference, Src: 853582558751769728}
       Phive:
         Placement: {ID: 853582558751769728}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -3,14159
         - -1,34390
@@ -48154,7 +48489,7 @@ root:
       Hash: '5194603941924833947'
       Phive:
         Placement: {ID: 853582558751769728}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -3,14159
         - -1,34390
@@ -48171,7 +48506,7 @@ root:
         - {Dst: 1448943228588961078, Gyaml: Reference, Name: Reference, Src: 6329200298297975597}
       Phive:
         Placement: {ID: 6329200298297975597}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - 0,08727
         - -1,20428
@@ -48186,7 +48521,7 @@ root:
       Hash: '1448943228588961078'
       Phive:
         Placement: {ID: 6329200298297975597}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - 0,08727
         - -1,20428
@@ -48203,7 +48538,7 @@ root:
         - {Dst: 4453142447901797847, Gyaml: Reference, Name: Reference, Src: 9080036839250600908}
       Phive:
         Placement: {ID: 9080036839250600908}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - 0,04412
         - 1,53097
@@ -48218,7 +48553,7 @@ root:
       Hash: '4453142447901797847'
       Phive:
         Placement: {ID: 9080036839250600908}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - 0,04412
         - 1,53097
@@ -48235,7 +48570,7 @@ root:
         - {Dst: 8136944885349872297, Gyaml: Reference, Name: Reference, Src: 3684582558947720370}
       Phive:
         Placement: {ID: 3684582558947720370}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -0,17116
         - -0,99205
@@ -48250,7 +48585,7 @@ root:
       Hash: '8136944885349872297'
       Phive:
         Placement: {ID: 3684582558947720370}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -0,17116
         - -0,99205
@@ -48267,7 +48602,7 @@ root:
         - {Dst: 2667719513084165896, Gyaml: Reference, Name: Reference, Src: 7407256800507605267}
       Phive:
         Placement: {ID: 7407256800507605267}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -0,06124
         - 0,03741
@@ -48282,7 +48617,7 @@ root:
       Hash: '2667719513084165896'
       Phive:
         Placement: {ID: 7407256800507605267}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -0,06124
         - 0,03741
@@ -48299,7 +48634,7 @@ root:
         - {Dst: 3197358024705606358, Gyaml: Reference, Name: Reference, Src: 8039264246997634253}
       Phive:
         Placement: {ID: 8039264246997634253}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -1,61910
         - -1,33308
@@ -48314,7 +48649,7 @@ root:
       Hash: '3197358024705606358'
       Phive:
         Placement: {ID: 8039264246997634253}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -1,61910
         - -1,33308
@@ -48331,7 +48666,7 @@ root:
         - {Dst: 3324699547986524499, Gyaml: Reference, Name: Reference, Src: 7921212223248873288}
       Phive:
         Placement: {ID: 7921212223248873288}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -0,04647
         - -0,14010
@@ -48346,7 +48681,7 @@ root:
       Hash: '3324699547986524499'
       Phive:
         Placement: {ID: 7921212223248873288}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -0,04647
         - -0,14010
@@ -48363,7 +48698,7 @@ root:
         - {Dst: 6863582340429292116, Gyaml: Reference, Name: Reference, Src: 2057634675193998415}
       Phive:
         Placement: {ID: 2057634675193998415}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - 0,00744
         - 0,00000
@@ -48378,7 +48713,7 @@ root:
       Hash: '6863582340429292116'
       Phive:
         Placement: {ID: 2057634675193998415}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - 0,00744
         - 0,00000
@@ -48395,7 +48730,7 @@ root:
         - {Dst: 14893631443607365592, Gyaml: Reference, Name: Reference, Src: 10195787750877587907}
       Phive:
         Placement: {ID: 10195787750877587907}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -0,06029
         - 1,47830
@@ -48410,7 +48745,7 @@ root:
       Hash: '14893631443607365592'
       Phive:
         Placement: {ID: 10195787750877587907}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -0,06029
         - 1,47830
@@ -48427,7 +48762,7 @@ root:
         - {Dst: 12403719765943554463, Gyaml: Reference, Name: Reference, Src: 17288375017487654788}
       Phive:
         Placement: {ID: 17288375017487654788}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -0,01285
         - -0,00698
@@ -48442,7 +48777,7 @@ root:
       Hash: '12403719765943554463'
       Phive:
         Placement: {ID: 17288375017487654788}
-      Presence: {FlagName: SageOfGerudo_IsCompleted_Exp, IsCheckLazy: true, IsNegation: true}
+      Presence: {FlagName: SageOfGerudo_IsAfter_DungeonBossDead_Exp, IsCheckLazy: true, IsNegation: true}
       Rotate:
         - -0,01285
         - -0,00698
@@ -58326,6 +58661,10 @@ root:
       Logic: Logic/Root/B-7/B-7_c8c6.logic.root.ain
       References:
         - {Id: Area_029b, Path: Area_029b, Reference: 6009154344599426117}
+    - Hash: '8457356952055353528'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 11910340384068920738}
     - Hash: '8493350113172923860'
       Logic: Logic/Root/B-7/B-7_bc87.logic.root.ain
       References:
@@ -58693,6 +59032,8 @@ root:
         - {Id: Area_f3a9, Path: Area_f3a9, Reference: 16466782670921486094}
         - {Id: Area_cad2, Path: Area_cad2, Reference: 704885225771178088}
         - {Id: Area_e5da, Path: Area_e5da, Reference: 10501595477614817853}
+        - {Id: Area_60d6, Path: Area_60d6, Reference: 13149334928434349720}
+        - {Id: Area_75b1, Path: Area_75b1, Reference: 11236144382626957816}
     - Hash: '13780674787785146988'
       Logic: Logic/Root/B-7/B-7_7a0f.logic.root.ain
       References:
@@ -58822,6 +59163,7 @@ root:
         - {Id: DesignateMatrixActor_0d97, Path: DesignateMatrixActor_0d97, Reference: 4639732138225882159}
         - {Id: Area_5712, Path: Area_5712, Reference: 950108048408636872}
         - {Id: Area_9a55, Path: Area_9a55, Reference: 5990740130725868103}
+        - {Id: Obj_GerudoStatueBall_A_06_c249, Path: Obj_GerudoStatueBall_A_06_c249, Reference: 16302427445111609944}
     - Hash: '15549949315772835442'
       Logic: Logic/Root/B-7/B-7_b53b.logic.root.ain
       References:
@@ -59136,6 +59478,7 @@ root:
       - 16066921590231419908
       - 16097457668767589395
       - 16248383894100272215
+      - 16302427445111609944
       - 16466438693791398311
       - 16971932102930033103
       - 17390595047758925811
@@ -59231,6 +59574,8 @@ root:
       - 8733242524001716702
       - 10335284914252412217
       - 10501595477614817853
+      - 11236144382626957816
+      - 13149334928434349720
       - 13458101539031016922
       - 16466782670921486094
       - 18038775704497446114
@@ -64144,6 +64489,7 @@ root:
       - 16066921590231419908
       - 16097457668767589395
       - 16248383894100272215
+      - 16302427445111609944
       - 16466438693791398311
       - 16971932102930033103
       - 17390595047758925811
@@ -64239,6 +64585,8 @@ root:
       - 8733242524001716702
       - 10335284914252412217
       - 10501595477614817853
+      - 11236144382626957816
+      - 13149334928434349720
       - 13458101539031016922
       - 16466782670921486094
       - 18038775704497446114

@@ -4815,6 +4815,7 @@ root:
       Hash: '7322308304548487386'
       Links:
         - {Dst: 1403601416489528472, Gyaml: Reference, Name: Reference, Src: 7322308304548487386}
+        - {Dst: 12557926560750693608, Gyaml: Reference, Name: Reference, Src: 7322308304548487386}
       Phive:
         Placement: {ID: 7322308304548487386}
       Rotate:
@@ -4926,6 +4927,21 @@ root:
         - 1311,91100
         - 183,12240
         - 2410,36700
+    - Gyaml: DesignateMatrixActor
+      Hash: '12557926560750693608'
+      Name: Dm_ZN_0067_RelocateAfterEvent
+      Phive:
+        Placement: {ID: 12557926560750693608}
+      Rotate:
+        - 0,00000
+        - 0,26180
+        - 0,00000
+      SRTHash: !u 1133905039
+      Translate:
+        - 1316,26600
+        - 188,22240
+        - 2449,02100
+      Version: !l 101
     - Bakeable: true
       Gyaml: CaveEntrance_d0e235e0
       Hash: '7156472544251707516'
@@ -7221,24 +7237,6 @@ root:
         - 1304,56400
         - 67,84511
         - 2379,61000
-    - Dynamic: {RigidBodyShapeType: !l 3}
-      Gyaml: DeepHoleArea
-      Hash: '16456448758169279334'
-      Phive:
-        Placement: {ID: 16456448758169279334}
-      Rotate:
-        - 0,30543
-        - 0,06579
-        - -1,10155
-      SRTHash: !u 2803342900
-      Scale:
-        - 60,00000
-        - 230,00000
-        - 60,00000
-      Translate:
-        - 895,41940
-        - -76,24947
-        - 2220,25200
     - Dynamic: {RigidBodyShapeType: !l 3}
       Gyaml: DeepHoleArea
       Hash: '8123976442246670416'
@@ -10960,6 +10958,54 @@ root:
         - 1163,65700
         - 193,71530
         - 2555,35900
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 300,00000
+          - 300,00000
+          - 300,00000
+        MarginPositive:
+          - 300,00000
+          - 3,00000
+          - 300,00000
+      Gyaml: AreaCulling
+      Hash: '2153388546155733410'
+      Phive:
+        Placement: {ID: 2153388546155733410}
+      SRTHash: !u 1847939584
+      Scale:
+        - 31,48128
+        - 23,10135
+        - 68,50735
+      Translate:
+        - 1374,14800
+        - 513,38310
+        - 3249,59100
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 30,00000
+          - 300,00000
+          - 300,00000
+        MarginPositive:
+          - 300,00000
+          - 32,00000
+          - 15,00000
+      Gyaml: AreaCulling
+      Hash: '2305442199207721327'
+      Phive:
+        Placement: {ID: 2305442199207721327}
+      SRTHash: !u 558141876
+      Scale:
+        - 19,02651
+        - 9,03140
+        - 28,08633
+      Translate:
+        - 1403,10600
+        - 520,71240
+        - 3192,38700
+      Version: !l 101
     - Bakeable: true
       Gyaml: CaveEntrance_31df8448_Far
       Hash: '15890450332143463385'

@@ -2397,6 +2397,7 @@ root:
         - 489,61720
         - -2805,57100
     - Bakeable: true
+      Dynamic: {Trolley_IsConnected: true}
       Gyaml: FldObj_DeathMtArtifactTrain_A_02
       Hash: '4398852053634961460'
       Phive:
@@ -2415,6 +2416,7 @@ root:
         - 533,50000
         - -2583,67800
     - Bakeable: true
+      Dynamic: {Trolley_IsConnected: true}
       Gyaml: FldObj_DeathMtArtifactTrain_B_01
       Hash: '4121860316537939175'
       Phive:
@@ -2569,6 +2571,7 @@ root:
         - 341,19190
         - -2222,49600
     - Bakeable: true
+      Dynamic: {Trolley_IsConnected: true}
       Gyaml: FldObj_DeathMtArtifactTrain_A_02
       Hash: '5060467108273552381'
       IsPhysicsStable: true
@@ -2588,6 +2591,7 @@ root:
         - 502,47970
         - -2387,82500
     - Bakeable: true
+      Dynamic: {Trolley_IsConnected: true}
       Gyaml: FldObj_DeathMtArtifactTrain_B_01
       Hash: '15506015847646108351'
       IsPhysicsStable: true
@@ -9765,6 +9769,7 @@ root:
       Links:
         - {Dst: 2022929096743060376, Gyaml: Reference, Name: Reference, Src: 13129514234386796285}
         - {Dst: 10054491036406017547, Gyaml: Reference, Name: Reference, Src: 13129514234386796285}
+        - {Dst: 14656592388700419381, Gyaml: Reference, Name: Reference, Src: 13129514234386796285}
         - {Dst: 11058875431153592516, Gyaml: Reference, Name: Reference, Src: 13129514234386796285}
         - {Dst: 17650763144695554471, Gyaml: Reference, Name: Reference, Src: 13129514234386796285}
         - {Dst: 17561881488368867909, Gyaml: Reference, Name: Reference, Src: 13129514234386796285}
@@ -9950,11 +9955,11 @@ root:
         - 0,00000
         - -1,24972
         - 0,00000
-      SRTHash: !u 3277012324
+      SRTHash: !u 2457478939
       Translate:
-        - 1678,30000
-        - 506,33580
-        - -2719,66000
+        - 1677,90600
+        - 506,02440
+        - -2719,52900
     - Dynamic: {EquipmentUser_Shield: Weapon_Shield_002, EquipmentUser_Weapon: Weapon_Sword_112, Role: !l 7}
       Gyaml: Enemy_Bokoblin_Middle
       Hash: '8247885448803823694'
@@ -9975,7 +9980,7 @@ root:
       Links:
         - {Dst: 1805574617775933134, Gyaml: Reference, Name: Reference, Src: 13310412960846345941}
         - {Dst: 1798500830425855006, Gyaml: Reference, Name: Reference, Src: 13310412960846345941}
-      MoveRadius: 11,45075
+      MoveRadius: 11,03993
       Name: Goron_G-2
       Phive:
         Placement: {ID: 13310412960846345941}
@@ -10096,6 +10101,8 @@ root:
     - Gyaml: Obj_BreakBoxIron
       Hash: '14726773642536274506'
       IsPhysicsStable: true
+      Links:
+        - {Dst: 14726773643639766905, Gyaml: StackInfo, Name: StackInfo, Src: 14726773642536274506}
       Phive:
         Placement: {ID: 14726773642536274506}
       Rotate:
@@ -10242,6 +10249,7 @@ root:
       IsPhysicsStable: true
       Links:
         - {Dst: 17935902577315475288, Gyaml: StackInfo, Name: StackInfo, Src: 6636571940878905072}
+        - {Dst: 17099193533121280963, Gyaml: StackInfo, Name: StackInfo, Src: 6636571940878905072}
       Phive:
         Placement: {ID: 6636571940878905072}
       Rotate:
@@ -10324,6 +10332,7 @@ root:
       Links:
         - {Dst: 17576268243506772656, Gyaml: Reference, Name: Reference, Src: 17434790137298654670}
         - {Dst: 12822239599534364466, Gyaml: Reference, Name: Reference, Src: 17434790137298654670}
+        - {Dst: 2172858895528847924, Gyaml: Reference, Name: Reference, Src: 17434790137298654670}
         - {Dst: 15217693042586832359, Gyaml: Reference, Name: Reference, Src: 17434790137298654670}
         - {Dst: 3640062371025421526, Gyaml: Reference, Name: Reference, Src: 17434790137298654670}
         - {Dst: 14839869658427221350, Gyaml: Reference, Name: Reference, Src: 17434790137298654670}
@@ -10495,6 +10504,7 @@ root:
       Links:
         - {Dst: 13703893853226154355, Gyaml: Reference, Name: Reference, Src: 14543180459386483602}
         - {Dst: 7625850786278051191, Gyaml: Reference, Name: Reference, Src: 14543180459386483602}
+        - {Dst: 5936460300828253161, Gyaml: Reference, Name: Reference, Src: 14543180459386483602}
         - {Dst: 16672092331503822504, Gyaml: Reference, Name: Reference, Src: 14543180459386483602}
         - {Dst: 1624419057794702995, Gyaml: Reference, Name: Reference, Src: 14543180459386483602}
         - {Dst: 10742289187150823209, Gyaml: Reference, Name: Reference, Src: 14543180459386483602}
@@ -11693,10 +11703,25 @@ root:
         - 520,99540
         - -2242,23100
     - Gyaml: Obj_BreakBoxIron
+      Hash: '14188488722217043941'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 14188488722217043941}
+      Rotate:
+        - 3,06918
+        - -0,78302
+        - -2,97983
+      SRTHash: !u 3191948686
+      Translate:
+        - 1663,40600
+        - 521,14540
+        - -2243,75500
+    - Gyaml: Obj_BreakBoxIron
       Hash: '14188488721130623670'
       IsPhysicsStable: true
       Links:
         - {Dst: 14188488722800291218, Gyaml: StackInfo, Name: StackInfo, Src: 14188488721130623670}
+        - {Dst: 14188488722217043941, Gyaml: StackInfo, Name: StackInfo, Src: 14188488721130623670}
       Phive:
         Placement: {ID: 14188488721130623670}
       Rotate:
@@ -14342,6 +14367,7 @@ root:
       Links:
         - {Dst: 701668068083512675, Gyaml: Reference, Name: Reference, Src: 6886690785139541952}
         - {Dst: 16875693017089597796, Gyaml: Reference, Name: Reference, Src: 6886690785139541952}
+        - {Dst: 14016589484901031933, Gyaml: Reference, Name: Reference, Src: 6886690785139541952}
         - {Dst: 8993451623919032985, Gyaml: Reference, Name: Reference, Src: 6886690785139541952}
         - {Dst: 15788207210847032131, Gyaml: Reference, Name: Reference, Src: 6886690785139541952}
         - {Dst: 312639175707458328, Gyaml: Reference, Name: Reference, Src: 6886690785139541952}
@@ -15620,9 +15646,9 @@ root:
     - Dynamic:
         IsConnectNeighborArea: true
         MarginNegative:
-          - 100,00000
+          - 70,00000
           - 7,31661
-          - 200,00000
+          - 160,00000
         MarginPositive:
           - 200,00000
           - 200,00000
@@ -15645,9 +15671,9 @@ root:
         MarginNegative:
           - 50,00000
           - 50,00000
-          - 250,00000
+          - 160,00000
         MarginPositive:
-          - 300,00000
+          - 160,00000
           - 1,00000
           - 200,00000
       Gyaml: AreaCulling
@@ -15668,9 +15694,9 @@ root:
         MarginNegative:
           - 100,00000
           - 30,00000
-          - 300,00000
+          - 90,00000
         MarginPositive:
-          - 300,00000
+          - 100,00000
           - 200,00000
           - 300,00000
       Gyaml: AreaCulling
@@ -15695,9 +15721,9 @@ root:
         MarginNegative:
           - 300,00000
           - 1,00000
-          - 300,00000
+          - 100,00000
         MarginPositive:
-          - 300,00000
+          - 100,00000
           - 200,00000
           - 300,00000
       Gyaml: AreaCulling
@@ -15809,6 +15835,181 @@ root:
         - 1702,18900
         - 499,02690
         - -2748,03300
+    - Dynamic:
+        MarginNegative:
+          - 190,00000
+          - 40,00000
+          - 200,00000
+        MarginPositive:
+          - 90,00000
+          - 200,00000
+          - 190,00000
+      Gyaml: AreaCulling
+      Hash: '15518595581196422541'
+      Phive:
+        Placement: {ID: 15518595581196422541}
+      Rotate:
+        - 0,08727
+        - 0,00000
+        - 0,31416
+      SRTHash: !u 2779355240
+      Scale:
+        - 1,00000
+        - 0,94500
+        - 1,00000
+      Translate:
+        - 1497,41500
+        - 497,00000
+        - -2823,49300
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 200,00000
+          - 5,00000
+          - 100,00000
+        MarginPositive:
+          - 200,00000
+          - 15,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '7811683475018911789'
+      Phive:
+        Placement: {ID: 7811683475018911789}
+      Rotate:
+        - 0,00000
+        - 0,95993
+        - 0,00000
+      SRTHash: !u 359591779
+      Translate:
+        - 1806,06800
+        - 497,26920
+        - -2820,86900
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 52,00000
+          - 5,00000
+          - 150,00000
+        MarginPositive:
+          - 200,00000
+          - 200,00000
+          - 200,00000
+      Gyaml: AreaCulling
+      Hash: '10492501636924298455'
+      Phive:
+        Placement: {ID: 10492501636924298455}
+      SRTHash: !u 1142894278
+      Scale:
+        - 46,86705
+        - 7,13986
+        - 36,96040
+      Translate:
+        - 1784,05100
+        - 499,05770
+        - -2735,89600
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 250,00000
+          - 250,00000
+          - 250,00000
+        MarginPositive:
+          - 250,00000
+          - 250,00000
+          - 250,00000
+      Gyaml: AreaCulling
+      Hash: '16902559061806413420'
+      Phive:
+        Placement: {ID: 16902559061806413420}
+      SRTHash: !u 805407359
+      Translate:
+        - 2663,98400
+        - 500,26900
+        - -2387,42700
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 5,00000
+          - 1,00000
+          - 1,00000
+        MarginPositive:
+          - 15,00000
+          - 30,00000
+          - 125,00000
+      Gyaml: AreaCulling
+      Hash: '15667372972433242678'
+      Phive:
+        Placement: {ID: 15667372972433242678}
+      Rotate:
+        - 0,00000
+        - 0,26180
+        - 0,00000
+      SRTHash: !u 2109156587
+      Scale:
+        - 27,00000
+        - 15,00000
+        - 28,00000
+      Translate:
+        - 1633,00600
+        - 503,97500
+        - -2909,97000
+      Version: !l 101
+    - Dynamic:
+        MarginNegative:
+          - 190,00000
+          - 10,00000
+          - 150,00000
+        MarginPositive:
+          - 70,00000
+          - 200,00000
+          - 50,00000
+      Gyaml: AreaCulling
+      Hash: '17938782204780981868'
+      Phive:
+        Placement: {ID: 17938782204780981868}
+      Rotate:
+        - 0,00000
+        - 0,45007
+        - 0,00000
+      SRTHash: !u 2418288172
+      Scale:
+        - 15,00000
+        - 15,00000
+        - 20,00000
+      Translate:
+        - 1598,85400
+        - 506,88600
+        - -2682,04000
+      Version: !l 101
+    - Dynamic:
+        IsConnectNeighborArea: true
+        MarginNegative:
+          - 155,00000
+          - 10,00000
+          - 60,00000
+        MarginPositive:
+          - 155,00000
+          - 200,00000
+          - 155,00000
+      Gyaml: AreaCulling
+      Hash: '17033142829962461167'
+      Phive:
+        Placement: {ID: 17033142829962461167}
+      Rotate:
+        - 0,00000
+        - 0,88867
+        - 0,00000
+      SRTHash: !u 2161601991
+      Scale:
+        - 11,35941
+        - 10,00000
+        - 12,82517
+      Translate:
+        - 1807,90800
+        - 498,26100
+        - -2821,12600
+      Version: !l 101
     - Bakeable: true
       Gyaml: FldObj_CliffDeathMt_E_18_Far
       Hash: '6570705319195662184'

@@ -3495,6 +3495,21 @@ root:
         - 3599,32800
         - -532,51620
         - -3429,88100
+    - Dynamic: {Drop__DropActor: Obj_ArrowNormal_A_01}
+      Gyaml: Obj_BreakBoxIron
+      Hash: '1977202932858382481'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 1977202932858382481}
+      Rotate:
+        - -0,01624
+        - -0,30010
+        - -0,03874
+      SRTHash: !u 1775673690
+      Translate:
+        - 3607,23100
+        - -532,23680
+        - -3445,87300
     - Dynamic: {Drop__DropActor: Obj_ArrowBundle_A_01}
       Gyaml: Obj_BreakBoxIron
       Hash: '1977202932132680004'
@@ -3515,6 +3530,7 @@ root:
       Hash: '7526530839855488492'
       IsPhysicsStable: true
       Links:
+        - {Dst: 1977202932858382481, Gyaml: StackInfo, Name: StackInfo, Src: 7526530839855488492}
         - {Dst: 1977202932132680004, Gyaml: StackInfo, Name: StackInfo, Src: 7526530839855488492}
       Phive:
         Placement: {ID: 7526530839855488492}

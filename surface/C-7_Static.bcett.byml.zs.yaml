@@ -2190,6 +2190,21 @@ root:
         - 2325,02500
     - Dynamic: {Drop__DropTable: GerudoCanyon}
       Gyaml: Kibako_Contain_01
+      Hash: '16526824987149599767'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 16526824987149599767}
+      Rotate:
+        - -0,05315
+        - 0,57203
+        - -0,01486
+      SRTHash: !u 925014381
+      Translate:
+        - -2428,78500
+        - 279,99370
+        - 2057,07700
+    - Dynamic: {Drop__DropTable: GerudoCanyon}
+      Gyaml: Kibako_Contain_01
       Hash: '1115864261049718589'
       IsPhysicsStable: true
       Phive:
@@ -2208,6 +2223,7 @@ root:
       Hash: '575896922181035967'
       IsPhysicsStable: true
       Links:
+        - {Dst: 16526824987149599767, Gyaml: StackInfo, Name: StackInfo, Src: 575896922181035967}
         - {Dst: 1115864261049718589, Gyaml: StackInfo, Name: StackInfo, Src: 575896922181035967}
       Phive:
         Placement: {ID: 575896922181035967}
@@ -6399,6 +6415,8 @@ root:
     - Dynamic: {Drop__DropTable: OneTime, InitState: !l 1, Life_BossLifeGaugeSubtitle: Ground_067}
       Gyaml: Enemy_Drake_Fire
       Hash: '13096827551802913012'
+      Links:
+        - {Dst: 15296622118302906273, Gyaml: MoveTarget, Name: MoveTarget, Src: 13096827551802913012}
       Phive:
         Placement: {ID: 13096827551802913012}
       SRTHash: !u 1987623508
@@ -6448,7 +6466,21 @@ root:
         - -2114,50000
         - 7,07181
         - 2639,78100
-    - Dynamic: {GolemSleepType: SleepForward_A, Life_BossLifeGaugeSubtitle: Ground_067, WeakPointUser_WeakPointActorAttachBoneName: Point_A}
+    - Gyaml: AnchorWaypoint1
+      Hash: '15296622118302906273'
+      Phive:
+        Placement: {ID: 15296622118302906273}
+      Rotate:
+        - 0,00882
+        - 0,00077
+        - -0,00922
+      SRTHash: !u 1732567424
+      Translate:
+        - -2114,50000
+        - 573,75880
+        - 2639,78100
+      Version: !l 101
+    - Dynamic: {GolemSleepType: SleepForward_A, Life_BossLifeGaugeSubtitle: Ground_067, NestUser_ChangeDefaultTerritoryToCustomKeyName: GroundSmall2, WeakPointUser_WeakPointActorAttachBoneName: Point_A}
       Gyaml: Enemy_Golem_Senior
       Hash: '12651336382394967980'
       Phive:
@@ -8788,6 +8820,7 @@ root:
       IsPhysicsStable: true
       Links:
         - {Dst: 17780840440418910809, Gyaml: StackInfo, Name: StackInfo, Src: 10770217301254792691}
+        - {Dst: 2411425607895485231, Gyaml: StackInfo, Name: StackInfo, Src: 10770217301254792691}
       Phive:
         Placement: {ID: 10770217301254792691}
       Presence: {FlagName: RescueHost_IsAfter_Step1_Exp, IsCheckLazy: true, IsNegation: true}
@@ -8913,6 +8946,23 @@ root:
     - Bakeable: true
       Dynamic: {Drop__DropTable: Few}
       Gyaml: Kibako_Contain_01_NoRespawn
+      Hash: '2411425607895485231'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 2411425607895485231}
+      Presence: {FlagName: RescueHost_IsAfter_Step1_Exp, IsCheckLazy: true, IsNegation: true}
+      Rotate:
+        - -0,00037
+        - 1,10735
+        - -0,00049
+      SRTHash: !u 3104836735
+      Translate:
+        - -2797,94000
+        - 135,45140
+        - 2219,70900
+    - Bakeable: true
+      Dynamic: {Drop__DropTable: Few}
+      Gyaml: Kibako_Contain_01_NoRespawn
       Hash: '17780840440418910809'
       IsPhysicsStable: true
       Phive:
@@ -9002,6 +9052,23 @@ root:
     - Bakeable: true
       Dynamic: {Drop__DropTable: Few}
       Gyaml: Kibako_Contain_01_NoRespawn
+      Hash: '15687485765921886744'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 15687485765921886744}
+      Presence: {FlagName: RescueHost_IsAfter_Step1_Exp, IsCheckLazy: true, IsNegation: true}
+      Rotate:
+        - -0,00013
+        - -0,13226
+        - 0,00014
+      SRTHash: !u 1371395649
+      Translate:
+        - -2802,43600
+        - 135,45130
+        - 2218,66000
+    - Bakeable: true
+      Dynamic: {Drop__DropTable: Few}
+      Gyaml: Kibako_Contain_01_NoRespawn
       Hash: '8040758189312119626'
       IsPhysicsStable: true
       Links:
@@ -9042,6 +9109,7 @@ root:
       Hash: '1265327922992448204'
       IsPhysicsStable: true
       Links:
+        - {Dst: 15687485765921886744, Gyaml: StackInfo, Name: StackInfo, Src: 1265327922992448204}
         - {Dst: 7301913848597983512, Gyaml: StackInfo, Name: StackInfo, Src: 1265327922992448204}
       Phive:
         Placement: {ID: 1265327922992448204}
@@ -11107,6 +11175,7 @@ root:
       Links:
         - {Dst: 709187970159023627, Gyaml: Reference, Name: Reference, Src: 6554670435417434408}
         - {Dst: 16635819365209588612, Gyaml: Reference, Name: Reference, Src: 6554670435417434408}
+        - {Dst: 12800479891754565997, Gyaml: Reference, Name: Reference, Src: 6554670435417434408}
         - {Dst: 7252382242329520081, Gyaml: Reference, Name: Reference, Src: 6554670435417434408}
         - {Dst: 10896002003370815787, Gyaml: Reference, Name: Reference, Src: 6554670435417434408}
         - {Dst: 1480100454509715025, Gyaml: Reference, Name: Reference, Src: 6554670435417434408}
@@ -12185,6 +12254,7 @@ root:
         - 306,09360
         - 2432,32400
     - Dynamic: {RigidBodyShapeType: !l 0}
+      ExtraCreateRadius: 300,00000
       Gyaml: Area
       Hash: '14274893691831898213'
       Phive:
@@ -13659,8 +13729,6 @@ root:
     - Dynamic: {Drop__DropTable: GerudoCanyon}
       Gyaml: Kibako_Contain_01
       Hash: '16977096644108956137'
-      Links:
-        - {Dst: 4689480512651832109, Gyaml: StackInfo, Name: StackInfo, Src: 16977096644108956137}
       Phive:
         Placement: {ID: 16977096644108956137}
       Rotate:
@@ -13675,8 +13743,6 @@ root:
     - Dynamic: {Drop__DropTable: GerudoCanyon}
       Gyaml: Kibako_Contain_01
       Hash: '3836238607932942554'
-      Links:
-        - {Dst: 6263624908079260952, Gyaml: StackInfo, Name: StackInfo, Src: 3836238607932942554}
       Phive:
         Placement: {ID: 3836238607932942554}
       Rotate:
@@ -13691,9 +13757,6 @@ root:
     - Dynamic: {Drop__DropTable: GerudoCanyon}
       Gyaml: Kibako_Contain_01
       Hash: '5355904219651133186'
-      Links:
-        - {Dst: 8983611221170905183, Gyaml: StackInfo, Name: StackInfo, Src: 5355904219651133186}
-        - {Dst: 1253520439909438839, Gyaml: StackInfo, Name: StackInfo, Src: 5355904219651133186}
       Phive:
         Placement: {ID: 5355904219651133186}
       Rotate:
@@ -13708,8 +13771,6 @@ root:
     - Dynamic: {Drop__DropTable: GerudoCanyon}
       Gyaml: Kibako_Contain_01
       Hash: '17600711606879752593'
-      Links:
-        - {Dst: 8983611221170905183, Gyaml: StackInfo, Name: StackInfo, Src: 17600711606879752593}
       Phive:
         Placement: {ID: 17600711606879752593}
       Rotate:
@@ -13724,8 +13785,6 @@ root:
     - Dynamic: {Drop__DropTable: GerudoCanyon}
       Gyaml: Kibako_Contain_01
       Hash: '12755539503866621234'
-      Links:
-        - {Dst: 2216932719238351466, Gyaml: StackInfo, Name: StackInfo, Src: 12755539503866621234}
       Phive:
         Placement: {ID: 12755539503866621234}
       Rotate:
@@ -13740,8 +13799,6 @@ root:
     - Dynamic: {Drop__DropTable: GerudoCanyon}
       Gyaml: Kibako_Contain_01
       Hash: '9101654627091940345'
-      Links:
-        - {Dst: 879201574534454474, Gyaml: StackInfo, Name: StackInfo, Src: 9101654627091940345}
       Phive:
         Placement: {ID: 9101654627091940345}
       Rotate:
@@ -13757,9 +13814,6 @@ root:
       Gyaml: Kibako_Contain_01
       Hash: '3390175935895457542'
       IsPhysicsStable: true
-      Links:
-        - {Dst: 2216932719238351466, Gyaml: StackInfo, Name: StackInfo, Src: 3390175935895457542}
-        - {Dst: 3038638960320196193, Gyaml: StackInfo, Name: StackInfo, Src: 3390175935895457542}
       Phive:
         Placement: {ID: 3390175935895457542}
       Rotate:
@@ -15210,6 +15264,7 @@ root:
         - 465,80720
         - 2548,73200
     - Bakeable: true
+      ExtraCreateRadius: 2000,00000
       Gyaml: FldObj_RockOrangeBridge_A_01_Far
       Hash: '14899623427637388048'
       Phive:
@@ -16194,6 +16249,7 @@ root:
         - 342,51460
         - 2322,13800
     - Bakeable: true
+      ExtraCreateRadius: 2020,00000
       Gyaml: FldObj_CliffOrange_A_07_Far
       Hash: '12954790617355870299'
       Phive:
@@ -16820,6 +16876,7 @@ root:
         - 411,39110
         - 2522,25100
     - Bakeable: true
+      ExtraCreateRadius: 2000,00000
       Gyaml: FldObj_CliffOrangeWall_A_02_Far
       Hash: '11717290082199545474'
       Phive:
@@ -16846,6 +16903,7 @@ root:
         - 407,32860
         - 2558,12000
     - Bakeable: true
+      ExtraCreateRadius: 2000,00000
       Gyaml: FldObj_CliffOrangeWall_A_02_Far
       Hash: '11717290082398550718'
       Phive:
@@ -16906,6 +16964,7 @@ root:
         - 410,60990
         - 2464,11000
     - Bakeable: true
+      ExtraCreateRadius: 2000,00000
       Gyaml: FldObj_CliffOrangeWall_A_02_Far
       Hash: '11717290082126958252'
       Phive:
@@ -16966,6 +17025,7 @@ root:
         - 453,99850
         - 2487,31100
     - Bakeable: true
+      ExtraCreateRadius: 2000,00000
       Gyaml: FldObj_CliffOrange_A_02_Far
       Hash: '2604389150421289898'
       Phive:
@@ -17206,6 +17266,7 @@ root:
         - 401,27530
         - 2500,45100
     - Bakeable: true
+      ExtraCreateRadius: 2000,00000
       Gyaml: FldObj_CliffOrange_A_07_Far
       Hash: '12954790617065254034'
       Phive:
@@ -17266,6 +17327,7 @@ root:
         - 393,38240
         - 2544,44000
     - Bakeable: true
+      ExtraCreateRadius: 2000,00000
       Gyaml: FldObj_CliffOrange_A_03_Far
       Hash: '2124009541971384516'
       Phive:
@@ -17296,6 +17358,7 @@ root:
         - 409,09090
         - 2587,36100
     - Bakeable: true
+      ExtraCreateRadius: 2000,00000
       Gyaml: FldObj_CliffOrange_A_07_Far
       Hash: '12954790616158428313'
       Phive:
@@ -17378,6 +17441,7 @@ root:
         - 415,18010
         - 2624,83600
     - Bakeable: true
+      ExtraCreateRadius: 2000,00000
       Gyaml: FldObj_CliffOrange_A_07_Far
       Hash: '12954790613903017568'
       Phive:
@@ -17408,6 +17472,7 @@ root:
         - 436,81410
         - 2707,87500
     - Bakeable: true
+      ExtraCreateRadius: 2000,00000
       Gyaml: FldObj_CliffOrange_A_02_Far
       Hash: '2604389153501418323'
       Phive:
@@ -17588,6 +17653,7 @@ root:
         - 354,93600
         - 2594,81000
     - Bakeable: true
+      ExtraCreateRadius: 2000,00000
       Gyaml: FldObj_CliffOrange_A_07_Far
       Hash: '12954790617219377630'
       Phive:
@@ -17622,6 +17688,7 @@ root:
         - 348,96440
         - 2501,05100
     - Bakeable: true
+      ExtraCreateRadius: 2000,00000
       Gyaml: FldObj_CliffOrange_A_07_Far
       Hash: '12954790616559734969'
       Phive:
@@ -17686,6 +17753,7 @@ root:
         - 374,39120
         - 2219,78300
     - Bakeable: true
+      ExtraCreateRadius: 2000,00000
       Gyaml: FldObj_CliffOrangeWall_A_33_Far
       Hash: '39096855246901619'
       Phive:
@@ -18174,6 +18242,7 @@ root:
         - 399,84450
         - 2533,81000
     - Bakeable: true
+      ExtraCreateRadius: 2000,00000
       Gyaml: FldObj_CliffOrange_A_02_Far
       Hash: '2604389151280029397'
       Phive:
@@ -21482,6 +21551,7 @@ root:
         - 413,10100
         - 2253,23100
     - Bakeable: true
+      ExtraCreateRadius: 2000,00000
       Gyaml: FldObj_RockOrangeBridge_A_01_Far
       Hash: '10452321115939062349'
       Phive:
@@ -23451,6 +23521,10 @@ root:
       - 11955754912797121544
       - 14085095172072201995
       - 14878008040007009073
+    - - 491053958234673956
+      - 6577343944237756878
+      - 12924010036995973200
+      - 14274893691831898213
     - - 700596715318078178
       - 10272813321120361463
       - 13959494170581761719
@@ -23504,8 +23578,6 @@ root:
     - - 11304747305401403139
       - 11753193324079636827
       - 13358170698700060877
-    - - 491053958234673956
-      - 12924010036995973200
     - - 961450942283468744
       - 15392585242223048875
     - - 1110646140255099455
@@ -23516,8 +23588,6 @@ root:
       - 9856738148381130104
     - - 6162829951264558547
       - 9374752459953859308
-    - - 6577343944237756878
-      - 14274893691831898213
     - - 6930310768789257324
       - 17801436035428775496
     - - 7523005142037379506
@@ -26264,6 +26334,10 @@ root:
       - 11955754912797121544
       - 14085095172072201995
       - 14878008040007009073
+    - - 491053958234673956
+      - 6577343944237756878
+      - 12924010036995973200
+      - 14274893691831898213
     - - 700596715318078178
       - 10272813321120361463
       - 13959494170581761719
@@ -26317,8 +26391,6 @@ root:
     - - 11304747305401403139
       - 11753193324079636827
       - 13358170698700060877
-    - - 491053958234673956
-      - 12924010036995973200
     - - 961450942283468744
       - 15392585242223048875
     - - 1110646140255099455
@@ -26331,8 +26403,6 @@ root:
       - 9856738148381130104
     - - 6162829951264558547
       - 9374752459953859308
-    - - 6577343944237756878
-      - 14274893691831898213
     - - 6930310768789257324
       - 17801436035428775496
     - - 7523005142037379506

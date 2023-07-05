@@ -2642,7 +2642,8 @@ root:
         - 4192,07000
         - 325,49920
         - -1371,03800
-    - Gyaml: PlayerHouseArea
+    - ExtraCreateRadius: 275,70000
+      Gyaml: PlayerHouseArea
       Hash: '127919089495688787'
       Phive:
         Placement: {ID: 127919089495688787}
@@ -2858,7 +2859,8 @@ root:
         - 4106,02900
         - 271,87920
         - -1376,55500
-    - Gyaml: PlayerHouseArea
+    - ExtraCreateRadius: 295,90000
+      Gyaml: PlayerHouseArea
       Hash: '15015577766422845560'
       Phive:
         Placement: {ID: 15015577766422845560}
@@ -2892,7 +2894,7 @@ root:
         - 4196,76500
         - 317,09940
         - -1377,23000
-    - Dynamic: {RigidBodyShapeType: !l 0}
+    - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
       Gyaml: Area
       Hash: '17076595415169517416'
       Phive:
@@ -3580,6 +3582,7 @@ root:
       Links:
         - {Dst: 9728723087943789366, Gyaml: Reference, Name: Reference, Src: 14415377895129510424}
         - {Dst: 8689728719605546716, Gyaml: Reference, Name: Reference, Src: 14415377895129510424}
+        - {Dst: 4836530064277432914, Gyaml: Reference, Name: Reference, Src: 14415377895129510424}
         - {Dst: 17210919258426000638, Gyaml: Reference, Name: Reference, Src: 14415377895129510424}
         - {Dst: 7903181031615073784, Gyaml: Reference, Name: Reference, Src: 14415377895129510424}
         - {Dst: 9387765668673891936, Gyaml: Reference, Name: Reference, Src: 14415377895129510424}
@@ -4393,7 +4396,8 @@ root:
         - 4209,96300
         - 313,17800
         - -1378,81200
-    - Gyaml: Area
+    - ExtraCreateRadius: 307,60000
+      Gyaml: Area
       Hash: '2065684679372069815'
       Phive:
         Placement: {ID: 2065684679372069815}
@@ -4428,6 +4432,42 @@ root:
         - 4202,79200
         - 266,58760
         - -1377,97400
+    - Gyaml: AreaHorseDeleteImmediatelyOnDeath
+      Hash: '12744181104550109070'
+      Phive:
+        Placement: {ID: 12744181104550109070}
+      Rotate:
+        - 0,00000
+        - -1,08036
+        - 0,00000
+      SRTHash: !u 2929690185
+      Scale:
+        - 26,70000
+        - 37,00000
+        - 26,70000
+      Translate:
+        - 4209,96300
+        - 313,17820
+        - -1378,81200
+      Version: !l 110
+    - Gyaml: SageLightOrbAreaSphere
+      Hash: '3276173922142145550'
+      Phive:
+        Placement: {ID: 3276173922142145550}
+      Rotate:
+        - 0,00000
+        - -0,94248
+        - 0,00000
+      SRTHash: !u 3558056736
+      Scale:
+        - 48,00000
+        - 48,00000
+        - 48,00000
+      Translate:
+        - 4207,21200
+        - 268,20920
+        - -1374,59900
+      Version: !l 110
     - Bakeable: true
       Gyaml: FldObj_LinkHouse_Base_A_01_Far
       Hash: '11883417357556501535'

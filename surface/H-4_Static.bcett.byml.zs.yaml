@@ -8436,6 +8436,8 @@ root:
     - Dynamic: {Life_BossLifeGaugeSubtitle: Ground_057, NestUser_ChangeDefaultTerritoryToCustomKeyName: GoronZoraObservationDeckBlocker}
       Gyaml: Enemy_Drake_Fire
       Hash: '7024559691671561212'
+      Links:
+        - {Dst: 2224144552019523747, Gyaml: MoveTarget, Name: MoveTarget, Src: 7024559691671561212}
       Phive:
         Placement: {ID: 7024559691671561212}
       Rotate:
@@ -8501,6 +8503,20 @@ root:
         - 2238,50000
         - 0,00000
         - -693,50000
+    - Gyaml: AnchorWaypoint1
+      Hash: '2224144552019523747'
+      Phive:
+        Placement: {ID: 2224144552019523747}
+      Rotate:
+        - 0,02225
+        - 0,87920
+        - 0,02784
+      SRTHash: !u 3146123423
+      Translate:
+        - 2238,50000
+        - 216,52200
+        - -693,50000
+      Version: !l 101
     - Bakeable: true
       Gyaml: AsbObj_WoodRectangle_A_LL_01
       Hash: '1567569934271713948'
@@ -8534,6 +8550,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodWheel_A_01
       Hash: '7997086501912422966'
+      IsForceActive: true
       Links:
         - {Dst: 5216741472061306151, Gyaml: StackInfo, Name: StackInfo, Src: 7997086501912422966}
       Phive:
@@ -11454,6 +11471,7 @@ root:
         - -52,17638
     - Gyaml: BarrelBomb2
       Hash: '15745920371768918774'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 15745920371768918774}
@@ -11468,6 +11486,7 @@ root:
         - -60,22476
     - Gyaml: BarrelBomb2
       Hash: '11430059805087623838'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 11430059805087623838}
@@ -11482,6 +11501,7 @@ root:
         - -58,76218
     - Gyaml: BarrelBomb2
       Hash: '5510003677806803193'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 5510003677806803193}
@@ -14989,6 +15009,7 @@ root:
       Links:
         - {Dst: 14378937531249306518, Gyaml: Reference, Name: Reference, Src: 11425582952950079993}
         - {Dst: 11675158189372032827, Gyaml: Reference, Name: Reference, Src: 11425582952950079993}
+        - {Dst: 755629984283187774, Gyaml: Reference, Name: Reference, Src: 11425582952950079993}
         - {Dst: 13574721167545880769, Gyaml: Reference, Name: Reference, Src: 11425582952950079993}
         - {Dst: 16279983963252332952, Gyaml: Reference, Name: Reference, Src: 11425582952950079993}
         - {Dst: 15907358973551768129, Gyaml: Reference, Name: Reference, Src: 11425582952950079993}
@@ -15188,6 +15209,7 @@ root:
       Links:
         - {Dst: 13853294794804559546, Gyaml: Reference, Name: Reference, Src: 9747266720527510745}
         - {Dst: 11766368735989678084, Gyaml: Reference, Name: Reference, Src: 9747266720527510745}
+        - {Dst: 599073499502855458, Gyaml: Reference, Name: Reference, Src: 9747266720527510745}
         - {Dst: 11896787561078353905, Gyaml: Reference, Name: Reference, Src: 9747266720527510745}
         - {Dst: 2370339689957332216, Gyaml: Reference, Name: Reference, Src: 9747266720527510745}
         - {Dst: 14053045053199496305, Gyaml: Reference, Name: Reference, Src: 9747266720527510745}
@@ -16682,6 +16704,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodSquare_A_M_01
       Hash: '13459873618430741836'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -16702,6 +16725,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodWheel_A_01
       Hash: '12915000975704182457'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -16744,6 +16768,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodWheel_A_01
       Hash: '14166433552929255145'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -18222,6 +18247,7 @@ root:
       Links:
         - {Dst: 15884838637594718758, Gyaml: Reference, Name: Reference, Src: 12272762927749158983}
         - {Dst: 9906845720830811321, Gyaml: Reference, Name: Reference, Src: 12272762927749158983}
+        - {Dst: 16520965134246731963, Gyaml: Reference, Name: Reference, Src: 12272762927749158983}
         - {Dst: 10884485578138139295, Gyaml: Reference, Name: Reference, Src: 12272762927749158983}
         - {Dst: 14184278565673365597, Gyaml: Reference, Name: Reference, Src: 12272762927749158983}
         - {Dst: 16218589912671742751, Gyaml: Reference, Name: Reference, Src: 12272762927749158983}
@@ -19057,6 +19083,7 @@ root:
     - Bakeable: true
       Gyaml: Obj_KorokPot_A_01
       Hash: '15845220443233835504'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         ConstraintLink:
@@ -20434,7 +20461,7 @@ root:
         MarginNegative:
           - 19,86411
           - 19,86411
-          - 19,86411
+          - 35,00000
         MarginPositive:
           - 19,86411
           - 100,00000
@@ -20806,7 +20833,7 @@ root:
     - Dynamic:
         MarginNegative:
           - 38,40000
-          - 1,00000
+          - 3,00000
           - 37,60000
         MarginPositive:
           - 47,20000

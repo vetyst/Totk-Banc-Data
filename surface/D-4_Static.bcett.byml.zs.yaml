@@ -1575,6 +1575,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodWheel_A_02
       Hash: '15881443157084697682'
+      IsForceActive: true
       Links:
         - {Dst: 12669901031707763159, Gyaml: Owned, Name: Owned, Src: 15881443157084697682}
       Name: FrontL
@@ -1651,6 +1652,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodWheel_A_02
       Hash: '1189868749789269854'
+      IsForceActive: true
       Links:
         - {Dst: 12669901031707763159, Gyaml: Owned, Name: Owned, Src: 1189868749789269854}
       Name: RearR
@@ -1879,6 +1881,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_CaravanWagon_A_05
       Hash: '10532589475351311082'
+      IsForceActive: true
       Links:
         - {Dst: 12669901031707763159, Gyaml: Owned, Name: Owned, Src: 10532589475351311082}
       Phive:
@@ -2755,7 +2758,6 @@ root:
         - 191,75570
         - -714,45270
     - Bakeable: true
-      Dynamic: {PlacementMotion_MotionType: !l 4}
       ExtraCreateRadius: 20,00000
       Gyaml: AsbObj_WoodWheel_A_02
       Hash: '14930785225480353616'
@@ -7689,46 +7691,38 @@ root:
       Hash: '13366241892323655235'
       Phive:
         Placement: {ID: 13366241892323655235}
-      Rotate:
-        - 0,26062
-        - 0,16875
-        - -0,21209
-      SRTHash: !u 3429499938
+      SRTHash: !u 1275319053
       Translate:
         - -1280,39700
-        - 211,39310
+        - 207,64360
         - -960,32860
     - Dynamic: {RigidBodyShapeType: !l 0}
       Gyaml: Area
       Hash: '12532575824966818518'
       Phive:
         Placement: {ID: 12532575824966818518}
-      Rotate:
-        - 0,26062
-        - 0,16875
-        - -0,21209
-      SRTHash: !u 1446049542
+      SRTHash: !u 3539031556
       Scale:
         - 12,00000
         - 12,00000
         - 12,00000
       Translate:
-        - -1283,34500
-        - 200,16740
-        - -963,37680
+        - -1280,39700
+        - 195,64360
+        - -960,32860
     - Dynamic: {Role: !l 3}
       Gyaml: Enemy_Chuchu_Junior
       Hash: '6364966914079480367'
       Phive:
         Placement: {ID: 6364966914079480367}
       Rotate:
-        - 0,24852
-        - 0,16869
-        - -0,26934
-      SRTHash: !u 3511674724
+        - 0,00000
+        - -0,72463
+        - 0,00000
+      SRTHash: !u 1567682417
       Translate:
         - -1282,40800
-        - 212,22980
+        - 207,63140
         - -970,18850
     - Dynamic: {RigidBodyShapeType: !l 0}
       Gyaml: Area
@@ -7736,50 +7730,42 @@ root:
       Phive:
         Placement: {ID: 779872116780580683}
       Rotate:
-        - 0,24852
-        - 0,16869
-        - -0,26934
-      SRTHash: !u 4260362130
+        - 0,00000
+        - -0,72463
+        - 0,00000
+      SRTHash: !u 3144156450
       Scale:
         - 12,00000
         - 12,00000
         - 12,00000
       Translate:
-        - -1285,98100
-        - 201,14970
-        - -973,09820
+        - -1282,40800
+        - 195,63140
+        - -970,18850
     - Dynamic: {Role: !l 3}
       Gyaml: Enemy_Chuchu_Junior
       Hash: '9151187201720002550'
       Phive:
         Placement: {ID: 9151187201720002550}
-      Rotate:
-        - 0,25379
-        - 0,16879
-        - -0,22559
-      SRTHash: !u 3888766331
+      SRTHash: !u 4187427138
       Translate:
         - -1285,69700
-        - 212,60400
+        - 207,66910
         - -948,18370
     - Dynamic: {RigidBodyShapeType: !l 0}
       Gyaml: Area
       Hash: '824019539460201259'
       Phive:
         Placement: {ID: 824019539460201259}
-      Rotate:
-        - 0,25379
-        - 0,16879
-        - -0,22559
-      SRTHash: !u 791215287
+      SRTHash: !u 3132399628
       Scale:
         - 12,00000
         - 12,00000
         - 12,00000
       Translate:
-        - -1288,78800
-        - 201,39590
-        - -951,15370
+        - -1285,69700
+        - 195,66910
+        - -948,18370
     - Dynamic: {Drop__DropActor: SpObj_WindGenerator_Capsule_A_01}
       Gyaml: TBox_Field_Iron_Zonau
       Hash: '9327904913635802484'
@@ -8223,9 +8209,24 @@ root:
         - 169,52740
         - -223,48880
     - Gyaml: Obj_BreakBoxIron
+      Hash: '15805292253597435276'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 15805292253597435276}
+      Rotate:
+        - -3,13127
+        - 1,32589
+        - 3,09774
+      SRTHash: !u 2680431610
+      Translate:
+        - -1217,34900
+        - 169,51750
+        - -221,53700
+    - Gyaml: Obj_BreakBoxIron
       Hash: '15805292254634383199'
       IsPhysicsStable: true
       Links:
+        - {Dst: 15805292253597435276, Gyaml: StackInfo, Name: StackInfo, Src: 15805292254634383199}
         - {Dst: 15805292253081775203, Gyaml: StackInfo, Name: StackInfo, Src: 15805292254634383199}
       Phive:
         Placement: {ID: 15805292254634383199}
@@ -8243,6 +8244,7 @@ root:
       IsPhysicsStable: true
       Links:
         - {Dst: 14832314322595822527, Gyaml: StackInfo, Name: StackInfo, Src: 5878246604047966396}
+        - {Dst: 8624231644347677353, Gyaml: StackInfo, Name: StackInfo, Src: 5878246604047966396}
       Phive:
         Placement: {ID: 5878246604047966396}
       Rotate:
@@ -8331,6 +8333,21 @@ root:
         - -1211,21900
         - 171,89020
         - -245,51210
+    - Gyaml: Kibako_Contain_01
+      Hash: '8624231644347677353'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 8624231644347677353}
+      Rotate:
+        - 0,10055
+        - 0,91773
+        - 0,08785
+      SRTHash: !u 1874649438
+      Translate:
+        - -1195,43500
+        - 169,28670
+        - -239,49370
+      TurnActorNearEnemy: true
     - Dynamic: {Drop__DropActor: Weapon_Bow_003}
       Gyaml: TBox_Field_Iron
       Hash: '7736112831585007339'
@@ -8660,6 +8677,7 @@ root:
         - -38,24530
     - Gyaml: Kibako_Contain_01
       Hash: '16508792042093204652'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 16508792042093204652}
@@ -8675,6 +8693,7 @@ root:
       TurnActorNearEnemy: true
     - Gyaml: Kibako_Contain_01
       Hash: '16508792042882565338'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 16508792042882565338}
@@ -9178,6 +9197,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodWheel_A_01
       Hash: '14805922623702832171'
+      IsForceActive: true
       Links:
         - {Dst: 2522008337276029547, Gyaml: StackInfo, Name: StackInfo, Src: 14805922623702832171}
       Phive:
@@ -9270,6 +9290,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodWheel_A_01
       Hash: '2522008337276029547'
+      IsForceActive: true
       Phive:
         Placement: {ID: 2522008337276029547}
       Rotate:
@@ -9817,6 +9838,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodRectangle_A_M_01
       Hash: '14999115594522201429'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 14999115594522201429}
@@ -9832,6 +9854,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WoodRectangle_A_M_01
       Hash: '7586534996985840149'
+      IsForceActive: true
       IsPhysicsStable: true
       Links:
         - {Dst: 14999115594522201429, Gyaml: StackInfo, Name: StackInfo, Src: 7586534996985840149}
@@ -10653,6 +10676,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WhiteWoodRectangle_A_M_01
       Hash: '6946699982559928188'
+      IsForceActive: true
       IsPhysicsStable: true
       Phive:
         Placement: {ID: 6946699982559928188}
@@ -10668,6 +10692,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WhiteWoodRectangle_A_M_01
       Hash: '8152380235224972889'
+      IsForceActive: true
       IsPhysicsStable: true
       Links:
         - {Dst: 6946699982559928188, Gyaml: StackInfo, Name: StackInfo, Src: 8152380235224972889}
@@ -10685,6 +10710,7 @@ root:
     - Bakeable: true
       Gyaml: AsbObj_WhiteWoodRectangle_A_M_01
       Hash: '18427383890594430933'
+      IsForceActive: true
       IsPhysicsStable: true
       Links:
         - {Dst: 6946699982559928188, Gyaml: StackInfo, Name: StackInfo, Src: 18427383890594430933}
