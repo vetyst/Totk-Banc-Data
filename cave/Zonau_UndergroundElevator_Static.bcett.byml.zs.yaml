@@ -1,0 +1,154 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Dynamic:
+        LinearVel:
+          - 0,00000
+          - 0,50000
+          - 0,00000
+        TargetPos:
+          - 0,00000
+          - -0,50000
+          - 0,00000
+      Gyaml: GroundControlActor_MoveTo
+      Hash: '15461778107433418471'
+      Phive:
+        Placement: {GroupGUID: 16073266183236133605, GroupID: !l 9265, ID: 15461778107433418471}
+      Presence: {FlagName: SageOfSoul_Elevator_End, IsCheckLazy: false, IsNegation: true}
+      Rotate:
+        - 0,00000
+        - 0,17453
+        - 0,00000
+      SRTHash: !u 260514238
+      Translate:
+        - 1278,51700
+        - 183,78240
+        - 2377,95700
+    - Dynamic: {RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '17442977665685646846'
+      Phive:
+        Placement: {ID: 17442977665685646846}
+      Presence: {FlagName: SageOfSoul_Elevator_End, IsCheckLazy: false, IsNegation: true}
+      Rotate:
+        - 0,00000
+        - 0,17453
+        - 0,00000
+      SRTHash: !u 248447687
+      Scale:
+        - 54,99998
+        - 54,99998
+        - 54,99998
+      Translate:
+        - 1304,18000
+        - 116,78240
+        - 2379,52400
+    - Bakeable: true
+      Gyaml: Obj_Zonau_GolemParts_HeadBeamPoint
+      Hash: '13017073041847349662'
+      Phive:
+        Placement: {GroupGUID: 16073266183236133605, GroupID: !l 9265, ID: 13017073041847349662}
+      Presence: {FlagName: SageOfSoul_Elevator_End, IsCheckLazy: false, IsNegation: true}
+      Rotate:
+        - 0,00000
+        - 0,17453
+        - 0,00000
+      SRTHash: !u 1416704448
+      Translate:
+        - 1304,18000
+        - 173,08240
+        - 2379,52400
+    - Bakeable: true
+      Dynamic: {PlacementMotion_MotionType: !l 1, SnippingEvent: SageOfSoul_Event_CarriedCheckPoint02}
+      Gyaml: RaumiGolem_Parts_Head
+      Hash: '9746282953146980682'
+      Links:
+        - {Dst: 2660163408989712237, Gyaml: Snapping, Name: Snapping, Src: 9746282953146980682}
+      Name: HeadParts01
+      Phive:
+        Placement: {ID: 9746282953146980682}
+      Presence: {FlagName: SageOfSoul_Elevator_End, IsCheckLazy: false, IsNegation: true}
+      Rotate:
+        - -3,14159
+        - -0,17453
+        - -3,14159
+      SRTHash: !u 2155154974
+      Translate:
+        - 1318,17800
+        - 188,38240
+        - 2459,44000
+    - Bakeable: true
+      Gyaml: Obj_Zonau_GolemPrats_HeadBase_A_02
+      Hash: '2092837671758678386'
+      Name: Pedestal01
+      Phive:
+        Placement: {ID: 2092837671758678386}
+      Presence: {FlagName: SageOfSoul_Elevator_End, IsCheckLazy: false, IsNegation: true}
+      Rotate:
+        - 3,14159
+        - -0,17453
+        - 3,14159
+      SRTHash: !u 2125405815
+      Translate:
+        - 1304,18000
+        - 172,02240
+        - 2379,52400
+    - Gyaml: RaumiGolem_Parts_Head_Anchor
+      Hash: '2660163408989712237'
+      Name: RaumiGolem_Parts_Head
+      Phive:
+        Placement: {ID: 2660163408989712237}
+      Presence: {FlagName: SageOfSoul_Elevator_End, IsCheckLazy: false, IsNegation: true}
+      Rotate:
+        - 3,14159
+        - -0,17453
+        - 3,14159
+      SRTHash: !u 1166032490
+      Translate:
+        - 1304,17600
+        - 173,05950
+        - 2379,50300
+  AiGroups:
+    - Hash: '8302709817667958580'
+      Logic: Logic/Module/Zonau_UndergroundElevator/Zonau_UndergroundElevator_5c84.logic.module.ain
+      References:
+        - {Id: Obj_Zonau_GolemParts_HeadBeamPoint_02a0, Path: Obj_Zonau_GolemParts_HeadBeamPoint_02a0, Reference: 13017073041847349662}
+    - Hash: '15382977914258664373'
+      Logic: Logic/Module/Zonau_UndergroundElevator/Zonau_UndergroundElevator_5e76.logic.module.ain
+      References:
+        - {Id: GroundControlActor_MoveTo_52e3, Path: GroundControlActor_MoveTo_52e3, Reference: 15461778107433418471}
+        - {Id: Area_0d80, Path: Area_0d80, Reference: 17442977665685646846}
+        - {Id: Obj_Zonau_GolemPrats_HeadBase_A_02_53bb, Path: Obj_Zonau_GolemPrats_HeadBase_A_02_53bb, Reference: 2092837671758678386}
+        - {Id: RaumiGolem_Parts_Head_Anchor_9386, Path: RaumiGolem_Parts_Head_Anchor_9386, Reference: 2660163408989712237}
+        - {Id: RaumiGolem_Parts_Head_e8e8, Path: RaumiGolem_Parts_Head_e8e8, Reference: 9746282953146980682}
+  FarDeleteGroups:
+    - - 2092837671758678386
+      - 2660163408989712237
+      - 9746282953146980682
+      - 15461778107433418471
+      - 17442977665685646846
+  FilePath: Work/Banc/Scene/Prefab/Zonau_UndergroundElevator.bcett.json
+  PhiveHeader:
+    PlacementGroups:
+      - GroupGUID: 16073266183236133605
+        GroupID: !l 9265
+        ParentGroupGUID: 0
+        ParentLocalID: !l -1
+        Rot:
+          - 0,00000
+          - 0,17453
+          - 0,00000
+        Trans:
+          - 1304,18000
+          - 172,28240
+          - 2379,52400
+        Type: Default
+  SimultaneousGroups:
+    - - 2092837671758678386
+      - 2660163408989712237
+      - 9746282953146980682
+      - 15461778107433418471
+      - 17442977665685646846

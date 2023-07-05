@@ -1,0 +1,447 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_HyruleForest_0007
+      Hash: '10181854178720060799'
+      Phive:
+        Placement: {ID: 10181854178720060799}
+      Rotate:
+        - 3,14159
+        - 0,10000
+        - 3,14159
+      SRTHash: !u 4055014520
+      Translate:
+        - -639,00000
+        - 262,00000
+        - -2039,50000
+    - Gyaml: Item_Fruit_H
+      Hash: '14822899465999674716'
+      Links:
+        - {Dst: 17367108219157896711, Gyaml: StackInfo, Name: StackInfo, Src: 14822899465999674716}
+      Phive:
+        Placement: {ID: 14822899465999674716}
+      Rotate:
+        - 2,24446
+        - -1,02400
+        - -0,12105
+      SRTHash: !u 3170813150
+      Translate:
+        - -636,64650
+        - 254,12000
+        - -2160,17700
+    - Gyaml: Item_Fruit_H
+      Hash: '11009194389974276357'
+      Links:
+        - {Dst: 17367108219157896711, Gyaml: StackInfo, Name: StackInfo, Src: 11009194389974276357}
+      Phive:
+        Placement: {ID: 11009194389974276357}
+      Rotate:
+        - -1,45082
+        - 0,22394
+        - 3,00614
+      SRTHash: !u 36957083
+      Translate:
+        - -636,98390
+        - 253,93290
+        - -2158,78500
+    - Gyaml: Item_Fruit_H
+      Hash: '10961186425402257516'
+      Links:
+        - {Dst: 17367108219157896711, Gyaml: StackInfo, Name: StackInfo, Src: 10961186425402257516}
+      Phive:
+        Placement: {ID: 10961186425402257516}
+      Rotate:
+        - 1,71844
+        - 0,58405
+        - 0,09882
+      SRTHash: !u 319252356
+      Translate:
+        - -637,26090
+        - 254,36650
+        - -2160,18900
+    - Gyaml: Item_Fruit_H
+      Hash: '17367108219157896711'
+      Phive:
+        Placement: {ID: 17367108219157896711}
+      Rotate:
+        - -1,62370
+        - 1,26916
+        - 2,98610
+      SRTHash: !u 1786903727
+      Translate:
+        - -637,37780
+        - 253,96350
+        - -2159,49400
+    - Gyaml: Item_Fruit_H
+      Hash: '6595908043602105662'
+      Links:
+        - {Dst: 17367108219157896711, Gyaml: StackInfo, Name: StackInfo, Src: 6595908043602105662}
+      Phive:
+        Placement: {ID: 6595908043602105662}
+      Rotate:
+        - -1,21872
+        - 0,47637
+        - -3,10578
+      SRTHash: !u 2884451893
+      Translate:
+        - -637,32450
+        - 254,50230
+        - -2158,90800
+    - Gyaml: Item_Fruit_H
+      Hash: '3736617335786464080'
+      Links:
+        - {Dst: 14822899465999674716, Gyaml: StackInfo, Name: StackInfo, Src: 3736617335786464080}
+        - {Dst: 6595908043602105662, Gyaml: StackInfo, Name: StackInfo, Src: 3736617335786464080}
+      Phive:
+        Placement: {ID: 3736617335786464080}
+      Rotate:
+        - 1,69137
+        - -0,45994
+        - 0,17772
+      SRTHash: !u 2838219790
+      Translate:
+        - -636,73520
+        - 254,58130
+        - -2159,75900
+    - Bakeable: true
+      Gyaml: AsbObj_MetalRectangle_A_LL_01
+      Hash: '12186418968734015447'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 12186418968734015447}
+      Rotate:
+        - 1,44158
+        - 1,28350
+        - 1,42231
+      SRTHash: !u 1294321622
+      Translate:
+        - -614,49360
+        - 250,31580
+        - -2109,61500
+    - Bakeable: true
+      Gyaml: AsbObj_MetalRectangle_A_LL_01
+      Hash: '11414076817848854714'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 12186418968734015447, Gyaml: StackInfo, Name: StackInfo, Src: 11414076817848854714}
+      Phive:
+        Placement: {ID: 11414076817848854714}
+      Rotate:
+        - 1,73150
+        - 1,51020
+        - 1,72123
+      SRTHash: !u 3808449064
+      Translate:
+        - -614,19260
+        - 250,23390
+        - -2107,08400
+    - Dynamic: {IsNoTired: true, WasTurningIntoNPC: true}
+      Gyaml: Enemy_Assassin_Junior_GateKeeper
+      Hash: '4262476350311208141'
+      Name: CaveJunior01
+      Phive:
+        Placement: {ID: 4262476350311208141}
+      Rotate:
+        - 0,00000
+        - 0,65406
+        - 0,00000
+      SRTHash: !u 1938785700
+      Translate:
+        - -653,14370
+        - 251,54010
+        - -2113,72700
+    - Dynamic: {RequestEventName: AssassinBranch_Cave_RoomNG}
+      Gyaml: EventRequestActor
+      Hash: '15117744022934748942'
+      Phive:
+        Placement: {ID: 15117744022934748942}
+      SRTHash: !u 1271223862
+      Translate:
+        - -646,37600
+        - 274,04900
+        - -2103,03500
+    - Gyaml: AnchorAction1
+      Hash: '11298336490805443168'
+      Phive:
+        Placement: {ID: 11298336490805443168}
+      Rotate:
+        - 0,00000
+        - -0,98703
+        - 0,00000
+      SRTHash: !u 317438146
+      Translate:
+        - -650,23390
+        - 251,55250
+        - -2114,45800
+    - Dynamic: {EquipmentUser_Weapon: Weapon_Lsword_114}
+      Gyaml: Npc_Assassin_Middle_003
+      Hash: '13158329789393580059'
+      Links:
+        - {Dst: 11298336490805443168, Gyaml: Reference, Name: Reference, Src: 13158329789393580059}
+      MoveRadius: 0,00058
+      Phive:
+        Placement: {ID: 13158329789393580059}
+      Rotate:
+        - 0,00000
+        - -0,98703
+        - 0,00000
+      SRTHash: !u 317438146
+      Translate:
+        - -650,23420
+        - 251,55250
+        - -2114,45700
+    - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '7352544790784441280'
+      Phive:
+        Placement: {ID: 7352544790784441280}
+      SRTHash: !u 534808275
+      Scale:
+        - 60,00000
+        - 60,00000
+        - 60,00000
+      Translate:
+        - -649,10460
+        - 176,81500
+        - -2112,05400
+    - Dynamic: {ForbiddenAll: false, ForbiddenGeneratingAnimal: true, ForbiddenGeneratingBird: true, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingSkyFallenBox: true}
+      Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '16769055854229703830'
+      Phive:
+        Placement: {ID: 16769055854229703830}
+      SRTHash: !u 2363232444
+      Scale:
+        - 80,00000
+        - 80,00000
+        - 80,00000
+      Translate:
+        - -659,61110
+        - 221,36460
+        - -2112,05400
+    - Dynamic: {IsNoTired: true, WasTurningIntoNPC: true}
+      Gyaml: Enemy_Assassin_Middle_Gatekeeper
+      Hash: '12091926060462352359'
+      Name: CaveMiddle01
+      Phive:
+        Placement: {ID: 12091926060462352359}
+      Rotate:
+        - 0,00000
+        - -0,37769
+        - 0,00000
+      SRTHash: !u 1149914363
+      Translate:
+        - -649,61760
+        - 251,55470
+        - -2114,35600
+    - Dynamic: {EquipmentUser_Weapon: Weapon_Sword_114}
+      Gyaml: Npc_Assassin_Junior_003
+      Hash: '1905923813647448931'
+      Links:
+        - {Dst: 15630418690506477622, Gyaml: Reference, Name: Reference, Src: 1905923813647448931}
+      MoveRadius: 0,00049
+      Phive:
+        Placement: {ID: 1905923813647448931}
+      Rotate:
+        - 0,00000
+        - 1,52459
+        - 0,00000
+      SRTHash: !u 3163402178
+      Translate:
+        - -652,53290
+        - 251,56570
+        - -2114,05500
+    - Gyaml: AnchorAction1
+      Hash: '15630418690506477622'
+      Phive:
+        Placement: {ID: 15630418690506477622}
+      Rotate:
+        - 0,00000
+        - 1,52459
+        - 0,00000
+      SRTHash: !u 3163402178
+      Translate:
+        - -652,53250
+        - 251,56580
+        - -2114,05600
+    - Gyaml: Area
+      Hash: '16324118084821919860'
+      Phive:
+        Placement: {ID: 16324118084821919860}
+      SRTHash: !u 1120214120
+      Scale:
+        - 24,95412
+        - 5,42973
+        - 13,48506
+      Translate:
+        - -651,73470
+        - 248,82100
+        - -2104,36600
+    - Gyaml: Npc_HyruleDepthHatago006
+      Hash: '7774591704314511778'
+      Links:
+        - {Dst: 3648161608355391421, Gyaml: Reference, Name: Reference, Src: 7774591704314511778}
+        - {Dst: 17266589922063894291, Gyaml: Reference, Name: Reference, Src: 7774591704314511778}
+      MoveRadius: 0,00044
+      Phive:
+        Placement: {ID: 7774591704314511778}
+      Rotate:
+        - -3,14159
+        - -0,00883
+        - -3,14159
+      SRTHash: !u 868238030
+      Translate:
+        - -665,06570
+        - 270,13110
+        - -2108,25200
+    - Gyaml: AnchorAction1
+      Hash: '3648161608355391421'
+      Phive:
+        Placement: {ID: 3648161608355391421}
+      Rotate:
+        - -3,14159
+        - -0,00883
+        - -3,14159
+      SRTHash: !u 3977521251
+      Translate:
+        - -665,06600
+        - 270,13110
+        - -2108,25200
+    - Dynamic: {Drop__DropActor: Armor_1300_Lower}
+      Gyaml: TBox_Field_Stone
+      Hash: '17266589922063894291'
+      Phive:
+        Placement: {ID: 17266589922063894291}
+      Presence: {FlagName: CaveBase_RewardKeep, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - 0,01912
+        - 0,00000
+      SRTHash: !u 251325518
+      Translate:
+        - -665,05410
+        - 270,13110
+        - -2108,22600
+    - Gyaml: Area
+      Hash: '15531625631896872514'
+      Phive:
+        Placement: {ID: 15531625631896872514}
+      SRTHash: !u 2839874073
+      Scale:
+        - 15,38509
+        - 6,91440
+        - 13,03869
+      Translate:
+        - -661,66640
+        - 266,58940
+        - -2101,32500
+    - Dynamic: {RequestEventName: AssassinBranch_Cave_RoomNG2}
+      Gyaml: EventRequestActor
+      Hash: '9190278069831975706'
+      Phive:
+        Placement: {ID: 9190278069831975706}
+      SRTHash: !u 3678957338
+      Translate:
+        - -646,37600
+        - 274,04900
+        - -2099,77200
+    - Dynamic: {NonEnemySearch: true}
+      Gyaml: ForbidAutoPlacementAreaBox
+      Hash: '465386836491608434'
+      Phive:
+        Placement: {ID: 465386836491608434}
+      SRTHash: !u 3902087821
+      Scale:
+        - 14,22207
+        - 13,34948
+        - 6,54397
+      Translate:
+        - -641,98880
+        - 263,29850
+        - -2045,22100
+    - Dynamic: {RequestEventName: AssassinBranch_Cave_RoomNG2withNPC}
+      Gyaml: EventRequestActor
+      Hash: '4935036104476017865'
+      Phive:
+        Placement: {ID: 4935036104476017865}
+      SRTHash: !u 411541179
+      Translate:
+        - -643,72450
+        - 274,04900
+        - -2097,97000
+    - Bakeable: true
+      Gyaml: FldObj_AncientPillarStage_A_02
+      Hash: '16715023615667597294'
+      Links:
+        - {Dst: 8275301173951771704, Gyaml: Reference, Name: Reference, Src: 16715023615667597294}
+      Phive:
+        Placement: {ID: 16715023615667597294}
+      Rotate:
+        - 0,00000
+        - -0,22544
+        - 0,00000
+      SRTHash: !u 3288787743
+      Translate:
+        - -684,90810
+        - 247,66500
+        - -2116,84100
+    - Bakeable: true
+      Gyaml: FldObj_AncientPillarStage_A_02_Far
+      Hash: '8275301173951771704'
+      Phive:
+        Placement: {ID: 16715023615667597294}
+      Rotate:
+        - 0,00000
+        - -0,22544
+        - 0,00000
+      SRTHash: !u 3288787743
+      Translate:
+        - -684,90810
+        - 247,66500
+        - -2116,84100
+  AiGroups:
+    - Hash: '5402418654478178283'
+      Logic: Logic/Module/Cave_HyruleForest_0007_GroupSet_001/Cave_HyruleForest_0007_GroupSet_001_076d.logic.module.ain
+      References:
+        - {Id: Npc_HyruleDepthHatago006_c34b, Path: Npc_HyruleDepthHatago006_c34b, Reference: 7774591704314511778}
+    - Hash: '7775379657350692013'
+      Logic: Logic/Module/Cave_HyruleForest_0007_GroupSet_001/Cave_HyruleForest_0007_GroupSet_001_60fc.logic.module.ain
+      References:
+        - {Id: TreasureLocaterWoodBox_1c9c, Path: TreasureLocaterWoodBox_1c9c, Reference: 17266589922063894291}
+    - Hash: '8633072219067315409'
+      Logic: Logic/Module/Cave_HyruleForest_0007_GroupSet_001/Cave_HyruleForest_0007_GroupSet_001_af53.logic.module.ain
+      References:
+        - {Id: Enemy_Assassin_Middle_Gatekeeper_8322, Path: Enemy_Assassin_Middle_Gatekeeper_8322, Reference: 12091926060462352359}
+        - {Id: Enemy_Assassin_Junior_GateKeeper_e8d8, Path: Enemy_Assassin_Junior_GateKeeper_e8d8, Reference: 4262476350311208141}
+        - {Id: Npc_Assassin_Junior_003_1a38, Path: Npc_Assassin_Junior_003_1a38, Reference: 1905923813647448931}
+        - {Id: Area_bcf8, Path: Area_bcf8, Reference: 16324118084821919860}
+        - {Id: Npc_Assassin_Middle_003_b3ca, Path: Npc_Assassin_Middle_003_b3ca, Reference: 13158329789393580059}
+        - {Id: EventRequestActor_9c59, Path: EventRequestActor_9c59, Reference: 15117744022934748942}
+        - {Id: EventRequestActor_2675, Path: EventRequestActor_2675, Reference: 9190278069831975706}
+        - {Id: Area_7457, Path: Area_7457, Reference: 15531625631896872514}
+        - {Id: EventRequestActor_afcf, Path: EventRequestActor_afcf, Reference: 4935036104476017865}
+  FarDeleteGroups:
+    - - 1905923813647448931
+      - 4262476350311208141
+      - 4935036104476017865
+      - 9190278069831975706
+      - 12091926060462352359
+      - 13158329789393580059
+      - 15117744022934748942
+      - 15531625631896872514
+      - 16324118084821919860
+  FilePath: Work/Banc/Scene/Prefab/Cave_HyruleForest_0007_GroupSet_001.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 1905923813647448931
+      - 4262476350311208141
+      - 4935036104476017865
+      - 9190278069831975706
+      - 12091926060462352359
+      - 13158329789393580059
+      - 15117744022934748942
+      - 15531625631896872514
+      - 16324118084821919860

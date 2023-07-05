@@ -1,0 +1,51 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_CentralHyrule_0029
+      Hash: '16252379154471453886'
+      Phive:
+        Placement: {ID: 16252379154471453886}
+      SRTHash: !u 1239226278
+      Translate:
+        - -922,60690
+        - 113,31600
+        - -666,79250
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '9228488233421956406'
+      Phive:
+        Placement: {ID: 9228488233421956406}
+      SRTHash: !u 2869334549
+      Scale:
+        - 24,00000
+        - 162,50000
+        - 24,40000
+      Translate:
+        - -922,60690
+        - -251,68400
+        - -666,79250
+    - Bakeable: true
+      Gyaml: Miasma_DeepHole_Sparse
+      Hash: '2875828518003015053'
+      Phive:
+        Placement: {ID: 2875828518003015053}
+      SRTHash: !u 3108438152
+      Scale:
+        - 3,50000
+        - 18,27973
+        - 3,50000
+      Translate:
+        - -923,00000
+        - -233,59470
+        - -665,20000
+  AiGroups:
+    - Hash: '9693439959792296664'
+      Logic: Logic/Module/DeepHole_Common_LoadMinusFieldForceCounter/DeepHole_Common_LoadMinusFieldForceCounter_a437.logic.module.ain
+      References:
+        - {Id: Area_e397, Path: Area_e397, Reference: 9228488233421956406}
+  FilePath: Work/Banc/Scene/Prefab/Cave_CentralHyrule_0029_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []

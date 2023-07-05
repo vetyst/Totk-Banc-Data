@@ -1,0 +1,571 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Well_0012
+      Hash: '4843770816380052586'
+      Phive:
+        Placement: {ID: 4843770816380052586}
+      Rotate:
+        - -3,14159
+        - 0,54159
+        - -3,14159
+      SRTHash: !u 463835648
+      Translate:
+        - -1680,91800
+        - 227,64440
+        - 1349,22800
+    - Bakeable: true
+      Gyaml: Obj_TreeChemical_B_01
+      Hash: '4393051849293386892'
+      Links:
+        - {Dst: 3372824632284067270, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 4393051849293386892}
+        - {Dst: 5147193581100283086, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 4393051849293386892}
+        - {Dst: 4218251348917506958, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 4393051849293386892}
+      Phive:
+        Placement: {ID: 4393051849293386892}
+      Rotate:
+        - -0,10395
+        - -0,00611
+        - -0,07991
+      SRTHash: !u 2236284619
+      Translate:
+        - -1683,86500
+        - 214,99170
+        - 1362,30400
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: FireFruit
+      Hash: '4218251348917506958'
+      Links:
+        - {Dst: 4393051849293386892, Gyaml: Reference, Name: Reference, Src: 4218251348917506958}
+      Phive:
+        ConstraintLink:
+          ID: 4218251348917506958
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - -2,61556
+                  - -1,36263
+                  - 2,54444
+                Trans:
+                  - -1684,22500
+                  - 216,43190
+                  - 1362,10400
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 10,00000
+                BallSocketSpringStiffness: 100,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: false
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: true
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - 0,20000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - -0,10395
+                  - -0,00611
+                  - -0,07991
+                Trans:
+                  - -1682,80700
+                  - 215,48210
+                  - 1362,25000
+              Type: BallAndSocket
+        Placement: {ID: 4218251348917506958}
+      Rotate:
+        - -2,61556
+        - -1,36263
+        - 2,54444
+      SRTHash: !u 3610118004
+      Translate:
+        - -1684,22500
+        - 216,43190
+        - 1362,10400
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: FireFruit
+      Hash: '5147193581100283086'
+      Links:
+        - {Dst: 4393051849293386892, Gyaml: Reference, Name: Reference, Src: 5147193581100283086}
+      Phive:
+        ConstraintLink:
+          ID: 5147193581100283086
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - -0,52603
+                  - 1,36263
+                  - -0,59715
+                Trans:
+                  - -1683,61900
+                  - 216,04530
+                  - 1361,76600
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 10,00000
+                BallSocketSpringStiffness: 100,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: false
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: true
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - 0,20000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - -0,10395
+                  - -0,00611
+                  - -0,07991
+                Trans:
+                  - -1682,80700
+                  - 215,48210
+                  - 1362,25000
+              Type: BallAndSocket
+        Placement: {ID: 5147193581100283086}
+      Rotate:
+        - -0,52603
+        - 1,36263
+        - -0,59715
+      SRTHash: !u 643228668
+      Translate:
+        - -1683,61900
+        - 216,04530
+        - 1361,76600
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: FireFruit
+      Hash: '3372824632284067270'
+      Links:
+        - {Dst: 4393051849293386892, Gyaml: Reference, Name: Reference, Src: 3372824632284067270}
+      Phive:
+        ConstraintLink:
+          ID: 3372824632284067270
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - -0,10395
+                  - -0,00611
+                  - -0,07991
+                Trans:
+                  - -1683,32100
+                  - 216,29710
+                  - 1362,52300
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 10,00000
+                BallSocketSpringStiffness: 100,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: false
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: true
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - 0,20000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - -0,10395
+                  - -0,00611
+                  - -0,07991
+                Trans:
+                  - -1682,80700
+                  - 215,48210
+                  - 1362,25000
+              Type: BallAndSocket
+        Placement: {ID: 3372824632284067270}
+      Rotate:
+        - -0,10395
+        - -0,00611
+        - -0,07991
+      SRTHash: !u 3994025207
+      Translate:
+        - -1683,32100
+        - 216,29710
+        - 1362,52300
+    - Bakeable: true
+      Gyaml: Obj_TreeChemical_B_01
+      Hash: '11608873131226992190'
+      Links:
+        - {Dst: 12052447239234116744, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 11608873131226992190}
+        - {Dst: 16002071866340073144, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 11608873131226992190}
+        - {Dst: 13548638051774165853, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 11608873131226992190}
+      Phive:
+        Placement: {ID: 11608873131226992190}
+      Rotate:
+        - 0,00000
+        - 0,08798
+        - 0,00000
+      SRTHash: !u 2166199634
+      Translate:
+        - -1686,41100
+        - 215,00830
+        - 1360,94200
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: FireFruit
+      Hash: '13548638051774165853'
+      Links:
+        - {Dst: 11608873131226992190, Gyaml: Reference, Name: Reference, Src: 13548638051774165853}
+      Phive:
+        ConstraintLink:
+          ID: 13548638051774165853
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 3,14159
+                  - -1,48424
+                  - 3,14159
+                Trans:
+                  - -1686,88900
+                  - 216,42790
+                  - 1360,93400
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 10,00000
+                BallSocketSpringStiffness: 100,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: false
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: true
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - 0,20000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 0,00000
+                  - 0,08798
+                  - 0,00000
+                Trans:
+                  - -1685,39900
+                  - 215,58470
+                  - 1360,85200
+              Type: BallAndSocket
+        Placement: {ID: 13548638051774165853}
+      Rotate:
+        - 3,14159
+        - -1,48424
+        - 3,14159
+      SRTHash: !u 3455679537
+      Translate:
+        - -1686,88900
+        - 216,42790
+        - 1360,93400
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: FireFruit
+      Hash: '16002071866340073144'
+      Links:
+        - {Dst: 11608873131226992190, Gyaml: Reference, Name: Reference, Src: 16002071866340073144}
+      Phive:
+        ConstraintLink:
+          ID: 16002071866340073144
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 0,00000
+                  - 1,48424
+                  - 0,00000
+                Trans:
+                  - -1686,29100
+                  - 216,12830
+                  - 1360,50400
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 10,00000
+                BallSocketSpringStiffness: 100,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: false
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: true
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - 0,20000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 0,00000
+                  - 0,08798
+                  - 0,00000
+                Trans:
+                  - -1685,39900
+                  - 215,58470
+                  - 1360,85200
+              Type: BallAndSocket
+        Placement: {ID: 16002071866340073144}
+      Rotate:
+        - 0,00000
+        - 1,48424
+        - 0,00000
+      SRTHash: !u 3472710868
+      Translate:
+        - -1686,29100
+        - 216,12830
+        - 1360,50400
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: FireFruit
+      Hash: '12052447239234116744'
+      Links:
+        - {Dst: 11608873131226992190, Gyaml: Reference, Name: Reference, Src: 12052447239234116744}
+      Phive:
+        ConstraintLink:
+          ID: 12052447239234116744
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 0,00000
+                  - 0,08798
+                  - 0,00000
+                Trans:
+                  - -1685,94200
+                  - 216,32330
+                  - 1361,25700
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 10,00000
+                BallSocketSpringStiffness: 100,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: false
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: true
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - 0,20000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 0,00000
+                  - 0,08798
+                  - 0,00000
+                Trans:
+                  - -1685,39900
+                  - 215,58470
+                  - 1360,85200
+              Type: BallAndSocket
+        Placement: {ID: 12052447239234116744}
+      Rotate:
+        - 0,00000
+        - 0,08798
+        - 0,00000
+      SRTHash: !u 3875001825
+      Translate:
+        - -1685,94200
+        - 216,32330
+        - 1361,25700
+    - Bakeable: true
+      Gyaml: Obj_TreeChemical_B_01
+      Hash: '3727983776750575680'
+      Links:
+        - {Dst: 443333897834005138, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 3727983776750575680}
+        - {Dst: 12516895869561601922, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 3727983776750575680}
+        - {Dst: 3381469527154154170, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 3727983776750575680}
+      Phive:
+        Placement: {ID: 3727983776750575680}
+      Rotate:
+        - -3,14159
+        - -0,76783
+        - -3,14159
+      SRTHash: !u 1484207286
+      Translate:
+        - -1685,05900
+        - 218,36540
+        - 1366,01700
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: FireFruit
+      Hash: '3381469527154154170'
+      Links:
+        - {Dst: 3727983776750575680, Gyaml: Reference, Name: Reference, Src: 3381469527154154170}
+      Phive:
+        ConstraintLink:
+          ID: 3381469527154154170
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - -3,14159
+                  - 0,97750
+                  - -3,14159
+                Trans:
+                  - -1684,68300
+                  - 219,78510
+                  - 1365,72300
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 10,00000
+                BallSocketSpringStiffness: 100,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: false
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: true
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - 0,20000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - -3,14159
+                  - -0,76783
+                  - -3,14159
+                Trans:
+                  - -1685,79000
+                  - 218,94190
+                  - 1366,72200
+              Type: BallAndSocket
+        Placement: {ID: 3381469527154154170}
+      Rotate:
+        - -3,14159
+        - 0,97750
+        - -3,14159
+      SRTHash: !u 2077117249
+      Translate:
+        - -1684,68300
+        - 219,78510
+        - 1365,72300
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: FireFruit
+      Hash: '12516895869561601922'
+      Links:
+        - {Dst: 3727983776750575680, Gyaml: Reference, Name: Reference, Src: 12516895869561601922}
+      Phive:
+        ConstraintLink:
+          ID: 12516895869561601922
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 0,00000
+                  - -0,97750
+                  - 0,00000
+                Trans:
+                  - -1684,87700
+                  - 219,48540
+                  - 1366,43200
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 10,00000
+                BallSocketSpringStiffness: 100,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: false
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: true
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - 0,20000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - -3,14159
+                  - -0,76783
+                  - -3,14159
+                Trans:
+                  - -1685,79000
+                  - 218,94190
+                  - 1366,72200
+              Type: BallAndSocket
+        Placement: {ID: 12516895869561601922}
+      Rotate:
+        - 0,00000
+        - -0,97750
+        - 0,00000
+      SRTHash: !u 2073327788
+      Translate:
+        - -1684,87700
+        - 219,48540
+        - 1366,43200
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: FireFruit
+      Hash: '443333897834005138'
+      Links:
+        - {Dst: 3727983776750575680, Gyaml: Reference, Name: Reference, Src: 443333897834005138}
+      Phive:
+        ConstraintLink:
+          ID: 443333897834005138
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - -3,14159
+                  - -0,76783
+                  - -3,14159
+                Trans:
+                  - -1685,62200
+                  - 219,68040
+                  - 1366,06700
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 10,00000
+                BallSocketSpringStiffness: 100,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: false
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: true
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - 0,20000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - -3,14159
+                  - -0,76783
+                  - -3,14159
+                Trans:
+                  - -1685,79000
+                  - 218,94190
+                  - 1366,72200
+              Type: BallAndSocket
+        Placement: {ID: 443333897834005138}
+      Rotate:
+        - -3,14159
+        - -0,76783
+        - -3,14159
+      SRTHash: !u 1211543284
+      Translate:
+        - -1685,62200
+        - 219,68040
+        - 1366,06700
+  FilePath: Work/Banc/Scene/Prefab/Well_0012_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []

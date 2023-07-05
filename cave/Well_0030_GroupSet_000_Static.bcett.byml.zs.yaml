@@ -1,0 +1,96 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Well_0030
+      Hash: '14287293895431089462'
+      Phive:
+        Placement: {ID: 14287293895431089462}
+      SRTHash: !u 80357999
+      Translate:
+        - 1219,45300
+        - 116,44820
+        - 397,31590
+    - Dynamic: {AssassinBodyType: !l 0}
+      Gyaml: Npc_Assassin_006
+      Hash: '11693176402366416838'
+      Links:
+        - {Dst: 3964359550287623566, Gyaml: Reference, Name: Reference, Src: 11693176402366416838}
+      MoveRadius: 0,00038
+      Phive:
+        Placement: {ID: 11693176402366416838}
+      Rotate:
+        - -3,14159
+        - -0,94476
+        - -3,14159
+      SRTHash: !u 1373186013
+      Translate:
+        - 1227,88000
+        - 99,89308
+        - 394,70030
+    - Gyaml: AnchorAction1
+      Hash: '3964359550287623566'
+      Phive:
+        Placement: {ID: 3964359550287623566}
+      Rotate:
+        - -3,14159
+        - -0,94476
+        - -3,14159
+      SRTHash: !u 1373186013
+      Translate:
+        - 1227,88000
+        - 99,89284
+        - 394,70040
+    - Dynamic: {ForbiddenAll: false, ForbiddenGeneratingAnimal: true, ForbiddenGeneratingBird: true, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingSkyFallenBox: true}
+      Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '963141034128741718'
+      Phive:
+        Placement: {ID: 963141034128741718}
+      Rotate:
+        - -3,14159
+        - -0,94476
+        - -3,14159
+      SRTHash: !u 198163338
+      Scale:
+        - 40,00000
+        - 40,00000
+        - 40,00000
+      Translate:
+        - 1227,88000
+        - 99,89284
+        - 394,70040
+    - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '10335188708312285918'
+      Phive:
+        Placement: {ID: 10335188708312285918}
+      Rotate:
+        - -3,14159
+        - -0,94476
+        - -3,14159
+      SRTHash: !u 1942554551
+      Scale:
+        - 50,00000
+        - 50,00000
+        - 50,00000
+      Translate:
+        - 1227,88000
+        - 49,89284
+        - 394,70040
+  AiGroups:
+    - Hash: '14395244746868990851'
+      Logic: Logic/Module/Set_Npc_Assassin_006/Set_Npc_Assassin_006_7d76.logic.module.ain
+      References:
+        - {Id: AnchorAction1_6be5, Path: AnchorAction1_6be5, Reference: 3964359550287623566}
+        - {Id: Npc_Assassin_008_f8e2, Path: Npc_Assassin_008_f8e2, Reference: 11693176402366416838}
+  FarDeleteGroups:
+    - - 3964359550287623566
+      - 11693176402366416838
+  FilePath: Work/Banc/Scene/Prefab/Well_0030_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 3964359550287623566
+      - 11693176402366416838

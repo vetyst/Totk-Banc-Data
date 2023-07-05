@@ -1,0 +1,219 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_GerudoHighlands_0017
+      Hash: '12365870755208612792'
+      Phive:
+        Placement: {ID: 12365870755208612792}
+      Rotate:
+        - -3,14159
+        - -0,36607
+        - -3,14159
+      SRTHash: !u 3656384282
+      Translate:
+        - -3878,14900
+        - 676,48000
+        - 726,07800
+    - Dynamic:
+        InstanceID_0: 8011302557335569534
+        Pos_0:
+          - -3911,23600
+          - 680,46360
+          - 758,21420
+        Rot_0:
+          - -0,80656
+          - 0,23400
+          - 1,68719
+      Gyaml: LightBall_Small
+      Hash: '5249393856671402913'
+      Phive:
+        Placement: {ID: 5249393856671402913}
+      Rotate:
+        - -2,91172
+        - 0,07856
+        - 1,84680
+      SRTHash: !u 3893027782
+      Translate:
+        - -3911,66600
+        - 680,32940
+        - 758,06640
+    - Dynamic:
+        InstanceID_0: 8011302557335569534
+        Pos_0:
+          - -3911,23600
+          - 680,46360
+          - 758,21420
+        Rot_0:
+          - -0,80656
+          - 0,23400
+          - 1,68719
+      Gyaml: LightBall_Small
+      Hash: '15756297791201060713'
+      Links:
+        - {Dst: 5249393856671402913, Gyaml: StackInfo, Name: StackInfo, Src: 15756297791201060713}
+      Phive:
+        Placement: {ID: 15756297791201060713}
+      Rotate:
+        - 2,30044
+        - 0,70294
+        - 0,03664
+      SRTHash: !u 2095431535
+      Translate:
+        - -3911,64900
+        - 680,54030
+        - 757,80670
+    - Dynamic:
+        InstanceID_0: 15440883826795247344
+        Pos_0:
+          - -3912,30700
+          - 678,08220
+          - 758,74110
+        Rot_0:
+          - -0,30949
+          - 0,11177
+          - 0,18972
+      Gyaml: LightBall_Small
+      Hash: '17241147524859429695'
+      Phive:
+        Placement: {ID: 17241147524859429695}
+      Rotate:
+        - -2,43919
+        - -0,09910
+        - 0,25695
+      SRTHash: !u 1770988224
+      Translate:
+        - -3912,43300
+        - 678,53360
+        - 758,81370
+    - Dynamic:
+        InstanceID_0: 15440883826795247344
+        Pos_0:
+          - -3912,30700
+          - 678,08220
+          - 758,74110
+        Rot_0:
+          - -0,30949
+          - 0,11177
+          - 0,18972
+      Gyaml: LightBall_Small
+      Hash: '7045188999212410615'
+      Links:
+        - {Dst: 17241147524859429695, Gyaml: StackInfo, Name: StackInfo, Src: 7045188999212410615}
+      Phive:
+        Placement: {ID: 7045188999212410615}
+      Rotate:
+        - 2,45568
+        - 1,20023
+        - -1,41774
+      SRTHash: !u 1966032313
+      Translate:
+        - -3912,21100
+        - 678,63870
+        - 758,58630
+    - Bakeable: true
+      Gyaml: DgnObj_GerudoSwitchBlock_A_01
+      Hash: '17247846044599922773'
+      Phive:
+        Placement: {ID: 17247846044599922773}
+      Rotate:
+        - -3,14159
+        - 1,19488
+        - -3,14159
+      SRTHash: !u 804724032
+      Scale:
+        - 0,80000
+        - 0,80000
+        - 0,80000
+      Translate:
+        - -3919,69300
+        - 677,62290
+        - 741,37820
+    - Gyaml: ChemicalPerceiveAreaActor
+      Hash: '8507956618210508051'
+      Phive:
+        Placement: {ID: 8507956618210508051}
+      Rotate:
+        - 0,00000
+        - -1,21707
+        - 0,00000
+      SRTHash: !u 3838123633
+      Scale:
+        - 3,65700
+        - 3,39046
+        - 2,29458
+      Translate:
+        - -3919,55700
+        - 676,92720
+        - 741,42440
+    - Bakeable: true
+      Dynamic: {MoveDis: '10,00000', OpenMoveAxis: !l 4}
+      Gyaml: DgnObj_Electric_ShutterFence_A_02
+      Hash: '17311419536627650065'
+      Phive:
+        Placement: {ID: 17311419536627650065}
+      Rotate:
+        - -3,14159
+        - 1,21707
+        - -3,14159
+      SRTHash: !u 2652282526
+      Translate:
+        - -3926,14300
+        - 682,40260
+        - 743,83180
+    - Dynamic: {RequestEventName: FocusOnGimmick_BasicCameraFront}
+      Gyaml: EventRequestActor
+      Hash: '9414014181536281401'
+      Links:
+        - {Dst: 17706691206020735443, Gyaml: Reference, Name: Reference, Src: 9414014181536281401}
+        - {Dst: 17311419536627650065, Gyaml: Reference, Name: Reference, Src: 9414014181536281401}
+      Phive:
+        Placement: {ID: 9414014181536281401}
+      Rotate:
+        - -2,71217
+        - 1,21707
+        - 3,14159
+      SRTHash: !u 882068267
+      Translate:
+        - -3913,35800
+        - 697,64560
+        - 733,46970
+    - Gyaml: DesignateMatrixActor
+      Hash: '17706691206020735443'
+      Phive:
+        Placement: {ID: 17706691206020735443}
+      Rotate:
+        - -3,14159
+        - 0,97639
+        - -3,14159
+      SRTHash: !u 1545225939
+      Translate:
+        - -3906,42000
+        - 679,71530
+        - 737,26900
+  AiGroups:
+    - Hash: '17945369602619316308'
+      Logic: Logic/Module/Cave_GerudoHighlands_0017_GroupSet_000/Cave_GerudoHighlands_0017_GroupSet_000_888d.logic.module.ain
+      References:
+        - {Id: DgnObj_GerudoSwitchBlock_A_01_5fbc, Path: DgnObj_GerudoSwitchBlock_A_01_5fbc, Reference: 17247846044599922773}
+        - {Id: Area_6d1e, Path: Area_6d1e, Reference: 8507956618210508051}
+        - {Id: DgnObj_ShutterFence_A_03_403b, Path: DgnObj_ShutterFence_A_03_403b, Reference: 17311419536627650065}
+        - {Id: DesignateMatrixActor_17d6, Path: DesignateMatrixActor_17d6, Reference: 17706691206020735443}
+        - {Id: EventRequestActor_4382, Path: EventRequestActor_4382, Reference: 9414014181536281401}
+  FarDeleteGroups:
+    - - 8507956618210508051
+      - 9414014181536281401
+      - 17247846044599922773
+      - 17311419536627650065
+      - 17706691206020735443
+  FilePath: Work/Banc/Scene/Prefab/Cave_GerudoHighlands_0017_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 8507956618210508051
+      - 9414014181536281401
+      - 17247846044599922773
+      - 17311419536627650065
+      - 17706691206020735443

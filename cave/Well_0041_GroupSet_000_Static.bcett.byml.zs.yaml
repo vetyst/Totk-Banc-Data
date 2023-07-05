@@ -1,0 +1,107 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Well_0041
+      Hash: '4750060826458569323'
+      Phive:
+        Placement: {ID: 4750060826458569323}
+      SRTHash: !u 1649789986
+      Translate:
+        - 2940,59000
+        - 118,06870
+        - 3378,44000
+    - Dynamic: {PlacementMotion_MotionType: !l 2}
+      Gyaml: Weapon_Spear_038
+      Hash: '18084957381231208546'
+      Phive:
+        ConstraintLink:
+          ID: 18084957381231208546
+          Refers:
+            - {Owner: 6077862068517871959, Type: Fixed}
+        Placement: {ID: 18084957381231208546}
+      Rotate:
+        - 1,39626
+        - -0,80429
+        - -3,14159
+      SRTHash: !u 1418106080
+      Translate:
+        - 2936,01300
+        - 99,62619
+        - 3376,06800
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: Item_RoastFish_18
+      Hash: '6077862068517871959'
+      Phive:
+        ConstraintLink:
+          ID: 6077862068517871959
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - -1,60533
+                  - -0,80429
+                  - -3,14159
+                Trans:
+                  - 2936,11800
+                  - 100,37110
+                  - 3376,20100
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 18084957381231208546
+              ReferPose:
+                Rotate:
+                  - 1,39626
+                  - -0,80429
+                  - -3,14159
+                Trans:
+                  - 2936,01300
+                  - 99,62619
+                  - 3376,06800
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 6077862068517871959}
+      Rotate:
+        - -1,60533
+        - -0,80429
+        - -3,14159
+      SRTHash: !u 3658898022
+      Scale:
+        - 1,20000
+        - 1,20000
+        - 1,20000
+      Translate:
+        - 2936,11800
+        - 100,37110
+        - 3376,20100
+    - Bakeable: true
+      Gyaml: FldObj_WaterPlane_A_01
+      Hash: '16505621857899636049'
+      Phive:
+        Placement: {ID: 16505621857899636049}
+      SRTHash: !u 2677128731
+      Scale:
+        - 4,00000
+        - 4,00000
+        - 4,00000
+      Translate:
+        - 2931,79000
+        - 98,89823
+        - 3366,94000
+  AiGroups:
+    - Hash: '5585023503172543730'
+      Logic: Logic/Module/Set_Uotri_BurnFish_B/Set_Uotri_BurnFish_B_eb90.logic.module.ain
+      References:
+        - {Id: Item_RoastFish_09_b1c0, Path: Item_RoastFish_09_b1c0, Reference: 6077862068517871959}
+        - {Id: Weapon_Spear_038_5f8a, Path: Weapon_Spear_038_5f8a, Reference: 18084957381231208546}
+  FarDeleteGroups:
+    - - 6077862068517871959
+      - 18084957381231208546
+  FilePath: Work/Banc/Scene/Prefab/Well_0041_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 6077862068517871959
+      - 18084957381231208546

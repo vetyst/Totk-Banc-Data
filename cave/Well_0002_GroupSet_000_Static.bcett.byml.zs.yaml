@@ -1,0 +1,222 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Well_0002
+      Hash: '1029061407376508072'
+      Phive:
+        Placement: {ID: 1029061407376508072}
+      SRTHash: !u 3131019357
+      Translate:
+        - -2358,59500
+        - 383,35890
+        - -1871,80100
+    - Dynamic: {Drop__DropActor: PutRupee_Purple}
+      Gyaml: TBox_Field_Iron
+      Hash: '5941045487340206161'
+      Phive:
+        Placement: {ID: 5941045487340206161}
+      Rotate:
+        - 0,00000
+        - -1,51824
+        - 0,00000
+      SRTHash: !u 782985293
+      Translate:
+        - -2333,08100
+        - 356,21160
+        - -1862,32800
+    - Bakeable: true
+      Gyaml: IceWall
+      Hash: '3063131972729173014'
+      Links:
+        - {Dst: 5941045487340206161, Gyaml: FrozenInIce, Name: FrozenInIce, Src: 3063131972729173014}
+      Phive:
+        Placement: {ID: 3063131972729173014}
+      SRTHash: !u 3271300551
+      Translate:
+        - -2333,09100
+        - 356,21190
+        - -1862,36300
+    - Dynamic: {EquipmentUser_Attachment_Weapon: BrokenSnowBallForAttachmentSmall, EquipmentUser_Weapon: Weapon_Spear_106}
+      Gyaml: Enemy_Bokoblin_Junior
+      Hash: '15680198423372391234'
+      Phive:
+        Placement: {ID: 15680198423372391234}
+      Rotate:
+        - 0,00000
+        - -1,15483
+        - 0,00000
+      SRTHash: !u 2651953158
+      Translate:
+        - -2341,29900
+        - 355,85890
+        - -1855,28000
+    - Dynamic: {EquipmentUser_Weapon: Weapon_Lsword_112}
+      Gyaml: Enemy_Bokoblin_Middle
+      Hash: '17451724724510568147'
+      Phive:
+        Placement: {ID: 17451724724510568147}
+      Rotate:
+        - -3,14159
+        - 0,34936
+        - -3,14159
+      SRTHash: !u 4026645343
+      Translate:
+        - -2348,52500
+        - 356,35890
+        - -1848,72100
+    - Bakeable: true
+      Gyaml: IceWall
+      Hash: '17638748470402238964'
+      Links:
+        - {Dst: 15680198423372391234, Gyaml: FrozenInIce, Name: FrozenInIce, Src: 17638748470402238964}
+      Phive:
+        Placement: {ID: 17638748470402238964}
+      Rotate:
+        - 0,00000
+        - -0,68765
+        - 0,00000
+      SRTHash: !u 2260091977
+      Scale:
+        - 1,20000
+        - 1,20000
+        - 1,20000
+      Translate:
+        - -2341,29900
+        - 355,85890
+        - -1855,28000
+    - Bakeable: true
+      Gyaml: IceWall
+      Hash: '16029212352919047314'
+      Links:
+        - {Dst: 17451724724510568147, Gyaml: FrozenInIce, Name: FrozenInIce, Src: 16029212352919047314}
+      Phive:
+        Placement: {ID: 16029212352919047314}
+      Rotate:
+        - 0,00000
+        - -1,15128
+        - 0,00000
+      SRTHash: !u 1751319147
+      Scale:
+        - 1,15000
+        - 1,15000
+        - 1,15000
+      Translate:
+        - -2348,52500
+        - 356,35890
+        - -1848,71700
+    - Dynamic:
+        InstanceID_0: 16050392714945398860
+        Pos_0:
+          - -2365,42300
+          - 366,04200
+          - -1872,99000
+        Rot_0:
+          - 3,02659
+          - -0,30859
+          - 2,35059
+      Gyaml: LightBall_Small
+      Hash: '17782960558317090385'
+      Phive:
+        Placement: {ID: 17782960558317090385}
+      Rotate:
+        - 0,90149
+        - -0,08869
+        - 2,32531
+      SRTHash: !u 673705606
+      Translate:
+        - -2365,10900
+        - 366,35720
+        - -1873,15400
+    - Dynamic:
+        InstanceID_0: 16050392714945398860
+        Pos_0:
+          - -2365,42300
+          - 366,04200
+          - -1872,99000
+        Rot_0:
+          - 3,02659
+          - -0,30859
+          - 2,35059
+      Gyaml: LightBall_Small
+      Hash: '4627906129943133032'
+      Links:
+        - {Dst: 17782960558317090385, Gyaml: StackInfo, Name: StackInfo, Src: 4627906129943133032}
+      Phive:
+        Placement: {ID: 4627906129943133032}
+      Rotate:
+        - -1,52348
+        - -1,29242
+        - -1,48500
+      SRTHash: !u 3772802773
+      Translate:
+        - -2365,17500
+        - 366,56450
+        - -1872,89900
+    - Dynamic:
+        InstanceID_0: 4356123684910384099
+        Pos_0:
+          - -2364,45000
+          - 365,48000
+          - -1874,13800
+        Rot_0:
+          - 2,96159
+          - -0,43759
+          - 2,55959
+      Gyaml: LightBall_Small
+      Hash: '5857144294948521988'
+      Phive:
+        Placement: {ID: 5857144294948521988}
+      Rotate:
+        - 0,84455
+        - -0,21959
+        - 2,51932
+      SRTHash: !u 2858919063
+      Translate:
+        - -2364,21000
+        - 365,86610
+        - -1874,27300
+    - Dynamic:
+        InstanceID_0: 4356123684910384099
+        Pos_0:
+          - -2364,45000
+          - 365,48000
+          - -1874,13800
+        Rot_0:
+          - 2,96159
+          - -0,43759
+          - 2,55959
+      Gyaml: LightBall_Small
+      Hash: '14108000747459536092'
+      Links:
+        - {Dst: 5857144294948521988, Gyaml: StackInfo, Name: StackInfo, Src: 14108000747459536092}
+      Phive:
+        Placement: {ID: 14108000747459536092}
+      Rotate:
+        - -1,61593
+        - -1,15334
+        - -1,21262
+      SRTHash: !u 1282257501
+      Translate:
+        - -2364,29300
+        - 366,02470
+        - -1873,99000
+  FarDeleteGroups:
+    - - 3063131972729173014
+      - 5941045487340206161
+    - - 15680198423372391234
+      - 17638748470402238964
+    - - 16029212352919047314
+      - 17451724724510568147
+  FilePath: Work/Banc/Scene/Prefab/Well_0002_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 3063131972729173014
+      - 5941045487340206161
+    - - 15680198423372391234
+      - 17638748470402238964
+    - - 16029212352919047314
+      - 17451724724510568147

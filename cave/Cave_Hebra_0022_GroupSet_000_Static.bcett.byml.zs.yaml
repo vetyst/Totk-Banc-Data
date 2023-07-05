@@ -1,0 +1,827 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_Hebra_0022
+      Hash: '2222534623893455989'
+      Phive:
+        Placement: {ID: 2222534623893455989}
+      SRTHash: !u 3407040511
+      Translate:
+        - -2996,85700
+        - 664,39480
+        - -3223,02500
+    - Bakeable: true
+      Dynamic: {DungeonIndexStr: Dungeon111, PlacementMotion_MotionType: !l 1}
+      Gyaml: FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort
+      Hash: '16064434499868774341'
+      IsInWater: true
+      IsPhysicsStable: true
+      Name: Cave_Hebra_0022_GroupSet_000_KeyCrystal
+      Phive:
+        Placement: {ID: 16064434499868774341}
+      Rotate:
+        - 3,12114
+        - -1,06758
+        - -3,12986
+      SRTHash: !u 1213868463
+      Translate:
+        - -2994,74300
+        - 605,29630
+        - -3159,64600
+    - Bakeable: true
+      Gyaml: FldObj_WaterPlaneCold_A_01
+      Hash: '5262507533018726549'
+      Phive:
+        Placement: {ID: 5262507533018726549}
+      SRTHash: !u 3710908884
+      Scale:
+        - 6,00000
+        - 6,00000
+        - 6,00000
+      Translate:
+        - -2990,05400
+        - 607,53330
+        - -3158,23800
+    - Dynamic: {Drop__DropTable: Arrow, EquipmentUser_Bow: Weapon_Bow_004}
+      Gyaml: Enemy_Bokoblin_Junior
+      Hash: '13451127685670520880'
+      Phive:
+        Placement: {ID: 13451127685670520880}
+      Rotate:
+        - -3,14159
+        - -1,25097
+        - 3,14159
+      SRTHash: !u 1922916215
+      Translate:
+        - -2993,57000
+        - 611,52830
+        - -3128,76000
+    - Dynamic: {Drop__DropTable: Arrow, EquipmentUser_Bow: Weapon_Bow_004, IsLevelSensorTarget: true}
+      Gyaml: Enemy_Bokoblin_Junior
+      Hash: '5184577956254356916'
+      Phive:
+        Placement: {ID: 5184577956254356916}
+      Rotate:
+        - 0,00000
+        - 1,32260
+        - 0,00000
+      SRTHash: !u 3196505325
+      Translate:
+        - -3004,55600
+        - 611,16880
+        - -3133,11700
+    - Gyaml: Area
+      Hash: '11931584698808154032'
+      Phive:
+        Placement: {ID: 11931584698808154032}
+      SRTHash: !u 683308465
+      Scale:
+        - 25,00000
+        - 17,00000
+        - 82,00000
+      Translate:
+        - -2996,23100
+        - 603,67240
+        - -3166,23000
+    - Gyaml: Area
+      Hash: '9202384915621654943'
+      Phive:
+        Placement: {ID: 9202384915621654943}
+      SRTHash: !u 3194838584
+      Scale:
+        - 65,00000
+        - 45,00000
+        - 90,00000
+      Translate:
+        - -2982,98800
+        - 561,91080
+        - -3165,19400
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '9534392560567847905'
+      Phive:
+        Placement: {ID: 9534392560567847905}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 1044993888
+      Scale:
+        - 2,63894
+        - 2,94825
+        - 3,08989
+      Translate:
+        - -3000,94900
+        - 620,02670
+        - -3099,27900
+    - Bakeable: true
+      Dynamic: {DungeonIndexStr: Dungeon111, IsKeyCrystalAuthSmallDungeon: true}
+      Gyaml: ZonauShrine_EntranceGate
+      Hash: '9063952797187955495'
+      Links:
+        - {Dst: 14917769574817268660, Gyaml: Reference, Name: Reference, Src: 9063952797187955495}
+        - {Dst: 16120842786553768375, Gyaml: Reference, Name: Reference, Src: 9063952797187955495}
+      Phive:
+        Placement: {ID: 9063952797187955495}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 3159931807
+      Translate:
+        - -2998,55100
+        - 620,02910
+        - -3100,96000
+    - Bakeable: true
+      Dynamic: {DungeonIndexStr: Dungeon111, IsKeyCrystalAuthSmallDungeon: true}
+      Gyaml: DgnObj_ZonauShrineEntranceGate_A_01
+      Hash: '16962230566511117095'
+      Phive:
+        Placement: {ID: 16962230566511117095}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 3159931807
+      Translate:
+        - -2998,55100
+        - 620,02910
+        - -3100,96000
+    - Bakeable: true
+      Dynamic: {DungeonIndexStr: Dungeon111, IsKeyCrystalAuthSmallDungeon: true}
+      Gyaml: DgnObj_ZonauShrineEntrance_A_01
+      Hash: '16279108747911792895'
+      Links:
+        - {Dst: 16962230566511117095, Gyaml: Reference, Name: Reference, Src: 16279108747911792895}
+      Phive:
+        Placement: {ID: 16279108747911792895}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 3159931807
+      Translate:
+        - -2998,55100
+        - 620,02910
+        - -3100,96000
+    - Gyaml: DestinationAnchor
+      Hash: '14716237915602625192'
+      Name: AuthenticationPos
+      Phive:
+        Placement: {ID: 14716237915602625192}
+      Rotate:
+        - -0,01167
+        - -0,95931
+        - 0,01522
+      SRTHash: !u 3273591528
+      Translate:
+        - -3000,02700
+        - 620,47270
+        - -3099,93000
+    - Bakeable: true
+      Gyaml: DgnObj_WarpPoint_Zonau_A_01
+      Hash: '4420688991305762709'
+      Phive:
+        Placement: {ID: 4420688991305762709}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 416093261
+      Translate:
+        - -2996,95700
+        - 620,47560
+        - -3102,08300
+    - Dynamic: {Location: Dungeon111}
+      Gyaml: LocationMarker
+      Hash: '15663201104618704077'
+      Name: Work/Location/Dungeon111.game__location__Location.gyml
+      Phive:
+        Placement: {ID: 15663201104618704077}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 2705120189
+      Translate:
+        - -2997,81100
+        - 633,92930
+        - -3101,62700
+    - Gyaml: StartPos
+      Hash: '6232630142556724232'
+      Phive:
+        Placement: {ID: 6232630142556724232}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 1764453344
+      Translate:
+        - -2996,95800
+        - 620,62550
+        - -3102,08300
+    - Gyaml: StartPos
+      Hash: '6232630141700877702'
+      Phive:
+        Placement: {ID: 6232630141700877702}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 2496818445
+      Translate:
+        - -2996,34400
+        - 620,61610
+        - -3102,51400
+    - Dynamic: {RequestEventName: Dm_SY_0025}
+      Gyaml: EventRequestActor
+      Hash: '1102462120074863843'
+      Links:
+        - {Dst: 14716237915602625192, Gyaml: Reference, Name: Reference, Src: 1102462120074863843}
+        - {Dst: 14917769574817268660, Gyaml: Reference, Name: Reference, Src: 1102462120074863843}
+      Phive:
+        Placement: {ID: 1102462120074863843}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 2739883396
+      Translate:
+        - -2994,48500
+        - 625,03280
+        - -3103,86400
+    - Dynamic: {IsOverrideCave: true, Location: Dungeon111, RigidBodyShapeType: !l 3}
+      Gyaml: LocationArea
+      Hash: '13065163566746692481'
+      Name: Work/Location/Dungeon111.game__location__Location.gyml
+      Phive:
+        Placement: {ID: 13065163566746692481}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 3667424000
+      Scale:
+        - 18,00000
+        - 9,99999
+        - 17,99998
+      Translate:
+        - -2997,71500
+        - 617,03000
+        - -3101,51400
+    - Dynamic:
+        ForbiddenAll: false
+        ForbiddenGeneratingAnimal: true
+        ForbiddenGeneratingBird: true
+        ForbiddenGeneratingEnemy: true
+        ForbiddenGeneratingInsect: true
+        ForbiddenGeneratingMaterial: true
+        ForbiddenGeneratingSkyFallenBox: true
+      Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '8316357198020936539'
+      Phive:
+        Placement: {ID: 8316357198020936539}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 891852662
+      Scale:
+        - 39,99997
+        - 39,99997
+        - 39,99997
+      Translate:
+        - -2998,55100
+        - 620,02910
+        - -3100,96000
+    - Dynamic: {DungeonIndexStr: Dungeon111, RequestEventName: DmF_SY_SmallDungeon2Go}
+      Gyaml: FldObj_EnterAttetionActor
+      Hash: '2367498838549050876'
+      Links:
+        - {Dst: 6041909199407653032, Gyaml: Reference, Name: Reference, Src: 2367498838549050876}
+      Phive:
+        Placement: {ID: 2367498838549050876}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 3565766866
+      Translate:
+        - -3008,38800
+        - 622,01950
+        - -3094,08500
+    - Gyaml: DestinationAnchor
+      Hash: '6041909199407653032'
+      Name: EnterSmallDungeonPos
+      Phive:
+        Placement: {ID: 6041909199407653032}
+      Rotate:
+        - -0,01167
+        - -0,95931
+        - 0,01522
+      SRTHash: !u 897980539
+      Translate:
+        - -3009,46100
+        - 621,01840
+        - -3093,32200
+    - ExtraCreateRadius: 90,59126
+      Gyaml: BGM_Shrine
+      Hash: '17813704072973684293'
+      Links:
+        - {Dst: 13065163566746692481, Gyaml: Reference, Name: Reference, Src: 17813704072973684293}
+        - {Dst: 16962230566511117095, Gyaml: Reference, Name: Reference, Src: 17813704072973684293}
+        - {Dst: 16279108747911792895, Gyaml: Reference, Name: Reference, Src: 17813704072973684293}
+      Phive:
+        Placement: {ID: 17813704072973684293}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 4015485135
+      Translate:
+        - -2997,77200
+        - 627,02950
+        - -3101,58100
+    - Gyaml: Area
+      Hash: '12265702868031349231'
+      Phive:
+        Placement: {ID: 12265702868031349231}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 3399477325
+      Scale:
+        - 1,10000
+        - 1,50000
+        - 1,50000
+      Translate:
+        - -3004,90100
+        - 620,77290
+        - -3096,51700
+    - Bakeable: true
+      Dynamic: {DungeonIndexStr: Dungeon111}
+      Gyaml: DgnObj_ZonauShrineEntranceGround_A_01
+      Hash: '12473969179235605168'
+      Phive:
+        Placement: {ID: 12473969179235605168}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 3159931807
+      Translate:
+        - -2998,55100
+        - 620,02910
+        - -3100,96000
+    - Bakeable: true
+      Gyaml: DgnObj_ZonauShrineEntranceGateMark_A_01
+      Hash: '17822981532326261099'
+      Phive:
+        Placement: {ID: 17822981532326261099}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 3159931807
+      Translate:
+        - -2998,55100
+        - 620,02910
+        - -3100,96000
+    - Bakeable: true
+      Gyaml: DgnObj_ZonauShrineEntranceStopClimbing_A_01
+      Hash: '16507154187751753855'
+      Phive:
+        Placement: {ID: 16507154187751753855}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 3159931807
+      Translate:
+        - -2998,55100
+        - 620,02910
+        - -3100,96000
+    - Bakeable: true
+      Gyaml: AirWallCreature
+      Hash: '18371966293278894253'
+      Phive:
+        Placement: {ID: 18371966293278894253}
+      Rotate:
+        - 2,93233
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 2776822061
+      Scale:
+        - 2,40000
+        - 1,18988
+        - 1,38735
+      Translate:
+        - -3003,77000
+        - 622,75620
+        - -3097,33000
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '740814194200233349'
+      Phive:
+        Placement: {ID: 740814194200233349}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 1481871597
+      Scale:
+        - 5,00000
+        - 7,99999
+        - 5,00000
+      Translate:
+        - -3004,28300
+        - 620,02350
+        - -3096,94200
+    - Gyaml: DestinationAnchor
+      Hash: '14917769574817268660'
+      Name: CleanCenter
+      Phive:
+        Placement: {ID: 14917769574817268660}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 1516582156
+      Translate:
+        - -3002,23600
+        - 620,02550
+        - -3098,37700
+    - Gyaml: AirWallGiant
+      Hash: '5367143472975256295'
+      Phive:
+        Placement: {ID: 5367143472975256295}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 2392749746
+      Scale:
+        - 31,99999
+        - 19,99998
+        - 35,99997
+      Translate:
+        - -3001,85500
+        - 625,02570
+        - -3098,69800
+    - Gyaml: AreaInvalidateRestartPosForHorse
+      Hash: '6811386224962820266'
+      Phive:
+        Placement: {ID: 6811386224962820266}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 3210618698
+      Scale:
+        - 6,00000
+        - 7,99999
+        - 9,99999
+      Translate:
+        - -3001,82600
+        - 620,02590
+        - -3098,66400
+    - Gyaml: DestinationAnchor
+      Hash: '13975949157221309908'
+      Name: KeyCrystalVanishPoint
+      Phive:
+        Placement: {ID: 13975949157221309908}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 1339594591
+      Translate:
+        - -3000,03300
+        - 621,52980
+        - -3099,93700
+    - Gyaml: NavMeshCutBoxArea
+      Hash: '4881921939896551945'
+      Phive:
+        Placement: {ID: 4881921939896551945}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 2965862968
+      Scale:
+        - 8,00000
+        - 9,99999
+        - 9,99999
+      Translate:
+        - -3003,70000
+        - 623,02400
+        - -3097,38200
+    - Gyaml: Area
+      Hash: '1555814653057559835'
+      Phive:
+        Placement: {ID: 1555814653057559835}
+      Rotate:
+        - -3,12992
+        - 0,95931
+        - -3,12637
+      SRTHash: !u 514201751
+      Scale:
+        - 7,99999
+        - 7,99999
+        - 7,99999
+      Translate:
+        - -3003,87300
+        - 620,02390
+        - -3097,22900
+    - Gyaml: DestinationAnchor
+      Hash: '16120842786553768375'
+      Name: UnlockPlayerPos
+      Phive:
+        Placement: {ID: 16120842786553768375}
+      Rotate:
+        - -0,01167
+        - -0,95931
+        - 0,01522
+      SRTHash: !u 863913236
+      Translate:
+        - -2996,75200
+        - 620,53080
+        - -3102,22700
+    - Dynamic: {EquipmentUser_Weapon: Weapon_Sword_103}
+      Gyaml: Enemy_Bokoblin_Junior
+      Hash: '748234480452772863'
+      Phive:
+        Placement: {ID: 748234480452772863}
+      Rotate:
+        - 0,00000
+        - -0,94773
+        - 0,00000
+      SRTHash: !u 3804402591
+      Translate:
+        - -2995,67300
+        - 611,17520
+        - -3133,58500
+    - Dynamic: {EquipmentUser_Shield: Weapon_Shield_002, EquipmentUser_Weapon: Weapon_Sword_112}
+      Gyaml: Enemy_Bokoblin_Middle
+      Hash: '13406771588445393848'
+      Phive:
+        Placement: {ID: 13406771588445393848}
+      Rotate:
+        - 3,08227
+        - 1,03638
+        - -3,07860
+      SRTHash: !u 2588939317
+      Translate:
+        - -3002,96900
+        - 611,54490
+        - -3129,30500
+    - Bakeable: true
+      Gyaml: IceWall
+      Hash: '4076964285743701972'
+      Links:
+        - {Dst: 15993309925157524329, Gyaml: FrozenInIce, Name: FrozenInIce, Src: 4076964285743701972}
+      Phive:
+        Placement: {ID: 4076964285743701972}
+      Rotate:
+        - 3,14159
+        - 0,43633
+        - 3,14159
+      SRTHash: !u 424728427
+      Translate:
+        - -3020,05200
+        - 610,38390
+        - -3150,80200
+    - Dynamic: {Drop__DropActor: SpObj_LiftGeneratorWing_Capsule_A_01_Bundle_A}
+      Gyaml: TBox_Field_Stone_Zonau
+      Hash: '15993309925157524329'
+      Phive:
+        Placement: {ID: 15993309925157524329}
+      Rotate:
+        - -3,07249
+        - 1,14374
+        - 3,07436
+      SRTHash: !u 3856631421
+      Translate:
+        - -3020,06300
+        - 610,22500
+        - -3150,69100
+    - Bakeable: true
+      Gyaml: FldObj_Rito_IceWall_A_03
+      Hash: '10054385611240720097'
+      Links:
+        - {Dst: 2043962809747528579, Gyaml: Reference, Name: Reference, Src: 10054385611240720097}
+      Phive:
+        Placement: {ID: 10054385611240720097}
+      Rotate:
+        - 0,36540
+        - 1,00402
+        - 0,17138
+      SRTHash: !u 1923470616
+      Translate:
+        - -3021,50600
+        - 622,27280
+        - -3232,63000
+    - Bakeable: true
+      Gyaml: FldObj_Rito_IceWall_A_03_Far
+      Hash: '2043962809747528579'
+      Phive:
+        Placement: {ID: 10054385611240720097}
+      Rotate:
+        - 0,36540
+        - 1,00402
+        - 0,17138
+      SRTHash: !u 1923470616
+      Translate:
+        - -3021,50600
+        - 622,27280
+        - -3232,63000
+    - Bakeable: true
+      Gyaml: FldObj_Rito_IceWall_A_03
+      Hash: '7061857525690377084'
+      Links:
+        - {Dst: 17714070382595587614, Gyaml: Reference, Name: Reference, Src: 7061857525690377084}
+      Phive:
+        Placement: {ID: 7061857525690377084}
+      Rotate:
+        - -0,13786
+        - -0,67939
+        - 0,13972
+      SRTHash: !u 29190284
+      Translate:
+        - -2986,77600
+        - 606,13400
+        - -3237,84600
+    - Bakeable: true
+      Gyaml: FldObj_Rito_IceWall_A_03_Far
+      Hash: '17714070382595587614'
+      Phive:
+        Placement: {ID: 7061857525690377084}
+      Rotate:
+        - -0,13786
+        - -0,67939
+        - 0,13972
+      SRTHash: !u 29190284
+      Translate:
+        - -2986,77600
+        - 606,13400
+        - -3237,84600
+    - Bakeable: true
+      Gyaml: FldObj_Rito_IceWall_A_03
+      Hash: '9120272297579210944'
+      Links:
+        - {Dst: 16808683389981455778, Gyaml: Reference, Name: Reference, Src: 9120272297579210944}
+      Phive:
+        Placement: {ID: 9120272297579210944}
+      Rotate:
+        - 2,48560
+        - 1,25083
+        - 2,36978
+      SRTHash: !u 3553414022
+      Translate:
+        - -3024,81000
+        - 616,00620
+        - -3141,19700
+    - Bakeable: true
+      Gyaml: FldObj_Rito_IceWall_A_03_Far
+      Hash: '16808683389981455778'
+      Phive:
+        Placement: {ID: 9120272297579210944}
+      Rotate:
+        - 2,48560
+        - 1,25083
+        - 2,36978
+      SRTHash: !u 3553414022
+      Translate:
+        - -3024,81000
+        - 616,00620
+        - -3141,19700
+    - Bakeable: true
+      Gyaml: FldObj_Rito_IceWall_A_03
+      Hash: '16120126494079515865'
+      Links:
+        - {Dst: 5216283868476858811, Gyaml: Reference, Name: Reference, Src: 16120126494079515865}
+      Phive:
+        Placement: {ID: 16120126494079515865}
+      Rotate:
+        - 1,23723
+        - -1,40051
+        - -1,94123
+      SRTHash: !u 2285282052
+      Translate:
+        - -2964,25600
+        - 609,83150
+        - -3151,80200
+    - Bakeable: true
+      Gyaml: FldObj_Rito_IceWall_A_03_Far
+      Hash: '5216283868476858811'
+      Phive:
+        Placement: {ID: 16120126494079515865}
+      Rotate:
+        - 1,23723
+        - -1,40051
+        - -1,94123
+      SRTHash: !u 2285282052
+      Translate:
+        - -2964,25600
+        - 609,83150
+        - -3151,80200
+  AiGroups:
+    - Blackboards:
+        - Component/Blackboard/BlackboardInfo/MetaAIEnemyCampNotDance.engine__component__BlackboardInfo.gyml
+      Hash: '328122919842391407'
+      Meta: AI/Root/MetaAI/EnemyCampNormal.metaai.root.ain
+      References:
+        - {Id: '', Reference: 13406771588445393848}
+    - Hash: '5690759346290336960'
+      Logic: Logic/Module/Cave_Hebra_0022_GroupSet_000/Cave_Hebra_0022_GroupSet_000_1e86.logic.module.ain
+      References:
+        - {Id: FldObj_ZonauShrine_KeyCrystal_982e, Path: FldObj_ZonauShrine_KeyCrystal_982e, Reference: 16064434499868774341}
+        - {Id: Area_3091, Path: Area_3091, Reference: 11931584698808154032}
+        - {Id: Area_f419, Path: Area_f419, Reference: 9202384915621654943}
+    - Hash: '6440259815353036860'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 1555814653057559835}
+    - Blackboards:
+        - Component/Blackboard/BlackboardInfo/MetaAIEnemyCampNormal.engine__component__BlackboardInfo.gyml
+      Hash: '14926662636209499147'
+      Meta: AI/Root/MetaAI/EnemyCampNormal.metaai.root.ain
+      References:
+        - {Id: '', Reference: 13451127685670520880}
+        - {Id: '', Reference: 748234480452772863}
+        - {Id: '', Reference: 5184577956254356916}
+    - Hash: '18437718454709550583'
+      Logic: Logic/Module/Cave_Hebra_0022_GroupSet_000/Cave_Hebra_0022_GroupSet_000_1240.logic.module.ain
+      References:
+        - {Id: Area_b7d7, Path: _c1c2/Area_b7d7, Reference: 9534392560567847905}
+        - {Id: ZonauShrine_EntranceGate_1668, Path: _c1c2/ZonauShrine_EntranceGate_1668, Reference: 9063952797187955495}
+        - {Id: EventRequestActor_3f2e, Path: _c1c2/_17c5/EventRequestActor_3f2e, Reference: 1102462120074863843}
+        - {Id: DgnObj_WarpPoint_A_01_6509, Path: _c1c2/_17c5/DgnObj_WarpPoint_A_01_6509, Reference: 4420688991305762709}
+        - {Id: DgnObj_ZonauShrineEntranceGate_A_01_9671, Path: _c1c2/_17c5/DgnObj_ZonauShrineEntranceGate_A_01_9671, Reference: 16962230566511117095}
+        - {Id: DgnObj_ZonauShrineEntrance_A_01_a87d, Path: _c1c2/_17c5/DgnObj_ZonauShrineEntrance_A_01_a87d, Reference: 16279108747911792895}
+        - {Id: FldObj_EnterAttetionActor_879b, Path: _c1c2/_17c5/FldObj_EnterAttetionActor_879b, Reference: 2367498838549050876}
+        - {Id: Area_7bfc, Path: _c1c2/_17c5/Area_7bfc, Reference: 12265702868031349231}
+        - {Id: Area_d0ac, Path: _c1c2/_17c5/Area_d0ac, Reference: 13065163566746692481}
+        - {Id: DgnObj_ZonauShrineEntranceGround_A_01_c293, Path: _c1c2/_17c5/DgnObj_ZonauShrineEntranceGround_A_01_c293, Reference: 12473969179235605168}
+        - {Id: DgnObj_ZonauShrineEntranceGateMark_A_01_fc67, Path: _c1c2/_17c5/DgnObj_ZonauShrineEntranceGateMark_A_01_fc67, Reference: 17822981532326261099}
+        - {Id: DgnObj_ZonauShrineEntranceStopClimbing_A_01_7b43, Path: _c1c2/_17c5/DgnObj_ZonauShrineEntranceStopClimbing_A_01_7b43, Reference: 16507154187751753855}
+        - {Id: AirWallCreature_bebd, Path: _c1c2/_17c5/AirWallCreature_bebd, Reference: 18371966293278894253}
+        - {Id: Area_9985, Path: _c1c2/_17c5/Area_9985, Reference: 740814194200233349}
+        - {Id: AiGroup, InstanceName: Set_Tominaga_CDungeonEntranceSet_4132_9f26, Logic: Logic/Module/Set_Tominaga_CDungeonEntranceSet/Set_Tominaga_CDungeonEntranceSet_4132.logic.module.ain, Path: _c1c2/_17c5/AiGroup}
+        - {Id: NavMeshCutBoxArea_7bc1, Path: _c1c2/NavMeshCutBoxArea_7bc1, Reference: 4881921939896551945}
+        - {Id: AiGroup, InstanceName: Set_ZonauShrineEntrance_0e4d_9fa4, Logic: Logic/Module/Set_ZonauShrineEntrance/Set_ZonauShrineEntrance_0e4d.logic.module.ain, Path: _c1c2/AiGroup}
+  FarDeleteGroups:
+    - - 740814194200233349
+      - 1102462120074863843
+      - 2367498838549050876
+      - 4420688991305762709
+      - 4881921939896551945
+      - 9063952797187955495
+      - 9534392560567847905
+      - 12265702868031349231
+      - 12473969179235605168
+      - 13065163566746692481
+      - 16279108747911792895
+      - 16507154187751753855
+      - 16962230566511117095
+      - 17822981532326261099
+      - 18371966293278894253
+    - - 748234480452772863
+      - 5184577956254356916
+      - 13451127685670520880
+    - - 9202384915621654943
+      - 11931584698808154032
+      - 16064434499868774341
+    - - 4076964285743701972
+      - 15993309925157524329
+  FilePath: Work/Banc/Scene/Prefab/Cave_Hebra_0022_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 740814194200233349
+      - 1102462120074863843
+      - 2367498838549050876
+      - 4420688991305762709
+      - 4881921939896551945
+      - 9063952797187955495
+      - 9534392560567847905
+      - 12265702868031349231
+      - 12473969179235605168
+      - 13065163566746692481
+      - 16279108747911792895
+      - 16507154187751753855
+      - 16962230566511117095
+      - 17822981532326261099
+      - 18371966293278894253
+    - - 748234480452772863
+      - 5184577956254356916
+      - 13451127685670520880
+    - - 9202384915621654943
+      - 11931584698808154032
+      - 16064434499868774341
+    - - 4076964285743701972
+      - 15993309925157524329

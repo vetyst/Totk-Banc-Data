@@ -1,0 +1,6014 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Bakeable: true
+      Gyaml: DgnObj_DungeonLava50x50_A_01
+      Hash: '10550256595622365416'
+      Phive:
+        Placement: {ID: 10550256595622365416}
+      Rotate:
+        - 0,00000
+        - 0,74980
+        - 0,00000
+      SRTHash: !u 3073925155
+      Scale:
+        - 1,20000
+        - 1,20000
+        - 1,20000
+      Translate:
+        - 1524,16400
+        - 449,25030
+        - -3127,64000
+    - Bakeable: true
+      Gyaml: MinusObj_EldinHardLavaPlane_A_01
+      Hash: '10847387616023686682'
+      Phive:
+        Placement: {ID: 10847387616023686682}
+      Rotate:
+        - 0,00000
+        - 0,74980
+        - 0,00000
+      SRTHash: !u 3686860054
+      Scale:
+        - 6,00000
+        - 1,20000
+        - 6,00000
+      Translate:
+        - 1524,16400
+        - 448,05030
+        - -3127,64000
+    - Bakeable: true
+      Gyaml: DgnObj_DungeonLava50x50_A_01
+      Hash: '13684955399591420000'
+      Phive:
+        Placement: {ID: 13684955399591420000}
+      Rotate:
+        - 0,00000
+        - 0,04194
+        - 0,00000
+      SRTHash: !u 3205389328
+      Scale:
+        - 3,00000
+        - 1,00000
+        - 7,42511
+      Translate:
+        - 1529,55500
+        - 349,45880
+        - -2989,56200
+    - Bakeable: true
+      Gyaml: MinusObj_EldinHardLavaPlane_A_01
+      Hash: '13369262887534578049'
+      Phive:
+        Placement: {ID: 13369262887534578049}
+      Rotate:
+        - 0,00000
+        - 0,04194
+        - 0,00000
+      SRTHash: !u 110643381
+      Scale:
+        - 15,00000
+        - 1,00000
+        - 37,12556
+      Translate:
+        - 1529,55500
+        - 348,45880
+        - -2989,56200
+    - Bakeable: true
+      Gyaml: DgnObj_DungeonLava50x50_A_01
+      Hash: '14904562080182360835'
+      Phive:
+        Placement: {ID: 14904562080182360835}
+      Rotate:
+        - -3,14159
+        - 1,23453
+        - -3,14159
+      SRTHash: !u 3809448776
+      Scale:
+        - 3,50000
+        - 1,00000
+        - 3,50000
+      Translate:
+        - 1705,48500
+        - 314,64950
+        - -3012,71600
+    - Bakeable: true
+      Gyaml: MinusObj_EldinHardLavaPlane_A_01
+      Hash: '16966798756603025057'
+      Phive:
+        Placement: {ID: 16966798756603025057}
+      Rotate:
+        - -3,14159
+        - 1,23453
+        - -3,14159
+      SRTHash: !u 1657764328
+      Scale:
+        - 17,50000
+        - 1,00000
+        - 17,50000
+      Translate:
+        - 1705,48500
+        - 313,64950
+        - -3012,71600
+    - Gyaml: Cave_Eldin_0023
+      Hash: '7037151550363491931'
+      Phive:
+        Placement: {ID: 7037151550363491931}
+      Rotate:
+        - 0,00439
+        - 1,04717
+        - 0,01201
+      SRTHash: !u 1647358330
+      Translate:
+        - 1555,49000
+        - 501,17180
+        - -3102,98500
+    - Bakeable: true
+      Dynamic: {DungeonIndexStr: Dungeon102}
+      Gyaml: DgnObj_ZonauShrineEntranceGate_A_01
+      Hash: '17189476427065088837'
+      Phive:
+        Placement: {ID: 17189476427065088837}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 545686232
+      Translate:
+        - 1835,06800
+        - 362,88590
+        - -3181,12800
+    - Bakeable: true
+      Dynamic: {DungeonIndexStr: Dungeon102}
+      Gyaml: DgnObj_ZonauShrineEntrance_A_01
+      Hash: '18419660298870904457'
+      Links:
+        - {Dst: 17189476427065088837, Gyaml: Reference, Name: Reference, Src: 18419660298870904457}
+      Phive:
+        Placement: {ID: 18419660298870904457}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 545686232
+      Translate:
+        - 1835,06800
+        - 362,88590
+        - -3181,12800
+    - Gyaml: DestinationAnchor
+      Hash: '14255262526213486646'
+      Name: AuthenticationPos
+      Phive:
+        Placement: {ID: 14255262526213486646}
+      Rotate:
+        - -3,14159
+        - 0,67182
+        - -3,14159
+      SRTHash: !u 4231002083
+      Translate:
+        - 1836,18800
+        - 363,33090
+        - -3182,53700
+    - Bakeable: true
+      Gyaml: DgnObj_WarpPoint_Zonau_A_01
+      Hash: '13219692472370118710'
+      Phive:
+        Placement: {ID: 13219692472370118710}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 3509533202
+      Translate:
+        - 1833,85400
+        - 363,33090
+        - -3179,60200
+    - Dynamic: {RequestEventName: DmF_SY_SmallDungeon1Open}
+      Gyaml: EventRequestActor
+      Hash: '10005309105459308109'
+      Links:
+        - {Dst: 14255262526213486646, Gyaml: Reference, Name: Reference, Src: 10005309105459308109}
+        - {Dst: 14599366011909000130, Gyaml: Reference, Name: Reference, Src: 10005309105459308109}
+      Phive:
+        Placement: {ID: 10005309105459308109}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 1353042245
+      Translate:
+        - 1831,95600
+        - 367,88590
+        - -3177,21500
+    - Dynamic: {IsOverrideCave: true, Location: Dungeon102, RigidBodyShapeType: !l 3}
+      Gyaml: LocationArea
+      Hash: '2509086082890279991'
+      Name: Work/Location/Dungeon102.game__location__Location.gyml
+      Phive:
+        Placement: {ID: 2509086082890279991}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 631405304
+      Scale:
+        - 18,00000
+        - 10,00000
+        - 18,00000
+      Translate:
+        - 1834,44500
+        - 359,88590
+        - -3180,34600
+    - Dynamic:
+        ForbiddenAll: false
+        ForbiddenGeneratingAnimal: true
+        ForbiddenGeneratingBird: true
+        ForbiddenGeneratingEnemy: true
+        ForbiddenGeneratingInsect: true
+        ForbiddenGeneratingMaterial: true
+        ForbiddenGeneratingSkyFallenBox: true
+      Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '8739754302598237076'
+      Phive:
+        Placement: {ID: 8739754302598237076}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 406405427
+      Scale:
+        - 40,00000
+        - 40,00000
+        - 40,00000
+      Translate:
+        - 1835,06800
+        - 362,88590
+        - -3181,12800
+    - Dynamic: {DungeonIndexStr: Dungeon102, RequestEventName: DmF_SY_SmallDungeon2Go}
+      Gyaml: FldObj_EnterAttetionActor
+      Hash: '6579415778389095539'
+      Links:
+        - {Dst: 6794223755744112182, Gyaml: Reference, Name: Reference, Src: 6579415778389095539}
+      Phive:
+        Placement: {ID: 6579415778389095539}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 1866943509
+      Translate:
+        - 1842,53700
+        - 364,88590
+        - -3190,52100
+    - Gyaml: DestinationAnchor
+      Hash: '6794223755744112182'
+      Name: EnterSmallDungeonPos
+      Phive:
+        Placement: {ID: 6794223755744112182}
+      Rotate:
+        - 3,14159
+        - 0,67182
+        - 3,14159
+      SRTHash: !u 4046153183
+      Translate:
+        - 1843,35700
+        - 363,88590
+        - -3191,55200
+    - ExtraCreateRadius: 90,59126
+      Gyaml: BGM_Shrine
+      Hash: '17397586600677494231'
+      Links:
+        - {Dst: 2509086082890279991, Gyaml: Reference, Name: Reference, Src: 17397586600677494231}
+        - {Dst: 17189476427065088837, Gyaml: Reference, Name: Reference, Src: 17397586600677494231}
+        - {Dst: 18419660298870904457, Gyaml: Reference, Name: Reference, Src: 17397586600677494231}
+      Phive:
+        Placement: {ID: 17397586600677494231}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 3151863742
+      Translate:
+        - 1834,44500
+        - 369,88590
+        - -3180,34600
+    - Gyaml: Area
+      Hash: '15413274220605335672'
+      Phive:
+        Placement: {ID: 15413274220605335672}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 1892690527
+      Scale:
+        - 1,10000
+        - 1,50000
+        - 1,50000
+      Translate:
+        - 1839,89200
+        - 363,63590
+        - -3187,19400
+    - Bakeable: true
+      Dynamic: {DungeonIndexStr: Dungeon102}
+      Gyaml: DgnObj_ZonauShrineEntranceGround_A_01
+      Hash: '2625927441989829894'
+      Phive:
+        Placement: {ID: 2625927441989829894}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 545686232
+      Translate:
+        - 1835,06800
+        - 362,88590
+        - -3181,12800
+    - Bakeable: true
+      Gyaml: DgnObj_ZonauShrineEntranceGateMark_A_01
+      Hash: '14461107582903105777'
+      Phive:
+        Placement: {ID: 14461107582903105777}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 545686232
+      Translate:
+        - 1835,06800
+        - 362,88590
+        - -3181,12800
+    - Bakeable: true
+      Gyaml: DgnObj_ZonauShrineEntranceStopClimbing_A_01
+      Hash: '2067545728690078705'
+      Phive:
+        Placement: {ID: 2067545728690078705}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 545686232
+      Translate:
+        - 1835,06800
+        - 362,88590
+        - -3181,12800
+    - Bakeable: true
+      Gyaml: AirWallCreature
+      Hash: '17949264994326176563'
+      Phive:
+        Placement: {ID: 17949264994326176563}
+      Rotate:
+        - -0,22093
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 4005903531
+      Scale:
+        - 2,40000
+        - 1,18989
+        - 1,38735
+      Translate:
+        - 1839,02300
+        - 365,61820
+        - -3186,10300
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '13216758401708623415'
+      Phive:
+        Placement: {ID: 13216758401708623415}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 1154101872
+      Scale:
+        - 5,00000
+        - 8,00000
+        - 5,00000
+      Translate:
+        - 1839,42500
+        - 362,88590
+        - -3186,60700
+    - Gyaml: DestinationAnchor
+      Hash: '14599366011909000130'
+      Name: CleanCenter
+      Phive:
+        Placement: {ID: 14599366011909000130}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 2808822457
+      Translate:
+        - 1837,86900
+        - 362,88590
+        - -3184,65100
+    - Gyaml: AirWallGiant
+      Hash: '5057444123482607697'
+      Phive:
+        Placement: {ID: 5057444123482607697}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 2239007115
+      Scale:
+        - 32,00000
+        - 20,00000
+        - 36,00000
+      Translate:
+        - 1837,55700
+        - 367,88590
+        - -3184,25900
+    - Gyaml: AreaInvalidateRestartPosForHorse
+      Hash: '11177952696422867200'
+      Phive:
+        Placement: {ID: 11177952696422867200}
+      Rotate:
+        - 0,00000
+        - -0,67182
+        - 0,00000
+      SRTHash: !u 1057932189
+      Scale:
+        - 6,00000
+        - 8,00000
+        - 10,00000
+      Translate:
+        - 1837,55700
+        - 362,88590
+        - -3184,25900
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactTrain_B_01
+      Hash: '1850764235442664829'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 1850764235442664829}
+      Rotate:
+        - -0,08970
+        - 1,05086
+        - -0,09909
+      SRTHash: !u 1531415343
+      Translate:
+        - 1640,41500
+        - 358,86410
+        - -2980,80500
+    - Dynamic: {EquipmentUser_Tool: BokoblinPipe, EquipmentUser_Weapon: Weapon_Spear_112, IsSoundAlarmOnDiscoverBattleTarget: true, Role: !l 1}
+      Gyaml: Enemy_Bokoblin_Guard_Middle_TreeHouseTop
+      Hash: '17838997820036613151'
+      Links:
+        - {Dst: 1850764235442664829, Gyaml: Ride, Name: Ride, Src: 17838997820036613151}
+      Phive:
+        Placement: {ID: 17838997820036613151}
+      Rotate:
+        - -0,08970
+        - 1,05086
+        - -0,09909
+      SRTHash: !u 4163261167
+      Translate:
+        - 1640,43700
+        - 359,86290
+        - -2980,84900
+    - Dynamic: {VelocitySetter_AddLinearVelocity: '25,00000', VelocitySetter_Continuous: true}
+      Gyaml: VelocitySetter
+      Hash: '12864958156491571058'
+      Links:
+        - {Dst: 1850764235442664829, Gyaml: Reference, Name: Reference, Src: 12864958156491571058}
+      Phive:
+        Placement: {ID: 12864958156491571058}
+      Rotate:
+        - 0,01253
+        - -0,41795
+        - 0,01559
+      SRTHash: !u 2693414255
+      Translate:
+        - 1637,15900
+        - 359,86490
+        - -2981,85600
+    - Gyaml: Area
+      Hash: '2110681084559067788'
+      Phive:
+        Placement: {ID: 2110681084559067788}
+      Rotate:
+        - -0,00914
+        - -1,02253
+        - 0,33210
+      SRTHash: !u 1879174652
+      Scale:
+        - 10,00000
+        - 12,16990
+        - 17,10904
+      Translate:
+        - 1628,23200
+        - 358,86240
+        - -2928,42400
+    - Gyaml: Area
+      Hash: '13848173511824689599'
+      Phive:
+        Placement: {ID: 13848173511824689599}
+      Rotate:
+        - 0,00000
+        - 1,30900
+        - 0,00000
+      SRTHash: !u 3160911138
+      Scale:
+        - 3,00000
+        - 3,00000
+        - 10,00000
+      Translate:
+        - 1708,04700
+        - 343,83580
+        - -3056,37300
+    - Dynamic: {VelocitySetter_AddLinearVelocity: '11,00000', VelocitySetter_Continuous: true}
+      Gyaml: VelocitySetter
+      Hash: '12071037944778169227'
+      Links:
+        - {Dst: 1850764235442664829, Gyaml: Reference, Name: Reference, Src: 12071037944778169227}
+      Phive:
+        Placement: {ID: 12071037944778169227}
+      Rotate:
+        - -3,12656
+        - 0,26194
+        - 3,12684
+      SRTHash: !u 4005950106
+      Translate:
+        - 1708,97300
+        - 347,74570
+        - -3057,33500
+    - Gyaml: Area
+      Hash: '7992337256640773853'
+      Phive:
+        Placement: {ID: 7992337256640773853}
+      Rotate:
+        - 0,00000
+        - 1,54590
+        - 0,00000
+      SRTHash: !u 2513256291
+      Scale:
+        - 3,00000
+        - 3,00000
+        - 12,78741
+      Translate:
+        - 1700,07200
+        - 340,93220
+        - -2969,72600
+    - Dynamic: {VelocitySetter_AddLinearVelocity: '14,00000', VelocitySetter_Continuous: true}
+      Gyaml: VelocitySetter
+      Hash: '17293268591870632426'
+      Links:
+        - {Dst: 1850764235442664829, Gyaml: Reference, Name: Reference, Src: 17293268591870632426}
+      Phive:
+        Placement: {ID: 17293268591870632426}
+      Rotate:
+        - 0,02663
+        - 0,49946
+        - 0,01623
+      SRTHash: !u 4284890565
+      Translate:
+        - 1702,58000
+        - 344,55980
+        - -2969,44800
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '9181882134238603681'
+      Phive:
+        Placement: {ID: 9181882134238603681}
+      Rails:
+        - {Dst: 8140630649463209681, Gyaml: Reference, Name: Reference}
+      SRTHash: !u 4097118049
+      Translate:
+        - 1521,65000
+        - 363,68730
+        - -2896,35500
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '10296420243708450101'
+      Phive:
+        Placement: {ID: 10296420243708450101}
+      Rails:
+        - {Dst: 3042215197282310543, Gyaml: Reference, Name: Reference}
+      SRTHash: !u 3409060061
+      Translate:
+        - 1518,07500
+        - 353,28040
+        - -2864,11500
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '18260116450279004350'
+      Phive:
+        Placement: {ID: 18260116450279004350}
+      Rails:
+        - {Dst: 13050887463864042056, Gyaml: Reference, Name: Reference}
+      SRTHash: !u 1298496983
+      Translate:
+        - 1528,31300
+        - 353,07320
+        - -2907,36100
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '13960204189599771856'
+      Phive:
+        Placement: {ID: 13960204189599771856}
+      Rails:
+        - {Dst: 1071173027462893981, Gyaml: Reference, Name: Reference}
+      SRTHash: !u 2943117272
+      Translate:
+        - 1529,21600
+        - 460,37080
+        - -3119,44800
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactTrainSwitchTruck_A_02
+      Hash: '3197709776686436666'
+      Phive:
+        Placement: {ID: 3197709776686436666}
+      Rotate:
+        - 0,00000
+        - -0,87670
+        - 0,00000
+      SRTHash: !u 3092534638
+      Translate:
+        - 1515,02600
+        - 352,65630
+        - -2909,33300
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactTrainSwitch_A_03
+      Hash: '4563445103573070209'
+      Phive:
+        Placement: {ID: 4563445103573070209}
+      Rotate:
+        - -3,14159
+        - -0,69410
+        - 3,14159
+      SRTHash: !u 745304762
+      Translate:
+        - 1534,48400
+        - 352,45710
+        - -2892,91300
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '18409105033596065380'
+      Phive:
+        Placement: {ID: 18409105033596065380}
+      Rails:
+        - {Dst: 14628402839581283665, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 0,00000
+        - -0,87670
+        - 0,00000
+      SRTHash: !u 872226917
+      Translate:
+        - 1519,13600
+        - 360,00970
+        - -2907,21100
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '13212735925212115615'
+      Phive:
+        Placement: {ID: 13212735925212115615}
+      Rails:
+        - {Dst: 12191159924129073297, Gyaml: Reference, Name: Reference}
+      SRTHash: !u 2077441521
+      Translate:
+        - 1528,13600
+        - 356,15440
+        - -2828,06300
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '2724308640347727482'
+      Phive:
+        Placement: {ID: 2724308640347727482}
+      Rails:
+        - {Dst: 1913802752659727917, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 3,14159
+        - 1,29253
+        - 3,14159
+      SRTHash: !u 3628316606
+      Translate:
+        - 1505,02000
+        - 362,87240
+        - -2925,13200
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '7117967230554204432'
+      Phive:
+        Placement: {ID: 7117967230554204432}
+      Rails:
+        - {Dst: 7230437092510214219, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 3,14159
+        - 1,29253
+        - 3,14159
+      SRTHash: !u 952220300
+      Translate:
+        - 1502,69500
+        - 362,87240
+        - -2933,26900
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '12429352637423272772'
+      Phive:
+        Placement: {ID: 12429352637423272772}
+      Rails:
+        - {Dst: 5268648708297693929, Gyaml: Reference, Name: Reference}
+      SRTHash: !u 2081112724
+      Translate:
+        - 1502,92400
+        - 353,28040
+        - -2913,63100
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '7009817020087642894'
+      Phive:
+        Placement: {ID: 7009817020087642894}
+      Rails:
+        - {Dst: 11994986021606482911, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 0,00000
+        - -0,91281
+        - 0,00000
+      SRTHash: !u 868600880
+      Translate:
+        - 1513,91600
+        - 366,83120
+        - -2855,70400
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '11918153213975876083'
+      Phive:
+        Placement: {ID: 11918153213975876083}
+      Rails:
+        - {Dst: 12235880827855164286, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 0,00000
+        - -0,91281
+        - 0,00000
+      SRTHash: !u 2974907974
+      Translate:
+        - 1519,09100
+        - 366,83120
+        - -2849,00900
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '18279701123810920168'
+      Phive:
+        Placement: {ID: 18279701123810920168}
+      Rails:
+        - {Dst: 15523650989485968817, Gyaml: Reference, Name: Reference}
+        - {Dst: 1874748544309020995, Gyaml: Reference, Name: Reference}
+        - {Dst: 7983137508328409732, Gyaml: Reference, Name: Reference}
+        - {Dst: 3279180379211238735, Gyaml: BuriedPopDirection, Name: BuriedPopDirection}
+        - {Dst: 3152765509383003308, Gyaml: Reference, Name: Reference}
+        - {Dst: 13014616213088123406, Gyaml: Reference, Name: Reference}
+      SRTHash: !u 3199448828
+      Translate:
+        - 1686,22400
+        - 369,90260
+        - -2975,73100
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactTrainSwitchTruck_A_02
+      Hash: '6353935628022750780'
+      Phive:
+        Placement: {ID: 6353935628022750780}
+      Rotate:
+        - -3,14159
+        - 0,10201
+        - -3,14159
+      SRTHash: !u 3107107668
+      Translate:
+        - 1699,48300
+        - 345,65460
+        - -3059,59500
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactTrainSwitch_A_03
+      Hash: '5569409050897150352'
+      Phive:
+        Placement: {ID: 5569409050897150352}
+      Rotate:
+        - 0,00000
+        - 1,46879
+        - 0,00000
+      SRTHash: !u 3541423112
+      Translate:
+        - 1704,05600
+        - 343,05020
+        - -3047,58100
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '12504008438393041042'
+      Phive:
+        Placement: {ID: 12504008438393041042}
+      Rails:
+        - {Dst: 13046808851349294624, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - -3,14159
+        - 0,10201
+        - -3,14159
+      SRTHash: !u 1104576821
+      Translate:
+        - 1695,06200
+        - 353,00810
+        - -3058,23700
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '14046422808074735827'
+      Phive:
+        Placement: {ID: 14046422808074735827}
+      Rails:
+        - {Dst: 14033231387420806067, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 0,00000
+        - 0,15589
+        - 0,05236
+      SRTHash: !u 531057527
+      Translate:
+        - 1701,22700
+        - 345,44890
+        - -3071,44100
+    - Bakeable: true
+      Dynamic: {Actor_IsInitLeft: false}
+      Gyaml: FldObj_DeathMtArtifactTrainSwitch_A_01
+      Hash: '4401997897383492970'
+      Phive:
+        Placement: {ID: 4401997897383492970}
+      Rotate:
+        - -0,01171
+        - -1,09225
+        - 0,01765
+      SRTHash: !u 3414069383
+      Translate:
+        - 1684,76700
+        - 333,92230
+        - -3076,76800
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactTrainSwitchTruck_A_03
+      Hash: '6570711755233517667'
+      Phive:
+        Placement: {ID: 6570711755233517667}
+      Rotate:
+        - 0,00000
+        - 0,15589
+        - 0,05236
+      SRTHash: !u 2180845121
+      Translate:
+        - 1697,68900
+        - 337,89990
+        - -3069,00000
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactTrainSwitchTruck_A_01
+      Hash: '8361384571704329932'
+      Phive:
+        Placement: {ID: 8361384571704329932}
+      Rotate:
+        - 0,00000
+        - -0,11769
+        - 0,00000
+      SRTHash: !u 2864436578
+      Translate:
+        - 1690,93200
+        - 343,09560
+        - -2960,70000
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactTrainSwitch_A_02
+      Hash: '11936987207760945793'
+      Phive:
+        Placement: {ID: 11936987207760945793}
+      Rotate:
+        - -3,14159
+        - -1,11633
+        - -3,14159
+      SRTHash: !u 3987282743
+      Translate:
+        - 1689,97000
+        - 340,55160
+        - -2953,52800
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '5642765736046550121'
+      Phive:
+        Placement: {ID: 5642765736046550121}
+      Rails:
+        - {Dst: 6191776664945268112, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 0,00000
+        - -0,11769
+        - 0,00000
+      SRTHash: !u 947974172
+      Translate:
+        - 1695,37400
+        - 350,44910
+        - -2961,99000
+    - Bakeable: true
+      Gyaml: TrolleyRailManagementActor
+      Hash: '88890569148961705'
+      Phive:
+        Placement: {ID: 88890569148961705}
+      Rails:
+        - {Dst: 6512663646884225315, Gyaml: Reference, Name: Reference}
+      SRTHash: !u 2474567734
+      Translate:
+        - 1673,93100
+        - 362,95970
+        - -2975,59000
+    - Gyaml: ForbidAutoPlacementAreaOnlyBox
+      Hash: '17395610213855677132'
+      Phive:
+        Placement: {ID: 17395610213855677132}
+      Rotate:
+        - 0,12692
+        - 0,67372
+        - 0,20174
+      SRTHash: !u 2209160284
+      Scale:
+        - 70,52905
+        - 30,57266
+        - 23,69879
+      Translate:
+        - 1614,38500
+        - 370,08950
+        - -2919,72500
+    - Gyaml: AirWallCaveMaster
+      Hash: '13300283341666829924'
+      Phive:
+        Placement: {ID: 13300283341666829924}
+      Rotate:
+        - 0,00000
+        - 0,82067
+        - 0,00000
+      SRTHash: !u 2144295640
+      Scale:
+        - 15,00000
+        - 15,00000
+        - 5,00000
+      Translate:
+        - 1725,45800
+        - 329,67180
+        - -2946,94000
+    - Dynamic: {EnemyCampType: !l 2, EquipmentUser_Shield: Weapon_Shield_002, EquipmentUser_Weapon: Weapon_Sword_112}
+      Gyaml: Enemy_Moriblin_Middle
+      Hash: '3365997177050933564'
+      Links:
+        - {Dst: 10785135462662887510, Gyaml: Reference, Name: Reference, Src: 3365997177050933564}
+      Phive:
+        Placement: {ID: 3365997177050933564}
+      Rotate:
+        - 3,14159
+        - -0,52586
+        - 3,14159
+      SRTHash: !u 2989416449
+      Translate:
+        - 1704,08100
+        - 343,41580
+        - -3005,95600
+    - Bakeable: true
+      Gyaml: Item_CookSetOnFire
+      Hash: '10785135462662887510'
+      Phive:
+        Placement: {ID: 10785135462662887510}
+      Rotate:
+        - 0,00000
+        - 1,56853
+        - 0,00000
+      SRTHash: !u 1708955072
+      Translate:
+        - 1701,99000
+        - 343,32250
+        - -3010,98500
+    - Dynamic: {EnemyCampType: !l 2, EquipmentUser_Shield: Weapon_Shield_002, EquipmentUser_Weapon: Weapon_Sword_112}
+      Gyaml: Enemy_Moriblin_Middle
+      Hash: '13838595468571654082'
+      Links:
+        - {Dst: 10785135462662887510, Gyaml: Reference, Name: Reference, Src: 13838595468571654082}
+      Phive:
+        Placement: {ID: 13838595468571654082}
+      Rotate:
+        - 0,00000
+        - -0,52133
+        - 0,00000
+      SRTHash: !u 863215480
+      Translate:
+        - 1703,99000
+        - 343,78520
+        - -3015,97700
+    - Dynamic: {ForbiddenAll: false, ForbiddenGeneratingAnimal: true, ForbiddenGeneratingBird: true, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingSkyFallenBox: true}
+      Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '12623451769072654853'
+      Phive:
+        Placement: {ID: 12623451769072654853}
+      SRTHash: !u 1751519860
+      Scale:
+        - 24,00000
+        - 24,00000
+        - 24,00000
+      Translate:
+        - 1700,49000
+        - 343,43250
+        - -3011,48500
+    - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '3294547350219308824'
+      Phive:
+        Placement: {ID: 3294547350219308824}
+      SRTHash: !u 786105743
+      Scale:
+        - 30,00000
+        - 30,00000
+        - 30,00000
+      Translate:
+        - 1700,49000
+        - 313,17180
+        - -3011,48500
+    - Bakeable: true
+      Dynamic: {IsActionOneTime: true, IsFrontReverse: true}
+      Gyaml: Obj_GoronTruckStopBar_A_01
+      Hash: '18435128242927478751'
+      Links:
+        - {Dst: 5638977399375396822, Gyaml: Reference, Name: Reference, Src: 18435128242927478751}
+      Phive:
+        Placement: {ID: 18435128242927478751}
+      Rotate:
+        - 0,00000
+        - 1,05226
+        - 0,00000
+      SRTHash: !u 4014648066
+      Translate:
+        - 1643,30000
+        - 358,56810
+        - -2979,11100
+    - Gyaml: AnchorAction1
+      Hash: '5638977399375396822'
+      Phive:
+        Placement: {ID: 5638977399375396822}
+      Rotate:
+        - 0,00000
+        - 1,05226
+        - 0,00000
+      SRTHash: !u 95536431
+      Translate:
+        - 1644,73400
+        - 358,31930
+        - -2981,67900
+    - Dynamic: {EquipmentUser_Weapon: Weapon_Sword_106, Role: !l 2}
+      Gyaml: Enemy_Bokoblin_Guard_Middle_Ambush
+      Hash: '15556281759660868453'
+      Links:
+        - {Dst: 394498215557161017, Gyaml: Notice, Name: Notice, Src: 15556281759660868453}
+        - {Dst: 15278910694493385094, Gyaml: Look, Name: Look, Src: 15556281759660868453}
+        - {Dst: 18435128242927478751, Gyaml: BreakTarget, Name: BreakTarget, Src: 15556281759660868453}
+      Phive:
+        Placement: {ID: 15556281759660868453}
+      Rotate:
+        - 0,00000
+        - 0,13236
+        - 0,00000
+      SRTHash: !u 4262076506
+      Translate:
+        - 1644,42600
+        - 358,45630
+        - -2987,08200
+    - Gyaml: EnemyNoticeArea
+      Hash: '394498215557161017'
+      Phive:
+        Placement: {ID: 394498215557161017}
+      Rotate:
+        - 0,00000
+        - 0,54205
+        - 0,00000
+      SRTHash: !u 20020408
+      Scale:
+        - 4,44855
+        - 15,03459
+        - 20,00000
+      Translate:
+        - 1645,05100
+        - 360,09180
+        - -2937,71700
+    - Dynamic: {Drop__DropActor: Item_Ore_B}
+      Gyaml: TBox_Field_Iron
+      Hash: '5213761214939647306'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 5213761214939647306}
+      Rotate:
+        - 0,04403
+        - -0,19484
+        - 0,09702
+      SRTHash: !u 1327551319
+      Translate:
+        - 1706,27700
+        - 344,48560
+        - -3021,75300
+    - Bakeable: true
+      Gyaml: EnemyLookTag
+      Hash: '15278910694493385094'
+      Phive:
+        Placement: {ID: 15278910694493385094}
+      SRTHash: !u 3301654786
+      Translate:
+        - 1644,17800
+        - 370,28910
+        - -2941,64200
+    - Dynamic:
+        InstanceID_0: 16577784317013886540
+        Pos_0:
+          - 1499,61000
+          - 443,16000
+          - -3186,83700
+        Rot_0:
+          - -2,22559
+          - 1,10841
+          - -2,94859
+      Gyaml: LightBall_Small
+      Hash: '7341769369415537943'
+      Links:
+        - {Dst: 9974741266287726009, Gyaml: StackInfo, Name: StackInfo, Src: 7341769369415537943}
+      Phive:
+        Placement: {ID: 7341769369415537943}
+      Rotate:
+        - -2,96174
+        - -0,53744
+        - -0,50592
+      SRTHash: !u 3937420089
+      Translate:
+        - 1500,02800
+        - 443,79980
+        - -3186,95500
+    - Dynamic:
+        InstanceID_0: 16577784317013886540
+        Pos_0:
+          - 1499,61000
+          - 443,16000
+          - -3186,83700
+        Rot_0:
+          - -2,22559
+          - 1,10841
+          - -2,94859
+      Gyaml: LightBall_Small
+      Hash: '9974741266287726009'
+      Phive:
+        Placement: {ID: 9974741266287726009}
+      Rotate:
+        - 2,39076
+        - 1,20209
+        - -2,44448
+      SRTHash: !u 2533806833
+      Translate:
+        - 1500,01900
+        - 443,33590
+        - -3187,00100
+    - Dynamic:
+        InstanceID_0: 16577784317013886540
+        Pos_0:
+          - 1499,61000
+          - 443,16000
+          - -3186,83700
+        Rot_0:
+          - -2,22559
+          - 1,10841
+          - -2,94859
+      Gyaml: LightBall_Small
+      Hash: '909057656220367473'
+      Links:
+        - {Dst: 9974741266287726009, Gyaml: StackInfo, Name: StackInfo, Src: 909057656220367473}
+      Phive:
+        Placement: {ID: 909057656220367473}
+      Rotate:
+        - 1,31069
+        - -0,21235
+        - 2,45924
+      SRTHash: !u 657462430
+      Translate:
+        - 1499,85500
+        - 443,51640
+        - -3187,23200
+    - Dynamic:
+        InstanceID_0: 14975877403127136007
+        Pos_0:
+          - 1505,51200
+          - 442,26200
+          - -3186,20800
+        Rot_0:
+          - -1,10900
+          - -0,70200
+          - 1,42100
+      Gyaml: LightBall_Small
+      Hash: '2650609669149163559'
+      Phive:
+        Placement: {ID: 2650609669149163559}
+      Rotate:
+        - 2,85361
+        - -0,78196
+        - 1,70161
+      SRTHash: !u 412500518
+      Translate:
+        - 1505,16400
+        - 442,46620
+        - -3186,45800
+    - Dynamic:
+        InstanceID_0: 14975877403127136007
+        Pos_0:
+          - 1505,51200
+          - 442,26200
+          - -3186,20800
+        Rot_0:
+          - -1,10900
+          - -0,70200
+          - 1,42100
+      Gyaml: LightBall_Small
+      Hash: '6505891877685062942'
+      Links:
+        - {Dst: 2650609669149163559, Gyaml: StackInfo, Name: StackInfo, Src: 6505891877685062942}
+      Phive:
+        Placement: {ID: 6505891877685062942}
+      Rotate:
+        - -2,99172
+        - 0,23934
+        - 0,18517
+      SRTHash: !u 4100729093
+      Translate:
+        - 1505,31100
+        - 442,76600
+        - -3186,42800
+    - Dynamic:
+        InstanceID_0: 14908345155228210921
+        Pos_0:
+          - 1504,91200
+          - 443,95400
+          - -3184,48900
+        Rot_0:
+          - -2,22759
+          - -0,13759
+          - -2,86859
+      Gyaml: LightBall_Small
+      Hash: '6888292456405647560'
+      Links:
+        - {Dst: 13184111309276711101, Gyaml: StackInfo, Name: StackInfo, Src: 6888292456405647560}
+      Phive:
+        Placement: {ID: 6888292456405647560}
+      Rotate:
+        - 2,56631
+        - 0,47908
+        - -0,39828
+      SRTHash: !u 1917347609
+      Translate:
+        - 1504,82000
+        - 444,49820
+        - -3185,03100
+    - Dynamic:
+        InstanceID_0: 14908345155228210921
+        Pos_0:
+          - 1504,91200
+          - 443,95400
+          - -3184,48900
+        Rot_0:
+          - -2,22759
+          - -0,13759
+          - -2,86859
+      Gyaml: LightBall_Small
+      Hash: '13184111309276711101'
+      Phive:
+        Placement: {ID: 13184111309276711101}
+      Rotate:
+        - 1,91331
+        - -0,00106
+        - -2,69388
+      SRTHash: !u 983694455
+      Translate:
+        - 1504,87000
+        - 444,04110
+        - -3184,95400
+    - Dynamic:
+        InstanceID_0: 14908345155228210921
+        Pos_0:
+          - 1504,91200
+          - 443,95400
+          - -3184,48900
+        Rot_0:
+          - -2,22759
+          - -0,13759
+          - -2,86859
+      Gyaml: LightBall_Small
+      Hash: '2340328386710337012'
+      Links:
+        - {Dst: 13184111309276711101, Gyaml: StackInfo, Name: StackInfo, Src: 2340328386710337012}
+      Phive:
+        Placement: {ID: 2340328386710337012}
+      Rotate:
+        - 2,63385
+        - -0,72392
+        - 1,84370
+      SRTHash: !u 4072598154
+      Translate:
+        - 1504,56500
+        - 444,17210
+        - -3184,90700
+    - Dynamic:
+        InstanceID_0: 8525072253179945686
+        Pos_0:
+          - 1543,46000
+          - 425,19600
+          - -3219,35300
+        Rot_0:
+          - 0,96700
+          - 1,04000
+          - 1,07200
+      Gyaml: LightBall_Small
+      Hash: '11403768253282938791'
+      Phive:
+        Placement: {ID: 11403768253282938791}
+      Rotate:
+        - -1,40443
+        - 0,89194
+        - 0,78012
+      SRTHash: !u 3258755510
+      Translate:
+        - 1543,57900
+        - 425,56250
+        - -3219,07600
+    - Dynamic:
+        InstanceID_0: 8525072253179945686
+        Pos_0:
+          - 1543,46000
+          - 425,19600
+          - -3219,35300
+        Rot_0:
+          - 0,96700
+          - 1,04000
+          - 1,07200
+      Gyaml: LightBall_Small
+      Hash: '16199294183315997423'
+      Links:
+        - {Dst: 11403768253282938791, Gyaml: StackInfo, Name: StackInfo, Src: 16199294183315997423}
+      Phive:
+        Placement: {ID: 16199294183315997423}
+      Rotate:
+        - 0,51272
+        - 0,40046
+        - -3,08593
+      SRTHash: !u 2604288328
+      Translate:
+        - 1543,46000
+        - 425,77940
+        - -3219,30200
+    - Dynamic:
+        InstanceID_0: 7919456121535484022
+        Pos_0:
+          - 1537,39300
+          - 426,34300
+          - -3219,51900
+        Rot_0:
+          - 1,77959
+          - -0,69459
+          - -2,29159
+      Gyaml: LightBall_Small
+      Hash: '8573227470550423830'
+      Links:
+        - {Dst: 18187276632224435290, Gyaml: StackInfo, Name: StackInfo, Src: 8573227470550423830}
+      Phive:
+        Placement: {ID: 8573227470550423830}
+      Rotate:
+        - -0,18432
+        - -0,63045
+        - -2,56065
+      SRTHash: !u 3962051381
+      Translate:
+        - 1537,35600
+        - 426,74050
+        - -3219,26300
+    - Dynamic:
+        InstanceID_0: 7919456121535484022
+        Pos_0:
+          - 1537,39300
+          - 426,34300
+          - -3219,51900
+        Rot_0:
+          - 1,77959
+          - -0,69459
+          - -2,29159
+      Gyaml: LightBall_Small
+      Hash: '18187276632224435290'
+      Phive:
+        Placement: {ID: 18187276632224435290}
+      Rotate:
+        - -1,30112
+        - -0,17052
+        - -0,69722
+      SRTHash: !u 494514300
+      Translate:
+        - 1537,39400
+        - 426,56810
+        - -3218,97800
+    - Dynamic:
+        InstanceID_0: 15348216163190664919
+        Pos_0:
+          - 1549,70300
+          - 426,89900
+          - -3213,82800
+        Rot_0:
+          - -1,14400
+          - -0,58900
+          - 1,16800
+      Gyaml: LightBall_Small
+      Hash: '16757201539576587094'
+      Phive:
+        Placement: {ID: 16757201539576587094}
+      Rotate:
+        - 2,85766
+        - -0,66560
+        - 1,42484
+      SRTHash: !u 2610842182
+      Translate:
+        - 1549,41800
+        - 427,15950
+        - -3214,10400
+    - Dynamic:
+        InstanceID_0: 15348216163190664919
+        Pos_0:
+          - 1549,70300
+          - 426,89900
+          - -3213,82800
+        Rot_0:
+          - -1,14400
+          - -0,58900
+          - 1,16800
+      Gyaml: LightBall_Small
+      Hash: '6232596104332779054'
+      Links:
+        - {Dst: 16757201539576587094, Gyaml: StackInfo, Name: StackInfo, Src: 6232596104332779054}
+      Phive:
+        Placement: {ID: 6232596104332779054}
+      Rotate:
+        - -3,11138
+        - 0,24718
+        - -0,11778
+      SRTHash: !u 1746821017
+      Translate:
+        - 1549,64100
+        - 427,40990
+        - -3214,10800
+    - Dynamic:
+        InstanceID_0: 8401685980297937555
+        Pos_0:
+          - 1566,12500
+          - 425,81400
+          - -3212,83000
+        Rot_0:
+          - -1,28500
+          - -0,52000
+          - 0,80300
+      Gyaml: LightBall_Small
+      Hash: '5768414541178329275'
+      Phive:
+        Placement: {ID: 5768414541178329275}
+      Rotate:
+        - 2,73672
+        - -0,56861
+        - 1,05559
+      SRTHash: !u 2065876609
+      Translate:
+        - 1565,98800
+        - 426,13040
+        - -3213,15600
+    - Dynamic:
+        InstanceID_0: 8401685980297937555
+        Pos_0:
+          - 1566,12500
+          - 425,81400
+          - -3212,83000
+        Rot_0:
+          - -1,28500
+          - -0,52000
+          - 0,80300
+      Gyaml: LightBall_Small
+      Hash: '16286678954795068530'
+      Links:
+        - {Dst: 5768414541178329275, Gyaml: StackInfo, Name: StackInfo, Src: 16286678954795068530}
+      Phive:
+        Placement: {ID: 16286678954795068530}
+      Rotate:
+        - 3,07475
+        - 0,14687
+        - -0,57619
+      SRTHash: !u 2516016718
+      Translate:
+        - 1566,29700
+        - 426,26140
+        - -3213,16700
+    - Dynamic:
+        InstanceID_0: 16096215421421259850
+        Pos_0:
+          - 1589,65800
+          - 423,02400
+          - -3215,71400
+        Rot_0:
+          - 0,06500
+          - 0,07800
+          - 0,36700
+      Gyaml: LightBall_Small
+      Hash: '13140872791086043811'
+      Phive:
+        Placement: {ID: 13140872791086043811}
+      Rotate:
+        - -2,06465
+        - -0,14282
+        - 0,35260
+      SRTHash: !u 3487504057
+      Translate:
+        - 1589,48400
+        - 423,39650
+        - -3215,47700
+    - Dynamic:
+        InstanceID_0: 16096215421421259850
+        Pos_0:
+          - 1589,65800
+          - 423,02400
+          - -3215,71400
+        Rot_0:
+          - 0,06500
+          - 0,07800
+          - 0,36700
+      Gyaml: LightBall_Small
+      Hash: '2947041886348533354'
+      Links:
+        - {Dst: 13140872791086043811, Gyaml: StackInfo, Name: StackInfo, Src: 2947041886348533354}
+      Phive:
+        Placement: {ID: 2947041886348533354}
+      Rotate:
+        - -1,98528
+        - 1,55765
+        - 0,56348
+      SRTHash: !u 520103587
+      Translate:
+        - 1589,67000
+        - 423,60700
+        - -3215,66000
+    - Dynamic:
+        InstanceID_0: 6111808945570763671
+        Pos_0:
+          - 1576,04400
+          - 424,85900
+          - -3210,65700
+        Rot_0:
+          - -2,19559
+          - 0,30741
+          - 2,97759
+      Gyaml: LightBall_Small
+      Hash: '15295234417711669759'
+      Links:
+        - {Dst: 4601966055756851351, Gyaml: StackInfo, Name: StackInfo, Src: 15295234417711669759}
+      Phive:
+        Placement: {ID: 15295234417711669759}
+      Rotate:
+        - 2,81387
+        - 0,10011
+        - -0,76574
+      SRTHash: !u 3905160846
+      Translate:
+        - 1576,41800
+        - 425,33580
+        - -3211,13700
+    - Dynamic:
+        InstanceID_0: 6111808945570763671
+        Pos_0:
+          - 1576,04400
+          - 424,85900
+          - -3210,65700
+        Rot_0:
+          - -2,19559
+          - 0,30741
+          - 2,97759
+      Gyaml: LightBall_Small
+      Hash: '4601966055756851351'
+      Phive:
+        Placement: {ID: 4601966055756851351}
+      Rotate:
+        - 2,02895
+        - 0,43078
+        - -3,10840
+      SRTHash: !u 360263414
+      Translate:
+        - 1576,24000
+        - 424,90810
+        - -3211,08600
+    - Dynamic:
+        InstanceID_0: 6111808945570763671
+        Pos_0:
+          - 1576,04400
+          - 424,85900
+          - -3210,65700
+        Rot_0:
+          - -2,19559
+          - 0,30741
+          - 2,97759
+      Gyaml: LightBall_Small
+      Hash: '11911195577289454801'
+      Links:
+        - {Dst: 4601966055756851351, Gyaml: StackInfo, Name: StackInfo, Src: 11911195577289454801}
+      Phive:
+        Placement: {ID: 11911195577289454801}
+      Rotate:
+        - 2,08006
+        - -0,61222
+        - 1,75298
+      SRTHash: !u 844896476
+      Translate:
+        - 1576,02600
+        - 425,15480
+        - -3211,16200
+    - Dynamic:
+        InstanceID_0: 5846215705289267502
+        Pos_0:
+          - 1578,25500
+          - 424,88000
+          - -3209,86500
+        Rot_0:
+          - -2,16459
+          - -0,41959
+          - 2,04459
+      Gyaml: LightBall_Small
+      Hash: '8051211149876630526'
+      Phive:
+        Placement: {ID: 8051211149876630526}
+      Rotate:
+        - 1,92187
+        - -0,28932
+        - 2,23556
+      SRTHash: !u 3760542238
+      Translate:
+        - 1578,24600
+        - 425,04150
+        - -3210,31100
+    - Dynamic:
+        InstanceID_0: 5846215705289267502
+        Pos_0:
+          - 1578,25500
+          - 424,88000
+          - -3209,86500
+        Rot_0:
+          - -2,16459
+          - -0,41959
+          - 2,04459
+      Gyaml: LightBall_Small
+      Hash: '14242227398288895029'
+      Links:
+        - {Dst: 8051211149876630526, Gyaml: StackInfo, Name: StackInfo, Src: 14242227398288895029}
+      Phive:
+        Placement: {ID: 14242227398288895029}
+      Rotate:
+        - 2,98667
+        - -0,63339
+        - 0,26809
+      SRTHash: !u 2979241349
+      Translate:
+        - 1578,32200
+        - 425,35080
+        - -3210,20700
+    - Dynamic:
+        InstanceID_0: 8743259210205576470
+        Pos_0:
+          - 1504,33000
+          - 450,10200
+          - -3126,98800
+        Rot_0:
+          - -3,13259
+          - -0,55659
+          - 2,22459
+      Gyaml: LightBall_Small
+      Hash: '6222340472403337255'
+      Phive:
+        Placement: {ID: 6222340472403337255}
+      Rotate:
+        - 1,01956
+        - -0,33531
+        - 2,22669
+      SRTHash: !u 3244676049
+      Translate:
+        - 1504,62200
+        - 450,41580
+        - -3127,19100
+    - Dynamic:
+        InstanceID_0: 8743259210205576470
+        Pos_0:
+          - 1504,33000
+          - 450,10200
+          - -3126,98800
+        Rot_0:
+          - -3,13259
+          - -0,55659
+          - 2,22459
+      Gyaml: LightBall_Small
+      Hash: '13881865984045830015'
+      Links:
+        - {Dst: 6222340472403337255, Gyaml: StackInfo, Name: StackInfo, Src: 13881865984045830015}
+      Phive:
+        Placement: {ID: 13881865984045830015}
+      Rotate:
+        - -2,08138
+        - -1,10242
+        - -1,03507
+      SRTHash: !u 4222518827
+      Translate:
+        - 1504,63700
+        - 450,59450
+        - -3126,90900
+    - Dynamic:
+        InstanceID_0: 15165965428662766698
+        Pos_0:
+          - 1506,71300
+          - 455,06900
+          - -3161,31400
+        Rot_0:
+          - 0,40600
+          - -0,23000
+          - 0,87600
+      Gyaml: LightBall_Small
+      Hash: '18324319054355665370'
+      Phive:
+        Placement: {ID: 18324319054355665370}
+      Rotate:
+        - -1,69287
+        - -0,43207
+        - 0,78040
+      SRTHash: !u 2981631515
+      Translate:
+        - 1506,39500
+        - 455,16860
+        - -3160,97600
+    - Dynamic:
+        InstanceID_0: 15165965428662766698
+        Pos_0:
+          - 1506,71300
+          - 455,06900
+          - -3161,31400
+        Rot_0:
+          - 0,40600
+          - -0,23000
+          - 0,87600
+      Gyaml: LightBall_Small
+      Hash: '4955618675006329494'
+      Links:
+        - {Dst: 18324319054355665370, Gyaml: StackInfo, Name: StackInfo, Src: 4955618675006329494}
+      Phive:
+        Placement: {ID: 4955618675006329494}
+      Rotate:
+        - -1,36880
+        - 1,10238
+        - 1,71361
+      SRTHash: !u 512941081
+      Translate:
+        - 1506,43800
+        - 455,49740
+        - -3161,02400
+    - Dynamic:
+        InstanceID_0: 313379783509703900
+        Pos_0:
+          - 1505,41400
+          - 454,55700
+          - -3162,76500
+        Rot_0:
+          - 2,68359
+          - -0,40259
+          - -2,05559
+      Gyaml: LightBall_Small
+      Hash: '9583181219670643399'
+      Links:
+        - {Dst: 12383942034092197896, Gyaml: StackInfo, Name: StackInfo, Src: 9583181219670643399}
+      Phive:
+        Placement: {ID: 9583181219670643399}
+      Rotate:
+        - -1,78341
+        - 1,03123
+        - 1,58348
+      SRTHash: !u 43362136
+      Translate:
+        - 1504,99500
+        - 455,10700
+        - -3162,41800
+    - Dynamic:
+        InstanceID_0: 313379783509703900
+        Pos_0:
+          - 1505,41400
+          - 454,55700
+          - -3162,76500
+        Rot_0:
+          - 2,68359
+          - -0,40259
+          - -2,05559
+      Gyaml: LightBall_Small
+      Hash: '2978162059051038031'
+      Links:
+        - {Dst: 12383942034092197896, Gyaml: StackInfo, Name: StackInfo, Src: 2978162059051038031}
+      Phive:
+        Placement: {ID: 2978162059051038031}
+      Rotate:
+        - 0,58321
+        - -0,20250
+        - -2,15483
+      SRTHash: !u 2070627446
+      Translate:
+        - 1505,01700
+        - 454,81570
+        - -3162,78100
+    - Dynamic:
+        InstanceID_0: 313379783509703900
+        Pos_0:
+          - 1505,41400
+          - 454,55700
+          - -3162,76500
+        Rot_0:
+          - 2,68359
+          - -0,40259
+          - -2,05559
+      Gyaml: LightBall_Small
+      Hash: '12383942034092197896'
+      Phive:
+        Placement: {ID: 12383942034092197896}
+      Rotate:
+        - -1,21821
+        - -0,98003
+        - -0,00923
+      SRTHash: !u 985053170
+      Translate:
+        - 1504,91400
+        - 454,68840
+        - -3162,48900
+    - Dynamic:
+        InstanceID_0: 15250994003220792088
+        Pos_0:
+          - 1600,00100
+          - 424,75000
+          - -3201,78800
+        Rot_0:
+          - 2,35019
+          - -1,29000
+          - -1,43800
+      Gyaml: LightBall_Small
+      Hash: '8084205621049184503'
+      Links:
+        - {Dst: 3036480935111145485, Gyaml: StackInfo, Name: StackInfo, Src: 8084205621049184503}
+      Phive:
+        Placement: {ID: 8084205621049184503}
+      Rotate:
+        - 0,26599
+        - 1,03574
+        - -2,44915
+      SRTHash: !u 4077311902
+      Translate:
+        - 1599,47200
+        - 425,31220
+        - -3201,74500
+    - Dynamic:
+        InstanceID_0: 15250994003220792088
+        Pos_0:
+          - 1600,00100
+          - 424,75000
+          - -3201,78800
+        Rot_0:
+          - 2,35019
+          - -1,29000
+          - -1,43800
+      Gyaml: LightBall_Small
+      Hash: '3036480935111145485'
+      Phive:
+        Placement: {ID: 3036480935111145485}
+      Rotate:
+        - 0,55449
+        - -1,10766
+        - -1,79501
+      SRTHash: !u 1761792856
+      Translate:
+        - 1599,53800
+        - 424,85280
+        - -3201,79000
+    - Dynamic:
+        InstanceID_0: 15250994003220792088
+        Pos_0:
+          - 1600,00100
+          - 424,75000
+          - -3201,78800
+        Rot_0:
+          - 2,35019
+          - -1,29000
+          - -1,43800
+      Gyaml: LightBall_Small
+      Hash: '5703445061914094901'
+      Links:
+        - {Dst: 3036480935111145485, Gyaml: StackInfo, Name: StackInfo, Src: 5703445061914094901}
+      Phive:
+        Placement: {ID: 5703445061914094901}
+      Rotate:
+        - -1,96338
+        - -0,27190
+        - 0,81001
+      SRTHash: !u 1491172162
+      Translate:
+        - 1599,55900
+        - 424,98120
+        - -3201,48100
+    - Dynamic:
+        InstanceID_0: 3707826453621072309
+        Pos_0:
+          - 1598,95500
+          - 425,03500
+          - -3205,38100
+        Rot_0:
+          - 2,86359
+          - -0,31559
+          - -2,25559
+      Gyaml: LightBall_Small
+      Hash: '12953323795806344733'
+      Links:
+        - {Dst: 15920462840622416808, Gyaml: StackInfo, Name: StackInfo, Src: 12953323795806344733}
+      Phive:
+        Placement: {ID: 12953323795806344733}
+      Rotate:
+        - -2,14607
+        - 1,01178
+        - 1,13669
+      SRTHash: !u 1522203590
+      Translate:
+        - 1598,55900
+        - 425,64700
+        - -3205,12300
+    - Dynamic:
+        InstanceID_0: 3707826453621072309
+        Pos_0:
+          - 1598,95500
+          - 425,03500
+          - -3205,38100
+        Rot_0:
+          - 2,86359
+          - -0,31559
+          - -2,25559
+      Gyaml: LightBall_Small
+      Hash: '15920462840622416808'
+      Phive:
+        Placement: {ID: 15920462840622416808}
+      Rotate:
+        - -1,23362
+        - -1,16945
+        - -0,13215
+      SRTHash: !u 3842388020
+      Translate:
+        - 1598,43600
+        - 425,24070
+        - -3205,20500
+    - Dynamic:
+        InstanceID_0: 4970693972501986365
+        Pos_0:
+          - 1600,45000
+          - 434,86500
+          - -3205,87300
+        Rot_0:
+          - 0,85200
+          - -0,99000
+          - 0,55100
+      Gyaml: LightBall_Small
+      Hash: '7561165688367875906'
+      Phive:
+        Placement: {ID: 7561165688367875906}
+      Rotate:
+        - -0,94777
+        - -1,10830
+        - 0,17175
+      SRTHash: !u 210720214
+      Translate:
+        - 1600,03900
+        - 434,75750
+        - -3205,66200
+    - Dynamic:
+        InstanceID_0: 4970693972501986365
+        Pos_0:
+          - 1600,45000
+          - 434,86500
+          - -3205,87300
+        Rot_0:
+          - 0,85200
+          - -0,99000
+          - 0,55100
+      Gyaml: LightBall_Small
+      Hash: '16893709479929552906'
+      Links:
+        - {Dst: 7561165688367875906, Gyaml: StackInfo, Name: StackInfo, Src: 16893709479929552906}
+      Phive:
+        Placement: {ID: 16893709479929552906}
+      Rotate:
+        - -1,75993
+        - 0,31401
+        - 1,38926
+      SRTHash: !u 3607433924
+      Translate:
+        - 1600,06900
+        - 435,01970
+        - -3205,45600
+    - Dynamic:
+        InstanceID_0: 17498478884835722963
+        Pos_0:
+          - 1581,81500
+          - 350,30900
+          - -3097,71700
+        Rot_0:
+          - -0,58600
+          - -0,31200
+          - 1,08300
+      Gyaml: LightBall_Small
+      Hash: '17146857041664261066'
+      Phive:
+        Placement: {ID: 17146857041664261066}
+      Rotate:
+        - -2,77059
+        - -0,49328
+        - 1,22125
+      SRTHash: !u 25566344
+      Translate:
+        - 1581,39000
+        - 350,50590
+        - -3097,79100
+    - Dynamic:
+        InstanceID_0: 17498478884835722963
+        Pos_0:
+          - 1581,81500
+          - 350,30900
+          - -3097,71700
+        Rot_0:
+          - -0,58600
+          - -0,31200
+          - 1,08300
+      Gyaml: LightBall_Small
+      Hash: '9752128562054621426'
+      Links:
+        - {Dst: 17146857041664261066, Gyaml: StackInfo, Name: StackInfo, Src: 9752128562054621426}
+      Phive:
+        Placement: {ID: 9752128562054621426}
+      Rotate:
+        - 3,10794
+        - 0,81476
+        - 0,01409
+      SRTHash: !u 2238921811
+      Translate:
+        - 1581,53300
+        - 350,78490
+        - -3097,90900
+    - Dynamic:
+        InstanceID_0: 938532500207204401
+        Pos_0:
+          - 1677,94500
+          - 333,17800
+          - -3085,74800
+        Rot_0:
+          - -0,02600
+          - -0,56900
+          - -0,02300
+      Gyaml: LightBall_Small
+      Hash: '3065807454514667797'
+      Phive:
+        Placement: {ID: 3065807454514667797}
+      Rotate:
+        - -2,16125
+        - -0,79020
+        - -0,01489
+      SRTHash: !u 1946333342
+      Translate:
+        - 1677,81000
+        - 333,61070
+        - -3085,60800
+    - Dynamic:
+        InstanceID_0: 938532500207204401
+        Pos_0:
+          - 1677,94500
+          - 333,17800
+          - -3085,74800
+        Rot_0:
+          - -0,02600
+          - -0,56900
+          - -0,02300
+      Gyaml: LightBall_Small
+      Hash: '11860166933610269788'
+      Links:
+        - {Dst: 3065807454514667797, Gyaml: StackInfo, Name: StackInfo, Src: 11860166933610269788}
+      Phive:
+        Placement: {ID: 11860166933610269788}
+      Rotate:
+        - -2,30280
+        - 0,90557
+        - -0,16596
+      SRTHash: !u 3366581293
+      Translate:
+        - 1678,12700
+        - 333,71810
+        - -3085,61400
+    - Dynamic:
+        InstanceID_0: 15979112777735860959
+        Pos_0:
+          - 1679,22600
+          - 333,93300
+          - -3087,71200
+        Rot_0:
+          - 0,67600
+          - -0,83200
+          - -0,07900
+      Gyaml: LightBall_Small
+      Hash: '3260586149728312566'
+      Links:
+        - {Dst: 9278937730739532910, Gyaml: StackInfo, Name: StackInfo, Src: 3260586149728312566}
+      Phive:
+        Placement: {ID: 3260586149728312566}
+      Rotate:
+        - 0,13674
+        - 0,23365
+        - -2,73828
+      SRTHash: !u 1981984408
+      Translate:
+        - 1678,90600
+        - 334,61830
+        - -3087,55100
+    - Dynamic:
+        InstanceID_0: 15979112777735860959
+        Pos_0:
+          - 1679,22600
+          - 333,93300
+          - -3087,71200
+        Rot_0:
+          - 0,67600
+          - -0,83200
+          - -0,07900
+      Gyaml: LightBall_Small
+      Hash: '9278937730739532910'
+      Phive:
+        Placement: {ID: 9278937730739532910}
+      Rotate:
+        - -1,25284
+        - -0,99096
+        - -0,33235
+      SRTHash: !u 2367639208
+      Translate:
+        - 1678,89600
+        - 334,16130
+        - -3087,45900
+    - Dynamic:
+        InstanceID_0: 15979112777735860959
+        Pos_0:
+          - 1679,22600
+          - 333,93300
+          - -3087,71200
+        Rot_0:
+          - 0,67600
+          - -0,83200
+          - -0,07900
+      Gyaml: LightBall_Small
+      Hash: '8240891131984099241'
+      Links:
+        - {Dst: 9278937730739532910, Gyaml: StackInfo, Name: StackInfo, Src: 8240891131984099241}
+      Phive:
+        Placement: {ID: 8240891131984099241}
+      Rotate:
+        - -1,72380
+        - 0,50201
+        - 0,63403
+      SRTHash: !u 551986630
+      Translate:
+        - 1679,13100
+        - 334,34340
+        - -3087,30500
+    - Dynamic:
+        InstanceID_0: 13929762991554664011
+        Pos_0:
+          - 1675,53600
+          - 335,26600
+          - -3088,06500
+        Rot_0:
+          - 1,32700
+          - 0,74100
+          - 0,13100
+      Gyaml: LightBall_Small
+      Hash: '17020689035965466875'
+      Phive:
+        Placement: {ID: 17020689035965466875}
+      Rotate:
+        - -0,98186
+        - 0,66807
+        - -0,14377
+      SRTHash: !u 764403513
+      Translate:
+        - 1675,82400
+        - 335,20470
+        - -3087,69300
+    - Dynamic:
+        InstanceID_0: 13929762991554664011
+        Pos_0:
+          - 1675,53600
+          - 335,26600
+          - -3088,06500
+        Rot_0:
+          - 1,32700
+          - 0,74100
+          - 0,13100
+      Gyaml: LightBall_Small
+      Hash: '7912056855784340272'
+      Links:
+        - {Dst: 17020689035965466875, Gyaml: StackInfo, Name: StackInfo, Src: 7912056855784340272}
+      Phive:
+        Placement: {ID: 7912056855784340272}
+      Rotate:
+        - 0,13630
+        - 0,28668
+        - 1,84373
+      SRTHash: !u 4109481307
+      Translate:
+        - 1676,04000
+        - 335,42980
+        - -3087,81500
+    - Dynamic:
+        InstanceID_0: 17383713973608014727
+        Pos_0:
+          - 1676,78000
+          - 335,36200
+          - -3089,32600
+        Rot_0:
+          - 0,95100
+          - 0,55000
+          - -0,39800
+      Gyaml: LightBall_Small
+      Hash: '8204796248212100222'
+      Links:
+        - {Dst: 15873658807292816870, Gyaml: StackInfo, Name: StackInfo, Src: 8204796248212100222}
+      Phive:
+        Placement: {ID: 8204796248212100222}
+      Rotate:
+        - -0,96000
+        - -0,75215
+        - -2,65498
+      SRTHash: !u 3337939572
+      Translate:
+        - 1677,14500
+        - 335,78200
+        - -3088,78900
+    - Dynamic:
+        InstanceID_0: 17383713973608014727
+        Pos_0:
+          - 1676,78000
+          - 335,36200
+          - -3089,32600
+        Rot_0:
+          - 0,95100
+          - 0,55000
+          - -0,39800
+      Gyaml: LightBall_Small
+      Hash: '15873658807292816870'
+      Phive:
+        Placement: {ID: 15873658807292816870}
+      Rotate:
+        - -1,27047
+        - 0,41288
+        - -0,59431
+      SRTHash: !u 2381882190
+      Translate:
+        - 1676,99800
+        - 335,35510
+        - -3088,90500
+    - Dynamic:
+        InstanceID_0: 16713226259486597882
+        Pos_0:
+          - 1629,96600
+          - 314,95000
+          - -3004,73600
+        Rot_0:
+          - 3,10959
+          - -0,08859
+          - 2,57259
+      Gyaml: LightBall_Small
+      Hash: '14904646320729816489'
+      Phive:
+        Placement: {ID: 14904646320729816489}
+      Rotate:
+        - 0,97931
+        - 0,13258
+        - 2,56551
+      SRTHash: !u 913292538
+      Translate:
+        - 1630,22300
+        - 315,29700
+        - -3004,93300
+    - Dynamic:
+        InstanceID_0: 16713226259486597882
+        Pos_0:
+          - 1629,96600
+          - 314,95000
+          - -3004,73600
+        Rot_0:
+          - 3,10959
+          - -0,08859
+          - 2,57259
+      Gyaml: LightBall_Small
+      Hash: '6082901042810831086'
+      Links:
+        - {Dst: 14904646320729816489, Gyaml: StackInfo, Name: StackInfo, Src: 6082901042810831086}
+      Phive:
+        Placement: {ID: 6082901042810831086}
+      Rotate:
+        - -0,59095
+        - -1,47673
+        - -2,16850
+      SRTHash: !u 2703997178
+      Translate:
+        - 1630,07700
+        - 315,52500
+        - -3004,73500
+    - Dynamic:
+        InstanceID_0: 14099244297427236217
+        Pos_0:
+          - 1628,27800
+          - 315,91200
+          - -2996,44400
+        Rot_0:
+          - -2,94259
+          - 0,13941
+          - 2,08459
+      Gyaml: LightBall_Small
+      Hash: '17888241788895113996'
+      Phive:
+        Placement: {ID: 17888241788895113996}
+      Rotate:
+        - 1,22190
+        - 0,35612
+        - 2,13090
+      SRTHash: !u 2562878927
+      Translate:
+        - 1628,64700
+        - 316,02130
+        - -2996,72200
+    - Dynamic:
+        InstanceID_0: 14099244297427236217
+        Pos_0:
+          - 1628,27800
+          - 315,91200
+          - -2996,44400
+        Rot_0:
+          - -2,94259
+          - 0,13941
+          - 2,08459
+      Gyaml: LightBall_Small
+      Hash: '7364479711186808916'
+      Links:
+        - {Dst: 17888241788895113996, Gyaml: StackInfo, Name: StackInfo, Src: 7364479711186808916}
+      Phive:
+        Placement: {ID: 7364479711186808916}
+      Rotate:
+        - 1,49475
+        - -1,30322
+        - 1,54612
+      SRTHash: !u 1247460966
+      Translate:
+        - 1628,64100
+        - 316,33890
+        - -2996,61500
+    - Dynamic:
+        InstanceID_0: 17025878829538447495
+        Pos_0:
+          - 1628,65500
+          - 315,38200
+          - -3003,33500
+        Rot_0:
+          - -0,16100
+          - -0,36100
+          - -0,98900
+      Gyaml: LightBall_Small
+      Hash: '89165869020056166'
+      Links:
+        - {Dst: 10650065941292777118, Gyaml: StackInfo, Name: StackInfo, Src: 89165869020056166}
+      Phive:
+        Placement: {ID: 89165869020056166}
+      Rotate:
+        - -2,31029
+        - -0,57911
+        - -0,94695
+      SRTHash: !u 1230685138
+      Translate:
+        - 1628,98200
+        - 315,70710
+        - -3003,22400
+    - Dynamic:
+        InstanceID_0: 17025878829538447495
+        Pos_0:
+          - 1628,65500
+          - 315,38200
+          - -3003,33500
+        Rot_0:
+          - -0,16100
+          - -0,36100
+          - -0,98900
+      Gyaml: LightBall_Small
+      Hash: '10650065941292777118'
+      Phive:
+        Placement: {ID: 10650065941292777118}
+      Rotate:
+        - -2,62706
+        - 1,06847
+        - -1,46507
+      SRTHash: !u 368155749
+      Translate:
+        - 1629,22900
+        - 315,49620
+        - -3003,30700
+    - Dynamic:
+        InstanceID_0: 16131391995921752843
+        Pos_0:
+          - 1680,09100
+          - 325,37100
+          - -3019,57800
+        Rot_0:
+          - 3,13559
+          - 1,00141
+          - -1,80259
+      Gyaml: LightBall_Small
+      Hash: '17784413622837699868'
+      Links:
+        - {Dst: 7520308289527644645, Gyaml: StackInfo, Name: StackInfo, Src: 17784413622837699868}
+      Phive:
+        Placement: {ID: 17784413622837699868}
+      Rotate:
+        - 1,00199
+        - 1,22269
+        - -1,80645
+      SRTHash: !u 3083460663
+      Translate:
+        - 1679,72200
+        - 325,66080
+        - -3019,64900
+    - Dynamic:
+        InstanceID_0: 16131391995921752843
+        Pos_0:
+          - 1680,09100
+          - 325,37100
+          - -3019,57800
+        Rot_0:
+          - 3,13559
+          - 1,00141
+          - -1,80259
+      Gyaml: LightBall_Small
+      Hash: '7520308289527644645'
+      Phive:
+        Placement: {ID: 7520308289527644645}
+      Rotate:
+        - 0,91811
+        - -0,47708
+        - -1,72587
+      SRTHash: !u 4244640805
+      Translate:
+        - 1679,54200
+        - 325,40940
+        - -3019,77700
+    - Dynamic:
+        InstanceID_0: 1506001667446115663
+        Pos_0:
+          - 1749,44200
+          - 354,87900
+          - -3123,89700
+        Rot_0:
+          - 2,71559
+          - -0,43159
+          - 2,25759
+      Gyaml: LightBall_Small
+      Hash: '8928028103902622463'
+      Phive:
+        Placement: {ID: 8928028103902622463}
+      Rotate:
+        - 0,61587
+        - -0,22856
+        - 2,16434
+      SRTHash: !u 1116499835
+      Translate:
+        - 1749,83000
+        - 355,14960
+        - -3123,92800
+    - Dynamic:
+        InstanceID_0: 1506001667446115663
+        Pos_0:
+          - 1749,44200
+          - 354,87900
+          - -3123,89700
+        Rot_0:
+          - 2,71559
+          - -0,43159
+          - 2,25759
+      Gyaml: LightBall_Small
+      Hash: '18331256461439549365'
+      Links:
+        - {Dst: 8928028103902622463, Gyaml: StackInfo, Name: StackInfo, Src: 18331256461439549365}
+      Phive:
+        Placement: {ID: 18331256461439549365}
+      Rotate:
+        - -1,28995
+        - -0,99133
+        - -1,90646
+      SRTHash: !u 1737570323
+      Translate:
+        - 1749,76300
+        - 355,29120
+        - -3123,63300
+    - Dynamic:
+        InstanceID_0: 3888719772246065984
+        Pos_0:
+          - 1750,96400
+          - 354,28200
+          - -3125,04600
+        Rot_0:
+          - 0,55900
+          - -0,97000
+          - -1,29100
+      Gyaml: LightBall_Small
+      Hash: '791283141564168044'
+      Links:
+        - {Dst: 12427421561692628388, Gyaml: StackInfo, Name: StackInfo, Src: 791283141564168044}
+      Phive:
+        Placement: {ID: 791283141564168044}
+      Rotate:
+        - -1,32207
+        - -1,14319
+        - -1,57552
+      SRTHash: !u 2689141488
+      Translate:
+        - 1751,10600
+        - 354,69390
+        - -3124,85800
+    - Dynamic:
+        InstanceID_0: 3888719772246065984
+        Pos_0:
+          - 1750,96400
+          - 354,28200
+          - -3125,04600
+        Rot_0:
+          - 0,55900
+          - -0,97000
+          - -1,29100
+      Gyaml: LightBall_Small
+      Hash: '12427421561692628388'
+      Phive:
+        Placement: {ID: 12427421561692628388}
+      Rotate:
+        - -1,88067
+        - 0,43355
+        - -0,74084
+      SRTHash: !u 2035098828
+      Translate:
+        - 1751,35000
+        - 354,53940
+        - -3124,68800
+    - Dynamic:
+        InstanceID_0: 15910560811946057577
+        Pos_0:
+          - 1869,58300
+          - 368,38900
+          - -3178,67000
+        Rot_0:
+          - -2,20159
+          - -1,20059
+          - 3,08459
+      Gyaml: LightBall_Small
+      Hash: '5606536864053080648'
+      Links:
+        - {Dst: 12698990682087332573, Gyaml: StackInfo, Name: StackInfo, Src: 5606536864053080648}
+      Phive:
+        Placement: {ID: 5606536864053080648}
+      Rotate:
+        - 1,20773
+        - 0,97215
+        - -1,71917
+      SRTHash: !u 1229938820
+      Translate:
+        - 1869,15600
+        - 368,94900
+        - -3178,99000
+    - Dynamic:
+        InstanceID_0: 15910560811946057577
+        Pos_0:
+          - 1869,58300
+          - 368,38900
+          - -3178,67000
+        Rot_0:
+          - -2,20159
+          - -1,20059
+          - 3,08459
+      Gyaml: LightBall_Small
+      Hash: '12698990682087332573'
+      Phive:
+        Placement: {ID: 12698990682087332573}
+      Rotate:
+        - 1,62741
+        - -1,04055
+        - -2,84052
+      SRTHash: !u 1585448319
+      Translate:
+        - 1869,17200
+        - 368,49580
+        - -3178,88200
+    - Dynamic:
+        InstanceID_0: 15910560811946057577
+        Pos_0:
+          - 1869,58300
+          - 368,38900
+          - -3178,67000
+        Rot_0:
+          - -2,20159
+          - -1,20059
+          - 3,08459
+      Gyaml: LightBall_Small
+      Hash: '3334927017479376283'
+      Links:
+        - {Dst: 12698990682087332573, Gyaml: StackInfo, Name: StackInfo, Src: 3334927017479376283}
+      Phive:
+        Placement: {ID: 3334927017479376283}
+      Rotate:
+        - -2,47957
+        - -0,32032
+        - 0,88217
+      SRTHash: !u 3648850483
+      Translate:
+        - 1869,09400
+        - 368,70910
+        - -3178,63500
+    - Dynamic:
+        InstanceID_0: 11152539325915572112
+        Pos_0:
+          - 1871,04100
+          - 369,14800
+          - -3179,90100
+        Rot_0:
+          - -2,70659
+          - -1,01259
+          - -2,49359
+      Gyaml: LightBall_Small
+      Hash: '3158955011544216113'
+      Links:
+        - {Dst: 14572098808392833628, Gyaml: StackInfo, Name: StackInfo, Src: 3158955011544216113}
+      Phive:
+        Placement: {ID: 3158955011544216113}
+      Rotate:
+        - 1,51459
+        - 1,22862
+        - -1,19338
+      SRTHash: !u 399933769
+      Translate:
+        - 1870,51000
+        - 369,66210
+        - -3180,12800
+    - Dynamic:
+        InstanceID_0: 11152539325915572112
+        Pos_0:
+          - 1871,04100
+          - 369,14800
+          - -3179,90100
+        Rot_0:
+          - -2,70659
+          - -1,01259
+          - -2,49359
+      Gyaml: LightBall_Small
+      Hash: '14572098808392833628'
+      Phive:
+        Placement: {ID: 14572098808392833628}
+      Rotate:
+        - 1,34000
+        - -0,80683
+        - -2,35949
+      SRTHash: !u 2751674540
+      Translate:
+        - 1870,63300
+        - 369,21260
+        - -3180,13500
+    - Dynamic:
+        InstanceID_0: 12765362973227719133
+        Pos_0:
+          - 1839,43900
+          - 348,32900
+          - -3131,42700
+        Rot_0:
+          - -2,16700
+          - -0,88500
+          - 1,49900
+      Gyaml: LightBall_Small
+      Hash: '14745762188333451080'
+      Phive:
+        Placement: {ID: 14745762188333451080}
+      Rotate:
+        - 1,80383
+        - -0,74367
+        - 1,74835
+      SRTHash: !u 2161570182
+      Translate:
+        - 1839,53000
+        - 348,65540
+        - -3131,75900
+    - Dynamic:
+        InstanceID_0: 12765362973227719133
+        Pos_0:
+          - 1839,43900
+          - 348,32900
+          - -3131,42700
+        Rot_0:
+          - -2,16700
+          - -0,88500
+          - 1,49900
+      Gyaml: LightBall_Small
+      Hash: '2785315377172130480'
+      Links:
+        - {Dst: 14745762188333451080, Gyaml: StackInfo, Name: StackInfo, Src: 2785315377172130480}
+      Phive:
+        Placement: {ID: 2785315377172130480}
+      Rotate:
+        - -2,77977
+        - -0,47377
+        - -0,55599
+      SRTHash: !u 4023649542
+      Translate:
+        - 1839,75000
+        - 348,80780
+        - -3131,55800
+    - Dynamic:
+        InstanceID_0: 13611295738432688542
+        Pos_0:
+          - 1837,84900
+          - 348,95100
+          - -3131,94700
+        Rot_0:
+          - -1,55541
+          - 0,66941
+          - -2,23759
+      Gyaml: LightBall_Small
+      Hash: '5572750310617989942'
+      Links:
+        - {Dst: 15161519054015655026, Gyaml: StackInfo, Name: StackInfo, Src: 5572750310617989942}
+      Phive:
+        Placement: {ID: 5572750310617989942}
+      Rotate:
+        - 2,62732
+        - -0,54005
+        - 0,03161
+      SRTHash: !u 4045690505
+      Translate:
+        - 1838,12400
+        - 349,46280
+        - -3132,45700
+    - Dynamic:
+        InstanceID_0: 13611295738432688542
+        Pos_0:
+          - 1837,84900
+          - 348,95100
+          - -3131,94700
+        Rot_0:
+          - -1,55541
+          - 0,66941
+          - -2,23759
+      Gyaml: LightBall_Small
+      Hash: '15161519054015655026'
+      Phive:
+        Placement: {ID: 15161519054015655026}
+      Rotate:
+        - 1,85985
+        - 0,01961
+        - 2,57522
+      SRTHash: !u 3064438868
+      Translate:
+        - 1837,98700
+        - 349,05580
+        - -3132,50600
+    - Dynamic:
+        InstanceID_0: 3016282312332481514
+        Pos_0:
+          - 1686,74000
+          - 316,00100
+          - -3089,58100
+        Rot_0:
+          - 0,78800
+          - -0,21000
+          - -0,85800
+      Gyaml: LightBall_Small
+      Hash: '11976772891143096009'
+      Links:
+        - {Dst: 14204560698954330523, Gyaml: StackInfo, Name: StackInfo, Src: 11976772891143096009}
+      Phive:
+        Placement: {ID: 11976772891143096009}
+      Rotate:
+        - -0,25108
+        - -0,26482
+        - 2,83082
+      SRTHash: !u 835983574
+      Translate:
+        - 1687,05500
+        - 316,57020
+        - -3089,16300
+    - Dynamic:
+        InstanceID_0: 3016282312332481514
+        Pos_0:
+          - 1686,74000
+          - 316,00100
+          - -3089,58100
+        Rot_0:
+          - 0,78800
+          - -0,21000
+          - -0,85800
+      Gyaml: LightBall_Small
+      Hash: '14204560698954330523'
+      Phive:
+        Placement: {ID: 14204560698954330523}
+      Rotate:
+        - -1,01070
+        - 0,78913
+        - 0,35898
+      SRTHash: !u 589349149
+      Translate:
+        - 1687,09300
+        - 316,14050
+        - -3089,13500
+    - Dynamic:
+        InstanceID_0: 7592371370281945641
+        Pos_0:
+          - 1720,06700
+          - 321,22400
+          - -3027,59700
+        Rot_0:
+          - -2,57759
+          - -0,15259
+          - 2,20459
+      Gyaml: LightBall_Small
+      Hash: '5642868845358497812'
+      Phive:
+        Placement: {ID: 5642868845358497812}
+      Rotate:
+        - 1,56852
+        - 0,03505
+        - 2,32227
+      SRTHash: !u 3068896723
+      Translate:
+        - 1720,25800
+        - 321,38280
+        - -3028,00100
+    - Dynamic:
+        InstanceID_0: 7592371370281945641
+        Pos_0:
+          - 1720,06700
+          - 321,22400
+          - -3027,59700
+        Rot_0:
+          - -2,57759
+          - -0,15259
+          - 2,20459
+      Gyaml: LightBall_Small
+      Hash: '13889793601541269468'
+      Links:
+        - {Dst: 5642868845358497812, Gyaml: StackInfo, Name: StackInfo, Src: 13889793601541269468}
+      Phive:
+        Placement: {ID: 13889793601541269468}
+      Rotate:
+        - 2,68223
+        - -1,06928
+        - 0,54421
+      SRTHash: !u 3696197660
+      Translate:
+        - 1720,26700
+        - 321,69550
+        - -3027,88100
+    - Dynamic:
+        InstanceID_0: 7554507145846204529
+        Pos_0:
+          - 1719,91600
+          - 322,17200
+          - -3025,43400
+        Rot_0:
+          - -2,39400
+          - -0,93300
+          - 1,49000
+      Gyaml: LightBall_Small
+      Hash: '5613963284453076493'
+      Phive:
+        Placement: {ID: 5613963284453076493}
+      Rotate:
+        - 1,60321
+        - -0,75870
+        - 1,69710
+      SRTHash: !u 2070181302
+      Translate:
+        - 1720,11200
+        - 322,48300
+        - -3025,73400
+    - Dynamic:
+        InstanceID_0: 7554507145846204529
+        Pos_0:
+          - 1719,91600
+          - 322,17200
+          - -3025,43400
+        Rot_0:
+          - -2,39400
+          - -0,93300
+          - 1,49000
+      Gyaml: LightBall_Small
+      Hash: '14368998579012787031'
+      Links:
+        - {Dst: 5613963284453076493, Gyaml: StackInfo, Name: StackInfo, Src: 14368998579012787031}
+      Phive:
+        Placement: {ID: 14368998579012787031}
+      Rotate:
+        - -2,64316
+        - -0,56104
+        - -0,81212
+      SRTHash: !u 2928007287
+      Translate:
+        - 1720,32500
+        - 322,58640
+        - -3025,49700
+    - Dynamic:
+        InstanceID_0: 13775231547606844829
+        Pos_0:
+          - 1478,07800
+          - 350,43300
+          - -2886,90500
+        Rot_0:
+          - -1,97159
+          - 0,47941
+          - -2,87259
+      Gyaml: LightBall_Small
+      Hash: '2922133710760417270'
+      Links:
+        - {Dst: 10788296079498706834, Gyaml: StackInfo, Name: StackInfo, Src: 2922133710760417270}
+      Phive:
+        Placement: {ID: 2922133710760417270}
+      Rotate:
+        - 2,75123
+        - -0,16123
+        - -0,41730
+      SRTHash: !u 2493328728
+      Translate:
+        - 1478,37500
+        - 350,92670
+        - -2887,42100
+    - Dynamic:
+        InstanceID_0: 13775231547606844829
+        Pos_0:
+          - 1478,07800
+          - 350,43300
+          - -2886,90500
+        Rot_0:
+          - -1,97159
+          - 0,47941
+          - -2,87259
+      Gyaml: LightBall_Small
+      Hash: '10788296079498706834'
+      Phive:
+        Placement: {ID: 10788296079498706834}
+      Rotate:
+        - 2,30049
+        - 0,55387
+        - -2,63268
+      SRTHash: !u 558685694
+      Translate:
+        - 1478,33400
+        - 350,47780
+        - -2887,30200
+    - Dynamic:
+        InstanceID_0: 13775231547606844829
+        Pos_0:
+          - 1478,07800
+          - 350,43300
+          - -2886,90500
+        Rot_0:
+          - -1,97159
+          - 0,47941
+          - -2,87259
+      Gyaml: LightBall_Small
+      Hash: '257589198532421802'
+      Links:
+        - {Dst: 10788296079498706834, Gyaml: StackInfo, Name: StackInfo, Src: 257589198532421802}
+      Phive:
+        Placement: {ID: 257589198532421802}
+      Rotate:
+        - 1,97251
+        - -0,36073
+        - 2,15021
+      SRTHash: !u 3139008433
+      Translate:
+        - 1478,07500
+        - 350,61800
+        - -2887,46000
+    - Dynamic:
+        InstanceID_0: 12702641346581580511
+        Pos_0:
+          - 1505,71100
+          - 356,88200
+          - -2852,52400
+        Rot_0:
+          - 0,01700
+          - -0,87200
+          - 0,25000
+      Gyaml: LightBall_Small
+      Hash: '6292668097702871406'
+      Phive:
+        Placement: {ID: 6292668097702871406}
+      Rotate:
+        - -2,10633
+        - -1,09325
+        - 0,24188
+      SRTHash: !u 732814410
+      Translate:
+        - 1505,41900
+        - 357,24160
+        - -2852,42200
+    - Dynamic:
+        InstanceID_0: 12702641346581580511
+        Pos_0:
+          - 1505,71100
+          - 356,88200
+          - -2852,52400
+        Rot_0:
+          - 0,01700
+          - -0,87200
+          - 0,25000
+      Gyaml: LightBall_Small
+      Hash: '3022787495751607718'
+      Links:
+        - {Dst: 6292668097702871406, Gyaml: StackInfo, Name: StackInfo, Src: 3022787495751607718}
+      Phive:
+        Placement: {ID: 3022787495751607718}
+      Rotate:
+        - -2,21755
+        - 0,60710
+        - 0,19491
+      SRTHash: !u 2291946373
+      Translate:
+        - 1505,67800
+        - 357,43360
+        - -2852,33000
+    - Dynamic:
+        InstanceID_0: 6451611478742215899
+        Pos_0:
+          - 1507,41400
+          - 357,13800
+          - -2853,14100
+        Rot_0:
+          - 0,01900
+          - 0,08400
+          - 0,24600
+      Gyaml: LightBall_Small
+      Hash: '8287877483029538666'
+      Phive:
+        Placement: {ID: 8287877483029538666}
+      Rotate:
+        - -2,11101
+        - -0,13725
+        - 0,24179
+      SRTHash: !u 26800143
+      Translate:
+        - 1507,28400
+        - 357,53870
+        - -2852,92300
+    - Dynamic:
+        InstanceID_0: 6451611478742215899
+        Pos_0:
+          - 1507,41400
+          - 357,13800
+          - -2853,14100
+        Rot_0:
+          - 0,01900
+          - 0,08400
+          - 0,24600
+      Gyaml: LightBall_Small
+      Hash: '16215063788999048109'
+      Links:
+        - {Dst: 8287877483029538666, Gyaml: StackInfo, Name: StackInfo, Src: 16215063788999048109}
+      Phive:
+        Placement: {ID: 16215063788999048109}
+      Rotate:
+        - 2,68658
+        - 1,52699
+        - -1,16483
+      SRTHash: !u 3739361454
+      Translate:
+        - 1507,49400
+        - 357,71750
+        - -2853,11400
+    - Dynamic:
+        InstanceID_0: 15391264599270458582
+        Pos_0:
+          - 1534,83300
+          - 357,75700
+          - -2825,11700
+        Rot_0:
+          - -2,76659
+          - -0,27059
+          - -2,90959
+      Gyaml: LightBall_Small
+      Hash: '3620171585786401519'
+      Links:
+        - {Dst: 16940025980438940534, Gyaml: StackInfo, Name: StackInfo, Src: 3620171585786401519}
+      Phive:
+        Placement: {ID: 3620171585786401519}
+      Rotate:
+        - 3,04633
+        - 0,88305
+        - -0,23936
+      SRTHash: !u 2951406491
+      Translate:
+        - 1534,74200
+        - 358,49810
+        - -2825,31800
+    - Dynamic:
+        InstanceID_0: 15391264599270458582
+        Pos_0:
+          - 1534,83300
+          - 357,75700
+          - -2825,11700
+        Rot_0:
+          - -2,76659
+          - -0,27059
+          - -2,90959
+      Gyaml: LightBall_Small
+      Hash: '16940025980438940534'
+      Phive:
+        Placement: {ID: 16940025980438940534}
+      Rotate:
+        - 1,37296
+        - -0,06402
+        - -2,82895
+      SRTHash: !u 4191891926
+      Translate:
+        - 1534,71300
+        - 358,05640
+        - -2825,46500
+    - Dynamic:
+        InstanceID_0: 15391264599270458582
+        Pos_0:
+          - 1534,83300
+          - 357,75700
+          - -2825,11700
+        Rot_0:
+          - -2,76659
+          - -0,27059
+          - -2,90959
+      Gyaml: LightBall_Small
+      Hash: '5265782748981884989'
+      Links:
+        - {Dst: 16940025980438940534, Gyaml: StackInfo, Name: StackInfo, Src: 5265782748981884989}
+      Phive:
+        Placement: {ID: 5265782748981884989}
+      Rotate:
+        - 3,08357
+        - -1,21508
+        - 1,30650
+      SRTHash: !u 2697663546
+      Translate:
+        - 1534,45700
+        - 358,17440
+        - -2825,28300
+    - Dynamic:
+        InstanceID_0: 8086864019793199128
+        Pos_0:
+          - 1640,89100
+          - 315,36400
+          - -2958,85300
+        Rot_0:
+          - -0,59800
+          - 0,12600
+          - -1,01600
+      Gyaml: LightBall_Small
+      Hash: '17337909986464698023'
+      Links:
+        - {Dst: 9917713756017615717, Gyaml: StackInfo, Name: StackInfo, Src: 17337909986464698023}
+      Phive:
+        Placement: {ID: 17337909986464698023}
+      Rotate:
+        - 1,34905
+        - -0,72368
+        - 1,67220
+      SRTHash: !u 4087202131
+      Translate:
+        - 1641,26400
+        - 315,82570
+        - -2959,34900
+    - Dynamic:
+        InstanceID_0: 8086864019793199128
+        Pos_0:
+          - 1640,89100
+          - 315,36400
+          - -2958,85300
+        Rot_0:
+          - -0,59800
+          - 0,12600
+          - -1,01600
+      Gyaml: LightBall_Small
+      Hash: '1992835445149812268'
+      Links:
+        - {Dst: 9917713756017615717, Gyaml: StackInfo, Name: StackInfo, Src: 1992835445149812268}
+      Phive:
+        Placement: {ID: 1992835445149812268}
+      Rotate:
+        - -2,72384
+        - -0,05739
+        - -0,89191
+      SRTHash: !u 3840143766
+      Translate:
+        - 1641,25900
+        - 315,65670
+        - -2958,91500
+    - Dynamic:
+        InstanceID_0: 8086864019793199128
+        Pos_0:
+          - 1640,89100
+          - 315,36400
+          - -2958,85300
+        Rot_0:
+          - -0,59800
+          - 0,12600
+          - -1,01600
+      Gyaml: LightBall_Small
+      Hash: '9917713756017615717'
+      Phive:
+        Placement: {ID: 9917713756017615717}
+      Rotate:
+        - 2,44186
+        - 0,91350
+        - -2,60117
+      SRTHash: !u 662651635
+      Translate:
+        - 1641,38400
+        - 315,45900
+        - -2959,15400
+    - Dynamic:
+        InstanceID_0: 750692998260740843
+        Pos_0:
+          - 1642,42200
+          - 315,67300
+          - -2956,45200
+        Rot_0:
+          - -1,62559
+          - 0,93241
+          - -2,71859
+      Gyaml: LightBall_Small
+      Hash: '18088521806242152698'
+      Links:
+        - {Dst: 5988953706478590234, Gyaml: StackInfo, Name: StackInfo, Src: 18088521806242152698}
+      Phive:
+        Placement: {ID: 18088521806242152698}
+      Rotate:
+        - 2,91811
+        - -0,65901
+        - -0,56371
+      SRTHash: !u 1337378314
+      Translate:
+        - 1642,97800
+        - 316,09090
+        - -2956,79100
+    - Dynamic:
+        InstanceID_0: 750692998260740843
+        Pos_0:
+          - 1642,42200
+          - 315,67300
+          - -2956,45200
+        Rot_0:
+          - -1,62559
+          - 0,93241
+          - -2,71859
+      Gyaml: LightBall_Small
+      Hash: '5988953706478590234'
+      Phive:
+        Placement: {ID: 5988953706478590234}
+      Rotate:
+        - 2,82038
+        - 0,91185
+        - -2,35254
+      SRTHash: !u 4204419284
+      Translate:
+        - 1642,84100
+        - 315,66060
+        - -2956,67400
+    - Dynamic:
+        InstanceID_0: 750692998260740843
+        Pos_0:
+          - 1642,42200
+          - 315,67300
+          - -2956,45200
+        Rot_0:
+          - -1,62559
+          - 0,93241
+          - -2,71859
+      Gyaml: LightBall_Small
+      Hash: '11535196353277423042'
+      Links:
+        - {Dst: 5988953706478590234, Gyaml: StackInfo, Name: StackInfo, Src: 11535196353277423042}
+      Phive:
+        Placement: {ID: 11535196353277423042}
+      Rotate:
+        - 1,59292
+        - 0,00349
+        - 2,14196
+      SRTHash: !u 2783109450
+      Translate:
+        - 1642,70600
+        - 315,79460
+        - -2956,94900
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_A_16
+      Hash: '11916095210660432666'
+      Links:
+        - {Dst: 407890795739930819, Gyaml: Reference, Name: Reference, Src: 11916095210660432666}
+      Phive:
+        Placement: {ID: 11916095210660432666}
+      SRTHash: !u 637415456
+      Translate:
+        - 1528,14800
+        - 451,89510
+        - -3119,46000
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_A_16_Far
+      Hash: '407890795739930819'
+      Phive:
+        Placement: {ID: 11916095210660432666}
+      SRTHash: !u 637415456
+      Translate:
+        - 1528,14800
+        - 451,89510
+        - -3119,46000
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_C_16
+      Hash: '8089416950698030732'
+      Links:
+        - {Dst: 18292934032343958866, Gyaml: Reference, Name: Reference, Src: 8089416950698030732}
+      Phive:
+        Placement: {ID: 8089416950698030732}
+      SRTHash: !u 2473496322
+      Translate:
+        - 1520,40200
+        - 352,65580
+        - -2906,00000
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_C_16_Far
+      Hash: '18292934032343958866'
+      Phive:
+        Placement: {ID: 8089416950698030732}
+      SRTHash: !u 2473496322
+      Translate:
+        - 1520,40200
+        - 352,65580
+        - -2906,00000
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_B_16
+      Hash: '10361740778262644279'
+      Links:
+        - {Dst: 4201728440930617013, Gyaml: Reference, Name: Reference, Src: 10361740778262644279}
+      Phive:
+        Placement: {ID: 10361740778262644279}
+      SRTHash: !u 3048896256
+      Translate:
+        - 1518,86500
+        - 352,65580
+        - -2904,72100
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_B_16_Far
+      Hash: '4201728440930617013'
+      Phive:
+        Placement: {ID: 10361740778262644279}
+      SRTHash: !u 3048896256
+      Translate:
+        - 1518,86500
+        - 352,65580
+        - -2904,72100
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_E_16
+      Hash: '16794698676654919607'
+      Links:
+        - {Dst: 134156416247102142, Gyaml: Reference, Name: Reference, Src: 16794698676654919607}
+      Phive:
+        Placement: {ID: 16794698676654919607}
+      SRTHash: !u 152196416
+      Translate:
+        - 1512,49000
+        - 358,29280
+        - -2856,66000
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_E_16_Far
+      Hash: '134156416247102142'
+      Phive:
+        Placement: {ID: 16794698676654919607}
+      SRTHash: !u 152196416
+      Translate:
+        - 1512,49000
+        - 358,29280
+        - -2856,66000
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_A_17
+      Hash: '3039091690632453772'
+      Links:
+        - {Dst: 16309684575657310427, Gyaml: Reference, Name: Reference, Src: 3039091690632453772}
+      Phive:
+        Placement: {ID: 3039091690632453772}
+      SRTHash: !u 1101262167
+      Translate:
+        - 1804,25000
+        - 352,13800
+        - -3153,05900
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_A_17_Far
+      Hash: '16309684575657310427'
+      Phive:
+        Placement: {ID: 3039091690632453772}
+      SRTHash: !u 1101262167
+      Translate:
+        - 1804,25000
+        - 352,13800
+        - -3153,05900
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_B_17
+      Hash: '7233992440335211674'
+      Links:
+        - {Dst: 17018571519584176494, Gyaml: Reference, Name: Reference, Src: 7233992440335211674}
+      Phive:
+        Placement: {ID: 7233992440335211674}
+      SRTHash: !u 1736804968
+      Translate:
+        - 1694,41600
+        - 344,79440
+        - -3005,84400
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_B_17_Far
+      Hash: '17018571519584176494'
+      Phive:
+        Placement: {ID: 7233992440335211674}
+      SRTHash: !u 1736804968
+      Translate:
+        - 1694,41600
+        - 344,79440
+        - -3005,84400
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_C_17
+      Hash: '17357194048436222255'
+      Links:
+        - {Dst: 7488821136676789416, Gyaml: Reference, Name: Reference, Src: 17357194048436222255}
+      Phive:
+        Placement: {ID: 17357194048436222255}
+      SRTHash: !u 3390314116
+      Translate:
+        - 1730,86400
+        - 340,10460
+        - -2940,52800
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_C_17_Far
+      Hash: '7488821136676789416'
+      Phive:
+        Placement: {ID: 17357194048436222255}
+      SRTHash: !u 3390314116
+      Translate:
+        - 1730,86400
+        - 340,10460
+        - -2940,52800
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_D_17
+      Hash: '5047017756252802986'
+      Links:
+        - {Dst: 13595412510083056786, Gyaml: Reference, Name: Reference, Src: 5047017756252802986}
+      Phive:
+        Placement: {ID: 5047017756252802986}
+      SRTHash: !u 492021003
+      Translate:
+        - 1697,68900
+        - 337,89960
+        - -3069,00000
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_D_17_Far
+      Hash: '13595412510083056786'
+      Phive:
+        Placement: {ID: 5047017756252802986}
+      SRTHash: !u 492021003
+      Translate:
+        - 1697,68900
+        - 337,89960
+        - -3069,00000
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_E_17
+      Hash: '12563154420055021843'
+      Links:
+        - {Dst: 6374191746437365556, Gyaml: Reference, Name: Reference, Src: 12563154420055021843}
+      Phive:
+        Placement: {ID: 12563154420055021843}
+      SRTHash: !u 599613456
+      Translate:
+        - 1696,89100
+        - 343,09560
+        - -2959,99600
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_E_17_Far
+      Hash: '6374191746437365556'
+      Phive:
+        Placement: {ID: 12563154420055021843}
+      SRTHash: !u 599613456
+      Translate:
+        - 1696,89100
+        - 343,09560
+        - -2959,99600
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_F_17
+      Hash: '3547828977007214934'
+      Links:
+        - {Dst: 1136897642538207871, Gyaml: Reference, Name: Reference, Src: 3547828977007214934}
+      Phive:
+        Placement: {ID: 3547828977007214934}
+      SRTHash: !u 1259803324
+      Translate:
+        - 1693,51400
+        - 345,65460
+        - -3060,20600
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_F_17_Far
+      Hash: '1136897642538207871'
+      Phive:
+        Placement: {ID: 3547828977007214934}
+      SRTHash: !u 1259803324
+      Translate:
+        - 1693,51400
+        - 345,65460
+        - -3060,20600
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_G_17
+      Hash: '15898332036153502324'
+      Links:
+        - {Dst: 286904057761145152, Gyaml: Reference, Name: Reference, Src: 15898332036153502324}
+      Phive:
+        Placement: {ID: 15898332036153502324}
+      SRTHash: !u 3216295966
+      Translate:
+        - 1683,66700
+        - 350,56540
+        - -2971,33500
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtArtifactGoronTruck_G_17_Far
+      Hash: '286904057761145152'
+      Phive:
+        Placement: {ID: 15898332036153502324}
+      SRTHash: !u 3216295966
+      Translate:
+        - 1683,66700
+        - 350,56540
+        - -2971,33500
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtLavaFall_A_06
+      Hash: '1176223171899769472'
+      Links:
+        - {Dst: 16141019912578880917, Gyaml: Reference, Name: Reference, Src: 1176223171899769472}
+      Phive:
+        Placement: {ID: 1176223171899769472}
+      Rotate:
+        - 0,00000
+        - 1,25646
+        - 0,00000
+      SRTHash: !u 241498623
+      Translate:
+        - 1538,35600
+        - 378,05850
+        - -3074,84700
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtLavaFall_A_06_Far
+      Hash: '16141019912578880917'
+      Phive:
+        Placement: {ID: 1176223171899769472}
+      Rotate:
+        - 0,00000
+        - 1,25646
+        - 0,00000
+      SRTHash: !u 241498623
+      Translate:
+        - 1538,35600
+        - 378,05850
+        - -3074,84700
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtLavaFall_B_06
+      Hash: '14209916672335149501'
+      Links:
+        - {Dst: 15543448880572478425, Gyaml: Reference, Name: Reference, Src: 14209916672335149501}
+      Phive:
+        Placement: {ID: 14209916672335149501}
+      Rotate:
+        - 3,14159
+        - -1,25646
+        - -3,14159
+      SRTHash: !u 1864657901
+      Translate:
+        - 1518,28900
+        - 349,53050
+        - -3081,37100
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtLavaFall_B_06_Far
+      Hash: '15543448880572478425'
+      Phive:
+        Placement: {ID: 14209916672335149501}
+      Rotate:
+        - 3,14159
+        - -1,25646
+        - -3,14159
+      SRTHash: !u 1864657901
+      Translate:
+        - 1518,28900
+        - 349,53050
+        - -3081,37100
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtLavaFall_A_06
+      Hash: '12847128151409961310'
+      Links:
+        - {Dst: 4762713105171496523, Gyaml: Reference, Name: Reference, Src: 12847128151409961310}
+      Phive:
+        Placement: {ID: 12847128151409961310}
+      Rotate:
+        - -3,14159
+        - -1,25648
+        - -3,14159
+      SRTHash: !u 119361499
+      Translate:
+        - 1571,95800
+        - 397,57260
+        - -3120,72000
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtLavaFall_A_06_Far
+      Hash: '4762713105171496523'
+      Phive:
+        Placement: {ID: 12847128151409961310}
+      Rotate:
+        - -3,14159
+        - -1,25648
+        - -3,14159
+      SRTHash: !u 119361499
+      Translate:
+        - 1571,95800
+        - 397,57260
+        - -3120,72000
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtLavaFall_B_06
+      Hash: '7303661712077267327'
+      Links:
+        - {Dst: 8637198383840520987, Gyaml: Reference, Name: Reference, Src: 7303661712077267327}
+      Phive:
+        Placement: {ID: 7303661712077267327}
+      Rotate:
+        - 0,00000
+        - 1,25648
+        - 0,00000
+      SRTHash: !u 3147553942
+      Translate:
+        - 1592,02400
+        - 349,58910
+        - -3114,19700
+    - Bakeable: true
+      Gyaml: FldObj_DeathMtLavaFall_B_06_Far
+      Hash: '8637198383840520987'
+      Phive:
+        Placement: {ID: 7303661712077267327}
+      Rotate:
+        - 0,00000
+        - 1,25648
+        - 0,00000
+      SRTHash: !u 3147553942
+      Translate:
+        - 1592,02400
+        - 349,58910
+        - -3114,19700
+    - Bakeable: true
+      Gyaml: Obj_RockDeathMt_D_L_03
+      Hash: '8397092288381010982'
+      Links:
+        - {Dst: 13586280234373544683, Gyaml: Reference, Name: Reference, Src: 8397092288381010982}
+      Phive:
+        Placement: {ID: 8397092288381010982}
+      Rotate:
+        - 0,39303
+        - -0,52447
+        - -0,69156
+      SRTHash: !u 949293352
+      Translate:
+        - 1590,32600
+        - 416,56720
+        - -3109,23400
+    - Bakeable: true
+      Gyaml: Obj_RockDeathMt_D_L_03_Far
+      Hash: '13586280234373544683'
+      Phive:
+        Placement: {ID: 8397092288381010982}
+      Rotate:
+        - 0,39303
+        - -0,52447
+        - -0,69156
+      SRTHash: !u 949293352
+      Translate:
+        - 1590,32600
+        - 416,56720
+        - -3109,23400
+    - Bakeable: true
+      Gyaml: Obj_RockDeathMt_D_L_01
+      Hash: '17782606656750684170'
+      Links:
+        - {Dst: 813455168160667931, Gyaml: Reference, Name: Reference, Src: 17782606656750684170}
+      Phive:
+        Placement: {ID: 17782606656750684170}
+      Rotate:
+        - 0,55950
+        - 0,33791
+        - -2,05765
+      SRTHash: !u 504919296
+      Translate:
+        - 1600,51700
+        - 424,96980
+        - -3113,53900
+    - Bakeable: true
+      Gyaml: Obj_RockDeathMt_D_L_01_Far
+      Hash: '813455168160667931'
+      Phive:
+        Placement: {ID: 17782606656750684170}
+      Rotate:
+        - 0,55950
+        - 0,33791
+        - -2,05765
+      SRTHash: !u 504919296
+      Translate:
+        - 1600,51700
+        - 424,96980
+        - -3113,53900
+    - Bakeable: true
+      Gyaml: Obj_RockDeathMt_D_L_01
+      Hash: '1702522392243675437'
+      Links:
+        - {Dst: 16871021572002295868, Gyaml: Reference, Name: Reference, Src: 1702522392243675437}
+      Phive:
+        Placement: {ID: 1702522392243675437}
+      Rotate:
+        - -2,78807
+        - -0,34812
+        - -0,66161
+      SRTHash: !u 3729098500
+      Translate:
+        - 1506,74300
+        - 408,18620
+        - -3081,60100
+    - Bakeable: true
+      Gyaml: Obj_RockDeathMt_D_L_01_Far
+      Hash: '16871021572002295868'
+      Phive:
+        Placement: {ID: 1702522392243675437}
+      Rotate:
+        - -2,78807
+        - -0,34812
+        - -0,66161
+      SRTHash: !u 3729098500
+      Translate:
+        - 1506,74300
+        - 408,18620
+        - -3081,60100
+    - Bakeable: true
+      Gyaml: Obj_RockDeathMt_D_L_03
+      Hash: '13035678802095070216'
+      Links:
+        - {Dst: 9001666359546274501, Gyaml: Reference, Name: Reference, Src: 13035678802095070216}
+      Phive:
+        Placement: {ID: 13035678802095070216}
+      Rotate:
+        - -2,77250
+        - 0,33148
+        - -2,10718
+      SRTHash: !u 3565613259
+      Translate:
+        - 1518,66600
+        - 403,09820
+        - -3086,59600
+    - Bakeable: true
+      Gyaml: Obj_RockDeathMt_D_L_03_Far
+      Hash: '9001666359546274501'
+      Phive:
+        Placement: {ID: 13035678802095070216}
+      Rotate:
+        - -2,77250
+        - 0,33148
+        - -2,10718
+      SRTHash: !u 3565613259
+      Translate:
+        - 1518,66600
+        - 403,09820
+        - -3086,59600
+  AiGroups:
+    - Hash: '8589472341303166097'
+      Logic: Logic/Module/Set_Field_TrolleyRail_Point_01/Set_Field_TrolleyRail_Point_01_8a26.logic.module.ain
+      References:
+        - {Id: FldObj_DeathMtArtifactTrainSwitch_A_01_1f15, Path: FldObj_DeathMtArtifactTrainSwitch_A_01_1f15, Reference: 11936987207760945793}
+        - {Id: TrolleyRailManagementActor_5089, Path: TrolleyRailManagementActor_5089, Reference: 5642765736046550121}
+        - {Id: FldObj_DeathMtArtifactTrainSwitchTruck_A_01_f22d, Path: FldObj_DeathMtArtifactTrainSwitchTruck_A_01_f22d, Reference: 8361384571704329932}
+    - Hash: '9299263750203053274'
+      Logic: Logic/Module/Cave_Eldin_0023_GroupSet_000/Cave_Eldin_0023_GroupSet_000_1327.logic.module.ain
+      References:
+        - {Id: Area_1f48, Path: Area_1f48, Reference: 2110681084559067788}
+        - {Id: VelocitySetter_9da3, Path: VelocitySetter_9da3, Reference: 12864958156491571058}
+        - {Id: Enemy_Bokoblin_Guard_Junior_TreeHouseTop_f522, Path: Enemy_Bokoblin_Guard_Junior_TreeHouseTop_f522, Reference: 17838997820036613151}
+        - {Id: FldObj_DeathMtArtifactTrain_B_01_81c7, Path: FldObj_DeathMtArtifactTrain_B_01_81c7, Reference: 1850764235442664829}
+        - {Id: Area_9264, Path: Area_9264, Reference: 13848173511824689599}
+        - {Id: VelocitySetter_717c, Path: VelocitySetter_717c, Reference: 12071037944778169227}
+        - {Id: Area_7c7a, Path: Area_7c7a, Reference: 7992337256640773853}
+        - {Id: VelocitySetter_ddc7, Path: VelocitySetter_ddc7, Reference: 17293268591870632426}
+        - {Id: Obj_GoronTruckStopBar_A_01_185d, Path: Obj_GoronTruckStopBar_A_01_185d, Reference: 18435128242927478751}
+        - {Id: EnemyLocater_ac0c, Path: EnemyLocater_ac0c, Reference: 15556281759660868453}
+        - {Id: Area_cf1f, Path: Area_cf1f, Reference: 394498215557161017}
+    - Hash: '9412483509670386996'
+      Logic: Logic/Module/Set_Field_TrolleyRail_Point_02/Set_Field_TrolleyRail_Point_02_9bc8.logic.module.ain
+      References:
+        - {Id: FldObj_DeathMtArtifactTrainSwitchTruck_A_02_8579, Path: FldObj_DeathMtArtifactTrainSwitchTruck_A_02_8579, Reference: 6353935628022750780}
+        - {Id: TrolleyRailManagementActor_860a, Path: TrolleyRailManagementActor_860a, Reference: 12504008438393041042}
+        - {Id: FldObj_DeathMtArtifactTrainSwitch_A_01_e3f8, Path: FldObj_DeathMtArtifactTrainSwitch_A_01_e3f8, Reference: 5569409050897150352}
+    - Hash: '12865742636339569989'
+      Logic: Logic/Module/Set_Field_TrolleyRail_Point_02/Set_Field_TrolleyRail_Point_02_9bc8.logic.module.ain
+      References:
+        - {Id: FldObj_DeathMtArtifactTrainSwitchTruck_A_02_8579, Path: FldObj_DeathMtArtifactTrainSwitchTruck_A_02_8579, Reference: 3197709776686436666}
+        - {Id: TrolleyRailManagementActor_860a, Path: TrolleyRailManagementActor_860a, Reference: 18409105033596065380}
+        - {Id: FldObj_DeathMtArtifactTrainSwitch_A_01_e3f8, Path: FldObj_DeathMtArtifactTrainSwitch_A_01_e3f8, Reference: 4563445103573070209}
+    - Hash: '15566880072585099186'
+      Logic: Logic/Module/Set_Field_TrolleyRail_Point_03_Turned/Set_Field_TrolleyRail_Point_03_Turned_73e8.logic.module.ain
+      References:
+        - {Id: TrolleyRailManagementActor_e678, Path: TrolleyRailManagementActor_e678, Reference: 14046422808074735827}
+        - {Id: FldObj_DeathMtArtifactTrainSwitch_A_01_5a56, Path: FldObj_DeathMtArtifactTrainSwitch_A_01_5a56, Reference: 4401997897383492970}
+        - {Id: FldObj_DeathMtArtifactTrainSwitchTruck_A_03_db44, Path: FldObj_DeathMtArtifactTrainSwitchTruck_A_03_db44, Reference: 6570711755233517667}
+    - Hash: '16175798593440171423'
+      Logic: Logic/Module/Set_Tominaga_CDungeonEntranceSet/Set_Tominaga_CDungeonEntranceSet_4132.logic.module.ain
+      References:
+        - {Id: EventRequestActor_3f2e, Path: EventRequestActor_3f2e, Reference: 10005309105459308109}
+        - {Id: DgnObj_WarpPoint_A_01_6509, Path: DgnObj_WarpPoint_A_01_6509, Reference: 13219692472370118710}
+        - {Id: DgnObj_ZonauShrineEntranceGate_A_01_9671, Path: DgnObj_ZonauShrineEntranceGate_A_01_9671, Reference: 17189476427065088837}
+        - {Id: DgnObj_ZonauShrineEntrance_A_01_a87d, Path: DgnObj_ZonauShrineEntrance_A_01_a87d, Reference: 18419660298870904457}
+        - {Id: FldObj_EnterAttetionActor_879b, Path: FldObj_EnterAttetionActor_879b, Reference: 6579415778389095539}
+        - {Id: Area_7bfc, Path: Area_7bfc, Reference: 15413274220605335672}
+        - {Id: Area_d0ac, Path: Area_d0ac, Reference: 2509086082890279991}
+        - {Id: DgnObj_ZonauShrineEntranceGround_A_01_c293, Path: DgnObj_ZonauShrineEntranceGround_A_01_c293, Reference: 2625927441989829894}
+        - {Id: DgnObj_ZonauShrineEntranceGateMark_A_01_fc67, Path: DgnObj_ZonauShrineEntranceGateMark_A_01_fc67, Reference: 14461107582903105777}
+        - {Id: DgnObj_ZonauShrineEntranceStopClimbing_A_01_7b43, Path: DgnObj_ZonauShrineEntranceStopClimbing_A_01_7b43, Reference: 2067545728690078705}
+        - {Id: AirWallCreature_bebd, Path: AirWallCreature_bebd, Reference: 17949264994326176563}
+        - {Id: Area_9985, Path: Area_9985, Reference: 13216758401708623415}
+    - Blackboards:
+        - Component/Blackboard/BlackboardInfo/MetaAIEnemyCampNormal.engine__component__BlackboardInfo.gyml
+      Hash: '18387726962951330412'
+      Meta: AI/Root/MetaAI/EnemyCampNormal.metaai.root.ain
+      References:
+        - {Id: '', Reference: 13838595468571654082}
+        - {Id: '', Reference: 3365997177050933564}
+  FarDeleteGroups:
+    - - 2067545728690078705
+      - 2509086082890279991
+      - 2625927441989829894
+      - 6579415778389095539
+      - 10005309105459308109
+      - 13216758401708623415
+      - 13219692472370118710
+      - 14461107582903105777
+      - 15413274220605335672
+      - 17189476427065088837
+      - 17949264994326176563
+      - 18419660298870904457
+    - - 394498215557161017
+      - 1850764235442664829
+      - 2110681084559067788
+      - 7992337256640773853
+      - 12071037944778169227
+      - 12864958156491571058
+      - 13848173511824689599
+      - 15556281759660868453
+      - 17293268591870632426
+      - 17838997820036613151
+      - 18435128242927478751
+    - - 3197709776686436666
+      - 4563445103573070209
+      - 18409105033596065380
+    - - 4401997897383492970
+      - 6570711755233517667
+      - 14046422808074735827
+    - - 5569409050897150352
+      - 6353935628022750780
+      - 12504008438393041042
+    - - 5642765736046550121
+      - 8361384571704329932
+      - 11936987207760945793
+    - - 3365997177050933564
+      - 13838595468571654082
+  FilePath: Work/Banc/Scene/Prefab/Cave_Eldin_0023_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  Rails:
+    - Gyaml: Trolley
+      Hash: '1071173027462893981'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Control0:
+            - 1529,14400
+            - 451,81040
+            - -3118,78000
+          Control1:
+            - 1527,15200
+            - 451,97970
+            - -3120,14000
+          Gyaml: Trolley
+          Hash: '15951434142299880285'
+          NextDistance: 5,71827
+          Translate:
+            - 1528,14800
+            - 451,89510
+            - -3119,46000
+        - Control0:
+            - 1526,17100
+            - 452,10270
+            - -3120,67700
+          Control1:
+            - 1520,70300
+            - 452,10270
+            - -3124,70300
+          Gyaml: Trolley
+          Hash: '15038929324064744252'
+          NextDistance: 8,41148
+          PrevDistance: 5,71827
+          Translate:
+            - 1523,43700
+            - 452,10270
+            - -3122,69000
+        - Control0:
+            - 1519,66300
+            - 452,29650
+            - -3125,51600
+          Control1:
+            - 1514,64300
+            - 452,65450
+            - -3130,96300
+          Gyaml: Trolley
+          Hash: '6868663404012292320'
+          NextDistance: 12,12846
+          PrevDistance: 8,41148
+          Translate:
+            - 1517,15300
+            - 452,47550
+            - -3128,23900
+        - Control0:
+            - 1513,33200
+            - 452,84860
+            - -3132,33000
+          Control1:
+            - 1506,31900
+            - 452,96650
+            - -3143,39700
+          Gyaml: Trolley
+          Hash: '3321589387946545293'
+          NextDistance: 16,52195
+          PrevDistance: 12,12846
+          Translate:
+            - 1509,82500
+            - 452,90750
+            - -3137,86300
+        - Control0:
+            - 1504,36000
+            - 453,09120
+            - -3146,65500
+          Control1:
+            - 1499,93200
+            - 453,00370
+            - -3158,25100
+          Gyaml: Trolley
+          Hash: '1245880991950111510'
+          NextDistance: 21,67595
+          PrevDistance: 16,52195
+          Translate:
+            - 1502,14600
+            - 453,04740
+            - -3152,45300
+        - Control0:
+            - 1496,58700
+            - 453,28930
+            - -3163,71600
+          Control1:
+            - 1498,56000
+            - 449,70290
+            - -3182,77900
+          Gyaml: Trolley
+          Hash: '8337028655309550298'
+          NextDistance: 23,51571
+          PrevDistance: 21,67595
+          Translate:
+            - 1497,57300
+            - 451,49610
+            - -3173,24800
+        - Control0:
+            - 1499,95500
+            - 447,50320
+            - -3184,96900
+          Control1:
+            - 1512,81900
+            - 440,42910
+            - -3201,32700
+          Gyaml: Trolley
+          Hash: '3373698942923071332'
+          NextDistance: 38,99081
+          PrevDistance: 23,51571
+          Translate:
+            - 1506,38700
+            - 443,96610
+            - -3193,14800
+        - Control0:
+            - 1524,92300
+            - 437,11320
+            - -3211,23600
+          Control1:
+            - 1546,84900
+            - 432,10250
+            - -3221,53100
+          Gyaml: Trolley
+          Hash: '12131698112897227400'
+          NextDistance: 35,78312
+          PrevDistance: 38,99081
+          Translate:
+            - 1535,88600
+            - 434,60780
+            - -3216,38300
+        - Control0:
+            - 1558,76500
+            - 430,00500
+            - -3225,41000
+          Control1:
+            - 1580,81400
+            - 427,55000
+            - -3224,49300
+          Gyaml: Trolley
+          Hash: '11114000281266019250'
+          NextDistance: 30,72654
+          PrevDistance: 35,78312
+          Translate:
+            - 1569,78900
+            - 428,77750
+            - -3224,95100
+        - Control0:
+            - 1588,78100
+            - 427,87180
+            - -3218,94800
+          Control1:
+            - 1598,19100
+            - 426,13920
+            - -3197,78400
+          Gyaml: Trolley
+          Hash: '16857427642021935408'
+          NextDistance: 39,12379
+          PrevDistance: 30,72654
+          Translate:
+            - 1593,48600
+            - 427,00550
+            - -3208,36600
+        - Control0:
+            - 1593,30300
+            - 421,64320
+            - -3178,34400
+          Control1:
+            - 1590,56400
+            - 418,05490
+            - -3162,57200
+          Gyaml: Trolley
+          Hash: '14080115596535004695'
+          NextDistance: 60,99787
+          PrevDistance: 39,12379
+          Translate:
+            - 1591,93400
+            - 419,84900
+            - -3170,45800
+        - Control0:
+            - 1576,86400
+            - 410,03820
+            - -3126,81000
+          Control1:
+            - 1565,87600
+            - 403,18110
+            - -3102,45200
+          Gyaml: Trolley
+          Hash: '17954747729347963492'
+          NextDistance: 46,18280
+          PrevDistance: 60,99787
+          Translate:
+            - 1571,37000
+            - 406,60960
+            - -3114,63100
+        - Control0:
+            - 1559,42100
+            - 399,79840
+            - -3090,20400
+          Control1:
+            - 1544,13400
+            - 382,80690
+            - -3061,52500
+          Gyaml: Trolley
+          Hash: '13964313403692790829'
+          NextDistance: 49,00506
+          PrevDistance: 46,18280
+          Translate:
+            - 1551,77700
+            - 391,30260
+            - -3075,86500
+        - Control0:
+            - 1537,72900
+            - 372,41290
+            - -3048,32600
+          Control1:
+            - 1527,37200
+            - 360,05220
+            - -3028,51000
+          Gyaml: Trolley
+          Hash: '12095441840779283897'
+          NextDistance: 43,37972
+          PrevDistance: 49,00506
+          Translate:
+            - 1532,55000
+            - 366,23250
+            - -3038,41800
+        - Control0:
+            - 1518,16600
+            - 350,68680
+            - -3012,17700
+          Control1:
+            - 1508,87100
+            - 350,92480
+            - -2993,85900
+          Gyaml: Trolley
+          Hash: '828985650556852519'
+          NextDistance: 44,24430
+          PrevDistance: 43,37972
+          Translate:
+            - 1513,51800
+            - 350,80580
+            - -3003,01800
+        - Control0:
+            - 1502,83300
+            - 355,28260
+            - -2978,87100
+          Control1:
+            - 1501,31200
+            - 355,06100
+            - -2942,90500
+          Gyaml: Trolley
+          Hash: '3101682615028217054'
+          NextDistance: 28,15871
+          PrevDistance: 44,24430
+          Translate:
+            - 1502,07200
+            - 355,17180
+            - -2960,88800
+        - Control0:
+            - 1503,01900
+            - 354,32600
+            - -2934,26300
+          Control1:
+            - 1503,81300
+            - 354,32600
+            - -2931,42200
+          Gyaml: Trolley
+          Hash: '17618233408891691626'
+          NextDistance: 3,48294
+          PrevDistance: 28,15871
+          Translate:
+            - 1503,41600
+            - 354,32600
+            - -2932,84300
+        - Connections:
+            - {RailHash: '1913802752659727917', RailPointIndex: !l 2}
+          Gyaml: Trolley
+          Hash: '4584519200169495863'
+          PrevDistance: 3,48294
+          Translate:
+            - 1504,34200
+            - 354,33430
+            - -2929,48500
+    - Gyaml: Trolley
+      Hash: '1874748544309020995'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Dynamic: {IsTerminal: true}
+          Gyaml: Trolley
+          Hash: '680014945189673731'
+          NextDistance: 5,53556
+          Translate:
+            - 1694,41600
+            - 344,79440
+            - -3005,84400
+        - Control0:
+            - 1691,69700
+            - 345,07330
+            - -3007,01600
+          Control1:
+            - 1687,12800
+            - 345,51950
+            - -3009,30000
+          Gyaml: Trolley
+          Hash: '3831388005615702176'
+          NextDistance: 5,05467
+          PrevDistance: 5,53556
+          Translate:
+            - 1689,41200
+            - 345,29640
+            - -3008,15800
+        - Control0:
+            - 1687,03700
+            - 345,54040
+            - -3009,34900
+          Control1:
+            - 1683,10400
+            - 345,84410
+            - -3012,05200
+          Gyaml: Trolley
+          Hash: '12387381918844998082'
+          NextDistance: 11,56401
+          PrevDistance: 5,05467
+          Translate:
+            - 1685,07000
+            - 345,69220
+            - -3010,70100
+        - Control0:
+            - 1679,17000
+            - 345,84190
+            - -3015,77800
+          Control1:
+            - 1674,40400
+            - 345,49170
+            - -3021,68000
+          Gyaml: Trolley
+          Hash: '3613505705550913996'
+          NextDistance: 10,49434
+          PrevDistance: 11,56401
+          Translate:
+            - 1676,78700
+            - 345,66680
+            - -3018,72900
+        - Control0:
+            - 1672,41000
+            - 345,15630
+            - -3025,02600
+          Control1:
+            - 1670,05500
+            - 344,78800
+            - -3030,12900
+          Gyaml: Trolley
+          Hash: '4114372431377894047'
+          NextDistance: 9,62040
+          PrevDistance: 10,49434
+          Translate:
+            - 1671,23200
+            - 344,97210
+            - -3027,57800
+        - Control0:
+            - 1668,91100
+            - 344,55610
+            - -3032,80200
+          Control1:
+            - 1668,81100
+            - 344,35970
+            - -3040,80200
+          Gyaml: Trolley
+          Hash: '8930492864019132190'
+          NextDistance: 10,74182
+          PrevDistance: 9,62040
+          Translate:
+            - 1668,86100
+            - 344,45790
+            - -3036,80200
+        - Control0:
+            - 1669,41200
+            - 344,36920
+            - -3043,98900
+          Control1:
+            - 1673,91800
+            - 344,59940
+            - -3049,90500
+          Gyaml: Trolley
+          Hash: '1087851756541248116'
+          NextDistance: 11,48437
+          PrevDistance: 10,74182
+          Translate:
+            - 1671,66500
+            - 344,48430
+            - -3046,94700
+        - Control0:
+            - 1678,21000
+            - 344,85190
+            - -3052,67100
+          Control1:
+            - 1683,23700
+            - 345,17940
+            - -3055,01800
+          Gyaml: Trolley
+          Hash: '6715118952839681591'
+          NextDistance: 6,64370
+          PrevDistance: 11,48437
+          Translate:
+            - 1680,72300
+            - 345,01560
+            - -3053,84400
+        - Control0:
+            - 1685,66400
+            - 345,31840
+            - -3055,85900
+          Control1:
+            - 1688,12800
+            - 345,31840
+            - -3056,68700
+          Gyaml: Trolley
+          Hash: '10734071653728265049'
+          NextDistance: 6,71081
+          PrevDistance: 6,64370
+          Translate:
+            - 1686,89600
+            - 345,31840
+            - -3056,27300
+        - Connections:
+            - {RailHash: '13563201171686321015', RailPointIndex: !l 0}
+          Gyaml: Trolley
+          Hash: '368327678337512376'
+          PrevDistance: 6,71081
+          Translate:
+            - 1693,31000
+            - 345,65460
+            - -3058,21700
+    - Gyaml: Trolley
+      Hash: '1913802752659727917'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '5268648708297693929', RailPointIndex: !l 0}
+            - {RailHash: '7230437092510214219', RailPointIndex: !l 1}
+          Gyaml: Trolley
+          Hash: '17971850797639639453'
+          NextDistance: 1,00000
+          Translate:
+            - 1505,99000
+            - 354,33430
+            - -2923,71600
+        - Connections:
+            - {RailHash: '5268648708297693929', RailPointIndex: !l 0}
+            - {RailHash: '7230437092510214219', RailPointIndex: !l 1}
+          Gyaml: Trolley
+          Hash: '17697773646590226254'
+          NextDistance: 5,00000
+          PrevDistance: 1,00000
+          Translate:
+            - 1505,71500
+            - 354,33430
+            - -2924,67700
+        - Connections:
+            - {RailHash: '1071173027462893981', RailPointIndex: !l 17}
+          Gyaml: Trolley
+          Hash: '6019531963929967535'
+          PrevDistance: 5,00000
+          Translate:
+            - 1504,34200
+            - 354,33430
+            - -2929,48500
+    - Gyaml: Trolley
+      Hash: '2434157639267831696'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '3152765509383003308', RailPointIndex: !l 6}
+          Gyaml: Trolley
+          Hash: '12530324867054461471'
+          NextDistance: 5,38517
+          Translate:
+            - 1703,29800
+            - 338,19380
+            - -3071,90700
+        - Connections:
+            - {RailHash: '14033231387420806067', RailPointIndex: !l 1}
+          Gyaml: Trolley
+          Hash: '13946351048094376650'
+          PrevDistance: 5,38517
+          Translate:
+            - 1698,67600
+            - 337,95160
+            - -3069,15500
+    - Gyaml: Trolley
+      Hash: '3042215197282310543'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '11994986021606482911', RailPointIndex: !l 0}
+          Gyaml: Trolley
+          Hash: '5199339395338462047'
+          NextDistance: 2,29521
+          Translate:
+            - 1512,49000
+            - 358,29320
+            - -2856,66000
+        - Control0:
+            - 1511,92800
+            - 358,29280
+            - -2857,38000
+          Control1:
+            - 1510,26400
+            - 358,29280
+            - -2859,58700
+          Gyaml: Trolley
+          Hash: '7014520775451598771'
+          NextDistance: 9,12396
+          PrevDistance: 2,29521
+          Translate:
+            - 1511,09600
+            - 358,29280
+            - -2858,48300
+        - Control0:
+            - 1507,87500
+            - 357,08690
+            - -2862,90800
+          Control1:
+            - 1503,99700
+            - 356,64480
+            - -2868,81600
+          Gyaml: Trolley
+          Hash: '765046106111839760'
+          NextDistance: 15,23278
+          PrevDistance: 9,12396
+          Translate:
+            - 1505,93600
+            - 356,86580
+            - -2865,86200
+        - Gyaml: Trolley
+          Hash: '1344578330488365183'
+          NextDistance: 17,19747
+          PrevDistance: 15,23278
+          Translate:
+            - 1496,98300
+            - 356,55210
+            - -2878,18100
+        - Gyaml: Trolley
+          Hash: '10977789191648357526'
+          NextDistance: 20,82487
+          PrevDistance: 17,19747
+          Translate:
+            - 1487,56700
+            - 356,55210
+            - -2892,57200
+        - Control0:
+            - 1478,50200
+            - 356,27250
+            - -2906,83000
+          Control1:
+            - 1475,49000
+            - 356,83170
+            - -2914,17000
+          Gyaml: Trolley
+          Hash: '9959880514280473801'
+          NextDistance: 24,97534
+          PrevDistance: 20,82487
+          Translate:
+            - 1476,99600
+            - 356,55210
+            - -2910,50000
+        - Control0:
+            - 1468,01200
+            - 356,55210
+            - -2927,96600
+          Control1:
+            - 1469,09000
+            - 356,55210
+            - -2939,66200
+          Gyaml: Trolley
+          Hash: '5771508012327869617'
+          NextDistance: 12,49540
+          PrevDistance: 24,97534
+          Translate:
+            - 1468,55100
+            - 356,55210
+            - -2933,81400
+        - Control0:
+            - 1472,01800
+            - 356,55210
+            - -2942,61200
+          Control1:
+            - 1477,38400
+            - 356,55210
+            - -2945,57200
+          Gyaml: Trolley
+          Hash: '3345342741331743462'
+          NextDistance: 13,20936
+          PrevDistance: 12,49540
+          Translate:
+            - 1474,70100
+            - 356,55210
+            - -2944,09200
+        - Control0:
+            - 1482,22900
+            - 356,81370
+            - -2947,08300
+          Control1:
+            - 1492,61100
+            - 356,29050
+            - -2942,37900
+          Gyaml: Trolley
+          Hash: '17521774604306697968'
+          NextDistance: 10,98232
+          PrevDistance: 13,20936
+          Translate:
+            - 1487,42000
+            - 356,55210
+            - -2944,73100
+        - Control0:
+            - 1493,68900
+            - 356,12990
+            - -2940,28100
+          Control1:
+            - 1497,69100
+            - 354,96650
+            - -2935,37200
+          Gyaml: Trolley
+          Hash: '15215723576693294245'
+          NextDistance: 8,97831
+          PrevDistance: 10,98232
+          Translate:
+            - 1495,69000
+            - 355,54820
+            - -2937,82700
+        - Control0:
+            - 1500,08700
+            - 354,33480
+            - -2931,92700
+          Control1:
+            - 1501,96400
+            - 354,33480
+            - -2929,50600
+          Gyaml: Trolley
+          Hash: '16869540380289926986'
+          NextDistance: 2,26153
+          PrevDistance: 8,97831
+          Translate:
+            - 1501,02500
+            - 354,33480
+            - -2930,71700
+        - Connections:
+            - {RailHash: '7230437092510214219', RailPointIndex: !l 0}
+          Gyaml: Trolley
+          Hash: '3040492816394735236'
+          PrevDistance: 2,26153
+          Translate:
+            - 1502,41900
+            - 354,33430
+            - -2928,93600
+    - Gyaml: Trolley
+      Hash: '3152765509383003308'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Dynamic: {IsTerminal: true}
+          Gyaml: Trolley
+          Hash: '15851004793187345756'
+          NextDistance: 23,77712
+          Translate:
+            - 1804,25000
+            - 352,13800
+            - -3153,05900
+        - Control0:
+            - 1793,77300
+            - 347,87410
+            - -3141,33100
+          Control1:
+            - 1783,46300
+            - 347,59410
+            - -3130,16000
+          Gyaml: Trolley
+          Hash: '7970381901019311879'
+          NextDistance: 48,77802
+          PrevDistance: 23,77712
+          Translate:
+            - 1788,61800
+            - 347,73410
+            - -3135,74600
+        - Control0:
+            - 1764,08300
+            - 354,03460
+            - -3108,22100
+          Control1:
+            - 1747,60200
+            - 353,44260
+            - -3092,15200
+          Gyaml: Trolley
+          Hash: '12452313380340276420'
+          NextDistance: 35,85626
+          PrevDistance: 48,77802
+          Translate:
+            - 1755,84300
+            - 353,73860
+            - -3100,18700
+        - Control0:
+            - 1732,67100
+            - 346,07830
+            - -3080,64400
+          Control1:
+            - 1724,18800
+            - 342,89610
+            - -3078,27200
+          Gyaml: Trolley
+          Hash: '397605725564776177'
+          NextDistance: 13,03343
+          PrevDistance: 35,85626
+          Translate:
+            - 1728,42900
+            - 344,48720
+            - -3079,45800
+        - Control0:
+            - 1718,76600
+            - 341,53110
+            - -3078,13700
+          Control1:
+            - 1713,49200
+            - 339,82000
+            - -3076,91800
+          Gyaml: Trolley
+          Hash: '8409466341222427143'
+          NextDistance: 9,95680
+          PrevDistance: 13,03343
+          Translate:
+            - 1716,12900
+            - 340,67550
+            - -3077,52800
+        - Control0:
+            - 1708,24000
+            - 338,49510
+            - -3074,83700
+          Control1:
+            - 1705,89600
+            - 338,32460
+            - -3073,45700
+          Gyaml: Trolley
+          Hash: '3068284646478741370'
+          NextDistance: 4,39092
+          PrevDistance: 9,95680
+          Translate:
+            - 1707,06800
+            - 338,40980
+            - -3074,14700
+        - Connections:
+            - {RailHash: '2434157639267831696', RailPointIndex: !l 0}
+          Control0:
+            - 1704,88100
+            - 338,19390
+            - -3072,83800
+          Control1:
+            - 1701,71500
+            - 338,19390
+            - -3070,97600
+          Gyaml: Trolley
+          Hash: '10560225950536513624'
+          PrevDistance: 4,39092
+          Translate:
+            - 1703,29800
+            - 338,19390
+            - -3071,90700
+    - Gyaml: Trolley
+      Hash: '3279180379211238735'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Dynamic: {IsTerminal: true}
+          Gyaml: Trolley
+          Hash: '1100728141109306022'
+          NextDistance: 5,68623
+          Translate:
+            - 1730,86400
+            - 340,10460
+            - -2940,52800
+        - Control0:
+            - 1727,15600
+            - 340,45530
+            - -2943,17400
+          Control1:
+            - 1725,29100
+            - 340,71040
+            - -2944,38400
+          Gyaml: Trolley
+          Hash: '13386432527993539297'
+          NextDistance: 3,33934
+          PrevDistance: 5,68623
+          Translate:
+            - 1726,22300
+            - 340,58290
+            - -2943,77900
+        - Control0:
+            - 1724,31100
+            - 340,81560
+            - -2945,00200
+          Control1:
+            - 1722,55900
+            - 341,19330
+            - -2946,13200
+          Gyaml: Trolley
+          Hash: '923073833242053696'
+          NextDistance: 9,61776
+          PrevDistance: 3,33934
+          Translate:
+            - 1723,43500
+            - 341,00440
+            - -2945,56700
+        - Control0:
+            - 1718,56200
+            - 342,31100
+            - -2948,43400
+          Control1:
+            - 1711,70800
+            - 343,01840
+            - -2951,80200
+          Gyaml: Trolley
+          Hash: '7777819086357302246'
+          NextDistance: 7,78105
+          PrevDistance: 9,61776
+          Translate:
+            - 1715,13500
+            - 342,66470
+            - -2950,11800
+        - Control0:
+            - 1710,40100
+            - 343,04980
+            - -2952,25000
+          Control1:
+            - 1705,48700
+            - 343,04980
+            - -2953,80700
+          Gyaml: Trolley
+          Hash: '15925157172362511988'
+          NextDistance: 7,77540
+          PrevDistance: 7,78105
+          Translate:
+            - 1707,94400
+            - 343,04980
+            - -2953,02800
+        - Control0:
+            - 1702,21500
+            - 343,21790
+            - -2955,03200
+          Control1:
+            - 1699,18500
+            - 343,21790
+            - -2956,63100
+          Gyaml: Trolley
+          Hash: '18050238900831183727'
+          NextDistance: 4,59491
+          PrevDistance: 7,77540
+          Translate:
+            - 1700,70000
+            - 343,21790
+            - -2955,83200
+        - Connections:
+            - {RailHash: '16263685199963795746', RailPointIndex: !l 0}
+          Control0:
+            - 1697,41500
+            - 343,09560
+            - -2957,59000
+          Control1:
+            - 1695,89700
+            - 343,09560
+            - -2958,42900
+          Gyaml: Trolley
+          Hash: '6790247779849544903'
+          PrevDistance: 4,59491
+          Translate:
+            - 1696,65600
+            - 343,09560
+            - -2958,01000
+    - Gyaml: Trolley
+      Hash: '5268648708297693929'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '1913802752659727917', RailPointIndex: !l 0}
+            - {RailHash: '1913802752659727917', RailPointIndex: !l 1}
+            - {RailHash: '7230437092510214219', RailPointIndex: !l 1}
+          Gyaml: Trolley
+          Hash: '1665506663351324746'
+          NextDistance: 1,40857
+          Translate:
+            - 1505,99000
+            - 354,33430
+            - -2923,71600
+        - Control0:
+            - 1506,20000
+            - 354,33480
+            - -2923,08400
+          Control1:
+            - 1506,63200
+            - 354,33480
+            - -2921,66300
+          Gyaml: Trolley
+          Hash: '17597274319570697361'
+          NextDistance: 3,32563
+          PrevDistance: 1,40857
+          Translate:
+            - 1506,41600
+            - 354,33480
+            - -2922,37300
+        - Control0:
+            - 1507,27000
+            - 354,16160
+            - -2920,37500
+          Control1:
+            - 1508,40400
+            - 353,81950
+            - -2918,41200
+          Gyaml: Trolley
+          Hash: '17133290655615265995'
+          NextDistance: 4,18640
+          PrevDistance: 3,32563
+          Translate:
+            - 1507,83700
+            - 353,99050
+            - -2919,39400
+        - Control0:
+            - 1509,10500
+            - 353,45960
+            - -2917,37200
+          Control1:
+            - 1511,08300
+            - 352,84440
+            - -2914,57000
+          Gyaml: Trolley
+          Hash: '12077827494633513582'
+          NextDistance: 6,54814
+          PrevDistance: 4,18640
+          Translate:
+            - 1510,09400
+            - 353,15200
+            - -2915,97100
+        - Control0:
+            - 1513,46300
+            - 352,65580
+            - -2911,40800
+          Control1:
+            - 1514,49600
+            - 352,65580
+            - -2910,04700
+          Gyaml: Trolley
+          Hash: '15704106576557927010'
+          NextDistance: 1,54471
+          PrevDistance: 6,54814
+          Translate:
+            - 1513,97900
+            - 352,65580
+            - -2910,72800
+        - Connections:
+            - {RailHash: '14628402839581283665', RailPointIndex: !l 0}
+          Gyaml: Trolley
+          Hash: '11636074795884006375'
+          PrevDistance: 1,54471
+          Translate:
+            - 1514,89900
+            - 352,65630
+            - -2909,48600
+    - Gyaml: Trolley
+      Hash: '6191776664945268112'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '7983137508328409732', RailPointIndex: !l 8}
+          Gyaml: Trolley
+          Hash: '18276688526493046642'
+          NextDistance: 1,20000
+          Translate:
+            - 1690,73400
+            - 343,09560
+            - -2960,72400
+        - Connections:
+            - {RailHash: '16263685199963795746', RailPointIndex: !l 1}
+          Gyaml: Trolley
+          Hash: '12399909625439296637'
+          NextDistance: 5,00000
+          PrevDistance: 1,20000
+          Translate:
+            - 1691,92500
+            - 343,09560
+            - -2960,58300
+        - Connections:
+            - {RailHash: '13014616213088123406', RailPointIndex: !l 0}
+          Gyaml: Trolley
+          Hash: '9040685390800023136'
+          PrevDistance: 5,00000
+          Translate:
+            - 1696,89100
+            - 343,09560
+            - -2959,99600
+    - Gyaml: Guide
+      Hash: '6512663646884225315'
+      IsClosed: false
+      Name: Guide
+      Points:
+        - Gyaml: Guide
+          Hash: '17163467464763448619'
+          NextDistance: 16,78401
+          Translate:
+            - 1683,66700
+            - 350,56540
+            - -2971,33500
+        - Control0:
+            - 1669,78300
+            - 353,38900
+            - -2973,47300
+          Control1:
+            - 1665,00800
+            - 354,50390
+            - -2973,88700
+          Gyaml: Guide
+          Hash: '18266927672002741480'
+          NextDistance: 10,00471
+          PrevDistance: 16,78401
+          Translate:
+            - 1667,39500
+            - 353,94650
+            - -2973,68000
+        - Control0:
+            - 1659,80900
+            - 355,77550
+            - -2973,95700
+          Control1:
+            - 1655,59400
+            - 356,98810
+            - -2974,25300
+          Gyaml: Guide
+          Hash: '1989882374989484966'
+          NextDistance: 10,34984
+          PrevDistance: 10,00471
+          Translate:
+            - 1657,70100
+            - 356,38180
+            - -2974,10400
+        - Control0:
+            - 1650,34100
+            - 358,81700
+            - -2975,15600
+          Control1:
+            - 1645,67400
+            - 358,81700
+            - -2977,80200
+          Gyaml: Guide
+          Hash: '8825019285482407264'
+          NextDistance: 21,77107
+          PrevDistance: 10,34984
+          Translate:
+            - 1648,00700
+            - 358,81700
+            - -2976,47900
+        - Gyaml: Guide
+          Hash: '11738996834816018311'
+          PrevDistance: 21,77107
+          Translate:
+            - 1629,09400
+            - 358,81700
+            - -2987,26100
+    - Gyaml: Trolley
+      Hash: '7230437092510214219'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '3042215197282310543', RailPointIndex: !l 11}
+          Gyaml: Trolley
+          Hash: '15385826121732293445'
+          NextDistance: 5,38517
+          Translate:
+            - 1502,41900
+            - 354,33430
+            - -2928,93600
+        - Connections:
+            - {RailHash: '1913802752659727917', RailPointIndex: !l 0}
+            - {RailHash: '1913802752659727917', RailPointIndex: !l 1}
+            - {RailHash: '5268648708297693929', RailPointIndex: !l 0}
+          Gyaml: Trolley
+          Hash: '4712854689928693351'
+          PrevDistance: 5,38517
+          Translate:
+            - 1505,71500
+            - 354,33430
+            - -2924,67700
+    - Gyaml: Trolley
+      Hash: '7983137508328409732'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '13046808851349294624', RailPointIndex: !l 2}
+          Control0:
+            - 1701,47700
+            - 345,81920
+            - -3059,41900
+          Control1:
+            - 1685,55100
+            - 345,49000
+            - -3060,99400
+          Gyaml: Trolley
+          Hash: '9948774965381355315'
+          NextDistance: 16,18802
+          Translate:
+            - 1693,51400
+            - 345,65460
+            - -3060,20600
+        - Control0:
+            - 1681,97500
+            - 345,26280
+            - -3060,72400
+          Control1:
+            - 1672,85000
+            - 345,84580
+            - -3058,79800
+          Gyaml: Trolley
+          Hash: '1237197135356247334'
+          NextDistance: 18,62975
+          PrevDistance: 16,18802
+          Translate:
+            - 1677,41200
+            - 345,55430
+            - -3059,76100
+        - Control0:
+            - 1664,17600
+            - 347,37380
+            - -3055,38000
+          Control1:
+            - 1656,77500
+            - 349,22170
+            - -3050,08700
+          Gyaml: Trolley
+          Hash: '18324323021331868109'
+          NextDistance: 20,95938
+          PrevDistance: 18,62975
+          Translate:
+            - 1660,47600
+            - 348,29780
+            - -3052,73300
+        - Control0:
+            - 1651,03500
+            - 350,14350
+            - -3043,96100
+          Control1:
+            - 1648,29000
+            - 348,87690
+            - -3026,98400
+          Gyaml: Trolley
+          Hash: '14727732645238543905'
+          NextDistance: 30,36103
+          PrevDistance: 20,95938
+          Translate:
+            - 1649,66200
+            - 349,51020
+            - -3035,47200
+        - Control0:
+            - 1648,51700
+            - 347,24790
+            - -3011,48600
+          Control1:
+            - 1650,17300
+            - 345,64540
+            - -2999,18400
+          Gyaml: Trolley
+          Hash: '13406836584769709437'
+          NextDistance: 30,62436
+          PrevDistance: 30,36103
+          Translate:
+            - 1649,34500
+            - 346,44670
+            - -3005,33500
+        - Control0:
+            - 1656,52100
+            - 343,60580
+            - -2983,61500
+          Control1:
+            - 1666,33500
+            - 343,08050
+            - -2971,58200
+          Gyaml: Trolley
+          Hash: '511197337176155922'
+          NextDistance: 17,37940
+          PrevDistance: 30,62436
+          Translate:
+            - 1661,42800
+            - 343,34310
+            - -2977,59900
+        - Control0:
+            - 1668,63200
+            - 343,04790
+            - -2968,73300
+          Control1:
+            - 1679,00700
+            - 343,04790
+            - -2962,40500
+          Gyaml: Trolley
+          Hash: '10940705670680149796'
+          NextDistance: 15,29538
+          PrevDistance: 17,37940
+          Translate:
+            - 1673,82000
+            - 343,04790
+            - -2965,56900
+        - Control0:
+            - 1687,21800
+            - 343,05840
+            - -2961,11400
+          Control1:
+            - 1689,42800
+            - 343,05840
+            - -2960,87500
+          Gyaml: Trolley
+          Hash: '3428509595338648354'
+          NextDistance: 2,42632
+          PrevDistance: 15,29538
+          Translate:
+            - 1688,32300
+            - 343,05840
+            - -2960,99500
+        - Connections:
+            - {RailHash: '6191776664945268112', RailPointIndex: !l 0}
+          Gyaml: Trolley
+          Hash: '17329066448123002935'
+          PrevDistance: 2,42632
+          Translate:
+            - 1690,73400
+            - 343,09560
+            - -2960,72400
+    - Gyaml: Trolley
+      Hash: '8140630649463209681'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '14628402839581283665', RailPointIndex: !l 2}
+          Gyaml: Trolley
+          Hash: '2992587214773680573'
+          NextDistance: 2,01176
+          Translate:
+            - 1518,86500
+            - 352,65580
+            - -2904,72100
+        - Gyaml: Trolley
+          Hash: '1976079550666127148'
+          NextDistance: 9,18120
+          PrevDistance: 2,01176
+          Translate:
+            - 1520,16300
+            - 352,67180
+            - -2903,18400
+        - Control0:
+            - 1524,79200
+            - 352,61150
+            - -2897,76900
+          Control1:
+            - 1527,53600
+            - 352,61150
+            - -2894,70200
+          Gyaml: Trolley
+          Hash: '16708765482552428135'
+          NextDistance: 12,27251
+          PrevDistance: 9,18120
+          Translate:
+            - 1526,16400
+            - 352,61150
+            - -2896,23600
+        - Control0:
+            - 1531,34100
+            - 353,13250
+            - -2889,69400
+          Control1:
+            - 1536,06900
+            - 354,66190
+            - -2883,61400
+          Gyaml: Trolley
+          Hash: '9992277549113023861'
+          NextDistance: 13,41170
+          PrevDistance: 12,27251
+          Translate:
+            - 1533,70500
+            - 353,89720
+            - -2886,65400
+        - Control0:
+            - 1538,82900
+            - 356,21410
+            - -2879,61400
+          Control1:
+            - 1542,33800
+            - 357,82570
+            - -2871,60800
+          Gyaml: Trolley
+          Hash: '6874599272125969208'
+          NextDistance: 15,06349
+          PrevDistance: 13,41170
+          Translate:
+            - 1540,58400
+            - 357,01990
+            - -2875,61100
+        - Control0:
+            - 1544,11700
+            - 358,25020
+            - -2864,63800
+          Control1:
+            - 1542,72800
+            - 358,43440
+            - -2857,44900
+          Gyaml: Trolley
+          Hash: '18375632918852967536'
+          NextDistance: 10,97159
+          PrevDistance: 15,06349
+          Translate:
+            - 1543,42200
+            - 358,34230
+            - -2861,04400
+        - Control0:
+            - 1541,81800
+            - 358,28960
+            - -2854,70400
+          Control1:
+            - 1534,23100
+            - 358,29680
+            - -2848,99100
+          Dynamic: {IsTerminal: true}
+          Gyaml: Trolley
+          Hash: '15294874385144092916'
+          NextDistance: 13,90995
+          PrevDistance: 10,97159
+          Translate:
+            - 1538,02500
+            - 358,29320
+            - -2851,84800
+        - Control0:
+            - 1528,79200
+            - 358,19000
+            - -2848,03900
+          Control1:
+            - 1520,90100
+            - 358,39640
+            - -2851,14600
+          Dynamic: {IsTerminal: true}
+          Gyaml: Trolley
+          Hash: '5043486489465985959'
+          NextDistance: 6,85887
+          PrevDistance: 13,90995
+          Translate:
+            - 1524,84600
+            - 358,29320
+            - -2849,59300
+        - Control0:
+            - 1519,20700
+            - 358,29280
+            - -2852,28900
+          Control1:
+            - 1518,16500
+            - 358,29280
+            - -2852,88500
+          Gyaml: Trolley
+          Hash: '3582257679828813113'
+          NextDistance: 1,09231
+          PrevDistance: 6,85887
+          Translate:
+            - 1518,68600
+            - 358,29280
+            - -2852,58600
+        - Connections:
+            - {RailHash: '12235880827855164286', RailPointIndex: !l 0}
+          Gyaml: Trolley
+          Hash: '7104045113671214601'
+          PrevDistance: 1,09231
+          Translate:
+            - 1517,74200
+            - 358,29320
+            - -2853,13600
+    - Gyaml: Trolley
+      Hash: '11994986021606482911'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '3042215197282310543', RailPointIndex: !l 0}
+          Gyaml: Trolley
+          Hash: '5607948671064812747'
+          NextDistance: 1,00000
+          Translate:
+            - 1512,49000
+            - 358,29320
+            - -2856,66000
+        - Connections:
+            - {RailHash: '12235880827855164286', RailPointIndex: !l 1}
+          Gyaml: Trolley
+          Hash: '5868830510175509562'
+          NextDistance: 5,00000
+          PrevDistance: 1,00000
+          Translate:
+            - 1513,10200
+            - 358,29320
+            - -2855,86900
+        - Connections:
+            - {RailHash: '12191159924129073297', RailPointIndex: !l 1}
+          Gyaml: Trolley
+          Hash: '1703635015619733115'
+          PrevDistance: 5,00000
+          Translate:
+            - 1516,15900
+            - 358,29320
+            - -2851,91300
+    - Gyaml: Trolley
+      Hash: '12191159924129073297'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Gyaml: Trolley
+          Hash: '10276014180171269177'
+          NextDistance: 15,19142
+          Translate:
+            - 1525,45500
+            - 358,29320
+            - -2839,89700
+        - Connections:
+            - {RailHash: '11994986021606482911', RailPointIndex: !l 2}
+          Gyaml: Trolley
+          Hash: '7644451488782365137'
+          PrevDistance: 15,19142
+          Translate:
+            - 1516,15900
+            - 358,29320
+            - -2851,91300
+    - Gyaml: Trolley
+      Hash: '12235880827855164286'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '8140630649463209681', RailPointIndex: !l 9}
+          Gyaml: Trolley
+          Hash: '12207823931341504041'
+          NextDistance: 5,38517
+          Translate:
+            - 1517,74200
+            - 358,29320
+            - -2853,13600
+        - Connections:
+            - {RailHash: '11994986021606482911', RailPointIndex: !l 1}
+          Gyaml: Trolley
+          Hash: '404994563766894794'
+          PrevDistance: 5,38517
+          Translate:
+            - 1513,10200
+            - 358,29320
+            - -2855,86900
+    - Gyaml: Trolley
+      Hash: '13014616213088123406'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '6191776664945268112', RailPointIndex: !l 2}
+          Gyaml: Trolley
+          Hash: '5792605090383671023'
+          NextDistance: 5,56998
+          Translate:
+            - 1696,89100
+            - 343,09560
+            - -2959,99600
+        - Control0:
+            - 1701,11800
+            - 343,13620
+            - -2959,52500
+          Control1:
+            - 1703,75300
+            - 343,28710
+            - -2959,44500
+          Gyaml: Trolley
+          Hash: '7591978434942616610'
+          NextDistance: 6,41955
+          PrevDistance: 5,56998
+          Translate:
+            - 1702,43600
+            - 343,21160
+            - -2959,48500
+        - Control0:
+            - 1706,42000
+            - 343,36700
+            - -2959,50400
+          Control1:
+            - 1711,21300
+            - 343,85760
+            - -2960,37800
+          Gyaml: Trolley
+          Hash: '15280666281001664682'
+          NextDistance: 10,56656
+          PrevDistance: 6,41955
+          Translate:
+            - 1708,81600
+            - 343,61230
+            - -2959,94100
+        - Control0:
+            - 1714,58500
+            - 344,37780
+            - -2961,37300
+          Control1:
+            - 1722,82800
+            - 345,15710
+            - -2965,39800
+          Gyaml: Trolley
+          Hash: '986484521252395156'
+          NextDistance: 25,75992
+          PrevDistance: 10,56656
+          Translate:
+            - 1718,70600
+            - 344,76750
+            - -2963,38600
+        - Control0:
+            - 1729,15500
+            - 345,16140
+            - -2968,35900
+          Control1:
+            - 1748,52900
+            - 346,25510
+            - -2989,88300
+          Gyaml: Trolley
+          Hash: '3206685442409408584'
+          NextDistance: 39,43069
+          PrevDistance: 25,75992
+          Translate:
+            - 1738,84200
+            - 345,70830
+            - -2979,12100
+        - Control0:
+            - 1753,18900
+            - 345,82990
+            - -3000,45200
+          Control1:
+            - 1754,99900
+            - 345,78730
+            - -3028,71900
+          Gyaml: Trolley
+          Hash: '4672363489798227447'
+          NextDistance: 36,27734
+          PrevDistance: 39,43069
+          Translate:
+            - 1754,09400
+            - 345,80860
+            - -3014,58500
+        - Control0:
+            - 1750,97500
+            - 346,57480
+            - -3037,86500
+          Control1:
+            - 1731,69800
+            - 345,83920
+            - -3056,30100
+          Gyaml: Trolley
+          Hash: '845584966365516720'
+          NextDistance: 29,53722
+          PrevDistance: 36,27734
+          Translate:
+            - 1741,33600
+            - 346,20700
+            - -3047,08300
+        - Control0:
+            - 1724,48100
+            - 341,26090
+            - -3061,14600
+          Control1:
+            - 1711,53900
+            - 338,79030
+            - -3066,12100
+          Gyaml: Trolley
+          Hash: '5912072524270457471'
+          NextDistance: 14,86364
+          PrevDistance: 29,53722
+          Translate:
+            - 1718,01000
+            - 340,02560
+            - -3063,63400
+        - Connections:
+            - {RailHash: '14033231387420806067', RailPointIndex: !l 2}
+          Control0:
+            - 1704,92000
+            - 338,29030
+            - -3067,71500
+          Control1:
+            - 1702,91700
+            - 338,16240
+            - -3068,19700
+          Gyaml: Trolley
+          Hash: '14034382602405893616'
+          PrevDistance: 14,86364
+          Translate:
+            - 1703,91800
+            - 338,22640
+            - -3067,95600
+    - Gyaml: Trolley
+      Hash: '13046808851349294624'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Gyaml: Trolley
+          Hash: '16193164236381052968'
+          NextDistance: 1,20000
+          Translate:
+            - 1699,68200
+            - 345,65460
+            - -3059,57500
+        - Connections:
+            - {RailHash: '13563201171686321015', RailPointIndex: !l 1}
+          Gyaml: Trolley
+          Hash: '7019385014178448843'
+          NextDistance: 5,00000
+          PrevDistance: 1,20000
+          Translate:
+            - 1698,48800
+            - 345,65460
+            - -3059,69700
+        - Connections:
+            - {RailHash: '7983137508328409732', RailPointIndex: !l 0}
+          Gyaml: Trolley
+          Hash: '12530137735226693249'
+          PrevDistance: 5,00000
+          Translate:
+            - 1693,51400
+            - 345,65460
+            - -3060,20600
+    - Gyaml: Trolley
+      Hash: '13050887463864042056'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '14976444357269029879', RailPointIndex: !l 0}
+          Gyaml: Trolley
+          Hash: '17536149701035326564'
+          NextDistance: 1,56054
+          Translate:
+            - 1520,40200
+            - 352,65580
+            - -2906,00000
+        - Gyaml: Trolley
+          Hash: '18031505709975926812'
+          NextDistance: 6,05176
+          PrevDistance: 1,56054
+          Translate:
+            - 1521,78500
+            - 352,67180
+            - -2905,27700
+        - Control0:
+            - 1526,31000
+            - 353,04450
+            - -2903,18100
+          Control1:
+            - 1528,30900
+            - 353,04450
+            - -2902,49000
+          Gyaml: Trolley
+          Hash: '11700492704026086801'
+          NextDistance: 7,31014
+          PrevDistance: 6,05176
+          Translate:
+            - 1527,30900
+            - 353,04450
+            - -2902,83500
+        - Control0:
+            - 1533,13600
+            - 353,37200
+            - -2901,17300
+          Control1:
+            - 1535,54400
+            - 353,37200
+            - -2900,55100
+          Gyaml: Trolley
+          Hash: '11600966195829743993'
+          NextDistance: 31,90813
+          PrevDistance: 7,31014
+          Translate:
+            - 1534,34000
+            - 353,37200
+            - -2900,86200
+        - Control0:
+            - 1550,26200
+            - 352,95220
+            - -2897,25300
+          Control1:
+            - 1581,42600
+            - 359,50800
+            - -2898,79100
+          Gyaml: Trolley
+          Hash: '13826291861511462635'
+          NextDistance: 46,89402
+          PrevDistance: 31,90813
+          Translate:
+            - 1565,84400
+            - 356,23010
+            - -2898,02200
+        - Control0:
+            - 1601,85300
+            - 366,93130
+            - -2906,71900
+          Control1:
+            - 1615,78100
+            - 371,66420
+            - -2914,31000
+          Gyaml: Trolley
+          Hash: '9645119231935647653'
+          NextDistance: 36,65481
+          PrevDistance: 46,89402
+          Translate:
+            - 1608,81700
+            - 369,29780
+            - -2910,51400
+        - Control0:
+            - 1628,75300
+            - 373,66820
+            - -2929,48200
+          Control1:
+            - 1642,92600
+            - 371,64820
+            - -2940,01900
+          Gyaml: Trolley
+          Hash: '14628875048591256543'
+          NextDistance: 46,90649
+          PrevDistance: 36,65481
+          Translate:
+            - 1635,83900
+            - 372,65820
+            - -2934,75000
+        - Control0:
+            - 1667,65600
+            - 361,97110
+            - -2955,71100
+          Control1:
+            - 1681,83500
+            - 356,04870
+            - -2957,53800
+          Gyaml: Trolley
+          Hash: '2775576896505938744'
+          NextDistance: 21,11507
+          PrevDistance: 46,90649
+          Translate:
+            - 1674,74600
+            - 359,00990
+            - -2956,62400
+        - Gyaml: Trolley
+          Hash: '190563750520945297'
+          PrevDistance: 21,11507
+          Translate:
+            - 1695,25500
+            - 354,78070
+            - -2958,84700
+    - Gyaml: Trolley
+      Hash: '13563201171686321015'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '1874748544309020995', RailPointIndex: !l 9}
+          Gyaml: Trolley
+          Hash: '5650542003872823415'
+          NextDistance: 5,38517
+          Translate:
+            - 1693,31000
+            - 345,65460
+            - -3058,21700
+        - Connections:
+            - {RailHash: '13046808851349294624', RailPointIndex: !l 1}
+          Gyaml: Trolley
+          Hash: '4692181811697216132'
+          PrevDistance: 5,38517
+          Translate:
+            - 1698,48800
+            - 345,65460
+            - -3059,69700
+    - Gyaml: Trolley
+      Hash: '14033231387420806067'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Gyaml: Trolley
+          Hash: '14952097894401234604'
+          NextDistance: 1,20000
+          Translate:
+            - 1697,49200
+            - 337,88950
+            - -3068,96900
+        - Connections:
+            - {RailHash: '2434157639267831696', RailPointIndex: !l 1}
+          Gyaml: Trolley
+          Hash: '9872841965811245537'
+          NextDistance: 5,38517
+          PrevDistance: 1,20000
+          Translate:
+            - 1698,67600
+            - 337,95160
+            - -3069,15500
+        - Connections:
+            - {RailHash: '13014616213088123406', RailPointIndex: !l 8}
+          Gyaml: Trolley
+          Hash: '1710715088625033456'
+          PrevDistance: 5,38517
+          Translate:
+            - 1703,91800
+            - 338,22640
+            - -3067,95600
+    - Gyaml: Trolley
+      Hash: '14628402839581283665'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '5268648708297693929', RailPointIndex: !l 5}
+          Gyaml: Trolley
+          Hash: '13651417698814819847'
+          NextDistance: 1,20000
+          Translate:
+            - 1514,89900
+            - 352,65630
+            - -2909,48600
+        - Connections:
+            - {RailHash: '14976444357269029879', RailPointIndex: !l 1}
+          Gyaml: Trolley
+          Hash: '3704057261725871465'
+          NextDistance: 5,00000
+          PrevDistance: 1,20000
+          Translate:
+            - 1515,66600
+            - 352,65630
+            - -2908,56400
+        - Connections:
+            - {RailHash: '8140630649463209681', RailPointIndex: !l 0}
+          Gyaml: Trolley
+          Hash: '7073270465883295891'
+          PrevDistance: 5,00000
+          Translate:
+            - 1518,86500
+            - 352,65630
+            - -2904,72100
+    - Gyaml: Trolley
+      Hash: '14976444357269029879'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '13050887463864042056', RailPointIndex: !l 0}
+          Gyaml: Trolley
+          Hash: '2172062287599332553'
+          NextDistance: 5,38517
+          Translate:
+            - 1520,40200
+            - 352,65630
+            - -2906,00000
+        - Connections:
+            - {RailHash: '14628402839581283665', RailPointIndex: !l 1}
+          Gyaml: Trolley
+          Hash: '1373438928545434807'
+          PrevDistance: 5,38517
+          Translate:
+            - 1515,66600
+            - 352,65630
+            - -2908,56400
+    - Gyaml: Guide
+      Hash: '15523650989485968817'
+      IsClosed: false
+      Name: Guide
+      Points:
+        - Control0:
+            - 1698,16400
+            - 337,88950
+            - -3069,07400
+          Control1:
+            - 1696,82000
+            - 337,88950
+            - -3068,86400
+          Gyaml: Guide
+          Hash: '14914165338624435422'
+          NextDistance: 2,35000
+          Translate:
+            - 1697,49200
+            - 337,88950
+            - -3068,96900
+        - Control0:
+            - 1695,74800
+            - 337,85740
+            - -3068,72000
+          Control1:
+            - 1694,57800
+            - 337,85740
+            - -3068,59500
+          Gyaml: Guide
+          Hash: '1560331334583682185'
+          NextDistance: 16,29780
+          PrevDistance: 2,35000
+          Translate:
+            - 1695,16300
+            - 337,85740
+            - -3068,65800
+        - Control0:
+            - 1684,19400
+            - 337,83870
+            - -3067,60900
+          Control1:
+            - 1673,91600
+            - 338,21430
+            - -3064,91600
+          Gyaml: Guide
+          Hash: '8400625158604719021'
+          NextDistance: 17,98875
+          PrevDistance: 16,29780
+          Translate:
+            - 1679,05500
+            - 338,02650
+            - -3066,26300
+        - Control0:
+            - 1667,76800
+            - 338,71040
+            - -3060,32200
+          Control1:
+            - 1661,31900
+            - 339,53560
+            - -3051,95200
+          Gyaml: Guide
+          Hash: '16141330062353526189'
+          NextDistance: 17,91832
+          PrevDistance: 17,98875
+          Translate:
+            - 1664,54300
+            - 339,12300
+            - -3056,13700
+        - Control0:
+            - 1659,20200
+            - 339,84140
+            - -3048,19100
+          Control1:
+            - 1657,56100
+            - 341,26380
+            - -3031,16800
+          Gyaml: Guide
+          Hash: '349538067273373033'
+          NextDistance: 31,87546
+          PrevDistance: 17,91832
+          Translate:
+            - 1658,38200
+            - 340,55260
+            - -3039,67900
+        - Control0:
+            - 1658,43100
+            - 342,21970
+            - -3024,79900
+          Control1:
+            - 1667,18200
+            - 344,12390
+            - -2992,03800
+          Gyaml: Guide
+          Hash: '4749568971878558156'
+          NextDistance: 35,01760
+          PrevDistance: 31,87546
+          Translate:
+            - 1662,80600
+            - 343,17180
+            - -3008,41900
+        - Control0:
+            - 1673,06500
+            - 344,05940
+            - -2982,85700
+          Control1:
+            - 1684,12700
+            - 344,15690
+            - -2972,45300
+          Gyaml: Guide
+          Hash: '2359825101391763260'
+          NextDistance: 27,88569
+          PrevDistance: 35,01760
+          Translate:
+            - 1678,59600
+            - 344,10810
+            - -2977,65500
+        - Control0:
+            - 1691,13000
+            - 344,30430
+            - -2968,27500
+          Control1:
+            - 1717,31500
+            - 344,93120
+            - -2970,28200
+          Gyaml: Guide
+          Hash: '15252871111032100149'
+          NextDistance: 41,10272
+          PrevDistance: 27,88569
+          Translate:
+            - 1704,22200
+            - 344,61770
+            - -2969,27900
+        - Control0:
+            - 1731,65800
+            - 346,37630
+            - -2982,91900
+          Control1:
+            - 1742,70000
+            - 347,31390
+            - -3000,53600
+          Gyaml: Guide
+          Hash: '14590603014595906396'
+          NextDistance: 38,79609
+          PrevDistance: 41,10272
+          Translate:
+            - 1737,17900
+            - 346,84510
+            - -2991,72800
+        - Control0:
+            - 1746,56600
+            - 346,68140
+            - -3016,17700
+          Control1:
+            - 1737,75400
+            - 346,21630
+            - -3041,97500
+          Gyaml: Guide
+          Hash: '12690087638367940165'
+          NextDistance: 37,05032
+          PrevDistance: 38,79609
+          Translate:
+            - 1742,16000
+            - 346,44890
+            - -3029,07600
+        - Control0:
+            - 1723,39300
+            - 346,22650
+            - -3051,38200
+          Control1:
+            - 1709,72300
+            - 345,87860
+            - -3058,00800
+          Gyaml: Guide
+          Hash: '17656859355089136726'
+          NextDistance: 17,71362
+          PrevDistance: 37,05032
+          Translate:
+            - 1716,55800
+            - 346,05260
+            - -3054,69500
+        - Control0:
+            - 1707,64500
+            - 345,81920
+            - -3058,78700
+          Control1:
+            - 1691,71900
+            - 345,49000
+            - -3060,36200
+          Gyaml: Guide
+          Hash: '13153807001524574686'
+          PrevDistance: 17,71362
+          Translate:
+            - 1699,68200
+            - 345,65460
+            - -3059,57500
+    - Gyaml: Trolley
+      Hash: '16263685199963795746'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '3279180379211238735', RailPointIndex: !l 6}
+          Gyaml: Trolley
+          Hash: '12319603144461917651'
+          NextDistance: 5,38517
+          Translate:
+            - 1696,65600
+            - 343,09560
+            - -2958,01000
+        - Connections:
+            - {RailHash: '6191776664945268112', RailPointIndex: !l 1}
+          Gyaml: Trolley
+          Hash: '9617965351963173328'
+          PrevDistance: 5,38517
+          Translate:
+            - 1691,92500
+            - 343,09560
+            - -2960,58300
+  SimultaneousGroups:
+    - - 2067545728690078705
+      - 2509086082890279991
+      - 2625927441989829894
+      - 6579415778389095539
+      - 10005309105459308109
+      - 13216758401708623415
+      - 13219692472370118710
+      - 14461107582903105777
+      - 15413274220605335672
+      - 17189476427065088837
+      - 17949264994326176563
+      - 18419660298870904457
+    - - 394498215557161017
+      - 1850764235442664829
+      - 2110681084559067788
+      - 7992337256640773853
+      - 12071037944778169227
+      - 12864958156491571058
+      - 13848173511824689599
+      - 15556281759660868453
+      - 17293268591870632426
+      - 17838997820036613151
+      - 18435128242927478751
+    - - 3197709776686436666
+      - 4563445103573070209
+      - 18409105033596065380
+    - - 4401997897383492970
+      - 6570711755233517667
+      - 14046422808074735827
+    - - 5569409050897150352
+      - 6353935628022750780
+      - 12504008438393041042
+    - - 5642765736046550121
+      - 8361384571704329932
+      - 11936987207760945793
+    - - 3365997177050933564
+      - 13838595468571654082

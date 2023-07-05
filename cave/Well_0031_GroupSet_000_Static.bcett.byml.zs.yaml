@@ -1,0 +1,84 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Bakeable: true
+      Gyaml: Strange_Beacon_CookSet
+      Hash: '3128569341199945249'
+      Phive:
+        Placement: {ID: 3128569341199945249}
+      SRTHash: !u 3839185206
+      Translate:
+        - 1713,77100
+        - 119,25790
+        - 651,89890
+    - Gyaml: Well_0031
+      Hash: '10300291960260722015'
+      Phive:
+        Placement: {ID: 10300291960260722015}
+      SRTHash: !u 4219600461
+      Translate:
+        - 1716,67100
+        - 110,05790
+        - 653,49890
+    - Gyaml: Npc_Strange_Beacon
+      Hash: '12526058364116610452'
+      Links:
+        - {Dst: 11797150987427308177, Gyaml: Reference, Name: Reference, Src: 12526058364116610452}
+        - {Dst: 3128569341199945249, Gyaml: Reference, Name: Reference, Src: 12526058364116610452}
+      MoveRadius: 1,53847
+      Phive:
+        Placement: {ID: 12526058364116610452}
+      Rotate:
+        - -0,01316
+        - 0,00000
+        - -0,05084
+      SRTHash: !u 4099822914
+      Translate:
+        - 1711,09100
+        - 119,38080
+        - 652,13820
+    - Gyaml: AnchorAction1
+      Hash: '11797150987427308177'
+      Phive:
+        Placement: {ID: 11797150987427308177}
+      Rotate:
+        - 0,00000
+        - 1,03056
+        - 0,00000
+      SRTHash: !u 466530420
+      Translate:
+        - 1712,03200
+        - 119,32510
+        - 650,92240
+    - Dynamic: {RequestEventName: Npc_Strange_Beacon_TouchPot}
+      Gyaml: EventRequestActor
+      Hash: '7699670438847300272'
+      Phive:
+        Placement: {ID: 7699670438847300272}
+      Rotate:
+        - -0,11425
+        - 0,00000
+        - -0,09130
+      SRTHash: !u 4038216144
+      Translate:
+        - 1716,02900
+        - 120,20990
+        - 653,74890
+  AiGroups:
+    - Hash: '1419956335571817780'
+      Logic: Logic/Module/Well_0031_GroupSet_000/Well_0031_GroupSet_000_b793.logic.module.ain
+      References:
+        - {Id: Strange_Beacon_CookSet_efe9, Path: Strange_Beacon_CookSet_efe9, Reference: 3128569341199945249}
+        - {Id: EventRequestActor_0767, Path: EventRequestActor_0767, Reference: 7699670438847300272}
+  FarDeleteGroups:
+    - - 3128569341199945249
+      - 7699670438847300272
+  FilePath: Work/Banc/Scene/Prefab/Well_0031_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 3128569341199945249
+      - 7699670438847300272

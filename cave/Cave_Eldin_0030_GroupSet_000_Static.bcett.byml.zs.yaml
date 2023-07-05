@@ -1,0 +1,175 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_Eldin_0030
+      Hash: '15364417760441084534'
+      Phive:
+        Placement: {ID: 15364417760441084534}
+      Rotate:
+        - 0,00000
+        - 0,75556
+        - 0,00000
+      SRTHash: !u 2786615053
+      Translate:
+        - 2187,41200
+        - 621,92020
+        - -3095,73800
+    - Bakeable: true
+      Gyaml: FldObj_HotWaterPlane_A_01
+      Hash: '16388687582113886951'
+      Phive:
+        Placement: {ID: 16388687582113886951}
+      Rotate:
+        - 3,14159
+        - -0,26861
+        - 3,14159
+      SRTHash: !u 2359076008
+      Scale:
+        - 6,21429
+        - 4,00000
+        - 4,00000
+      Translate:
+        - 2248,18300
+        - 510,38250
+        - -3045,49300
+    - Bakeable: true
+      Gyaml: FldObj_HotWaterPlane_A_01
+      Hash: '13688037195726701559'
+      Phive:
+        Placement: {ID: 13688037195726701559}
+      Rotate:
+        - 3,14159
+        - -0,79221
+        - 3,14159
+      SRTHash: !u 4119529967
+      Scale:
+        - 5,00000
+        - 5,00000
+        - 5,48302
+      Translate:
+        - 2281,08800
+        - 510,79010
+        - -3004,36600
+    - Dynamic: {Drop__DropActor: Armor_183_Head}
+      Gyaml: TBox_Field_Stone
+      Hash: '4678174494243170370'
+      Phive:
+        Placement: {ID: 4678174494243170370}
+      Rotate:
+        - 3,14159
+        - -0,37052
+        - 3,14159
+      SRTHash: !u 3104369094
+      Translate:
+        - 2283,21100
+        - 512,49520
+        - -2990,98700
+    - Bakeable: true
+      Gyaml: MinusObj_EldinStoneRuinPillar_A_01
+      Hash: '15925572538506907646'
+      Links:
+        - {Dst: 14914709560620822417, Gyaml: Reference, Name: Reference, Src: 15925572538506907646}
+      Phive:
+        Placement: {ID: 15925572538506907646}
+      Rotate:
+        - 0,00000
+        - 0,38260
+        - 0,00000
+      SRTHash: !u 1583534798
+      Translate:
+        - 2298,17200
+        - 484,37010
+        - -2985,08900
+    - Bakeable: true
+      Gyaml: MinusObj_EldinStoneRuinPillar_A_01_Far
+      Hash: '14914709560620822417'
+      Phive:
+        Placement: {ID: 15925572538506907646}
+      Rotate:
+        - 0,00000
+        - 0,38260
+        - 0,00000
+      SRTHash: !u 1583534798
+      Translate:
+        - 2298,17200
+        - 484,37010
+        - -2985,08900
+    - Bakeable: true
+      Gyaml: DgnObj_Fire_Floor_A_02
+      Hash: '5271378266633641555'
+      Links:
+        - {Dst: 309065385860909662, Gyaml: Reference, Name: Reference, Src: 5271378266633641555}
+      Phive:
+        Placement: {ID: 5271378266633641555}
+      Rotate:
+        - 3,14159
+        - -0,38260
+        - 3,14159
+      SRTHash: !u 3138617214
+      Scale:
+        - 0,27164
+        - 1,00000
+        - 0,20349
+      Translate:
+        - 2282,93700
+        - 512,28780
+        - -2992,16500
+    - Bakeable: true
+      Gyaml: DgnObj_Fire_Floor_A_02_Far
+      Hash: '309065385860909662'
+      Phive:
+        Placement: {ID: 5271378266633641555}
+      Rotate:
+        - 3,14159
+        - -0,38260
+        - 3,14159
+      SRTHash: !u 3138617214
+      Scale:
+        - 0,27164
+        - 1,00000
+        - 0,20349
+      Translate:
+        - 2282,93700
+        - 512,28780
+        - -2992,16500
+    - Bakeable: true
+      Gyaml: MinusObj_EldinStoneRuinPillar_A_01
+      Hash: '17593583732112415089'
+      Links:
+        - {Dst: 16704336705102051614, Gyaml: Reference, Name: Reference, Src: 17593583732112415089}
+      Phive:
+        Placement: {ID: 17593583732112415089}
+      Rotate:
+        - 3,14159
+        - -0,38260
+        - 3,14159
+      SRTHash: !u 4182687103
+      Translate:
+        - 2275,02900
+        - 489,59550
+        - -2976,43400
+    - Bakeable: true
+      Gyaml: MinusObj_EldinStoneRuinPillar_A_01_Far
+      Hash: '16704336705102051614'
+      Phive:
+        Placement: {ID: 17593583732112415089}
+      Rotate:
+        - 3,14159
+        - -0,38260
+        - 3,14159
+      SRTHash: !u 4182687103
+      Translate:
+        - 2275,02900
+        - 489,59550
+        - -2976,43400
+  AiGroups:
+    - Hash: '13847374259544012653'
+      Logic: Logic/Module/Cave_Eldin_0030_GroupSet_000/Cave_Eldin_0030_GroupSet_000_495d.logic.module.ain
+      References:
+        - {Id: TreasureLocaterStoneBox_5b35, Path: TreasureLocaterStoneBox_5b35, Reference: 4678174494243170370}
+  FilePath: Work/Banc/Scene/Prefab/Cave_Eldin_0030_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []

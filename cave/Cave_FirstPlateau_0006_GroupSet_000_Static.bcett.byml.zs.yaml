@@ -1,0 +1,51 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_FirstPlateau_0006
+      Hash: '6493885367581127907'
+      Phive:
+        Placement: {ID: 6493885367581127907}
+      SRTHash: !u 3168269656
+      Translate:
+        - -452,50000
+        - 178,60000
+        - 1992,97500
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '1459137423816483439'
+      Phive:
+        Placement: {ID: 1459137423816483439}
+      SRTHash: !u 3923615667
+      Scale:
+        - 14,00000
+        - 150,00000
+        - 14,00000
+      Translate:
+        - -452,50000
+        - -221,40000
+        - 1992,97500
+    - Bakeable: true
+      Gyaml: Miasma_DeepHole_Normal
+      Hash: '6252707877013453195'
+      Phive:
+        Placement: {ID: 6252707877013453195}
+      SRTHash: !u 2400550566
+      Scale:
+        - 1,90000
+        - 22,50000
+        - 1,90000
+      Translate:
+        - -452,61200
+        - -264,29410
+        - 1993,23800
+  AiGroups:
+    - Hash: '1908204022830769292'
+      Logic: Logic/Module/DeepHole_Common_LoadMinusFieldForceCounter/DeepHole_Common_LoadMinusFieldForceCounter_a437.logic.module.ain
+      References:
+        - {Id: Area_e397, Path: Area_e397, Reference: 1459137423816483439}
+  FilePath: Work/Banc/Scene/Prefab/Cave_FirstPlateau_0006_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []

@@ -1,0 +1,136 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Well_0010
+      Hash: '6983407287534870829'
+      Phive:
+        Placement: {ID: 6983407287534870829}
+      Rotate:
+        - 0,00000
+        - -1,29825
+        - 0,00000
+      SRTHash: !u 3395872326
+      Translate:
+        - -879,17900
+        - 127,22740
+        - 1101,61500
+    - Bakeable: true
+      Gyaml: FldObj_WaterPlane_A_01
+      Hash: '15834457744790592964'
+      Phive:
+        Placement: {ID: 15834457744790592964}
+      Rotate:
+        - 0,00000
+        - 0,50871
+        - 0,00000
+      SRTHash: !u 2371465347
+      Scale:
+        - 4,00000
+        - 4,00000
+        - 4,00000
+      Translate:
+        - -880,67900
+        - 109,72530
+        - 1098,61500
+    - Dynamic: {AssassinBodyType: !l 0}
+      Gyaml: Npc_Assassin_007
+      Hash: '8749759536765502528'
+      Links:
+        - {Dst: 1581466538140701181, Gyaml: Reference, Name: Reference, Src: 8749759536765502528}
+      MoveRadius: 0,00033
+      Phive:
+        Placement: {ID: 8749759536765502528}
+      Rotate:
+        - -3,14159
+        - -0,91060
+        - -3,14159
+      SRTHash: !u 3444006162
+      Translate:
+        - -882,12270
+        - 109,91880
+        - 1107,90600
+    - Gyaml: AnchorAction1
+      Hash: '1581466538140701181'
+      Phive:
+        Placement: {ID: 1581466538140701181}
+      Rotate:
+        - -3,14159
+        - -0,91060
+        - -3,14159
+      SRTHash: !u 3444006162
+      Translate:
+        - -882,12250
+        - 109,91860
+        - 1107,90600
+    - Dynamic: {ForbiddenAll: false, ForbiddenGeneratingAnimal: true, ForbiddenGeneratingBird: true, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingSkyFallenBox: true}
+      Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '12983520530342549331'
+      Phive:
+        Placement: {ID: 12983520530342549331}
+      Rotate:
+        - -3,14159
+        - -0,91060
+        - -3,14159
+      SRTHash: !u 1212699587
+      Scale:
+        - 40,00000
+        - 40,00000
+        - 40,00000
+      Translate:
+        - -882,12260
+        - 109,92800
+        - 1107,90600
+    - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '15516201241889431844'
+      Phive:
+        Placement: {ID: 15516201241889431844}
+      Rotate:
+        - -3,14159
+        - -0,91060
+        - -3,14159
+      SRTHash: !u 1548696036
+      Scale:
+        - 50,00000
+        - 50,00000
+        - 50,00000
+      Translate:
+        - -882,12250
+        - 59,91858
+        - 1107,90600
+    - Dynamic: {AreaRenderType: !l 2}
+      Gyaml: Area
+      Hash: '14063357258813549059'
+      Phive:
+        Placement: {ID: 14063357258813549059}
+      Rotate:
+        - 0,05884
+        - 0,24004
+        - 0,24289
+      SRTHash: !u 932987474
+      Scale:
+        - 10,00000
+        - 8,00000
+        - 15,00000
+      Translate:
+        - -894,52500
+        - 105,98730
+        - 1103,11800
+  AiGroups:
+    - Hash: '10364136694551274115'
+      Logic: Logic/Module/Set_Npc_Assassin_007/Set_Npc_Assassin_007_d573.logic.module.ain
+      References:
+        - {Id: AnchorAction1_3e29, Path: AnchorAction1_3e29, Reference: 1581466538140701181}
+        - {Id: Npc_Assassin_008_8929, Path: Npc_Assassin_008_8929, Reference: 8749759536765502528}
+  FarDeleteGroups:
+    - - 1581466538140701181
+      - 8749759536765502528
+  FilePath: Work/Banc/Scene/Prefab/Well_0010_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 1581466538140701181
+      - 8749759536765502528

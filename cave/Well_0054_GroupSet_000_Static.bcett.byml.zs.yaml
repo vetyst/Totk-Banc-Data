@@ -1,0 +1,170 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Bakeable: true
+      Gyaml: FldObj_HyliaWoodWell_A_01
+      Hash: '1748363856915863217'
+      Phive:
+        Placement: {ID: 1748363856915863217}
+      Rotate:
+        - 0,00000
+        - -0,16160
+        - 0,00000
+      SRTHash: !u 4019999302
+      Translate:
+        - 2617,51900
+        - 253,18400
+        - -1169,35800
+    - Bakeable: true
+      Gyaml: FldObj_HyliaWoodWell_A_02
+      Hash: '10845273526836533414'
+      Phive:
+        Placement: {ID: 10845273526836533414}
+      Rotate:
+        - -3,14159
+        - -0,76342
+        - 3,14159
+      SRTHash: !u 1014764264
+      Translate:
+        - 2617,51900
+        - 253,39710
+        - -1169,35800
+    - Gyaml: Well_0054
+      Hash: '7784255329096214134'
+      Phive:
+        Placement: {ID: 7784255329096214134}
+      Rotate:
+        - 0,00000
+        - -1,28638
+        - 0,00000
+      SRTHash: !u 3097180287
+      Translate:
+        - 2617,52000
+        - 253,18400
+        - -1169,35800
+    - Bakeable: true
+      Gyaml: FldObj_WaterPlane_A_01
+      Hash: '8257877551837387332'
+      Phive:
+        Placement: {ID: 8257877551837387332}
+      Rotate:
+        - 0,00000
+        - 1,30597
+        - 0,00000
+      SRTHash: !u 3946135392
+      Scale:
+        - 4,00000
+        - 4,00000
+        - 4,00000
+      Translate:
+        - 2621,37300
+        - 232,72960
+        - -1159,94800
+    - Dynamic: {Drop__DropActor: Weapon_Shield_002, MimicTexture: Sand_HardMad_A, PlacementMotion_DigOutDown: true, PlacementMotion_MotionType: !l 2}
+      Gyaml: TBox_Field_Iron
+      Hash: '16738460177730437386'
+      Links:
+        - {Dst: 17945692353417946900, Gyaml: BuriedPopDirection, Name: BuriedPopDirection, Src: 16738460177730437386}
+      Phive:
+        Placement: {ID: 16738460177730437386}
+      Rotate:
+        - 3,14033
+        - -0,73157
+        - -3,14126
+      SRTHash: !u 1394161911
+      Translate:
+        - 2629,93500
+        - 233,93170
+        - -1177,90400
+    - Gyaml: BuriedObject_PopUpDir_Anchor
+      Hash: '17945692353417946900'
+      Phive:
+        Placement: {ID: 17945692353417946900}
+      Rotate:
+        - 1,28288
+        - 0,77405
+        - 1,80105
+      SRTHash: !u 2850313079
+      Translate:
+        - 2629,52900
+        - 235,21670
+        - -1176,43300
+    - Gyaml: Npc_WellMania
+      Hash: '13142639251097591960'
+      Links:
+        - {Dst: 156792585602200922, Gyaml: Reference, Name: Reference, Src: 13142639251097591960}
+      Phive:
+        Placement: {ID: 13142639251097591960}
+      Presence: {FlagName: WellCollection_InHorseWell, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - 0,96778
+        - 0,00000
+      SRTHash: !u 3026989875
+      Translate:
+        - 2607,74600
+        - 233,18400
+        - -1151,73100
+    - Gyaml: AnchorAction1
+      Hash: '156792585602200922'
+      Phive:
+        Placement: {ID: 156792585602200922}
+      Rotate:
+        - 0,00000
+        - 0,96778
+        - 0,00000
+      SRTHash: !u 4264194342
+      Translate:
+        - 2607,74600
+        - 233,18400
+        - -1151,73100
+    - Dynamic: {Drop__DropActor: PutRupee_Purple}
+      Gyaml: TBox_Field_Wood
+      Hash: '16351082162431462288'
+      IsInWater: true
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 16351082162431462288}
+      Rotate:
+        - 2,79286
+        - -1,56395
+        - -3,13181
+      SRTHash: !u 1668115111
+      Translate:
+        - 2636,19700
+        - 232,37540
+        - -1159,68800
+    - Gyaml: Area
+      Hash: '16349718963634413237'
+      Phive:
+        Placement: {ID: 16349718963634413237}
+      Rotate:
+        - -3,14159
+        - 1,27409
+        - 3,14159
+      SRTHash: !u 1592434181
+      Scale:
+        - 15,00000
+        - 5,00000
+        - 10,00000
+      Translate:
+        - 2606,11200
+        - 230,72980
+        - -1158,55100
+  AiGroups:
+    - Hash: '6459932158152236152'
+      Logic: Logic/Module/WellCollection_MossFew/WellCollection_MossFew_c71c.logic.module.ain
+      References:
+        - {Id: Area_d7d0, Path: Area_d7d0, Reference: 16349718963634413237}
+  FarDeleteGroups:
+    - - 1748363856915863217
+      - 10845273526836533414
+  FilePath: Work/Banc/Scene/Prefab/Well_0054_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 1748363856915863217
+      - 10845273526836533414

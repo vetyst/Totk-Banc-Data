@@ -1,0 +1,150 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_Eldin_0019
+      Hash: '4171174230461296046'
+      Phive:
+        Placement: {ID: 4171174230461296046}
+      SRTHash: !u 3042108514
+      Translate:
+        - 2536,00000
+        - 791,00000
+        - -2604,00000
+    - Gyaml: Area
+      Hash: '2629744548689412664'
+      Phive:
+        Placement: {ID: 2629744548689412664}
+      Rotate:
+        - 0,00000
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 1346161839
+      Scale:
+        - 100,00000
+        - 500,00000
+        - 100,00000
+      Translate:
+        - 2536,00000
+        - 591,00000
+        - -2604,00000
+    - Bakeable: true
+      Gyaml: Miasma_DeepHole_Dense
+      Hash: '631723580121931573'
+      Phive:
+        Placement: {ID: 631723580121931573}
+      SRTHash: !u 2418299954
+      Scale:
+        - 10,47437
+        - 72,78022
+        - 10,47437
+      Translate:
+        - 2536,00000
+        - -543,50000
+        - -2611,12300
+    - Bakeable: true
+      Gyaml: MiasmaCancel_Sphere_150_ForManualPlace
+      Hash: '9881732079309925723'
+      Phive:
+        Placement: {ID: 9881732079309925723}
+      SRTHash: !u 268573616
+      Translate:
+        - 2534,79000
+        - -207,71110
+        - -2616,18700
+    - Bakeable: true
+      Gyaml: MiasmaCancel_Sphere_5_ForManualPlace
+      Hash: '12363745725583605073'
+      Phive:
+        Placement: {ID: 12363745725583605073}
+      SRTHash: !u 1590726421
+      Scale:
+        - 7,70572
+        - 7,70572
+        - 7,70572
+      Translate:
+        - 2565,17100
+        - 310,67500
+        - -2584,00600
+    - Bakeable: true
+      Gyaml: MiasmaCancel_Sphere_5_ForManualPlace
+      Hash: '14779378940486124686'
+      Phive:
+        Placement: {ID: 14779378940486124686}
+      SRTHash: !u 468052062
+      Scale:
+        - 7,70572
+        - 7,70572
+        - 7,70572
+      Translate:
+        - 2509,92100
+        - 438,67500
+        - -2640,75600
+    - Bakeable: true
+      Gyaml: MiasmaCancel_Sphere_5_ForManualPlace
+      Hash: '8070600441928818737'
+      Phive:
+        Placement: {ID: 8070600441928818737}
+      SRTHash: !u 1655050341
+      Scale:
+        - 8,96998
+        - 8,96998
+        - 8,96998
+      Translate:
+        - 2521,17100
+        - 125,42500
+        - -2584,50600
+    - Bakeable: true
+      Gyaml: MiasmaCancel_Sphere_5_ForManualPlace
+      Hash: '15667868969910802490'
+      Phive:
+        Placement: {ID: 15667868969910802490}
+      SRTHash: !u 331630417
+      Scale:
+        - 4,64360
+        - 4,64360
+        - 4,64360
+      Translate:
+        - 2511,35700
+        - -63,86041
+        - -2651,07200
+    - Bakeable: true
+      Gyaml: Obj_RockSetDeathMt_F_01
+      Hash: '3994513702437690365'
+      Links:
+        - {Dst: 5161469051692959543, Gyaml: Reference, Name: Reference, Src: 3994513702437690365}
+      Phive:
+        Placement: {ID: 3994513702437690365}
+      Rotate:
+        - -1,31489
+        - -0,13529
+        - 0,40734
+      SRTHash: !u 2387235729
+      Translate:
+        - 2540,94800
+        - -102,09330
+        - -2655,91000
+    - Bakeable: true
+      Gyaml: Obj_RockSetDeathMt_F_01_Far
+      Hash: '5161469051692959543'
+      Phive:
+        Placement: {ID: 3994513702437690365}
+      Rotate:
+        - -1,31489
+        - -0,13529
+        - 0,40734
+      SRTHash: !u 2387235729
+      Translate:
+        - 2540,94800
+        - -102,09330
+        - -2655,91000
+  AiGroups:
+    - Hash: '17578539294547063704'
+      Logic: Logic/Module/DeepHole_Eldin_Crater/DeepHole_Eldin_Crater_0c86.logic.module.ain
+      References:
+        - {Id: Area_3620, Path: Area_3620, Reference: 2629744548689412664}
+  FilePath: Work/Banc/Scene/Prefab/DeepHole_Eldin_Crater.bcett.json
+  PhiveHeader:
+    PlacementGroups: []

@@ -1,0 +1,246 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_HyruleForest_0001
+      Hash: '7674214947372608289'
+      Phive:
+        Placement: {ID: 7674214947372608289}
+      Rotate:
+        - 0,00000
+        - -0,52360
+        - 0,00000
+      SRTHash: !u 769902006
+      Translate:
+        - 672,05290
+        - 155,79500
+        - -1382,05500
+    - Dynamic: {CreateHorablinMovingType: !l 1, EquipmentUser_Attachment_Weapon: Weapon_Spear_021, EquipmentUser_Weapon: Weapon_Spear_103, IsSoundAlarmOnDiscoverBattleTarget: true, Role: !l 1}
+      Gyaml: Enemy_Horablin_Guard_Junior
+      Hash: '14149808111222745438'
+      Phive:
+        Placement: {ID: 14149808111222745438}
+      Rotate:
+        - -3,14159
+        - -1,48136
+        - -3,14159
+      SRTHash: !u 3173362656
+      Translate:
+        - 764,58400
+        - 157,27380
+        - -1369,22000
+    - Dynamic: {CreateHorablinMovingType: !l 3, EquipmentUser_Weapon: Weapon_Spear_112, IsLevelSensorTarget: true}
+      Gyaml: Enemy_Horablin_Middle
+      Hash: '2385135702242281485'
+      Phive:
+        Placement: {ID: 2385135702242281485}
+      Rotate:
+        - 3,14159
+        - 0,70390
+        - 0,00000
+      SRTHash: !u 383302800
+      Translate:
+        - 781,56680
+        - 163,83930
+        - -1346,00200
+    - Dynamic: {CreateHorablinMovingType: !l 3, EquipmentUser_Weapon: Weapon_Spear_103}
+      Gyaml: Enemy_Horablin_Junior
+      Hash: '6373998176460978082'
+      Phive:
+        Placement: {ID: 6373998176460978082}
+      Rotate:
+        - 0,00000
+        - -0,39723
+        - -3,14159
+      SRTHash: !u 4103240976
+      Translate:
+        - 774,61070
+        - 162,81860
+        - -1358,51800
+    - Dynamic: {CreateHorablinMovingType: !l 3, EquipmentUser_Weapon: Weapon_Spear_103}
+      Gyaml: Enemy_Horablin_Junior
+      Hash: '7617473173579459258'
+      Phive:
+        Placement: {ID: 7617473173579459258}
+      Rotate:
+        - 3,14157
+        - -1,45547
+        - 0,00003
+      SRTHash: !u 4245263554
+      Translate:
+        - 770,57720
+        - 161,89140
+        - -1345,38400
+    - Gyaml: LookTag
+      Hash: '2462773720993647742'
+      Phive:
+        Placement: {ID: 2462773720993647742}
+      Rotate:
+        - -3,14159
+        - -0,61086
+        - 3,14159
+      SRTHash: !u 3757318295
+      Translate:
+        - 791,54050
+        - 159,33130
+        - -1351,83700
+    - Dynamic: {Drop__DropActor: Weapon_Spear_108, Drop__DropActor_Attachment: Item_Enemy_106}
+      Gyaml: TBox_Field_Enemy
+      Hash: '15966421239424599898'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 15966421239424599898}
+      Rotate:
+        - -3,14159
+        - -1,13446
+        - 3,14159
+      SRTHash: !u 4279826109
+      Translate:
+        - 792,20970
+        - 157,57140
+        - -1350,35700
+    - Dynamic: {RequestEventName: DmF_SY_BaseBreak}
+      Gyaml: EventRequestActor
+      Hash: '16027193856607984389'
+      Phive:
+        Placement: {ID: 16027193856607984389}
+      Rotate:
+        - -3,14159
+        - -1,13446
+        - 3,14159
+      SRTHash: !u 2503594572
+      Translate:
+        - 794,07560
+        - 158,53140
+        - -1355,46900
+    - Dynamic:
+        InstanceID_0: 16640917443997742132
+        Pos_0:
+          - 757,18900
+          - 153,57500
+          - -1378,81300
+        Rot_0:
+          - 1,80919
+          - 0,74500
+          - 1,08700
+      Gyaml: LightBall_Small
+      Hash: '14986893255755640400'
+      Phive:
+        Placement: {ID: 14986893255755640400}
+      Rotate:
+        - -0,53058
+        - 0,77475
+        - 0,78392
+      SRTHash: !u 3329989089
+      Translate:
+        - 757,55430
+        - 153,62260
+        - -1378,51400
+    - Dynamic:
+        InstanceID_0: 16640917443997742132
+        Pos_0:
+          - 757,18900
+          - 153,57500
+          - -1378,81300
+        Rot_0:
+          - 1,80919
+          - 0,74500
+          - 1,08700
+      Gyaml: LightBall_Small
+      Hash: '5209339178109655320'
+      Links:
+        - {Dst: 14986893255755640400, Gyaml: StackInfo, Name: StackInfo, Src: 5209339178109655320}
+      Phive:
+        Placement: {ID: 5209339178109655320}
+      Rotate:
+        - 0,14807
+        - -0,06666
+        - 2,47139
+      SRTHash: !u 3171328244
+      Translate:
+        - 757,57070
+        - 153,95120
+        - -1378,57700
+    - Dynamic:
+        InstanceID_0: 287824132238254759
+        Pos_0:
+          - 759,26600
+          - 154,07300
+          - -1380,48000
+        Rot_0:
+          - 0,81800
+          - 0,06400
+          - -0,69200
+      Gyaml: LightBall_Small
+      Hash: '9267167478113760536'
+      Links:
+        - {Dst: 10987989790553718988, Gyaml: StackInfo, Name: StackInfo, Src: 9267167478113760536}
+      Phive:
+        Placement: {ID: 9267167478113760536}
+      Rotate:
+        - -0,43947
+        - -0,47772
+        - 3,06794
+      SRTHash: !u 2649637954
+      Translate:
+        - 759,56850
+        - 154,59750
+        - -1379,99900
+    - Dynamic:
+        InstanceID_0: 287824132238254759
+        Pos_0:
+          - 759,26600
+          - 154,07300
+          - -1380,48000
+        Rot_0:
+          - 0,81800
+          - 0,06400
+          - -0,69200
+      Gyaml: LightBall_Small
+      Hash: '10987989790553718988'
+      Phive:
+        Placement: {ID: 10987989790553718988}
+      Rotate:
+        - -0,61446
+        - 0,81714
+        - 0,81412
+      SRTHash: !u 3421482238
+      Translate:
+        - 759,67270
+        - 154,18470
+        - -1380,07400
+  AiGroups:
+    - Hash: '13264027727374789'
+      Logic: Logic/Module/Cave_HyruleForest_0001_GroupSet_000/Cave_HyruleForest_0001_GroupSet_000_7f10.logic.module.ain
+      References:
+        - {Id: EnemyLocaterSpeciesHorablin_eca9, Path: _6589/EnemyLocaterSpeciesHorablin_eca9, Reference: 6373998176460978082}
+        - {Id: AiGroup, InstanceName: SetEnemySpot_Holablin_KeyOnly_e6ef_8b9e, Logic: Logic/Module/SetEnemySpot_Holablin_KeyOnly/SetEnemySpot_Holablin_KeyOnly_e6ef.logic.module.ain, Path: _6589/AiGroup}
+        - {Id: EnemyLocaterSpeciesHorablin_d44a, Path: _c7e3/EnemyLocaterSpeciesHorablin_d44a, Reference: 2385135702242281485}
+        - {Id: AiGroup, InstanceName: SetEnemySpot_Holablin_LeaderOnly_ba54_d30a, Logic: Logic/Module/SetEnemySpot_Holablin_LeaderOnly/SetEnemySpot_Holablin_LeaderOnly_ba54.logic.module.ain, Path: _c7e3/AiGroup}
+        - {Id: TreasureLocaterEnemy_3b88, Path: _e498/TreasureLocaterEnemy_3b88, Reference: 15966421239424599898}
+        - {Id: EventRequestActor_5bd7, Path: _e498/_986e/EventRequestActor_5bd7, Reference: 16027193856607984389}
+        - {Id: AiGroup, InstanceName: EnemyBaseBreakCore_e1d9_8061, Logic: Logic/Module/EnemyBaseBreakCore/EnemyBaseBreakCore_e1d9.logic.module.ain, Path: _e498/_986e/AiGroup}
+        - {Id: AiGroup, InstanceName: SetEnemySpot_TreasureNoTower_12ac_5dde, Logic: Logic/Module/SetEnemySpot_TreasureNoTower/SetEnemySpot_TreasureNoTower_12ac.logic.module.ain, Path: _e498/AiGroup}
+        - {Id: EnemyLocaterSpeciesHorablin_eca9, Path: _31f4/EnemyLocaterSpeciesHorablin_eca9, Reference: 7617473173579459258}
+        - {Id: AiGroup, InstanceName: SetEnemySpot_Holablin_KeyOnly_e6ef_5809, Logic: Logic/Module/SetEnemySpot_Holablin_KeyOnly/SetEnemySpot_Holablin_KeyOnly_e6ef.logic.module.ain, Path: _31f4/AiGroup}
+        - {Id: EnemyLocaterSpeciesHorablin_e9ec, Path: _37be/EnemyLocaterSpeciesHorablin_e9ec, Reference: 14149808111222745438}
+        - {Id: AiGroup, InstanceName: SetEnemySpot_Holablin_HangingLookout_LongReach_2470_ca65, Logic: Logic/Module/SetEnemySpot_Holablin_HangingLookout_LongReach/SetEnemySpot_Holablin_HangingLookout_LongReach_2470.logic.module.ain, Path: _37be/AiGroup}
+  FarDeleteGroups:
+    - - 2385135702242281485
+      - 6373998176460978082
+      - 7617473173579459258
+      - 14149808111222745438
+      - 15966421239424599898
+      - 16027193856607984389
+  FilePath: Work/Banc/Scene/Prefab/Cave_HyruleForest_0001_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 2385135702242281485
+      - 6373998176460978082
+      - 7617473173579459258
+      - 14149808111222745438
+      - 15966421239424599898
+      - 16027193856607984389

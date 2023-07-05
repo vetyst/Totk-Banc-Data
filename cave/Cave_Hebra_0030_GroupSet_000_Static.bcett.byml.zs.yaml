@@ -1,0 +1,245 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Bakeable: true
+      Gyaml: FldObj_WaterPlane_A_01
+      Hash: '3543584782086912389'
+      Phive:
+        Placement: {ID: 3543584782086912389}
+      SRTHash: !u 3825237133
+      Scale:
+        - 4,00000
+        - 4,00000
+        - 4,00000
+      Translate:
+        - -3300,00000
+        - 475,00000
+        - -2603,50000
+    - Gyaml: Cave_Hebra_0030
+      Hash: '5963137566708027141'
+      Phive:
+        Placement: {ID: 5963137566708027141}
+      SRTHash: !u 1213499967
+      Translate:
+        - -3335,50000
+        - 415,00000
+        - -2487,50000
+    - Gyaml: AscendingCurrent
+      Hash: '17985397617591636713'
+      Phive:
+        Placement: {ID: 17985397617591636713}
+      SRTHash: !u 1193483475
+      Scale:
+        - 14,00000
+        - 18,00000
+        - 14,00000
+      Translate:
+        - -3343,00000
+        - 421,00000
+        - -2546,50000
+    - Bakeable: true
+      Gyaml: FireWood
+      Hash: '17745790648700779'
+      Phive:
+        Placement: {ID: 17745790648700779}
+      Rotate:
+        - 0,01732
+        - 0,00000
+        - 0,00000
+      SRTHash: !u 3423116973
+      Translate:
+        - -3245,00000
+        - 538,38450
+        - -2584,00100
+    - Dynamic: {CreateHorablinMovingType: !l 3, EquipmentUser_Weapon: Weapon_Spear_106, IsLevelSensorTarget: true}
+      Gyaml: Enemy_Horablin_Junior
+      Hash: '6135400650557418089'
+      Phive:
+        Placement: {ID: 6135400650557418089}
+      Rotate:
+        - 0,00000
+        - 0,16888
+        - -3,14159
+      SRTHash: !u 2729067484
+      Translate:
+        - -3327,57600
+        - 487,26120
+        - -2603,72700
+    - Gyaml: Npc_HighMountain030
+      Hash: '4845366554678223928'
+      Links:
+        - {Dst: 1183549517598108045, Gyaml: Reference, Name: Reference, Src: 4845366554678223928}
+      MoveRadius: 6,15996
+      Phive:
+        Placement: {ID: 4845366554678223928}
+      Rotate:
+        - -3,14159
+        - 1,21919
+        - -3,14159
+      SRTHash: !u 2544608564
+      Translate:
+        - -3397,50000
+        - 419,35060
+        - -2514,50000
+    - Gyaml: AnchorAction2
+      Hash: '1183549517598108045'
+      Phive:
+        Placement: {ID: 1183549517598108045}
+      Rotate:
+        - -3,14159
+        - -0,08727
+        - -3,14159
+      SRTHash: !u 2532753802
+      Translate:
+        - -3403,51000
+        - 420,55110
+        - -2515,11700
+    - Bakeable: true
+      Gyaml: FldObj_Rito_Baggage_A_01
+      Hash: '5825526330040970674'
+      Phive:
+        Placement: {ID: 5825526330040970674}
+      Rotate:
+        - 0,00000
+        - 0,00000
+        - -0,04363
+      SRTHash: !u 7927061
+      Translate:
+        - -3399,99600
+        - 420,50000
+        - -2517,50000
+    - Bakeable: true
+      Gyaml: FldObj_Rito_Baggage_A_01
+      Hash: '4499143397140868505'
+      Phive:
+        Placement: {ID: 4499143397140868505}
+      Rotate:
+        - -0,06360
+        - 0,00200
+        - 0,11337
+      SRTHash: !u 1230229919
+      Translate:
+        - -3240,07900
+        - 538,34940
+        - -2588,14200
+    - Bakeable: true
+      Gyaml: FldObj_Rito_Baggage_A_01
+      Hash: '13318677143192921219'
+      Phive:
+        Placement: {ID: 13318677143192921219}
+      Rotate:
+        - 0,00000
+        - 0,17453
+        - 0,00000
+      SRTHash: !u 2737066902
+      Translate:
+        - -3404,07600
+        - 420,60000
+        - -2517,48700
+    - Dynamic: {NonEnemySearch: true}
+      Gyaml: ForbidAutoPlacementAreaSphere
+      Hash: '5638704170474639494'
+      Phive:
+        Placement: {ID: 5638704170474639494}
+      SRTHash: !u 548213349
+      Scale:
+        - 20,00000
+        - 20,00000
+        - 20,00000
+      Translate:
+        - -3398,00000
+        - 413,50000
+        - -2509,00000
+    - Bakeable: true
+      Gyaml: FireWoodDie
+      Hash: '15971691497366308343'
+      Phive:
+        Placement: {ID: 15971691497366308343}
+      Rotate:
+        - 0,01732
+        - 0,00000
+        - 0,00000
+      SRTHash: !u 3423116973
+      Translate:
+        - -3245,00000
+        - 538,38450
+        - -2584,00100
+    - Dynamic: {IsNeedAutoSave: true}
+      Gyaml: Area
+      Hash: '5921888237949311511'
+      Phive:
+        Placement: {ID: 5921888237949311511}
+      SRTHash: !u 688973063
+      Scale:
+        - 20,00000
+        - 20,00000
+        - 20,00000
+      Translate:
+        - -3334,00000
+        - 450,00000
+        - -2591,50000
+    - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '4339349944460609480'
+      Phive:
+        Placement: {ID: 4339349944460609480}
+      SRTHash: !u 2639398162
+      Scale:
+        - 15,00000
+        - 15,00000
+        - 15,00000
+      Translate:
+        - -3277,00000
+        - 509,00000
+        - -2623,50000
+    - Dynamic: {AreaRenderType: !l 2, RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '3184175456417767003'
+      Phive:
+        Placement: {ID: 3184175456417767003}
+      SRTHash: !u 2882532297
+      Scale:
+        - 15,00000
+        - 12,00000
+        - 15,00000
+      Translate:
+        - -3301,38500
+        - 512,23130
+        - -2603,32700
+  AiGroups:
+    - Hash: '11453836085000213735'
+      Logic: Logic/Module/Cave_Hebra_0030_GroupSet_000/Cave_Hebra_0030_GroupSet_000_8c4a.logic.module.ain
+      References:
+        - {Id: Npc_HighMountain030_f2c0, Path: Npc_HighMountain030_f2c0, Reference: 4845366554678223928}
+        - {Id: FldObj_Rito_Baggage_A_01_9fe7, Path: FldObj_Rito_Baggage_A_01_9fe7, Reference: 5825526330040970674}
+        - {Id: FldObj_Rito_Baggage_A_01_063c, Path: FldObj_Rito_Baggage_A_01_063c, Reference: 13318677143192921219}
+    - Hash: '15243021290620831416'
+      Logic: Logic/Module/SetEnemySpot_Holablin_KeyOnly/SetEnemySpot_Holablin_KeyOnly_e6ef.logic.module.ain
+      References:
+        - {Id: EnemyLocaterSpeciesHorablin_eca9, Path: EnemyLocaterSpeciesHorablin_eca9, Reference: 6135400650557418089}
+    - Hash: '17043884493610483328'
+      Logic: Logic/Module/Cave_Hebra_0030_GroupSet_000/Cave_Hebra_0030_GroupSet_000_fe68.logic.module.ain
+      References:
+        - {Id: FireWood_8aad, Path: FireWood_8aad, Reference: 17745790648700779}
+        - {Id: FireWoodDie_8d5a, Path: FireWoodDie_8d5a, Reference: 15971691497366308343}
+        - {Id: FldObj_Rito_Baggage_A_01_946a, Path: FldObj_Rito_Baggage_A_01_946a, Reference: 4499143397140868505}
+  FarDeleteGroups:
+    - - 17745790648700779
+      - 4499143397140868505
+      - 15971691497366308343
+    - - 4845366554678223928
+      - 5825526330040970674
+      - 13318677143192921219
+  FilePath: Work/Banc/Scene/Prefab/Cave_Hebra_0030_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 17745790648700779
+      - 4499143397140868505
+      - 15971691497366308343
+    - - 4845366554678223928
+      - 5825526330040970674
+      - 13318677143192921219

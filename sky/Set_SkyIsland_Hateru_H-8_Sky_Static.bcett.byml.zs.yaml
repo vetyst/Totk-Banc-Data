@@ -1,0 +1,186 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Bakeable: true
+      Gyaml: Ef_CloudRestrictedArea_04
+      Hash: '15578746749751980494'
+      Phive:
+        Placement: {ID: 15578746749751980494}
+      Presence: {FlagName: CloudRestrictedArea_BlockMaster09_OtherSky, IsCheckLazy: false, IsNegation: false}
+      SRTHash: !u 1763019498
+      Scale:
+        - 50,00000
+        - 30,00000
+        - 50,00000
+      Translate:
+        - 2559,24600
+        - 999,00000
+        - 3601,43800
+    - Dynamic: {ForbiddenAll: false, ForbiddenGeneratingAnimal: true, ForbiddenGeneratingBird: true, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingSkyFallenBox: true}
+      Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '4216899631908369338'
+      Phive:
+        Placement: {ID: 4216899631908369338}
+      SRTHash: !u 136392125
+      Scale:
+        - 100,00000
+        - 100,00000
+        - 100,00000
+      Translate:
+        - 2559,24600
+        - 1000,22900
+        - 3601,43800
+    - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '5752779345318137361'
+      Phive:
+        Placement: {ID: 5752779345318137361}
+      SRTHash: !u 448765148
+      Scale:
+        - 100,00000
+        - 100,00000
+        - 100,00000
+      Translate:
+        - 2559,24600
+        - 900,12500
+        - 3601,43800
+    - Dynamic: {Life_BossLifeGaugeSubtitle: SkyIsland_HateruSouth, TreasureBindPosPattern: !l 6}
+      Gyaml: Enemy_Zonau_BlockMaster_Senior
+      Hash: '17179098246083532718'
+      Links:
+        - {Dst: 3040862838791505171, Gyaml: ActorHold, Name: ActorHold, Src: 17179098246083532718}
+      Phive:
+        Placement: {ID: 17179098246083532718}
+      Rails:
+        - {Dst: 470050823604933446, Gyaml: Reference, Name: Reference}
+      SRTHash: !u 2947399388
+      Translate:
+        - 2559,24600
+        - 1000,12500
+        - 3601,43800
+    - Dynamic: {Drop__DropActor: Obj_SageWill}
+      Gyaml: TBox_Field_Iron_Zonau_Zonau_BlockMaster
+      Hash: '3040862838791505171'
+      Phive:
+        Placement: {ID: 3040862838791505171}
+      SRTHash: !u 2635078051
+      Translate:
+        - 2552,25800
+        - 1000,12500
+        - 3601,43800
+    - Gyaml: Area
+      Hash: '17367971101712552584'
+      Phive:
+        Placement: {ID: 17367971101712552584}
+      SRTHash: !u 3820009858
+      Scale:
+        - 4,00000
+        - 4,00000
+        - 4,00000
+      Translate:
+        - 2559,24600
+        - 1000,12500
+        - 3601,43800
+    - Bakeable: true
+      Dynamic: {BancPath: Banc/MainField/Merged/Mrg_8d75b6f2_Unified_0-0-0-68DBEF.bcett.byml}
+      Gyaml: MergedActorUnifiedPrefab
+      Hash: '6314509040494399882'
+      Phive:
+        Placement: {ID: 6314509040494399882}
+      SRTHash: !u 3259725983
+      Translate:
+        - 2562,70300
+        - 992,64690
+        - 3611,69800
+  AiGroups:
+    - Hash: '5734743934094790592'
+      Logic: Logic/Module/Set_SkyIsland_Hateru_H-8_Sky/Set_SkyIsland_Hateru_H-8_Sky_8bf5.logic.module.ain
+      References:
+        - {Id: BigEnemyLocaterZonau_BlockMaster_560f, Path: _3c0c/BigEnemyLocaterZonau_BlockMaster_560f, Reference: 17179098246083532718}
+        - {Id: AiGroup, InstanceName: SetEnemySpot_Zonau_BlockMaster_TreasureBoxOnEnemy_3951_0608, Logic: Logic/Module/SetEnemySpot_Zonau_BlockMaster_TreasureBoxOnEnemy/SetEnemySpot_Zonau_BlockMaster_TreasureBoxOnEnemy_3951.logic.module.ain, Path: _3c0c/AiGroup}
+    - Hash: '11604500589545465519'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 17367971101712552584}
+  FarDeleteGroups:
+    - - 3040862838791505171
+      - 17179098246083532718
+  FilePath: Work/Banc/Scene/Prefab/Set_SkyIsland_Hateru_H-8_Sky.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  Rails:
+    - Gyaml: Guide
+      Hash: '470050823604933446'
+      IsClosed: true
+      Name: Guide
+      Points:
+        - Control0:
+            - 2541,24600
+            - 1000,00000
+            - 3569,43800
+          Control1:
+            - 2577,24600
+            - 1000,00000
+            - 3569,43800
+          Gyaml: Guide
+          Hash: '11305864165208193665'
+          NextDistance: 50,40534
+          PrevDistance: 50,40534
+          Translate:
+            - 2559,24600
+            - 1000,00000
+            - 3569,43800
+        - Control0:
+            - 2591,24600
+            - 1000,00000
+            - 3583,43800
+          Control1:
+            - 2591,24600
+            - 1000,00000
+            - 3619,43800
+          Gyaml: Guide
+          Hash: '7568862008918368469'
+          NextDistance: 50,40534
+          PrevDistance: 50,40534
+          Translate:
+            - 2591,24600
+            - 1000,00000
+            - 3601,43800
+        - Control0:
+            - 2577,24600
+            - 1000,00000
+            - 3633,43800
+          Control1:
+            - 2541,24600
+            - 1000,00000
+            - 3633,43800
+          Gyaml: Guide
+          Hash: '13355573781729921659'
+          NextDistance: 50,40534
+          PrevDistance: 50,40534
+          Translate:
+            - 2559,24600
+            - 1000,00000
+            - 3633,43800
+        - Control0:
+            - 2527,24600
+            - 1000,00000
+            - 3619,43800
+          Control1:
+            - 2527,24600
+            - 1000,00000
+            - 3583,43800
+          Gyaml: Guide
+          Hash: '18074540417338276152'
+          NextDistance: 50,40534
+          PrevDistance: 50,40534
+          Translate:
+            - 2527,24600
+            - 1000,00000
+            - 3601,43800
+  SimultaneousGroups:
+    - - 3040862838791505171
+      - 17179098246083532718

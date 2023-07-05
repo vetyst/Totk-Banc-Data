@@ -1,0 +1,1206 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Dynamic: {Drop__DropTable: Minus_Arrow, EquipmentUser_Bow: Weapon_Bow_003, Role: !l 2, StationaryLookout_ChangeRotAmountDeg: '0,00000'}
+      Gyaml: Enemy_Bokoblin_Guard_Middle_Cliff
+      Hash: '10703773607594758706'
+      Links:
+        - {Dst: 734898175742900540, Gyaml: Reference, Name: Reference, Src: 10703773607594758706}
+      Phive:
+        Placement: {ID: 10703773607594758706}
+      Rotate:
+        - 0,03759
+        - 1,44816
+        - 0,04779
+      SRTHash: !u 2357710327
+      Translate:
+        - -4386,13800
+        - -454,72390
+        - -1939,14900
+    - Bakeable: true
+      Gyaml: Obj_ShieldFenceWood_A_M_04
+      Hash: '14418957069764272557'
+      Phive:
+        ConstraintLink:
+          ID: 14418957069764272557
+          Owners:
+            - AliasData: {DstAlias: Sub, SrcAlias: Main}
+              BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 0,00000
+                  - 0,97333
+                  - 0,00000
+                Trans:
+                  - -4399,00200
+                  - -453,72950
+                  - -1938,66600
+              ParamData:
+                AngularSpringDamping: 10,00000
+                AngularSpringStiffness: 100,00000
+                EnableAngularSpringMode: false
+                EnableLinearSpringMode: false
+                LinearSpringDamping: 10,00000
+                LinearSpringStiffness: 100,00000
+              PivotData: {}
+              Refer: 734898175742900540
+              ReferPose:
+                Rotate:
+                  - -3,13411
+                  - 0,14349
+                  - -3,13524
+                Trans:
+                  - -4393,29600
+                  - -456,72420
+                  - -1935,43900
+              Type: Fixed
+        Placement: {ID: 14418957069764272557}
+      Rotate:
+        - 0,00000
+        - 0,97333
+        - 0,00000
+      SRTHash: !u 3698218960
+      Translate:
+        - -4399,00200
+        - -453,72950
+        - -1938,66600
+    - Dynamic:
+        Drop__DropTable: Minus_Arrow
+        EquipmentUser_Bow: Weapon_Bow_003
+        EquipmentUser_Tool: BokoblinPipe
+        IsSoundAlarmOnDiscoverBattleTarget: true
+        Role: !l 1
+        StationaryLookout_ChangeRotAmountDeg: 0,00000
+      Gyaml: Enemy_Bokoblin_Guard_Middle
+      Hash: '2312653257387061978'
+      Links:
+        - {Dst: 734898175742900540, Gyaml: Reference, Name: Reference, Src: 2312653257387061978}
+      Phive:
+        Placement: {ID: 2312653257387061978}
+      Rotate:
+        - 3,14159
+        - -0,25693
+        - -3,14159
+      SRTHash: !u 388196638
+      Translate:
+        - -4392,91200
+        - -449,07920
+        - -1937,05100
+    - Bakeable: true
+      Gyaml: Obj_ShieldFenceWood_A_M_04
+      Hash: '8036659583688303902'
+      Phive:
+        ConstraintLink:
+          ID: 8036659583688303902
+          Owners:
+            - AliasData: {DstAlias: Sub, SrcAlias: Main}
+              BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 3,14159
+                  - 1,40765
+                  - -3,14159
+                Trans:
+                  - -4399,64300
+                  - -453,73020
+                  - -1936,33200
+              ParamData:
+                AngularSpringDamping: 10,00000
+                AngularSpringStiffness: 100,00000
+                EnableAngularSpringMode: false
+                EnableLinearSpringMode: false
+                LinearSpringDamping: 10,00000
+                LinearSpringStiffness: 100,00000
+              PivotData: {}
+              Refer: 734898175742900540
+              ReferPose:
+                Rotate:
+                  - -3,13411
+                  - 0,14349
+                  - -3,13524
+                Trans:
+                  - -4393,29600
+                  - -456,72420
+                  - -1935,43900
+              Type: Fixed
+        Placement: {ID: 8036659583688303902}
+      Rotate:
+        - 3,14159
+        - 1,40765
+        - -3,14159
+      SRTHash: !u 2054226630
+      Translate:
+        - -4399,64300
+        - -453,73020
+        - -1936,33200
+    - Dynamic: {Drop__DropTable: Minus, IsInitialFort: true}
+      Gyaml: Enemy_Golem_Fort_A
+      Hash: '734898175742900540'
+      Links:
+        - {Dst: 14418957069764272557, Gyaml: RespawnFlagSyncLink, Name: RespawnFlagSyncLink, Src: 734898175742900540}
+        - {Dst: 8036659583688303902, Gyaml: RespawnFlagSyncLink, Name: RespawnFlagSyncLink, Src: 734898175742900540}
+      Phive:
+        ConstraintLink:
+          ID: 734898175742900540
+          Refers:
+            - {Owner: 14418957069764272557, Type: Fixed}
+            - {Owner: 8036659583688303902, Type: Fixed}
+        Placement: {ID: 734898175742900540}
+      Rotate:
+        - 3,14159
+        - 0,14353
+        - -3,14159
+      SRTHash: !u 458316129
+      Translate:
+        - -4393,29600
+        - -456,72190
+        - -1935,43900
+    - Dynamic: {Drop__DropTable: Minus_Arrow, EquipmentUser_Bow: Weapon_Bow_003, Role: !l 2, StationaryLookout_ChangeRotAmountDeg: '0,00000'}
+      Gyaml: Enemy_Bokoblin_Guard_Middle_Cliff
+      Hash: '15582927367459624445'
+      Links:
+        - {Dst: 734898175742900540, Gyaml: Reference, Name: Reference, Src: 15582927367459624445}
+      Phive:
+        Placement: {ID: 15582927367459624445}
+      Rotate:
+        - 0,00000
+        - -1,16595
+        - 0,00000
+      SRTHash: !u 164678412
+      Translate:
+        - -4395,79700
+        - -452,78090
+        - -1938,65900
+    - Gyaml: Area
+      Hash: '15656201899723014075'
+      Phive:
+        Placement: {ID: 15656201899723014075}
+      SRTHash: !u 3675792285
+      Scale:
+        - 12,00000
+        - 12,00000
+        - 12,00000
+      Translate:
+        - -4393,29600
+        - -461,72420
+        - -1935,43900
+    - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '18338356496239355167'
+      Phive:
+        Placement: {ID: 18338356496239355167}
+      SRTHash: !u 1658761702
+      Scale:
+        - 60,00000
+        - 60,00000
+        - 60,00000
+      Translate:
+        - -4393,29600
+        - -516,72420
+        - -1935,43900
+    - Dynamic: {ForbiddenAll: false, ForbiddenGeneratingAnimal: true, ForbiddenGeneratingBird: true, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingSkyFallenBox: true}
+      Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '8947907808850212833'
+      Phive:
+        Placement: {ID: 8947907808850212833}
+      SRTHash: !u 4271133668
+      Scale:
+        - 60,00000
+        - 60,00000
+        - 60,00000
+      Translate:
+        - -4393,29600
+        - -456,72420
+        - -1935,43900
+    - Bakeable: true
+      Gyaml: AsbObj_StoneRectangle_B_LL_01
+      Hash: '13155770812575954757'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 13155770812575954757}
+      Rotate:
+        - -1,80655
+        - 1,27952
+        - 3,09602
+      SRTHash: !u 3324512363
+      Translate:
+        - -4354,77800
+        - -451,70610
+        - -1869,85300
+    - Bakeable: true
+      Gyaml: AsbObj_StoneRectangle_B_LL_01
+      Hash: '8695845000306043171'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 13155770812575954757, Gyaml: StackInfo, Name: StackInfo, Src: 8695845000306043171}
+      Phive:
+        Placement: {ID: 8695845000306043171}
+      Rotate:
+        - -1,80717
+        - 1,28083
+        - 3,09612
+      SRTHash: !u 2803638057
+      Translate:
+        - -4354,27600
+        - -451,70660
+        - -1869,60600
+    - Bakeable: true
+      Gyaml: AsbObj_StoneSquare_B_M_01
+      Hash: '1564508846124513975'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 8695845000306043171, Gyaml: StackInfo, Name: StackInfo, Src: 1564508846124513975}
+      Phive:
+        Placement: {ID: 1564508846124513975}
+      Rotate:
+        - -1,87369
+        - 1,27932
+        - 3,06891
+      SRTHash: !u 1911791894
+      Translate:
+        - -4353,49600
+        - -453,68270
+        - -1870,11600
+    - Bakeable: true
+      Gyaml: AsbObj_StoneSquare_B_M_01
+      Hash: '2288825107624403694'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 1564508846124513975, Gyaml: StackInfo, Name: StackInfo, Src: 2288825107624403694}
+      Phive:
+        Placement: {ID: 2288825107624403694}
+      Rotate:
+        - -2,05325
+        - 1,26069
+        - 2,93154
+      SRTHash: !u 1150623790
+      Translate:
+        - -4352,85400
+        - -453,69510
+        - -1869,75900
+    - Gyaml: ForbidAutoPlacementAreaOnlyBox
+      Hash: '17617693969212717115'
+      Phive:
+        Placement: {ID: 17617693969212717115}
+      Rotate:
+        - 3,14159
+        - 1,28241
+        - -3,14159
+      SRTHash: !u 370953088
+      Scale:
+        - 25,75820
+        - 25,75820
+        - 25,75820
+      Translate:
+        - -4350,26100
+        - -456,17500
+        - -1859,67400
+    - Bakeable: true
+      Gyaml: MiasmaCancel_Sphere_5_ForManualPlace
+      Hash: '4636418846144861294'
+      Phive:
+        Placement: {ID: 4636418846144861294}
+      Rotate:
+        - 3,14159
+        - 1,28241
+        - -3,14159
+      SRTHash: !u 2895436870
+      Scale:
+        - 3,00000
+        - 3,00000
+        - 3,00000
+      Translate:
+        - -4350,26100
+        - -456,15500
+        - -1859,67400
+    - Bakeable: true
+      Gyaml: AsbObj_StoneRectangle_B_LL_01
+      Hash: '167477519249858958'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 167477519249858958}
+      Rotate:
+        - -1,74558
+        - -0,66307
+        - 3,12433
+      SRTHash: !u 1310952766
+      Translate:
+        - -4129,80300
+        - -521,51040
+        - -1809,31300
+    - Bakeable: true
+      Gyaml: AsbObj_StoneRectangle_B_LL_01
+      Hash: '17650861293886999468'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 167477519249858958, Gyaml: StackInfo, Name: StackInfo, Src: 17650861293886999468}
+      Phive:
+        Placement: {ID: 17650861293886999468}
+      Rotate:
+        - -1,75491
+        - -0,66024
+        - 3,12559
+      SRTHash: !u 1598077096
+      Translate:
+        - -4129,77500
+        - -521,51590
+        - -1809,90000
+    - Bakeable: true
+      Gyaml: AsbObj_StoneSquare_B_M_01
+      Hash: '10036787594456987339'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 17650861293886999468, Gyaml: StackInfo, Name: StackInfo, Src: 10036787594456987339}
+      Phive:
+        Placement: {ID: 10036787594456987339}
+      Rotate:
+        - -1,78651
+        - -0,66282
+        - 3,11515
+      SRTHash: !u 277984507
+      Translate:
+        - -4130,52200
+        - -523,49110
+        - -1810,42300
+    - Bakeable: true
+      Gyaml: AsbObj_StoneSquare_B_M_01
+      Hash: '10457960302680735586'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 10036787594456987339, Gyaml: StackInfo, Name: StackInfo, Src: 10457960302680735586}
+      Phive:
+        Placement: {ID: 10457960302680735586}
+      Rotate:
+        - -1,80064
+        - -0,67466
+        - 3,06006
+      SRTHash: !u 220562663
+      Translate:
+        - -4130,42400
+        - -523,50330
+        - -1811,15000
+    - Gyaml: ForbidAutoPlacementAreaOnlyBox
+      Hash: '8657342982552718287'
+      Phive:
+        Placement: {ID: 8657342982552718287}
+      Rotate:
+        - 3,14159
+        - -0,66059
+        - -3,14159
+      SRTHash: !u 1037520203
+      Scale:
+        - 25,75821
+        - 25,75821
+        - 25,75821
+      Translate:
+        - -4121,97000
+        - -525,98360
+        - -1817,23100
+    - Bakeable: true
+      Gyaml: MiasmaCancel_Sphere_5_ForManualPlace
+      Hash: '17109261298961112290'
+      Phive:
+        Placement: {ID: 17109261298961112290}
+      Rotate:
+        - 3,14159
+        - -0,66059
+        - -3,14159
+      SRTHash: !u 3976400639
+      Scale:
+        - 3,00000
+        - 3,00000
+        - 3,00000
+      Translate:
+        - -4121,97000
+        - -525,96370
+        - -1817,23100
+    - Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '15981867288667353798'
+      Phive:
+        Placement: {ID: 15981867288667353798}
+      Rotate:
+        - -2,76459
+        - -1,56359
+        - 2,73559
+      SRTHash: !u 3165488982
+      Scale:
+        - 15,04808
+        - 15,04808
+        - 15,04808
+      Translate:
+        - -4257,95300
+        - -501,78650
+        - -1890,27900
+    - Bakeable: true
+      Gyaml: MiasmaCancel_Sphere_5_ForManualPlace
+      Hash: '1506931415854342199'
+      Phive:
+        Placement: {ID: 1506931415854342199}
+      Rotate:
+        - -2,76459
+        - -1,56360
+        - 2,73559
+      SRTHash: !u 1937810702
+      Scale:
+        - 1,60000
+        - 1,60000
+        - 1,60000
+      Translate:
+        - -4257,86100
+        - -498,62010
+        - -1890,28800
+    - Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '16528048972081107952'
+      Phive:
+        Placement: {ID: 16528048972081107952}
+      Rotate:
+        - -0,00500
+        - -0,33700
+        - 0,00500
+      SRTHash: !u 4069669065
+      Scale:
+        - 15,04808
+        - 15,04808
+        - 15,04808
+      Translate:
+        - -4093,73500
+        - -457,51720
+        - -1626,88900
+    - Bakeable: true
+      Gyaml: MiasmaCancel_Sphere_5_ForManualPlace
+      Hash: '7230745763999616519'
+      Phive:
+        Placement: {ID: 7230745763999616519}
+      Rotate:
+        - -0,00500
+        - -0,33700
+        - 0,00500
+      SRTHash: !u 3614669239
+      Scale:
+        - 1,60000
+        - 1,60000
+        - 1,60000
+      Translate:
+        - -4093,74500
+        - -454,34950
+        - -1626,90400
+    - Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '1186235924082769122'
+      Phive:
+        Placement: {ID: 1186235924082769122}
+      Rotate:
+        - 0,03700
+        - -0,30400
+        - -0,02500
+      SRTHash: !u 247342115
+      Scale:
+        - 15,04807
+        - 15,04807
+        - 15,04807
+      Translate:
+        - -4021,07300
+        - -446,54940
+        - -1190,86800
+    - Bakeable: true
+      Gyaml: MiasmaCancel_Sphere_5_ForManualPlace
+      Hash: '5850201332912731605'
+      Phive:
+        Placement: {ID: 5850201332912731605}
+      Rotate:
+        - 0,03700
+        - -0,30400
+        - -0,02500
+      SRTHash: !u 2672881493
+      Scale:
+        - 1,60000
+        - 1,60000
+        - 1,60000
+      Translate:
+        - -4021,02900
+        - -443,38390
+        - -1190,75600
+    - Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '17947981233363756164'
+      Phive:
+        Placement: {ID: 17947981233363756164}
+      Rotate:
+        - -3,13759
+        - -0,53859
+        - 3,11859
+      SRTHash: !u 3258594735
+      Scale:
+        - 15,04808
+        - 15,04808
+        - 15,04808
+      Translate:
+        - -4360,93000
+        - -452,56590
+        - -1929,91700
+    - Bakeable: true
+      Gyaml: MiasmaCancel_Sphere_5_ForManualPlace
+      Hash: '6088911334972404561'
+      Phive:
+        Placement: {ID: 6088911334972404561}
+      Rotate:
+        - -3,13759
+        - -0,53859
+        - 3,11859
+      SRTHash: !u 2535191489
+      Scale:
+        - 1,60000
+        - 1,60000
+        - 1,60000
+      Translate:
+        - -4360,86400
+        - -449,39880
+        - -1929,92800
+    - Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '5121395010814030965'
+      Phive:
+        Placement: {ID: 5121395010814030965}
+      Rotate:
+        - -0,02300
+        - 0,44200
+        - -0,04000
+      SRTHash: !u 1643992476
+      Scale:
+        - 15,04808
+        - 15,04808
+        - 15,04808
+      Translate:
+        - -4098,55100
+        - -481,90230
+        - -1764,44600
+    - Bakeable: true
+      Gyaml: MiasmaCancel_Sphere_5_ForManualPlace
+      Hash: '533142456617938595'
+      Phive:
+        Placement: {ID: 533142456617938595}
+      Rotate:
+        - -0,02300
+        - 0,44200
+        - -0,04000
+      SRTHash: !u 168371130
+      Scale:
+        - 1,60000
+        - 1,60000
+        - 1,60000
+      Translate:
+        - -4098,45500
+        - -478,73660
+        - -1764,51200
+    - Dynamic: {ForbiddenAll: false, ForbiddenGeneratingAnimal: true, ForbiddenGeneratingBird: true, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingSkyFallenBox: true}
+      Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '12362314160954378402'
+      Phive:
+        Placement: {ID: 12362314160954378402}
+      Rotate:
+        - 0,00000
+        - 0,92241
+        - 0,00000
+      SRTHash: !u 1156155036
+      Scale:
+        - 40,00003
+        - 40,00003
+        - 40,00003
+      Translate:
+        - -3992,71200
+        - -504,86230
+        - -1740,73200
+    - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '7571622239309400914'
+      Phive:
+        Placement: {ID: 7571622239309400914}
+      Rotate:
+        - 0,00000
+        - 0,92241
+        - 0,00000
+      SRTHash: !u 791813580
+      Scale:
+        - 50,00004
+        - 50,00004
+        - 50,00004
+      Translate:
+        - -3992,79500
+        - -559,79550
+        - -1740,72000
+    - Gyaml: Obj_Mineral_D_01
+      Hash: '7312136598259199594'
+      Phive:
+        Placement: {ID: 7312136598259199594}
+      Rotate:
+        - 0,51507
+        - 0,62108
+        - 0,27229
+      SRTHash: !u 947513319
+      Translate:
+        - -3992,76000
+        - -509,66980
+        - -1738,49200
+    - Dynamic: {Drop__DropTable: Minus, EquipmentUser_Accessory1: BokoblinBasket_Item_Ore_L, EquipmentUser_Attachment_Weapon: AsbObj_RockParts_C_S_01, EquipmentUser_Weapon: Weapon_Sword_108, IsLevelSensorTarget: true}
+      Gyaml: Enemy_Bokoblin_Senior
+      Hash: '14156730333823783914'
+      Links:
+        - {Dst: 7312136598259199594, Gyaml: Dig, Name: Dig, Src: 14156730333823783914}
+      Phive:
+        Placement: {ID: 14156730333823783914}
+      Rotate:
+        - 3,14159
+        - 0,21982
+        - 3,14159
+      SRTHash: !u 1033135421
+      Translate:
+        - -3993,37800
+        - -509,74460
+        - -1734,36100
+    - Dynamic: {Drop__DropTable: Minus}
+      Gyaml: Enemy_Keese_Electric_AllDay
+      Hash: '10047656202665723768'
+      Phive:
+        Placement: {ID: 10047656202665723768}
+      SRTHash: !u 669907810
+      Translate:
+        - -3995,03800
+        - -502,88570
+        - -1747,10300
+    - Gyaml: Enemy_Chuchu_Electric_Junior
+      Hash: '5090835963507978420'
+      Phive:
+        Placement: {ID: 5090835963507978420}
+      Rotate:
+        - -1,29207
+        - -1,33234
+        - 1,06764
+      SRTHash: !u 444681737
+      Translate:
+        - -3999,15600
+        - -509,54630
+        - -1735,56000
+    - Gyaml: Enemy_Chuchu_Electric_Junior
+      Hash: '249327024329799196'
+      Phive:
+        Placement: {ID: 249327024329799196}
+      Rotate:
+        - 2,76322
+        - 0,58882
+        - 2,89012
+      SRTHash: !u 560718006
+      Translate:
+        - -3984,00600
+        - -509,47560
+        - -1750,74500
+    - Dynamic: {Drop__DropTable: Minus}
+      Gyaml: Enemy_Keese_Electric_AllDay
+      Hash: '10896730151560396991'
+      Phive:
+        Placement: {ID: 10896730151560396991}
+      SRTHash: !u 3762980775
+      Translate:
+        - -3987,55700
+        - -504,33870
+        - -1738,24300
+    - Dynamic: {Drop__DropTable: Minus}
+      Gyaml: Enemy_Lizalfos_Electric
+      Hash: '10286660387089335613'
+      Phive:
+        Placement: {ID: 10286660387089335613}
+      Rotate:
+        - 0,15126
+        - -0,52711
+        - -0,00634
+      SRTHash: !u 2682007550
+      Translate:
+        - -3987,44400
+        - -509,79310
+        - -1734,09100
+    - Dynamic: {Drop__DropTable: Minus_Arrow, EquipmentUser_Bow: Weapon_Bow_003, EquipmentUser_Tool: BokoblinPipe, IsSoundAlarmOnDiscoverBattleTarget: true, Role: !l 1}
+      Gyaml: Enemy_Bokoblin_Guard_Middle
+      Hash: '13963590015834901088'
+      Phive:
+        Placement: {ID: 13963590015834901088}
+      Rotate:
+        - -3,14159
+        - 0,91183
+        - -3,14159
+      SRTHash: !u 1257159317
+      Translate:
+        - -3983,89600
+        - -504,79700
+        - -1736,49500
+    - Dynamic: {Drop__DropTable: Minus_Arrow, EquipmentUser_Bow: Weapon_Bow_003, EquipmentUser_Tool: BokoblinPipe, IsSoundAlarmOnDiscoverBattleTarget: true, Role: !l 1}
+      Gyaml: Enemy_Bokoblin_Guard_Middle
+      Hash: '15937773763171008600'
+      Phive:
+        Placement: {ID: 15937773763171008600}
+      Rotate:
+        - 3,14159
+        - 0,60494
+        - 3,14159
+      SRTHash: !u 3418892149
+      Translate:
+        - -3992,70500
+        - -504,78530
+        - -1755,79200
+    - Dynamic: {Drop__DropTable: Minus, EquipmentUser_Shield: Weapon_Shield_006, EquipmentUser_Weapon: Weapon_Sword_108}
+      Gyaml: Enemy_Bokoblin_Senior
+      Hash: '11226331955378007933'
+      Phive:
+        Placement: {ID: 11226331955378007933}
+      Rotate:
+        - 0,00000
+        - -0,27691
+        - 0,00000
+      SRTHash: !u 1993475655
+      Translate:
+        - -4284,66300
+        - -460,84870
+        - -1733,45500
+    - Dynamic: {ForbiddenAll: false, ForbiddenGeneratingAnimal: true, ForbiddenGeneratingBird: true, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingSkyFallenBox: true}
+      Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '8638446855130264524'
+      Phive:
+        Placement: {ID: 8638446855130264524}
+      Rotate:
+        - 2,84270
+        - -0,86162
+        - -2,91028
+      SRTHash: !u 3315798387
+      Scale:
+        - 40,00000
+        - 40,00000
+        - 40,00000
+      Translate:
+        - -4286,68600
+        - -459,02360
+        - -1744,45200
+    - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '787546223530051159'
+      Phive:
+        Placement: {ID: 787546223530051159}
+      Rotate:
+        - 0,00000
+        - -0,90059
+        - 0,00000
+      SRTHash: !u 3642627781
+      Scale:
+        - 50,00000
+        - 50,00000
+        - 50,00000
+      Translate:
+        - -4286,65700
+        - -510,75310
+        - -1744,44900
+    - Dynamic: {Drop__DropTable: Minus, EquipmentUser_Weapon: Weapon_Spear_106, IsLevelSensorTarget: true, IsTurnOnWall: false, IsWallMimic: true}
+      Gyaml: Enemy_Lizalfos_Middle
+      Hash: '13155388573164439266'
+      Phive:
+        Placement: {ID: 13155388573164439266}
+      Rotate:
+        - -1,89526
+        - 0,86357
+        - 2,75270
+      SRTHash: !u 1258971999
+      Translate:
+        - -4282,17300
+        - -449,58990
+        - -1741,59900
+    - Dynamic: {Drop__DropTable: Minus, EquipmentUser_Weapon: Weapon_Spear_103}
+      Gyaml: Enemy_Lizalfos_Middle
+      Hash: '10720617547544723353'
+      Phive:
+        Placement: {ID: 10720617547544723353}
+      Rotate:
+        - 0,00000
+        - -1,32106
+        - 0,00000
+      SRTHash: !u 2209402202
+      Translate:
+        - -4293,87600
+        - -460,64030
+        - -1743,24100
+    - Gyaml: Obj_Mineral_D_01
+      Hash: '371416106970562479'
+      Phive:
+        Placement: {ID: 371416106970562479}
+      Rotate:
+        - -0,10704
+        - -0,96417
+        - -0,13611
+      SRTHash: !u 4133315422
+      Translate:
+        - -4286,22000
+        - -459,99210
+        - -1749,10300
+    - Dynamic: {Drop__DropTable: Minus, EquipmentUser_Accessory1: BokoblinBasket_Item_Ore_L, EquipmentUser_Attachment_Weapon: AsbObj_RockParts_C_S_01, EquipmentUser_Weapon: Weapon_Sword_108}
+      Gyaml: Enemy_Bokoblin_Senior
+      Hash: '10266511165294773381'
+      Links:
+        - {Dst: 371416106970562479, Gyaml: Dig, Name: Dig, Src: 10266511165294773381}
+      Phive:
+        Placement: {ID: 10266511165294773381}
+      Rotate:
+        - -3,14159
+        - -0,78213
+        - 3,14159
+      SRTHash: !u 2685301414
+      Translate:
+        - -4283,34400
+        - -459,13220
+        - -1746,25800
+    - Dynamic: {RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '1390548944239028412'
+      Phive:
+        Placement: {ID: 1390548944239028412}
+      Rotate:
+        - 0,00000
+        - -0,90059
+        - 0,00000
+      SRTHash: !u 529129143
+      Scale:
+        - 4,00000
+        - 4,00000
+        - 4,00000
+      Translate:
+        - -4280,25200
+        - -463,84550
+        - -1743,03700
+    - Bakeable: true
+      Gyaml: MiasmaCancel_Sphere_5_ForManualPlace
+      Hash: '13600465792611023504'
+      Phive:
+        Placement: {ID: 13600465792611023504}
+      SRTHash: !u 1671427731
+      Scale:
+        - 10,00000
+        - 10,00000
+        - 10,00000
+      Translate:
+        - -4384,50900
+        - -456,18090
+        - -1920,33000
+    - Bakeable: true
+      Gyaml: MinusObj_StoneStorage_A_01
+      Hash: '15799627874052666757'
+      Links:
+        - {Dst: 17198558192124881812, Gyaml: Reference, Name: Reference, Src: 15799627874052666757}
+      Phive:
+        Placement: {ID: 15799627874052666757}
+      Rotate:
+        - 3,14159
+        - 1,28241
+        - -3,14159
+      SRTHash: !u 255656946
+      Translate:
+        - -4350,26100
+        - -458,67500
+        - -1859,67400
+    - Bakeable: true
+      Gyaml: MinusObj_StoneStorage_A_01_Far
+      Hash: '17198558192124881812'
+      Phive:
+        Placement: {ID: 15799627874052666757}
+      Rotate:
+        - 3,14159
+        - 1,28241
+        - -3,14159
+      SRTHash: !u 255656946
+      Translate:
+        - -4350,26100
+        - -458,67500
+        - -1859,67400
+    - Bakeable: true
+      Gyaml: MinusObj_StoneStorage_A_01
+      Hash: '1577211127190178634'
+      Links:
+        - {Dst: 2309609331698357595, Gyaml: Reference, Name: Reference, Src: 1577211127190178634}
+      Phive:
+        Placement: {ID: 1577211127190178634}
+      Rotate:
+        - 3,14159
+        - -0,66059
+        - -3,14159
+      SRTHash: !u 2970424319
+      Translate:
+        - -4121,97000
+        - -528,48360
+        - -1817,23100
+    - Bakeable: true
+      Gyaml: MinusObj_StoneStorage_A_01_Far
+      Hash: '2309609331698357595'
+      Phive:
+        Placement: {ID: 1577211127190178634}
+      Rotate:
+        - 3,14159
+        - -0,66059
+        - -3,14159
+      SRTHash: !u 2970424319
+      Translate:
+        - -4121,97000
+        - -528,48360
+        - -1817,23100
+    - Bakeable: true
+      Gyaml: MinusObj_EnemySpot_DepositCliff_09_A
+      Hash: '14930901294694414109'
+      Links:
+        - {Dst: 1601076291224430486, Gyaml: Reference, Name: Reference, Src: 14930901294694414109}
+      Phive:
+        Placement: {ID: 14930901294694414109}
+      Rotate:
+        - 0,00000
+        - 0,91073
+        - 0,00000
+      SRTHash: !u 3641133821
+      Translate:
+        - -3992,79900
+        - -510,83340
+        - -1740,66800
+    - Bakeable: true
+      Gyaml: MinusObj_EnemySpot_DepositCliff_09_A_Far
+      Hash: '1601076291224430486'
+      Phive:
+        Placement: {ID: 14930901294694414109}
+      Rotate:
+        - 0,00000
+        - 0,91073
+        - 0,00000
+      SRTHash: !u 3641133821
+      Translate:
+        - -3992,79900
+        - -510,83340
+        - -1740,66800
+    - Bakeable: true
+      Gyaml: MinusObj_MiasmaRoots_A_06
+      Hash: '14625698997009822514'
+      Links:
+        - {Dst: 7451663629907295530, Gyaml: Reference, Name: Reference, Src: 14625698997009822514}
+      Phive:
+        Placement: {ID: 14625698997009822514}
+      Rotate:
+        - 2,93859
+        - -1,32759
+        - -3,00159
+      SRTHash: !u 1711320908
+      Translate:
+        - -4229,99900
+        - -544,50800
+        - -1940,08700
+    - Bakeable: true
+      Gyaml: MinusObj_MiasmaRoots_A_06_Far
+      Hash: '7451663629907295530'
+      Phive:
+        Placement: {ID: 14625698997009822514}
+      Rotate:
+        - 2,93859
+        - -1,32759
+        - -3,00159
+      SRTHash: !u 1711320908
+      Translate:
+        - -4229,99900
+        - -544,50800
+        - -1940,08700
+    - Bakeable: true
+      Gyaml: MinusObj_MiasmaRoots_A_06
+      Hash: '15821682369389082721'
+      Links:
+        - {Dst: 8502975736211306105, Gyaml: Reference, Name: Reference, Src: 15821682369389082721}
+      Phive:
+        Placement: {ID: 15821682369389082721}
+      Rotate:
+        - -3,03059
+        - -1,41459
+        - 3,00759
+      SRTHash: !u 3306006571
+      Translate:
+        - -4033,75700
+        - -458,97900
+        - -1553,05200
+    - Bakeable: true
+      Gyaml: MinusObj_MiasmaRoots_A_06_Far
+      Hash: '8502975736211306105'
+      Phive:
+        Placement: {ID: 15821682369389082721}
+      Rotate:
+        - -3,03059
+        - -1,41459
+        - 3,00759
+      SRTHash: !u 3306006571
+      Translate:
+        - -4033,75700
+        - -458,97900
+        - -1553,05200
+    - Bakeable: true
+      Gyaml: MinusObj_MiasmaRoots_A_01
+      Hash: '5759261141582741843'
+      Links:
+        - {Dst: 9558192862421520195, Gyaml: Reference, Name: Reference, Src: 5759261141582741843}
+      Phive:
+        Placement: {ID: 5759261141582741843}
+      Rotate:
+        - 3,10659
+        - -1,43259
+        - -3,11659
+      SRTHash: !u 3326513849
+      Translate:
+        - -4001,13600
+        - -516,11300
+        - -1482,98200
+    - Bakeable: true
+      Gyaml: MinusObj_MiasmaRoots_A_01_Far
+      Hash: '9558192862421520195'
+      Phive:
+        Placement: {ID: 5759261141582741843}
+      Rotate:
+        - 3,10659
+        - -1,43259
+        - -3,11659
+      SRTHash: !u 3326513849
+      Translate:
+        - -4001,13600
+        - -516,11300
+        - -1482,98200
+    - Bakeable: true
+      Gyaml: MinusObj_MiasmaRoots_A_01
+      Hash: '1216886250742314087'
+      Links:
+        - {Dst: 15828951077543377527, Gyaml: Reference, Name: Reference, Src: 1216886250742314087}
+      Phive:
+        Placement: {ID: 1216886250742314087}
+      Rotate:
+        - 2,85759
+        - -1,47159
+        - -2,83759
+      SRTHash: !u 1786991030
+      Translate:
+        - -4041,38500
+        - -438,79500
+        - -1320,34700
+    - Bakeable: true
+      Gyaml: MinusObj_MiasmaRoots_A_01_Far
+      Hash: '15828951077543377527'
+      Phive:
+        Placement: {ID: 1216886250742314087}
+      Rotate:
+        - 2,85759
+        - -1,47159
+        - -2,83759
+      SRTHash: !u 1786991030
+      Translate:
+        - -4041,38500
+        - -438,79500
+        - -1320,34700
+    - Bakeable: true
+      Gyaml: MinusObj_Rock_A_04
+      Hash: '10910318626244775032'
+      Links:
+        - {Dst: 16437282176156395316, Gyaml: Reference, Name: Reference, Src: 10910318626244775032}
+      Phive:
+        Placement: {ID: 10910318626244775032}
+      Rotate:
+        - -0,07944
+        - 0,00000
+        - -1,86613
+      SRTHash: !u 3544299109
+      Translate:
+        - -4078,68700
+        - -455,27230
+        - -1105,38500
+    - Bakeable: true
+      Gyaml: MinusObj_Rock_A_04_Far
+      Hash: '16437282176156395316'
+      Phive:
+        Placement: {ID: 10910318626244775032}
+      Rotate:
+        - -0,07944
+        - 0,00000
+        - -1,86613
+      SRTHash: !u 3544299109
+      Translate:
+        - -4078,68700
+        - -455,27230
+        - -1105,38500
+  AiGroups:
+    - Blackboards:
+        - Component/Blackboard/BlackboardInfo/MetaAIEnemyCampNormal.engine__component__BlackboardInfo.gyml
+      Hash: '3217249590555354258'
+      Meta: AI/Root/MetaAI/EnemyCampNormal.metaai.root.ain
+      References:
+        - {Id: '', Reference: 14156730333823783914}
+        - {Id: '', Reference: 5090835963507978420}
+        - {Id: '', Reference: 10286660387089335613}
+        - {Id: '', Reference: 13963590015834901088}
+        - {Id: '', Reference: 15937773763171008600}
+        - {Id: '', Reference: 10896730151560396991}
+        - {Id: '', Reference: 10047656202665723768}
+        - {Id: '', Reference: 249327024329799196}
+    - Hash: '4068350138250667932'
+      Logic: Logic/Module/SetEnemyBases_Golem_Fort_Boko2_ArmorBoko1_ShieldFence_Wood_A/SetEnemyBases_Golem_Fort_Boko2_ArmorBoko1_ShieldFence_Wood_A_a902.logic.module.ain
+      Meta: AI/Root/MetaAI/EnemyCooperationGolemFort.metaai.root.ain
+      References:
+        - {Id: Enemy_Bokoblin_Armor_Junior_a855, Path: Enemy_Bokoblin_Armor_Junior_a855, Reference: 15582927367459624445}
+        - {Id: EnemyLocater_3a1b, Path: EnemyLocater_3a1b, Reference: 10703773607594758706}
+        - {Id: EnemyLocater_76a8, Path: EnemyLocater_76a8, Reference: 2312653257387061978}
+        - {Id: Enemy_Golem_Fort_A_05d4, Path: Enemy_Golem_Fort_A_05d4, Reference: 734898175742900540}
+    - Hash: '7600837435597088834'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 15656201899723014075}
+    - Blackboards:
+        - Component/Blackboard/BlackboardInfo/MetaAIEnemyCampNormal.engine__component__BlackboardInfo.gyml
+      Hash: '15693237564965340822'
+      Logic: Logic/Module/SetEnemySpot_Underground_Deposit_04/SetEnemySpot_Underground_Deposit_04_474a.logic.module.ain
+      Meta: AI/Root/MetaAI/EnemyCampNormal.metaai.root.ain
+      References:
+        - {Id: EnemyLocaterSpeciesLizalfos_7606, Path: EnemyLocaterSpeciesLizalfos_7606, Reference: 10720617547544723353}
+        - {Id: EnemyLocaterSpeciesBokoblin_b82f, Path: EnemyLocaterSpeciesBokoblin_b82f, Reference: 10266511165294773381}
+        - {Id: EnemyLocaterSpeciesBokoblin_d74d, Path: EnemyLocaterSpeciesBokoblin_d74d, Reference: 11226331955378007933}
+        - {Id: EnemyLocaterSpeciesLizalfos_e5b4, Path: EnemyLocaterSpeciesLizalfos_e5b4, Reference: 13155388573164439266}
+        - {Id: Area_5570, Path: Area_5570, Reference: 1390548944239028412}
+  FarDeleteGroups:
+    - - 249327024329799196
+      - 5090835963507978420
+      - 10047656202665723768
+      - 10286660387089335613
+      - 10896730151560396991
+      - 13963590015834901088
+      - 14156730333823783914
+      - 15937773763171008600
+    - - 1390548944239028412
+      - 10266511165294773381
+      - 10720617547544723353
+      - 11226331955378007933
+      - 13155388573164439266
+    - - 734898175742900540
+      - 2312653257387061978
+      - 10703773607594758706
+      - 15582927367459624445
+  FilePath: Work/Banc/Scene/MinusField/A-3.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 249327024329799196
+      - 5090835963507978420
+      - 10047656202665723768
+      - 10286660387089335613
+      - 10896730151560396991
+      - 13963590015834901088
+      - 14156730333823783914
+      - 15937773763171008600
+    - - 734898175742900540
+      - 2312653257387061978
+      - 8036659583688303902
+      - 10703773607594758706
+      - 14418957069764272557
+      - 15582927367459624445
+    - - 1390548944239028412
+      - 10266511165294773381
+      - 10720617547544723353
+      - 11226331955378007933
+      - 13155388573164439266

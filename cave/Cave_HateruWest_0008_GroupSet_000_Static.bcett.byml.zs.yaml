@@ -1,0 +1,216 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Bakeable: true
+      Dynamic: {PlacementMotion_MotionType: !l 1}
+      Gyaml: AsbObj_RockParts_C_L_01
+      Hash: '5086486893706706466'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 15077524497960488811, Gyaml: StackInfo, Name: StackInfo, Src: 5086486893706706466}
+      Phive:
+        Placement: {ID: 5086486893706706466}
+      Rotate:
+        - 1,57113
+        - -0,51289
+        - -2,66280
+      SRTHash: !u 3088766874
+      Translate:
+        - 1336,96500
+        - 239,14350
+        - 1181,18200
+    - Gyaml: EnemyNestAnchor
+      Hash: '16338118817450700394'
+      Phive:
+        Placement: {ID: 16338118817450700394}
+      SRTHash: !u 3350166909
+      Translate:
+        - 1360,65100
+        - 239,71490
+        - 1185,11000
+    - ExtraCreateRadius: 250,00000
+      Gyaml: Enemy_Keese_Swarm_Cave
+      Hash: '4715672809883705469'
+      Links:
+        - {Dst: 16338118817450700394, Gyaml: Reference, Name: Reference, Src: 4715672809883705469}
+      Phive:
+        Placement: {ID: 4715672809883705469}
+      Rails:
+        - {Dst: 8715675428591046067, Gyaml: Reference, Name: Reference}
+      SRTHash: !u 3068842018
+      Translate:
+        - 1272,39200
+        - 282,39860
+        - 1327,86400
+    - Gyaml: EnemyNestAnchor
+      Hash: '7332078806199969300'
+      Phive:
+        Placement: {ID: 7332078806199969300}
+      SRTHash: !u 2694187019
+      Translate:
+        - 1332,56200
+        - 245,80490
+        - 1162,92500
+    - Gyaml: Cave_HateruWest_0008
+      Hash: '5285135377733679616'
+      Phive:
+        Placement: {ID: 5285135377733679616}
+      Rotate:
+        - 0,00000
+        - -1,22173
+        - 0,00000
+      SRTHash: !u 4220705634
+      Translate:
+        - 1340,72300
+        - 251,56770
+        - 1185,25600
+    - ExtraCreateRadius: 200,00000
+      Gyaml: Enemy_Keese_Swarm_Cave
+      Hash: '16900260527851964008'
+      Links:
+        - {Dst: 7332078806199969300, Gyaml: Reference, Name: Reference, Src: 16900260527851964008}
+      Phive:
+        Placement: {ID: 16900260527851964008}
+      Rails:
+        - {Dst: 14566878725067762647, Gyaml: Reference, Name: Reference}
+      SRTHash: !u 2872953152
+      Translate:
+        - 1341,76000
+        - 252,88010
+        - 1032,11900
+    - Bakeable: true
+      Dynamic: {Drop__DropTable: Normal}
+      Gyaml: AsbObj_RockParts_C_S_01
+      Hash: '15077524497960488811'
+      Phive:
+        Placement: {ID: 15077524497960488811}
+      Rotate:
+        - -0,18223
+        - 0,33413
+        - -0,17659
+      SRTHash: !u 2190946612
+      Translate:
+        - 1337,27200
+        - 237,98190
+        - 1180,74500
+    - Bakeable: true
+      Gyaml: FldObj_WaterPlane_A_01
+      Hash: '16323450440455303352'
+      Phive:
+        Placement: {ID: 16323450440455303352}
+      Rotate:
+        - 0,00000
+        - 0,91534
+        - 0,00000
+      SRTHash: !u 392265294
+      Scale:
+        - 3,00000
+        - 1,00000
+        - 4,00000
+      Translate:
+        - 1381,37600
+        - 236,40610
+        - 1140,71100
+    - Dynamic: {AreaRenderType: !l 2, RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '12014278590568459946'
+      Phive:
+        Placement: {ID: 12014278590568459946}
+      Rotate:
+        - 0,72784
+        - 0,00000
+        - -1,71445
+      SRTHash: !u 481598785
+      Scale:
+        - 8,00000
+        - 11,00000
+        - 8,00000
+      Translate:
+        - 1321,20600
+        - 240,50130
+        - 1183,16600
+  FilePath: Work/Banc/Scene/Prefab/Cave_HateruWest_0008_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  Rails:
+    - Gyaml: Guide
+      Hash: '8715675428591046067'
+      IsClosed: false
+      Name: Guide
+      Points:
+        - Gyaml: Guide
+          Hash: '13653899972632689966'
+          NextDistance: 86,60312
+          Translate:
+            - 1276,02400
+            - 282,61000
+            - 1328,94700
+        - Gyaml: Guide
+          Hash: '17445646743586373682'
+          NextDistance: 61,08717
+          PrevDistance: 86,60312
+          Translate:
+            - 1343,75300
+            - 280,44650
+            - 1275,01900
+        - Gyaml: Guide
+          Hash: '2882955842027385024'
+          NextDistance: 42,66210
+          PrevDistance: 61,08717
+          Translate:
+            - 1391,25600
+            - 251,68880
+            - 1249,56200
+        - Gyaml: Guide
+          Hash: '6903903253908719062'
+          NextDistance: 33,99220
+          PrevDistance: 42,66210
+          Translate:
+            - 1386,18100
+            - 244,61970
+            - 1207,79600
+        - Gyaml: Guide
+          Hash: '14914748966790155199'
+          PrevDistance: 33,99220
+          Translate:
+            - 1360,82800
+            - 240,07160
+            - 1185,61500
+    - Gyaml: Guide
+      Hash: '14566878725067762647'
+      IsClosed: false
+      Name: Guide
+      Points:
+        - Gyaml: Guide
+          Hash: '32322987225341207'
+          NextDistance: 46,46936
+          Translate:
+            - 1336,57700
+            - 249,62730
+            - 1031,58000
+        - Gyaml: Guide
+          Hash: '1738333437284782752'
+          NextDistance: 79,14349
+          PrevDistance: 46,46936
+          Translate:
+            - 1309,38100
+            - 261,69320
+            - 1067,27500
+        - Gyaml: Guide
+          Hash: '13377893072335489209'
+          NextDistance: 21,73705
+          PrevDistance: 79,14349
+          Translate:
+            - 1321,83100
+            - 251,25630
+            - 1144,73300
+        - Gyaml: Guide
+          Hash: '16173332941921107725'
+          PrevDistance: 21,73705
+          Translate:
+            - 1332,38600
+            - 245,35430
+            - 1162,79500

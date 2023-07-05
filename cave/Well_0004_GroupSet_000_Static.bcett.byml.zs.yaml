@@ -1,0 +1,51 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Well_0004
+      Hash: '6698955980348457385'
+      Phive:
+        Placement: {ID: 6698955980348457385}
+      SRTHash: !u 3082933663
+      Translate:
+        - -1069,60000
+        - 219,60000
+        - -2325,80000
+    - Bakeable: true
+      Gyaml: Miasma_DeepHole_Normal
+      Hash: '6471513100044676514'
+      Phive:
+        Placement: {ID: 6471513100044676514}
+      SRTHash: !u 187772382
+      Scale:
+        - 3,00000
+        - 17,70000
+        - 3,00000
+      Translate:
+        - -1070,00000
+        - -150,00000
+        - -2325,60000
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '10175400518777640591'
+      Phive:
+        Placement: {ID: 10175400518777640591}
+      SRTHash: !u 265096804
+      Scale:
+        - 40,00000
+        - 135,00000
+        - 40,00000
+      Translate:
+        - -1069,60000
+        - -80,39999
+        - -2325,80000
+  AiGroups:
+    - Hash: '10106675929617434795'
+      Logic: Logic/Module/DeepHole_Common_LoadMinusFieldForceCounter/DeepHole_Common_LoadMinusFieldForceCounter_a437.logic.module.ain
+      References:
+        - {Id: Area_e397, Path: Area_e397, Reference: 10175400518777640591}
+  FilePath: Work/Banc/Scene/Prefab/Well_0004_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []

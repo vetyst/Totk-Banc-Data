@@ -1,0 +1,106 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_Firone_0018
+      Hash: '7712298491500519828'
+      Phive:
+        Placement: {ID: 7712298491500519828}
+      Rotate:
+        - 0,00000
+        - 1,24791
+        - 0,00000
+      SRTHash: !u 2272884395
+      Translate:
+        - 1325,71600
+        - 172,12240
+        - 2386,68700
+    - Gyaml: Area
+      Hash: '3019676752088116481'
+      Phive:
+        Placement: {ID: 3019676752088116481}
+      Rotate:
+        - -0,06960
+        - 1,24791
+        - 0,00000
+      SRTHash: !u 2376539087
+      Scale:
+        - 100,00000
+        - 150,00000
+        - 300,00000
+      Translate:
+        - 1085,31800
+        - -162,92650
+        - 2286,64000
+    - Dynamic: {AreaRenderType: !l 2}
+      Gyaml: Area
+      Hash: '12317730996518341400'
+      Phive:
+        Placement: {ID: 12317730996518341400}
+      Rotate:
+        - 0,00000
+        - 0,17453
+        - 0,00000
+      SRTHash: !u 1051260652
+      Scale:
+        - 20,00000
+        - 15,00000
+        - 25,00000
+      Translate:
+        - 1306,72600
+        - 159,28290
+        - 2384,42100
+    - Bakeable: true
+      Gyaml: Firone_0018_DemoCover_A_02
+      Hash: '2508355573356699672'
+      Phive:
+        Placement: {ID: 2508355573356699672}
+      Rotate:
+        - 0,00000
+        - 0,17104
+        - 0,00000
+      SRTHash: !u 3882178711
+      Translate:
+        - 1306,19800
+        - 170,43200
+        - 2390,23800
+    - Bakeable: true
+      Gyaml: FldObj_Zonau_RuinStairs_A_01
+      Hash: '8264835294199456148'
+      Links:
+        - {Dst: 12684529097273836602, Gyaml: Reference, Name: Reference, Src: 8264835294199456148}
+      Phive:
+        Placement: {ID: 8264835294199456148}
+      Rotate:
+        - -3,14159
+        - -0,17453
+        - -3,14159
+      SRTHash: !u 1650945388
+      Translate:
+        - 1317,46400
+        - 187,91790
+        - 2454,86200
+    - Bakeable: true
+      Gyaml: FldObj_Zonau_RuinStairs_A_01_Far
+      Hash: '12684529097273836602'
+      Phive:
+        Placement: {ID: 8264835294199456148}
+      Rotate:
+        - -3,14159
+        - -0,17453
+        - -3,14159
+      SRTHash: !u 1650945388
+      Translate:
+        - 1317,46400
+        - 187,91790
+        - 2454,86200
+  AiGroups:
+    - Hash: '13887832482782901256'
+      Logic: Logic/Module/Cave_Firone_0018_GroupSet_000/Cave_Firone_0018_GroupSet_000_0ce0.logic.module.ain
+      References:
+        - {Id: Area_fa3d, Path: Area_fa3d, Reference: 3019676752088116481}
+  FilePath: Work/Banc/Scene/Prefab/Cave_Firone_0018_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []

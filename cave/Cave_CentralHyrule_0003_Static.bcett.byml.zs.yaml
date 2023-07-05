@@ -1,0 +1,61 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_CentralHyrule_0003
+      Hash: '7034965641363542187'
+      Phive:
+        Placement: {ID: 7034965641363542187}
+      SRTHash: !u 2759877249
+      Translate:
+        - -251,15610
+        - 130,81030
+        - 300,97090
+    - Gyaml: EftLoc_MiasmaAppearance_05
+      Hash: '10190257869769793106'
+      Phive:
+        Placement: {ID: 10190257869769793106}
+      Presence: {FlagName: MainChallenge_IsAfter_DefeatBlackDragon_Exp, IsCheckLazy: false, IsNegation: true}
+      SRTHash: !u 2759877249
+      Translate:
+        - -251,15610
+        - 130,81030
+        - 300,97090
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '15568049864164697007'
+      Phive:
+        Placement: {ID: 15568049864164697007}
+      SRTHash: !u 506972199
+      Scale:
+        - 40,00000
+        - 165,00000
+        - 40,00000
+      Translate:
+        - -251,15610
+        - -219,18970
+        - 300,97090
+    - Bakeable: true
+      Gyaml: Miasma_DeepHole_Normal
+      Hash: '14714370469891428345'
+      Phive:
+        Placement: {ID: 14714370469891428345}
+      SRTHash: !u 1628119991
+      Scale:
+        - 5,00000
+        - 19,76804
+        - 5,00000
+      Translate:
+        - -252,35800
+        - -237,28180
+        - 300,60700
+  AiGroups:
+    - Hash: '15740220632154956908'
+      Logic: Logic/Module/DeepHole_Common_LoadMinusFieldForceCounter/DeepHole_Common_LoadMinusFieldForceCounter_a437.logic.module.ain
+      References:
+        - {Id: Area_e397, Path: Area_e397, Reference: 15568049864164697007}
+  FilePath: Work/Banc/Scene/Prefab/Cave_CentralHyrule_0003.bcett.json
+  PhiveHeader:
+    PlacementGroups: []

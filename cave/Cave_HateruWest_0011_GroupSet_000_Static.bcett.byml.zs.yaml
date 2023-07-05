@@ -1,0 +1,159 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_HateruWest_0011
+      Hash: '6075390798846944496'
+      Phive:
+        Placement: {ID: 6075390798846944496}
+      Rotate:
+        - -3,14159
+        - -1,12954
+        - -3,14159
+      SRTHash: !u 2510589388
+      Translate:
+        - 1192,69300
+        - 265,19270
+        - 1857,36800
+    - Dynamic: {CreateHorablinMovingType: !l 2, EquipmentUser_Weapon: Weapon_Spear_106}
+      Gyaml: Enemy_Horablin_Middle
+      Hash: '13360364164471965500'
+      Phive:
+        Placement: {ID: 13360364164471965500}
+      Rotate:
+        - -0,00001
+        - -0,51282
+        - -3,14159
+      SRTHash: !u 2238201784
+      Translate:
+        - 1235,15100
+        - 265,40250
+        - 1801,75300
+    - Dynamic: {CreateHorablinMovingType: !l 1, EquipmentUser_Weapon: Weapon_Spear_103, IsSoundAlarmOnDiscoverBattleTarget: true, Role: !l 1}
+      Gyaml: Enemy_Horablin_Guard_Junior
+      Hash: '11084179278809371781'
+      Phive:
+        Placement: {ID: 11084179278809371781}
+      Rotate:
+        - 0,00000
+        - -0,77688
+        - 0,00000
+      SRTHash: !u 3969697005
+      Translate:
+        - 1222,32400
+        - 265,78890
+        - 1816,53700
+    - Dynamic:
+        InstanceID_0: 1218376497381490646
+        Pos_0:
+          - 1201,18700
+          - 265,16400
+          - 1832,40300
+        Rot_0:
+          - 2,46059
+          - 1,36041
+          - 1,75659
+      Gyaml: LightBall_Small
+      Hash: '8090150953948189457'
+      Links:
+        - {Dst: 4026008470217538422, Gyaml: StackInfo, Name: StackInfo, Src: 8090150953948189457}
+      Phive:
+        Placement: {ID: 8090150953948189457}
+      Rotate:
+        - -2,35969
+        - -0,67072
+        - -0,88649
+      SRTHash: !u 704845165
+      Translate:
+        - 1201,59700
+        - 265,77160
+        - 1832,65000
+    - Dynamic:
+        InstanceID_0: 1218376497381490646
+        Pos_0:
+          - 1201,18700
+          - 265,16400
+          - 1832,40300
+        Rot_0:
+          - 2,46059
+          - 1,36041
+          - 1,75659
+      Gyaml: LightBall_Small
+      Hash: '4026008470217538422'
+      Phive:
+        Placement: {ID: 4026008470217538422}
+      Rotate:
+        - -0,96422
+        - 1,42726
+        - 0,44727
+      SRTHash: !u 619755536
+      Translate:
+        - 1201,62100
+        - 265,34160
+        - 1832,47100
+    - Dynamic:
+        InstanceID_0: 1218376497381490646
+        Pos_0:
+          - 1201,18700
+          - 265,16400
+          - 1832,40300
+        Rot_0:
+          - 2,46059
+          - 1,36041
+          - 1,75659
+      Gyaml: LightBall_Small
+      Hash: '12201212992800541759'
+      Links:
+        - {Dst: 4026008470217538422, Gyaml: StackInfo, Name: StackInfo, Src: 12201212992800541759}
+      Phive:
+        Placement: {ID: 12201212992800541759}
+      Rotate:
+        - 0,81750
+        - -0,06438
+        - 2,49812
+      SRTHash: !u 1120919622
+      Translate:
+        - 1201,55900
+        - 265,59260
+        - 1832,25800
+    - Bakeable: true
+      Gyaml: FldObj_FutagoRock_CaveCeiling_A_01
+      Hash: '14666046509429046612'
+      Links:
+        - {Dst: 7495543615687866194, Gyaml: Reference, Name: Reference, Src: 14666046509429046612}
+      Phive:
+        Placement: {ID: 14666046509429046612}
+      SRTHash: !u 1538995788
+      Translate:
+        - 1261,41500
+        - 276,62210
+        - 1757,67600
+    - Bakeable: true
+      Gyaml: FldObj_FutagoRock_CaveCeiling_A_01_Far
+      Hash: '7495543615687866194'
+      Phive:
+        Placement: {ID: 14666046509429046612}
+      SRTHash: !u 1538995788
+      Translate:
+        - 1261,41500
+        - 276,62210
+        - 1757,67600
+  AiGroups:
+    - Blackboards:
+        - Component/Blackboard/BlackboardInfo/MetaAIHorablinCampEatOnly.engine__component__BlackboardInfo.gyml
+      Hash: '2927383984532660950'
+      Meta: AI/Root/MetaAI/HorablinEnemyCampEatOnly.metaai.root.ain
+      References:
+        - {Id: '', Reference: 11084179278809371781}
+        - {Id: '', Reference: 13360364164471965500}
+  FarDeleteGroups:
+    - - 11084179278809371781
+      - 13360364164471965500
+  FilePath: Work/Banc/Scene/Prefab/Cave_HateruWest_0011_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 11084179278809371781
+      - 13360364164471965500

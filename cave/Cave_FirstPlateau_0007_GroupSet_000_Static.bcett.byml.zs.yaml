@@ -1,0 +1,702 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_FirstPlateau_0007
+      Hash: '10681711911878248541'
+      Phive:
+        Placement: {ID: 10681711911878248541}
+      Rotate:
+        - 0,00000
+        - -0,69813
+        - 0,00000
+      SRTHash: !u 3939266564
+      Translate:
+        - -1061,50800
+        - 247,19740
+        - 1829,56600
+    - Bakeable: true
+      Gyaml: Kibako_Contain_01
+      Hash: '12049810442195089253'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 12049810442195089253}
+      Rotate:
+        - -2,99409
+        - -0,53230
+        - 3,11941
+      SRTHash: !u 2027056333
+      Translate:
+        - -1113,24700
+        - 238,05770
+        - 1898,55000
+    - Bakeable: true
+      Gyaml: Kibako_Contain_01
+      Hash: '6528825082970620279'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 6528825082970620279}
+      Rotate:
+        - -0,14654
+        - -0,69014
+        - 0,16532
+      SRTHash: !u 2891098040
+      Translate:
+        - -1111,24200
+        - 238,01930
+        - 1897,14000
+    - Bakeable: true
+      Gyaml: Kibako_Contain_01
+      Hash: '16976859663959843374'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 12049810442195089253, Gyaml: StackInfo, Name: StackInfo, Src: 16976859663959843374}
+        - {Dst: 6528825082970620279, Gyaml: StackInfo, Name: StackInfo, Src: 16976859663959843374}
+      Phive:
+        Placement: {ID: 16976859663959843374}
+      Rotate:
+        - -2,99107
+        - 0,66389
+        - -2,98191
+      SRTHash: !u 2341461123
+      Translate:
+        - -1111,84200
+        - 240,09240
+        - 1897,94900
+    - Gyaml: AnchorAction1
+      Hash: '15377575522447793552'
+      Phive:
+        Placement: {ID: 15377575522447793552}
+      Rotate:
+        - 0,00000
+        - -0,69813
+        - 0,00000
+      SRTHash: !u 2220251806
+      Translate:
+        - -1120,88000
+        - 207,26740
+        - 1901,35900
+    - Dynamic: {ForbiddenAll: false, ForbiddenGeneratingAnimal: true, ForbiddenGeneratingBird: true, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingSkyFallenBox: true}
+      Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '12818737340007488064'
+      Phive:
+        Placement: {ID: 12818737340007488064}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 332674010
+      Scale:
+        - 39,99999
+        - 39,99999
+        - 39,99999
+      Translate:
+        - -1129,24400
+        - 206,90940
+        - 1911,68900
+    - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '15272203789207223764'
+      Phive:
+        Placement: {ID: 15272203789207223764}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 1460423336
+      Scale:
+        - 49,99999
+        - 49,99999
+        - 49,99999
+      Translate:
+        - -1129,24400
+        - 156,90940
+        - 1911,68900
+    - Dynamic: {EquipmentUser_Bow: Weapon_Bow_040}
+      Gyaml: Enemy_Assassin_Shooter_Junior
+      Hash: '398937255036421463'
+      Name: RoadTrapAssassin2
+      Phive:
+        Placement: {ID: 398937255036421463}
+      Presence: {FlagName: DisguiseAssassinLv2_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -0,00002
+        - -1,55652
+        - 0,00002
+      SRTHash: !u 4056846946
+      Translate:
+        - -1126,24500
+        - 206,90940
+        - 1912,48100
+    - Gyaml: Enemy_Assassin_Junior
+      Hash: '10530060018820509463'
+      Name: RoadTrapAssassin1
+      Phive:
+        Placement: {ID: 10530060018820509463}
+      Presence: {FlagName: DisguiseAssassinLv2_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - -0,63493
+        - 0,00000
+      SRTHash: !u 2559864965
+      Translate:
+        - -1127,77300
+        - 206,90940
+        - 1910,01500
+    - Dynamic: {EquipmentUser_Bow: Weapon_Bow_040}
+      Gyaml: Enemy_Assassin_Shooter_Junior
+      Hash: '13962116344904442036'
+      Name: RoadTrapAssassin3
+      Phive:
+        Placement: {ID: 13962116344904442036}
+      Presence: {FlagName: DisguiseAssassinLv2_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - 0,09297
+        - 0,00000
+      SRTHash: !u 975584574
+      Translate:
+        - -1130,88000
+        - 206,90940
+        - 1909,17300
+    - Dynamic: {OwningObjectAllowPickUpGameData: AssassinTrap_Banana, OwningObjectZonauMagicedEventName: AssassinText_MagicTrap01}
+      Gyaml: AssasinTextNPC
+      Hash: '16357881721327746427'
+      Name: AssassinNearTrap
+      Phive:
+        Placement: {ID: 16357881721327746427}
+      Presence: {FlagName: DisguiseAssassinLv2_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 1302268937
+      Translate:
+        - -1129,23300
+        - 207,35910
+        - 1911,48200
+    - Gyaml: Item_Fruit_H
+      Hash: '13718650626861589275'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 16357881721327746427, Gyaml: Owned, Name: Owned, Src: 13718650626861589275}
+      Name: AssassinBanana
+      Phive:
+        Placement: {ID: 13718650626861589275}
+      Presence: {FlagName: DisguiseAssassinLv2_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 1,74677
+        - -0,67135
+        - -0,00605
+      SRTHash: !u 3961114698
+      Translate:
+        - -1129,09700
+        - 207,32510
+        - 1911,46400
+    - Dynamic: {RequestEventName: AssassinText_BurnTrap01}
+      Gyaml: EventRequestActor
+      Hash: '13041587534166722803'
+      Links:
+        - {Dst: 13718650626861589275, Gyaml: Reference, Name: Reference, Src: 13041587534166722803}
+      Phive:
+        Placement: {ID: 13041587534166722803}
+      Presence: {FlagName: DisguiseAssassinLv2_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 4232760470
+      Translate:
+        - -1126,95200
+        - 213,81750
+        - 1909,41000
+    - Gyaml: Area
+      Hash: '16244184856741583862'
+      Phive:
+        Placement: {ID: 16244184856741583862}
+      Presence: {FlagName: DisguiseAssassinLv2_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 3423385183
+      Scale:
+        - 20,00000
+        - 10,81701
+        - 31,95090
+      Translate:
+        - -1132,60500
+        - 202,35610
+        - 1915,69400
+    - Gyaml: Area
+      Hash: '1536274681630263699'
+      Phive:
+        Placement: {ID: 1536274681630263699}
+      Presence: {FlagName: DisguiseAssassinLv2_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 1629265472
+      Scale:
+        - 0,30000
+        - 0,30000
+        - 0,30000
+      Translate:
+        - -1129,24400
+        - 206,75940
+        - 1911,68900
+    - Dynamic: {RequestEventName: AssassinText_MagicTrap01}
+      Gyaml: EventRequestActor
+      Hash: '13700201327573209114'
+      Links:
+        - {Dst: 13718650626861589275, Gyaml: Reference, Name: Reference, Src: 13700201327573209114}
+      Phive:
+        Placement: {ID: 13700201327573209114}
+      Presence: {FlagName: DisguiseAssassinLv2_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 2668273208
+      Translate:
+        - -1128,79200
+        - 213,81750
+        - 1911,60300
+    - Gyaml: Enemy_Assassin_Junior
+      Hash: '9587088554438352371'
+      Name: RoadTrapAssassin1
+      Phive:
+        Placement: {ID: 9587088554438352371}
+      Presence: {FlagName: DisguiseAssassinLv0_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - -0,63493
+        - 0,00000
+      SRTHash: !u 2559864965
+      Translate:
+        - -1127,77300
+        - 206,90940
+        - 1910,01500
+    - Dynamic: {OwningObjectAllowPickUpGameData: AssassinTrap_Banana, OwningObjectZonauMagicedEventName: AssassinText_MagicTrap01}
+      Gyaml: AssasinTextNPC
+      Hash: '11193647026574133211'
+      Name: AssassinNearTrap
+      Phive:
+        Placement: {ID: 11193647026574133211}
+      Presence: {FlagName: DisguiseAssassinLv0_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 1302268937
+      Translate:
+        - -1129,23300
+        - 207,35910
+        - 1911,48200
+    - Gyaml: Item_Fruit_H
+      Hash: '2778206769905850858'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 11193647026574133211, Gyaml: Owned, Name: Owned, Src: 2778206769905850858}
+      Name: AssassinBanana
+      Phive:
+        Placement: {ID: 2778206769905850858}
+      Presence: {FlagName: DisguiseAssassinLv0_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 1,74677
+        - -0,67135
+        - -0,00605
+      SRTHash: !u 3961114698
+      Translate:
+        - -1129,09700
+        - 207,32510
+        - 1911,46400
+    - Dynamic: {RequestEventName: AssassinText_BurnTrap01}
+      Gyaml: EventRequestActor
+      Hash: '3211918532192707731'
+      Links:
+        - {Dst: 2778206769905850858, Gyaml: Reference, Name: Reference, Src: 3211918532192707731}
+      Phive:
+        Placement: {ID: 3211918532192707731}
+      Presence: {FlagName: DisguiseAssassinLv0_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 4232760470
+      Translate:
+        - -1126,95200
+        - 213,81750
+        - 1909,41000
+    - Gyaml: Area
+      Hash: '8765619675174147486'
+      Phive:
+        Placement: {ID: 8765619675174147486}
+      Presence: {FlagName: DisguiseAssassinLv0_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 3423385183
+      Scale:
+        - 20,00000
+        - 10,81701
+        - 31,95090
+      Translate:
+        - -1132,60500
+        - 202,35610
+        - 1915,69400
+    - Gyaml: Area
+      Hash: '17087681150971300912'
+      Phive:
+        Placement: {ID: 17087681150971300912}
+      Presence: {FlagName: DisguiseAssassinLv0_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 1629265472
+      Scale:
+        - 0,30000
+        - 0,30000
+        - 0,30000
+      Translate:
+        - -1129,24400
+        - 206,75940
+        - 1911,68900
+    - Dynamic: {RequestEventName: AssassinText_MagicTrap01}
+      Gyaml: EventRequestActor
+      Hash: '14300926531220462954'
+      Links:
+        - {Dst: 2778206769905850858, Gyaml: Reference, Name: Reference, Src: 14300926531220462954}
+      Phive:
+        Placement: {ID: 14300926531220462954}
+      Presence: {FlagName: DisguiseAssassinLv0_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 2668273208
+      Translate:
+        - -1128,79200
+        - 213,81750
+        - 1911,60300
+    - Dynamic: {OwningObjectAllowPickUpGameData: AssassinTrap_Banana, OwningObjectZonauMagicedEventName: AssassinText_MagicTrap01}
+      Gyaml: AssasinTextNPC
+      Hash: '4822287573317251050'
+      Name: AssassinNearTrap
+      Phive:
+        Placement: {ID: 4822287573317251050}
+      Presence: {FlagName: DisguiseAssassinLv1_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 1302268937
+      Translate:
+        - -1129,23300
+        - 207,35910
+        - 1911,48200
+    - Gyaml: Item_Fruit_H
+      Hash: '6321793688158139884'
+      Links:
+        - {Dst: 4822287573317251050, Gyaml: Owned, Name: Owned, Src: 6321793688158139884}
+      Name: AssassinBanana
+      Phive:
+        Placement: {ID: 6321793688158139884}
+      Presence: {FlagName: DisguiseAssassinLv1_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 1,90406
+        - -0,64783
+        - -0,25728
+      SRTHash: !u 1250763564
+      Translate:
+        - -1129,04900
+        - 207,31630
+        - 1911,50800
+    - Dynamic: {RequestEventName: AssassinText_BurnTrap01}
+      Gyaml: EventRequestActor
+      Hash: '15618130773776445539'
+      Links:
+        - {Dst: 6321793688158139884, Gyaml: Reference, Name: Reference, Src: 15618130773776445539}
+      Phive:
+        Placement: {ID: 15618130773776445539}
+      Presence: {FlagName: DisguiseAssassinLv1_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 4232760470
+      Translate:
+        - -1126,95200
+        - 213,81750
+        - 1909,41000
+    - Gyaml: Area
+      Hash: '904176040607383872'
+      Phive:
+        Placement: {ID: 904176040607383872}
+      Presence: {FlagName: DisguiseAssassinLv1_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 3423385183
+      Scale:
+        - 20,00000
+        - 10,81701
+        - 31,95090
+      Translate:
+        - -1132,60500
+        - 202,35610
+        - 1915,69400
+    - Gyaml: Area
+      Hash: '13782714961937539234'
+      Phive:
+        Placement: {ID: 13782714961937539234}
+      Presence: {FlagName: DisguiseAssassinLv1_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 1629265472
+      Scale:
+        - 0,30000
+        - 0,30000
+        - 0,30000
+      Translate:
+        - -1129,24400
+        - 206,75940
+        - 1911,68900
+    - Dynamic: {RequestEventName: AssassinText_MagicTrap01}
+      Gyaml: EventRequestActor
+      Hash: '1660590038865541197'
+      Links:
+        - {Dst: 6321793688158139884, Gyaml: Reference, Name: Reference, Src: 1660590038865541197}
+      Phive:
+        Placement: {ID: 1660590038865541197}
+      Presence: {FlagName: DisguiseAssassinLv1_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 2668273208
+      Translate:
+        - -1128,79200
+        - 213,81750
+        - 1911,60300
+    - Gyaml: Enemy_Assassin_Junior
+      Hash: '10707696042147373090'
+      Name: RoadTrapAssassin2
+      Phive:
+        Placement: {ID: 10707696042147373090}
+      Presence: {FlagName: DisguiseAssassinLv1_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -0,00002
+        - -1,55652
+        - 0,00002
+      SRTHash: !u 4056846946
+      Translate:
+        - -1126,24500
+        - 206,90940
+        - 1912,48100
+    - Dynamic: {EquipmentUser_Bow: Weapon_Bow_040}
+      Gyaml: Enemy_Assassin_Shooter_Junior
+      Hash: '17068760877794695915'
+      Name: RoadTrapAssassin3
+      Phive:
+        Placement: {ID: 17068760877794695915}
+      Presence: {FlagName: DisguiseAssassinLv1_Private01, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - 0,09297
+        - 0,00000
+      SRTHash: !u 975584574
+      Translate:
+        - -1130,88000
+        - 206,90940
+        - 1909,17300
+    - Dynamic: {RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '162118255428597637'
+      Phive:
+        Placement: {ID: 162118255428597637}
+      Rotate:
+        - -3,14159
+        - 0,69813
+        - -3,14159
+      SRTHash: !u 3669307270
+      Scale:
+        - 150,00000
+        - 150,00000
+        - 150,00000
+      Translate:
+        - -1129,24400
+        - 56,90939
+        - 1911,68900
+    - Gyaml: Npc_Zonau_Golem_Servant_MainField0001
+      Hash: '13147286967511107825'
+      Links:
+        - {Dst: 15377575522447793552, Gyaml: Reference, Name: Reference, Src: 13147286967511107825}
+      MoveRadius: 0,00061
+      Phive:
+        Placement: {ID: 13147286967511107825}
+      Rotate:
+        - 0,00000
+        - -0,69813
+        - 0,00000
+      SRTHash: !u 2041709395
+      Translate:
+        - -1120,87900
+        - 207,26740
+        - 1901,35900
+    - Dynamic:
+        InstanceID_0: 11245141226041536115
+        Pos_0:
+          - -1068,24700
+          - 249,81500
+          - 1830,99900
+        Rot_0:
+          - 1,68119
+          - 0,83400
+          - 0,63000
+      Gyaml: LightBall_Small
+      Hash: '16698918545167836115'
+      Phive:
+        Placement: {ID: 16698918545167836115}
+      Rotate:
+        - -0,69379
+        - 0,83131
+        - 0,30035
+      SRTHash: !u 1329297552
+      Translate:
+        - -1067,88500
+        - 249,76660
+        - 1831,30200
+    - Dynamic:
+        InstanceID_0: 11245141226041536115
+        Pos_0:
+          - -1068,24700
+          - 249,81500
+          - 1830,99900
+        Rot_0:
+          - 1,68119
+          - 0,83400
+          - 0,63000
+      Gyaml: LightBall_Small
+      Hash: '770525344182058644'
+      Links:
+        - {Dst: 16698918545167836115, Gyaml: StackInfo, Name: StackInfo, Src: 770525344182058644}
+      Phive:
+        Placement: {ID: 770525344182058644}
+      Rotate:
+        - 0,22330
+        - 0,03515
+        - 2,10423
+      SRTHash: !u 3037172274
+      Translate:
+        - -1067,75300
+        - 250,05720
+        - 1831,20000
+  AiGroups:
+    - Hash: '40713393088237411'
+      InstanceName: DisguiseAssassinBanana_3Junior_9bd5_efcd
+      Logic: Logic/Module/DisguiseAssassinBanana_3JuniorPrivate01/DisguiseAssassinBanana_3JuniorPrivate01_d887.logic.module.ain
+      References:
+        - {Id: Enemy_Assassin_Junior_9d95, Path: _c7e8/Enemy_Assassin_Junior_9d95, Reference: 10530060018820509463}
+        - {Id: Enemy_Assassin_Shooter_Junior_fe14, Path: _c7e8/Enemy_Assassin_Shooter_Junior_fe14, Reference: 398937255036421463}
+        - {Id: Enemy_Assassin_Shooter_Junior_a086, Path: _c7e8/Enemy_Assassin_Shooter_Junior_a086, Reference: 13962116344904442036}
+        - {Id: AiGroup, InstanceName: DisguiseAssassinBanana_3JuniorBasePrivate01_af80_150b, Logic: Logic/Module/DisguiseAssassinBanana_3JuniorBase/DisguiseAssassinBanana_3JuniorBase_c024.logic.module.ain, Path: _c7e8/AiGroup}
+        - {Id: Item_Fruit_H_2339, Path: _7edb/Item_Fruit_H_2339, Reference: 13718650626861589275}
+        - {Id: EventRequestActor_aceb, Path: _7edb/EventRequestActor_aceb, Reference: 13041587534166722803}
+        - {Id: AssasinTextNPC_47df, Path: _7edb/AssasinTextNPC_47df, Reference: 16357881721327746427}
+        - {Id: Area_4bcc, Path: _7edb/Area_4bcc, Reference: 16244184856741583862}
+        - {Id: Area_7593, Path: _7edb/Area_7593, Reference: 1536274681630263699}
+        - {Id: EventRequestActor_799d, Path: _7edb/EventRequestActor_799d, Reference: 13700201327573209114}
+        - {Id: AiGroup, InstanceName: DisguiseAssassinBanana_BasePrivate01_46c6_8b7c, Logic: Logic/Module/DisguiseAssassinBanana_BasePrivate01/DisguiseAssassinBanana_BasePrivate01_46c6.logic.module.ain, Path: _7edb/AiGroup}
+    - Hash: '3845292271426010215'
+      InstanceName: DisguiseAssassinBanana_1Junior_40a7_035e
+      Logic: Logic/Module/DisguiseAssassinBanana_1JuniorPrivate01/DisguiseAssassinBanana_1JuniorPrivate01_817c.logic.module.ain
+      References:
+        - {Id: Item_Fruit_H_2339, Path: _4c2b/Item_Fruit_H_2339, Reference: 2778206769905850858}
+        - {Id: EventRequestActor_aceb, Path: _4c2b/EventRequestActor_aceb, Reference: 3211918532192707731}
+        - {Id: AssasinTextNPC_47df, Path: _4c2b/AssasinTextNPC_47df, Reference: 11193647026574133211}
+        - {Id: Area_4bcc, Path: _4c2b/Area_4bcc, Reference: 8765619675174147486}
+        - {Id: Area_7593, Path: _4c2b/Area_7593, Reference: 17087681150971300912}
+        - {Id: EventRequestActor_799d, Path: _4c2b/EventRequestActor_799d, Reference: 14300926531220462954}
+        - {Id: AiGroup, InstanceName: DisguiseAssassinBanana_BasePrivate01_46c6_e00d, Logic: Logic/Module/DisguiseAssassinBanana_BasePrivate01/DisguiseAssassinBanana_BasePrivate01_46c6.logic.module.ain, Path: _4c2b/AiGroup}
+        - {Id: Enemy_Assassin_Junior_1e3c, Path: _3a59/Enemy_Assassin_Junior_1e3c, Reference: 9587088554438352371}
+        - {Id: AiGroup, InstanceName: DisguiseAssassinBanana_1JuniorBasePrivate01_3393_c30c, Logic: Logic/Module/DisguiseAssassinBanana_1JuniorBase/DisguiseAssassinBanana_1JuniorBase_d9ee.logic.module.ain, Path: _3a59/AiGroup}
+    - Hash: '13098990787905110308'
+      InstanceName: DisguiseAssassinBanana_2Junior_5127_c791
+      Logic: Logic/Module/DisguiseAssassinBanana_2JuniorPrivate01/DisguiseAssassinBanana_2JuniorPrivate01_2bbf.logic.module.ain
+      References:
+        - {Id: Item_Fruit_H_2339, Path: _8c33/Item_Fruit_H_2339, Reference: 6321793688158139884}
+        - {Id: EventRequestActor_aceb, Path: _8c33/EventRequestActor_aceb, Reference: 15618130773776445539}
+        - {Id: AssasinTextNPC_47df, Path: _8c33/AssasinTextNPC_47df, Reference: 4822287573317251050}
+        - {Id: Area_4bcc, Path: _8c33/Area_4bcc, Reference: 904176040607383872}
+        - {Id: Area_7593, Path: _8c33/Area_7593, Reference: 13782714961937539234}
+        - {Id: EventRequestActor_799d, Path: _8c33/EventRequestActor_799d, Reference: 1660590038865541197}
+        - {Id: AiGroup, InstanceName: DisguiseAssassinBanana_BasePrivate01_46c6_79e8, Logic: Logic/Module/DisguiseAssassinBanana_BasePrivate01/DisguiseAssassinBanana_BasePrivate01_46c6.logic.module.ain, Path: _8c33/AiGroup}
+        - {Id: Enemy_Assassin_Junior_db9b, Path: _5eb7/Enemy_Assassin_Junior_db9b, Reference: 10707696042147373090}
+        - {Id: Enemy_Assassin_Shooter_Junior_9df2, Path: _5eb7/Enemy_Assassin_Shooter_Junior_9df2, Reference: 17068760877794695915}
+        - {Id: AiGroup, InstanceName: DisguiseAssassinBanana_2JuniorBasePrivate01_1b5c_baa5, Logic: Logic/Module/DisguiseAssassinBanana_2JuniorBase/DisguiseAssassinBanana_2JuniorBase_9478.logic.module.ain, Path: _5eb7/AiGroup}
+    - Hash: '13266180353251646331'
+      Logic: Logic/Module/DisguiseAssassinBananaPrivate01/DisguiseAssassinBananaPrivate01_edd6.logic.module.ain
+      References:
+        - {Id: Area_d888, Path: Area_d888, Reference: 162118255428597637}
+  FarDeleteGroups:
+    - - 398937255036421463
+      - 1536274681630263699
+      - 10530060018820509463
+      - 13041587534166722803
+      - 13700201327573209114
+      - 13718650626861589275
+      - 13962116344904442036
+      - 16244184856741583862
+      - 16357881721327746427
+    - - 904176040607383872
+      - 1660590038865541197
+      - 4822287573317251050
+      - 6321793688158139884
+      - 10707696042147373090
+      - 13782714961937539234
+      - 15618130773776445539
+      - 17068760877794695915
+    - - 2778206769905850858
+      - 3211918532192707731
+      - 8765619675174147486
+      - 9587088554438352371
+      - 11193647026574133211
+      - 14300926531220462954
+      - 17087681150971300912
+  FilePath: Work/Banc/Scene/Prefab/Cave_FirstPlateau_0007_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 398937255036421463
+      - 1536274681630263699
+      - 10530060018820509463
+      - 13041587534166722803
+      - 13700201327573209114
+      - 13718650626861589275
+      - 13962116344904442036
+      - 16244184856741583862
+      - 16357881721327746427
+    - - 904176040607383872
+      - 1660590038865541197
+      - 4822287573317251050
+      - 6321793688158139884
+      - 10707696042147373090
+      - 13782714961937539234
+      - 15618130773776445539
+      - 17068760877794695915
+    - - 2778206769905850858
+      - 3211918532192707731
+      - 8765619675174147486
+      - 9587088554438352371
+      - 11193647026574133211
+      - 14300926531220462954
+      - 17087681150971300912

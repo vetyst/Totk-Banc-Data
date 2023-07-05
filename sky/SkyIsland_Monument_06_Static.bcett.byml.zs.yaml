@@ -1,0 +1,141 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '12836264837541229978'
+      Phive:
+        Placement: {ID: 12836264837541229978}
+      Rotate:
+        - 0,00000
+        - -1,39626
+        - 0,00000
+      SRTHash: !u 747980582
+      Scale:
+        - 0,70000
+        - 1,80000
+        - 0,70000
+      Translate:
+        - 478,60080
+        - 499,40000
+        - 2249,66200
+    - Gyaml: Area
+      Hash: '14999026549188566687'
+      Phive:
+        Placement: {ID: 14999026549188566687}
+      Rotate:
+        - 0,00000
+        - -1,39626
+        - 0,00000
+      SRTHash: !u 3876205170
+      Scale:
+        - 1,98000
+        - 1,80000
+        - 0,42000
+      Translate:
+        - 476,10920
+        - 499,40000
+        - 2250,10200
+    - Gyaml: Area
+      Hash: '15675843522361285197'
+      Phive:
+        Placement: {ID: 15675843522361285197}
+      Rotate:
+        - 3,14159
+        - -1,22173
+        - 3,14159
+      SRTHash: !u 2308986467
+      Scale:
+        - 0,83000
+        - 1,80000
+        - 1,10000
+      Translate:
+        - 476,92150
+        - 499,40000
+        - 2249,23800
+    - Gyaml: Area
+      Hash: '10833518562477649036'
+      Phive:
+        Placement: {ID: 10833518562477649036}
+      Rotate:
+        - 0,00000
+        - -0,87267
+        - 0,00000
+      SRTHash: !u 2336350760
+      Scale:
+        - 0,83000
+        - 1,80000
+        - 1,10000
+      Translate:
+        - 477,16810
+        - 499,40000
+        - 2250,63600
+    - Bakeable: true
+      Dynamic: {BancPath: Banc/MainField/Merged/Mrg_18671f00_Unified_0-0-0-68DBEF.bcett.byml}
+      Gyaml: MergedActorUnifiedPrefab
+      Hash: '11554120589811519855'
+      Phive:
+        Placement: {ID: 11554120589811519855}
+      Rotate:
+        - 0,00000
+        - -1,39626
+        - 0,00000
+      SRTHash: !u 63679794
+      Translate:
+        - 480,96430
+        - 500,00000
+        - 2249,24600
+    - Bakeable: true
+      Gyaml: SkyObj_AncientMemoryIsland_A_03
+      Hash: '10829143864868923756'
+      Links:
+        - {Dst: 9717486472998140866, Gyaml: Reference, Name: Reference, Src: 10829143864868923756}
+      Phive:
+        Placement: {ID: 10829143864868923756}
+      Rotate:
+        - 0,00000
+        - -1,39626
+        - 0,00000
+      SRTHash: !u 63679794
+      Translate:
+        - 480,96430
+        - 500,00000
+        - 2249,24600
+    - Bakeable: true
+      Gyaml: SkyObj_AncientMemoryIsland_A_03_Far
+      Hash: '9717486472998140866'
+      Phive:
+        Placement: {ID: 10829143864868923756}
+      Rotate:
+        - 0,00000
+        - -1,39626
+        - 0,00000
+      SRTHash: !u 63679794
+      Translate:
+        - 480,96430
+        - 500,00000
+        - 2249,24600
+  AiGroups:
+    - Hash: '5157729452698429552'
+      Logic: Logic/Module/FrameInMode_AncientMemory/FrameInMode_AncientMemory_2871.logic.module.ain
+      References:
+        - {Id: Area_de57, Path: Area_de57, Reference: 12836264837541229978}
+        - {Id: Area_febd, Path: Area_febd, Reference: 14999026549188566687}
+        - {Id: Area_c6ab, Path: Area_c6ab, Reference: 10833518562477649036}
+        - {Id: Area_e70c, Path: Area_e70c, Reference: 15675843522361285197}
+  FarDeleteGroups:
+    - - 10833518562477649036
+      - 12836264837541229978
+      - 14999026549188566687
+      - 15675843522361285197
+  FilePath: Work/Banc/Scene/Prefab/SkyIsland_Monument_06.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 10833518562477649036
+      - 12836264837541229978
+      - 14999026549188566687
+      - 15675843522361285197

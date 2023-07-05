@@ -1,0 +1,167 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_Lanayru_0032
+      Hash: '11011142026343315025'
+      Phive:
+        Placement: {ID: 11011142026343315025}
+      Rotate:
+        - 0,00000
+        - -1,37881
+        - 0,00000
+      SRTHash: !u 4263185146
+      Translate:
+        - 2566,00000
+        - 269,00000
+        - -518,50010
+    - Dynamic: {CreateHorablinMovingType: !l 3, EquipmentUser_Attachment_Weapon: AsbObj_RockParts_C_S_01, EquipmentUser_Weapon: Weapon_Spear_103}
+      Gyaml: Enemy_Horablin_Junior
+      Hash: '17349516053863549312'
+      Phive:
+        Placement: {ID: 17349516053863549312}
+      Rotate:
+        - -3,14159
+        - 1,15340
+        - 0,00000
+      SRTHash: !u 1413408421
+      Translate:
+        - 2583,23400
+        - 282,04260
+        - -511,56930
+    - Dynamic: {AreaRenderType: !l 2, RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '1858614320362119256'
+      Phive:
+        Placement: {ID: 1858614320362119256}
+      Rotate:
+        - -0,94284
+        - 1,44683
+        - -2,66268
+      SRTHash: !u 569178170
+      Scale:
+        - 6,00000
+        - 5,00000
+        - 6,00000
+      Translate:
+        - 2568,25100
+        - 274,55680
+        - -517,69170
+    - Dynamic: {AreaRenderType: !l 2, RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '5048867085727459079'
+      Phive:
+        Placement: {ID: 5048867085727459079}
+      Rotate:
+        - 1,28712
+        - -1,36494
+        - 0,87555
+      SRTHash: !u 428379804
+      Scale:
+        - 8,50000
+        - 17,00000
+        - 8,50000
+      Translate:
+        - 2618,18100
+        - 304,05870
+        - -540,36630
+    - Dynamic: {AreaRenderType: !l 2, RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '1182350590018921858'
+      Phive:
+        Placement: {ID: 1182350590018921858}
+      Rotate:
+        - 1,49248
+        - -0,75059
+        - 0,65103
+      SRTHash: !u 344892136
+      Scale:
+        - 8,00000
+        - 15,00000
+        - 8,00000
+      Translate:
+        - 2598,37600
+        - 290,91010
+        - -535,60890
+    - Dynamic: {AreaRenderType: !l 2, RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '898237892154915841'
+      Phive:
+        Placement: {ID: 898237892154915841}
+      Rotate:
+        - -1,12077
+        - -1,47028
+        - 3,13482
+      SRTHash: !u 1800533119
+      Scale:
+        - 5,00000
+        - 8,00000
+        - 5,00000
+      Translate:
+        - 2622,88900
+        - 305,69500
+        - -532,90660
+    - Dynamic: {AreaRenderType: !l 2}
+      Gyaml: Area
+      Hash: '14041310483252064949'
+      Phive:
+        Placement: {ID: 14041310483252064949}
+      Rotate:
+        - 0,00000
+        - -1,37881
+        - 0,00000
+      SRTHash: !u 3135756842
+      Scale:
+        - 8,00000
+        - 5,00000
+        - 5,00000
+      Translate:
+        - 2614,40400
+        - 297,56230
+        - -544,86270
+    - Dynamic: {AreaRenderType: !l 2, RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '4319082413945901077'
+      Phive:
+        Placement: {ID: 4319082413945901077}
+      Rotate:
+        - -1,21173
+        - -1,47028
+        - 3,13482
+      SRTHash: !u 1332004006
+      Scale:
+        - 5,00000
+        - 8,00000
+        - 5,00000
+      Translate:
+        - 2626,13000
+        - 307,07200
+        - -532,58070
+    - Dynamic: {AreaRenderType: !l 2, RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '10726639973964042359'
+      Phive:
+        Placement: {ID: 10726639973964042359}
+      Rotate:
+        - -1,48656
+        - -1,13835
+        - -2,86747
+      SRTHash: !u 3955245555
+      Scale:
+        - 4,50000
+        - 8,00000
+        - 4,50000
+      Translate:
+        - 2633,18900
+        - 310,25360
+        - -527,48220
+  AiGroups:
+    - Hash: '9992833854012107571'
+      Logic: Logic/Module/SetEnemySpot_Holablin_KeyOnly/SetEnemySpot_Holablin_KeyOnly_e6ef.logic.module.ain
+      References:
+        - {Id: EnemyLocaterSpeciesHorablin_eca9, Path: EnemyLocaterSpeciesHorablin_eca9, Reference: 17349516053863549312}
+  FilePath: Work/Banc/Scene/Prefab/Cave_Lanayru_0032_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []

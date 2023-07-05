@@ -1,0 +1,179 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Bakeable: true
+      Gyaml: FldObj_HyliaWoodWell_A_01
+      Hash: '10995461215550736769'
+      Phive:
+        Placement: {ID: 10995461215550736769}
+      Rotate:
+        - 3,14159
+        - -0,24009
+        - 3,14159
+      SRTHash: !u 1657135564
+      Translate:
+        - 884,59660
+        - 131,30560
+        - 195,31920
+    - Bakeable: true
+      Gyaml: FldObj_HyliaWoodWell_A_02
+      Hash: '1895569903158618444'
+      Phive:
+        Placement: {ID: 1895569903158618444}
+      Rotate:
+        - 3,14159
+        - 0,19625
+        - 3,14159
+      SRTHash: !u 3737998902
+      Translate:
+        - 884,59660
+        - 131,51870
+        - 195,31920
+    - Gyaml: Well_0047
+      Hash: '16229516646972450198'
+      Phive:
+        Placement: {ID: 16229516646972450198}
+      Rotate:
+        - -3,14159
+        - -1,36215
+        - -3,14159
+      SRTHash: !u 4161799812
+      Translate:
+        - 884,59700
+        - 131,43950
+        - 195,31900
+    - Gyaml: Npc_WellMania
+      Hash: '475025410417982127'
+      Links:
+        - {Dst: 10581680331416713988, Gyaml: Reference, Name: Reference, Src: 475025410417982127}
+      Phive:
+        Placement: {ID: 475025410417982127}
+      Presence: {FlagName: WellCollection_InHorseWell, IsCheckLazy: true, IsNegation: false}
+      SRTHash: !u 3289324746
+      Translate:
+        - 879,74870
+        - 115,28180
+        - 205,81920
+    - Gyaml: AnchorAction1
+      Hash: '10581680331416713988'
+      Phive:
+        Placement: {ID: 10581680331416713988}
+      SRTHash: !u 3289324746
+      Translate:
+        - 879,74870
+        - 115,28180
+        - 205,81920
+    - Bakeable: true
+      Gyaml: FldObj_HyliaWoodWell_A_01
+      Hash: '3322677537784125675'
+      Phive:
+        Placement: {ID: 3322677537784125675}
+      Rotate:
+        - -3,14159
+        - 0,77194
+        - -3,14159
+      SRTHash: !u 4110753886
+      Translate:
+        - 858,15980
+        - 131,52540
+        - 262,76970
+    - Bakeable: true
+      Gyaml: FldObj_HyliaWoodWell_A_02
+      Hash: '5541819554788481652'
+      Phive:
+        Placement: {ID: 5541819554788481652}
+      Rotate:
+        - -3,14159
+        - 0,77194
+        - -3,14159
+      SRTHash: !u 1083057349
+      Translate:
+        - 858,15980
+        - 131,73850
+        - 262,76970
+    - Dynamic:
+        InstanceID_0: 2347646086594092846
+        Pos_0:
+          - 890,59660
+          - 116,06620
+          - 194,31920
+        Rot_0:
+          - -0,04076
+          - 0,00033
+          - 0,90787
+      Gyaml: LightBall_Small
+      Hash: '13542391329822331097'
+      Phive:
+        Placement: {ID: 13542391329822331097}
+      Rotate:
+        - -2,17190
+        - -0,22077
+        - 0,91704
+      SRTHash: !u 1162132800
+      Translate:
+        - 890,22710
+        - 116,29550
+        - 194,50870
+    - Dynamic:
+        InstanceID_0: 2347646086594092846
+        Pos_0:
+          - 890,59660
+          - 116,06620
+          - 194,31920
+        Rot_0:
+          - -0,04076
+          - 0,00033
+          - 0,90787
+      Gyaml: LightBall_Small
+      Hash: '13695784875228720386'
+      Links:
+        - {Dst: 13542391329822331097, Gyaml: StackInfo, Name: StackInfo, Src: 13695784875228720386}
+      Phive:
+        Placement: {ID: 13695784875228720386}
+      Rotate:
+        - -3,03489
+        - 1,43361
+        - 0,05968
+      SRTHash: !u 557555029
+      Translate:
+        - 890,30000
+        - 116,57100
+        - 194,33260
+    - Gyaml: Area
+      Hash: '10872728573168266078'
+      Phive:
+        Placement: {ID: 10872728573168266078}
+      Rotate:
+        - 0,00000
+        - -0,17647
+        - 0,00000
+      SRTHash: !u 1429884376
+      Scale:
+        - 7,50000
+        - 5,00000
+        - 15,00000
+      Translate:
+        - 880,09660
+        - 113,24390
+        - 203,73520
+  AiGroups:
+    - Hash: '14756655201134369316'
+      Logic: Logic/Module/WellCollection_MossMany/WellCollection_MossMany_869d.logic.module.ain
+      References:
+        - {Id: Area_5f54, Path: Area_5f54, Reference: 10872728573168266078}
+  FarDeleteGroups:
+    - - 1895569903158618444
+      - 10995461215550736769
+    - - 3322677537784125675
+      - 5541819554788481652
+  FilePath: Work/Banc/Scene/Prefab/Well_0047_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 1895569903158618444
+      - 10995461215550736769
+    - - 3322677537784125675
+      - 5541819554788481652

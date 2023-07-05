@@ -1,0 +1,283 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_Eldin_0039
+      Hash: '4684119704883889676'
+      Phive:
+        Placement: {ID: 4684119704883889676}
+      Rotate:
+        - 0,00000
+        - 0,69948
+        - 0,00000
+      SRTHash: !u 4198965342
+      Translate:
+        - 2278,86500
+        - 265,87940
+        - -1513,36200
+    - Dynamic: {EquipmentUser_Bow: Weapon_Bow_004}
+      Gyaml: Enemy_Bokoblin_Junior
+      Hash: '3002424825345272856'
+      Links:
+        - {Dst: 17857950060515562012, Gyaml: Reference, Name: Reference, Src: 3002424825345272856}
+      Phive:
+        Placement: {ID: 3002424825345272856}
+      Rotate:
+        - -3,14159
+        - -0,17927
+        - -3,14159
+      SRTHash: !u 2403754326
+      Translate:
+        - 2174,77900
+        - 248,95500
+        - -1598,16200
+    - Dynamic: {IsEnemyCampWeapon: true, IsLevelSensorTarget: true}
+      Gyaml: Weapon_Sword_106
+      Hash: '16635783744718647493'
+      Phive:
+        Placement: {ID: 16635783744718647493}
+      Rotate:
+        - -2,13765
+        - -0,83805
+        - -0,04661
+      SRTHash: !u 3061236081
+      Translate:
+        - 2207,37400
+        - 245,51440
+        - -1611,90600
+    - Dynamic: {PlacementMotion_MotionType: !l 2}
+      Gyaml: Weapon_Lsword_106
+      Hash: '13592700378774229233'
+      Phive:
+        Placement: {ID: 13592700378774229233}
+      Rotate:
+        - 1,54624
+        - 0,00000
+        - -0,31800
+      SRTHash: !u 2313128973
+      Translate:
+        - 2179,72400
+        - 260,22140
+        - -1644,14000
+    - Gyaml: BoarMeat
+      Hash: '14664531476468083766'
+      Phive:
+        Placement: {ID: 14664531476468083766}
+      Rotate:
+        - 0,00000
+        - -1,29363
+        - 0,00000
+      SRTHash: !u 2238155673
+      Translate:
+        - 2195,87100
+        - 245,33630
+        - -1602,53700
+    - Gyaml: Enemy_Bokoblin_Junior
+      Hash: '4533060630577845448'
+      Links:
+        - {Dst: 14664531476468083766, Src: 4533060630577845448}
+        - {Dst: 5147738977248954024, Src: 4533060630577845448}
+        - {Dst: 17857950060515562012, Gyaml: Reference, Name: Reference, Src: 4533060630577845448}
+      Phive:
+        Placement: {ID: 4533060630577845448}
+      Rotate:
+        - -3,14159
+        - -1,06256
+        - 3,14159
+      SRTHash: !u 1460683246
+      Translate:
+        - 2201,61600
+        - 244,25570
+        - -1599,09300
+    - Gyaml: Enemy_Moriblin_Middle
+      Hash: '5908342042680512237'
+      Links:
+        - {Dst: 14664531476468083766, Src: 5908342042680512237}
+        - {Dst: 5147738977248954024, Src: 5908342042680512237}
+        - {Dst: 17857950060515562012, Gyaml: Reference, Name: Reference, Src: 5908342042680512237}
+        - {Dst: 16635783744718647493, Gyaml: Reference, Name: Reference, Src: 5908342042680512237}
+      Phive:
+        Placement: {ID: 5908342042680512237}
+      Rotate:
+        - 0,00000
+        - -1,29363
+        - 0,00000
+      SRTHash: !u 2650289176
+      Translate:
+        - 2204,08200
+        - 245,39560
+        - -1604,87100
+    - Bakeable: true
+      Gyaml: FireWood
+      Hash: '5147738977248954024'
+      Phive:
+        Placement: {ID: 5147738977248954024}
+      Rotate:
+        - 0,00000
+        - -1,29363
+        - 0,00000
+      SRTHash: !u 2238155673
+      Translate:
+        - 2195,87100
+        - 245,33630
+        - -1602,53700
+    - Dynamic: {Life_BossLifeGaugeSubtitle: Army_TribuneCave}
+      Gyaml: Enemy_Army_Manager_113
+      Hash: '17857950060515562012'
+      Phive:
+        Placement: {ID: 17857950060515562012}
+      SRTHash: !u 2089425872
+      Translate:
+        - 2167,86500
+        - 261,41860
+        - -1619,86200
+    - Gyaml: Weapon_Lsword_103
+      Hash: '6055628529011328475'
+      Phive:
+        Placement: {ID: 6055628529011328475}
+      Rotate:
+        - 0,81591
+        - 1,07826
+        - -0,50827
+      SRTHash: !u 4244855901
+      Translate:
+        - 2218,97100
+        - 247,65990
+        - -1592,14800
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: Weapon_Sword_103
+      Hash: '1433893849121416983'
+      Phive:
+        Placement: {ID: 1433893849121416983}
+      Rotate:
+        - 0,52360
+        - -0,87266
+        - 0,00000
+      SRTHash: !u 3605985477
+      Translate:
+        - 2190,43000
+        - 245,54680
+        - -1579,99700
+    - Gyaml: Area
+      Hash: '15690010389702628199'
+      Phive:
+        Placement: {ID: 15690010389702628199}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 761307486
+      Scale:
+        - 43,09816
+        - 31,05563
+        - 86,08633
+      Translate:
+        - 2214,97400
+        - 231,66590
+        - -1588,65400
+    - Gyaml: ForbidAutoPlacementAreaOnlyBox
+      Hash: '15904154222448931436'
+      Phive:
+        Placement: {ID: 15904154222448931436}
+      Rotate:
+        - 0,00000
+        - -0,78540
+        - 0,00000
+      SRTHash: !u 2745304970
+      Scale:
+        - 154,45830
+        - 31,08036
+        - 76,11201
+      Translate:
+        - 2218,58200
+        - 258,86870
+        - -1585,19100
+    - Dynamic: {EquipmentUser_Weapon: Weapon_Sword_103}
+      Gyaml: Enemy_Bokoblin_Armor_Junior
+      Hash: '15498857548662377173'
+      Links:
+        - {Dst: 17857950060515562012, Gyaml: Reference, Name: Reference, Src: 15498857548662377173}
+      Phive:
+        Placement: {ID: 15498857548662377173}
+      Rotate:
+        - 0,00000
+        - 0,34907
+        - 0,00000
+      SRTHash: !u 1054651464
+      Translate:
+        - 2188,30100
+        - 251,83790
+        - -1625,90700
+    - Gyaml: NoEscapeRangeAreaBox
+      Hash: '7563757029349809097'
+      Name: NoEscapeArea_Tribune11
+      Phive:
+        Placement: {ID: 7563757029349809097}
+      Rotate:
+        - 0,00000
+        - 0,78540
+        - 0,00000
+      SRTHash: !u 1140429447
+      Scale:
+        - 100,32430
+        - 264,11240
+        - 208,54020
+      Translate:
+        - 2223,52000
+        - 363,52890
+        - -1571,12600
+    - Gyaml: AlwaysRespawnTag
+      Hash: '11754967512577429412'
+      Links:
+        - {Dst: 6055628529011328475, Gyaml: Reference, Name: Reference, Src: 11754967512577429412}
+        - {Dst: 1433893849121416983, Gyaml: Reference, Name: Reference, Src: 11754967512577429412}
+        - {Dst: 13592700378774229233, Gyaml: Reference, Name: Reference, Src: 11754967512577429412}
+      Phive:
+        Placement: {ID: 11754967512577429412}
+      SRTHash: !u 2580546024
+      Translate:
+        - 2215,20200
+        - 251,20620
+        - -1586,23400
+  AiGroups:
+    - Blackboards:
+        - Component/Blackboard/BlackboardInfo/AIGroup_ConsiderMembersDeadWhenDeathProceduresComplete.engine__component__BlackboardInfo.gyml
+        - Component/Blackboard/BlackboardInfo/MetaAIEnemyCampNormal.engine__component__BlackboardInfo.gyml
+      Hash: '15650698283112404641'
+      Logic: Logic/Module/Cave_Eldin_0039_GroupSet_000/Cave_Eldin_0039_GroupSet_000_6f47.logic.module.ain
+      Meta: AI/Root/MetaAI/EnemyCampNormal.metaai.root.ain
+      References:
+        - {Id: EnemyLocater_aa9e, Path: EnemyLocater_aa9e, Reference: 3002424825345272856}
+        - {Id: EnemyLocater_369f, Path: EnemyLocater_369f, Reference: 4533060630577845448}
+        - {Id: EnemyLocater_4798, Path: EnemyLocater_4798, Reference: 5908342042680512237}
+        - {Id: Enemy_Army_Manager_113_f049, Path: Enemy_Army_Manager_113_f049, Reference: 17857950060515562012}
+        - {Id: Area_0ad5, Path: Area_0ad5, Reference: 15690010389702628199}
+        - {Id: Enemy_Bokoblin_Armor_Junior_fcb9, Path: Enemy_Bokoblin_Armor_Junior_fcb9, Reference: 15498857548662377173}
+        - {Id: WeaponLocaterLsword_5342, Path: WeaponLocaterLsword_5342, Reference: 13592700378774229233}
+        - {Id: Weapon_Sword_103_7775, Path: Weapon_Sword_103_7775, Reference: 1433893849121416983}
+        - {Id: Weapon_Lsword_103_f416, Path: Weapon_Lsword_103_f416, Reference: 6055628529011328475}
+  FarDeleteGroups:
+    - - 1433893849121416983
+      - 3002424825345272856
+      - 4533060630577845448
+      - 5908342042680512237
+      - 6055628529011328475
+      - 13592700378774229233
+      - 15498857548662377173
+      - 15690010389702628199
+      - 17857950060515562012
+  FilePath: Work/Banc/Scene/Prefab/Cave_Eldin_0039_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 1433893849121416983
+      - 3002424825345272856
+      - 4533060630577845448
+      - 5908342042680512237
+      - 6055628529011328475
+      - 13592700378774229233
+      - 15498857548662377173
+      - 15690010389702628199
+      - 17857950060515562012

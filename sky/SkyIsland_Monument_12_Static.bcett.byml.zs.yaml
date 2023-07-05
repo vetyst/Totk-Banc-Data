@@ -1,0 +1,164 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Bakeable: true
+      Gyaml: Obj_Zonau_RockRelief_A_12
+      Hash: '12009106362103952127'
+      Links:
+        - {Dst: 5478623760498151520, Gyaml: ModelBind, Name: ModelBind, Src: 12009106362103952127}
+        - {Dst: 5478623760498151520, Gyaml: Reference, Name: Reference, Src: 12009106362103952127}
+      Phive:
+        Placement: {ID: 12009106362103952127}
+      Presence: {FlagName: AncientIsland12_SucActive, IsCheckLazy: true, IsNegation: true}
+      Rotate:
+        - -3,14159
+        - 1,04720
+        - -3,14159
+      SRTHash: !u 1575740631
+      Translate:
+        - -45,32666
+        - 1601,60000
+        - -2991,56100
+    - Bakeable: true
+      Dynamic:
+        FallenFlagName: AncientIsland12_Fallen
+        IsDisableOutOfCollisionPhysicalPause: true
+        ManualGoalPos:
+          - -44,81000
+          - -511,76000
+          - -2993,00000
+        ManualGoalRot:
+          - -160,18700
+          - 58,93500
+          - -166,45700
+        PredActiveFlagName: AncientIsland12_PredActive
+      Gyaml: SkyObj_AncientMemoryIsland_A_02
+      Hash: '5478623760498151520'
+      Phive:
+        Placement: {ID: 5478623760498151520}
+      Presence: {FlagName: AncientIsland12_SucActive, IsCheckLazy: true, IsNegation: true}
+      Rotate:
+        - -3,14159
+        - 1,04720
+        - -3,14159
+      SRTHash: !u 1622706119
+      Translate:
+        - -45,32666
+        - 1600,00000
+        - -2991,56100
+    - Gyaml: Area
+      Hash: '1554163683172538798'
+      Phive:
+        Placement: {ID: 1554163683172538798}
+      Presence: {FlagName: AncientIsland12_Fallen, IsCheckLazy: true, IsNegation: true}
+      Rotate:
+        - -3,14159
+        - 1,04720
+        - -3,14159
+      SRTHash: !u 4069062422
+      Scale:
+        - 1,98000
+        - 47,00000
+        - 0,42000
+      Translate:
+        - -41,05716
+        - 1509,00000
+        - -2994,02600
+    - Gyaml: Area
+      Hash: '15672404675246340754'
+      Phive:
+        Placement: {ID: 15672404675246340754}
+      Presence: {FlagName: AncientIsland12_Fallen, IsCheckLazy: true, IsNegation: true}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 213965852
+      Scale:
+        - 0,83000
+        - 47,00000
+        - 1,10000
+      Translate:
+        - -41,52488
+        - 1509,00000
+        - -2992,93600
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '1805142654564255283'
+      Phive:
+        Placement: {ID: 1805142654564255283}
+      Presence: {FlagName: AncientIsland12_Fallen, IsCheckLazy: true, IsNegation: true}
+      Rotate:
+        - -3,14159
+        - 1,04720
+        - -3,14159
+      SRTHash: !u 1261680051
+      Scale:
+        - 0,70000
+        - 47,00000
+        - 0,70000
+      Translate:
+        - -43,24820
+        - 1509,00000
+        - -2992,76000
+    - Gyaml: Area
+      Hash: '6701476323124437064'
+      Phive:
+        Placement: {ID: 6701476323124437064}
+      Presence: {FlagName: AncientIsland12_Fallen, IsCheckLazy: true, IsNegation: true}
+      Rotate:
+        - -3,14159
+        - 0,52360
+        - -3,14159
+      SRTHash: !u 4098434198
+      Scale:
+        - 0,83000
+        - 47,00000
+        - 1,10000
+      Translate:
+        - -42,23488
+        - 1509,00000
+        - -2994,16600
+    - Bakeable: true
+      Dynamic: {BancPath: Banc/MainField/Merged/Mrg_cab597ee_Unified_0-0-0-68DBEF.bcett.byml}
+      Gyaml: MergedActorUnifiedPrefab
+      Hash: '6464679892959584157'
+      Phive:
+        Placement: {ID: 6464679892959584157}
+      Rotate:
+        - -3,14159
+        - 1,04720
+        - -3,14159
+      SRTHash: !u 1622706119
+      Translate:
+        - -45,32666
+        - 1600,00000
+        - -2991,56100
+  AiGroups:
+    - Hash: '1882718372915188618'
+      Logic: Logic/Module/FrameInMode_AncientMemory_Fall/FrameInMode_AncientMemory_Fall_6a34.logic.module.ain
+      References:
+        - {Id: Area_426c, Path: Area_426c, Reference: 1805142654564255283}
+        - {Id: Area_95a9, Path: Area_95a9, Reference: 1554163683172538798}
+        - {Id: Area_d30b, Path: Area_d30b, Reference: 6701476323124437064}
+        - {Id: Area_6aa2, Path: Area_6aa2, Reference: 15672404675246340754}
+  FarDeleteGroups:
+    - - 1554163683172538798
+      - 1805142654564255283
+      - 6701476323124437064
+      - 15672404675246340754
+    - - 5478623760498151520
+      - 12009106362103952127
+  FilePath: Work/Banc/Scene/Prefab/SkyIsland_Monument_12.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 1554163683172538798
+      - 1805142654564255283
+      - 6701476323124437064
+      - 15672404675246340754
+    - - 5478623760498151520
+      - 12009106362103952127

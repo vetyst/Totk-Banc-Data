@@ -1,0 +1,278 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Well_0053
+      Hash: '8754714446680959286'
+      Phive:
+        Placement: {ID: 8754714446680959286}
+      Rotate:
+        - -3,14159
+        - -0,59853
+        - -3,14159
+      SRTHash: !u 1590641916
+      Translate:
+        - -212,00000
+        - 124,69360
+        - -135,00000
+    - Bakeable: true
+      Gyaml: FldObj_HyliaWoodWell_A_01
+      Hash: '6084879054272338096'
+      Phive:
+        Placement: {ID: 6084879054272338096}
+      Presence: {FlagName: Npc_HatenoVillage030_MoveSable, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - -0,78540
+        - 0,00000
+      SRTHash: !u 4158159226
+      Translate:
+        - -212,00000
+        - 124,69360
+        - -135,00000
+    - Bakeable: true
+      Gyaml: FldObj_HyliaWoodWell_A_02
+      Hash: '16342560282679630663'
+      Phive:
+        Placement: {ID: 16342560282679630663}
+      Rotate:
+        - 0,00000
+        - -0,78540
+        - 0,00000
+      SRTHash: !u 633925122
+      Translate:
+        - -212,00000
+        - 124,90670
+        - -135,00000
+    - Bakeable: true
+      Gyaml: DgnObj_DungeonWaterFlow_A_01_Model
+      Hash: '435642458997296972'
+      Phive:
+        Placement: {ID: 435642458997296972}
+      Rotate:
+        - -3,14159
+        - 0,86541
+        - -3,14159
+      SRTHash: !u 2499548848
+      Scale:
+        - 1,80881
+        - 1,00000
+        - 7,08433
+      Translate:
+        - -232,58240
+        - 106,76780
+        - -118,63890
+    - Dynamic: {Drop__DropActor: Weapon_Lsword_124}
+      Gyaml: TBox_Field_Iron
+      Hash: '7011146475006146607'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 7011146475006146607}
+      Rotate:
+        - 2,97270
+        - -1,14601
+        - -3,05702
+      SRTHash: !u 4231339139
+      Translate:
+        - -251,50010
+        - 107,26030
+        - -96,98947
+    - Gyaml: AnchorAction1
+      Hash: '6650386054415109150'
+      Name: fortWell
+      Phive:
+        Placement: {ID: 6650386054415109150}
+      Rotate:
+        - -3,14159
+        - -1,12055
+        - -3,14159
+      SRTHash: !u 2334691427
+      Translate:
+        - -214,50000
+        - 107,78180
+        - -128,00000
+    - Gyaml: Npc_WellMania
+      Hash: '14102853178662492189'
+      Links:
+        - {Dst: 6650386054415109150, Gyaml: Reference, Name: Reference, Src: 14102853178662492189}
+      MoveRadius: 0,14659
+      Name: fortWell
+      Phive:
+        Placement: {ID: 14102853178662492189}
+      Presence: {FlagName: WellCollection_IsAfter_Ready_Exp, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - -1,50339
+        - 3,14159
+      SRTHash: !u 3232213627
+      Translate:
+        - -214,35340
+        - 107,78220
+        - -128,00000
+    - Bakeable: true
+      Gyaml: FldObj_EnemyBaseRiverside_LadderA_02
+      Hash: '118024737708086139'
+      Phive:
+        Placement: {ID: 118024737708086139}
+      Rotate:
+        - 3,14159
+        - 0,78540
+        - 3,14159
+      SRTHash: !u 2961398352
+      Translate:
+        - -212,70560
+        - 125,96280
+        - -134,29440
+    - Bakeable: true
+      Gyaml: FldObj_EnemyBaseRiverside_Ladder_Parts_A_01
+      Hash: '7890072126407435445'
+      Phive:
+        Placement: {ID: 7890072126407435445}
+      Rotate:
+        - 3,14159
+        - 0,78540
+        - 3,14159
+      SRTHash: !u 3921368160
+      Translate:
+        - -212,70560
+        - 107,49990
+        - -134,29440
+    - Dynamic: {AreaRenderType: !l 2}
+      Gyaml: Area
+      Hash: '12624282466554215984'
+      Phive:
+        Placement: {ID: 12624282466554215984}
+      Rotate:
+        - 0,00000
+        - -0,82070
+        - 0,00000
+      SRTHash: !u 561301282
+      Scale:
+        - 8,00000
+        - 4,00000
+        - 8,00000
+      Translate:
+        - -253,81050
+        - 104,70180
+        - -99,79666
+    - Dynamic:
+        InstanceID_0: 6927955136975073108
+        Pos_0:
+          - -260,27200
+          - 109,45800
+          - -98,57901
+        Rot_0:
+          - -1,20641
+          - 1,32041
+          - -2,76359
+      Gyaml: LightBall_Small
+      Hash: '5017510403716805872'
+      Phive:
+        Placement: {ID: 5017510403716805872}
+      Rotate:
+        - -2,78932
+        - 1,18317
+        - -2,19013
+      SRTHash: !u 3891227843
+      Translate:
+        - -259,84350
+        - 109,25750
+        - -98,61369
+    - Dynamic:
+        InstanceID_0: 6927955136975073108
+        Pos_0:
+          - -260,27200
+          - 109,45800
+          - -98,57901
+        Rot_0:
+          - -1,20641
+          - 1,32041
+          - -2,76359
+      Gyaml: LightBall_Small
+      Hash: '14673270483143077944'
+      Links:
+        - {Dst: 5017510403716805872, Gyaml: StackInfo, Name: StackInfo, Src: 14673270483143077944}
+      Phive:
+        Placement: {ID: 14673270483143077944}
+      Rotate:
+        - 1,20168
+        - 0,16203
+        - 1,67753
+      SRTHash: !u 13274413
+      Translate:
+        - -259,79210
+        - 109,40440
+        - -98,91035
+    - Dynamic:
+        InstanceID_0: 8918433571465535901
+        Pos_0:
+          - -259,91700
+          - 111,38200
+          - -100,29400
+        Rot_0:
+          - 0,04959
+          - -0,07659
+          - -2,07259
+      Gyaml: LightBall_Small
+      Hash: '6106972144304663529'
+      Links:
+        - {Dst: 17167849471830490288, Gyaml: StackInfo, Name: StackInfo, Src: 6106972144304663529}
+      Phive:
+        Placement: {ID: 6106972144304663529}
+      Rotate:
+        - -2,07840
+        - -0,29760
+        - -2,08397
+      SRTHash: !u 1784971401
+      Translate:
+        - -259,52370
+        - 111,23920
+        - -100,07060
+    - Dynamic:
+        InstanceID_0: 8918433571465535901
+        Pos_0:
+          - -259,91700
+          - 111,38200
+          - -100,29400
+        Rot_0:
+          - 0,04959
+          - -0,07659
+          - -2,07259
+      Gyaml: LightBall_Small
+      Hash: '17167849471830490288'
+      Phive:
+        Placement: {ID: 17167849471830490288}
+      Rotate:
+        - -2,25857
+        - 1,40282
+        - -2,14909
+      SRTHash: !u 3102227731
+      Translate:
+        - -259,54370
+        - 110,93770
+        - -100,21520
+  AiGroups:
+    - Hash: '1348577406542334928'
+      Logic: Logic/Module/Well_0053_GroupSet_000/Well_0053_GroupSet_000_fe9b.logic.module.ain
+      References:
+        - {Id: FldObj_EnemyBaseRiverside_LadderA_02_81da, Path: FldObj_EnemyBaseRiverside_LadderA_02_81da, Reference: 118024737708086139}
+        - {Id: FldObj_EnemyBaseRiverside_Ladder_Parts_A_01_ccef, Path: FldObj_EnemyBaseRiverside_Ladder_Parts_A_01_ccef, Reference: 7890072126407435445}
+    - Hash: '1887601127184038914'
+      Logic: Logic/Module/Well_0053_GroupSet_000/Well_0053_GroupSet_000_d1da.logic.module.ain
+      References:
+        - {Id: Npc_WellMania_6049, Path: Npc_WellMania_6049, Reference: 14102853178662492189}
+  FarDeleteGroups:
+    - - 118024737708086139
+      - 7890072126407435445
+    - - 6084879054272338096
+      - 16342560282679630663
+  FilePath: Work/Banc/Scene/Prefab/Well_0053_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 118024737708086139
+      - 7890072126407435445
+    - - 6084879054272338096
+      - 16342560282679630663

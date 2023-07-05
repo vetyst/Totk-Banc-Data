@@ -1,0 +1,1129 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_Akkala_0014
+      Hash: '16410984783266596203'
+      Phive:
+        Placement: {ID: 16410984783266596203}
+      Rotate:
+        - -3,14159
+        - 1,15356
+        - -3,14159
+      SRTHash: !u 3784593163
+      Translate:
+        - 4637,08200
+        - 18,55441
+        - -3226,63700
+    - Bakeable: true
+      Gyaml: FldObj_WaterPlane_A_01
+      Hash: '9602480096325654524'
+      Phive:
+        Placement: {ID: 9602480096325654524}
+      SRTHash: !u 1887907608
+      Scale:
+        - 7,00000
+        - 1,00000
+        - 10,00000
+      Translate:
+        - 4601,08200
+        - 37,55441
+        - -3530,13700
+    - Bakeable: true
+      Gyaml: FldObj_WaterPlane_A_01
+      Hash: '9896944371473397530'
+      Phive:
+        Placement: {ID: 9896944371473397530}
+      Rotate:
+        - 0,00000
+        - 0,33058
+        - 0,00000
+      SRTHash: !u 4000768821
+      Scale:
+        - 6,00000
+        - 2,00000
+        - 2,00000
+      Translate:
+        - 4572,88900
+        - 68,43696
+        - -3290,57500
+    - Dynamic: {ForbiddenAll: false, ForbiddenGeneratingAnimal: true, ForbiddenGeneratingBird: true, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingSkyFallenBox: true}
+      Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '17449590880068537254'
+      Phive:
+        Placement: {ID: 17449590880068537254}
+      SRTHash: !u 1757191825
+      Scale:
+        - 100,00000
+        - 100,00000
+        - 100,00000
+      Translate:
+        - 4603,23200
+        - 39,63980
+        - -3529,63700
+    - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '10939511719575742533'
+      Phive:
+        Placement: {ID: 10939511719575742533}
+      SRTHash: !u 697164970
+      Scale:
+        - 100,00000
+        - 100,00000
+        - 100,00000
+      Translate:
+        - 4603,26400
+        - -60,44559
+        - -3529,63700
+    - Dynamic: {DAC_ElementActorName_0: Weapon_Sword_112, DAC_ElementActorName_1: Weapon_Bow_035, DAC_ElementActorName_2: Weapon_Lsword_112, EquipmentUser_Tool: GiantGreave_Iron_L, Life_BossLifeGaugeSubtitle: Ground_015}
+      Gyaml: Enemy_Giant_Senior
+      Hash: '12156520767722928666'
+      Phive:
+        Placement: {ID: 12156520767722928666}
+      SRTHash: !u 3028782846
+      Translate:
+        - 4603,26400
+        - 39,55441
+        - -3529,63700
+    - Gyaml: Area
+      Hash: '17592223620657148109'
+      Phive:
+        Placement: {ID: 17592223620657148109}
+      SRTHash: !u 2894938449
+      Scale:
+        - 12,00000
+        - 12,00000
+        - 12,00000
+      Translate:
+        - 4603,26400
+        - 34,55441
+        - -3529,63700
+    - Dynamic: {CreateHorablinMovingType: !l 3, EquipmentUser_Attachment_Weapon: AsbObj_RockParts_C_S_01, EquipmentUser_Weapon: Weapon_Spear_108, Role: !l 5}
+      Gyaml: Enemy_Horablin_Middle
+      Hash: '5327307941045903111'
+      Phive:
+        Placement: {ID: 5327307941045903111}
+      Rotate:
+        - 0,00000
+        - 1,38639
+        - -3,14159
+      SRTHash: !u 3116105094
+      Translate:
+        - 4618,54000
+        - 77,08250
+        - -3359,22600
+    - Dynamic: {CreateHorablinMovingType: !l 3, EquipmentUser_Weapon: Weapon_Spear_108, IsLevelSensorTarget: true}
+      Gyaml: Enemy_Horablin_Senior
+      Hash: '11235989396010680745'
+      Phive:
+        Placement: {ID: 11235989396010680745}
+      Rotate:
+        - 0,00000
+        - 0,06752
+        - -3,14159
+      SRTHash: !u 2674614421
+      Translate:
+        - 4600,42100
+        - 76,60293
+        - -3338,98800
+    - Dynamic: {CreateHorablinMovingType: !l 3, EquipmentUser_Weapon: Weapon_Spear_108}
+      Gyaml: Enemy_Horablin_Senior
+      Hash: '7227436994390409777'
+      Phive:
+        Placement: {ID: 7227436994390409777}
+      Rotate:
+        - -3,14159
+        - -1,13567
+        - 0,00000
+      SRTHash: !u 2432421024
+      Translate:
+        - 4591,50500
+        - 75,20859
+        - -3296,80400
+    - Dynamic: {Drop__DropActor: Weapon_Spear_124}
+      Gyaml: TBox_Field_Iron
+      Hash: '2193547634193842051'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 2193547634193842051}
+      Rotate:
+        - -0,00019
+        - -0,78263
+        - 0,00021
+      SRTHash: !u 4103433063
+      Translate:
+        - 4637,88900
+        - 77,18711
+        - -3366,17700
+    - Dynamic:
+        ForbiddenAll: false
+        ForbiddenGeneratingAnimal: true
+        ForbiddenGeneratingBird: true
+        ForbiddenGeneratingEnemy: true
+        ForbiddenGeneratingInsect: true
+        ForbiddenGeneratingMaterial: true
+        ForbiddenGeneratingSkyFallenBox: true
+      Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '4262853257809676312'
+      Phive:
+        Placement: {ID: 4262853257809676312}
+      SRTHash: !u 763857050
+      Scale:
+        - 40,00000
+        - 40,00000
+        - 40,00000
+      Translate:
+        - 4602,08200
+        - 69,55441
+        - -3346,94000
+    - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '17387535391959892442'
+      Phive:
+        Placement: {ID: 17387535391959892442}
+      SRTHash: !u 308689014
+      Scale:
+        - 40,00000
+        - 40,00000
+        - 40,00000
+      Translate:
+        - 4602,08200
+        - 29,55441
+        - -3346,94000
+    - Gyaml: AirWallCaveMaster
+      Hash: '18153713373741133618'
+      Phive:
+        Placement: {ID: 18153713373741133618}
+      Rotate:
+        - 0,00000
+        - 0,50812
+        - 0,00000
+      SRTHash: !u 358042286
+      Scale:
+        - 10,00000
+        - 10,00000
+        - 10,00000
+      Translate:
+        - 4632,08200
+        - 50,50394
+        - -3586,13700
+    - Dynamic:
+        InstanceID_0: 12226874686872696036
+        Pos_0:
+          - 4646,41400
+          - 64,48500
+          - -3602,64400
+        Rot_0:
+          - 0,97500
+          - 0,32800
+          - -0,04200
+      Gyaml: LightBall_Small
+      Hash: '1644374946690228891'
+      Links:
+        - {Dst: 14925878436747492097, Gyaml: StackInfo, Name: StackInfo, Src: 1644374946690228891}
+      Phive:
+        Placement: {ID: 1644374946690228891}
+      Rotate:
+        - -0,77205
+        - -0,58434
+        - -2,42632
+      SRTHash: !u 889116623
+      Translate:
+        - 4646,49100
+        - 64,99771
+        - -3602,07000
+    - Dynamic:
+        InstanceID_0: 12226874686872696036
+        Pos_0:
+          - 4646,41400
+          - 64,48500
+          - -3602,64400
+        Rot_0:
+          - 0,97500
+          - 0,32800
+          - -0,04200
+      Gyaml: LightBall_Small
+      Hash: '14925878436747492097'
+      Phive:
+        Placement: {ID: 14925878436747492097}
+      Rotate:
+        - -1,20391
+        - 0,19900
+        - -0,22841
+      SRTHash: !u 4247651354
+      Translate:
+        - 4646,52300
+        - 64,54733
+        - -3602,18700
+    - Dynamic:
+        InstanceID_0: 12226874686872696036
+        Pos_0:
+          - 4646,41400
+          - 64,48500
+          - -3602,64400
+        Rot_0:
+          - 0,97500
+          - 0,32800
+          - -0,04200
+      Gyaml: LightBall_Small
+      Hash: '3832393504338016201'
+      Links:
+        - {Dst: 14925878436747492097, Gyaml: StackInfo, Name: StackInfo, Src: 3832393504338016201}
+      Phive:
+        Placement: {ID: 3832393504338016201}
+      Rotate:
+        - -0,26723
+        - 0,65096
+        - 1,66792
+      SRTHash: !u 3605321432
+      Translate:
+        - 4646,78100
+        - 64,74532
+        - -3602,26900
+    - Dynamic:
+        InstanceID_0: 2219103215191804264
+        Pos_0:
+          - 4644,67400
+          - 63,43500
+          - -3600,57700
+        Rot_0:
+          - 0,74100
+          - 0,37700
+          - -0,05700
+      Gyaml: LightBall_Small
+      Hash: '9893896743079216969'
+      Links:
+        - {Dst: 17420319983190364091, Gyaml: StackInfo, Name: StackInfo, Src: 9893896743079216969}
+      Phive:
+        Placement: {ID: 9893896743079216969}
+      Rotate:
+        - -0,60781
+        - -0,76969
+        - -2,46366
+      SRTHash: !u 417431793
+      Translate:
+        - 4644,74400
+        - 64,06359
+        - -3600,13200
+    - Dynamic:
+        InstanceID_0: 2219103215191804264
+        Pos_0:
+          - 4644,67400
+          - 63,43500
+          - -3600,57700
+        Rot_0:
+          - 0,74100
+          - 0,37700
+          - -0,05700
+      Gyaml: LightBall_Small
+      Hash: '17420319983190364091'
+      Phive:
+        Placement: {ID: 17420319983190364091}
+      Rotate:
+        - -1,43336
+        - 0,21013
+        - -0,20908
+      SRTHash: !u 3326689767
+      Translate:
+        - 4644,80200
+        - 63,60137
+        - -3600,15200
+    - Dynamic:
+        InstanceID_0: 2219103215191804264
+        Pos_0:
+          - 4644,67400
+          - 63,43500
+          - -3600,57700
+        Rot_0:
+          - 0,74100
+          - 0,37700
+          - -0,05700
+      Gyaml: LightBall_Small
+      Hash: '6935902365362084476'
+      Links:
+        - {Dst: 17420319983190364091, Gyaml: StackInfo, Name: StackInfo, Src: 6935902365362084476}
+      Phive:
+        Placement: {ID: 6935902365362084476}
+      Rotate:
+        - -0,13513
+        - 0,85447
+        - 1,82491
+      SRTHash: !u 2655773279
+      Translate:
+        - 4645,04000
+        - 63,79162
+        - -3600,29100
+    - Dynamic:
+        InstanceID_0: 3197843306482175831
+        Pos_0:
+          - 4541,71800
+          - 69,53700
+          - -3296,08000
+        Rot_0:
+          - 0,40600
+          - -1,14800
+          - -1,26500
+      Gyaml: LightBall_Small
+      Hash: '823793518460209456'
+      Links:
+        - {Dst: 9726247482760690808, Gyaml: StackInfo, Name: StackInfo, Src: 823793518460209456}
+      Phive:
+        Placement: {ID: 823793518460209456}
+      Rotate:
+        - -1,36158
+        - -1,33550
+        - -1,64598
+      SRTHash: !u 3090316108
+      Translate:
+        - 4541,90800
+        - 69,95904
+        - -3295,97600
+    - Dynamic:
+        InstanceID_0: 3197843306482175831
+        Pos_0:
+          - 4541,71800
+          - 69,53700
+          - -3296,08000
+        Rot_0:
+          - 0,40600
+          - -1,14800
+          - -1,26500
+      Gyaml: LightBall_Small
+      Hash: '9726247482760690808'
+      Phive:
+        Placement: {ID: 9726247482760690808}
+      Rotate:
+        - -2,03648
+        - 0,30675
+        - -0,90541
+      SRTHash: !u 3303101801
+      Translate:
+        - 4542,13900
+        - 69,81386
+        - -3295,78200
+    - Dynamic:
+        InstanceID_0: 17636719824416426746
+        Pos_0:
+          - 4640,05900
+          - 119,94100
+          - -3212,22500
+        Rot_0:
+          - 1,96119
+          - -0,57200
+          - 0,22800
+      Gyaml: LightBall_Small
+      Hash: '10648459057820814354'
+      Phive:
+        Placement: {ID: 10648459057820814354}
+      Rotate:
+        - -0,05320
+        - -0,47561
+        - -0,00235
+      SRTHash: !u 3983467582
+      Translate:
+        - 4639,93600
+        - 119,55010
+        - -3211,98700
+    - Dynamic:
+        InstanceID_0: 17636719824416426746
+        Pos_0:
+          - 4640,05900
+          - 119,94100
+          - -3212,22500
+        Rot_0:
+          - 1,96119
+          - -0,57200
+          - 0,22800
+      Gyaml: LightBall_Small
+      Hash: '1030058615323498725'
+      Links:
+        - {Dst: 10648459057820814354, Gyaml: StackInfo, Name: StackInfo, Src: 1030058615323498725}
+      Phive:
+        Placement: {ID: 1030058615323498725}
+      Rotate:
+        - -1,18499
+        - -0,32453
+        - 1,90166
+      SRTHash: !u 3668369153
+      Translate:
+        - 4640,03200
+        - 119,68860
+        - -3211,69800
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeParts_B_16
+      Hash: '2579263565146445741'
+      Links:
+        - {Dst: 7260538991909416681, Gyaml: Reference, Name: Reference, Src: 2579263565146445741}
+      Phive:
+        Placement: {ID: 2579263565146445741}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 3418767514
+      Translate:
+        - 4647,58200
+        - 114,05240
+        - -3596,63700
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeParts_B_16_Far
+      Hash: '7260538991909416681'
+      Phive:
+        Placement: {ID: 2579263565146445741}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 3418767514
+      Translate:
+        - 4647,58200
+        - 114,05240
+        - -3596,63700
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04
+      Hash: '11268217117440018360'
+      Links:
+        - {Dst: 5644572589955769655, Gyaml: Reference, Name: Reference, Src: 11268217117440018360}
+      Phive:
+        Placement: {ID: 11268217117440018360}
+      SRTHash: !u 532057101
+      Translate:
+        - 4654,14700
+        - 57,96313
+        - -3591,43100
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04_Far
+      Hash: '5644572589955769655'
+      Phive:
+        Placement: {ID: 11268217117440018360}
+      SRTHash: !u 532057101
+      Translate:
+        - 4654,14700
+        - 57,96313
+        - -3591,43100
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04
+      Hash: '15622242183930581953'
+      Links:
+        - {Dst: 790497621638345038, Gyaml: Reference, Name: Reference, Src: 15622242183930581953}
+      Phive:
+        Placement: {ID: 15622242183930581953}
+      Rotate:
+        - 0,58224
+        - -0,60179
+        - -0,23181
+      SRTHash: !u 2883654014
+      Translate:
+        - 4647,94200
+        - 56,53846
+        - -3596,62700
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04_Far
+      Hash: '790497621638345038'
+      Phive:
+        Placement: {ID: 15622242183930581953}
+      Rotate:
+        - 0,58224
+        - -0,60179
+        - -0,23181
+      SRTHash: !u 2883654014
+      Translate:
+        - 4647,94200
+        - 56,53846
+        - -3596,62700
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02
+      Hash: '11142242716331279556'
+      Links:
+        - {Dst: 16841229391044319504, Gyaml: Reference, Name: Reference, Src: 11142242716331279556}
+      Phive:
+        Placement: {ID: 11142242716331279556}
+      Rotate:
+        - 1,04662
+        - -0,20770
+        - 1,99631
+      SRTHash: !u 1990879814
+      Translate:
+        - 4654,96300
+        - 65,59700
+        - -3586,09500
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02_Far
+      Hash: '16841229391044319504'
+      Phive:
+        Placement: {ID: 11142242716331279556}
+      Rotate:
+        - 1,04662
+        - -0,20770
+        - 1,99631
+      SRTHash: !u 1990879814
+      Translate:
+        - 4654,96300
+        - 65,59700
+        - -3586,09500
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02
+      Hash: '16918197034359987524'
+      Links:
+        - {Dst: 11083535431987658896, Gyaml: Reference, Name: Reference, Src: 16918197034359987524}
+      Phive:
+        Placement: {ID: 16918197034359987524}
+      Rotate:
+        - 0,11653
+        - -0,02004
+        - 0,00977
+      SRTHash: !u 4286063670
+      Translate:
+        - 4660,00800
+        - 150,76500
+        - -3590,40800
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02_Far
+      Hash: '11083535431987658896'
+      Phive:
+        Placement: {ID: 16918197034359987524}
+      Rotate:
+        - 0,11653
+        - -0,02004
+        - 0,00977
+      SRTHash: !u 4286063670
+      Translate:
+        - 4660,00800
+        - 150,76500
+        - -3590,40800
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02
+      Hash: '10342844644214965625'
+      Links:
+        - {Dst: 18199055130134878381, Gyaml: Reference, Name: Reference, Src: 10342844644214965625}
+      Phive:
+        Placement: {ID: 10342844644214965625}
+      Rotate:
+        - -0,00552
+        - -0,01359
+        - 0,09479
+      SRTHash: !u 1804068419
+      Translate:
+        - 4665,31100
+        - 151,79640
+        - -3574,83700
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02_Far
+      Hash: '18199055130134878381'
+      Phive:
+        Placement: {ID: 10342844644214965625}
+      Rotate:
+        - -0,00552
+        - -0,01359
+        - 0,09479
+      SRTHash: !u 1804068419
+      Translate:
+        - 4665,31100
+        - 151,79640
+        - -3574,83700
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02
+      Hash: '6637353336708953835'
+      Links:
+        - {Dst: 3388325271601343295, Gyaml: Reference, Name: Reference, Src: 6637353336708953835}
+      Phive:
+        Placement: {ID: 6637353336708953835}
+      Rotate:
+        - 0,01361
+        - -0,00942
+        - 0,10578
+      SRTHash: !u 3913670047
+      Translate:
+        - 4665,48300
+        - 151,16650
+        - -3585,00400
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02_Far
+      Hash: '3388325271601343295'
+      Phive:
+        Placement: {ID: 6637353336708953835}
+      Rotate:
+        - 0,01361
+        - -0,00942
+        - 0,10578
+      SRTHash: !u 3913670047
+      Translate:
+        - 4665,48300
+        - 151,16650
+        - -3585,00400
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04
+      Hash: '3626886789631788327'
+      Links:
+        - {Dst: 16168056015580440488, Gyaml: Reference, Name: Reference, Src: 3626886789631788327}
+      Phive:
+        Placement: {ID: 3626886789631788327}
+      Rotate:
+        - -0,06791
+        - 0,02026
+        - 0,09356
+      SRTHash: !u 2524977458
+      Translate:
+        - 4645,24200
+        - 151,33520
+        - -3574,65500
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04_Far
+      Hash: '16168056015580440488'
+      Phive:
+        Placement: {ID: 3626886789631788327}
+      Rotate:
+        - -0,06791
+        - 0,02026
+        - 0,09356
+      SRTHash: !u 2524977458
+      Translate:
+        - 4645,24200
+        - 151,33520
+        - -3574,65500
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02
+      Hash: '8231098366105623491'
+      Links:
+        - {Dst: 82082987785225751, Gyaml: Reference, Name: Reference, Src: 8231098366105623491}
+      Phive:
+        Placement: {ID: 8231098366105623491}
+      Rotate:
+        - -1,57080
+        - 1,49852
+        - -1,57080
+      SRTHash: !u 2683955265
+      Translate:
+        - 4654,91100
+        - 151,17080
+        - -3579,62000
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02_Far
+      Hash: '82082987785225751'
+      Phive:
+        Placement: {ID: 8231098366105623491}
+      Rotate:
+        - -1,57080
+        - 1,49852
+        - -1,57080
+      SRTHash: !u 2683955265
+      Translate:
+        - 4654,91100
+        - 151,17080
+        - -3579,62000
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04
+      Hash: '6944102924338079992'
+      Links:
+        - {Dst: 12856470477776439927, Gyaml: Reference, Name: Reference, Src: 6944102924338079992}
+      Phive:
+        Placement: {ID: 6944102924338079992}
+      Rotate:
+        - 0,14474
+        - 0,00000
+        - 0,03222
+      SRTHash: !u 866410015
+      Translate:
+        - 4650,11900
+        - 150,79910
+        - -3590,78000
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04_Far
+      Hash: '12856470477776439927'
+      Phive:
+        Placement: {ID: 6944102924338079992}
+      Rotate:
+        - 0,14474
+        - 0,00000
+        - 0,03222
+      SRTHash: !u 866410015
+      Translate:
+        - 4650,11900
+        - 150,79910
+        - -3590,78000
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02
+      Hash: '10793512344370786055'
+      Links:
+        - {Dst: 16632743513646117587, Gyaml: Reference, Name: Reference, Src: 10793512344370786055}
+      Phive:
+        Placement: {ID: 10793512344370786055}
+      Rotate:
+        - 0,01844
+        - -0,01587
+        - 0,09444
+      SRTHash: !u 1159425667
+      Translate:
+        - 4645,31500
+        - 151,17090
+        - -3589,98000
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02_Far
+      Hash: '16632743513646117587'
+      Phive:
+        Placement: {ID: 10793512344370786055}
+      Rotate:
+        - 0,01844
+        - -0,01587
+        - 0,09444
+      SRTHash: !u 1159425667
+      Translate:
+        - 4645,31500
+        - 151,17090
+        - -3589,98000
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02
+      Hash: '676961345091174105'
+      Links:
+        - {Dst: 8825980573716112141, Gyaml: Reference, Name: Reference, Src: 676961345091174105}
+      Phive:
+        Placement: {ID: 676961345091174105}
+      Rotate:
+        - 0,01461
+        - 0,00000
+        - -0,16138
+      SRTHash: !u 3377335693
+      Translate:
+        - 4644,05700
+        - 150,78510
+        - -3580,02600
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02_Far
+      Hash: '8825980573716112141'
+      Phive:
+        Placement: {ID: 676961345091174105}
+      Rotate:
+        - 0,01461
+        - 0,00000
+        - -0,16138
+      SRTHash: !u 3377335693
+      Translate:
+        - 4644,05700
+        - 150,78510
+        - -3580,02600
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04
+      Hash: '1069343096428160630'
+      Links:
+        - {Dst: 15916322483244401913, Gyaml: Reference, Name: Reference, Src: 1069343096428160630}
+      Phive:
+        Placement: {ID: 1069343096428160630}
+      Rotate:
+        - -0,01060
+        - -0,01627
+        - 0,16396
+      SRTHash: !u 2346054543
+      Translate:
+        - 4660,69700
+        - 151,15820
+        - -3584,87800
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04_Far
+      Hash: '15916322483244401913'
+      Phive:
+        Placement: {ID: 1069343096428160630}
+      Rotate:
+        - -0,01060
+        - -0,01627
+        - 0,16396
+      SRTHash: !u 2346054543
+      Translate:
+        - 4660,69700
+        - 151,15820
+        - -3584,87800
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02
+      Hash: '6130533071462985253'
+      Links:
+        - {Dst: 2741888466950910961, Gyaml: Reference, Name: Reference, Src: 6130533071462985253}
+      Phive:
+        Placement: {ID: 6130533071462985253}
+      Rotate:
+        - 1,57080
+        - 1,46922
+        - 1,57080
+      SRTHash: !u 4128216366
+      Translate:
+        - 4649,93800
+        - 151,02290
+        - -3575,35100
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02_Far
+      Hash: '2741888466950910961'
+      Phive:
+        Placement: {ID: 6130533071462985253}
+      Rotate:
+        - 1,57080
+        - 1,46922
+        - 1,57080
+      SRTHash: !u 4128216366
+      Translate:
+        - 4649,93800
+        - 151,02290
+        - -3575,35100
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02
+      Hash: '8776928473973364592'
+      Links:
+        - {Dst: 780472530077813412, Gyaml: Reference, Name: Reference, Src: 8776928473973364592}
+      Phive:
+        Placement: {ID: 8776928473973364592}
+      Rotate:
+        - 0,01461
+        - 0,00000
+        - 0,08025
+      SRTHash: !u 3898627007
+      Translate:
+        - 4640,32400
+        - 150,95840
+        - -3580,02600
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02_Far
+      Hash: '780472530077813412'
+      Phive:
+        Placement: {ID: 8776928473973364592}
+      Rotate:
+        - 0,01461
+        - 0,00000
+        - 0,08025
+      SRTHash: !u 3898627007
+      Translate:
+        - 4640,32400
+        - 150,95840
+        - -3580,02600
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04
+      Hash: '7370625015841408568'
+      Links:
+        - {Dst: 13005423204134593719, Gyaml: Reference, Name: Reference, Src: 7370625015841408568}
+      Phive:
+        Placement: {ID: 7370625015841408568}
+      Rotate:
+        - 0,07401
+        - 0,00678
+        - 0,09548
+      SRTHash: !u 1301021522
+      Translate:
+        - 4640,20200
+        - 151,01030
+        - -3575,36400
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04_Far
+      Hash: '13005423204134593719'
+      Phive:
+        Placement: {ID: 7370625015841408568}
+      Rotate:
+        - 0,07401
+        - 0,00678
+        - 0,09548
+      SRTHash: !u 1301021522
+      Translate:
+        - 4640,20200
+        - 151,01030
+        - -3575,36400
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04
+      Hash: '5703817118407262967'
+      Links:
+        - {Dst: 11321262676668080248, Gyaml: Reference, Name: Reference, Src: 5703817118407262967}
+      Phive:
+        Placement: {ID: 5703817118407262967}
+      Rotate:
+        - 0,45713
+        - -0,49138
+        - -0,17199
+      SRTHash: !u 630613399
+      Translate:
+        - 4634,87700
+        - 52,77094
+        - -3591,03900
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04_Far
+      Hash: '11321262676668080248'
+      Phive:
+        Placement: {ID: 5703817118407262967}
+      Rotate:
+        - 0,45713
+        - -0,49138
+        - -0,17199
+      SRTHash: !u 630613399
+      Translate:
+        - 4634,87700
+        - 52,77094
+        - -3591,03900
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04
+      Hash: '3250511030192060223'
+      Links:
+        - {Dst: 18386246291015554480, Gyaml: Reference, Name: Reference, Src: 3250511030192060223}
+      Phive:
+        Placement: {ID: 3250511030192060223}
+      Rotate:
+        - -0,22673
+        - -0,49459
+        - 0,40983
+      SRTHash: !u 3249326953
+      Translate:
+        - 4632,08200
+        - 50,55441
+        - -3573,65600
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04_Far
+      Hash: '18386246291015554480'
+      Phive:
+        Placement: {ID: 3250511030192060223}
+      Rotate:
+        - -0,22673
+        - -0,49459
+        - 0,40983
+      SRTHash: !u 3249326953
+      Translate:
+        - 4632,08200
+        - 50,55441
+        - -3573,65600
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04
+      Hash: '12781433995587907672'
+      Links:
+        - {Dst: 7157897220503311063, Gyaml: Reference, Name: Reference, Src: 12781433995587907672}
+      Phive:
+        Placement: {ID: 12781433995587907672}
+      Rotate:
+        - 0,56764
+        - -0,63087
+        - -0,07787
+      SRTHash: !u 3736812589
+      Translate:
+        - 4621,93800
+        - 44,69314
+        - -3580,38000
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_04_Far
+      Hash: '7157897220503311063'
+      Phive:
+        Placement: {ID: 12781433995587907672}
+      Rotate:
+        - 0,56764
+        - -0,63087
+        - -0,07787
+      SRTHash: !u 3736812589
+      Translate:
+        - 4621,93800
+        - 44,69314
+        - -3580,38000
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02
+      Hash: '9598603232293021863'
+      Links:
+        - {Dst: 17738610862676079987, Gyaml: Reference, Name: Reference, Src: 9598603232293021863}
+      Phive:
+        Placement: {ID: 9598603232293021863}
+      Rotate:
+        - -0,00552
+        - -0,01359
+        - 0,09479
+      SRTHash: !u 3104977199
+      Translate:
+        - 4660,33400
+        - 151,32320
+        - -3574,90500
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02_Far
+      Hash: '17738610862676079987'
+      Phive:
+        Placement: {ID: 9598603232293021863}
+      Rotate:
+        - -0,00552
+        - -0,01359
+        - 0,09479
+      SRTHash: !u 3104977199
+      Translate:
+        - 4660,33400
+        - 151,32320
+        - -3574,90500
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02
+      Hash: '16280396100039443497'
+      Links:
+        - {Dst: 10589853534034663933, Gyaml: Reference, Name: Reference, Src: 16280396100039443497}
+      Phive:
+        Placement: {ID: 16280396100039443497}
+      Rotate:
+        - 0,11653
+        - -0,02004
+        - 0,00977
+      SRTHash: !u 2654009968
+      Translate:
+        - 4655,00900
+        - 150,71620
+        - -3590,50900
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02_Far
+      Hash: '10589853534034663933'
+      Phive:
+        Placement: {ID: 16280396100039443497}
+      Rotate:
+        - 0,11653
+        - -0,02004
+        - 0,00977
+      SRTHash: !u 2654009968
+      Translate:
+        - 4655,00900
+        - 150,71620
+        - -3590,50900
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02
+      Hash: '13815754496745804920'
+      Links:
+        - {Dst: 14745429306532858284, Gyaml: Reference, Name: Reference, Src: 13815754496745804920}
+      Phive:
+        Placement: {ID: 13815754496745804920}
+      Rotate:
+        - 0,01844
+        - -0,01587
+        - 0,09444
+      SRTHash: !u 433057679
+      Translate:
+        - 4640,33800
+        - 150,69940
+        - -3590,05900
+    - Bakeable: true
+      Gyaml: FldObj_HugeMazeRoof_A_02_Far
+      Hash: '14745429306532858284'
+      Phive:
+        Placement: {ID: 13815754496745804920}
+      Rotate:
+        - 0,01844
+        - -0,01587
+        - 0,09444
+      SRTHash: !u 433057679
+      Translate:
+        - 4640,33800
+        - 150,69940
+        - -3590,05900
+  AiGroups:
+    - Hash: '2748432111037534152'
+      Logic: Logic/Module/SetEnemySpot_Giant/SetEnemySpot_Giant_b7fc.logic.module.ain
+      References:
+        - {Id: BigEnemyLocaterGiant_7647, Path: BigEnemyLocaterGiant_7647, Reference: 12156520767722928666}
+    - Hash: '3955322959670944320'
+      Logic: Logic/Module/SetEnemySpot_Holablin_KeyOnly/SetEnemySpot_Holablin_KeyOnly_e6ef.logic.module.ain
+      References:
+        - {Id: EnemyLocaterSpeciesHorablin_eca9, Path: EnemyLocaterSpeciesHorablin_eca9, Reference: 7227436994390409777}
+    - Hash: '5928739892247270735'
+      Logic: Logic/Module/SetEnemySpot_Holablin_KeyOnly/SetEnemySpot_Holablin_KeyOnly_e6ef.logic.module.ain
+      References:
+        - {Id: EnemyLocaterSpeciesHorablin_eca9, Path: EnemyLocaterSpeciesHorablin_eca9, Reference: 5327307941045903111}
+    - Hash: '12256702327135214439'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 17592223620657148109}
+    - Hash: '14590022021917245241'
+      Logic: Logic/Module/SetEnemySpot_Holablin_LeaderOnly/SetEnemySpot_Holablin_LeaderOnly_ba54.logic.module.ain
+      References:
+        - {Id: EnemyLocaterSpeciesHorablin_d44a, Path: EnemyLocaterSpeciesHorablin_d44a, Reference: 11235989396010680745}
+  FilePath: Work/Banc/Scene/Prefab/Cave_Akkala_0014_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []

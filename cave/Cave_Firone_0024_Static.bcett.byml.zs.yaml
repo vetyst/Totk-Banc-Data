@@ -1,0 +1,673 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_Firone_0024
+      Hash: '1631687928772073824'
+      Phive:
+        Placement: {ID: 1631687928772073824}
+      Rotate:
+        - 3,14159
+        - 1,46516
+        - 3,14159
+      SRTHash: !u 8270684
+      Translate:
+        - 610,76640
+        - 158,46120
+        - 2208,32100
+    - Dynamic: {Drop__DropActor: Item_Ore_D}
+      Gyaml: TBox_Field_Iron_Zonau
+      Hash: '8711609108227700984'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 8711609108227700984}
+      Rotate:
+        - 3,14031
+        - 1,30896
+        - 3,14027
+      SRTHash: !u 2117011969
+      Translate:
+        - 567,15990
+        - 158,41580
+        - 2149,95400
+    - Dynamic: {IsOverrideCave: true, Location: Cave_Firone_0024}
+      Gyaml: LocationArea
+      Hash: '8786178415487831994'
+      Phive:
+        Placement: {ID: 8786178415487831994}
+      Rotate:
+        - 0,00000
+        - 0,14103
+        - 0,00000
+      SRTHash: !u 2965480369
+      Scale:
+        - 6,00000
+        - 5,00000
+        - 2,00000
+      Translate:
+        - 608,90230
+        - 156,32760
+        - 2210,08000
+    - Gyaml: Animal_RupeeRabbit_A
+      Hash: '4492324320002946316'
+      Links:
+        - {Dst: 7333629041635796295, Gyaml: Reference, Name: Reference, Src: 4492324320002946316}
+      Phive:
+        Placement: {ID: 4492324320002946316}
+      Rotate:
+        - -3,14159
+        - -0,14103
+        - -3,14159
+      SRTHash: !u 3870772001
+      Translate:
+        - 607,27170
+        - 156,66520
+        - 2251,64600
+    - Gyaml: AnchorAction1
+      Hash: '7333629041635796295'
+      Phive:
+        Placement: {ID: 7333629041635796295}
+      Rotate:
+        - -3,14159
+        - -0,14103
+        - -3,14159
+      SRTHash: !u 23017613
+      Translate:
+        - 607,65170
+        - 158,63980
+        - 2208,50700
+    - Dynamic: {IsNeedAutoSave: true}
+      Gyaml: Area
+      Hash: '8469504035001944804'
+      Phive:
+        Placement: {ID: 8469504035001944804}
+      Rotate:
+        - 0,00000
+        - 0,14103
+        - 0,00000
+      SRTHash: !u 2061407794
+      Scale:
+        - 6,00000
+        - 6,00000
+        - 2,02346
+      Translate:
+        - 608,88960
+        - 156,32760
+        - 2210,08200
+    - Dynamic: {ActorName: Animal_Insect_S, IsCheckEcoArea: true, IsForceCaveMode: true, PutNum: !l 1, RigidBodyShapeType: !l 1}
+      Gyaml: AddAutoPlacementCreator
+      Hash: '7150693846834241901'
+      Phive:
+        Placement: {ID: 7150693846834241901}
+      Rotate:
+        - 0,00000
+        - 0,14103
+        - 0,00000
+      SRTHash: !u 2550308138
+      Scale:
+        - 9,00000
+        - 5,00000
+        - 9,00000
+      Translate:
+        - 607,91360
+        - 158,32760
+        - 2203,11500
+    - Gyaml: EnemyNestAnchor
+      Hash: '4565186202335147873'
+      Phive:
+        Placement: {ID: 4565186202335147873}
+      SRTHash: !u 813185257
+      Translate:
+        - 607,61490
+        - 160,33210
+        - 2208,45200
+    - Gyaml: Enemy_Keese_Swarm_Cave
+      Hash: '3218923081292811031'
+      Links:
+        - {Dst: 4565186202335147873, Gyaml: Reference, Name: Reference, Src: 3218923081292811031}
+      Phive:
+        Placement: {ID: 3218923081292811031}
+      Rails:
+        - {Dst: 5221826078262404349, Gyaml: Reference, Name: Reference}
+      SRTHash: !u 2359245636
+      Translate:
+        - 571,34910
+        - 171,44920
+        - 2234,48000
+    - Gyaml: Area
+      Hash: '9815385448945953971'
+      Phive:
+        Placement: {ID: 9815385448945953971}
+      Rotate:
+        - 0,00000
+        - 0,25650
+        - 0,00000
+      SRTHash: !u 523893151
+      Scale:
+        - 20,00000
+        - 10,00000
+        - 25,00000
+      Translate:
+        - 588,26640
+        - 153,46120
+        - 2090,82100
+    - Gyaml: ForbidAutoPlacementAreaOnlyBox
+      Hash: '16605666218885829878'
+      Phive:
+        Placement: {ID: 16605666218885829878}
+      Rotate:
+        - 0,00000
+        - 0,24250
+        - 0,00000
+      SRTHash: !u 1315040584
+      Scale:
+        - 60,00000
+        - 24,00000
+        - 90,00000
+      Translate:
+        - 597,43260
+        - 160,96120
+        - 2150,05500
+    - Gyaml: ForbidAutoPlacementAreaOnlyBox
+      Hash: '3434844265639273331'
+      Phive:
+        Placement: {ID: 3434844265639273331}
+      Rotate:
+        - 0,00000
+        - 0,25650
+        - 0,00000
+      SRTHash: !u 3724090944
+      Scale:
+        - 40,00000
+        - 20,00000
+        - 50,00000
+      Translate:
+        - 588,26640
+        - 163,49300
+        - 2090,82100
+    - Bakeable: true
+      Dynamic: {MoveDis: '4,85000', Speed: '0,30000'}
+      Gyaml: CaveObj_RuinZonau_ShutterFence_A_01
+      Hash: '16049640030109239970'
+      Phive:
+        Placement: {ID: 16049640030109239970}
+      Rotate:
+        - 0,00000
+        - 0,26180
+        - 0,00000
+      SRTHash: !u 2364195116
+      Translate:
+        - 586,78400
+        - 157,98210
+        - 2126,38600
+    - Bakeable: true
+      Gyaml: FldObj_SwitchStep_Cave
+      Hash: '9425533679742216451'
+      Phive:
+        Placement: {ID: 9425533679742216451}
+      Rotate:
+        - 0,00000
+        - 0,26180
+        - 0,00000
+      SRTHash: !u 1514602598
+      Translate:
+        - 587,77970
+        - 157,98210
+        - 2130,23600
+    - Bakeable: true
+      Dynamic: {MoveDis: '4,85000', Speed: '0,30000'}
+      Gyaml: CaveObj_RuinZonau_ShutterFence_A_01
+      Hash: '12248301418934366623'
+      Phive:
+        Placement: {ID: 12248301418934366623}
+      Rotate:
+        - 0,00000
+        - 0,26180
+        - 0,00000
+      SRTHash: !u 2448667511
+      Translate:
+        - 584,18500
+        - 157,98210
+        - 2116,84300
+    - Bakeable: true
+      Gyaml: FldObj_SwitchStep_Cave
+      Hash: '6932733297280466713'
+      Phive:
+        Placement: {ID: 6932733297280466713}
+      Rotate:
+        - 0,00000
+        - 0,26180
+        - 0,00000
+      SRTHash: !u 1014509208
+      Translate:
+        - 574,38320
+        - 157,98210
+        - 2148,35600
+    - Gyaml: AnchorAction1
+      Hash: '16044857827284122183'
+      Phive:
+        Placement: {ID: 16044857827284122183}
+      Rotate:
+        - -3,14159
+        - 1,27426
+        - -3,14159
+      SRTHash: !u 2819861082
+      Translate:
+        - 583,21260
+        - 157,98210
+        - 2121,20400
+    - Gyaml: Area
+      Hash: '4902916356085346325'
+      Phive:
+        Placement: {ID: 4902916356085346325}
+      Rotate:
+        - 0,00000
+        - 0,29651
+        - 0,00000
+      SRTHash: !u 2068225457
+      Scale:
+        - 5,00000
+        - 3,00000
+        - 5,00000
+      Translate:
+        - 582,66270
+        - 157,98210
+        - 2112,10700
+    - Gyaml: Npc_Cannon13_03
+      Hash: '11838197678824235217'
+      Links:
+        - {Dst: 16044857827284122183, Gyaml: Reference, Name: Reference, Src: 11838197678824235217}
+        - {Dst: 6618224336890698730, Gyaml: Reference, Name: Reference, Src: 11838197678824235217}
+        - {Dst: 6654823748605031070, Gyaml: Reference, Name: Reference, Src: 11838197678824235217}
+        - {Dst: 16440011214457861882, Gyaml: Reference, Name: Reference, Src: 11838197678824235217}
+        - {Dst: 14038521584098320888, Gyaml: Reference, Name: Reference, Src: 11838197678824235217}
+      MoveRadius: 3,94938
+      Phive:
+        Placement: {ID: 11838197678824235217}
+      Presence: {FlagName: MainChallenge_CannonReady, IsCheckLazy: false, IsNegation: false}
+      SRTHash: !u 2938846163
+      Translate:
+        - 585,55090
+        - 157,96380
+        - 2121,97900
+    - Gyaml: Area
+      Hash: '18432451750323233946'
+      Phive:
+        Placement: {ID: 18432451750323233946}
+      Rotate:
+        - 0,00000
+        - 0,29651
+        - 0,00000
+      SRTHash: !u 2050024765
+      Scale:
+        - 10,00000
+        - 3,00000
+        - 5,00000
+      Translate:
+        - 588,49980
+        - 157,98210
+        - 2131,21200
+    - Gyaml: DesignateMatrixActor
+      Hash: '6654823748605031070'
+      Name: Cannon13_CaveEntrance
+      Phive:
+        Placement: {ID: 6654823748605031070}
+      SRTHash: !u 112911024
+      Translate:
+        - 603,95940
+        - 158,26580
+        - 2190,75800
+    - Dynamic: {RequestEventName: Cannon13_ShutterOpened}
+      Gyaml: EventRequestActor
+      Hash: '486098910621271515'
+      Links:
+        - {Dst: 11838197678824235217, Gyaml: Reference, Name: Reference, Src: 486098910621271515}
+        - {Dst: 16049640030109239970, Gyaml: Reference, Name: Reference, Src: 486098910621271515}
+        - {Dst: 12248301418934366623, Gyaml: Reference, Name: Reference, Src: 486098910621271515}
+      Phive:
+        Placement: {ID: 486098910621271515}
+      Rotate:
+        - -0,00167
+        - -0,28333
+        - -3,13561
+      SRTHash: !u 3311774858
+      Scale:
+        - 0,50000
+        - 0,50000
+        - 0,50000
+      Translate:
+        - 589,21750
+        - 161,80160
+        - 2127,32100
+    - Gyaml: DesignateMatrixActor
+      Hash: '6618224336890698730'
+      Name: Cannon13_Switch
+      Phive:
+        Placement: {ID: 6618224336890698730}
+      Rotate:
+        - 0,00000
+        - 0,26180
+        - 0,00000
+      SRTHash: !u 1514602598
+      Translate:
+        - 587,77970
+        - 157,98210
+        - 2130,23600
+    - Bakeable: true
+      Dynamic: {MoveDis: '4,85000', Speed: '0,30000'}
+      Gyaml: CaveObj_RuinZonau_ShutterFence_A_01
+      Hash: '13683348625740143103'
+      Phive:
+        Placement: {ID: 13683348625740143103}
+      Rotate:
+        - -3,14159
+        - 1,30900
+        - -3,14159
+      SRTHash: !u 1300291307
+      Translate:
+        - 579,76640
+        - 157,98210
+        - 2146,82100
+    - Gyaml: AnchorAction2
+      Hash: '16440011214457861882'
+      Phive:
+        Placement: {ID: 16440011214457861882}
+      Rotate:
+        - -3,14159
+        - -0,12916
+        - 3,14159
+      SRTHash: !u 3999362589
+      Translate:
+        - 583,87620
+        - 157,98210
+        - 2118,40200
+    - Gyaml: AnchorAction3
+      Hash: '14038521584098320888'
+      Phive:
+        Placement: {ID: 14038521584098320888}
+      Rotate:
+        - 0,00000
+        - 0,26180
+        - 0,00000
+      SRTHash: !u 2643746894
+      Translate:
+        - 585,94240
+        - 157,99330
+        - 2125,07400
+    - Dynamic: {NonEnemySearch: true}
+      Gyaml: ForbidAutoPlacementAreaSphere
+      Hash: '10746246453231311949'
+      Phive:
+        Placement: {ID: 10746246453231311949}
+      Presence: {FlagName: Cannon13_NPCExist_Exp, IsCheckLazy: false, IsNegation: false}
+      SRTHash: !u 415629914
+      Scale:
+        - 8,00000
+        - 8,00000
+        - 8,00000
+      Translate:
+        - 585,86400
+        - 159,95880
+        - 2122,44900
+    - Bakeable: true
+      Gyaml: TBox_Field_Iron_Zonau_Opened
+      Hash: '2539759222036358634'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 2539759222036358634}
+      Rotate:
+        - -0,00138
+        - -1,31563
+        - 0,00060
+      SRTHash: !u 3058775726
+      Translate:
+        - 586,37020
+        - 157,98180
+        - 2120,34400
+    - Gyaml: Area
+      Hash: '3427011027114738051'
+      Phive:
+        Placement: {ID: 3427011027114738051}
+      Rotate:
+        - 0,00000
+        - 0,29651
+        - 0,00000
+      SRTHash: !u 1948203270
+      Scale:
+        - 30,00000
+        - 10,00000
+        - 13,00000
+      Translate:
+        - 588,98380
+        - 152,30760
+        - 2138,18100
+    - Gyaml: Area
+      Hash: '9271296891973832978'
+      Phive:
+        Placement: {ID: 9271296891973832978}
+      Rotate:
+        - 0,00000
+        - 0,29651
+        - 0,00000
+      SRTHash: !u 3837829379
+      Scale:
+        - 5,00000
+        - 10,00000
+        - 15,00000
+      Translate:
+        - 581,98140
+        - 152,30760
+        - 2115,18000
+    - Bakeable: true
+      Gyaml: CaveEntrance_c788fd71
+      Hash: '5896645236026401598'
+      Links:
+        - {Dst: 10131558643414409017, Gyaml: Reference, Name: Reference, Src: 5896645236026401598}
+      Name: CaveEntrance_c788fd71
+      Phive:
+        Placement: {ID: 5896645236026401598}
+      SRTHash: !u 1352935559
+      Translate:
+        - 607,10910
+        - 160,59540
+        - 2211,19500
+    - Bakeable: true
+      Gyaml: CaveEntrance_c788fd71_Far
+      Hash: '10131558643414409017'
+      Name: CaveEntrance_c788fd71
+      Phive:
+        Placement: {ID: 5896645236026401598}
+      SRTHash: !u 1352935559
+      Translate:
+        - 607,10910
+        - 160,59540
+        - 2211,19500
+    - Bakeable: true
+      Gyaml: FldObj_TreeRootTropical_A_L_04
+      Hash: '10816677883122579966'
+      Links:
+        - {Dst: 15316971955361971523, Gyaml: Reference, Name: Reference, Src: 10816677883122579966}
+      Phive:
+        Placement: {ID: 10816677883122579966}
+      Rotate:
+        - 3,07078
+        - 0,73330
+        - -3,03921
+      SRTHash: !u 2643181892
+      Translate:
+        - 590,49230
+        - 176,64610
+        - 2191,88100
+    - Bakeable: true
+      Gyaml: FldObj_TreeRootTropical_A_L_04_Far
+      Hash: '15316971955361971523'
+      Phive:
+        Placement: {ID: 10816677883122579966}
+      Rotate:
+        - 3,07078
+        - 0,73330
+        - -3,03921
+      SRTHash: !u 2643181892
+      Translate:
+        - 590,49230
+        - 176,64610
+        - 2191,88100
+    - Bakeable: true
+      Gyaml: FldObj_TreeRootTropical_A_L_02
+      Hash: '7348276089977034186'
+      Links:
+        - {Dst: 12235915414151340532, Gyaml: Reference, Name: Reference, Src: 7348276089977034186}
+      Phive:
+        Placement: {ID: 7348276089977034186}
+      Rotate:
+        - -0,90175
+        - -1,05631
+        - 0,72397
+      SRTHash: !u 1841692868
+      Translate:
+        - 610,30870
+        - 184,76000
+        - 2147,69900
+    - Bakeable: true
+      Gyaml: FldObj_TreeRootTropical_A_L_02_Far
+      Hash: '12235915414151340532'
+      Phive:
+        Placement: {ID: 7348276089977034186}
+      Rotate:
+        - -0,90175
+        - -1,05631
+        - 0,72397
+      SRTHash: !u 1841692868
+      Translate:
+        - 610,30870
+        - 184,76000
+        - 2147,69900
+    - Bakeable: true
+      Gyaml: FldObj_ZonauTower_Top_A_01
+      Hash: '14281711426225494111'
+      Links:
+        - {Dst: 3869266198742589738, Gyaml: Reference, Name: Reference, Src: 14281711426225494111}
+      Phive:
+        Placement: {ID: 14281711426225494111}
+      Rotate:
+        - 0,00000
+        - 0,26180
+        - 0,00000
+      SRTHash: !u 1618670098
+      Translate:
+        - 567,87880
+        - 151,98210
+        - 2149,76200
+    - Bakeable: true
+      Gyaml: FldObj_ZonauTower_Top_A_01_Far
+      Hash: '3869266198742589738'
+      Phive:
+        Placement: {ID: 14281711426225494111}
+      Rotate:
+        - 0,00000
+        - 0,26180
+        - 0,00000
+      SRTHash: !u 1618670098
+      Translate:
+        - 567,87880
+        - 151,98210
+        - 2149,76200
+  AiGroups:
+    - Hash: '10641802525582331441'
+      Logic: Logic/Module/Cave_Firone_0024/Cave_Firone_0024_f69a.logic.module.ain
+      References:
+        - {Id: SwitchStep_917f, Path: SwitchStep_917f, Reference: 6932733297280466713}
+        - {Id: CaveObj_RuinZonau_ShutterFence_A_01_6555, Path: CaveObj_RuinZonau_ShutterFence_A_01_6555, Reference: 13683348625740143103}
+    - Hash: '12716429082033469260'
+      Logic: Logic/Module/Cave_Firone_0024/Cave_Firone_0024_de03.logic.module.ain
+      References:
+        - {Id: CaveObj_RuinZonau_ShutterFence_A_01_0bae, Path: CaveObj_RuinZonau_ShutterFence_A_01_0bae, Reference: 16049640030109239970}
+        - {Id: CaveObj_RuinZonau_ShutterFence_A_01_598d, Path: CaveObj_RuinZonau_ShutterFence_A_01_598d, Reference: 12248301418934366623}
+        - {Id: SwitchStep_672d, Path: SwitchStep_672d, Reference: 9425533679742216451}
+        - {Id: EventRequestActor_2259, Path: EventRequestActor_2259, Reference: 486098910621271515}
+        - {Id: Area_fce1, Path: Area_fce1, Reference: 18432451750323233946}
+        - {Id: Area_6217, Path: Area_6217, Reference: 4902916356085346325}
+        - {Id: Npc_Cannon13_03_825c, Path: Npc_Cannon13_03_825c, Reference: 11838197678824235217}
+        - {Id: TBox_Field_Iron_Zonau_Opened_f63e, Path: TBox_Field_Iron_Zonau_Opened_f63e, Reference: 2539759222036358634}
+        - {Id: Area_15b6, Path: Area_15b6, Reference: 3427011027114738051}
+        - {Id: Area_f388, Path: Area_f388, Reference: 9271296891973832978}
+    - Hash: '13396646420974548006'
+      Logic: Logic/Module/Cave_Firone_0024/Cave_Firone_0024_8361.logic.module.ain
+      References:
+        - {Id: Enemy_Keese_Swarm_Cave_bcc8, Path: Enemy_Keese_Swarm_Cave_bcc8, Reference: 3218923081292811031}
+        - {Id: Area_2043, Path: Area_2043, Reference: 9815385448945953971}
+  FarDeleteGroups:
+    - - 486098910621271515
+      - 2539759222036358634
+      - 3427011027114738051
+      - 4902916356085346325
+      - 6618224336890698730
+      - 6654823748605031070
+      - 9271296891973832978
+      - 9425533679742216451
+      - 11838197678824235217
+      - 12248301418934366623
+      - 16049640030109239970
+      - 18432451750323233946
+    - - 3218923081292811031
+      - 9815385448945953971
+    - - 6932733297280466713
+      - 13683348625740143103
+  FilePath: Work/Banc/Scene/Prefab/Cave_Firone_0024.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  Rails:
+    - Gyaml: Guide
+      Hash: '5221826078262404349'
+      IsClosed: false
+      Name: Guide
+      Points:
+        - Gyaml: Guide
+          Hash: '17415516251730322691'
+          NextDistance: 28,78062
+          Translate:
+            - 573,25390
+            - 171,06700
+            - 2234,98900
+        - Gyaml: Guide
+          Hash: '4192089803543722129'
+          NextDistance: 22,92942
+          PrevDistance: 28,78062
+          Translate:
+            - 600,41050
+            - 166,73610
+            - 2243,48000
+        - Gyaml: Guide
+          Hash: '16934202278533963223'
+          NextDistance: 14,90480
+          PrevDistance: 22,92942
+          Translate:
+            - 609,74670
+            - 161,64650
+            - 2223,16500
+        - Gyaml: Guide
+          Hash: '10877652979608248534'
+          PrevDistance: 14,90480
+          Translate:
+            - 607,60780
+            - 160,31630
+            - 2208,47400
+  SimultaneousGroups:
+    - - 486098910621271515
+      - 2539759222036358634
+      - 3427011027114738051
+      - 4902916356085346325
+      - 6618224336890698730
+      - 6654823748605031070
+      - 9271296891973832978
+      - 9425533679742216451
+      - 11838197678824235217
+      - 12248301418934366623
+      - 16049640030109239970
+      - 18432451750323233946
+    - - 3218923081292811031
+      - 9815385448945953971
+    - - 6932733297280466713
+      - 13683348625740143103

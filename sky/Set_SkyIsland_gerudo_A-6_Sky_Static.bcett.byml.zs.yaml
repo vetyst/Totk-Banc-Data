@@ -1,0 +1,5402 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_Cannon_0003
+      Hash: '17702831277871620663'
+      Phive:
+        Placement: {ID: 17702831277871620663}
+      Rotate:
+        - 3,14159
+        - 0,94865
+        - 3,14159
+      SRTHash: !u 3175457684
+      Translate:
+        - -3488,62500
+        - 2052,50000
+        - 320,00000
+    - Bakeable: true
+      Gyaml: SkyObj_EnemyBase_Structure_Parts_A_32
+      Hash: '11489118700226010073'
+      Phive:
+        Placement: {ID: 11489118700226010073}
+      Rotate:
+        - 0,00000
+        - -0,51232
+        - 0,00000
+      SRTHash: !u 3928824901
+      Scale:
+        - 1,00000
+        - 4,00000
+        - 1,00000
+      Translate:
+        - -3457,07500
+        - 2042,94500
+        - 273,08320
+    - Bakeable: true
+      Gyaml: SkyObj_ZonauTreasureAltar_A_01
+      Hash: '12143071877912991388'
+      Phive:
+        Placement: {ID: 12143071877912991388}
+      Rotate:
+        - 0,00000
+        - -0,51232
+        - 0,00000
+      SRTHash: !u 415398832
+      Translate:
+        - -3456,83100
+        - 2043,02100
+        - 263,46860
+    - Dynamic: {Drop__DropActor: Obj_SageWill}
+      Gyaml: TBox_Field_Stone_Zonau
+      Hash: '12826721193418470354'
+      Phive:
+        Placement: {ID: 12826721193418470354}
+      Rotate:
+        - 0,00000
+        - -0,51232
+        - 0,00000
+      SRTHash: !u 4218489509
+      Translate:
+        - -3456,83100
+        - 2044,56100
+        - 263,46860
+    - Bakeable: true
+      Gyaml: SkyObj_EnemyBase_Structure_Parts_A_32
+      Hash: '1043150491906264474'
+      Phive:
+        Placement: {ID: 1043150491906264474}
+      Rotate:
+        - 0,00000
+        - -0,51232
+        - 0,00000
+      SRTHash: !u 2792051161
+      Scale:
+        - 1,00000
+        - 4,00000
+        - 1,00000
+      Translate:
+        - -3464,92000
+        - 2042,94500
+        - 268,67140
+    - Bakeable: true
+      Dynamic: {MoveDis: '9,00000', Speed: '2,00000'}
+      Gyaml: DgnObj_Small_ShutterFence_A_10
+      Hash: '15960597219507410724'
+      Phive:
+        Placement: {ID: 15960597219507410724}
+      Rotate:
+        - -3,14159
+        - -0,51232
+        - 0,00000
+      SRTHash: !u 3088587057
+      Translate:
+        - -3460,75300
+        - 2051,02100
+        - 270,44140
+    - Dynamic: {RequestEventName: FocusOnGimmick_Basic}
+      Gyaml: EventRequestActor
+      Hash: '12455178873327086993'
+      Links:
+        - {Dst: 1956912831790628158, Gyaml: Reference, Name: Reference, Src: 12455178873327086993}
+        - {Dst: 15960597219507410724, Gyaml: Reference, Name: Reference, Src: 12455178873327086993}
+      Phive:
+        Placement: {ID: 12455178873327086993}
+      Rotate:
+        - 0,00000
+        - -0,51232
+        - 0,00000
+      SRTHash: !u 2842011099
+      Translate:
+        - -3460,75300
+        - 2043,02100
+        - 270,44140
+    - Gyaml: DesignateMatrixActor
+      Hash: '1956912831790628158'
+      Phive:
+        Placement: {ID: 1956912831790628158}
+      Rotate:
+        - 0,00000
+        - -0,51232
+        - 0,00000
+      SRTHash: !u 2838619487
+      Translate:
+        - -3463,20400
+        - 2045,02100
+        - 274,79950
+    - Bakeable: true
+      Dynamic: {BancPath: Banc/MainField/Merged/Mrg_5e6873fd_UnifiedVariable_0-0-0-89FF914.bcett.byml}
+      ExtraCreateRadius: 100,00000
+      Gyaml: MergedActorD100
+      Hash: '7159441507655693363'
+      Phive:
+        Placement: {ID: 7159441507655693363}
+      Rotate:
+        - 0,00000
+        - 1,05848
+        - 0,00000
+      SRTHash: !u 256872055
+      Translate:
+        - -3458,00000
+        - 2044,01700
+        - 265,39070
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_80
+      Hash: '17177454422520444890'
+      Phive:
+        Placement: {ID: 17177454422520444890}
+      Rotate:
+        - 0,00000
+        - -0,51232
+        - 0,00000
+      SRTHash: !u 704108591
+      Translate:
+        - -3460,76000
+        - 2043,22100
+        - 270,45400
+    - Bakeable: true
+      Gyaml: DgnObj_Gerudo_LightSwithOneTime_A_01
+      Hash: '17163002186390915389'
+      Phive:
+        Placement: {ID: 17163002186390915389}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - -0,51232
+        - 0,00000
+      SRTHash: !u 100200332
+      Translate:
+        - -3465,16800
+        - 2043,78600
+        - 278,29320
+    - Dynamic: {RequestEventName: SkyIsland0088_Dm_SY_0001}
+      Gyaml: EventRequestActor
+      Hash: '705850576452650721'
+      Links:
+        - {Dst: 7453001783556816918, Gyaml: Reference, Name: Reference, Src: 705850576452650721}
+        - {Dst: 12452673480243512303, Gyaml: Reference, Name: Reference, Src: 705850576452650721}
+        - {Dst: 5750569991838532158, Gyaml: Reference, Name: Reference, Src: 705850576452650721}
+        - {Dst: 12891054877855699720, Gyaml: Reference, Name: Reference, Src: 705850576452650721}
+        - {Dst: 18167226231297789684, Gyaml: Reference, Name: Reference, Src: 705850576452650721}
+        - {Dst: 10843544134356416198, Gyaml: Reference, Name: Reference, Src: 705850576452650721}
+        - {Dst: 3731588655811517167, Gyaml: Reference, Name: Reference, Src: 705850576452650721}
+        - {Dst: 15330261406951659038, Gyaml: Reference, Name: Reference, Src: 705850576452650721}
+        - {Dst: 6558348302712855784, Gyaml: Reference, Name: Reference, Src: 705850576452650721}
+        - {Dst: 8888099481277132954, Gyaml: Reference, Name: Reference, Src: 705850576452650721}
+        - {Dst: 9173405173600139668, Gyaml: Reference, Name: Reference, Src: 705850576452650721}
+        - {Dst: 12027802845354347891, Gyaml: Reference, Name: Reference, Src: 705850576452650721}
+        - {Dst: 10760582507422615482, Gyaml: Reference, Name: Reference, Src: 705850576452650721}
+      Phive:
+        Placement: {ID: 705850576452650721}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 4184995618
+      Translate:
+        - -3547,68200
+        - 2074,08700
+        - 320,66610
+    - Dynamic: {Location: SkyIsland0011, RigidBodyShapeType: !l 0}
+      Gyaml: LocationArea
+      Hash: '6841488669903665231'
+      Phive:
+        Placement: {ID: 6841488669903665231}
+      Rotate:
+        - 0,00000
+        - 0,01128
+        - 0,00000
+      SRTHash: !u 1567526999
+      Scale:
+        - 92,99999
+        - 92,99999
+        - 92,99999
+      Translate:
+        - -3488,62500
+        - 1959,50000
+        - 320,00000
+    - Bakeable: true
+      Dynamic: {DungeonIndexStr: Dungeon148, IsHiddenSmallDungeon: true}
+      Gyaml: DgnObj_ZonauShrineEntranceGate_A_01
+      Hash: '6720419147596629783'
+      Phive:
+        Placement: {ID: 6720419147596629783}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 1704087546
+      Translate:
+        - -3547,68200
+        - 2070,08700
+        - 320,66610
+    - Bakeable: true
+      Dynamic: {DungeonIndexStr: Dungeon148, IsHiddenSmallDungeon: true}
+      Gyaml: DgnObj_ZonauShrineEntrance_A_01
+      Hash: '12452673480243512303'
+      Links:
+        - {Dst: 6720419147596629783, Gyaml: Reference, Name: Reference, Src: 12452673480243512303}
+      Phive:
+        Placement: {ID: 12452673480243512303}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 1704087546
+      Translate:
+        - -3547,68200
+        - 2070,08700
+        - 320,66610
+    - Gyaml: DestinationAnchor
+      Hash: '9697068959733393339'
+      Name: AuthenticationPos
+      Phive:
+        Placement: {ID: 9697068959733393339}
+      Rotate:
+        - 0,00001
+        - -1,55952
+        - -0,00001
+      SRTHash: !u 3152628777
+      Translate:
+        - -3549,48200
+        - 2070,53200
+        - 320,68640
+    - Bakeable: true
+      Gyaml: DgnObj_WarpPoint_Zonau_A_01
+      Hash: '1616869836761959302'
+      Phive:
+        Placement: {ID: 1616869836761959302}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 3887499542
+      Translate:
+        - -3545,73200
+        - 2070,53200
+        - 320,64410
+    - Dynamic: {Location: Dungeon148}
+      Gyaml: LocationMarker
+      Hash: '8915616496436459985'
+      Name: Work/Location/Dungeon148.game__location__Location.gyml
+      Phive:
+        Placement: {ID: 8915616496436459985}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 1588791583
+      Translate:
+        - -3546,68200
+        - 2083,98700
+        - 320,65480
+    - Gyaml: StartPos
+      Hash: '9322200941825638526'
+      Phive:
+        Placement: {ID: 9322200941825638526}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 225587543
+      Translate:
+        - -3545,73200
+        - 2070,68200
+        - 320,64410
+    - Gyaml: StartPos
+      Hash: '9322200940969275636'
+      Phive:
+        Placement: {ID: 9322200940969275636}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 3275472568
+      Translate:
+        - -3544,98200
+        - 2070,67200
+        - 320,63570
+    - Dynamic: {RequestEventName: DmF_SY_SmallDungeon1Open}
+      Gyaml: EventRequestActor
+      Hash: '3939535837638949771'
+      Links:
+        - {Dst: 9697068959733393339, Gyaml: Reference, Name: Reference, Src: 3939535837638949771}
+        - {Dst: 10760582507422615482, Gyaml: Reference, Name: Reference, Src: 3939535837638949771}
+        - {Dst: 15330261406951659038, Gyaml: Reference, Name: Reference, Src: 3939535837638949771}
+        - {Dst: 8888099481277132954, Gyaml: Reference, Name: Reference, Src: 3939535837638949771}
+        - {Dst: 6558348302712855784, Gyaml: Reference, Name: Reference, Src: 3939535837638949771}
+        - {Dst: 12027802845354347891, Gyaml: Reference, Name: Reference, Src: 3939535837638949771}
+        - {Dst: 9173405173600139668, Gyaml: Reference, Name: Reference, Src: 3939535837638949771}
+        - {Dst: 3731588655811517167, Gyaml: Reference, Name: Reference, Src: 3939535837638949771}
+        - {Dst: 12891054877855699720, Gyaml: Reference, Name: Reference, Src: 3939535837638949771}
+        - {Dst: 10843544134356416198, Gyaml: Reference, Name: Reference, Src: 3939535837638949771}
+        - {Dst: 5750569991838532158, Gyaml: Reference, Name: Reference, Src: 3939535837638949771}
+      Phive:
+        Placement: {ID: 3939535837638949771}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 1243298487
+      Translate:
+        - -3542,68200
+        - 2075,08700
+        - 320,60970
+    - Dynamic: {IsOverrideCave: true, Location: Dungeon148, RigidBodyShapeType: !l 3}
+      Gyaml: LocationArea
+      Hash: '16360380766867613617'
+      Name: Work/Location/Dungeon148.game__location__Location.gyml
+      Phive:
+        Placement: {ID: 16360380766867613617}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 2114201311
+      Scale:
+        - 18,00000
+        - 10,00000
+        - 18,00000
+      Translate:
+        - -3546,68200
+        - 2067,08700
+        - 320,65480
+    - Dynamic:
+        ForbiddenAll: false
+        ForbiddenGeneratingAnimal: true
+        ForbiddenGeneratingBird: true
+        ForbiddenGeneratingEnemy: true
+        ForbiddenGeneratingInsect: true
+        ForbiddenGeneratingMaterial: true
+        ForbiddenGeneratingSkyFallenBox: true
+      Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '14017448763871135308'
+      Phive:
+        Placement: {ID: 14017448763871135308}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 3512653671
+      Scale:
+        - 40,00000
+        - 40,00000
+        - 40,00000
+      Translate:
+        - -3547,68200
+        - 2070,08700
+        - 320,66610
+    - Dynamic: {DungeonIndexStr: Dungeon148, RequestEventName: DmF_SY_SmallDungeon2Go}
+      Gyaml: FldObj_EnterAttetionActor
+      Hash: '3296349092278745577'
+      Links:
+        - {Dst: 2415050630283961530, Gyaml: Reference, Name: Reference, Src: 3296349092278745577}
+      Phive:
+        Placement: {ID: 3296349092278745577}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 3334155577
+      Translate:
+        - -3559,68100
+        - 2072,08700
+        - 320,80150
+    - Gyaml: DestinationAnchor
+      Hash: '2415050630283961530'
+      Name: EnterSmallDungeonPos
+      Phive:
+        Placement: {ID: 2415050630283961530}
+      Rotate:
+        - 0,00000
+        - -1,55952
+        - 0,00000
+      SRTHash: !u 1509792313
+      Translate:
+        - -3560,99900
+        - 2071,08700
+        - 320,81630
+    - ExtraCreateRadius: 90,59126
+      Gyaml: BGM_Shrine
+      Hash: '2204267909691900457'
+      Links:
+        - {Dst: 16360380766867613617, Gyaml: Reference, Name: Reference, Src: 2204267909691900457}
+        - {Dst: 6720419147596629783, Gyaml: Reference, Name: Reference, Src: 2204267909691900457}
+        - {Dst: 12452673480243512303, Gyaml: Reference, Name: Reference, Src: 2204267909691900457}
+      Phive:
+        Placement: {ID: 2204267909691900457}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 773373770
+      Translate:
+        - -3546,68200
+        - 2077,08700
+        - 320,65480
+    - Gyaml: Area
+      Hash: '10025846579247103487'
+      Phive:
+        Placement: {ID: 10025846579247103487}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 1498837076
+      Scale:
+        - 1,10000
+        - 1,50000
+        - 1,50000
+      Translate:
+        - -3555,43200
+        - 2070,83700
+        - 320,75350
+    - Bakeable: true
+      Dynamic: {DungeonIndexStr: Dungeon148, IsHiddenSmallDungeon: true}
+      Gyaml: DgnObj_ZonauShrineEntranceGround_A_01
+      Hash: '12066159652468051618'
+      Phive:
+        Placement: {ID: 12066159652468051618}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 1704087546
+      Translate:
+        - -3547,68200
+        - 2070,08700
+        - 320,66610
+    - Bakeable: true
+      Gyaml: DgnObj_ZonauShrineEntranceGateMark_A_01
+      Hash: '11328139487821591931'
+      Phive:
+        Placement: {ID: 11328139487821591931}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 1704087546
+      Translate:
+        - -3547,68200
+        - 2070,08700
+        - 320,66610
+    - Bakeable: true
+      Gyaml: DgnObj_ZonauShrineEntranceStopClimbing_A_01
+      Hash: '8120939161294967944'
+      Phive:
+        Placement: {ID: 8120939161294967944}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 1704087546
+      Translate:
+        - -3547,68200
+        - 2070,08700
+        - 320,66610
+    - Bakeable: true
+      Gyaml: AirWallCreature
+      Hash: '4964381474467536313'
+      Phive:
+        Placement: {ID: 4964381474467536313}
+      Rotate:
+        - 2,92066
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 59826943
+      Scale:
+        - 2,40000
+        - 1,18989
+        - 1,38735
+      Translate:
+        - -3554,03700
+        - 2072,81900
+        - 320,73780
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '7593128464035891624'
+      Phive:
+        Placement: {ID: 7593128464035891624}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 483149872
+      Scale:
+        - 5,00000
+        - 8,00000
+        - 5,00000
+      Translate:
+        - -3554,68200
+        - 2070,08700
+        - 320,74510
+    - Gyaml: DestinationAnchor
+      Hash: '10760582507422615482'
+      Name: CleanCenter
+      Phive:
+        Placement: {ID: 10760582507422615482}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 2619859574
+      Translate:
+        - -3552,18200
+        - 2070,08700
+        - 320,71690
+    - Gyaml: AirWallGiant
+      Hash: '9624712613733994392'
+      Phive:
+        Placement: {ID: 9624712613733994392}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 2470766839
+      Scale:
+        - 32,00000
+        - 20,00000
+        - 36,00000
+      Translate:
+        - -3551,68200
+        - 2075,08700
+        - 320,71120
+    - Gyaml: AreaInvalidateRestartPosForHorse
+      Hash: '17664444864114126008'
+      Phive:
+        Placement: {ID: 17664444864114126008}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 2935661503
+      Scale:
+        - 6,00000
+        - 8,00000
+        - 10,00000
+      Translate:
+        - -3551,68200
+        - 2070,08700
+        - 320,71120
+    - Gyaml: NavMeshCutBoxArea
+      Hash: '16694460772725202629'
+      Phive:
+        Placement: {ID: 16694460772725202629}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 1100547032
+      Scale:
+        - 8,00000
+        - 10,00000
+        - 10,00000
+      Translate:
+        - -3553,95000
+        - 2073,08700
+        - 320,73680
+    - Gyaml: Area
+      Hash: '866187964397854202'
+      Phive:
+        Placement: {ID: 866187964397854202}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 2896801264
+      Scale:
+        - 8,00000
+        - 8,00000
+        - 8,00000
+      Translate:
+        - -3554,18200
+        - 2070,08700
+        - 320,73940
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '16985843426186809688'
+      Phive:
+        Placement: {ID: 16985843426186809688}
+      Rotate:
+        - 3,14159
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 693829160
+      Scale:
+        - 10,00000
+        - 7,25000
+        - 10,00000
+      Translate:
+        - -3551,93200
+        - 2070,08700
+        - 320,71410
+    - Bakeable: true
+      Gyaml: DgnObj_ElectricStatueMirror_A_04
+      Hash: '9173405173600139668'
+      Phive:
+        ConstraintLink:
+          ID: 9173405173600139668
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - -0,75049
+                  - 0,01128
+                  - 0,00000
+                Trans:
+                  - -3489,52700
+                  - 2033,00000
+                  - 240,00480
+              ParamData:
+                AngularSpringDamping: 10,00000
+                AngularSpringStiffness: 100,00000
+                EnableAngularSpringMode: false
+                EnableLinearSpringMode: false
+                LinearSpringDamping: 10,00000
+                LinearSpringStiffness: 100,00000
+              PivotData: {}
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - -3,14159
+                  - 1,55952
+                  - 3,14159
+                Trans:
+                  - -3489,55400
+                  - 2033,00000
+                  - 237,63020
+              Type: Fixed
+        Placement: {ID: 9173405173600139668}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - -0,75049
+        - 0,01128
+        - 0,00000
+      SRTHash: !u 583024213
+      Translate:
+        - -3489,52700
+        - 2033,00000
+        - 240,00480
+    - Dynamic: {NonEnemySearch: true}
+      Gyaml: ForbidAutoPlacementAreaSphere
+      Hash: '5490451950376201814'
+      Phive:
+        Placement: {ID: 5490451950376201814}
+      Rotate:
+        - -3,14159
+        - -0,53488
+        - 3,14159
+      SRTHash: !u 327268005
+      Scale:
+        - 12,00000
+        - 12,00000
+        - 12,00000
+      Translate:
+        - -3458,12100
+        - 2052,51600
+        - 371,97560
+    - Gyaml: RBox_Field_I
+      Hash: '81618141019492151'
+      Phive:
+        Placement: {ID: 81618141019492151}
+      Rotate:
+        - -3,14159
+        - -0,53488
+        - 3,14159
+      SRTHash: !u 872392865
+      Translate:
+        - -3457,10100
+        - 2048,49500
+        - 373,69630
+    - Bakeable: true
+      Gyaml: DgnObj_Gerudo_LightSwithOneTime_A_01
+      Hash: '15191598414726759458'
+      Phive:
+        Placement: {ID: 15191598414726759458}
+      Rotate:
+        - -1,57080
+        - 1,55952
+        - 3,14159
+      SRTHash: !u 1788552358
+      Translate:
+        - -3518,10800
+        - 2062,40300
+        - 320,33260
+    - Bakeable: true
+      Gyaml: DgnObj_LightSource
+      Hash: '10843544134356416198'
+      Phive:
+        Placement: {GroupGUID: 16337653835468466727, GroupID: !l 6786, ID: 10843544134356416198}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - -3,14159
+        - 0,51232
+        - -3,14159
+      SRTHash: !u 497401914
+      Translate:
+        - -3479,55600
+        - 2033,99000
+        - 303,87520
+    - Bakeable: true
+      Gyaml: DgnObj_LightSource
+      Hash: '12891054877855699720'
+      Phive:
+        Placement: {GroupGUID: 16337653835468466727, GroupID: !l 6786, ID: 12891054877855699720}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - -1,55952
+        - 0,00000
+      SRTHash: !u 59618163
+      Translate:
+        - -3507,12400
+        - 2033,99000
+        - 320,20860
+    - Bakeable: true
+      Gyaml: DgnObj_LightSource
+      Hash: '5750569991838532158'
+      Phive:
+        Placement: {GroupGUID: 16337653835468466727, GroupID: !l 6786, ID: 5750569991838532158}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - 0,53488
+        - 0,00000
+      SRTHash: !u 3804816948
+      Translate:
+        - -3479,19500
+        - 2033,99000
+        - 335,91610
+    - Bakeable: true
+      Gyaml: SkyObj_FloatingIsland_A_02
+      Hash: '18167226231297789684'
+      Phive:
+        Placement: {GroupGUID: 16337653835468466727, GroupID: !l 6786, ID: 18167226231297789684}
+      Rotate:
+        - -1,57080
+        - 0,51232
+        - -3,14159
+      SRTHash: !u 3325897248
+      Scale:
+        - 1,35628
+        - 1,35628
+        - 1,35628
+      Translate:
+        - -3478,57500
+        - 2033,99000
+        - 302,13130
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '12208546869469391443'
+      Phive:
+        Placement: {GroupGUID: 16337653835468466727, GroupID: !l 6786, ID: 12208546869469391443}
+      Rotate:
+        - 0,00000
+        - -1,55952
+        - 0,00000
+      SRTHash: !u 845577833
+      Scale:
+        - 21,00000
+        - 1,00000
+        - 21,00000
+      Translate:
+        - -3488,62500
+        - 2034,49000
+        - 320,00000
+    - Gyaml: Area
+      Hash: '12348918165600785184'
+      Phive:
+        Placement: {GroupGUID: 16337653835468466727, GroupID: !l 6786, ID: 12348918165600785184}
+      Rotate:
+        - 0,00000
+        - -1,55952
+        - 0,00000
+      SRTHash: !u 340583027
+      Scale:
+        - 5,04000
+        - 2,50000
+        - 3,00000
+      Translate:
+        - -3507,62400
+        - 2034,49000
+        - 320,21430
+    - Gyaml: Area
+      Hash: '15186839562404610057'
+      Phive:
+        Placement: {GroupGUID: 16337653835468466727, GroupID: !l 6786, ID: 15186839562404610057}
+      Rotate:
+        - 0,00000
+        - 0,53488
+        - 0,00000
+      SRTHash: !u 459143751
+      Scale:
+        - 5,04000
+        - 2,50000
+        - 3,00000
+      Translate:
+        - -3478,94000
+        - 2034,49000
+        - 336,34630
+    - Gyaml: Area
+      Hash: '8163144491032840652'
+      Phive:
+        Placement: {GroupGUID: 16337653835468466727, GroupID: !l 6786, ID: 8163144491032840652}
+      Rotate:
+        - 3,14159
+        - 0,51232
+        - -3,14159
+      SRTHash: !u 2139805285
+      Scale:
+        - 5,04000
+        - 2,50000
+        - 3,00000
+      Translate:
+        - -3479,31100
+        - 2034,49000
+        - 303,43940
+    - Gyaml: GroundControlActor_CommandMoveTo
+      Hash: '10891497115386966282'
+      Phive:
+        Placement: {GroupGUID: 16337653835468466727, GroupID: !l 6786, ID: 10891497115386966282}
+      Rotate:
+        - 0,00000
+        - -1,55952
+        - 0,00000
+      SRTHash: !u 3129784977
+      Translate:
+        - -3488,62500
+        - 2045,49000
+        - 320,00000
+    - Bakeable: true
+      Dynamic: {RotateSpeed: '40,00000', TransMul: '0,00000', TransSpeed: '0,00000'}
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_02
+      Hash: '334781571911709508'
+      Links:
+        - {Dst: 10891497115386966282, Gyaml: Reference, Name: Reference, Src: 334781571911709508}
+      Phive:
+        ConstraintLink:
+          ID: 334781571911709508
+          Refers:
+            - {Owner: 5036993428927638497, Type: Fixed}
+            - {Owner: 10225635788207307069, Type: Fixed}
+            - {Owner: 2373522345005148807, Type: Fixed}
+            - {Owner: 6217959891004498462, Type: Fixed}
+            - {Owner: 12027802845354347891, Type: Fixed}
+        Placement: {ID: 334781571911709508}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 3,14159
+        - 1,03592
+        - -3,14159
+      SRTHash: !u 1794446574
+      Translate:
+        - -3488,62500
+        - 2037,49000
+        - 320,00000
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_01
+      Hash: '15105388695750917676'
+      Phive:
+        Placement: {ID: 15105388695750917676}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 3,14159
+        - 1,03592
+        - -3,14159
+      SRTHash: !u 1794446574
+      Translate:
+        - -3488,62500
+        - 2037,49000
+        - 320,00000
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '5036993428927638497'
+      Phive:
+        ConstraintLink:
+          ID: 5036993428927638497
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - 3,14159
+                  - 1,03592
+                  - -3,14159
+                Trans:
+                  - -3489,08400
+                  - 2038,64100
+                  - 319,22570
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 334781571911709508
+              ReferPose:
+                Rotate:
+                  - 3,14159
+                  - 1,03592
+                  - -3,14159
+                Trans:
+                  - -3488,62500
+                  - 2037,49000
+                  - 320,00000
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 5036993428927638497}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 3,14159
+        - 1,03592
+        - -3,14159
+      SRTHash: !u 1240092530
+      Translate:
+        - -3489,08400
+        - 2038,64100
+        - 319,22570
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '10225635788207307069'
+      Phive:
+        ConstraintLink:
+          ID: 10225635788207307069
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - 3,14159
+                  - -0,53488
+                  - -3,14159
+                Trans:
+                  - -3489,39900
+                  - 2038,64100
+                  - 320,45880
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 334781571911709508
+              ReferPose:
+                Rotate:
+                  - 3,14159
+                  - 1,03592
+                  - -3,14159
+                Trans:
+                  - -3488,62500
+                  - 2037,49000
+                  - 320,00000
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 10225635788207307069}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 3,14159
+        - -0,53488
+        - -3,14159
+      SRTHash: !u 1669556561
+      Translate:
+        - -3489,39900
+        - 2038,64100
+        - 320,45880
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '2373522345005148807'
+      Phive:
+        ConstraintLink:
+          ID: 2373522345005148807
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - 0,00000
+                  - 0,53488
+                  - 0,00000
+                Trans:
+                  - -3487,85100
+                  - 2038,64100
+                  - 319,54120
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 334781571911709508
+              ReferPose:
+                Rotate:
+                  - 3,14159
+                  - 1,03592
+                  - -3,14159
+                Trans:
+                  - -3488,62500
+                  - 2037,49000
+                  - 320,00000
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 2373522345005148807}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - 0,53488
+        - 0,00000
+      SRTHash: !u 1983613355
+      Translate:
+        - -3487,85100
+        - 2038,64100
+        - 319,54120
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '6217959891004498462'
+      Phive:
+        ConstraintLink:
+          ID: 6217959891004498462
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - 0,00000
+                  - -1,03592
+                  - 0,00000
+                Trans:
+                  - -3488,16600
+                  - 2038,64100
+                  - 320,77430
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 334781571911709508
+              ReferPose:
+                Rotate:
+                  - 3,14159
+                  - 1,03592
+                  - -3,14159
+                Trans:
+                  - -3488,62500
+                  - 2037,49000
+                  - 320,00000
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 6217959891004498462}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - -1,03592
+        - 0,00000
+      SRTHash: !u 4126742286
+      Translate:
+        - -3488,16600
+        - 2038,64100
+        - 320,77430
+    - Bakeable: true
+      Gyaml: DgnObj_ElectricStatueMirror_A_04
+      Hash: '12027802845354347891'
+      IsPhysicsStable: true
+      Phive:
+        ConstraintLink:
+          ID: 12027802845354347891
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - 2,47837
+                  - 1,03592
+                  - -3,14159
+                Trans:
+                  - -3488,45400
+                  - 2040,36200
+                  - 319,89850
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 334781571911709508
+              ReferPose:
+                Rotate:
+                  - 3,14159
+                  - 1,03592
+                  - -3,14159
+                Trans:
+                  - -3488,62500
+                  - 2037,49000
+                  - 320,00000
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 12027802845354347891}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 2,47843
+        - 1,03592
+        - -3,14153
+      SRTHash: !u 1315279527
+      Translate:
+        - -3488,45400
+        - 2040,36000
+        - 319,89850
+    - Bakeable: true
+      Dynamic: {RotateSpeed: '40,00000', TransMul: '0,00000', TransSpeed: '0,00000'}
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_02
+      Hash: '8534537984024520766'
+      Phive:
+        ConstraintLink:
+          ID: 8534537984024520766
+          Refers:
+            - {Owner: 13380663812289346387, Type: Fixed}
+            - {Owner: 8158942090963444217, Type: Fixed}
+            - {Owner: 14852550153310059231, Type: Fixed}
+            - {Owner: 11888385443991845992, Type: Fixed}
+            - {Owner: 8888099481277132954, Type: Fixed}
+        Placement: {ID: 8534537984024520766}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - -2,94059
+        - -0,35388
+        - 3,07325
+      SRTHash: !u 2632299265
+      Translate:
+        - -3518,03700
+        - 2088,50000
+        - 372,29660
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_01
+      Hash: '366957897307213770'
+      Phive:
+        Placement: {ID: 366957897307213770}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - -2,94059
+        - -0,35388
+        - 3,07325
+      SRTHash: !u 2632299265
+      Translate:
+        - -3518,03700
+        - 2088,50000
+        - 372,29660
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '13380663812289346387'
+      Phive:
+        ConstraintLink:
+          ID: 13380663812289346387
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - -2,94059
+                  - -0,35388
+                  - 3,07325
+                Trans:
+                  - -3518,88200
+                  - 2089,68700
+                  - 372,39310
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 8534537984024520766
+              ReferPose:
+                Rotate:
+                  - -2,94059
+                  - -0,35388
+                  - 3,07325
+                Trans:
+                  - -3518,03700
+                  - 2088,50000
+                  - 372,29660
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 13380663812289346387}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - -2,94059
+        - -0,35388
+        - 3,07325
+      SRTHash: !u 602322167
+      Translate:
+        - -3518,88200
+        - 2089,68700
+        - 372,39310
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '8158942090963444217'
+      Phive:
+        ConstraintLink:
+          ID: 8158942090963444217
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - -0,49547
+                  - -1,16591
+                  - 0,46318
+                Trans:
+                  - -3517,72200
+                  - 2089,78800
+                  - 372,90840
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 8534537984024520766
+              ReferPose:
+                Rotate:
+                  - -2,94059
+                  - -0,35388
+                  - 3,07325
+                Trans:
+                  - -3518,03700
+                  - 2088,50000
+                  - 372,29660
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 8158942090963444217}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - -0,49547
+        - -1,16591
+        - 0,46318
+      SRTHash: !u 2225400152
+      Translate:
+        - -3517,72200
+        - 2089,78800
+        - 372,90840
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '14852550153310059231'
+      Phive:
+        ConstraintLink:
+          ID: 14852550153310059231
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - -2,64613
+                  - 1,16591
+                  - -2,67841
+                Trans:
+                  - -3518,35700
+                  - 2089,47100
+                  - 371,25400
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 8534537984024520766
+              ReferPose:
+                Rotate:
+                  - -2,94059
+                  - -0,35388
+                  - 3,07325
+                Trans:
+                  - -3518,03700
+                  - 2088,50000
+                  - 372,29660
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 14852550153310059231}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - -2,64613
+        - 1,16591
+        - -2,67841
+      SRTHash: !u 443082482
+      Translate:
+        - -3518,35700
+        - 2089,47100
+        - 371,25400
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '11888385443991845992'
+      Phive:
+        ConstraintLink:
+          ID: 11888385443991845992
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - -0,20101
+                  - 0,35388
+                  - -0,06834
+                Trans:
+                  - -3517,19700
+                  - 2089,57200
+                  - 371,76930
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 8534537984024520766
+              ReferPose:
+                Rotate:
+                  - -2,94059
+                  - -0,35388
+                  - 3,07325
+                Trans:
+                  - -3518,03700
+                  - 2088,50000
+                  - 372,29660
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 11888385443991845992}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - -0,20101
+        - 0,35388
+        - -0,06834
+      SRTHash: !u 4030641688
+      Translate:
+        - -3517,19700
+        - 2089,57200
+        - 371,76930
+    - Bakeable: true
+      Gyaml: DgnObj_ElectricStatueMirror_A_02
+      Hash: '8888099481277132954'
+      IsPhysicsStable: true
+      Phive:
+        ConstraintLink:
+          ID: 8888099481277132954
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - -2,94059
+                  - -0,35388
+                  - 3,07325
+                Trans:
+                  - -3518,08800
+                  - 2091,49700
+                  - 371,60610
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 8534537984024520766
+              ReferPose:
+                Rotate:
+                  - -2,94059
+                  - -0,35388
+                  - 3,07325
+                Trans:
+                  - -3518,03700
+                  - 2088,50000
+                  - 372,29660
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 8888099481277132954}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - -2,94053
+        - -0,35402
+        - 3,07321
+      SRTHash: !u 2481882193
+      Translate:
+        - -3518,08800
+        - 2091,49500
+        - 371,60610
+    - Bakeable: true
+      Dynamic: {RotateSpeed: '40,00000', TransMul: '0,00000', TransSpeed: '0,00000'}
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_02
+      Hash: '66398169578882508'
+      Phive:
+        ConstraintLink:
+          ID: 66398169578882508
+          Refers:
+            - {Owner: 14496129999864584481, Type: Fixed}
+            - {Owner: 9343424043612821421, Type: Fixed}
+            - {Owner: 16487066389874563082, Type: Fixed}
+            - {Owner: 18323216601338007722, Type: Fixed}
+            - {Owner: 6558348302712855784, Type: Fixed}
+        Placement: {ID: 66398169578882508}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,00242
+        - -0,51252
+        - 0,18721
+      SRTHash: !u 139488304
+      Translate:
+        - -3428,62900
+        - 2048,50000
+        - 319,32330
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_01
+      Hash: '4459183300284915901'
+      Phive:
+        Placement: {ID: 4459183300284915901}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,00242
+        - -0,51252
+        - 0,18721
+      SRTHash: !u 139488304
+      Translate:
+        - -3428,62900
+        - 2048,50000
+        - 319,32330
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '14496129999864584481'
+      Phive:
+        ConstraintLink:
+          ID: 14496129999864584481
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - 0,00242
+                  - -0,51252
+                  - 0,18721
+                Trans:
+                  - -3428,07400
+                  - 2049,77600
+                  - 319,76710
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 66398169578882508
+              ReferPose:
+                Rotate:
+                  - 0,00242
+                  - -0,51252
+                  - 0,18721
+                Trans:
+                  - -3428,62900
+                  - 2048,50000
+                  - 319,32330
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 14496129999864584481}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,00242
+        - -0,51252
+        - 0,18721
+      SRTHash: !u 3198617508
+      Translate:
+        - -3428,07400
+        - 2049,77600
+        - 319,76710
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '9343424043612821421'
+      Phive:
+        ConstraintLink:
+          ID: 9343424043612821421
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - 0,00431
+                  - 1,05827
+                  - 0,19215
+                Trans:
+                  - -3428,41100
+                  - 2049,71400
+                  - 318,54140
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 66398169578882508
+              ReferPose:
+                Rotate:
+                  - 0,00242
+                  - -0,51252
+                  - 0,18721
+                Trans:
+                  - -3428,62900
+                  - 2048,50000
+                  - 319,32330
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 9343424043612821421}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,00431
+        - 1,05827
+        - 0,19215
+      SRTHash: !u 1477501301
+      Translate:
+        - -3428,41100
+        - 2049,71400
+        - 318,54140
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '16487066389874563082'
+      Phive:
+        ConstraintLink:
+          ID: 16487066389874563082
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - 3,13729
+                  - -1,05827
+                  - -2,94944
+                Trans:
+                  - -3429,27700
+                  - 2049,54500
+                  - 320,11010
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 66398169578882508
+              ReferPose:
+                Rotate:
+                  - 0,00242
+                  - -0,51252
+                  - 0,18721
+                Trans:
+                  - -3428,62900
+                  - 2048,50000
+                  - 319,32330
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 16487066389874563082}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 3,13729
+        - -1,05827
+        - -2,94944
+      SRTHash: !u 2932103064
+      Translate:
+        - -3429,27700
+        - 2049,54500
+        - 320,11010
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '18323216601338007722'
+      Phive:
+        ConstraintLink:
+          ID: 18323216601338007722
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - 3,13917
+                  - 0,51252
+                  - -2,95439
+                Trans:
+                  - -3429,61500
+                  - 2049,48400
+                  - 318,88440
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 66398169578882508
+              ReferPose:
+                Rotate:
+                  - 0,00242
+                  - -0,51252
+                  - 0,18721
+                Trans:
+                  - -3428,62900
+                  - 2048,50000
+                  - 319,32330
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 18323216601338007722}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 3,13917
+        - 0,51252
+        - -2,95439
+      SRTHash: !u 933970457
+      Translate:
+        - -3429,61500
+        - 2049,48400
+        - 318,88440
+    - Bakeable: true
+      Gyaml: DgnObj_ElectricStatueMirror_A_02
+      Hash: '6558348302712855784'
+      IsPhysicsStable: true
+      Phive:
+        ConstraintLink:
+          ID: 6558348302712855784
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - 0,00242
+                  - -0,51252
+                  - 0,18721
+                Trans:
+                  - -3429,26500
+                  - 2051,50700
+                  - 319,43880
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 66398169578882508
+              ReferPose:
+                Rotate:
+                  - 0,00242
+                  - -0,51252
+                  - 0,18721
+                Trans:
+                  - -3428,62900
+                  - 2048,50000
+                  - 319,32330
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 6558348302712855784}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,00241
+        - -0,51239
+        - 0,18724
+      SRTHash: !u 2081275252
+      Translate:
+        - -3429,26400
+        - 2051,50500
+        - 319,43890
+    - Bakeable: true
+      Dynamic: {RotateSpeed: '40,00000', TransMul: '0,00000', TransSpeed: '0,00000'}
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_02
+      Hash: '9484036909679726013'
+      Phive:
+        ConstraintLink:
+          ID: 9484036909679726013
+          Refers:
+            - {Owner: 5339310740160682565, Type: Fixed}
+            - {Owner: 257005400812113862, Type: Fixed}
+            - {Owner: 11202391799474069149, Type: Fixed}
+            - {Owner: 8869646027422458120, Type: Fixed}
+            - {Owner: 15330261406951659038, Type: Fixed}
+        Placement: {ID: 9484036909679726013}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 1,36892
+        - -1,47694
+        - -1,53274
+      SRTHash: !u 2896797179
+      Translate:
+        - -3519,20900
+        - 2068,50000
+        - 268,38010
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_01
+      Hash: '13456302683197403637'
+      Phive:
+        Placement: {ID: 13456302683197403637}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 1,36892
+        - -1,47694
+        - -1,53274
+      SRTHash: !u 2896797179
+      Translate:
+        - -3519,20900
+        - 2068,50000
+        - 268,38010
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '5339310740160682565'
+      Phive:
+        ConstraintLink:
+          ID: 5339310740160682565
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - 1,36892
+                  - -1,47694
+                  - -1,53274
+                Trans:
+                  - -3519,01800
+                  - 2069,54500
+                  - 269,38170
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 9484036909679726013
+              ReferPose:
+                Rotate:
+                  - 1,36892
+                  - -1,47694
+                  - -1,53274
+                Trans:
+                  - -3519,20900
+                  - 2068,50000
+                  - 268,38010
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 5339310740160682565}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 1,36892
+        - -1,47694
+        - -1,53274
+      SRTHash: !u 1719765753
+      Translate:
+        - -3519,01800
+        - 2069,54500
+        - 269,38170
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '257005400812113862'
+      Phive:
+        ConstraintLink:
+          ID: 257005400812113862
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - 0,09196
+                  - 0,01879
+                  - -0,16296
+                Trans:
+                  - -3518,13300
+                  - 2069,48400
+                  - 268,46880
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 9484036909679726013
+              ReferPose:
+                Rotate:
+                  - 1,36892
+                  - -1,47694
+                  - -1,53274
+                Trans:
+                  - -3519,20900
+                  - 2068,50000
+                  - 268,38010
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 257005400812113862}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,09196
+        - 0,01879
+        - -0,16296
+      SRTHash: !u 1324405924
+      Translate:
+        - -3518,13300
+        - 2069,48400
+        - 268,46880
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '11202391799474069149'
+      Phive:
+        ConstraintLink:
+          ID: 11202391799474069149
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - 3,04963
+                  - -0,01879
+                  - 2,97864
+                Trans:
+                  - -3519,90900
+                  - 2069,77600
+                  - 268,50260
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 9484036909679726013
+              ReferPose:
+                Rotate:
+                  - 1,36892
+                  - -1,47694
+                  - -1,53274
+                Trans:
+                  - -3519,20900
+                  - 2068,50000
+                  - 268,38010
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 11202391799474069149}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 3,04963
+        - -0,01879
+        - 2,97864
+      SRTHash: !u 1497758212
+      Translate:
+        - -3519,90900
+        - 2069,77600
+        - 268,50260
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_Raimei_Capstan_A_03
+      Hash: '8869646027422458120'
+      Phive:
+        ConstraintLink:
+          ID: 8869646027422458120
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - 1,77267
+                  - 1,47694
+                  - 1,60886
+                Trans:
+                  - -3519,02400
+                  - 2069,71400
+                  - 267,58970
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 9484036909679726013
+              ReferPose:
+                Rotate:
+                  - 1,36892
+                  - -1,47694
+                  - -1,53274
+                Trans:
+                  - -3519,20900
+                  - 2068,50000
+                  - 268,38010
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 8869646027422458120}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 1,77267
+        - 1,47694
+        - 1,60886
+      SRTHash: !u 4240520055
+      Translate:
+        - -3519,02400
+        - 2069,71400
+        - 267,58970
+    - Bakeable: true
+      Gyaml: DgnObj_ElectricStatueMirror_A_02
+      Hash: '15330261406951659038'
+      IsPhysicsStable: true
+      Phive:
+        ConstraintLink:
+          ID: 15330261406951659038
+          Owners:
+            - ClusterData: {ClusterSolving: true}
+              OwnerPose:
+                Rotate:
+                  - 1,36892
+                  - -1,47694
+                  - -1,53274
+                Trans:
+                  - -3518,83100
+                  - 2071,53900
+                  - 268,66460
+              ParamData: {EnableAngularSpringMode: false, EnableLinearSpringMode: false}
+              PivotData: {}
+              Refer: 9484036909679726013
+              ReferPose:
+                Rotate:
+                  - 1,36892
+                  - -1,47694
+                  - -1,53274
+                Trans:
+                  - -3519,20900
+                  - 2068,50000
+                  - 268,38010
+              Type: Fixed
+              UserData: {IsManufactured: true}
+        Placement: {ID: 15330261406951659038}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 1,36920
+        - -1,47696
+        - -1,53309
+      SRTHash: !u 3482023856
+      Translate:
+        - -3518,83000
+        - 2071,53700
+        - 268,66460
+    - Bakeable: true
+      Gyaml: DgnObj_ElectricStatueMirror_A_03
+      Hash: '3731588655811517167'
+      IsPhysicsStable: true
+      Phive:
+        ConstraintLink:
+          ID: 3731588655811517167
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - -0,26878
+                  - 0,51232
+                  - -3,14159
+                Trans:
+                  - -3488,87600
+                  - 2107,30300
+                  - 320,44600
+              ParamData:
+                AngularSpringDamping: 10,00000
+                AngularSpringStiffness: 100,00000
+                EnableAngularSpringMode: false
+                EnableLinearSpringMode: false
+                LinearSpringDamping: 10,00000
+                LinearSpringStiffness: 100,00000
+              PivotData: {}
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 0,00000
+                  - -0,51232
+                  - 0,00000
+                Trans:
+                  - -3488,70100
+                  - 2105,39000
+                  - 320,13460
+              Type: Fixed
+        Placement: {ID: 3731588655811517167}
+      Rotate:
+        - -0,26878
+        - 0,51232
+        - -3,14159
+      SRTHash: !u 3093542858
+      Translate:
+        - -3488,87600
+        - 2107,30300
+        - 320,44600
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_BottomPillar_A_03
+      Hash: '18418330321881759386'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 18418330321881759386}
+      Rotate:
+        - 0,00000
+        - -1,03592
+        - 0,00000
+      SRTHash: !u 1649635978
+      Scale:
+        - 0,64000
+        - 0,64000
+        - 0,64000
+      Translate:
+        - -3540,24500
+        - 2011,35300
+        - 350,58410
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '13921066505595955162'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 13921066505595955162}
+      Rotate:
+        - 1,57080
+        - -0,52357
+        - -3,14159
+      SRTHash: !u 1413425507
+      Translate:
+        - -3542,16300
+        - 2017,19400
+        - 351,72060
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '16394495202697050352'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 16394495202697050352}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 1,57080
+      SRTHash: !u 724016711
+      Translate:
+        - -3540,26400
+        - 2017,19400
+        - 348,35460
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '14963229204393639471'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 14963229204393639471}
+      Rotate:
+        - -1,57080
+        - -0,52363
+        - 0,00000
+      SRTHash: !u 1433743864
+      Translate:
+        - -3538,30400
+        - 2017,19400
+        - 351,68200
+    - Dynamic: {RotateSpeedX: '3,00000'}
+      Gyaml: GroundControlActor_Rotate
+      Hash: '2494701152195974152'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 2494701152195974152}
+      Rotate:
+        - 0,00000
+        - 0,01128
+        - 0,00000
+      SRTHash: !u 533003050
+      Translate:
+        - -3484,87500
+        - 2042,50000
+        - 319,95770
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_BottomPillar_A_03
+      Hash: '16075313980692561797'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 16075313980692561797}
+      Rotate:
+        - -3,14159
+        - -1,05848
+        - -3,14159
+      SRTHash: !u 2568313815
+      Scale:
+        - 0,64000
+        - 0,64000
+        - 0,64000
+      Translate:
+        - -3540,92200
+        - 2011,35300
+        - 290,58800
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '2713131411494557303'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 2713131411494557303}
+      Rotate:
+        - 1,57080
+        - 0,52362
+        - -3,14159
+      SRTHash: !u 3212803986
+      Translate:
+        - -3542,86500
+        - 2017,19400
+        - 289,49500
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '13993045452013108996'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 13993045452013108996}
+      Rotate:
+        - -1,57080
+        - 0,52357
+        - 0,00000
+      SRTHash: !u 230005254
+      Translate:
+        - -3539,00100
+        - 2017,19400
+        - 289,45630
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '14917603925983313362'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 14917603925983313362}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - -1,57080
+      SRTHash: !u 3361782930
+      Translate:
+        - -3540,90200
+        - 2017,19400
+        - 292,81740
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_BottomPillar_A_03
+      Hash: '15651034883381314762'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 15651034883381314762}
+      Rotate:
+        - -3,14159
+        - 1,03592
+        - -3,14159
+      SRTHash: !u 2850914626
+      Scale:
+        - 0,64000
+        - 0,64000
+        - 0,64000
+      Translate:
+        - -3437,00500
+        - 2011,35300
+        - 289,41590
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '14580923539531196686'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 14580923539531196686}
+      Rotate:
+        - -1,57080
+        - 0,52357
+        - 0,00000
+      SRTHash: !u 3691061919
+      Translate:
+        - -3435,08700
+        - 2017,19400
+        - 288,27940
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '17095258118897349244'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 17095258118897349244}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - -1,57080
+      SRTHash: !u 3636737334
+      Translate:
+        - -3436,98600
+        - 2017,19400
+        - 291,64540
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '14142017202880149561'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 14142017202880149561}
+      Rotate:
+        - 1,57080
+        - 0,52363
+        - -3,14159
+      SRTHash: !u 2993184159
+      Translate:
+        - -3438,94600
+        - 2017,19400
+        - 288,31800
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_BottomPillar_A_03
+      Hash: '9937749289415164070'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 9937749289415164070}
+      Rotate:
+        - 0,00000
+        - 0,01128
+        - 0,00000
+      SRTHash: !u 3572983102
+      Scale:
+        - 0,64000
+        - 0,64000
+        - 0,64000
+      Translate:
+        - -3487,94800
+        - 2011,35300
+        - 379,99620
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '10886309074644309429'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 10886309074644309429}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - -1,57080
+      SRTHash: !u 1869394874
+      Translate:
+        - -3487,92300
+        - 2017,19400
+        - 382,22560
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '13653882890275950120'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 13653882890275950120}
+      Rotate:
+        - 1,57080
+        - 0,52363
+        - 3,14159
+      SRTHash: !u 2466164527
+      Translate:
+        - -3489,88900
+        - 2017,19400
+        - 378,89830
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '11302047274693717197'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 11302047274693717197}
+      Rotate:
+        - -1,57080
+        - 0,52357
+        - 0,00000
+      SRTHash: !u 1890537673
+      Translate:
+        - -3486,02700
+        - 2017,19400
+        - 378,86460
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_BottomPillar_A_03
+      Hash: '11983786652585276310'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 11983786652585276310}
+      Rotate:
+        - -3,14159
+        - -0,01128
+        - -3,14159
+      SRTHash: !u 2579079202
+      Scale:
+        - 0,64000
+        - 0,64000
+        - 0,64000
+      Translate:
+        - -3489,30200
+        - 2011,35300
+        - 260,00380
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '11264216887606320090'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 11264216887606320090}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 1,57080
+      SRTHash: !u 2515540378
+      Translate:
+        - -3489,32700
+        - 2017,19400
+        - 257,77440
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '13041115163891966963'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 13041115163891966963}
+      Rotate:
+        - -1,57080
+        - -0,52363
+        - 0,00000
+      SRTHash: !u 3961517618
+      Translate:
+        - -3487,36100
+        - 2017,19400
+        - 261,10170
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '11988574290465978826'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 11988574290465978826}
+      Rotate:
+        - 1,57080
+        - -0,52357
+        - -3,14159
+      SRTHash: !u 3347414180
+      Translate:
+        - -3491,22300
+        - 2017,19400
+        - 261,13540
+    - Bakeable: true
+      Gyaml: SkyObj_Firone_BottomPillar_A_03
+      Hash: '10391403536099171948'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 10391403536099171948}
+      Rotate:
+        - 0,00000
+        - 1,05848
+        - 0,00000
+      SRTHash: !u 43256471
+      Scale:
+        - 0,64000
+        - 0,64000
+        - 0,64000
+      Translate:
+        - -3436,32800
+        - 2011,35300
+        - 349,41200
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '9724337375238469615'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 9724337375238469615}
+      Rotate:
+        - -1,57080
+        - -0,52362
+        - 0,00000
+      SRTHash: !u 983213278
+      Translate:
+        - -3434,38500
+        - 2017,19400
+        - 350,50500
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '12550025445711027454'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 12550025445711027454}
+      Rotate:
+        - 1,57080
+        - -0,52357
+        - 3,14159
+      SRTHash: !u 2442116988
+      Translate:
+        - -3438,24900
+        - 2017,19400
+        - 350,54370
+    - Bakeable: true
+      Dynamic:
+        Actor_WindControl_WindLength: 60,00000
+        Actor_WindControl_WindRadius: 4,00000
+        WindStartPosOffset:
+          - 0,00000
+          - 0,00000
+          - 1,00000
+      ExtraCreateRadius: 100,00000
+      Gyaml: WindGenerator
+      Hash: '10161997139666869948'
+      Phive:
+        Placement: {GroupGUID: 4905898927132338026, GroupID: !l 6785, ID: 10161997139666869948}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 1,57080
+      SRTHash: !u 955023245
+      Translate:
+        - -3436,34800
+        - 2017,19400
+        - 347,18260
+    - Dynamic: {AreaRenderType: !l 2, RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '10310414756644473187'
+      Phive:
+        Placement: {ID: 10310414756644473187}
+      Rotate:
+        - 0,00000
+        - 0,01128
+        - 0,00000
+      SRTHash: !u 1567526999
+      Scale:
+        - 92,99999
+        - 92,99999
+        - 92,99999
+      Translate:
+        - -3488,62500
+        - 1959,50000
+        - 320,00000
+    - Bakeable: true
+      Gyaml: Ef_CloudRestrictedArea_03
+      Hash: '2941622286798439965'
+      Phive:
+        Placement: {ID: 2941622286798439965}
+      Rotate:
+        - 0,00000
+        - 0,01128
+        - 0,00000
+      SRTHash: !u 1365400874
+      Scale:
+        - 100,00000
+        - 100,00000
+        - 100,00000
+      Translate:
+        - -3488,62500
+        - 2052,50000
+        - 320,00000
+    - Dynamic: {RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '555225873865991021'
+      Phive:
+        Placement: {ID: 555225873865991021}
+      Rotate:
+        - 0,00000
+        - 0,01128
+        - 0,00000
+      SRTHash: !u 4081392685
+      Scale:
+        - 150,00000
+        - 150,00000
+        - 150,00000
+      Translate:
+        - -3488,62500
+        - 1902,50000
+        - 320,00000
+    - Gyaml: DesignateMatrixActor
+      Hash: '7453001783556816918'
+      Name: SkyIsland0088_SwitchPos
+      Phive:
+        Placement: {ID: 7453001783556816918}
+      Rotate:
+        - 0,00000
+        - 0,01128
+        - 0,00000
+      SRTHash: !u 3606109589
+      Scale:
+        - 2,00000
+        - 2,00000
+        - 2,00000
+      Translate:
+        - -3518,10800
+        - 2062,40300
+        - 320,33260
+    - Dynamic: {RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '10598269245039559182'
+      Phive:
+        Placement: {ID: 10598269245039559182}
+      Rotate:
+        - 3,14159
+        - 0,94865
+        - 3,14159
+      SRTHash: !u 2493115755
+      Scale:
+        - 98,00000
+        - 98,00000
+        - 98,00000
+      Translate:
+        - -3488,62500
+        - 1954,50000
+        - 320,00000
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '14969167276667096564'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 14969167276667096564}
+      Rotate:
+        - -0,01287
+        - 0,97765
+        - -0,00194
+      SRTHash: !u 1112767407
+      Translate:
+        - -3898,29300
+        - 1848,91800
+        - 821,05120
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '13310279448530192389'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 14969167276667096564, Gyaml: APStack, Name: APStack, Src: 13310279448530192389}
+        - {Dst: 14969167276667096564, Gyaml: StackInfo, Name: StackInfo, Src: 13310279448530192389}
+      Phive:
+        Placement: {ID: 13310279448530192389}
+      Rotate:
+        - -1,56158
+        - 0,06073
+        - -3,12912
+      SRTHash: !u 2454280467
+      Translate:
+        - -3901,95900
+        - 1849,09000
+        - 822,85880
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '1489931562256218314'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 14969167276667096564, Gyaml: APStack, Name: APStack, Src: 1489931562256218314}
+        - {Dst: 14969167276667096564, Gyaml: StackInfo, Name: StackInfo, Src: 1489931562256218314}
+      Phive:
+        Placement: {ID: 1489931562256218314}
+      Rotate:
+        - -3,12908
+        - -0,97719
+        - 3,13992
+      SRTHash: !u 2631837810
+      Translate:
+        - -3898,45000
+        - 1848,77000
+        - 817,15010
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '2015540719288520343'
+      Links:
+        - {Dst: 14969167276667096564, Gyaml: APStack, Name: APStack, Src: 2015540719288520343}
+        - {Dst: 14969167276667096564, Gyaml: StackInfo, Name: StackInfo, Src: 2015540719288520343}
+      Phive:
+        Placement: {ID: 2015540719288520343}
+      Rotate:
+        - 0,00000
+        - 0,97763
+        - 0,00000
+      SRTHash: !u 3311634358
+      Translate:
+        - -3898,29200
+        - 1849,00000
+        - 821,05360
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '13472433852996160230'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 13472433852996160230}
+      Rotate:
+        - -0,02024
+        - -0,26731
+        - -0,00672
+      SRTHash: !u 4191456178
+      Translate:
+        - -4039,41100
+        - 1882,91800
+        - 418,42520
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '12285005073899572722'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 13472433852996160230, Gyaml: APStack, Name: APStack, Src: 12285005073899572722}
+        - {Dst: 13472433852996160230, Gyaml: StackInfo, Name: StackInfo, Src: 12285005073899572722}
+      Phive:
+        Placement: {ID: 12285005073899572722}
+      Rotate:
+        - -1,50979
+        - 1,30422
+        - -3,09161
+      SRTHash: !u 769979121
+      Translate:
+        - -4042,29500
+        - 1883,09900
+        - 415,53050
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '1644880442827732429'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 13472433852996160230, Gyaml: APStack, Name: APStack, Src: 1644880442827732429}
+        - {Dst: 13472433852996160230, Gyaml: StackInfo, Name: StackInfo, Src: 1644880442827732429}
+      Phive:
+        Placement: {ID: 1644880442827732429}
+      Rotate:
+        - 1,68099
+        - 0,06743
+        - 0,77164
+      SRTHash: !u 2504737169
+      Translate:
+        - -4035,35600
+        - 1883,10000
+        - 415,53920
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '16480140874587753432'
+      Links:
+        - {Dst: 13472433852996160230, Gyaml: APStack, Name: APStack, Src: 16480140874587753432}
+        - {Dst: 13472433852996160230, Gyaml: StackInfo, Name: StackInfo, Src: 16480140874587753432}
+      Phive:
+        Placement: {ID: 16480140874587753432}
+      Rotate:
+        - 0,00000
+        - -0,26724
+        - 0,00000
+      SRTHash: !u 698577301
+      Translate:
+        - -4039,45300
+        - 1882,96300
+        - 418,45910
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '17236984979491492857'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 17236984979491492857}
+      Rotate:
+        - -3,12042
+        - -1,29349
+        - 3,08763
+      SRTHash: !u 2307219378
+      Translate:
+        - -3660,89400
+        - 1818,12100
+        - 951,23110
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '9024786409997719051'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 17236984979491492857, Gyaml: APStack, Name: APStack, Src: 9024786409997719051}
+        - {Dst: 17236984979491492857, Gyaml: StackInfo, Name: StackInfo, Src: 9024786409997719051}
+      Phive:
+        Placement: {ID: 9024786409997719051}
+      Rotate:
+        - 1,56418
+        - 0,25475
+        - -0,03504
+      SRTHash: !u 2152416519
+      Translate:
+        - -3657,39600
+        - 1818,19000
+        - 949,18700
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '14575135974476222157'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 17236984979491492857, Gyaml: APStack, Name: APStack, Src: 14575135974476222157}
+        - {Dst: 17236984979491492857, Gyaml: StackInfo, Name: StackInfo, Src: 14575135974476222157}
+      Phive:
+        Placement: {ID: 14575135974476222157}
+      Rotate:
+        - -2,98837
+        - -0,00562
+        - -1,60504
+      SRTHash: !u 2090392001
+      Translate:
+        - -3659,25200
+        - 1818,28600
+        - 954,98560
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '2010816781711102112'
+      Links:
+        - {Dst: 17236984979491492857, Gyaml: APStack, Name: APStack, Src: 2010816781711102112}
+        - {Dst: 17236984979491492857, Gyaml: StackInfo, Name: StackInfo, Src: 2010816781711102112}
+      Phive:
+        Placement: {ID: 2010816781711102112}
+      Rotate:
+        - 3,14159
+        - -1,29156
+        - 3,14159
+      SRTHash: !u 177399785
+      Translate:
+        - -3661,04500
+        - 1818,28600
+        - 951,26180
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '10076621682042834263'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 10076621682042834263}
+      Rotate:
+        - -0,00269
+        - -1,37072
+        - -0,00195
+      SRTHash: !u 3362532517
+      Translate:
+        - -3381,83300
+        - 1913,15200
+        - 749,94920
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '17967587851290757285'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 10076621682042834263, Gyaml: APStack, Name: APStack, Src: 17967587851290757285}
+        - {Dst: 10076621682042834263, Gyaml: StackInfo, Name: StackInfo, Src: 17967587851290757285}
+      Phive:
+        Placement: {ID: 17967587851290757285}
+      Rotate:
+        - 1,56983
+        - 0,73223
+        - -0,00239
+      SRTHash: !u 2418628210
+      Translate:
+        - -3380,55400
+        - 1913,34100
+        - 746,07040
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '8048921035848423646'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 10076621682042834263, Gyaml: APStack, Name: APStack, Src: 8048921035848423646}
+        - {Dst: 10076621682042834263, Gyaml: StackInfo, Name: StackInfo, Src: 8048921035848423646}
+      Phive:
+        Placement: {ID: 8048921035848423646}
+      Rotate:
+        - -3,13600
+        - 1,37085
+        - 3,13828
+      SRTHash: !u 2997978634
+      Translate:
+        - -3378,94100
+        - 1913,00900
+        - 752,56650
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '15858741425520987508'
+      Links:
+        - {Dst: 10076621682042834263, Gyaml: APStack, Name: APStack, Src: 15858741425520987508}
+        - {Dst: 10076621682042834263, Gyaml: StackInfo, Name: StackInfo, Src: 15858741425520987508}
+      Phive:
+        Placement: {ID: 15858741425520987508}
+      Rotate:
+        - 0,00000
+        - -1,37072
+        - 0,00000
+      SRTHash: !u 3750152805
+      Translate:
+        - -3381,83700
+        - 1913,20900
+        - 749,94950
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '2713843923149890860'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 2713843923149890860}
+      Rotate:
+        - -0,01190
+        - 0,63879
+        - -0,00208
+      SRTHash: !u 1064490046
+      Translate:
+        - -3961,67000
+        - 1874,09400
+        - 720,09310
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '1408479593209276350'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 2713843923149890860, Gyaml: APStack, Name: APStack, Src: 1408479593209276350}
+        - {Dst: 2713843923149890860, Gyaml: StackInfo, Name: StackInfo, Src: 1408479593209276350}
+      Phive:
+        Placement: {ID: 1408479593209276350}
+      Rotate:
+        - -1,55650
+        - 0,39961
+        - -3,12858
+      SRTHash: !u 2983063607
+      Translate:
+        - -3965,73000
+        - 1874,26900
+        - 720,57610
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '9967208851662057370'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 2713843923149890860, Gyaml: APStack, Name: APStack, Src: 9967208851662057370}
+        - {Dst: 2713843923149890860, Gyaml: StackInfo, Name: StackInfo, Src: 9967208851662057370}
+      Phive:
+        Placement: {ID: 9967208851662057370}
+      Rotate:
+        - 2,44305
+        - 0,64573
+        - 1,06643
+      SRTHash: !u 3072493497
+      Translate:
+        - -3961,43200
+        - 1874,29100
+        - 715,11410
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '8489933895544071439'
+      Links:
+        - {Dst: 2713843923149890860, Gyaml: APStack, Name: APStack, Src: 8489933895544071439}
+        - {Dst: 2713843923149890860, Gyaml: StackInfo, Name: StackInfo, Src: 8489933895544071439}
+      Phive:
+        Placement: {ID: 8489933895544071439}
+      Rotate:
+        - 0,00000
+        - 0,63917
+        - 0,00000
+      SRTHash: !u 3947476009
+      Translate:
+        - -3961,66700
+        - 1874,15500
+        - 720,09890
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '13214195698674014392'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 13214195698674014392}
+      Rotate:
+        - -0,00696
+        - -0,58668
+        - -0,00136
+      SRTHash: !u 2039701616
+      Translate:
+        - -3931,60400
+        - 2050,00000
+        - 187,90860
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '11645915891943857963'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 13214195698674014392, Gyaml: APStack, Name: APStack, Src: 11645915891943857963}
+        - {Dst: 13214195698674014392, Gyaml: StackInfo, Name: StackInfo, Src: 11645915891943857963}
+      Phive:
+        Placement: {ID: 11645915891943857963}
+      Rotate:
+        - 1,54800
+        - 1,51640
+        - -0,02318
+      SRTHash: !u 3182044334
+      Translate:
+        - -3933,43700
+        - 2050,19400
+        - 184,25490
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '1330996713649604465'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 13214195698674014392, Gyaml: APStack, Name: APStack, Src: 1330996713649604465}
+        - {Dst: 13214195698674014392, Gyaml: StackInfo, Name: StackInfo, Src: 1330996713649604465}
+      Phive:
+        Placement: {ID: 1330996713649604465}
+      Rotate:
+        - 1,46142
+        - -0,16336
+        - 0,79088
+      SRTHash: !u 1071527539
+      Translate:
+        - -3926,83800
+        - 2050,23100
+        - 186,45180
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '16416949078601489874'
+      Links:
+        - {Dst: 13214195698674014392, Gyaml: APStack, Name: APStack, Src: 16416949078601489874}
+        - {Dst: 13214195698674014392, Gyaml: StackInfo, Name: StackInfo, Src: 16416949078601489874}
+      Phive:
+        Placement: {ID: 16416949078601489874}
+      Rotate:
+        - 0,00000
+        - -0,58672
+        - 0,00000
+      SRTHash: !u 578609343
+      Translate:
+        - -3931,60500
+        - 2050,00000
+        - 187,90970
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '12385496657101423459'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 12385496657101423459}
+      Rotate:
+        - -0,00965
+        - -0,18393
+        - -0,00151
+      SRTHash: !u 2504236167
+      Translate:
+        - -4034,60000
+        - 1958,50000
+        - 280,22990
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '11046879805658908018'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 12385496657101423459, Gyaml: APStack, Name: APStack, Src: 11046879805658908018}
+        - {Dst: 12385496657101423459, Gyaml: StackInfo, Name: StackInfo, Src: 11046879805658908018}
+      Phive:
+        Placement: {ID: 11046879805658908018}
+      Rotate:
+        - -1,54940
+        - 1,22236
+        - -3,12350
+      SRTHash: !u 2397435080
+      Translate:
+        - -4037,71700
+        - 1958,68500
+        - 277,58500
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '8639090316866358427'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 12385496657101423459, Gyaml: APStack, Name: APStack, Src: 8639090316866358427}
+        - {Dst: 12385496657101423459, Gyaml: StackInfo, Name: StackInfo, Src: 8639090316866358427}
+      Phive:
+        Placement: {ID: 8639090316866358427}
+      Rotate:
+        - 1,74755
+        - 0,12118
+        - 0,79212
+      SRTHash: !u 2904477411
+      Translate:
+        - -4030,79000
+        - 1958,77600
+        - 277,02030
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '14125755876041966372'
+      Links:
+        - {Dst: 12385496657101423459, Gyaml: APStack, Name: APStack, Src: 14125755876041966372}
+        - {Dst: 12385496657101423459, Gyaml: StackInfo, Name: StackInfo, Src: 14125755876041966372}
+      Phive:
+        Placement: {ID: 14125755876041966372}
+      Rotate:
+        - 0,00000
+        - -0,18396
+        - 0,00000
+      SRTHash: !u 1452459878
+      Translate:
+        - -4034,60000
+        - 1958,50000
+        - 280,23120
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '17047740685569713482'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 17047740685569713482}
+      Rotate:
+        - -0,02010
+        - 0,20476
+        - -0,00316
+      SRTHash: !u 2840092794
+      Translate:
+        - -3434,48200
+        - 2189,42700
+        - 8,03069
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '6668512839036631166'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 17047740685569713482, Gyaml: APStack, Name: APStack, Src: 6668512839036631166}
+        - {Dst: 17047740685569713482, Gyaml: StackInfo, Name: StackInfo, Src: 6668512839036631166}
+      Phive:
+        Placement: {ID: 6668512839036631166}
+      Rotate:
+        - -1,55518
+        - 0,83365
+        - -3,12904
+      SRTHash: !u 2324824290
+      Translate:
+        - -3438,36700
+        - 2189,60900
+        - 6,76411
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '13894344147953514513'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 17047740685569713482, Gyaml: APStack, Name: APStack, Src: 13894344147953514513}
+        - {Dst: 17047740685569713482, Gyaml: StackInfo, Name: StackInfo, Src: 13894344147953514513}
+      Phive:
+        Placement: {ID: 13894344147953514513}
+      Rotate:
+        - 2,03543
+        - 0,39091
+        - 0,85845
+      SRTHash: !u 3570981829
+      Translate:
+        - -3432,17300
+        - 2189,64300
+        - 3,60857
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '3700470304034465100'
+      Links:
+        - {Dst: 17047740685569713482, Gyaml: APStack, Name: APStack, Src: 3700470304034465100}
+        - {Dst: 17047740685569713482, Gyaml: StackInfo, Name: StackInfo, Src: 3700470304034465100}
+      Phive:
+        Placement: {ID: 3700470304034465100}
+      Rotate:
+        - 0,00000
+        - 0,20521
+        - 0,00000
+      SRTHash: !u 3882121068
+      Translate:
+        - -3434,47900
+        - 2189,47100
+        - 8,03407
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '3577499430818126892'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 3577499430818126892}
+      Rotate:
+        - -0,00009
+        - -0,68788
+        - -0,00003
+      SRTHash: !u 670534116
+      Translate:
+        - -3215,85700
+        - 1943,99800
+        - 686,88600
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '2503790119056859043'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 3577499430818126892, Gyaml: APStack, Name: APStack, Src: 2503790119056859043}
+        - {Dst: 3577499430818126892, Gyaml: StackInfo, Name: StackInfo, Src: 2503790119056859043}
+      Phive:
+        Placement: {ID: 2503790119056859043}
+      Rotate:
+        - 1,54334
+        - 1,41519
+        - -0,03097
+      SRTHash: !u 3077457394
+      Translate:
+        - -3217,31000
+        - 1944,18600
+        - 683,06440
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '10544318909573695466'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 3577499430818126892, Gyaml: APStack, Name: APStack, Src: 10544318909573695466}
+        - {Dst: 3577499430818126892, Gyaml: StackInfo, Name: StackInfo, Src: 10544318909573695466}
+      Phive:
+        Placement: {ID: 10544318909573695466}
+      Rotate:
+        - 1,38760
+        - -0,23393
+        - 0,80554
+      SRTHash: !u 1568864825
+      Translate:
+        - -3210,96900
+        - 1944,23000
+        - 685,91570
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '7057175187282418261'
+      Links:
+        - {Dst: 3577499430818126892, Gyaml: APStack, Name: APStack, Src: 7057175187282418261}
+        - {Dst: 3577499430818126892, Gyaml: StackInfo, Name: StackInfo, Src: 7057175187282418261}
+      Phive:
+        Placement: {ID: 7057175187282418261}
+      Rotate:
+        - 0,00000
+        - -0,68789
+        - 0,00000
+      SRTHash: !u 669134686
+      Translate:
+        - -3215,85700
+        - 1943,99800
+        - 686,88610
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '15558092369490777311'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 15558092369490777311}
+      Rotate:
+        - -0,00526
+        - 0,19337
+        - -0,00081
+      SRTHash: !u 2428769242
+      Translate:
+        - -3994,80000
+        - 1884,84400
+        - 669,08460
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '5011217112431940045'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 15558092369490777311, Gyaml: APStack, Name: APStack, Src: 5011217112431940045}
+        - {Dst: 15558092369490777311, Gyaml: StackInfo, Name: StackInfo, Src: 5011217112431940045}
+      Phive:
+        Placement: {ID: 5011217112431940045}
+      Rotate:
+        - -1,55711
+        - 0,84506
+        - -3,13047
+      SRTHash: !u 520146866
+      Translate:
+        - -3998,67400
+        - 1885,02700
+        - 667,77690
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '3734990068742099348'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 15558092369490777311, Gyaml: APStack, Name: APStack, Src: 3734990068742099348}
+        - {Dst: 15558092369490777311, Gyaml: StackInfo, Name: StackInfo, Src: 3734990068742099348}
+      Phive:
+        Placement: {ID: 3734990068742099348}
+      Rotate:
+        - 2,03708
+        - 0,37448
+        - 0,85844
+      SRTHash: !u 1275467036
+      Translate:
+        - -3992,43800
+        - 1885,11800
+        - 664,69940
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '275506752784519994'
+      Links:
+        - {Dst: 15558092369490777311, Gyaml: APStack, Name: APStack, Src: 275506752784519994}
+        - {Dst: 15558092369490777311, Gyaml: StackInfo, Name: StackInfo, Src: 275506752784519994}
+      Phive:
+        Placement: {ID: 275506752784519994}
+      Rotate:
+        - 0,00000
+        - 0,19333
+        - 0,00000
+      SRTHash: !u 2094816965
+      Translate:
+        - -3994,80000
+        - 1884,84400
+        - 669,08560
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '7150016089600768746'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 7150016089600768746}
+      Rotate:
+        - -0,00926
+        - -0,62602
+        - -0,00208
+      SRTHash: !u 2712660137
+      Translate:
+        - -3845,16800
+        - 2074,05900
+        - 69,92670
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '15363495684439654395'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 7150016089600768746, Gyaml: APStack, Name: APStack, Src: 15363495684439654395}
+        - {Dst: 7150016089600768746, Gyaml: StackInfo, Name: StackInfo, Src: 15363495684439654395}
+      Phive:
+        Placement: {ID: 15363495684439654395}
+      Rotate:
+        - 1,42790
+        - 1,47603
+        - -0,15511
+      SRTHash: !u 316312389
+      Translate:
+        - -3846,85200
+        - 2074,22900
+        - 66,20175
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '5715295877634635540'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 7150016089600768746, Gyaml: APStack, Name: APStack, Src: 5715295877634635540}
+        - {Dst: 7150016089600768746, Gyaml: StackInfo, Name: StackInfo, Src: 5715295877634635540}
+      Phive:
+        Placement: {ID: 5715295877634635540}
+      Rotate:
+        - 1,42810
+        - -0,18849
+        - 0,79077
+      SRTHash: !u 753013135
+      Translate:
+        - -3840,34400
+        - 2074,25900
+        - 68,65393
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '13762008794746943889'
+      Links:
+        - {Dst: 7150016089600768746, Gyaml: APStack, Name: APStack, Src: 13762008794746943889}
+        - {Dst: 7150016089600768746, Gyaml: StackInfo, Name: StackInfo, Src: 13762008794746943889}
+      Phive:
+        Placement: {ID: 13762008794746943889}
+      Rotate:
+        - 0,00000
+        - -0,62606
+        - 0,00000
+      SRTHash: !u 1054280775
+      Translate:
+        - -3845,16600
+        - 2074,07600
+        - 69,92874
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '7997109553429346012'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 7997109553429346012}
+      Rotate:
+        - -0,01490
+        - 0,32848
+        - -0,00246
+      SRTHash: !u 3118153116
+      Translate:
+        - -4077,60700
+        - 1861,94000
+        - 528,26430
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '16031203686882244076'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 7997109553429346012, Gyaml: APStack, Name: APStack, Src: 16031203686882244076}
+        - {Dst: 7997109553429346012, Gyaml: StackInfo, Name: StackInfo, Src: 16031203686882244076}
+      Phive:
+        Placement: {ID: 16031203686882244076}
+      Rotate:
+        - -1,54772
+        - 0,70982
+        - -3,12307
+      SRTHash: !u 1827830556
+      Translate:
+        - -4081,62000
+        - 1862,11100
+        - 527,48450
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '12884965105011674581'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 7997109553429346012, Gyaml: APStack, Name: APStack, Src: 12884965105011674581}
+        - {Dst: 7997109553429346012, Gyaml: StackInfo, Name: StackInfo, Src: 12884965105011674581}
+      Phive:
+        Placement: {ID: 12884965105011674581}
+      Rotate:
+        - 2,14231
+        - 0,46776
+        - 0,90326
+      SRTHash: !u 3489859752
+      Translate:
+        - -4075,85900
+        - 1862,16600
+        - 523,59470
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '9274311582352881595'
+      Links:
+        - {Dst: 7997109553429346012, Gyaml: APStack, Name: APStack, Src: 9274311582352881595}
+        - {Dst: 7997109553429346012, Gyaml: StackInfo, Name: StackInfo, Src: 9274311582352881595}
+      Phive:
+        Placement: {ID: 9274311582352881595}
+      Rotate:
+        - 0,00000
+        - 0,32897
+        - 0,00000
+      SRTHash: !u 362587212
+      Translate:
+        - -4077,60700
+        - 1862,00000
+        - 528,26930
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '16845125046501010126'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 16845125046501010126}
+      Rotate:
+        - 0,00104
+        - -1,43629
+        - -0,01105
+      SRTHash: !u 1652352298
+      Translate:
+        - -3571,47000
+        - 2182,00000
+        - 2,85846
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '7471417713946589150'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 16845125046501010126, Gyaml: APStack, Name: APStack, Src: 7471417713946589150}
+        - {Dst: 16845125046501010126, Gyaml: StackInfo, Name: StackInfo, Src: 7471417713946589150}
+      Phive:
+        Placement: {ID: 7471417713946589150}
+      Rotate:
+        - 1,57012
+        - 0,66681
+        - -0,00101
+      SRTHash: !u 2345520655
+      Translate:
+        - -3569,93500
+        - 2182,18800
+        - -0,92993
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '14823209463522787255'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 16845125046501010126, Gyaml: APStack, Name: APStack, Src: 14823209463522787255}
+        - {Dst: 16845125046501010126, Gyaml: StackInfo, Name: StackInfo, Src: 14823209463522787255}
+      Phive:
+        Placement: {ID: 14823209463522787255}
+      Rotate:
+        - 0,70467
+        - -0,67945
+        - 1,13112
+      SRTHash: !u 1991066895
+      Translate:
+        - -3567,23000
+        - 2182,26100
+        - 5,47485
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '4176640854091082225'
+      Links:
+        - {Dst: 16845125046501010126, Gyaml: APStack, Name: APStack, Src: 4176640854091082225}
+        - {Dst: 16845125046501010126, Gyaml: StackInfo, Name: StackInfo, Src: 4176640854091082225}
+      Phive:
+        Placement: {ID: 4176640854091082225}
+      Rotate:
+        - 0,00000
+        - -1,43632
+        - 0,00000
+      SRTHash: !u 3762371192
+      Translate:
+        - -3571,47100
+        - 2182,00000
+        - 2,85843
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '4467365422913892967'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 4467365422913892967}
+      Rotate:
+        - -0,01884
+        - 0,57896
+        - -0,00322
+      SRTHash: !u 3089772102
+      Translate:
+        - -3284,36700
+        - 2163,44000
+        - 80,60178
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '3712493720971394934'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 4467365422913892967, Gyaml: APStack, Name: APStack, Src: 3712493720971394934}
+        - {Dst: 4467365422913892967, Gyaml: StackInfo, Name: StackInfo, Src: 3712493720971394934}
+      Phive:
+        Placement: {ID: 3712493720971394934}
+      Rotate:
+        - -1,55206
+        - 0,45939
+        - -3,12525
+      SRTHash: !u 299037538
+      Translate:
+        - -3288,44700
+        - 2163,61000
+        - 80,84589
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '9361473055886194511'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 4467365422913892967, Gyaml: APStack, Name: APStack, Src: 9361473055886194511}
+        - {Dst: 4467365422913892967, Gyaml: StackInfo, Name: StackInfo, Src: 9361473055886194511}
+      Phive:
+        Placement: {ID: 9361473055886194511}
+      Rotate:
+        - 2,38392
+        - 0,60883
+        - 1,02703
+      SRTHash: !u 1515231417
+      Translate:
+        - -3283,83000
+        - 2163,67800
+        - 75,64509
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '8196143286499671076'
+      Links:
+        - {Dst: 4467365422913892967, Gyaml: APStack, Name: APStack, Src: 8196143286499671076}
+        - {Dst: 4467365422913892967, Gyaml: StackInfo, Name: StackInfo, Src: 8196143286499671076}
+      Phive:
+        Placement: {ID: 8196143286499671076}
+      Rotate:
+        - 0,00000
+        - 0,57942
+        - 0,00000
+      SRTHash: !u 3195054461
+      Translate:
+        - -3284,36600
+        - 2163,50000
+        - 80,60752
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '14019506621106693934'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 14019506621106693934}
+      Rotate:
+        - 3,12363
+        - -1,23177
+        - -3,13574
+      SRTHash: !u 2187605974
+      Translate:
+        - -3344,40400
+        - 2224,15100
+        - 58,12265
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '12877387889537426846'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 14019506621106693934, Gyaml: APStack, Name: APStack, Src: 12877387889537426846}
+        - {Dst: 14019506621106693934, Gyaml: StackInfo, Name: StackInfo, Src: 12877387889537426846}
+      Phive:
+        Placement: {ID: 12877387889537426846}
+      Rotate:
+        - 1,57856
+        - 0,19334
+        - -0,01358
+      SRTHash: !u 1041412373
+      Translate:
+        - -3341,30700
+        - 2224,32300
+        - 55,45313
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '2725684952373305927'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 14019506621106693934, Gyaml: APStack, Name: APStack, Src: 2725684952373305927}
+        - {Dst: 14019506621106693934, Gyaml: StackInfo, Name: StackInfo, Src: 2725684952373305927}
+      Phive:
+        Placement: {ID: 2725684952373305927}
+      Rotate:
+        - 0,07627
+        - -0,79049
+        - 1,55831
+      SRTHash: !u 897193712
+      Translate:
+        - -3341,81800
+        - 2224,40000
+        - 62,38535
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '1481276657815676704'
+      Links:
+        - {Dst: 14019506621106693934, Gyaml: APStack, Name: APStack, Src: 1481276657815676704}
+        - {Dst: 14019506621106693934, Gyaml: StackInfo, Name: StackInfo, Src: 1481276657815676704}
+      Phive:
+        Placement: {ID: 1481276657815676704}
+      Rotate:
+        - 3,14159
+        - -1,23219
+        - 3,14159
+      SRTHash: !u 99395403
+      Translate:
+        - -3344,40700
+        - 2224,21300
+        - 58,12231
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '3656466518385119981'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 3656466518385119981}
+      Rotate:
+        - -0,01601
+        - 0,43006
+        - -0,00270
+      SRTHash: !u 632011254
+      Translate:
+        - -3167,14100
+        - 2064,60100
+        - 291,25670
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '2495652803743029532'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 3656466518385119981, Gyaml: APStack, Name: APStack, Src: 2495652803743029532}
+        - {Dst: 3656466518385119981, Gyaml: StackInfo, Name: StackInfo, Src: 2495652803743029532}
+      Phive:
+        Placement: {ID: 2495652803743029532}
+      Rotate:
+        - -1,55936
+        - 0,60838
+        - -3,13192
+      SRTHash: !u 3357601773
+      Translate:
+        - -3171,21100
+        - 2064,78300
+        - 290,89300
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '10865924782882478517'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 3656466518385119981, Gyaml: APStack, Name: APStack, Src: 10865924782882478517}
+        - {Dst: 3656466518385119981, Gyaml: StackInfo, Name: StackInfo, Src: 10865924782882478517}
+      Phive:
+        Placement: {ID: 10865924782882478517}
+      Rotate:
+        - 2,22999
+        - 0,53445
+        - 0,94632
+      SRTHash: !u 1910809903
+      Translate:
+        - -3165,87800
+        - 2064,79800
+        - 286,42790
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '7457388528179321838'
+      Links:
+        - {Dst: 3656466518385119981, Gyaml: APStack, Name: APStack, Src: 7457388528179321838}
+        - {Dst: 3656466518385119981, Gyaml: StackInfo, Name: StackInfo, Src: 7457388528179321838}
+      Phive:
+        Placement: {ID: 7457388528179321838}
+      Rotate:
+        - 0,00000
+        - 0,43051
+        - 0,00000
+      SRTHash: !u 2126403756
+      Translate:
+        - -3167,13800
+        - 2064,64200
+        - 291,25910
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '9922152765831187173'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 9922152765831187173}
+      Rotate:
+        - -0,01801
+        - -0,50908
+        - -0,00369
+      SRTHash: !u 2636417165
+      Translate:
+        - -3191,61100
+        - 1956,52200
+        - 490,86800
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '18144516150265532119'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 9922152765831187173, Gyaml: APStack, Name: APStack, Src: 18144516150265532119}
+        - {Dst: 9922152765831187173, Gyaml: StackInfo, Name: StackInfo, Src: 18144516150265532119}
+      Phive:
+        Placement: {ID: 18144516150265532119}
+      Rotate:
+        - -0,99161
+        - 1,54312
+        - -2,57392
+      SRTHash: !u 3501538031
+      Translate:
+        - -3193,71700
+        - 1956,69200
+        - 487,36440
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '6064299008729061054'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 9922152765831187173, Gyaml: APStack, Name: APStack, Src: 6064299008729061054}
+        - {Dst: 9922152765831187173, Gyaml: StackInfo, Name: StackInfo, Src: 6064299008729061054}
+      Phive:
+        Placement: {ID: 6064299008729061054}
+      Rotate:
+        - 1,51803
+        - -0,11211
+        - 0,78504
+      SRTHash: !u 239099460
+      Translate:
+        - -3186,97000
+        - 1956,77200
+        - 489,03480
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '11926896928956664036'
+      Links:
+        - {Dst: 9922152765831187173, Gyaml: APStack, Name: APStack, Src: 11926896928956664036}
+        - {Dst: 9922152765831187173, Gyaml: StackInfo, Name: StackInfo, Src: 11926896928956664036}
+      Phive:
+        Placement: {ID: 11926896928956664036}
+      Rotate:
+        - 0,00000
+        - -0,50861
+        - 0,00000
+      SRTHash: !u 759820612
+      Translate:
+        - -3191,61100
+        - 1956,56400
+        - 490,86850
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '6691028631599798758'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 6691028631599798758}
+      Rotate:
+        - -0,01475
+        - 0,02401
+        - -0,00233
+      SRTHash: !u 1108388036
+      Translate:
+        - -3092,33200
+        - 2022,21900
+        - 385,27860
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '14738161618225241335'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 6691028631599798758, Gyaml: APStack, Name: APStack, Src: 14738161618225241335}
+        - {Dst: 6691028631599798758, Gyaml: StackInfo, Name: StackInfo, Src: 14738161618225241335}
+      Phive:
+        Placement: {ID: 14738161618225241335}
+      Rotate:
+        - -1,53818
+        - 1,01437
+        - -3,11568
+      SRTHash: !u 2592218984
+      Translate:
+        - -3095,92100
+        - 2022,39100
+        - 383,33120
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '11596388742527829008'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 6691028631599798758, Gyaml: APStack, Name: APStack, Src: 11596388742527829008}
+        - {Dst: 6691028631599798758, Gyaml: StackInfo, Name: StackInfo, Src: 11596388742527829008}
+      Phive:
+        Placement: {ID: 11596388742527829008}
+      Rotate:
+        - 1,89591
+        - 0,26733
+        - 0,81385
+      SRTHash: !u 134536615
+      Translate:
+        - -3089,25700
+        - 2022,44700
+        - 381,34830
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '10467078403481705141'
+      Links:
+        - {Dst: 6691028631599798758, Gyaml: APStack, Name: APStack, Src: 10467078403481705141}
+        - {Dst: 6691028631599798758, Gyaml: StackInfo, Name: StackInfo, Src: 10467078403481705141}
+      Phive:
+        Placement: {ID: 10467078403481705141}
+      Rotate:
+        - 0,00000
+        - 0,02393
+        - 0,00000
+      SRTHash: !u 3707248135
+      Translate:
+        - -3092,32900
+        - 2022,30200
+        - 385,27810
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '4807489103192897880'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 4807489103192897880}
+      Rotate:
+        - -0,00415
+        - -0,93229
+        - -0,00121
+      SRTHash: !u 549650807
+      Translate:
+        - -3485,67600
+        - 1860,82800
+        - 882,99080
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '15361415141841517739'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 4807489103192897880, Gyaml: APStack, Name: APStack, Src: 15361415141841517739}
+        - {Dst: 4807489103192897880, Gyaml: StackInfo, Name: StackInfo, Src: 15361415141841517739}
+      Phive:
+        Placement: {ID: 15361415141841517739}
+      Rotate:
+        - 1,56850
+        - 1,17079
+        - -0,00258
+      SRTHash: !u 3092019052
+      Translate:
+        - -3486,16100
+        - 1861,02100
+        - 878,93240
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '13764279636334093522'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 4807489103192897880, Gyaml: APStack, Name: APStack, Src: 13764279636334093522}
+        - {Dst: 4807489103192897880, Gyaml: StackInfo, Name: StackInfo, Src: 13764279636334093522}
+      Phive:
+        Placement: {ID: 13764279636334093522}
+      Rotate:
+        - 1,19861
+        - -0,40023
+        - 0,86760
+      SRTHash: !u 504107458
+      Translate:
+        - -3480,70000
+        - 1861,07800
+        - 883,23330
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '12709327093840640369'
+      Links:
+        - {Dst: 4807489103192897880, Gyaml: APStack, Name: APStack, Src: 12709327093840640369}
+        - {Dst: 4807489103192897880, Gyaml: StackInfo, Name: StackInfo, Src: 12709327093840640369}
+      Phive:
+        Placement: {ID: 12709327093840640369}
+      Rotate:
+        - 0,00000
+        - -0,93234
+        - 0,00000
+      SRTHash: !u 118903392
+      Translate:
+        - -3485,67700
+        - 1860,82900
+        - 882,99110
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '9601161634465393894'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 9601161634465393894}
+      Rotate:
+        - -0,01558
+        - -0,92039
+        - -0,00534
+      SRTHash: !u 1962303889
+      Translate:
+        - -3502,64800
+        - 2173,15800
+        - 8,85396
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '17807876769830447606'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 9601161634465393894, Gyaml: APStack, Name: APStack, Src: 17807876769830447606}
+        - {Dst: 9601161634465393894, Gyaml: StackInfo, Name: StackInfo, Src: 17807876769830447606}
+      Phive:
+        Placement: {ID: 17807876769830447606}
+      Rotate:
+        - 1,55542
+        - 1,18264
+        - -0,02406
+      SRTHash: !u 1007530051
+      Translate:
+        - -3503,17900
+        - 2173,33900
+        - 4,80058
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '6829734863594764751'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 9601161634465393894, Gyaml: APStack, Name: APStack, Src: 6829734863594764751}
+        - {Dst: 9601161634465393894, Gyaml: StackInfo, Name: StackInfo, Src: 6829734863594764751}
+      Phive:
+        Placement: {ID: 6829734863594764751}
+      Rotate:
+        - 1,20452
+        - -0,39071
+        - 0,85922
+      SRTHash: !u 236903888
+      Translate:
+        - -3497,66700
+        - 2173,37500
+        - 9,03435
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '12500913315603737509'
+      Links:
+        - {Dst: 9601161634465393894, Gyaml: APStack, Name: APStack, Src: 12500913315603737509}
+        - {Dst: 9601161634465393894, Gyaml: StackInfo, Name: StackInfo, Src: 12500913315603737509}
+      Phive:
+        Placement: {ID: 12500913315603737509}
+      Rotate:
+        - 0,00000
+        - -0,91998
+        - 0,00000
+      SRTHash: !u 15001411
+      Translate:
+        - -3502,65200
+        - 2173,22000
+        - 8,85527
+    - Bakeable: true
+      Gyaml: Obj_AirPlatform_B_01
+      Hash: '1793118440122612517'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 1793118440122612517}
+      Rotate:
+        - 3,11120
+        - -1,33810
+        - -3,12841
+      SRTHash: !u 4079925659
+      Translate:
+        - -3734,75100
+        - 1819,59700
+        - 915,03780
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '1765980110942331243'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 1793118440122612517, Gyaml: APStack, Name: APStack, Src: 1765980110942331243}
+        - {Dst: 1793118440122612517, Gyaml: StackInfo, Name: StackInfo, Src: 1765980110942331243}
+      Phive:
+        Placement: {ID: 1765980110942331243}
+      Rotate:
+        - 1,57917
+        - 0,29972
+        - -0,01751
+      SRTHash: !u 757845090
+      Translate:
+        - -3731,95500
+        - 1819,76300
+        - 912,05510
+    - Bakeable: true
+      ExtraCreateRadius: 70,00000
+      Gyaml: SpObj_Rocket_A_01
+      Hash: '18219690223794806930'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 1793118440122612517, Gyaml: APStack, Name: APStack, Src: 18219690223794806930}
+        - {Dst: 1793118440122612517, Gyaml: StackInfo, Name: StackInfo, Src: 18219690223794806930}
+      Phive:
+        Placement: {ID: 18219690223794806930}
+      Rotate:
+        - 0,16186
+        - -0,00578
+        - 1,55767
+      SRTHash: !u 2327548540
+      Translate:
+        - -3731,72200
+        - 1819,72900
+        - 918,99950
+    - Dynamic: {EquipmentUser_Attachment_Arrow: SpObj_Rocket_A_01, EquipmentUser_Bow: Weapon_Bow_104, Role: !l 2}
+      Gyaml: Enemy_Zonau_Robot_Junior_Lookout_Mile
+      Hash: '5382899171398558525'
+      Links:
+        - {Dst: 1793118440122612517, Gyaml: APStack, Name: APStack, Src: 5382899171398558525}
+        - {Dst: 1793118440122612517, Gyaml: StackInfo, Name: StackInfo, Src: 5382899171398558525}
+      Phive:
+        Placement: {ID: 5382899171398558525}
+      Rotate:
+        - 3,14159
+        - -1,33818
+        - 3,14159
+      SRTHash: !u 1625980063
+      Translate:
+        - -3734,75100
+        - 1819,59700
+        - 915,03800
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '14351599223226850736'
+      Phive:
+        Placement: {ID: 14351599223226850736}
+      Rotate:
+        - 0,00000
+        - -0,06831
+        - 0,00000
+      SRTHash: !u 2921063069
+      Scale:
+        - 0,70000
+        - 0,15000
+        - 0,70000
+      Translate:
+        - -3374,14400
+        - 2429,67100
+        - -12,18284
+    - Bakeable: true
+      Gyaml: FldObj_KorokStartingBlock_A_01
+      Hash: '14565520566708916943'
+      Phive:
+        Placement: {ID: 14565520566708916943}
+      Rotate:
+        - 0,00000
+        - -0,06831
+        - 0,00000
+      SRTHash: !u 3367602704
+      Translate:
+        - -3374,14400
+        - 2429,17100
+        - -12,18284
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '8766978188995578192'
+      Phive:
+        Placement: {ID: 8766978188995578192}
+      Rotate:
+        - 0,00000
+        - -0,09344
+        - 0,00000
+      SRTHash: !u 777814579
+      Scale:
+        - 1,50000
+        - 0,15000
+        - 1,50000
+      Translate:
+        - -3368,86300
+        - 2390,34400
+        - 47,83721
+    - Bakeable: true
+      Gyaml: FldObj_KorokGoalBlock_A_02
+      Hash: '15401934063496104709'
+      Links:
+        - {Dst: 14565520566708916943, Gyaml: Reference, Name: Reference, Src: 15401934063496104709}
+      Phive:
+        Placement: {ID: 15401934063496104709}
+      Rotate:
+        - 3,14159
+        - 0,09344
+        - 3,14159
+      SRTHash: !u 1830121532
+      Translate:
+        - -3368,86300
+        - 2389,14400
+        - 47,83721
+    - Dynamic:
+        HideType: !l 11
+        KorokLeftPlant: !l 0
+        KorokMask: !l 0
+        KorokRightPlant: !l 0
+        KorokSkinColor: !l 3
+        PlacementType: !l 1
+      Gyaml: Npc_HiddenKorokFly
+      Hash: '1836553015028318913'
+      Phive:
+        Placement: {ID: 1836553015028318913}
+      Rotate:
+        - 3,14159
+        - 0,09344
+        - 3,14159
+      SRTHash: !u 3040182933
+      Translate:
+        - -3369,14300
+        - 2392,14400
+        - 50,82412
+    - Bakeable: true
+      Dynamic: {Actor_IsEnableOnlyWing: true}
+      Gyaml: TrolleyRailManagementActor
+      Hash: '17141956934511760769'
+      Phive:
+        Placement: {ID: 17141956934511760769}
+      Rails:
+        - {Dst: 1555175267800645045, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 3,14159
+        - 0,18686
+        - 3,14159
+      SRTHash: !u 237661807
+      Translate:
+        - -3705,23500
+        - 1822,54500
+        - 972,61510
+    - Bakeable: true
+      Dynamic: {Actor_IsEnableOnlyWing: true}
+      Gyaml: TrolleyRailManagementActor
+      Hash: '14060803855309385720'
+      Phive:
+        Placement: {ID: 14060803855309385720}
+      Rails:
+        - {Dst: 16378988473113695123, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 0,00000
+        - -0,18686
+        - 0,00000
+      SRTHash: !u 2168546139
+      Translate:
+        - -3707,27800
+        - 1822,54500
+        - 983,42360
+    - Bakeable: true
+      Gyaml: Obj_TreeChemical_B_01
+      Hash: '6494466670057232301'
+      Links:
+        - {Dst: 7191565480091016148, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 6494466670057232301}
+        - {Dst: 6917603232023655911, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 6494466670057232301}
+        - {Dst: 798605583022325990, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 6494466670057232301}
+      Phive:
+        Placement: {ID: 6494466670057232301}
+      Rotate:
+        - 3,14159
+        - -1,00259
+        - 3,14159
+      SRTHash: !u 1104389202
+      Translate:
+        - -3953,85100
+        - 2047,33400
+        - 211,01290
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: LightFruit
+      Hash: '7191565480091016148'
+      Links:
+        - {Dst: 6494466670057232301, Gyaml: Reference, Name: Reference, Src: 7191565480091016148}
+      Phive:
+        ConstraintLink:
+          ID: 7191565480091016148
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 0,00000
+                  - -1,00259
+                  - 3,14159
+                Trans:
+                  - -3953,54400
+                  - 2048,87500
+                  - 210,65160
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 10,00000
+                BallSocketSpringStiffness: 100,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: false
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: true
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - -0,20000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 3,14159
+                  - -1,00259
+                  - 3,14159
+                Trans:
+                  - -3954,41700
+                  - 2047,34000
+                  - 211,90030
+              Type: BallAndSocket
+        Placement: {ID: 7191565480091016148}
+      Rotate:
+        - 0,00000
+        - -1,00259
+        - 3,14159
+      SRTHash: !u 1873058775
+      Translate:
+        - -3953,54400
+        - 2048,87500
+        - 210,65160
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: LightFruit
+      Hash: '798605583022325990'
+      Links:
+        - {Dst: 6494466670057232301, Gyaml: Reference, Name: Reference, Src: 798605583022325990}
+      Phive:
+        ConstraintLink:
+          ID: 798605583022325990
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 0,00000
+                  - -0,21719
+                  - 3,14159
+                Trans:
+                  - -3954,39600
+                  - 2048,67000
+                  - 211,18750
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 10,00000
+                BallSocketSpringStiffness: 100,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: false
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: true
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - -0,20000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 3,14159
+                  - -1,00259
+                  - 3,14159
+                Trans:
+                  - -3954,41700
+                  - 2047,34000
+                  - 211,90030
+              Type: BallAndSocket
+        Placement: {ID: 798605583022325990}
+      Rotate:
+        - 0,00000
+        - -0,21719
+        - 3,14159
+      SRTHash: !u 331470525
+      Translate:
+        - -3954,39600
+        - 2048,67000
+        - 211,18750
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: LightFruit
+      Hash: '6917603232023655911'
+      Links:
+        - {Dst: 6494466670057232301, Gyaml: Reference, Name: Reference, Src: 6917603232023655911}
+      Phive:
+        ConstraintLink:
+          ID: 6917603232023655911
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - -3,14159
+                  - -0,56820
+                  - 0,00000
+                Trans:
+                  - -3953,56800
+                  - 2048,45500
+                  - 211,35970
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 10,00000
+                BallSocketSpringStiffness: 100,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: false
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: true
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - -0,20000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 3,14159
+                  - -1,00259
+                  - 3,14159
+                Trans:
+                  - -3954,41700
+                  - 2047,34000
+                  - 211,90030
+              Type: BallAndSocket
+        Placement: {ID: 6917603232023655911}
+      Rotate:
+        - -3,14159
+        - -0,56820
+        - 0,00000
+      SRTHash: !u 1022127744
+      Translate:
+        - -3953,56800
+        - 2048,45500
+        - 211,35970
+    - Bakeable: true
+      Gyaml: Obj_TreeChemical_B_01
+      Hash: '14609928529005116307'
+      Links:
+        - {Dst: 4683541628318034625, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 14609928529005116307}
+        - {Dst: 16534997569690652243, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 14609928529005116307}
+        - {Dst: 7219704136666256005, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 14609928529005116307}
+      Phive:
+        Placement: {ID: 14609928529005116307}
+      Rotate:
+        - 3,14159
+        - -0,51359
+        - 3,14159
+      SRTHash: !u 2147960849
+      Translate:
+        - -3128,20500
+        - 2018,19200
+        - 425,15800
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: FireFruit
+      Hash: '7219704136666256005'
+      Links:
+        - {Dst: 14609928529005116307, Gyaml: Reference, Name: Reference, Src: 7219704136666256005}
+      Phive:
+        ConstraintLink:
+          ID: 7219704136666256005
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 3,14159
+                  - 1,23174
+                  - 3,14159
+                Trans:
+                  - -3127,76700
+                  - 2019,61100
+                  - 424,96820
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 10,00000
+                BallSocketSpringStiffness: 100,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: false
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: true
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - 0,20000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 3,14159
+                  - -0,51359
+                  - 3,14159
+                Trans:
+                  - -3129,09000
+                  - 2018,76800
+                  - 425,65710
+              Type: BallAndSocket
+        Placement: {ID: 7219704136666256005}
+      Rotate:
+        - 3,14159
+        - 1,23174
+        - 3,14159
+      SRTHash: !u 2378899344
+      Translate:
+        - -3127,76700
+        - 2019,61100
+        - 424,96820
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: FireFruit
+      Hash: '16534997569690652243'
+      Links:
+        - {Dst: 14609928529005116307, Gyaml: Reference, Name: Reference, Src: 16534997569690652243}
+      Phive:
+        ConstraintLink:
+          ID: 16534997569690652243
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 0,00000
+                  - -1,23174
+                  - 0,00000
+                Trans:
+                  - -3128,13400
+                  - 2019,31200
+                  - 425,60570
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 10,00000
+                BallSocketSpringStiffness: 100,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: false
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: true
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - 0,20000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 3,14159
+                  - -0,51359
+                  - 3,14159
+                Trans:
+                  - -3129,09000
+                  - 2018,76800
+                  - 425,65710
+              Type: BallAndSocket
+        Placement: {ID: 16534997569690652243}
+      Rotate:
+        - 0,00000
+        - -1,23174
+        - 0,00000
+      SRTHash: !u 2609534460
+      Translate:
+        - -3128,13400
+        - 2019,31200
+        - 425,60570
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: FireFruit
+      Hash: '4683541628318034625'
+      Links:
+        - {Dst: 14609928529005116307, Gyaml: Reference, Name: Reference, Src: 4683541628318034625}
+      Phive:
+        ConstraintLink:
+          ID: 4683541628318034625
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 3,14159
+                  - -0,51359
+                  - 3,14159
+                Trans:
+                  - -3128,76300
+                  - 2019,50700
+                  - 425,06500
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 10,00000
+                BallSocketSpringStiffness: 100,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: false
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: true
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - 0,20000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 3,14159
+                  - -0,51359
+                  - 3,14159
+                Trans:
+                  - -3129,09000
+                  - 2018,76800
+                  - 425,65710
+              Type: BallAndSocket
+        Placement: {ID: 4683541628318034625}
+      Rotate:
+        - 3,14159
+        - -0,51359
+        - 3,14159
+      SRTHash: !u 2906551377
+      Translate:
+        - -3128,76300
+        - 2019,50700
+        - 425,06500
+    - Bakeable: true
+      Dynamic: {BancPath: Banc/MainField/Merged/Mrg_6c26f7da_Unified_0-0-0-68DBEF.bcett.byml}
+      Gyaml: MergedActorUnifiedPrefab
+      Hash: '7721332307206681001'
+      Phive:
+        Placement: {ID: 7721332307206681001}
+      Rotate:
+        - 0,00000
+        - -0,94865
+        - 0,00000
+      SRTHash: !u 1719976466
+      Translate:
+        - -3516,97500
+        - 2116,16300
+        - 321,30070
+    - Bakeable: true
+      Dynamic: {BancPath: Banc/MainField/Merged/Mrg_6c26f7da_Unified_0-0-0-DF161E2A.bcett.byml}
+      Gyaml: MergedActorUnifiedPrefab
+      Hash: '1484393279809468947'
+      Phive:
+        Placement: {ID: 1484393279809468947}
+      Presence: {FlagName: SkyIsland0015_PlayerIsInSphere, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - -0,94865
+        - 0,00000
+      SRTHash: !u 392046280
+      Translate:
+        - -3465,16900
+        - 2043,80600
+        - 278,29320
+    - Bakeable: true
+      Dynamic: {BancPath: Banc/MainField/Merged/Mrg_6c26f7da_Unified_0-0-0-A80AA0E6.bcett.byml, PhivePlacementGroupGUID: 16337653835468466727, PhivePlacementId: !l 6786}
+      Gyaml: MergedActorUnifiedPrefab
+      Hash: '18160012034618219612'
+      Phive:
+        Placement: {ID: 18160012034618219612}
+      Rotate:
+        - 0,00000
+        - -1,55952
+        - 0,00000
+      SRTHash: !u 2449948621
+      Translate:
+        - -3488,62500
+        - 2055,49000
+        - 320,00000
+    - Bakeable: true
+      Dynamic: {BancPath: Banc/MainField/Merged/Mrg_6c26f7da_Unified_0-0-0-B1EDC720.bcett.byml, PhivePlacementGroupGUID: 4905898927132338026, PhivePlacementId: !l 6785}
+      Gyaml: MergedActorUnifiedPrefab
+      Hash: '5761820150196130764'
+      Phive:
+        Placement: {ID: 5761820150196130764}
+      Rotate:
+        - 0,01128
+        - 0,00000
+        - 1,57080
+      SRTHash: !u 972954300
+      Translate:
+        - -3488,62500
+        - 2044,50000
+        - 320,00000
+    - Bakeable: true
+      Dynamic: {BancPath: Banc/MainField/Merged/Mrg_fd9b4378_MrgDgn_0-0-0-BADBF6AA.bcett.byml}
+      Gyaml: MergedActorUncond
+      Hash: '9713184215646575083'
+      Phive:
+        Placement: {ID: 9713184215646575083}
+      Rotate:
+        - 0,00000
+        - -0,94865
+        - 0,00000
+      SRTHash: !u 1162333865
+      Translate:
+        - -3460,75300
+        - 2043,02100
+        - 270,44140
+    - Bakeable: true
+      Gyaml: SkyObj_Cannon_Structure_Parts_D_23
+      Hash: '7020994960291563'
+      Links:
+        - {Dst: 15315436440916083034, Gyaml: Reference, Name: Reference, Src: 7020994960291563}
+      Phive:
+        Placement: {ID: 7020994960291563}
+      Rotate:
+        - 0,00000
+        - -0,51232
+        - 0,00000
+      SRTHash: !u 2098631623
+      Scale:
+        - 1,00000
+        - 0,50598
+        - 1,00000
+      Translate:
+        - -3488,62500
+        - 2114,73400
+        - 320,00000
+    - Bakeable: true
+      Gyaml: SkyObj_Cannon_Structure_Parts_D_23_Far
+      Hash: '15315436440916083034'
+      Phive:
+        Placement: {ID: 7020994960291563}
+      Rotate:
+        - 0,00000
+        - -0,51232
+        - 0,00000
+      SRTHash: !u 2098631623
+      Scale:
+        - 1,00000
+        - 0,50598
+        - 1,00000
+      Translate:
+        - -3488,62500
+        - 2114,73400
+        - 320,00000
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_77
+      Hash: '9412422340539473288'
+      Links:
+        - {Dst: 6288395866202810818, Gyaml: Reference, Name: Reference, Src: 9412422340539473288}
+      Phive:
+        Placement: {ID: 9412422340539473288}
+      Rotate:
+        - -3,14159
+        - 1,43608
+        - -3,14159
+      SRTHash: !u 2618517993
+      Translate:
+        - -3440,65600
+        - 1867,46300
+        - 894,39520
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_77_Far
+      Hash: '6288395866202810818'
+      Phive:
+        Placement: {ID: 9412422340539473288}
+      Rotate:
+        - -3,14159
+        - 1,43608
+        - -3,14159
+      SRTHash: !u 2618517993
+      Translate:
+        - -3440,65600
+        - 1867,46300
+        - 894,39520
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78
+      Hash: '2085421931579046791'
+      Links:
+        - {Dst: 5410316640833064192, Gyaml: Reference, Name: Reference, Src: 2085421931579046791}
+      Phive:
+        Placement: {ID: 2085421931579046791}
+      Rotate:
+        - 0,00000
+        - 0,19052
+        - 0,00000
+      SRTHash: !u 2293036118
+      Translate:
+        - -3482,64600
+        - 1850,36200
+        - 949,11550
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78_Far
+      Hash: '5410316640833064192'
+      Phive:
+        Placement: {ID: 2085421931579046791}
+      Rotate:
+        - 0,00000
+        - 0,19052
+        - 0,00000
+      SRTHash: !u 2293036118
+      Translate:
+        - -3482,64600
+        - 1850,36200
+        - 949,11550
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78
+      Hash: '7418328118701929819'
+      Links:
+        - {Dst: 3537177826017641436, Gyaml: Reference, Name: Reference, Src: 7418328118701929819}
+      Phive:
+        Placement: {ID: 7418328118701929819}
+      Rotate:
+        - -3,14159
+        - 1,41020
+        - -3,14159
+      SRTHash: !u 1135350371
+      Translate:
+        - -3493,98400
+        - 1821,83000
+        - 920,41890
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78_Far
+      Hash: '3537177826017641436'
+      Phive:
+        Placement: {ID: 7418328118701929819}
+      Rotate:
+        - -3,14159
+        - 1,41020
+        - -3,14159
+      SRTHash: !u 1135350371
+      Translate:
+        - -3493,98400
+        - 1821,83000
+        - 920,41890
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_77
+      Hash: '3430843053556326721'
+      Links:
+        - {Dst: 18034584523325609227, Gyaml: Reference, Name: Reference, Src: 3430843053556326721}
+      Phive:
+        Placement: {ID: 3430843053556326721}
+      Rotate:
+        - -3,14159
+        - -0,87085
+        - 3,14159
+      SRTHash: !u 744857404
+      Translate:
+        - -3549,68600
+        - 1817,04900
+        - 967,29960
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_77_Far
+      Hash: '18034584523325609227'
+      Phive:
+        Placement: {ID: 3430843053556326721}
+      Rotate:
+        - -3,14159
+        - -0,87085
+        - 3,14159
+      SRTHash: !u 744857404
+      Translate:
+        - -3549,68600
+        - 1817,04900
+        - 967,29960
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78
+      Hash: '9383621818909556410'
+      Links:
+        - {Dst: 15410460514687109181, Gyaml: Reference, Name: Reference, Src: 9383621818909556410}
+      Phive:
+        Placement: {ID: 9383621818909556410}
+      Rotate:
+        - -3,14159
+        - -0,48051
+        - 3,14159
+      SRTHash: !u 110053440
+      Translate:
+        - -3465,47700
+        - 1800,17500
+        - 926,64370
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78_Far
+      Hash: '15410460514687109181'
+      Phive:
+        Placement: {ID: 9383621818909556410}
+      Rotate:
+        - -3,14159
+        - -0,48051
+        - 3,14159
+      SRTHash: !u 110053440
+      Translate:
+        - -3465,47700
+        - 1800,17500
+        - 926,64370
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78
+      Hash: '14115746068692908038'
+      Links:
+        - {Dst: 10664684590488096385, Gyaml: Reference, Name: Reference, Src: 14115746068692908038}
+      Phive:
+        Placement: {ID: 14115746068692908038}
+      Rotate:
+        - 3,14159
+        - -0,36034
+        - 3,14159
+      SRTHash: !u 2964236495
+      Translate:
+        - -3137,56000
+        - 2028,65900
+        - 398,34220
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78_Far
+      Hash: '10664684590488096385'
+      Phive:
+        Placement: {ID: 14115746068692908038}
+      Rotate:
+        - 3,14159
+        - -0,36034
+        - 3,14159
+      SRTHash: !u 2964236495
+      Translate:
+        - -3137,56000
+        - 2028,65900
+        - 398,34220
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78
+      Hash: '1007418494859739221'
+      Links:
+        - {Dst: 6493829661337368274, Gyaml: Reference, Name: Reference, Src: 1007418494859739221}
+      Phive:
+        Placement: {ID: 1007418494859739221}
+      Rotate:
+        - 0,00000
+        - 1,01817
+        - 0,00000
+      SRTHash: !u 788823105
+      Translate:
+        - -3153,69100
+        - 2017,63100
+        - 412,11350
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78_Far
+      Hash: '6493829661337368274'
+      Phive:
+        Placement: {ID: 1007418494859739221}
+      Rotate:
+        - 0,00000
+        - 1,01817
+        - 0,00000
+      SRTHash: !u 788823105
+      Translate:
+        - -3153,69100
+        - 2017,63100
+        - 412,11350
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78
+      Hash: '3372189276376004523'
+      Links:
+        - {Dst: 8730731612769829164, Gyaml: Reference, Name: Reference, Src: 3372189276376004523}
+      Phive:
+        Placement: {ID: 3372189276376004523}
+      Rotate:
+        - 0,00000
+        - -0,35761
+        - 0,00000
+      SRTHash: !u 4191635645
+      Translate:
+        - -4040,34400
+        - 1863,53100
+        - 470,32650
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78_Far
+      Hash: '8730731612769829164'
+      Phive:
+        Placement: {ID: 3372189276376004523}
+      Rotate:
+        - 0,00000
+        - -0,35761
+        - 0,00000
+      SRTHash: !u 4191635645
+      Translate:
+        - -4040,34400
+        - 1863,53100
+        - 470,32650
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_77
+      Hash: '12407320768839985219'
+      Links:
+        - {Dst: 8787879697574485001, Gyaml: Reference, Name: Reference, Src: 12407320768839985219}
+      Phive:
+        Placement: {ID: 12407320768839985219}
+      Rotate:
+        - 0,00000
+        - -0,94865
+        - 0,00000
+      SRTHash: !u 3593728015
+      Translate:
+        - -3977,13700
+        - 1987,70900
+        - 206,77230
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_77_Far
+      Hash: '8787879697574485001'
+      Phive:
+        Placement: {ID: 12407320768839985219}
+      Rotate:
+        - 0,00000
+        - -0,94865
+        - 0,00000
+      SRTHash: !u 3593728015
+      Translate:
+        - -3977,13700
+        - 1987,70900
+        - 206,77230
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78
+      Hash: '8408752306171306546'
+      Links:
+        - {Dst: 2545736416818156725, Gyaml: Reference, Name: Reference, Src: 8408752306171306546}
+      Phive:
+        Placement: {ID: 8408752306171306546}
+      Rotate:
+        - 3,14159
+        - -1,53844
+        - 3,14159
+      SRTHash: !u 1353853887
+      Translate:
+        - -3958,49800
+        - 2028,56400
+        - 179,70780
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78_Far
+      Hash: '2545736416818156725'
+      Phive:
+        Placement: {ID: 8408752306171306546}
+      Rotate:
+        - 3,14159
+        - -1,53844
+        - 3,14159
+      SRTHash: !u 1353853887
+      Translate:
+        - -3958,49800
+        - 2028,56400
+        - 179,70780
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_77
+      Hash: '10364379128373432698'
+      Links:
+        - {Dst: 6489354329775416624, Gyaml: Reference, Name: Reference, Src: 10364379128373432698}
+      Phive:
+        Placement: {ID: 10364379128373432698}
+      Rotate:
+        - 3,14159
+        - -0,64711
+        - 3,14159
+      SRTHash: !u 4061856054
+      Translate:
+        - -3899,47100
+        - 2039,52800
+        - 140,87390
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_77_Far
+      Hash: '6489354329775416624'
+      Phive:
+        Placement: {ID: 10364379128373432698}
+      Rotate:
+        - 3,14159
+        - -0,64711
+        - 3,14159
+      SRTHash: !u 4061856054
+      Translate:
+        - -3899,47100
+        - 2039,52800
+        - 140,87390
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78
+      Hash: '12330430833938363563'
+      Links:
+        - {Dst: 18229405675552096812, Gyaml: Reference, Name: Reference, Src: 12330430833938363563}
+      Phive:
+        Placement: {ID: 12330430833938363563}
+      Rotate:
+        - 0,00000
+        - -0,94865
+        - 0,00000
+      SRTHash: !u 1849543034
+      Translate:
+        - -3977,89000
+        - 1873,50300
+        - 680,24070
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78_Far
+      Hash: '18229405675552096812'
+      Phive:
+        Placement: {ID: 12330430833938363563}
+      Rotate:
+        - 0,00000
+        - -0,94865
+        - 0,00000
+      SRTHash: !u 1849543034
+      Translate:
+        - -3977,89000
+        - 1873,50300
+        - 680,24070
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78
+      Hash: '10052345029275434393'
+      Links:
+        - {Dst: 15881025891171470110, Gyaml: Reference, Name: Reference, Src: 10052345029275434393}
+      Phive:
+        Placement: {ID: 10052345029275434393}
+      Rotate:
+        - 3,14159
+        - -0,36034
+        - 3,14159
+      SRTHash: !u 1144833588
+      Translate:
+        - -3997,34400
+        - 1867,01900
+        - 705,28460
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78_Far
+      Hash: '15881025891171470110'
+      Phive:
+        Placement: {ID: 10052345029275434393}
+      Rotate:
+        - 3,14159
+        - -0,36034
+        - 3,14159
+      SRTHash: !u 1144833588
+      Translate:
+        - -3997,34400
+        - 1867,01900
+        - 705,28460
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78
+      Hash: '13845365165681387023'
+      Links:
+        - {Dst: 10935083081994801288, Gyaml: Reference, Name: Reference, Src: 13845365165681387023}
+      Phive:
+        Placement: {ID: 13845365165681387023}
+      Rotate:
+        - 0,00000
+        - 0,68958
+        - 0,00000
+      SRTHash: !u 3903280225
+      Translate:
+        - -3803,40700
+        - 2021,37200
+        - 99,69122
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78_Far
+      Hash: '10935083081994801288'
+      Phive:
+        Placement: {ID: 13845365165681387023}
+      Rotate:
+        - 0,00000
+        - 0,68958
+        - 0,00000
+      SRTHash: !u 3903280225
+      Translate:
+        - -3803,40700
+        - 2021,37200
+        - 99,69122
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78
+      Hash: '2208922804697903344'
+      Links:
+        - {Dst: 5278797059752298103, Gyaml: Reference, Name: Reference, Src: 2208922804697903344}
+      Phive:
+        Placement: {ID: 2208922804697903344}
+      Rotate:
+        - 0,69540
+        - 1,44082
+        - 0,79246
+      SRTHash: !u 2590770011
+      Translate:
+        - -3822,94400
+        - 2058,43600
+        - 81,45267
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78_Far
+      Hash: '5278797059752298103'
+      Phive:
+        Placement: {ID: 2208922804697903344}
+      Rotate:
+        - 0,69540
+        - 1,44082
+        - 0,79246
+      SRTHash: !u 2590770011
+      Translate:
+        - -3822,94400
+        - 2058,43600
+        - 81,45267
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_77
+      Hash: '10994098294524261274'
+      Links:
+        - {Dst: 5569150230288091088, Gyaml: Reference, Name: Reference, Src: 10994098294524261274}
+      Phive:
+        Placement: {ID: 10994098294524261274}
+      Rotate:
+        - 2,18806
+        - 1,41073
+        - 2,18200
+      SRTHash: !u 4026997077
+      Translate:
+        - -3386,22500
+        - 2159,44700
+        - 71,76309
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_77_Far
+      Hash: '5569150230288091088'
+      Phive:
+        Placement: {ID: 10994098294524261274}
+      Rotate:
+        - 2,18806
+        - 1,41073
+        - 2,18200
+      SRTHash: !u 4026997077
+      Translate:
+        - -3386,22500
+        - 2159,44700
+        - 71,76309
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78
+      Hash: '17370748059614933992'
+      Links:
+        - {Dst: 12030501296060089711, Gyaml: Reference, Name: Reference, Src: 17370748059614933992}
+      Phive:
+        Placement: {ID: 17370748059614933992}
+      Rotate:
+        - 0,00000
+        - -0,29415
+        - 0,00000
+      SRTHash: !u 608908593
+      Translate:
+        - -3356,84900
+        - 2181,07300
+        - 57,81937
+    - Bakeable: true
+      Gyaml: SkyObj_Structure_Parts_Variant_B_78_Far
+      Hash: '12030501296060089711'
+      Phive:
+        Placement: {ID: 17370748059614933992}
+      Rotate:
+        - 0,00000
+        - -0,29415
+        - 0,00000
+      SRTHash: !u 608908593
+      Translate:
+        - -3356,84900
+        - 2181,07300
+        - 57,81937
+  AiGroups:
+    - Hash: '710724713775492217'
+      Logic: Logic/Module/SkyIsland0088_Sub06/SkyIsland0088_Sub06_1a01.logic.module.ain
+      References:
+        - {Id: EventRequestActor_afcd, Path: _5559/EventRequestActor_afcd, Reference: 12455178873327086993}
+        - {Id: SS_object_ShutterFenceOnly00_2a05, Path: _5559/SS_object_ShutterFenceOnly00_2a05, Reference: 15960597219507410724}
+        - {Id: DesignateMatrixActor_4d2d, Path: _5559/DesignateMatrixActor_4d2d, Reference: 1956912831790628158}
+        - {Id: AiGroup, InstanceName: ShutterFence_8x8_Logic_460b_3761, Logic: Logic/Module/Set_SkyIsland_TreasureRoom/Set_SkyIsland_TreasureRoom_3fec.logic.module.ain, Path: _5559/AiGroup}
+        - {Id: DgnObj_Gerudo_LightSwithOneTime_A_01_a33f, Path: DgnObj_Gerudo_LightSwithOneTime_A_01_a33f, Reference: 17163002186390915389}
+    - Hash: '2182641955501342285'
+      Logic: Logic/Module/SkyIsland0088_LightCapstan/SkyIsland0088_LightCapstan_085f.logic.module.ain
+      References:
+        - {Id: SkyObj_Firone_Raimei_Capstan_A_02_860d, Path: _d42d/SkyObj_Firone_Raimei_Capstan_A_02_860d, Reference: 8534537984024520766}
+        - {Id: AiGroup, InstanceName: Set_ThunderheadIsles_Capstan_GroundControl_27b8_b2dd, Logic: Logic/Module/Set_ThunderheadIsles_Capstan_GroundControl/Set_ThunderheadIsles_Capstan_GroundControl_27b8.logic.module.ain, Path: _d42d/AiGroup}
+        - {Id: DgnObj_ElectricStatueMirror_A_02_2030, Path: DgnObj_ElectricStatueMirror_A_02_2030, Reference: 8888099481277132954}
+    - Hash: '2258622001715761874'
+      Logic: Logic/Module/Cave_Cannon_0003_GroupSet_000/Cave_Cannon_0003_GroupSet_000_9f15.logic.module.ain
+      References:
+        - {Id: Area_0adf, Path: Area_0adf, Reference: 10310414756644473187}
+    - Hash: '4892689102535370880'
+      Logic: Logic/Module/HiddenKorok_AirlyJump/HiddenKorok_AirlyJump_20a5.logic.module.ain
+      References:
+        - {Id: FldObj_KorokStartingBlock_A_01_24a1, Path: _0974/FldObj_KorokStartingBlock_A_01_24a1, Reference: 15401934063496104709}
+        - {Id: Npc_HiddenKorokGround_5be7, Path: _0974/_f6bf/Npc_HiddenKorokGround_5be7, Reference: 1836553015028318913}
+        - {Id: AiGroup, InstanceName: HiddenKorok_Base_1e88_00aa, Logic: Logic/Module/HiddenKorok_Base/HiddenKorok_Base_1e88.logic.module.ain, Path: _0974/_f6bf/AiGroup}
+        - {Id: Area_f10b, Path: _0974/Area_f10b, Reference: 8766978188995578192}
+        - {Id: AiGroup, InstanceName: HiddenKorok_AirlyJump_Goal_9c5b_bdf6, Logic: Logic/Module/HiddenKorok_AirlyJump_Goal/HiddenKorok_AirlyJump_Goal_9c5b.logic.module.ain, Path: _0974/AiGroup}
+        - {Id: FldObj_KorokStartingBlock_A_01_2377, Path: _6d71/FldObj_KorokStartingBlock_A_01_2377, Reference: 14565520566708916943}
+        - {Id: Area_fbb2, Path: _6d71/Area_fbb2, Reference: 14351599223226850736}
+        - {Id: AiGroup, InstanceName: HiddenKorok_AirlyJump_Start_5892_ff87, Logic: Logic/Module/HiddenKorok_AirlyJump_Start/HiddenKorok_AirlyJump_Start_5892.logic.module.ain, Path: _6d71/AiGroup}
+    - Hash: '4901427058221326013'
+      Logic: Logic/Module/SkyIsland0088_LightCapstan/SkyIsland0088_LightCapstan_085f.logic.module.ain
+      References:
+        - {Id: SkyObj_Firone_Raimei_Capstan_A_02_860d, Path: _d060/SkyObj_Firone_Raimei_Capstan_A_02_860d, Reference: 66398169578882508}
+        - {Id: AiGroup, InstanceName: Set_ThunderheadIsles_Capstan_GroundControl_27b8_b2dd, Logic: Logic/Module/Set_ThunderheadIsles_Capstan_GroundControl/Set_ThunderheadIsles_Capstan_GroundControl_27b8.logic.module.ain, Path: _d060/AiGroup}
+        - {Id: DgnObj_ElectricStatueMirror_A_02_2030, Path: DgnObj_ElectricStatueMirror_A_02_2030, Reference: 6558348302712855784}
+    - Hash: '6160160273610712799'
+      Logic: Logic/Module/SkyIsland0088_Sub03/SkyIsland0088_Sub03_5540.logic.module.ain
+      References:
+        - {Id: Area_c242, Path: _5f35/Area_c242, Reference: 12208546869469391443}
+        - {Id: Area_72da, Path: _5f35/Area_72da, Reference: 12348918165600785184}
+        - {Id: Area_afd9, Path: _5f35/Area_afd9, Reference: 8163144491032840652}
+        - {Id: Area_5b0d, Path: _5f35/Area_5b0d, Reference: 15186839562404610057}
+        - {Id: AiGroup, InstanceName: SkyIsland0088_Sub04_2c8f_20f0, Logic: Logic/Module/SkyIsland0088_Sub04/SkyIsland0088_Sub04_2c8f.logic.module.ain, Path: _5f35/AiGroup}
+        - {Id: SkyObj_Firone_Raimei_Capstan_A_02_860d, Path: _cb2d/_8ddf/SkyObj_Firone_Raimei_Capstan_A_02_860d, Reference: 334781571911709508}
+        - {Id: AiGroup, InstanceName: Set_ThunderheadIsles_Capstan_GroundControl_27b8_b2dd, Logic: Logic/Module/Set_ThunderheadIsles_Capstan_GroundControl/Set_ThunderheadIsles_Capstan_GroundControl_27b8.logic.module.ain, Path: _cb2d/_8ddf/AiGroup}
+        - {Id: DgnObj_ElectricStatueMirror_A_04_d108, Path: _cb2d/DgnObj_ElectricStatueMirror_A_04_d108, Reference: 12027802845354347891}
+        - {Id: AiGroup, InstanceName: SkyIsland0088_LightCapstan_Inclined_4c8f_41ae, Logic: Logic/Module/SkyIsland0088_LightCapstan_Inclined/SkyIsland0088_LightCapstan_Inclined_4c8f.logic.module.ain, Path: _cb2d/AiGroup}
+    - Hash: '7430718108291200696'
+      Logic: Logic/Module/Cave_Cannon_0003_GroupSet_000/Cave_Cannon_0003_GroupSet_000_e053.logic.module.ain
+      References:
+        - {Id: Area_9f75, Path: Area_9f75, Reference: 555225873865991021}
+    - Hash: '10052501577710170711'
+      Logic: Logic/Module/Cave_Cannon_0003_GroupSet_000/Cave_Cannon_0003_GroupSet_000_d8f7.logic.module.ain
+      References:
+        - {Id: EventRequestActor_dd19, Path: EventRequestActor_dd19, Reference: 705850576452650721}
+        - {Id: DgnObj_Gerudo_LightSwithOneTime_A_01_7b64, Path: DgnObj_Gerudo_LightSwithOneTime_A_01_7b64, Reference: 15191598414726759458}
+    - Hash: '11599099103698988878'
+      Logic: Logic/Module/Cave_Cannon_0003_GroupSet_000/Cave_Cannon_0003_GroupSet_000_38fb.logic.module.ain
+      References:
+        - {Id: EventRequestActor_3f2e, Path: _7c39/_6aba/EventRequestActor_3f2e, Reference: 3939535837638949771}
+        - {Id: DgnObj_WarpPoint_A_01_6509, Path: _7c39/_6aba/DgnObj_WarpPoint_A_01_6509, Reference: 1616869836761959302}
+        - {Id: DgnObj_ZonauShrineEntranceGate_A_01_9671, Path: _7c39/_6aba/DgnObj_ZonauShrineEntranceGate_A_01_9671, Reference: 6720419147596629783}
+        - {Id: DgnObj_ZonauShrineEntrance_A_01_a87d, Path: _7c39/_6aba/DgnObj_ZonauShrineEntrance_A_01_a87d, Reference: 12452673480243512303}
+        - {Id: FldObj_EnterAttetionActor_879b, Path: _7c39/_6aba/FldObj_EnterAttetionActor_879b, Reference: 3296349092278745577}
+        - {Id: Area_7bfc, Path: _7c39/_6aba/Area_7bfc, Reference: 10025846579247103487}
+        - {Id: Area_d0ac, Path: _7c39/_6aba/Area_d0ac, Reference: 16360380766867613617}
+        - {Id: DgnObj_ZonauShrineEntranceGround_A_01_c293, Path: _7c39/_6aba/DgnObj_ZonauShrineEntranceGround_A_01_c293, Reference: 12066159652468051618}
+        - {Id: DgnObj_ZonauShrineEntranceGateMark_A_01_fc67, Path: _7c39/_6aba/DgnObj_ZonauShrineEntranceGateMark_A_01_fc67, Reference: 11328139487821591931}
+        - {Id: DgnObj_ZonauShrineEntranceStopClimbing_A_01_7b43, Path: _7c39/_6aba/DgnObj_ZonauShrineEntranceStopClimbing_A_01_7b43, Reference: 8120939161294967944}
+        - {Id: AirWallCreature_bebd, Path: _7c39/_6aba/AirWallCreature_bebd, Reference: 4964381474467536313}
+        - {Id: Area_9985, Path: _7c39/_6aba/Area_9985, Reference: 7593128464035891624}
+        - {Id: AiGroup, InstanceName: Set_Tominaga_CDungeonEntranceSet_4132_938d, Logic: Logic/Module/Set_Tominaga_CDungeonEntranceSet/Set_Tominaga_CDungeonEntranceSet_4132.logic.module.ain, Path: _7c39/_6aba/AiGroup}
+        - {Id: NavMeshCutBoxArea_8e65, Path: _7c39/NavMeshCutBoxArea_8e65, Reference: 16694460772725202629}
+        - {Id: Area_6c77, Path: _7c39/Area_6c77, Reference: 16985843426186809688}
+        - {Id: AiGroup, InstanceName: ZonauShrineEntrance_Hidden_d81f_9148, Logic: Logic/Module/ZonauShrineEntrance_Hidden/ZonauShrineEntrance_Hidden_d81f.logic.module.ain, Path: _7c39/AiGroup}
+    - Hash: '14646375206829746026'
+      Logic: Logic/Module/SkyIsland0088_LightCapstan/SkyIsland0088_LightCapstan_085f.logic.module.ain
+      References:
+        - {Id: SkyObj_Firone_Raimei_Capstan_A_02_860d, Path: _780c/SkyObj_Firone_Raimei_Capstan_A_02_860d, Reference: 9484036909679726013}
+        - {Id: AiGroup, InstanceName: Set_ThunderheadIsles_Capstan_GroundControl_27b8_b2dd, Logic: Logic/Module/Set_ThunderheadIsles_Capstan_GroundControl/Set_ThunderheadIsles_Capstan_GroundControl_27b8.logic.module.ain, Path: _780c/AiGroup}
+        - {Id: DgnObj_ElectricStatueMirror_A_02_2030, Path: DgnObj_ElectricStatueMirror_A_02_2030, Reference: 15330261406951659038}
+    - Hash: '14680117407271057269'
+      Logic: Logic/Module/Set_RecycleBox/Set_RecycleBox_83b1.logic.module.ain
+      References:
+        - {Id: RecycleBoxLocater_ae60, Path: RecycleBoxLocater_ae60, Reference: 81618141019492151}
+    - Hash: '16929426240860310117'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 866187964397854202}
+    - Hash: '17822180622727016151'
+      Logic: Logic/Module/Map_SkyIsland_Cannon_0021/Map_SkyIsland_Cannon_0021_227f.logic.module.ain
+      References:
+        - {Id: Area_ed12, Path: Area_ed12, Reference: 10598269245039559182}
+  FarDeleteGroups:
+    - - 1616869836761959302
+      - 3296349092278745577
+      - 3939535837638949771
+      - 4964381474467536313
+      - 6720419147596629783
+      - 7593128464035891624
+      - 8120939161294967944
+      - 10025846579247103487
+      - 11328139487821591931
+      - 12066159652468051618
+      - 12452673480243512303
+      - 16360380766867613617
+      - 16694460772725202629
+      - 16985843426186809688
+    - - 334781571911709508
+      - 2373522345005148807
+      - 5036993428927638497
+      - 6217959891004498462
+      - 8163144491032840652
+      - 10225635788207307069
+      - 12027802845354347891
+      - 12208546869469391443
+      - 12348918165600785184
+      - 15105388695750917676
+      - 15186839562404610057
+    - - 66398169578882508
+      - 4459183300284915901
+      - 6558348302712855784
+      - 9343424043612821421
+      - 14496129999864584481
+      - 16487066389874563082
+      - 18323216601338007722
+    - - 257005400812113862
+      - 5339310740160682565
+      - 8869646027422458120
+      - 9484036909679726013
+      - 11202391799474069149
+      - 13456302683197403637
+      - 15330261406951659038
+    - - 366957897307213770
+      - 8158942090963444217
+      - 8534537984024520766
+      - 8888099481277132954
+      - 11888385443991845992
+      - 13380663812289346387
+      - 14852550153310059231
+    - - 1836553015028318913
+      - 8766978188995578192
+      - 14351599223226850736
+      - 14565520566708916943
+      - 15401934063496104709
+    - - 1956912831790628158
+      - 12455178873327086993
+      - 15960597219507410724
+      - 17163002186390915389
+    - - 705850576452650721
+      - 7453001783556816918
+      - 15191598414726759458
+  FilePath: Work/Banc/Scene/Prefab/Set_SkyIsland_gerudo_A-6_Sky.bcett.json
+  PhiveHeader:
+    PlacementGroups:
+      - GroupGUID: 16337653835468466727
+        GroupID: !l 6786
+        ParentGroupGUID: 0
+        ParentLocalID: !l -1
+        Rot:
+          - 0,00000
+          - -1,55952
+          - 0,00000
+        Trans:
+          - -3488,62500
+          - 2055,49000
+          - 320,00000
+        Type: Default
+      - GroupGUID: 4905898927132338026
+        GroupID: !l 6785
+        ParentGroupGUID: 0
+        ParentLocalID: !l -1
+        Rot:
+          - 0,01128
+          - 0,00000
+          - 1,57080
+        Trans:
+          - -3488,62500
+          - 2044,50000
+          - 320,00000
+        Type: Default
+  Rails:
+    - Gyaml: Trolley
+      Hash: '1555175267800645045'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Gyaml: Trolley
+          Hash: '7279947859485484419'
+          NextDistance: 10,88400
+          Translate:
+            - -3705,23500
+            - 1820,54500
+            - 972,61510
+        - Connections:
+            - {RailHash: '16378988473113695123', RailPointIndex: !l 0}
+          Gyaml: Trolley
+          Hash: '2474764085984210220'
+          PrevDistance: 10,88400
+          Translate:
+            - -3707,25700
+            - 1820,54500
+            - 983,30960
+    - Gyaml: Trolley
+      Hash: '16378988473113695123'
+      IsClosed: false
+      Name: Trolley
+      Points:
+        - Connections:
+            - {RailHash: '1555175267800645045', RailPointIndex: !l 1}
+          Gyaml: Trolley
+          Hash: '6629094785277120489'
+          NextDistance: 4,62500
+          Translate:
+            - -3707,27800
+            - 1820,54500
+            - 983,42360
+        - Gyaml: Trolley
+          Hash: '619997405924324358'
+          NextDistance: 13,87500
+          PrevDistance: 4,62500
+          Translate:
+            - -3708,13700
+            - 1820,54500
+            - 987,96810
+        - Gyaml: Trolley
+          Hash: '331539591634976704'
+          PrevDistance: 13,87500
+          Translate:
+            - -3710,71500
+            - 1820,54500
+            - 1001,60200
+  SimultaneousGroups:
+    - - 1616869836761959302
+      - 3296349092278745577
+      - 3939535837638949771
+      - 4964381474467536313
+      - 6720419147596629783
+      - 7593128464035891624
+      - 8120939161294967944
+      - 10025846579247103487
+      - 11328139487821591931
+      - 12066159652468051618
+      - 12452673480243512303
+      - 16360380766867613617
+      - 16694460772725202629
+      - 16985843426186809688
+    - - 334781571911709508
+      - 2373522345005148807
+      - 5036993428927638497
+      - 6217959891004498462
+      - 8163144491032840652
+      - 10225635788207307069
+      - 12027802845354347891
+      - 12208546869469391443
+      - 12348918165600785184
+      - 15105388695750917676
+      - 15186839562404610057
+    - - 66398169578882508
+      - 4459183300284915901
+      - 6558348302712855784
+      - 9343424043612821421
+      - 14496129999864584481
+      - 16487066389874563082
+      - 18323216601338007722
+    - - 257005400812113862
+      - 5339310740160682565
+      - 8869646027422458120
+      - 9484036909679726013
+      - 11202391799474069149
+      - 13456302683197403637
+      - 15330261406951659038
+    - - 366957897307213770
+      - 8158942090963444217
+      - 8534537984024520766
+      - 8888099481277132954
+      - 11888385443991845992
+      - 13380663812289346387
+      - 14852550153310059231
+    - - 1836553015028318913
+      - 8766978188995578192
+      - 14351599223226850736
+      - 14565520566708916943
+      - 15401934063496104709
+    - - 1956912831790628158
+      - 12455178873327086993
+      - 15960597219507410724
+      - 17163002186390915389
+    - - 705850576452650721
+      - 7453001783556816918
+      - 15191598414726759458

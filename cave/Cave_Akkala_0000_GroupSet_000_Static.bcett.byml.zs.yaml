@@ -1,0 +1,68 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_Akkala_0000
+      Hash: '14849887849950974453'
+      Phive:
+        Placement: {ID: 14849887849950974453}
+      Rotate:
+        - -3,14159
+        - -0,28580
+        - -3,14159
+      SRTHash: !u 2680089951
+      Translate:
+        - 4121,87800
+        - 299,69460
+        - -663,68460
+    - Dynamic: {ForbiddenAll: false, ForbiddenGeneratingAnimal: true, ForbiddenGeneratingBird: true, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingSkyFallenBox: true}
+      Gyaml: ForbidAutoPlacementAreaOnlySphere
+      Hash: '9002269395729567120'
+      Phive:
+        Placement: {ID: 9002269395729567120}
+      SRTHash: !u 2599010900
+      Scale:
+        - 40,00000
+        - 40,00000
+        - 40,00000
+      Translate:
+        - 4140,01100
+        - 290,30930
+        - -543,55940
+    - Dynamic: {IsNeedAutoSave: true, RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '1360119941090463644'
+      Phive:
+        Placement: {ID: 1360119941090463644}
+      SRTHash: !u 21257088
+      Scale:
+        - 50,00000
+        - 50,00000
+        - 50,00000
+      Translate:
+        - 4140,01100
+        - 241,49650
+        - -543,55940
+    - Gyaml: Area
+      Hash: '17710924537774679949'
+      Phive:
+        Placement: {ID: 17710924537774679949}
+      SRTHash: !u 1918866869
+      Scale:
+        - 12,00000
+        - 12,00000
+        - 12,00000
+      Translate:
+        - 4138,39000
+        - 286,73020
+        - -543,66170
+  AiGroups:
+    - Hash: '2727728132655137876'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 17710924537774679949}
+  FilePath: Work/Banc/Scene/Prefab/Cave_Akkala_0000_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []

@@ -1,0 +1,202 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Well_0051
+      Hash: '1142140944253645796'
+      Phive:
+        Placement: {ID: 1142140944253645796}
+      Rotate:
+        - 0,00000
+        - -1,37702
+        - 0,00000
+      SRTHash: !u 3883268140
+      Translate:
+        - 1875,13600
+        - 228,63240
+        - 1043,75200
+    - Bakeable: true
+      Gyaml: FldObj_HyliaWoodWell_A_02
+      Hash: '9721841026644006894'
+      Phive:
+        Placement: {ID: 9721841026644006894}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 3586790186
+      Translate:
+        - 1875,13600
+        - 228,73270
+        - 1043,75200
+    - Gyaml: Npc_Kakariko004
+      Hash: '3189502066161483681'
+      Links:
+        - {Dst: 12029770923316385956, Gyaml: Reference, Name: Reference, Src: 3189502066161483681}
+      MoveRadius: 0,00037
+      Phive:
+        Placement: {ID: 3189502066161483681}
+      Presence: {FlagName: Npc_Kakariko004_GenerateWell, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - 0,22270
+        - 0,00000
+      SRTHash: !u 1994908775
+      Translate:
+        - 1890,34400
+        - 210,70200
+        - 1114,09200
+    - Gyaml: AnchorAction6
+      Hash: '12029770923316385956'
+      Phive:
+        Placement: {ID: 12029770923316385956}
+      Rotate:
+        - 0,00000
+        - 0,22270
+        - 0,00000
+      SRTHash: !u 1994908775
+      Translate:
+        - 1890,34400
+        - 210,70200
+        - 1114,09200
+    - Dynamic: {RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '1430969536046987026'
+      Phive:
+        Placement: {ID: 1430969536046987026}
+      Rotate:
+        - 0,00000
+        - 0,00000
+        - 0,02894
+      SRTHash: !u 2197498544
+      Scale:
+        - 5,00000
+        - 5,00000
+        - 5,00000
+      Translate:
+        - 1890,33700
+        - 206,40420
+        - 1113,79200
+    - Dynamic: {RequestEventName: Reach_Garden}
+      Gyaml: EventRequestActor
+      Hash: '15358142908274786112'
+      Links:
+        - {Dst: 3189502066161483681, Gyaml: Reference, Name: Reference, Src: 15358142908274786112}
+      Phive:
+        Placement: {ID: 15358142908274786112}
+      Rotate:
+        - -0,01134
+        - 0,00000
+        - 0,05557
+      SRTHash: !u 358081710
+      Translate:
+        - 1891,37200
+        - 212,60360
+        - 1110,50700
+    - Dynamic: {RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '12512327563914223151'
+      Phive:
+        Placement: {ID: 12512327563914223151}
+      SRTHash: !u 1055738110
+      Scale:
+        - 0,50000
+        - 0,50000
+        - 0,50000
+      Translate:
+        - 1890,34400
+        - 210,20200
+        - 1114,09200
+    - Dynamic:
+        InstanceID_0: 13226488950335406838
+        Pos_0:
+          - 1873,12300
+          - 212,63300
+          - 1068,89900
+        Rot_0:
+          - 0,61700
+          - -0,24300
+          - -1,08400
+      Gyaml: LightBall_Small
+      Hash: '2946271898890368797'
+      Links:
+        - {Dst: 221007903751233006, Gyaml: StackInfo, Name: StackInfo, Src: 2946271898890368797}
+      Phive:
+        Placement: {ID: 2946271898890368797}
+      Rotate:
+        - -0,08218
+        - -0,31655
+        - 2,51780
+      SRTHash: !u 122693628
+      Translate:
+        - 1873,62500
+        - 213,13770
+        - 1069,20200
+    - Dynamic:
+        InstanceID_0: 13226488950335406838
+        Pos_0:
+          - 1873,12300
+          - 212,63300
+          - 1068,89900
+        Rot_0:
+          - 0,61700
+          - -0,24300
+          - -1,08400
+      Gyaml: LightBall_Small
+      Hash: '10164936218374703286'
+      Links:
+        - {Dst: 221007903751233006, Gyaml: StackInfo, Name: StackInfo, Src: 10164936218374703286}
+      Phive:
+        Placement: {ID: 10164936218374703286}
+      Rotate:
+        - -1,46739
+        - -0,42082
+        - -1,22359
+      SRTHash: !u 1598569191
+      Translate:
+        - 1873,25500
+        - 212,86710
+        - 1069,29000
+    - Dynamic:
+        InstanceID_0: 13226488950335406838
+        Pos_0:
+          - 1873,12300
+          - 212,63300
+          - 1068,89900
+        Rot_0:
+          - 0,61700
+          - -0,24300
+          - -1,08400
+      Gyaml: LightBall_Small
+      Hash: '221007903751233006'
+      Phive:
+        Placement: {ID: 221007903751233006}
+      Rotate:
+        - -1,16283
+        - 0,92713
+        - -0,02099
+      SRTHash: !u 2593460415
+      Translate:
+        - 1873,55600
+        - 212,71890
+        - 1069,28400
+  AiGroups:
+    - Hash: '14582955275780787247'
+      Logic: Logic/Module/Well_0051_GroupSet_000/Well_0051_GroupSet_000_941e.logic.module.ain
+      References:
+        - {Id: Area_3e9c, Path: Area_3e9c, Reference: 1430969536046987026}
+        - {Id: EventRequestActor_0803, Path: EventRequestActor_0803, Reference: 15358142908274786112}
+        - {Id: Area_98a2, Path: Area_98a2, Reference: 12512327563914223151}
+  FarDeleteGroups:
+    - - 1430969536046987026
+      - 12512327563914223151
+      - 15358142908274786112
+  FilePath: Work/Banc/Scene/Prefab/Well_0051_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 1430969536046987026
+      - 12512327563914223151
+      - 15358142908274786112

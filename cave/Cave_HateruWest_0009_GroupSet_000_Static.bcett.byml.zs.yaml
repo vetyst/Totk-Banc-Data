@@ -1,0 +1,51 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_HateruWest_0009
+      Hash: '9122227421013360230'
+      Phive:
+        Placement: {ID: 9122227421013360230}
+      SRTHash: !u 840025421
+      Translate:
+        - 1973,47500
+        - 267,65650
+        - 850,37020
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '2389035894664646229'
+      Phive:
+        Placement: {ID: 2389035894664646229}
+      SRTHash: !u 4077588186
+      Scale:
+        - 48,00000
+        - 185,00000
+        - 48,00000
+      Translate:
+        - 1973,47500
+        - -182,34350
+        - 849,04750
+    - Bakeable: true
+      Gyaml: Miasma_DeepHole_Normal
+      Hash: '10890403612401828695'
+      Phive:
+        Placement: {ID: 10890403612401828695}
+      SRTHash: !u 1766194473
+      Scale:
+        - 6,50000
+        - 26,00206
+        - 6,50000
+      Translate:
+        - 1973,16000
+        - -208,65000
+        - 850,78460
+  AiGroups:
+    - Hash: '6949998823081070522'
+      Logic: Logic/Module/DeepHole_Common_LoadMinusFieldForceCounter/DeepHole_Common_LoadMinusFieldForceCounter_a437.logic.module.ain
+      References:
+        - {Id: Area_e397, Path: Area_e397, Reference: 2389035894664646229}
+  FilePath: Work/Banc/Scene/Prefab/Cave_HateruWest_0009_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []

@@ -1,0 +1,110 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_Hebra_0023
+      Hash: '9594412738154535390'
+      Phive:
+        Placement: {ID: 9594412738154535390}
+      SRTHash: !u 3097148660
+      Translate:
+        - -3044,54700
+        - 285,12770
+        - -1539,29900
+    - Dynamic: {CreateHorablinMovingType: !l 3, EquipmentUser_Attachment_Weapon: AsbObj_RockParts_C_S_01, EquipmentUser_Weapon: Weapon_Spear_112, IsLevelSensorTarget: true}
+      Gyaml: Enemy_Horablin_Middle
+      Hash: '8538128957773219214'
+      Phive:
+        Placement: {ID: 8538128957773219214}
+      Rotate:
+        - 0,00000
+        - -1,07329
+        - -3,14159
+      SRTHash: !u 334292971
+      Translate:
+        - -3021,73500
+        - 282,76310
+        - -1541,92600
+    - Dynamic:
+        InstanceID_0: 10845386876728873603
+        Pos_0:
+          - -3011,56000
+          - 300,63200
+          - -1607,07600
+        Rot_0:
+          - 0,41100
+          - 1,24400
+          - -0,32100
+      Gyaml: LightBall_Small
+      Hash: '1670737007410143524'
+      Links:
+        - {Dst: 13692587274510703008, Gyaml: StackInfo, Name: StackInfo, Src: 1670737007410143524}
+      Phive:
+        Placement: {ID: 1670737007410143524}
+      Rotate:
+        - -2,16102
+        - -1,11699
+        - -1,10462
+      SRTHash: !u 1216650892
+      Translate:
+        - -3011,19000
+        - 301,28410
+        - -1606,88700
+    - Dynamic:
+        InstanceID_0: 10845386876728873603
+        Pos_0:
+          - -3011,56000
+          - 300,63200
+          - -1607,07600
+        Rot_0:
+          - 0,41100
+          - 1,24400
+          - -0,32100
+      Gyaml: LightBall_Small
+      Hash: '13692587274510703008'
+      Phive:
+        Placement: {ID: 13692587274510703008}
+      Rotate:
+        - -1,87659
+        - 1,03408
+        - -0,49335
+      SRTHash: !u 3977562067
+      Translate:
+        - -3011,15500
+        - 300,82000
+        - -1606,91700
+    - Dynamic:
+        InstanceID_0: 10845386876728873603
+        Pos_0:
+          - -3011,56000
+          - 300,63200
+          - -1607,07600
+        Rot_0:
+          - 0,41100
+          - 1,24400
+          - -0,32100
+      Gyaml: LightBall_Small
+      Hash: '3674084346287352'
+      Links:
+        - {Dst: 13692587274510703008, Gyaml: StackInfo, Name: StackInfo, Src: 3674084346287352}
+      Phive:
+        Placement: {ID: 3674084346287352}
+      Rotate:
+        - 0,84045
+        - 0,39675
+        - 2,44288
+      SRTHash: !u 1909812009
+      Translate:
+        - -3011,11700
+        - 300,99480
+        - -1607,20000
+  AiGroups:
+    - Hash: '10723122143990703624'
+      Logic: Logic/Module/SetEnemySpot_Holablin_LeaderOnly/SetEnemySpot_Holablin_LeaderOnly_ba54.logic.module.ain
+      References:
+        - {Id: EnemyLocaterSpeciesHorablin_d44a, Path: EnemyLocaterSpeciesHorablin_d44a, Reference: 8538128957773219214}
+  FilePath: Work/Banc/Scene/Prefab/Cave_Hebra_0023_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []

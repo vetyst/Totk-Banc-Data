@@ -1,0 +1,5007 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Dynamic: {Location: LargeDungeonWind, RigidBodyShapeType: !l 3}
+      Gyaml: LocationArea
+      Hash: '3740666845124401410'
+      Phive:
+        Placement: {ID: 3740666845124401410}
+      SRTHash: !u 774975677
+      Scale:
+        - 200,00000
+        - 119,52300
+        - 200,00000
+      Translate:
+        - -2859,50000
+        - 1516,88900
+        - -3005,50000
+    - Bakeable: true
+      Gyaml: DgnObj_WarpPoint_Zonau_A_02
+      Hash: '6270655863264061713'
+      Name: LargeDungeonWind
+      Phive:
+        Placement: {ID: 6270655863264061713}
+      SRTHash: !u 2758760067
+      Translate:
+        - -2859,50000
+        - 1623,62900
+        - -2957,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Propeller
+      Hash: '8469852948610318490'
+      Phive:
+        Placement: {ID: 8469852948610318490}
+      SRTHash: !u 14616497
+      Translate:
+        - -2859,50000
+        - 1576,43400
+        - -3088,00000
+    - Gyaml: Area
+      Hash: '9400635790860734490'
+      Phive:
+        Placement: {ID: 9400635790860734490}
+      SRTHash: !u 1793080337
+      Scale:
+        - 14,00000
+        - 50,00000
+        - 14,00000
+      Translate:
+        - -2860,00000
+        - 1570,43400
+        - -3086,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LeverSwitchBrokenParts_A
+      Hash: '12117433580931483658'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 12117433580931483658}
+      Rotate:
+        - 1,57080
+        - -0,52360
+        - -1,57080
+      SRTHash: !u 2893636603
+      Translate:
+        - -2845,50000
+        - 1623,86700
+        - -3039,91900
+    - Bakeable: true
+      Gyaml: DgnObj_LeverSwitchBace_A
+      Hash: '13943298991787045705'
+      Phive:
+        Placement: {ID: 13943298991787045705}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 384241475
+      Translate:
+        - -2845,50000
+        - 1623,43400
+        - -3039,91900
+    - Bakeable: true
+      Dynamic: {MoveDis: '10,00000'}
+      Gyaml: DgnObj_LargeDungeonWind_SwitchShutter_A_05
+      Hash: '927784606027649510'
+      Phive:
+        Placement: {ID: 927784606027649510}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 941943552
+      Translate:
+        - -2842,00000
+        - 1623,43400
+        - -3050,25000
+    - Dynamic: {RequestEventName: FocusOnGimmick_Basic}
+      Gyaml: EventRequestActor
+      Hash: '17743788921275663336'
+      Links:
+        - {Dst: 14707859961950762412, Gyaml: Reference, Name: Reference, Src: 17743788921275663336}
+        - {Dst: 927784606027649510, Gyaml: Reference, Name: Reference, Src: 17743788921275663336}
+      Phive:
+        Placement: {ID: 17743788921275663336}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 941943552
+      Translate:
+        - -2842,00000
+        - 1623,43400
+        - -3050,25000
+    - Gyaml: DesignateMatrixActor
+      Hash: '14707859961950762412'
+      Phive:
+        Placement: {ID: 14707859961950762412}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 450728804
+      Translate:
+        - -2850,00000
+        - 1628,43400
+        - -3050,25000
+    - Bakeable: true
+      Dynamic: {MoveDis: '10,00000'}
+      Gyaml: DgnObj_LargeDungeonWind_SwitchShutter_A_05
+      Hash: '17751948208791833078'
+      Phive:
+        Placement: {ID: 17751948208791833078}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 2597154524
+      Translate:
+        - -2877,00000
+        - 1623,43400
+        - -3050,25000
+    - Dynamic: {RequestEventName: FocusOnGimmick_Basic}
+      Gyaml: EventRequestActor
+      Hash: '3223181588160182251'
+      Links:
+        - {Dst: 17773348100500068788, Gyaml: Reference, Name: Reference, Src: 3223181588160182251}
+        - {Dst: 17751948208791833078, Gyaml: Reference, Name: Reference, Src: 3223181588160182251}
+      Phive:
+        Placement: {ID: 3223181588160182251}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 2597154524
+      Translate:
+        - -2877,00000
+        - 1623,43400
+        - -3050,25000
+    - Gyaml: DesignateMatrixActor
+      Hash: '17773348100500068788'
+      Phive:
+        Placement: {ID: 17773348100500068788}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 4215607161
+      Translate:
+        - -2869,00000
+        - 1628,43400
+        - -3050,25000
+    - Bakeable: true
+      Dynamic: {RotateSpeed: '30,00000'}
+      Gyaml: SwitchGearSmall_LargeDungeonWind_A_02
+      Hash: '17718029144832937593'
+      Phive:
+        Placement: {ID: 17718029144832937593}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 2043418292
+      Translate:
+        - -2841,50000
+        - 1592,93400
+        - -3018,50000
+    - Bakeable: true
+      Gyaml: SwitchGearSmall_LargeDungeonWind_A_01
+      Hash: '9115383864586258964'
+      Phive:
+        ConstraintLink:
+          ID: 9115383864586258964
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 3,14159
+                  - -1,57080
+                  - 3,14159
+                Trans:
+                  - -2858,00000
+                  - 1592,93400
+                  - -3018,50000
+              ParamData: {WheelRadiusA: '1,00000', WheelRadiusB: '1,00000'}
+              PivotData:
+                AxisA: !l 2
+                AxisB: !l 2
+                PivotA:
+                  - 0,00000
+                  - 0,00000
+                  - 0,00000
+                PivotB:
+                  - 0,00000
+                  - 0,00000
+                  - 0,00000
+              Refer: 16163030812287403301
+              ReferPose:
+                Rotate:
+                  - 3,14159
+                  - 1,57080
+                  - 3,14159
+                Trans:
+                  - -2858,00000
+                  - 1596,93400
+                  - -3021,50000
+              Type: CogWheel
+        Placement: {ID: 9115383864586258964}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 169017065
+      Translate:
+        - -2858,00000
+        - 1592,93400
+        - -3018,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LeverSwitchStick_A
+      Hash: '15957090670601982477'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 15957090670601982477}
+      Rotate:
+        - -1,57080
+        - 0,52361
+        - -1,57080
+      SRTHash: !u 2872198258
+      Translate:
+        - -2873,50000
+        - 1623,86800
+        - -3039,91900
+    - Bakeable: true
+      Gyaml: DgnObj_LeverSwitchBace_A
+      Hash: '13808702842513366714'
+      Phive:
+        Placement: {ID: 13808702842513366714}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 2699112421
+      Translate:
+        - -2873,50000
+        - 1623,43400
+        - -3039,91900
+    - Bakeable: true
+      Gyaml: DgnObj_RitoSwitchBlock_A_01
+      Hash: '12102379152659006597'
+      Phive:
+        Placement: {ID: 12102379152659006597}
+      SRTHash: !u 1048586531
+      Translate:
+        - -2859,50000
+        - 1604,43400
+        - -3114,00000
+    - Dynamic: {RequestEventName: Dm_RT_0015}
+      Gyaml: EventRequestActor
+      Hash: '10350946645086613299'
+      Links:
+        - {Dst: 16066802153257240599, Gyaml: Reference, Name: Reference, Src: 10350946645086613299}
+        - {Dst: 12102379152659006597, Gyaml: Reference, Name: Reference, Src: 10350946645086613299}
+      Phive:
+        Placement: {ID: 10350946645086613299}
+      SRTHash: !u 1048586531
+      Translate:
+        - -2859,50000
+        - 1604,43400
+        - -3114,00000
+    - Dynamic: {ActivateGameData: LargeDungeonWind_CheckPoint_On, FinishGameData: LargeDungeonWind_Terminal_4, Floor: !l -1}
+      Gyaml: LargeDungeonCheckPoint
+      Hash: '14546672289926749462'
+      Phive:
+        Placement: {ID: 14546672289926749462}
+      SRTHash: !u 1048586531
+      Translate:
+        - -2859,50000
+        - 1604,43400
+        - -3114,00000
+    - Gyaml: DestinationAnchor
+      Hash: '16066802153257240599'
+      Name: AuthenticationPos
+      Phive:
+        Placement: {ID: 16066802153257240599}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 4236390497
+      Translate:
+        - -2859,50000
+        - 1604,66600
+        - -3111,50000
+    - Gyaml: SageTransOrderArea
+      Hash: '17336223380249835845'
+      Phive:
+        Placement: {ID: 17336223380249835845}
+      SRTHash: !u 1658739184
+      Scale:
+        - 6,00000
+        - 5,00000
+        - 11,00000
+      Translate:
+        - -2859,50000
+        - 1603,43400
+        - -3112,00000
+    - Gyaml: SageTransOrderAnchor
+      Hash: '10038803242352988263'
+      Phive:
+        Placement: {ID: 10038803242352988263}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - 3,14159
+      SRTHash: !u 1054230144
+      Translate:
+        - -2859,50000
+        - 1604,43400
+        - -3107,00000
+    - Bakeable: true
+      Gyaml: DgnObj_RitoSwitchBlock_A_01
+      Hash: '6385612507684383106'
+      Phive:
+        Placement: {ID: 6385612507684383106}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 2959529732
+      Translate:
+        - -2857,00000
+        - 1623,43400
+        - -2905,50000
+    - Dynamic: {RequestEventName: Dm_RT_0015}
+      Gyaml: EventRequestActor
+      Hash: '1349263762710727037'
+      Links:
+        - {Dst: 6994734968721484805, Gyaml: Reference, Name: Reference, Src: 1349263762710727037}
+        - {Dst: 6385612507684383106, Gyaml: Reference, Name: Reference, Src: 1349263762710727037}
+      Phive:
+        Placement: {ID: 1349263762710727037}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 2959529732
+      Translate:
+        - -2857,00000
+        - 1623,43400
+        - -2905,50000
+    - Dynamic: {ActivateGameData: LargeDungeonWind_CheckPoint_On, FinishGameData: LargeDungeonWind_Terminal_1}
+      Gyaml: LargeDungeonCheckPoint
+      Hash: '3154526769995028760'
+      Phive:
+        Placement: {ID: 3154526769995028760}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 2959529732
+      Translate:
+        - -2857,00000
+        - 1623,43400
+        - -2905,50000
+    - Gyaml: DestinationAnchor
+      Hash: '6994734968721484805'
+      Name: AuthenticationPos
+      Phive:
+        Placement: {ID: 6994734968721484805}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 2936477046
+      Translate:
+        - -2859,50000
+        - 1623,66600
+        - -2905,50000
+    - Gyaml: SageTransOrderArea
+      Hash: '10500587146121378875'
+      Phive:
+        Placement: {ID: 10500587146121378875}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 3188868100
+      Scale:
+        - 6,00000
+        - 5,00000
+        - 11,00000
+      Translate:
+        - -2859,00000
+        - 1622,43400
+        - -2905,50000
+    - Gyaml: SageTransOrderAnchor
+      Hash: '7869835096927081641'
+      Phive:
+        Placement: {ID: 7869835096927081641}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 174805203
+      Translate:
+        - -2864,00000
+        - 1623,43400
+        - -2905,50000
+    - Bakeable: true
+      Gyaml: DgnObj_RitoSwitchBlock_A_01
+      Hash: '6383910199485197101'
+      Phive:
+        Placement: {ID: 6383910199485197101}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 2713633563
+      Translate:
+        - -2865,53300
+        - 1587,43400
+        - -3024,50000
+    - Dynamic: {RequestEventName: Dm_RT_0015}
+      Gyaml: EventRequestActor
+      Hash: '194595367660541900'
+      Links:
+        - {Dst: 8148308869601955023, Gyaml: Reference, Name: Reference, Src: 194595367660541900}
+        - {Dst: 6383910199485197101, Gyaml: Reference, Name: Reference, Src: 194595367660541900}
+      Phive:
+        Placement: {ID: 194595367660541900}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 2713633563
+      Translate:
+        - -2865,53300
+        - 1587,43400
+        - -3024,50000
+    - Dynamic: {ActivateGameData: LargeDungeonWind_CheckPoint_On, FinishGameData: LargeDungeonWind_Terminal_3, Floor: !l -1}
+      Gyaml: LargeDungeonCheckPoint
+      Hash: '14588333559256520782'
+      Phive:
+        Placement: {ID: 14588333559256520782}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 2713633563
+      Translate:
+        - -2865,53300
+        - 1587,43400
+        - -3024,50000
+    - Gyaml: DestinationAnchor
+      Hash: '8148308869601955023'
+      Name: AuthenticationPos
+      Phive:
+        Placement: {ID: 8148308869601955023}
+      SRTHash: !u 1922386547
+      Translate:
+        - -2865,53300
+        - 1587,66600
+        - -3027,00000
+    - Gyaml: SageTransOrderArea
+      Hash: '9341345957455184430'
+      Phive:
+        Placement: {ID: 9341345957455184430}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 398450331
+      Scale:
+        - 6,00000
+        - 5,00000
+        - 11,00000
+      Translate:
+        - -2865,53300
+        - 1586,43400
+        - -3026,50000
+    - Gyaml: SageTransOrderAnchor
+      Hash: '1019251142425921310'
+      Phive:
+        Placement: {ID: 1019251142425921310}
+      SRTHash: !u 3235239222
+      Translate:
+        - -2865,53300
+        - 1587,43400
+        - -3031,50000
+    - Bakeable: true
+      Gyaml: DgnObj_RitoSwitchBlock_A_01
+      Hash: '12355442457013443377'
+      Phive:
+        Placement: {ID: 12355442457013443377}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 3309163741
+      Translate:
+        - -2859,50000
+        - 1564,93400
+        - -2982,00000
+    - Dynamic: {RequestEventName: Dm_RT_0015}
+      Gyaml: EventRequestActor
+      Hash: '7199467782763098021'
+      Links:
+        - {Dst: 12714643868295627188, Gyaml: Reference, Name: Reference, Src: 7199467782763098021}
+        - {Dst: 12355442457013443377, Gyaml: Reference, Name: Reference, Src: 7199467782763098021}
+      Phive:
+        Placement: {ID: 7199467782763098021}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 3309163741
+      Translate:
+        - -2859,50000
+        - 1564,93400
+        - -2982,00000
+    - Dynamic: {ActivateGameData: LargeDungeonWind_CheckPoint_On, FinishGameData: LargeDungeonWind_Terminal_5, Floor: !l -2}
+      Gyaml: LargeDungeonCheckPoint
+      Hash: '15324633833962469991'
+      Phive:
+        Placement: {ID: 15324633833962469991}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 3309163741
+      Translate:
+        - -2859,50000
+        - 1564,93400
+        - -2982,00000
+    - Gyaml: DestinationAnchor
+      Hash: '12714643868295627188'
+      Name: AuthenticationPos
+      Phive:
+        Placement: {ID: 12714643868295627188}
+      SRTHash: !u 2155909033
+      Translate:
+        - -2859,50000
+        - 1565,16600
+        - -2984,50000
+    - Gyaml: SageTransOrderArea
+      Hash: '17179525226708062344'
+      Phive:
+        Placement: {ID: 17179525226708062344}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 3376722246
+      Scale:
+        - 6,00000
+        - 5,00000
+        - 11,00000
+      Translate:
+        - -2859,50000
+        - 1563,93400
+        - -2984,00000
+    - Gyaml: SageTransOrderAnchor
+      Hash: '10731859317147127784'
+      Phive:
+        Placement: {ID: 10731859317147127784}
+      SRTHash: !u 3576963905
+      Translate:
+        - -2859,50000
+        - 1564,93400
+        - -2989,00000
+    - Bakeable: true
+      Gyaml: DgnObj_RitoSwitchBlock_A_01
+      Hash: '16598162583819525581'
+      Phive:
+        Placement: {ID: 16598162583819525581}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 2138116341
+      Translate:
+        - -2830,50000
+        - 1623,43400
+        - -3047,50000
+    - Dynamic: {RequestEventName: Dm_RT_0015}
+      Gyaml: EventRequestActor
+      Hash: '12405105163001703881'
+      Links:
+        - {Dst: 2261935291318257601, Gyaml: Reference, Name: Reference, Src: 12405105163001703881}
+        - {Dst: 16598162583819525581, Gyaml: Reference, Name: Reference, Src: 12405105163001703881}
+      Phive:
+        Placement: {ID: 12405105163001703881}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 2138116341
+      Translate:
+        - -2830,50000
+        - 1623,43400
+        - -3047,50000
+    - Dynamic: {ActivateGameData: LargeDungeonWind_CheckPoint_On, FinishGameData: LargeDungeonWind_Terminal_2}
+      Gyaml: LargeDungeonCheckPoint
+      Hash: '10190727762871513668'
+      Phive:
+        Placement: {ID: 10190727762871513668}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 2138116341
+      Translate:
+        - -2830,50000
+        - 1623,43400
+        - -3047,50000
+    - Gyaml: DestinationAnchor
+      Hash: '2261935291318257601'
+      Name: AuthenticationPos
+      Phive:
+        Placement: {ID: 2261935291318257601}
+      SRTHash: !u 4294824342
+      Translate:
+        - -2830,50000
+        - 1623,66600
+        - -3050,00000
+    - Gyaml: SageTransOrderArea
+      Hash: '3150188809747077132'
+      Phive:
+        Placement: {ID: 3150188809747077132}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 82684529
+      Scale:
+        - 6,00000
+        - 5,00000
+        - 11,00000
+      Translate:
+        - -2830,50000
+        - 1622,43400
+        - -3049,50000
+    - Gyaml: SageTransOrderAnchor
+      Hash: '14667241248630309140'
+      Phive:
+        Placement: {ID: 14667241248630309140}
+      SRTHash: !u 2506575271
+      Translate:
+        - -2830,50000
+        - 1623,43400
+        - -3054,50000
+    - Bakeable: true
+      Dynamic: {MoveDis: '15,00000'}
+      Gyaml: DgnObj_Small_ShutterFence_A_10
+      Hash: '15629960243246394555'
+      Phive:
+        Placement: {ID: 15629960243246394555}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 298111313
+      Translate:
+        - -2859,70000
+        - 1587,43400
+        - -3026,50000
+    - Dynamic: {Drop__DropTable: Fire, EquipmentUser_Attachment_Arrow: FireFruit, EquipmentUser_Bow: Weapon_Bow_105, IsLevelSensorTarget: true}
+      Gyaml: Enemy_Zonau_Robot_Middle
+      Hash: '17752802117155911785'
+      Phive:
+        Placement: {ID: 17752802117155911785}
+      Rails:
+        - {Dst: 4402430804055488117, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 593844907
+      Translate:
+        - -2870,50000
+        - 1587,43400
+        - -3055,50000
+    - Dynamic: {Drop__DropTable: Arrow, IsLevelSensorTarget: true}
+      Gyaml: Enemy_Zonau_Golem_Junior
+      Hash: '2711645218449881868'
+      Links:
+        - {Dst: 9236800578049459332, Gyaml: Reference, Name: Reference, Src: 2711645218449881868}
+      Phive:
+        Placement: {ID: 2711645218449881868}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 2614947783
+      Translate:
+        - -2851,50100
+        - 1593,42600
+        - -2952,49700
+    - Dynamic: {AngularVelX: '360,00000', TargetRotX: '-90,00000'}
+      Gyaml: GroundControlActor_SimpleMoveTo
+      Hash: '5458206796942970351'
+      Phive:
+        Placement: {GroupGUID: 1813504151192163622, GroupID: !l 5220, ID: 5458206796942970351}
+      SRTHash: !u 698727162
+      Translate:
+        - -2884,50000
+        - 1601,93400
+        - -3072,00000
+    - Dynamic: {AngularVelX: '360,00000', TargetRotX: '90,00000'}
+      Gyaml: GroundControlActor_SimpleMoveTo
+      Hash: '281581342329269622'
+      Phive:
+        Placement: {GroupGUID: 5171358951164029943, GroupID: !l 5223, ID: 281581342329269622}
+      SRTHash: !u 2374518289
+      Translate:
+        - -2892,50000
+        - 1601,43400
+        - -3076,00000
+    - Gyaml: Area
+      Hash: '809554398072691998'
+      Phive:
+        Placement: {ID: 809554398072691998}
+      SRTHash: !u 3622170747
+      Scale:
+        - 10,00000
+        - 8,00000
+        - 12,00000
+      Translate:
+        - -2891,00000
+        - 1582,93400
+        - -3081,00000
+    - Bakeable: true
+      Dynamic: {MoveDis: '8,00000'}
+      Gyaml: DgnObj_Small_ShutterFence_A_10
+      Hash: '17705418327141884203'
+      Phive:
+        Placement: {ID: 17705418327141884203}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - 3,14159
+      SRTHash: !u 744242573
+      Translate:
+        - -2859,50000
+        - 1623,43400
+        - -2914,50000
+    - Bakeable: true
+      Gyaml: SpurGearSmall
+      Hash: '16163030812287403301'
+      Phive:
+        ConstraintLink:
+          ID: 16163030812287403301
+          Refers:
+            - {Owner: 9115383864586258964, Type: CogWheel}
+        Placement: {ID: 16163030812287403301}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 2592209744
+      Scale:
+        - 1,50000
+        - 1,50000
+        - 1,50000
+      Translate:
+        - -2858,00000
+        - 1596,93400
+        - -3021,50000
+    - Gyaml: Item_Ore_B
+      Hash: '9236800578049459332'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 9236800578049459332}
+      Rotate:
+        - 0,10473
+        - -0,00047
+        - 0,05231
+      SRTHash: !u 1850706200
+      Translate:
+        - -2855,51500
+        - 1593,55600
+        - -2955,48800
+    - Dynamic: {RequestEventName: SageOfWind_GoDungeon}
+      Gyaml: EventRequestActor
+      Hash: '604138279464093396'
+      Links:
+        - {Dst: 2914115437179680224, Gyaml: Reference, Name: Reference, Src: 604138279464093396}
+        - {Dst: 10097436664222440814, Gyaml: Reference, Name: Reference, Src: 604138279464093396}
+        - {Dst: 10033483703293899051, Gyaml: Reference, Name: Reference, Src: 604138279464093396}
+        - {Dst: 1141595309443509453, Gyaml: Reference, Name: Reference, Src: 604138279464093396}
+        - {Dst: 5939585647679296101, Gyaml: Reference, Name: Reference, Src: 604138279464093396}
+        - {Dst: 14595352787124251515, Gyaml: Reference, Name: Reference, Src: 604138279464093396}
+        - {Dst: 7898428797266508991, Gyaml: Reference, Name: Reference, Src: 604138279464093396}
+        - {Dst: 220741141993319786, Gyaml: Reference, Name: Reference, Src: 604138279464093396}
+        - {Dst: 14864817706883398966, Gyaml: Reference, Name: Reference, Src: 604138279464093396}
+        - {Dst: 14469038612448262064, Gyaml: Reference, Name: Reference, Src: 604138279464093396}
+        - {Dst: 850142897839632404, Gyaml: Reference, Name: Reference, Src: 604138279464093396}
+        - {Dst: 2542693645193833005, Gyaml: Reference, Name: Reference, Src: 604138279464093396}
+        - {Dst: 13418723266820965396, Gyaml: Reference, Name: Reference, Src: 604138279464093396}
+        - {Dst: 7392531822921559755, Gyaml: Reference, Name: Reference, Src: 604138279464093396}
+        - {Dst: 15045513133329380773, Gyaml: Reference, Name: Reference, Src: 604138279464093396}
+      Phive:
+        Placement: {ID: 604138279464093396}
+      SRTHash: !u 948143796
+      Translate:
+        - -2849,50000
+        - 1639,93400
+        - -2986,50000
+    - Gyaml: Area
+      Hash: '9259113553401588877'
+      Phive:
+        Placement: {ID: 9259113553401588877}
+      SRTHash: !u 398886403
+      Scale:
+        - 45,00000
+        - 10,00000
+        - 43,00000
+      Translate:
+        - -2859,50000
+        - 1623,43400
+        - -2986,50000
+    - Gyaml: AnchorAction1
+      Hash: '4544752720482699439'
+      Name: SageOfWind_TouchSecretStone_Tulin_Anchor
+      Phive:
+        Placement: {ID: 4544752720482699439}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - 3,14159
+      SRTHash: !u 1819365608
+      Translate:
+        - -2859,50000
+        - 1622,57300
+        - -2987,50000
+    - Gyaml: Area
+      Hash: '9122224889874161529'
+      Phive:
+        Placement: {ID: 9122224889874161529}
+      SRTHash: !u 2983943314
+      Scale:
+        - 50,00000
+        - 40,00000
+        - 35,00000
+      Translate:
+        - -2859,50000
+        - 1623,43400
+        - -2848,50000
+    - Gyaml: Area
+      Hash: '13353433775977840607'
+      Phive:
+        Placement: {ID: 13353433775977840607}
+      SRTHash: !u 3062645225
+      Scale:
+        - 50,00000
+        - 20,00000
+        - 30,00000
+      Translate:
+        - -2859,50000
+        - 1623,43400
+        - -2913,50000
+    - Gyaml: Area
+      Hash: '1044068082528695196'
+      Phive:
+        Placement: {ID: 1044068082528695196}
+      SRTHash: !u 3184934284
+      Scale:
+        - 50,00000
+        - 50,00000
+        - 63,00000
+      Translate:
+        - -2859,50000
+        - 1623,43400
+        - -3136,50000
+    - Gyaml: Area
+      Hash: '9260304709456283619'
+      Phive:
+        Placement: {ID: 9260304709456283619}
+      SRTHash: !u 3799615217
+      Scale:
+        - 15,00000
+        - 40,00000
+        - 30,00000
+      Translate:
+        - -2794,50000
+        - 1583,43400
+        - -2883,50000
+    - Gyaml: Area
+      Hash: '9607186818263209491'
+      Phive:
+        Placement: {ID: 9607186818263209491}
+      SRTHash: !u 3474741804
+      Scale:
+        - 15,00000
+        - 40,00000
+        - 30,00000
+      Translate:
+        - -2924,50000
+        - 1583,43400
+        - -2883,50000
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '4300247037220398538'
+      Phive:
+        Placement: {ID: 4300247037220398538}
+      SRTHash: !u 2853037497
+      Scale:
+        - 250,00000
+        - 10,00000
+        - 250,00000
+      Translate:
+        - -2859,50000
+        - 1599,93400
+        - -3005,50000
+    - Dynamic: {RequestEventName: SageOfWind_GoDungeonAir}
+      Gyaml: EventRequestActor
+      Hash: '13500313443732066764'
+      Links:
+        - {Dst: 2914115437179680224, Gyaml: Reference, Name: Reference, Src: 13500313443732066764}
+        - {Dst: 13418723266820965396, Gyaml: Reference, Name: Reference, Src: 13500313443732066764}
+        - {Dst: 2542693645193833005, Gyaml: Reference, Name: Reference, Src: 13500313443732066764}
+        - {Dst: 14864817706883398966, Gyaml: Reference, Name: Reference, Src: 13500313443732066764}
+        - {Dst: 850142897839632404, Gyaml: Reference, Name: Reference, Src: 13500313443732066764}
+        - {Dst: 14469038612448262064, Gyaml: Reference, Name: Reference, Src: 13500313443732066764}
+        - {Dst: 7392531822921559755, Gyaml: Reference, Name: Reference, Src: 13500313443732066764}
+        - {Dst: 15045513133329380773, Gyaml: Reference, Name: Reference, Src: 13500313443732066764}
+        - {Dst: 5939585647679296101, Gyaml: Reference, Name: Reference, Src: 13500313443732066764}
+        - {Dst: 1141595309443509453, Gyaml: Reference, Name: Reference, Src: 13500313443732066764}
+        - {Dst: 7898428797266508991, Gyaml: Reference, Name: Reference, Src: 13500313443732066764}
+        - {Dst: 14595352787124251515, Gyaml: Reference, Name: Reference, Src: 13500313443732066764}
+        - {Dst: 220741141993319786, Gyaml: Reference, Name: Reference, Src: 13500313443732066764}
+        - {Dst: 10097436664222440814, Gyaml: Reference, Name: Reference, Src: 13500313443732066764}
+        - {Dst: 10033483703293899051, Gyaml: Reference, Name: Reference, Src: 13500313443732066764}
+      Phive:
+        Placement: {ID: 13500313443732066764}
+      SRTHash: !u 125696241
+      Translate:
+        - -2869,50000
+        - 1639,93400
+        - -2986,50000
+    - Gyaml: Area
+      Hash: '10728936966734422541'
+      Phive:
+        Placement: {ID: 10728936966734422541}
+      SRTHash: !u 840848521
+      Scale:
+        - 18,00000
+        - 10,00000
+        - 22,00000
+      Translate:
+        - -2859,50000
+        - 1623,43400
+        - -3051,50000
+    - Gyaml: Area
+      Hash: '9043560357304624817'
+      Phive:
+        Placement: {ID: 9043560357304624817}
+      SRTHash: !u 3262779567
+      Scale:
+        - 16,00000
+        - 50,00000
+        - 22,00000
+      Translate:
+        - -2893,50000
+        - 1623,43400
+        - -3051,50000
+    - Gyaml: Area
+      Hash: '14096713911854109046'
+      Phive:
+        Placement: {ID: 14096713911854109046}
+      SRTHash: !u 2236047773
+      Scale:
+        - 16,00000
+        - 50,00000
+        - 22,00000
+      Translate:
+        - -2825,50000
+        - 1623,43400
+        - -3051,50000
+    - Gyaml: Area
+      Hash: '18380104059601418653'
+      Phive:
+        Placement: {ID: 18380104059601418653}
+      SRTHash: !u 122920993
+      Scale:
+        - 27,00000
+        - 40,00000
+        - 23,00000
+      Translate:
+        - -2859,50000
+        - 1643,43400
+        - -3087,25000
+    - Gyaml: Area
+      Hash: '14117544270423355797'
+      Phive:
+        Placement: {ID: 14117544270423355797}
+      SRTHash: !u 953314550
+      Scale:
+        - 12,00000
+        - 5,00000
+        - 22,00000
+      Translate:
+        - -2877,25000
+        - 1643,43400
+        - -3051,50000
+    - Gyaml: Area
+      Hash: '17772785443045871036'
+      Phive:
+        Placement: {ID: 17772785443045871036}
+      SRTHash: !u 2585389791
+      Scale:
+        - 12,00000
+        - 5,00000
+        - 22,00000
+      Translate:
+        - -2841,50000
+        - 1643,43400
+        - -3051,50000
+    - Gyaml: Npc_Tulin_Sage
+      Hash: '9198195316245082575'
+      Links:
+        - {Dst: 4544752720482699439, Gyaml: Reference, Name: Reference, Src: 9198195316245082575}
+        - {Dst: 10097436664222440814, Gyaml: Reference, Name: Reference, Src: 9198195316245082575}
+        - {Dst: 10033483703293899051, Gyaml: Reference, Name: Reference, Src: 9198195316245082575}
+        - {Dst: 14595352787124251515, Gyaml: Reference, Name: Reference, Src: 9198195316245082575}
+        - {Dst: 7898428797266508991, Gyaml: Reference, Name: Reference, Src: 9198195316245082575}
+        - {Dst: 5939585647679296101, Gyaml: Reference, Name: Reference, Src: 9198195316245082575}
+        - {Dst: 1141595309443509453, Gyaml: Reference, Name: Reference, Src: 9198195316245082575}
+        - {Dst: 220741141993319786, Gyaml: Reference, Name: Reference, Src: 9198195316245082575}
+        - {Dst: 15045513133329380773, Gyaml: Reference, Name: Reference, Src: 9198195316245082575}
+        - {Dst: 13418723266820965396, Gyaml: Reference, Name: Reference, Src: 9198195316245082575}
+        - {Dst: 14864817706883398966, Gyaml: Reference, Name: Reference, Src: 9198195316245082575}
+        - {Dst: 14469038612448262064, Gyaml: Reference, Name: Reference, Src: 9198195316245082575}
+        - {Dst: 850142897839632404, Gyaml: Reference, Name: Reference, Src: 9198195316245082575}
+        - {Dst: 7392531822921559755, Gyaml: Reference, Name: Reference, Src: 9198195316245082575}
+        - {Dst: 2542693645193833005, Gyaml: Reference, Name: Reference, Src: 9198195316245082575}
+      Name: TouchSecretStone
+      Phive:
+        Placement: {ID: 9198195316245082575}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - 3,14159
+      SRTHash: !u 1224671586
+      Translate:
+        - -2859,50000
+        - 1622,57300
+        - -2987,50000
+    - Bakeable: true
+      Gyaml: SkyObj_Rito_StonePillar_A_01
+      Hash: '9849810750893749641'
+      Phive:
+        Placement: {ID: 9849810750893749641}
+      SRTHash: !u 2121941501
+      Scale:
+        - 0,35000
+        - 0,35000
+        - 0,35000
+      Translate:
+        - -2859,50000
+        - 1619,04400
+        - -2987,50000
+    - Gyaml: DestinationAnchor
+      Hash: '2914115437179680224'
+      Name: Dm_RT_0043_Anchor
+      Phive:
+        Placement: {ID: 2914115437179680224}
+      SRTHash: !u 1703668049
+      Translate:
+        - -2851,50000
+        - 1623,43400
+        - -2960,50000
+    - Bakeable: true
+      Dynamic: {MoveDis: '4,00000'}
+      Gyaml: SS_object_ShutterFenceOnly00
+      Hash: '5142858076223792630'
+      Phive:
+        Placement: {ID: 5142858076223792630}
+      SRTHash: !u 3783558660
+      Translate:
+        - -2874,00000
+        - 1564,93400
+        - -3012,72500
+    - Dynamic: {RequestEventName: FocusOnGimmick_Basic}
+      Gyaml: EventRequestActor
+      Hash: '17724269540620925219'
+      Links:
+        - {Dst: 11490810683550066428, Gyaml: Reference, Name: Reference, Src: 17724269540620925219}
+        - {Dst: 5142858076223792630, Gyaml: Reference, Name: Reference, Src: 17724269540620925219}
+      Phive:
+        Placement: {ID: 17724269540620925219}
+      SRTHash: !u 3783558660
+      Translate:
+        - -2874,00000
+        - 1564,93400
+        - -3012,72500
+    - Gyaml: DesignateMatrixActor
+      Hash: '11490810683550066428'
+      Phive:
+        Placement: {ID: 11490810683550066428}
+      SRTHash: !u 2681470272
+      Translate:
+        - -2874,00000
+        - 1566,93400
+        - -3007,72500
+    - Dynamic: {Drop__DropActor: Obj_ArrowBundle_A_02}
+      Gyaml: TBox_Dungeon_Stone
+      Hash: '15483674811188868433'
+      Phive:
+        Placement: {ID: 15483674811188868433}
+      SRTHash: !u 3892983850
+      Translate:
+        - -2882,29800
+        - 1644,36700
+        - -3089,48100
+    - Bakeable: true
+      Gyaml: IceWall
+      Hash: '11049614750253528030'
+      Links:
+        - {Dst: 15483674811188868433, Gyaml: FrozenInIce, Name: FrozenInIce, Src: 11049614750253528030}
+      Phive:
+        Placement: {ID: 11049614750253528030}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - 3,14159
+      SRTHash: !u 2718224283
+      Translate:
+        - -2882,29800
+        - 1644,36700
+        - -3089,48100
+    - Bakeable: true
+      Dynamic: {MoveDis: '8,00000'}
+      Gyaml: SS_object_ShutterFenceOnly00
+      Hash: '16998184980351743606'
+      Phive:
+        Placement: {ID: 16998184980351743606}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - 3,14159
+      SRTHash: !u 33729837
+      Scale:
+        - 1,50000
+        - 1,50000
+        - 1,50000
+      Translate:
+        - -2830,50000
+        - 1623,43400
+        - -3070,21900
+    - Dynamic: {RequestEventName: FocusOnGimmick_Basic}
+      Gyaml: EventRequestActor
+      Hash: '10841408965218139571'
+      Links:
+        - {Dst: 3746261008784136827, Gyaml: Reference, Name: Reference, Src: 10841408965218139571}
+        - {Dst: 16998184980351743606, Gyaml: Reference, Name: Reference, Src: 10841408965218139571}
+      Phive:
+        Placement: {ID: 10841408965218139571}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - 3,14159
+      SRTHash: !u 33729837
+      Scale:
+        - 1,50000
+        - 1,50000
+        - 1,50000
+      Translate:
+        - -2830,50000
+        - 1623,43400
+        - -3070,21900
+    - Gyaml: DesignateMatrixActor
+      Hash: '3746261008784136827'
+      Phive:
+        Placement: {ID: 3746261008784136827}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - 3,14159
+      SRTHash: !u 1019828236
+      Scale:
+        - 1,50000
+        - 1,50000
+        - 1,50000
+      Translate:
+        - -2830,50000
+        - 1626,43400
+        - -3077,71900
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Oar_A_01
+      Hash: '8388357773492680200'
+      Phive:
+        Placement: {GroupGUID: 11946618958663195596, GroupID: !l 5218, ID: 8388357773492680200}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - -0,05236
+      SRTHash: !u 1457117914
+      Translate:
+        - -2817,00000
+        - 1577,63400
+        - -3010,95000
+    - Dynamic: {AngularVelX: '2,20000', TargetRotX: '44,00000'}
+      Gyaml: GroundControlActor_SimpleMoveTo
+      Hash: '4368802773187685633'
+      Phive:
+        Placement: {GroupGUID: 11946618958663195596, GroupID: !l 5218, ID: 4368802773187685633}
+      Rotate:
+        - 0,00000
+        - 0,00000
+        - -0,43633
+      SRTHash: !u 532584181
+      Translate:
+        - -2814,43400
+        - 1581,95400
+        - -3010,45000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Oar_A_01
+      Hash: '15662847698231554471'
+      Phive:
+        Placement: {GroupGUID: 17322180369914105989, GroupID: !l 5225, ID: 15662847698231554471}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,05236
+      SRTHash: !u 910596371
+      Translate:
+        - -2902,00000
+        - 1577,63400
+        - -3010,95000
+    - Dynamic: {AngularVelX: '2,20000', TargetRotX: '44,00000'}
+      Gyaml: GroundControlActor_SimpleMoveTo
+      Hash: '9892562340450059186'
+      Phive:
+        Placement: {GroupGUID: 17322180369914105989, GroupID: !l 5225, ID: 9892562340450059186}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - -2,70526
+      SRTHash: !u 397951150
+      Translate:
+        - -2904,56600
+        - 1581,95400
+        - -3011,45000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Oar_A_01
+      Hash: '1506299322422305516'
+      Phive:
+        Placement: {GroupGUID: 5050110262969830294, GroupID: !l 5227, ID: 1506299322422305516}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - -0,82030
+      SRTHash: !u 3672252039
+      Translate:
+        - -2817,00000
+        - 1577,63400
+        - -3058,17000
+    - Dynamic: {AngularVelX: '2,20000', TargetRotX: '44,00000'}
+      Gyaml: GroundControlActor_SimpleMoveTo
+      Hash: '2104214361743109818'
+      Phive:
+        Placement: {GroupGUID: 5050110262969830294, GroupID: !l 5227, ID: 2104214361743109818}
+      Rotate:
+        - 0,00000
+        - 0,00000
+        - -0,43633
+      SRTHash: !u 2832986210
+      Translate:
+        - -2814,40300
+        - 1580,83700
+        - -3057,17000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Oar_A_01
+      Hash: '16473098166601026904'
+      Phive:
+        Placement: {GroupGUID: 16936080354361665406, GroupID: !l 5217, ID: 16473098166601026904}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,82030
+      SRTHash: !u 1800732030
+      Translate:
+        - -2902,00000
+        - 1577,63400
+        - -3058,17000
+    - Dynamic: {AngularVelX: '2,20000', TargetRotX: '44,00000'}
+      Gyaml: GroundControlActor_SimpleMoveTo
+      Hash: '1390621722270554690'
+      Phive:
+        Placement: {GroupGUID: 16936080354361665406, GroupID: !l 5217, ID: 1390621722270554690}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -2,70526
+      SRTHash: !u 2543531953
+      Translate:
+        - -2904,59700
+        - 1580,83700
+        - -3059,17000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Oar_A_01
+      Hash: '406423351771461059'
+      Phive:
+        Placement: {GroupGUID: 14159990582415993361, GroupID: !l 5222, ID: 406423351771461059}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,05236
+      SRTHash: !u 1853708902
+      Translate:
+        - -2902,00000
+        - 1577,63400
+        - -2916,51000
+    - Dynamic: {AngularVelX: '2,20000', TargetRotX: '44,00000'}
+      Gyaml: GroundControlActor_SimpleMoveTo
+      Hash: '4446323736907807556'
+      Phive:
+        Placement: {GroupGUID: 14159990582415993361, GroupID: !l 5222, ID: 4446323736907807556}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - -2,70526
+      SRTHash: !u 2526291139
+      Translate:
+        - -2904,56600
+        - 1581,95400
+        - -2917,01000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Oar_A_01
+      Hash: '17197405407450472511'
+      Phive:
+        Placement: {GroupGUID: 3178608128005470657, GroupID: !l 5226, ID: 17197405407450472511}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,82030
+      SRTHash: !u 1578602955
+      Translate:
+        - -2902,00000
+        - 1577,63400
+        - -2963,75000
+    - Dynamic: {AngularVelX: '2,20000', TargetRotX: '44,00000'}
+      Gyaml: GroundControlActor_SimpleMoveTo
+      Hash: '17866120003077889227'
+      Phive:
+        Placement: {GroupGUID: 3178608128005470657, GroupID: !l 5226, ID: 17866120003077889227}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - -2,70526
+      SRTHash: !u 633901386
+      Translate:
+        - -2904,59700
+        - 1580,83700
+        - -2964,75000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Oar_A_01
+      Hash: '5263361260711723828'
+      Phive:
+        Placement: {GroupGUID: 9505293621843469920, GroupID: !l 5219, ID: 5263361260711723828}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - -0,05236
+      SRTHash: !u 2342312965
+      Translate:
+        - -2817,00000
+        - 1577,63400
+        - -2916,51000
+    - Dynamic: {AngularVelX: '2,20000', TargetRotX: '44,00000'}
+      Gyaml: GroundControlActor_SimpleMoveTo
+      Hash: '2177019666467090739'
+      Phive:
+        Placement: {GroupGUID: 9505293621843469920, GroupID: !l 5219, ID: 2177019666467090739}
+      Rotate:
+        - 0,00000
+        - 0,00000
+        - -0,43633
+      SRTHash: !u 2111541115
+      Translate:
+        - -2814,43400
+        - 1581,95400
+        - -2916,01000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Oar_A_01
+      Hash: '4391771995612441781'
+      Phive:
+        Placement: {GroupGUID: 6043385444758377311, GroupID: !l 5221, ID: 4391771995612441781}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - -0,82030
+      SRTHash: !u 842100316
+      Translate:
+        - -2817,00000
+        - 1577,63400
+        - -2963,75000
+    - Dynamic: {AngularVelX: '2,20000', TargetRotX: '44,00000'}
+      Gyaml: GroundControlActor_SimpleMoveTo
+      Hash: '3116198416958933102'
+      Phive:
+        Placement: {GroupGUID: 6043385444758377311, GroupID: !l 5221, ID: 3116198416958933102}
+      Rotate:
+        - 0,00000
+        - 0,00000
+        - -0,43633
+      SRTHash: !u 3975591030
+      Translate:
+        - -2814,40300
+        - 1580,83700
+        - -2962,75000
+    - Dynamic: {Drop__DropTable: Arrow, EquipmentUser_Bow: Weapon_Bow_105, IsLevelSensorTarget: true}
+      Gyaml: Enemy_Zonau_Robot_Middle
+      Hash: '16628397331147708824'
+      Phive:
+        Placement: {ID: 16628397331147708824}
+      Presence: {FlagName: LargeDungeonWind_ApppearBoss, IsCheckLazy: true, IsNegation: true}
+      Rails:
+        - {Dst: 11022563214731449339, Gyaml: Reference, Name: Reference}
+      SRTHash: !u 3761330848
+      Translate:
+        - -2827,00000
+        - 1623,43400
+        - -2899,00000
+    - Dynamic: {EquipmentUser_Weapon: Weapon_Spear_108, IsLevelSensorTarget: true}
+      Gyaml: Enemy_Zonau_Robot_Middle
+      Hash: '8247395919843522252'
+      Phive:
+        Placement: {ID: 8247395919843522252}
+      Rails:
+        - {Dst: 4652603282453730371, Gyaml: Reference, Name: Reference}
+      SRTHash: !u 351682262
+      Translate:
+        - -2829,00000
+        - 1644,43400
+        - -3071,50000
+    - Gyaml: AscendingCurrent_LargeDungeonWind
+      Hash: '17634331028346183920'
+      Phive:
+        Placement: {ID: 17634331028346183920}
+      SRTHash: !u 289991337
+      Scale:
+        - 15,00000
+        - 50,00000
+        - 15,00000
+      Translate:
+        - -2859,50000
+        - 1622,18400
+        - -2992,50000
+    - Dynamic: {RequestEventName: LargeDungeonWind_OpenBosss}
+      Gyaml: EventRequestActor
+      Hash: '5972518190355632930'
+      Links:
+        - {Dst: 8185061513238320564, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 9817323542670390466, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 1641822573652587698, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 2268622776824482802, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 3823010692829170451, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 10033483703293899051, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 10097436664222440814, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 1141595309443509453, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 14595352787124251515, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 7898428797266508991, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 5939585647679296101, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 220741141993319786, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 15045513133329380773, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 13418723266820965396, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 850142897839632404, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 2542693645193833005, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 14864817706883398966, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 14469038612448262064, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+        - {Dst: 7392531822921559755, Gyaml: Reference, Name: Reference, Src: 5972518190355632930}
+      Phive:
+        Placement: {ID: 5972518190355632930}
+      SRTHash: !u 1517434441
+      Translate:
+        - -2850,00000
+        - 1629,96200
+        - -2975,50000
+    - Dynamic: {FloorNumber: !l -1, Location: LargeDungeonWind_B1}
+      Gyaml: LargeDungeonFloorArea
+      Hash: '13415700686461089823'
+      Phive:
+        Placement: {ID: 13415700686461089823}
+      SRTHash: !u 3444330732
+      Scale:
+        - 50,00000
+        - 17,00000
+        - 105,00000
+      Translate:
+        - -2859,50000
+        - 1586,43400
+        - -3005,50000
+    - Dynamic: {FloorNumber: !l -2, Location: LargeDungeonWind_B2}
+      Gyaml: LargeDungeonFloorArea
+      Hash: '15969976378315369268'
+      Phive:
+        Placement: {ID: 15969976378315369268}
+      SRTHash: !u 4212698989
+      Scale:
+        - 22,00000
+        - 13,00000
+        - 22,00000
+      Translate:
+        - -2859,50000
+        - 1560,43400
+        - -2992,00000
+    - Dynamic: {FloorNumber: !l -1, Location: LargeDungeonWind_B1}
+      Gyaml: LargeDungeonFloorArea
+      Hash: '16221079391710737341'
+      Phive:
+        Placement: {ID: 16221079391710737341}
+      SRTHash: !u 3694630622
+      Scale:
+        - 16,00000
+        - 18,00000
+        - 15,00000
+      Translate:
+        - -2859,50000
+        - 1586,43400
+        - -3112,50000
+    - Gyaml: DgnObj_LargeDungeonWind_Cannon_A_02
+      Hash: '617204742746384654'
+      Phive:
+        Placement: {ID: 617204742746384654}
+      SRTHash: !u 1925307455
+      Translate:
+        - -2859,50000
+        - 1642,31000
+        - -2914,50000
+    - Gyaml: DgnObj_LargeDungeonWind_Cannon_A_02
+      Hash: '13645096082424837189'
+      Phive:
+        Placement: {ID: 13645096082424837189}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - -1,57080
+      SRTHash: !u 1250119046
+      Translate:
+        - -2811,00000
+        - 1603,93400
+        - -2987,00000
+    - Gyaml: DgnObj_LargeDungeonWind_Cannon_A_02
+      Hash: '4605453201876857175'
+      Phive:
+        Placement: {ID: 4605453201876857175}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 1,57080
+      SRTHash: !u 1921541304
+      Translate:
+        - -2908,00000
+        - 1603,93400
+        - -2987,00000
+    - Dynamic: {Drop__DropActor: Weapon_Spear_101, Drop__DropActor_Attachment: Item_Enemy_167}
+      Gyaml: TBox_Dungeon_Stone
+      Hash: '9668759438738380326'
+      Phive:
+        Placement: {ID: 9668759438738380326}
+      SRTHash: !u 3963745389
+      Translate:
+        - -2870,00000
+        - 1623,43400
+        - -2928,50000
+    - Bakeable: true
+      Gyaml: IceWall
+      Hash: '14606584614985142994'
+      Links:
+        - {Dst: 9668759438738380326, Gyaml: FrozenInIce, Name: FrozenInIce, Src: 14606584614985142994}
+      Phive:
+        Placement: {ID: 14606584614985142994}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - 3,14159
+      SRTHash: !u 2052225421
+      Translate:
+        - -2870,00000
+        - 1623,43400
+        - -2928,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LeverSwitchStick_A
+      Hash: '841731750573246099'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 841731750573246099}
+      Rotate:
+        - 1,57080
+        - -0,52360
+        - -1,57080
+      SRTHash: !u 128120351
+      Translate:
+        - -2821,50000
+        - 1587,86700
+        - -3029,20000
+    - Bakeable: true
+      Gyaml: DgnObj_LeverSwitchBace_A
+      Hash: '7637802930500284268'
+      Phive:
+        Placement: {ID: 7637802930500284268}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 566591018
+      Translate:
+        - -2821,50000
+        - 1587,43400
+        - -3029,20000
+    - Bakeable: true
+      Gyaml: FldObj_ZonauAlarm_A_01
+      Hash: '386017846846603477'
+      Phive:
+        Placement: {ID: 386017846846603477}
+      Rotate:
+        - -1,57080
+        - 0,00000
+        - 0,00000
+      SRTHash: !u 3622154453
+      Translate:
+        - -2859,50000
+        - 1621,15600
+        - -3100,09800
+    - Bakeable: true
+      Dynamic: {MoveDis: '15,00000'}
+      Gyaml: DgnObj_LargeDungeonWind_SwitchShutter_A_03
+      Hash: '5580768665962335509'
+      Phive:
+        Placement: {ID: 5580768665962335509}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 49725894
+      Translate:
+        - -2817,50000
+        - 1592,68400
+        - -3024,75000
+    - Dynamic: {RequestEventName: FocusOnGimmick_Basic}
+      Gyaml: EventRequestActor
+      Hash: '16102356091111890111'
+      Links:
+        - {Dst: 5456309156029636712, Gyaml: Reference, Name: Reference, Src: 16102356091111890111}
+        - {Dst: 5580768665962335509, Gyaml: Reference, Name: Reference, Src: 16102356091111890111}
+      Phive:
+        Placement: {ID: 16102356091111890111}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 49725894
+      Translate:
+        - -2817,50000
+        - 1592,68400
+        - -3024,75000
+    - Gyaml: DesignateMatrixActor
+      Hash: '5456309156029636712'
+      Phive:
+        Placement: {ID: 5456309156029636712}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 3624366397
+      Translate:
+        - -2827,00000
+        - 1597,68400
+        - -3024,75000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Hatch_A_01
+      Hash: '8185061513238320564'
+      Phive:
+        Placement: {ID: 8185061513238320564}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - 3,14159
+      SRTHash: !u 2599229089
+      Translate:
+        - -2859,50000
+        - 1623,43400
+        - -2992,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_IceSecretStone_A_01
+      Hash: '9817323542670390466'
+      Phive:
+        Placement: {GroupGUID: 6524099427808610134, GroupID: !l 5224, ID: 9817323542670390466}
+      SRTHash: !u 3001289505
+      Translate:
+        - -2859,50000
+        - 1602,80900
+        - -2992,50000
+    - Gyaml: Area
+      Hash: '17157640561044553433'
+      Phive:
+        Placement: {ID: 17157640561044553433}
+      SRTHash: !u 859823635
+      Scale:
+        - 50,00000
+        - 50,00000
+        - 100,00000
+      Translate:
+        - -2961,00000
+        - 1501,93400
+        - -3010,50000
+    - Gyaml: Area
+      Hash: '14682114643383338185'
+      Phive:
+        Placement: {ID: 14682114643383338185}
+      SRTHash: !u 4060398708
+      Scale:
+        - 50,00000
+        - 50,00000
+        - 100,00000
+      Translate:
+        - -2757,50000
+        - 1501,93400
+        - -3010,50000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Base
+      Hash: '17432540567089439401'
+      Phive:
+        Placement: {ID: 17432540567089439401}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 3183929658
+      Translate:
+        - -2898,99500
+        - 1588,78400
+        - -3083,00000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Beam
+      Hash: '15337925054195744636'
+      Phive:
+        Placement: {ID: 15337925054195744636}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 3183929658
+      Translate:
+        - -2898,99500
+        - 1588,78400
+        - -3083,00000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Base
+      Hash: '10058784184806928344'
+      Phive:
+        Placement: {ID: 10058784184806928344}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 324489806
+      Translate:
+        - -2899,20000
+        - 1597,28400
+        - -3076,50000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Beam
+      Hash: '5561167984127357837'
+      Phive:
+        Placement: {ID: 5561167984127357837}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - -0,64577
+      SRTHash: !u 2850369574
+      Translate:
+        - -2899,20000
+        - 1597,28400
+        - -3076,50000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Base
+      Hash: '6478487432936926070'
+      Phive:
+        Placement: {ID: 6478487432936926070}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 2682085378
+      Translate:
+        - -2882,55000
+        - 1591,03400
+        - -3073,50000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Beam
+      Hash: '12079070506746285751'
+      Phive:
+        Placement: {ID: 12079070506746285751}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,26180
+      SRTHash: !u 2252634368
+      Translate:
+        - -2882,55000
+        - 1591,03400
+        - -3073,50000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Base
+      Hash: '4359234100639354006'
+      Phive:
+        Placement: {ID: 4359234100639354006}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 3618089928
+      Translate:
+        - -2882,48000
+        - 1588,03400
+        - -3089,00000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Beam
+      Hash: '16228187433875484391'
+      Phive:
+        Placement: {ID: 16228187433875484391}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 3618089928
+      Translate:
+        - -2882,48000
+        - 1588,03400
+        - -3089,00000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Base
+      Hash: '15859765966775272379'
+      Phive:
+        Placement: {ID: 15859765966775272379}
+      SRTHash: !u 1191947150
+      Translate:
+        - -2869,25000
+        - 1657,03400
+        - -3099,60000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Beam
+      Hash: '4579892763655890536'
+      Phive:
+        Placement: {ID: 4579892763655890536}
+      Rotate:
+        - 0,00000
+        - 0,39270
+        - 0,00000
+      SRTHash: !u 61977923
+      Translate:
+        - -2869,25000
+        - 1657,03400
+        - -3099,60000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Base
+      Hash: '3221574192813018841'
+      Phive:
+        Placement: {ID: 3221574192813018841}
+      SRTHash: !u 1943467696
+      Translate:
+        - -2866,00000
+        - 1627,53400
+        - -3099,68400
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Beam
+      Hash: '17328406947073059702'
+      Phive:
+        Placement: {ID: 17328406947073059702}
+      Rotate:
+        - 0,00000
+        - 0,52360
+        - 0,00000
+      SRTHash: !u 2972324259
+      Translate:
+        - -2866,00000
+        - 1627,53400
+        - -3099,68400
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Base
+      Hash: '4869616635716136726'
+      Phive:
+        Placement: {ID: 4869616635716136726}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 1868010430
+      Translate:
+        - -2867,50000
+        - 1638,53400
+        - -3075,30000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Beam
+      Hash: '9515917597814099221'
+      Phive:
+        Placement: {ID: 9515917597814099221}
+      Rotate:
+        - -3,14159
+        - 0,52360
+        - -3,14159
+      SRTHash: !u 1602634922
+      Translate:
+        - -2867,50000
+        - 1638,53400
+        - -3075,30000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Base
+      Hash: '16344802029422222509'
+      Phive:
+        Placement: {ID: 16344802029422222509}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 883877687
+      Translate:
+        - -2852,50000
+        - 1649,78400
+        - -3075,84700
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Beam
+      Hash: '3449383750260478321'
+      Phive:
+        Placement: {ID: 3449383750260478321}
+      Rotate:
+        - -3,14159
+        - -0,17453
+        - -3,14159
+      SRTHash: !u 3258635689
+      Translate:
+        - -2852,50000
+        - 1649,78400
+        - -3075,84700
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Base
+      Hash: '15003231227954494090'
+      Phive:
+        Placement: {ID: 15003231227954494090}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 3300805634
+      Translate:
+        - -2846,00000
+        - 1648,03400
+        - -3095,50000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Beam
+      Hash: '3310235248506550681'
+      Phive:
+        Placement: {ID: 3310235248506550681}
+      Rotate:
+        - 0,00000
+        - -0,95993
+        - 0,00000
+      SRTHash: !u 467010038
+      Translate:
+        - -2846,00000
+        - 1648,03400
+        - -3095,50000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Base
+      Hash: '2047232391606566118'
+      Phive:
+        Placement: {ID: 2047232391606566118}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 3868057634
+      Translate:
+        - -2846,24700
+        - 1621,53400
+        - -3093,00000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Beam
+      Hash: '17343496200690514625'
+      Phive:
+        Placement: {ID: 17343496200690514625}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 3868057634
+      Translate:
+        - -2846,24700
+        - 1621,53400
+        - -3093,00000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Base
+      Hash: '16212648988787235491'
+      Phive:
+        Placement: {ID: 16212648988787235491}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 2427566782
+      Translate:
+        - -2872,89200
+        - 1648,03400
+        - -3091,00000
+    - Bakeable: true
+      Gyaml: DgnObj_IRBeamDevice_Static_Beam
+      Hash: '2715877831132093568'
+      Phive:
+        Placement: {ID: 2715877831132093568}
+      Rotate:
+        - 0,00000
+        - 1,30900
+        - 0,00000
+      SRTHash: !u 1813848061
+      Translate:
+        - -2872,89200
+        - 1648,03400
+        - -3091,00000
+    - Dynamic:
+        BSA_ForbidCalcEventName_01: DmT_RT_BossIn
+        BSA_ForbidCalcEventName_02: SageOfWind_BossBattle
+        BSA_ForbidCalcEventName_03: LargeDungeonWind_OpenBosss
+        Life_BossLifeGaugeSubtitle: DungeonBoss_Rito
+        StartEventConditionOne: !l 1
+        StartEventConditionTwo: !l 3
+        StartEventNameOnConditionOne: SageOfWind_ChangeBoss
+        StartEventNameOnConditionTwo: SageOfWind_DefeatBoss
+      Gyaml: Enemy_DungeonBoss_Rito
+      Hash: '16817454736981915442'
+      Links:
+        - {Dst: 16882443192150666072, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 3204482480350413500, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 9097919655635789975, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 16373034039979058096, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 17837072651427925364, Gyaml: TerritoryCenter, Name: TerritoryCenter, Src: 16817454736981915442}
+        - {Dst: 14726752706735179916, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 3486873044787744955, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 1141595309443509453, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 5939585647679296101, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 220741141993319786, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 7898428797266508991, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 14595352787124251515, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 10033483703293899051, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 14864817706883398966, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 13418723266820965396, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 14469038612448262064, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 7392531822921559755, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 850142897839632404, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 2542693645193833005, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 10097436664222440814, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+        - {Dst: 15045513133329380773, Gyaml: Reference, Name: Reference, Src: 16817454736981915442}
+      Phive:
+        Placement: {ID: 16817454736981915442}
+      Presence: {FlagName: LargeDungeonWind_Presence_Boss, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - -0,69813
+        - 0,00000
+      SRTHash: !u 871554852
+      Translate:
+        - -2919,50000
+        - 1800,43400
+        - -2998,50000
+    - Gyaml: AnchorAction1
+      Hash: '16882443192150666072'
+      Phive:
+        Placement: {ID: 16882443192150666072}
+      Presence: {FlagName: LargeDungeonWind_Presence_Boss, IsCheckLazy: true, IsNegation: false}
+      SRTHash: !u 361119611
+      Translate:
+        - -2859,50000
+        - 1623,43400
+        - -2990,50000
+    - Gyaml: AnchorAction4
+      Hash: '3204482480350413500'
+      Phive:
+        Placement: {ID: 3204482480350413500}
+      Presence: {FlagName: LargeDungeonWind_Presence_Boss, IsCheckLazy: true, IsNegation: false}
+      SRTHash: !u 448798360
+      Translate:
+        - -2859,50000
+        - 1835,43400
+        - -3015,50000
+    - Gyaml: DestinationAnchor
+      Hash: '14726752706735179916'
+      Name: Dm_RitoBoss_End
+      Phive:
+        Placement: {ID: 14726752706735179916}
+      Presence: {FlagName: LargeDungeonWind_Presence_Boss, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 3,14159
+        - 0,11925
+        - 3,14159
+      SRTHash: !u 4023043292
+      Translate:
+        - -2859,50400
+        - 2085,52400
+        - -2945,15000
+    - Gyaml: AnchorAction5
+      Hash: '16373034039979058096'
+      Phive:
+        Placement: {ID: 16373034039979058096}
+      Presence: {FlagName: LargeDungeonWind_Presence_Boss, IsCheckLazy: true, IsNegation: false}
+      SRTHash: !u 693035797
+      Translate:
+        - -2859,50000
+        - 1835,43400
+        - -3165,50000
+    - Gyaml: AnchorAction9
+      Hash: '17837072651427925364'
+      Phive:
+        Placement: {ID: 17837072651427925364}
+      Presence: {FlagName: LargeDungeonWind_Presence_Boss, IsCheckLazy: true, IsNegation: false}
+      SRTHash: !u 68978380
+      Translate:
+        - -2859,50000
+        - 1735,43400
+        - -2990,50000
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '3011577087992986079'
+      Phive:
+        Placement: {ID: 3011577087992986079}
+      Presence: {FlagName: LargeDungeonWind_Presence_Boss, IsCheckLazy: true, IsNegation: false}
+      SRTHash: !u 2350710359
+      Scale:
+        - 250,00000
+        - 275,00000
+        - 250,00000
+      Translate:
+        - -2859,50000
+        - 1623,43400
+        - -3005,50000
+    - Gyaml: Area
+      Hash: '8746985307684090454'
+      Phive:
+        Placement: {ID: 8746985307684090454}
+      Presence: {FlagName: LargeDungeonWind_Presence_Boss, IsCheckLazy: true, IsNegation: false}
+      SRTHash: !u 2446478024
+      Scale:
+        - 50,00000
+        - 210,00000
+        - 200,00000
+      Translate:
+        - -2958,99200
+        - 1623,43400
+        - -2993,70500
+    - Gyaml: Area
+      Hash: '15028672454631002341'
+      Phive:
+        Placement: {ID: 15028672454631002341}
+      Presence: {FlagName: LargeDungeonWind_Presence_Boss, IsCheckLazy: true, IsNegation: false}
+      SRTHash: !u 433211681
+      Scale:
+        - 50,00000
+        - 210,00000
+        - 135,00000
+      Translate:
+        - -2859,50000
+        - 1623,43400
+        - -2929,52400
+    - Gyaml: Area
+      Hash: '5574077269918736026'
+      Phive:
+        Placement: {ID: 5574077269918736026}
+      Presence: {FlagName: LargeDungeonWind_Presence_Boss, IsCheckLazy: true, IsNegation: false}
+      SRTHash: !u 2315471697
+      Scale:
+        - 50,00000
+        - 210,00000
+        - 200,00000
+      Translate:
+        - -2759,43000
+        - 1623,43400
+        - -2993,50000
+    - Gyaml: Area
+      Hash: '13960283695396012774'
+      Phive:
+        Placement: {ID: 13960283695396012774}
+      Presence: {FlagName: LargeDungeonWind_Presence_Boss, IsCheckLazy: true, IsNegation: false}
+      SRTHash: !u 78085820
+      Scale:
+        - 50,00000
+        - 167,16740
+        - 65,10109
+      Translate:
+        - -2859,50000
+        - 1709,93400
+        - -3129,50000
+    - Gyaml: DestinationAnchor
+      Hash: '9097919655635789975'
+      Name: BossBattle_SavePos
+      Phive:
+        Placement: {ID: 9097919655635789975}
+      Presence: {FlagName: LargeDungeonWind_Presence_Boss, IsCheckLazy: true, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - -0,87266
+        - 0,00000
+      SRTHash: !u 2753228877
+      Translate:
+        - -2744,57900
+        - 1900,13600
+        - -3118,03600
+    - Gyaml: Area
+      Hash: '6769647651311842791'
+      Phive:
+        Placement: {ID: 6769647651311842791}
+      SRTHash: !u 3392815793
+      Scale:
+        - 11,00000
+        - 10,00000
+        - 12,00000
+      Translate:
+        - -2830,50000
+        - 1621,93400
+        - -3049,00000
+    - Gyaml: Area
+      Hash: '1933730345404634881'
+      Phive:
+        Placement: {ID: 1933730345404634881}
+      SRTHash: !u 3095910828
+      Scale:
+        - 6,00000
+        - 10,00000
+        - 10,00000
+      Translate:
+        - -2866,00000
+        - 1587,43400
+        - -3027,50000
+    - Bakeable: true
+      Gyaml: DgnObj_Terminal_A_01
+      Hash: '1641822573652587698'
+      Phive:
+        Placement: {ID: 1641822573652587698}
+      SRTHash: !u 314456746
+      Translate:
+        - -2859,50000
+        - 1623,43400
+        - -2971,50000
+    - Gyaml: DestinationAnchor
+      Hash: '2268622776824482802'
+      Name: AuthenticationPos
+      Phive:
+        Placement: {ID: 2268622776824482802}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 502720227
+      Translate:
+        - -2859,50000
+        - 1623,67200
+        - -2969,75000
+    - Bakeable: true
+      Gyaml: Obj_SecretStone_A_01
+      Hash: '226581661267588918'
+      Phive:
+        Placement: {GroupGUID: 6524099427808610134, GroupID: !l 5224, ID: 226581661267588918}
+      Rotate:
+        - 0,00000
+        - 0,00000
+        - 0,27925
+      SRTHash: !u 44637993
+      Translate:
+        - -2859,40000
+        - 1609,90900
+        - -2992,50000
+    - Gyaml: Area
+      Hash: '5441464134523932885'
+      Phive:
+        Placement: {ID: 5441464134523932885}
+      SRTHash: !u 1338385035
+      Scale:
+        - 8,00000
+        - 8,00000
+        - 8,00000
+      Translate:
+        - -2882,00000
+        - 1559,43400
+        - -3117,00000
+    - Gyaml: Area
+      Hash: '5034920037967102482'
+      Phive:
+        Placement: {ID: 5034920037967102482}
+      SRTHash: !u 707752602
+      Scale:
+        - 8,00000
+        - 8,00000
+        - 8,00000
+      Translate:
+        - -2835,50000
+        - 1559,43400
+        - -3117,00000
+    - Bakeable: true
+      ExtraCreateRadius: 200,00000
+      Gyaml: DgnObj_JumpBoard_A_01
+      Hash: '5939585647679296101'
+      Name: jumpdemomove071
+      Phive:
+        Placement: {ID: 5939585647679296101}
+      SRTHash: !u 803112643
+      Translate:
+        - -2769,00000
+        - 1565,93400
+        - -2946,00000
+    - Bakeable: true
+      ExtraCreateRadius: 300,00000
+      Gyaml: DgnObj_JumpBoard_A_01
+      Hash: '220741141993319786'
+      Name: jumpdemomove072
+      Phive:
+        Placement: {ID: 220741141993319786}
+      SRTHash: !u 4290545016
+      Translate:
+        - -2751,00000
+        - 1519,43400
+        - -2991,00000
+    - Bakeable: true
+      ExtraCreateRadius: 200,00000
+      Gyaml: DgnObj_JumpBoard_A_01
+      Hash: '10033483703293899051'
+      Name: jumpdemomove073
+      Phive:
+        Placement: {ID: 10033483703293899051}
+      SRTHash: !u 943684300
+      Translate:
+        - -2797,00000
+        - 1614,93400
+        - -3087,50000
+    - Bakeable: true
+      ExtraCreateRadius: 200,00000
+      Gyaml: DgnObj_JumpBoard_A_01
+      Hash: '14864817706883398966'
+      Name: jumpdemomove074
+      Phive:
+        Placement: {ID: 14864817706883398966}
+      SRTHash: !u 3058483911
+      Translate:
+        - -2976,50000
+        - 1629,93400
+        - -2970,00000
+    - Bakeable: true
+      ExtraCreateRadius: 200,00000
+      Gyaml: DgnObj_JumpBoard_A_01
+      Hash: '850142897839632404'
+      Name: jumpdemomove075
+      Phive:
+        Placement: {ID: 850142897839632404}
+      SRTHash: !u 526635197
+      Translate:
+        - -2948,00000
+        - 1565,43400
+        - -3033,50000
+    - Bakeable: true
+      ExtraCreateRadius: 200,00000
+      Gyaml: DgnObj_JumpBoard_A_01
+      Hash: '14595352787124251515'
+      Name: jumpdemomove076
+      Phive:
+        Placement: {ID: 14595352787124251515}
+      SRTHash: !u 1815086572
+      Translate:
+        - -2768,50000
+        - 1567,43400
+        - -3037,00000
+    - Bakeable: true
+      ExtraCreateRadius: 300,00000
+      Gyaml: DgnObj_JumpBoard_A_01
+      Hash: '7392531822921559755'
+      Name: jumpdemomove077
+      Phive:
+        Placement: {ID: 7392531822921559755}
+      SRTHash: !u 2636319801
+      Translate:
+        - -2965,50000
+        - 1519,43400
+        - -2991,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Door_A_01
+      Hash: '6275515049541669858'
+      IsPhysicsStable: true
+      Name: right
+      Phive:
+        ConstraintLink:
+          ID: 6275515049541669858
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 0,00000
+                  - 1,57080
+                  - 3,14159
+                Trans:
+                  - -2854,15000
+                  - 1699,93400
+                  - -3087,75000
+              ParamData:
+                EnableHingeAngleLimit: true
+                EnableHingeSpring: false
+                EnableMotor: false
+                HingeAngleLimitMax: 150,00000
+                HingeAngleLimitMin: 0,00000
+                HingeFrictionForce: 1,00000
+                HingeSpringDamping: 10,00000
+                HingeSpringStiffness: 100,00000
+                HingeSpringTargetAngle: 0,00000
+                MotorForce: 100,00000
+                MotorRatchetType: !l 0
+                MotorVelocity: 90,00000
+              PivotData:
+                Axis: !l 0
+                Pivot:
+                  - 0,00000
+                  - 0,00000
+                  - -4,90000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 0,00000
+                  - 0,00000
+                  - 0,00000
+                Trans:
+                  - -2860,00000
+                  - 1699,93400
+                  - -3074,00000
+              Type: Hinge
+        Placement: {ID: 6275515049541669858}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - -3,14124
+      SRTHash: !u 2930583769
+      Translate:
+        - -2854,15000
+        - 1699,93200
+        - -3087,75000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Door_A_01
+      Hash: '13220402961214678964'
+      Name: right2
+      Phive:
+        ConstraintLink:
+          ID: 13220402961214678964
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 2,61799
+                  - 1,57080
+                  - 3,14159
+                Trans:
+                  - -2845,00000
+                  - 1702,38400
+                  - -3087,75000
+              ParamData:
+                EnableHingeAngleLimit: true
+                EnableHingeSpring: false
+                EnableMotor: false
+                HingeAngleLimitMax: 0,00000
+                HingeAngleLimitMin: -150,00000
+                HingeFrictionForce: 1,00000
+                HingeSpringDamping: 10,00000
+                HingeSpringStiffness: 100,00000
+                HingeSpringTargetAngle: 0,00000
+                MotorForce: 100,00000
+                MotorRatchetType: !l 0
+                MotorVelocity: 90,00000
+              PivotData:
+                Axis: !l 0
+                Pivot:
+                  - 0,00000
+                  - 0,00000
+                  - -4,90000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 0,00000
+                  - 0,00000
+                  - 0,00000
+                Trans:
+                  - -2860,00000
+                  - 1699,93400
+                  - -3074,00000
+              Type: Hinge
+        Placement: {ID: 13220402961214678964}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,52360
+      SRTHash: !u 1861913486
+      Translate:
+        - -2845,00000
+        - 1702,38400
+        - -3087,75000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Door_A_01
+      Hash: '17305860380619209763'
+      Name: left2
+      Phive:
+        ConstraintLink:
+          ID: 17305860380619209763
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 2,61799
+                  - -1,57080
+                  - 3,14159
+                Trans:
+                  - -2874,00000
+                  - 1702,38400
+                  - -3087,75000
+              ParamData:
+                EnableHingeAngleLimit: true
+                EnableHingeSpring: false
+                EnableMotor: false
+                HingeAngleLimitMax: 0,00000
+                HingeAngleLimitMin: -150,00000
+                HingeFrictionForce: 1,00000
+                HingeSpringDamping: 10,00000
+                HingeSpringStiffness: 100,00000
+                HingeSpringTargetAngle: 0,00000
+                MotorForce: 100,00000
+                MotorRatchetType: !l 0
+                MotorVelocity: 90,00000
+              PivotData:
+                Axis: !l 0
+                Pivot:
+                  - 0,00000
+                  - 0,00000
+                  - -4,90000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 0,00000
+                  - 0,00000
+                  - 0,00000
+                Trans:
+                  - -2860,00000
+                  - 1699,93400
+                  - -3074,00000
+              Type: Hinge
+        Placement: {ID: 17305860380619209763}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - -0,52360
+      SRTHash: !u 1935289538
+      Translate:
+        - -2874,00000
+        - 1702,38400
+        - -3087,75000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Door_A_01
+      Hash: '14398563747058308345'
+      IsPhysicsStable: true
+      Name: left
+      Phive:
+        ConstraintLink:
+          ID: 14398563747058308345
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 0,00000
+                  - -1,57080
+                  - 3,14159
+                Trans:
+                  - -2864,85000
+                  - 1699,93400
+                  - -3087,75000
+              ParamData:
+                EnableHingeAngleLimit: true
+                EnableHingeSpring: false
+                EnableMotor: false
+                HingeAngleLimitMax: 150,00000
+                HingeAngleLimitMin: 0,00000
+                HingeFrictionForce: 1,00000
+                HingeSpringDamping: 10,00000
+                HingeSpringStiffness: 100,00000
+                HingeSpringTargetAngle: 0,00000
+                MotorForce: 100,00000
+                MotorRatchetType: !l 0
+                MotorVelocity: 90,00000
+              PivotData:
+                Axis: !l 0
+                Pivot:
+                  - 0,00000
+                  - 0,00000
+                  - -4,90000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 0,00000
+                  - 0,00000
+                  - 0,00000
+                Trans:
+                  - -2860,00000
+                  - 1699,93400
+                  - -3074,00000
+              Type: Hinge
+        Placement: {ID: 14398563747058308345}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 3,14124
+      SRTHash: !u 4071372137
+      Translate:
+        - -2864,85000
+        - 1699,93200
+        - -3087,75000
+    - Gyaml: Area
+      Hash: '6488017613986350955'
+      Phive:
+        Placement: {ID: 6488017613986350955}
+      SRTHash: !u 2749940914
+      Scale:
+        - 2,00000
+        - 5,00000
+        - 2,00000
+      Translate:
+        - -2878,00000
+        - 1700,43400
+        - -3087,50000
+    - Gyaml: Area
+      Hash: '906398942778912668'
+      Phive:
+        Placement: {ID: 906398942778912668}
+      SRTHash: !u 3349204521
+      Scale:
+        - 2,00000
+        - 5,00000
+        - 2,00000
+      Translate:
+        - -2841,00000
+        - 1700,43400
+        - -3086,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LeverSwitchStick_A
+      Hash: '11553046448506505494'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 11553046448506505494}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - -2,09440
+      SRTHash: !u 3276354219
+      Translate:
+        - -2826,50000
+        - 1623,86700
+        - -3073,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LeverSwitchBace_A
+      Hash: '13107780957284786070'
+      Phive:
+        Placement: {ID: 13107780957284786070}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - 3,14159
+      SRTHash: !u 3931243958
+      Translate:
+        - -2826,50000
+        - 1623,43400
+        - -3073,50000
+    - Bakeable: true
+      Gyaml: DgnObj_SpurGear_WithShaft_LargeDungeonWind
+      Hash: '14561740795786453484'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 14561740795786453484}
+      Rotate:
+        - 1,57080
+        - 0,08727
+        - 0,00000
+      SRTHash: !u 4130759659
+      Translate:
+        - -2873,50000
+        - 1621,43400
+        - -2923,50000
+    - Bakeable: true
+      Dynamic: {MoveDis: '8,00000', Speed: '2,00000'}
+      Gyaml: DgnObj_Small_ShutterFence_A_10
+      Hash: '4209213321305386823'
+      Phive:
+        Placement: {ID: 4209213321305386823}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - 0,00000
+      SRTHash: !u 1367539025
+      Translate:
+        - -2872,00000
+        - 1621,43400
+        - -2914,50000
+    - Dynamic: {RequestEventName: FocusOnGimmick_Basic}
+      Gyaml: EventRequestActor
+      Hash: '7710439938528048922'
+      Links:
+        - {Dst: 11371219625921926789, Gyaml: Reference, Name: Reference, Src: 7710439938528048922}
+        - {Dst: 4209213321305386823, Gyaml: Reference, Name: Reference, Src: 7710439938528048922}
+      Phive:
+        Placement: {ID: 7710439938528048922}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 778815146
+      Translate:
+        - -2872,00000
+        - 1613,43400
+        - -2914,50000
+    - Gyaml: DesignateMatrixActor
+      Hash: '11371219625921926789'
+      Phive:
+        Placement: {ID: 11371219625921926789}
+      Rotate:
+        - -3,14159
+        - 0,00000
+        - -3,14159
+      SRTHash: !u 2064783734
+      Translate:
+        - -2872,00000
+        - 1615,43400
+        - -2919,50000
+    - Bakeable: true
+      ExtraCreateRadius: 200,00000
+      Gyaml: DgnObj_JumpBoard_A_01
+      Hash: '1141595309443509453'
+      Name: jumpdemomove078
+      Phive:
+        Placement: {ID: 1141595309443509453}
+      SRTHash: !u 533258057
+      Translate:
+        - -2750,00000
+        - 1626,95600
+        - -2998,00000
+    - Bakeable: true
+      ExtraCreateRadius: 200,00000
+      Gyaml: DgnObj_JumpBoard_A_01
+      Hash: '14469038612448262064'
+      Name: jumpdemomove079
+      Phive:
+        Placement: {ID: 14469038612448262064}
+      SRTHash: !u 245367793
+      Translate:
+        - -2955,50000
+        - 1567,43400
+        - -2940,50000
+    - Bakeable: true
+      ExtraCreateRadius: 300,00000
+      Gyaml: DgnObj_JumpBoard_A_01
+      Hash: '7898428797266508991'
+      Name: jumpdemomove080
+      Phive:
+        Placement: {ID: 7898428797266508991}
+      SRTHash: !u 3002655091
+      Translate:
+        - -2769,00000
+        - 1519,43400
+        - -3094,00000
+    - Bakeable: true
+      ExtraCreateRadius: 300,00000
+      Gyaml: DgnObj_JumpBoard_A_01
+      Hash: '2542693645193833005'
+      Name: jumpdemomove081
+      Phive:
+        Placement: {ID: 2542693645193833005}
+      SRTHash: !u 261121040
+      Translate:
+        - -2942,50000
+        - 1519,43400
+        - -3094,50000
+    - Bakeable: true
+      ExtraCreateRadius: 200,00000
+      Gyaml: DgnObj_JumpBoard_A_01
+      Hash: '13418723266820965396'
+      Name: jumpdemomove082
+      Phive:
+        Placement: {ID: 13418723266820965396}
+      SRTHash: !u 4207630371
+      Translate:
+        - -2936,00000
+        - 1611,43400
+        - -3067,00000
+    - Bakeable: true
+      ExtraCreateRadius: 200,00000
+      Gyaml: DgnObj_JumpBoard_A_01
+      Hash: '10097436664222440814'
+      Name: jumpdemomove083
+      Phive:
+        Placement: {ID: 10097436664222440814}
+      SRTHash: !u 2567170851
+      Translate:
+        - -2793,50000
+        - 1661,93400
+        - -3047,00000
+    - Bakeable: true
+      ExtraCreateRadius: 200,00000
+      Gyaml: DgnObj_JumpBoard_A_01
+      Hash: '15045513133329380773'
+      Name: jumpdemomove084
+      Phive:
+        Placement: {ID: 15045513133329380773}
+      SRTHash: !u 3177553835
+      Translate:
+        - -2924,00000
+        - 1661,93400
+        - -3043,50000
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '3707773558503239803'
+      Phive:
+        Placement: {ID: 3707773558503239803}
+      SRTHash: !u 3893284687
+      Scale:
+        - 235,00000
+        - 20,00000
+        - 235,00000
+      Translate:
+        - -2859,50000
+        - 1835,43400
+        - -3005,50000
+    - Dynamic: {RequestEventName: Dm_RT_0041}
+      Gyaml: EventRequestActor
+      Hash: '9533164406663830730'
+      Phive:
+        Placement: {ID: 9533164406663830730}
+      SRTHash: !u 3317365238
+      Translate:
+        - -2859,50000
+        - 1845,43400
+        - -3005,50000
+    - Dynamic: {RequestEventName: LargeDungeonWind_BosssDoor_Alone}
+      Gyaml: EventRequestActor
+      Hash: '11049991606844368342'
+      Links:
+        - {Dst: 8185061513238320564, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+        - {Dst: 1641822573652587698, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+        - {Dst: 2268622776824482802, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+        - {Dst: 13418723266820965396, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+        - {Dst: 14864817706883398966, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+        - {Dst: 2542693645193833005, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+        - {Dst: 14469038612448262064, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+        - {Dst: 7392531822921559755, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+        - {Dst: 15045513133329380773, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+        - {Dst: 10033483703293899051, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+        - {Dst: 1141595309443509453, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+        - {Dst: 14595352787124251515, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+        - {Dst: 7898428797266508991, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+        - {Dst: 5939585647679296101, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+        - {Dst: 10097436664222440814, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+        - {Dst: 220741141993319786, Gyaml: Reference, Name: Reference, Src: 11049991606844368342}
+      Phive:
+        Placement: {ID: 11049991606844368342}
+      SRTHash: !u 3267595627
+      Translate:
+        - -2864,72200
+        - 1632,18400
+        - -2979,59500
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '13482577914097903983'
+      Phive:
+        Placement: {ID: 13482577914097903983}
+      SRTHash: !u 1820117004
+      Scale:
+        - 235,00000
+        - 20,00000
+        - 235,00000
+      Translate:
+        - -2859,50000
+        - 1795,43400
+        - -3005,50000
+    - Gyaml: AscendingCurrent_Lanayru_DragonBattle
+      Hash: '7247702441379412178'
+      Phive:
+        Placement: {ID: 7247702441379412178}
+      SRTHash: !u 1169285166
+      Scale:
+        - 13,00000
+        - 39,50000
+        - 13,00000
+      Translate:
+        - -2859,50000
+        - 1616,93400
+        - -3086,50000
+    - Gyaml: AscendingCurrent_Lanayru_DragonBattle
+      Hash: '16026881026943441661'
+      Phive:
+        Placement: {ID: 16026881026943441661}
+      SRTHash: !u 279366290
+      Scale:
+        - 13,00000
+        - 20,00000
+        - 13,00000
+      Translate:
+        - -2859,50000
+        - 1576,93400
+        - -3084,50000
+    - Gyaml: AirWallSage
+      Hash: '14507496617531108557'
+      Phive:
+        Placement: {ID: 14507496617531108557}
+      SRTHash: !u 3691095357
+      Scale:
+        - 8,00000
+        - 10,00000
+        - 20,00000
+      Translate:
+        - -2891,00000
+        - 1586,93400
+        - -3086,50000
+    - Gyaml: Area
+      Hash: '7373220383416276818'
+      Phive:
+        Placement: {ID: 7373220383416276818}
+      SRTHash: !u 708139288
+      Scale:
+        - 10,00000
+        - 10,00000
+        - 10,00000
+      Translate:
+        - -2857,00000
+        - 1602,43400
+        - -3111,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Debris_A_01
+      Hash: '12410018484419065936'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 13915246071650907530, Gyaml: StackInfo, Name: StackInfo, Src: 12410018484419065936}
+      Phive:
+        Placement: {ID: 12410018484419065936}
+      Rotate:
+        - 2,28904
+        - -1,04870
+        - -2,07485
+      SRTHash: !u 141285551
+      Translate:
+        - -2891,53200
+        - 1610,57600
+        - -2964,67700
+    - Dynamic: {Drop__DropActor: Weapon_Sword_101, Drop__DropActor_Attachment: Item_Enemy_67}
+      Gyaml: TBox_Dungeon_Iron
+      Hash: '2083217825983529574'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 2083217825983529574}
+      Rotate:
+        - 0,00326
+        - 0,37074
+        - 0,00171
+      SRTHash: !u 2451548031
+      Translate:
+        - -2891,02900
+        - 1609,43500
+        - -2966,29000
+    - Dynamic: {SageType: !l 4}
+      Gyaml: ChallengeFollowerPlayingAreaBox
+      Hash: '6293210033326185387'
+      Phive:
+        Placement: {ID: 6293210033326185387}
+      Presence: {FlagName: SageOfWind_IsAfter_DefeatEnemy_Exp, IsCheckLazy: false, IsNegation: false}
+      Rotate:
+        - 0,00000
+        - 0,00000
+        - -1,57080
+      SRTHash: !u 483928003
+      Scale:
+        - 200,00000
+        - 300,00000
+        - 400,00000
+      Translate:
+        - -2859,19300
+        - 1623,47000
+        - -2993,08200
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_WaitingBoss_A_01
+      Hash: '3823010692829170451'
+      Phive:
+        Placement: {ID: 3823010692829170451}
+      SRTHash: !u 365407703
+      Translate:
+        - -2859,50000
+        - 1610,43400
+        - -2992,50000
+    - Gyaml: AscendingCurrent_LargeDungeonWind_Weak
+      Hash: '2738084344503704165'
+      Phive:
+        Placement: {ID: 2738084344503704165}
+      SRTHash: !u 3665985019
+      Translate:
+        - -2859,50000
+        - 1622,18400
+        - -2992,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_HatchGear_A_01
+      Hash: '7384828302534187051'
+      Name: FanAroundHatch4
+      Phive:
+        Placement: {ID: 7384828302534187051}
+      Rotate:
+        - 0,00000
+        - 0,52360
+        - 0,00000
+      SRTHash: !u 2618034665
+      Translate:
+        - -2871,10500
+        - 1623,41700
+        - -3012,60100
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_HatchGear_A_01
+      Hash: '9182129213680710398'
+      Name: FanAroundHatch3
+      Phive:
+        Placement: {ID: 9182129213680710398}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 1518620278
+      Translate:
+        - -2882,71000
+        - 1623,41700
+        - -2992,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_HatchGear_A_01
+      Hash: '17239694180058158480'
+      Name: FanAroundHatch2
+      Phive:
+        Placement: {ID: 17239694180058158480}
+      Rotate:
+        - -3,14159
+        - -0,52360
+        - -3,14159
+      SRTHash: !u 3566683644
+      Translate:
+        - -2847,89500
+        - 1623,41700
+        - -2972,39900
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_HatchGear_A_01
+      Hash: '17115059951745692671'
+      Name: FanAroundHatch5
+      Phive:
+        Placement: {ID: 17115059951745692671}
+      Rotate:
+        - 0,00000
+        - -0,52360
+        - 0,00000
+      SRTHash: !u 3071872874
+      Translate:
+        - -2847,89500
+        - 1623,41700
+        - -3012,60100
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_HatchGear_A_01
+      Hash: '7175290266841663030'
+      Name: FanAroundHatch0
+      Phive:
+        Placement: {ID: 7175290266841663030}
+      Rotate:
+        - 3,14159
+        - 0,52360
+        - 3,14159
+      SRTHash: !u 596786027
+      Translate:
+        - -2871,10500
+        - 1623,41700
+        - -2972,40000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_HatchGear_A_01
+      Hash: '17177691897030868142'
+      Name: FanAroundHatch1
+      Phive:
+        Placement: {ID: 17177691897030868142}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 3583774953
+      Translate:
+        - -2836,29000
+        - 1623,41700
+        - -2992,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Hatch_A_02
+      Hash: '6050406304050803435'
+      Name: FanAroundHatch0
+      Phive:
+        Placement: {ID: 6050406304050803435}
+      Rotate:
+        - 0,00000
+        - -0,52360
+        - 0,00000
+      SRTHash: !u 4111846180
+      Translate:
+        - -2859,50000
+        - 1622,13400
+        - -2992,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Hatch_A_02
+      Hash: '2421748177613784393'
+      Name: FanAroundHatch2
+      Phive:
+        Placement: {ID: 2421748177613784393}
+      Rotate:
+        - 0,00000
+        - 0,52360
+        - 0,00000
+      SRTHash: !u 3550619706
+      Translate:
+        - -2859,50000
+        - 1622,13400
+        - -2992,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Hatch_A_02
+      Hash: '14604901636517036334'
+      Name: FanAroundHatch1
+      Phive:
+        Placement: {ID: 14604901636517036334}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 359133004
+      Translate:
+        - -2859,50000
+        - 1622,13400
+        - -2992,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Hatch_A_02
+      Hash: '7296392796774092216'
+      Name: FanAroundHatch5
+      Phive:
+        Placement: {ID: 7296392796774092216}
+      Rotate:
+        - -3,14159
+        - 0,52360
+        - -3,14159
+      SRTHash: !u 2034043505
+      Translate:
+        - -2859,50000
+        - 1622,13400
+        - -2992,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Hatch_A_02
+      Hash: '6566077140073810251'
+      Name: FanAroundHatch3
+      Phive:
+        Placement: {ID: 6566077140073810251}
+      Rotate:
+        - 0,00000
+        - -1,57080
+        - 0,00000
+      SRTHash: !u 3683250195
+      Translate:
+        - -2859,50000
+        - 1622,13400
+        - -2992,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Hatch_A_02
+      Hash: '4322325865305910539'
+      Name: FanAroundHatch4
+      Phive:
+        Placement: {ID: 4322325865305910539}
+      Rotate:
+        - -3,14159
+        - -0,52360
+        - -3,14159
+      SRTHash: !u 3429823070
+      Translate:
+        - -2859,50000
+        - 1622,13400
+        - -2992,50000
+    - Bakeable: true
+      Dynamic: {MoveDis: '15,00000'}
+      Gyaml: DgnObj_LargeDungeonWind_SwitchShutter_A_03
+      Hash: '13390047225535271607'
+      Phive:
+        Placement: {ID: 13390047225535271607}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 1920032857
+      Translate:
+        - -2901,50000
+        - 1592,68400
+        - -2951,25000
+    - Dynamic: {RequestEventName: FocusOnGimmick_Basic}
+      Gyaml: EventRequestActor
+      Hash: '8042566950127896942'
+      Links:
+        - {Dst: 2006407869461370166, Gyaml: Reference, Name: Reference, Src: 8042566950127896942}
+        - {Dst: 13390047225535271607, Gyaml: Reference, Name: Reference, Src: 8042566950127896942}
+      Phive:
+        Placement: {ID: 8042566950127896942}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 1920032857
+      Translate:
+        - -2901,50000
+        - 1592,68400
+        - -2951,25000
+    - Gyaml: DesignateMatrixActor
+      Hash: '2006407869461370166'
+      Phive:
+        Placement: {ID: 2006407869461370166}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 2315826939
+      Translate:
+        - -2892,00000
+        - 1597,68400
+        - -2951,25000
+    - Bakeable: true
+      Dynamic: {MoveDis: '20,00000', Speed: '5,00000'}
+      Gyaml: DgnObj_LargeDungeonWind_SwitchShutter_A_04
+      Hash: '8507247438972079951'
+      Phive:
+        Placement: {ID: 8507247438972079951}
+      SRTHash: !u 1528102565
+      Translate:
+        - -2859,50000
+        - 1600,68400
+        - -3101,00000
+    - Gyaml: DestinationAnchor
+      Hash: '3486873044787744955'
+      Name: Link_Boss_End
+      Phive:
+        Placement: {ID: 3486873044787744955}
+      Rotate:
+        - -3,14159
+        - -0,00424
+        - -3,14159
+      SRTHash: !u 3067674179
+      Translate:
+        - -2859,47600
+        - 2085,43400
+        - -2945,50000
+    - Gyaml: Area
+      Hash: '13942567279345234705'
+      Phive:
+        Placement: {ID: 13942567279345234705}
+      SRTHash: !u 1617844223
+      Scale:
+        - 9,00000
+        - 4,00000
+        - 5,00000
+      Translate:
+        - -2873,00000
+        - 1613,93400
+        - -2909,50000
+    - Gyaml: Obj_HeartUtuwa_A_01
+      Hash: '179908045554235641'
+      Phive:
+        Placement: {ID: 179908045554235641}
+      SRTHash: !u 2561522070
+      Translate:
+        - -2859,50000
+        - 1622,68400
+        - -2983,50000
+    - Dynamic: {EquipmentUser_Shield: Weapon_Shield_101, EquipmentUser_Weapon: Weapon_Sword_101}
+      Gyaml: Enemy_Zonau_Robot_Middle
+      Hash: '10816329323414581435'
+      Phive:
+        Placement: {ID: 10816329323414581435}
+      Rails:
+        - {Dst: 15258401197041325236, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 1135420011
+      Translate:
+        - -2859,50000
+        - 1564,93400
+        - -2988,00000
+    - Dynamic: {EquipmentUser_Weapon: Weapon_Spear_021, IsLevelSensorTarget: true}
+      Gyaml: Enemy_Zonau_Robot_Middle
+      Hash: '2895547988053188473'
+      Phive:
+        Placement: {ID: 2895547988053188473}
+      Rotate:
+        - 3,14159
+        - 0,00000
+        - 3,14159
+      SRTHash: !u 1549772954
+      Translate:
+        - -2869,50000
+        - 1623,43400
+        - -2898,50000
+    - Gyaml: Area
+      Hash: '17915411322696821407'
+      Phive:
+        Placement: {ID: 17915411322696821407}
+      SRTHash: !u 276503344
+      Scale:
+        - 5,00000
+        - 5,00000
+        - 5,00000
+      Translate:
+        - -2871,50000
+        - 1613,97800
+        - -2909,00000
+    - Dynamic: {Drop__DropTable: Ice, EquipmentUser_Attachment_Arrow: IceFruit, EquipmentUser_Bow: Weapon_Bow_105, IsLevelSensorTarget: true}
+      Gyaml: Enemy_Zonau_Robot_Middle
+      Hash: '16279408567809408910'
+      Phive:
+        Placement: {ID: 16279408567809408910}
+      Presence: {FlagName: LargeDungeonWind_AppendEnemy, IsCheckLazy: true, IsNegation: false}
+      Rails:
+        - {Dst: 4176697468866724348, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 1829706510
+      Translate:
+        - -2834,50000
+        - 1623,43400
+        - -3028,00000
+    - Bakeable: true
+      Gyaml: DgnObj_LeverSwitchStick_A
+      Hash: '3140785106371035180'
+      IsPhysicsStable: true
+      Phive:
+        Placement: {ID: 3140785106371035180}
+      Rotate:
+        - -1,57080
+        - 0,52360
+        - -1,57080
+      SRTHash: !u 3887515100
+      Translate:
+        - -2897,60000
+        - 1587,86700
+        - -2943,00000
+    - Bakeable: true
+      Gyaml: DgnObj_LeverSwitchBace_A
+      Hash: '3757918463164345505'
+      Phive:
+        Placement: {ID: 3757918463164345505}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 3699097719
+      Translate:
+        - -2897,60000
+        - 1587,43400
+        - -2943,00000
+    - Dynamic: {RequestEventName: LargeDungeonWind_TalkAboutSageSwitch}
+      Gyaml: EventRequestActor
+      Hash: '13252093713273906360'
+      Links:
+        - {Dst: 16598162583819525581, Gyaml: Reference, Name: Reference, Src: 13252093713273906360}
+      Phive:
+        Placement: {ID: 13252093713273906360}
+      SRTHash: !u 2110795988
+      Translate:
+        - -2827,00000
+        - 1624,93400
+        - -3052,00000
+    - Gyaml: Area
+      Hash: '2789026131749858637'
+      Phive:
+        Placement: {ID: 2789026131749858637}
+      SRTHash: !u 3147836100
+      Scale:
+        - 10,00000
+        - 10,00000
+        - 10,00000
+      Translate:
+        - -2829,50000
+        - 1623,43400
+        - -3050,00000
+    - Dynamic: {RequestEventName: LargeDungeonWind_TalkAboutSageSwitch}
+      Gyaml: EventRequestActor
+      Hash: '13811209338240620294'
+      Links:
+        - {Dst: 6385612507684383106, Gyaml: Reference, Name: Reference, Src: 13811209338240620294}
+      Phive:
+        Placement: {ID: 13811209338240620294}
+      SRTHash: !u 3454903081
+      Translate:
+        - -2851,00000
+        - 1625,43400
+        - -2907,50000
+    - Gyaml: Area
+      Hash: '3381516328961190168'
+      Phive:
+        Placement: {ID: 3381516328961190168}
+      SRTHash: !u 350450026
+      Scale:
+        - 10,00000
+        - 8,00000
+        - 8,00000
+      Translate:
+        - -2853,50000
+        - 1623,93400
+        - -2905,50000
+    - Dynamic: {RequestEventName: LargeDungeonWind_TalkAboutSageSwitch}
+      Gyaml: EventRequestActor
+      Hash: '13909061011935581357'
+      Links:
+        - {Dst: 12102379152659006597, Gyaml: Reference, Name: Reference, Src: 13909061011935581357}
+      Phive:
+        Placement: {ID: 13909061011935581357}
+      SRTHash: !u 1486338389
+      Translate:
+        - -2856,50000
+        - 1601,93400
+        - -3115,00000
+    - Gyaml: Area
+      Hash: '3283853814244853147'
+      Phive:
+        Placement: {ID: 3283853814244853147}
+      SRTHash: !u 1116596796
+      Scale:
+        - 10,00000
+        - 10,00000
+        - 10,00000
+      Translate:
+        - -2859,00000
+        - 1600,43400
+        - -3113,00000
+    - Dynamic: {RequestEventName: LargeDungeonWind_TalkAboutSageSwitch}
+      Gyaml: EventRequestActor
+      Hash: '4636623257612760875'
+      Links:
+        - {Dst: 6383910199485197101, Gyaml: Reference, Name: Reference, Src: 4636623257612760875}
+      Phive:
+        Placement: {ID: 4636623257612760875}
+      SRTHash: !u 1684905831
+      Translate:
+        - -2863,00000
+        - 1588,93400
+        - -3028,50000
+    - Gyaml: Area
+      Hash: '13554482951430847944'
+      Phive:
+        Placement: {ID: 13554482951430847944}
+      SRTHash: !u 1423249152
+      Scale:
+        - 5,50000
+        - 10,00000
+        - 10,00000
+      Translate:
+        - -2865,50000
+        - 1587,43400
+        - -3026,50000
+    - Dynamic: {RequestEventName: LargeDungeonWind_TalkAboutSageSwitch}
+      Gyaml: EventRequestActor
+      Hash: '13344763033033911606'
+      Links:
+        - {Dst: 12355442457013443377, Gyaml: Reference, Name: Reference, Src: 13344763033033911606}
+      Phive:
+        Placement: {ID: 13344763033033911606}
+      SRTHash: !u 183347027
+      Translate:
+        - -2857,00000
+        - 1566,43400
+        - -2985,50000
+    - Gyaml: Area
+      Hash: '5676428378333918844'
+      Phive:
+        Placement: {ID: 5676428378333918844}
+      SRTHash: !u 734889821
+      Scale:
+        - 8,00000
+        - 10,00000
+        - 9,00000
+      Translate:
+        - -2859,50000
+        - 1564,93400
+        - -2983,50000
+    - Bakeable: true
+      ExtraCreateRadius: 85,00000
+      Gyaml: IceWall
+      Hash: '12983262384014723436'
+      Links:
+        - {Dst: 4665211994635275631, Gyaml: FrozenInIce, Name: FrozenInIce, Src: 12983262384014723436}
+        - {Dst: 10225272184570265844, Gyaml: FrozenInIce, Name: FrozenInIce, Src: 12983262384014723436}
+      Phive:
+        Placement: {ID: 12983262384014723436}
+      Rotate:
+        - 0,00000
+        - 0,99773
+        - 0,00000
+      SRTHash: !u 227677951
+      Translate:
+        - -2899,48500
+        - 1623,48400
+        - -3028,31300
+    - Bakeable: true
+      Gyaml: IceWall
+      Hash: '16812857117777292864'
+      Links:
+        - {Dst: 10606762674802339858, Gyaml: FrozenInIce, Name: FrozenInIce, Src: 16812857117777292864}
+        - {Dst: 10885477843895426519, Gyaml: FrozenInIce, Name: FrozenInIce, Src: 16812857117777292864}
+      Phive:
+        Placement: {ID: 16812857117777292864}
+      Rotate:
+        - 0,00000
+        - -0,80088
+        - 0,00000
+      SRTHash: !u 463642569
+      Translate:
+        - -2897,00000
+        - 1587,43400
+        - -3010,15200
+    - Dynamic: {IsLevelSensorTarget: true}
+      Gyaml: Weapon_Bow_105
+      Hash: '4665211994635275631'
+      Phive:
+        Placement: {ID: 4665211994635275631}
+      Rotate:
+        - 1,22862
+        - 0,00000
+        - 0,00000
+      SRTHash: !u 3055211639
+      Translate:
+        - -2899,40300
+        - 1624,65400
+        - -3028,02800
+    - Gyaml: Obj_ArrowBundle_A_01
+      Hash: '10225272184570265844'
+      Phive:
+        Placement: {ID: 10225272184570265844}
+      SRTHash: !u 2984199300
+      Translate:
+        - -2899,31800
+        - 1624,18500
+        - -3027,86700
+    - Bakeable: true
+      Gyaml: SpObj_CookSet_Capsule_A_01
+      Hash: '10606762674802339858'
+      Phive:
+        Placement: {ID: 10606762674802339858}
+      SRTHash: !u 929196193
+      Translate:
+        - -2897,01900
+        - 1587,94000
+        - -3009,92800
+    - Dynamic: {IsNeedAutoSave: true}
+      Gyaml: Area
+      Hash: '5215209083071480984'
+      Phive:
+        Placement: {ID: 5215209083071480984}
+      SRTHash: !u 2310103769
+      Scale:
+        - 10,00000
+        - 10,00000
+        - 10,00000
+      Translate:
+        - -2827,72300
+        - 1587,43400
+        - -2948,50000
+    - Dynamic: {IsNeedAutoSave: true}
+      Gyaml: Area
+      Hash: '12372334425632222499'
+      Phive:
+        Placement: {ID: 12372334425632222499}
+      SRTHash: !u 950404376
+      Scale:
+        - 10,00000
+        - 10,00000
+        - 10,00000
+      Translate:
+        - -2894,24400
+        - 1587,10900
+        - -3025,00000
+    - Dynamic: {ForbiddenAll: false, NonEnemySearch: true}
+      Gyaml: ForbidAutoPlacementAreaBox
+      Hash: '16908235748422929574'
+      Phive:
+        Placement: {ID: 16908235748422929574}
+      SRTHash: !u 347415947
+      Scale:
+        - 12,00000
+        - 25,00000
+        - 5,00000
+      Translate:
+        - -2828,50000
+        - 1587,43400
+        - -2983,75300
+    - Bakeable: true
+      Gyaml: SpObj_TimerBomb_Capsule_A_01
+      Hash: '10885477843895426519'
+      Phive:
+        Placement: {ID: 10885477843895426519}
+      SRTHash: !u 1978254168
+      Translate:
+        - -2897,01900
+        - 1588,62500
+        - -3010,36800
+    - Gyaml: GroundControlActor_ResidentMoveTo
+      Hash: '8260402657505843827'
+      Phive:
+        Placement: {GroupGUID: 6524099427808610134, GroupID: !l 5224, ID: 8260402657505843827}
+      SRTHash: !u 1758468264
+      Translate:
+        - -2849,50000
+        - 1602,93400
+        - -2997,50000
+    - Bakeable: true
+      Gyaml: DgnObj_LargeDungeonWind_Debris_A_01
+      Hash: '13915246071650907530'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 2083217825983529574, Gyaml: StackInfo, Name: StackInfo, Src: 13915246071650907530}
+      Phive:
+        Placement: {ID: 13915246071650907530}
+      Rotate:
+        - -2,93760
+        - -0,24054
+        - -0,27304
+      SRTHash: !u 3391085567
+      Translate:
+        - -2888,61000
+        - 1610,46500
+        - -2966,16700
+    - Dynamic: {NonEnemySearch: true}
+      Gyaml: ForbidAutoPlacementAreaBox
+      Hash: '18002200194359445654'
+      Phive:
+        Placement: {ID: 18002200194359445654}
+      Presence: {FlagName: SageOfWind_IsAfter_CheckTerminal_Exp, IsCheckLazy: false, IsNegation: true}
+      SRTHash: !u 3008176816
+      Scale:
+        - 15,00000
+        - 10,00000
+        - 15,00000
+      Translate:
+        - -2854,65300
+        - 1623,66300
+        - -2972,10200
+    - Dynamic: {Location: LargeDungeonWind_1F}
+      Gyaml: LargeDungeonFloorArea
+      Hash: '2592886314451154106'
+      Phive:
+        Placement: {ID: 2592886314451154106}
+      SRTHash: !u 1439263196
+      Scale:
+        - 60,00000
+        - 17,00000
+        - 150,00000
+      Translate:
+        - -2859,50000
+        - 1624,39300
+        - -3000,02600
+    - Dynamic: {Location: LargeDungeonWind_1F}
+      Gyaml: LargeDungeonFloorArea
+      Hash: '10356510465784096711'
+      Phive:
+        Placement: {ID: 10356510465784096711}
+      SRTHash: !u 244487576
+      Scale:
+        - 30,00000
+        - 30,00000
+        - 25,00000
+      Translate:
+        - -2859,50000
+        - 1648,85600
+        - -3087,49900
+    - Gyaml: Area
+      Hash: '10626453401441176182'
+      Phive:
+        Placement: {ID: 10626453401441176182}
+      SRTHash: !u 1257927690
+      Scale:
+        - 14,00000
+        - 6,00000
+        - 14,00000
+      Translate:
+        - -2859,50000
+        - 1568,87300
+        - -3087,00000
+    - Gyaml: NoEscapeRangeAreaBox
+      Hash: '6512004939870056124'
+      Name: NoEscapeArea_SageOfWind
+      Phive:
+        Placement: {ID: 6512004939870056124}
+      SRTHash: !u 2793335982
+      Scale:
+        - 600,00000
+        - 450,00000
+        - 600,00000
+      Translate:
+        - -2859,50000
+        - 1685,43400
+        - -2992,50000
+    - Bakeable: true
+      Gyaml: SkyObj_Rito_ThinFilmBoard_A_02
+      Hash: '949975808461038522'
+      Phive:
+        Placement: {ID: 949975808461038522}
+      Presence: {FlagName: SageOfWind_IsAfter_DefeatBoss_Exp, IsCheckLazy: false, IsNegation: true}
+      SRTHash: !u 3588615933
+      Translate:
+        - -2830,45900
+        - 1642,93400
+        - -3091,47900
+    - Gyaml: SkyOccluder
+      Hash: '3687729016621128728'
+      Phive:
+        Placement: {ID: 3687729016621128728}
+      Presence: {FlagName: SageOfWind_IsAfter_DefeatBoss_Exp, IsCheckLazy: false, IsNegation: true}
+      SRTHash: !u 693080328
+      Scale:
+        - 2,00000
+        - 2,00000
+        - 2,00000
+      Translate:
+        - -2830,45900
+        - 1642,93400
+        - -3091,47900
+    - Dynamic: {FloorNumber: !l -2, Location: LargeDungeonWind_B2}
+      Gyaml: LargeDungeonFloorArea
+      Hash: '11271028859571648480'
+      Phive:
+        Placement: {ID: 11271028859571648480}
+      SRTHash: !u 860084721
+      Scale:
+        - 5,00000
+        - 5,00000
+        - 14,00000
+      Translate:
+        - -2875,50000
+        - 1575,93400
+        - -3027,00000
+    - Dynamic: {FloorNumber: !l -2, Location: LargeDungeonWind_B2}
+      Gyaml: LargeDungeonFloorArea
+      Hash: '13602081651097987129'
+      Phive:
+        Placement: {ID: 13602081651097987129}
+      Rotate:
+        - 0,59707
+        - 0,00000
+        - 0,00000
+      SRTHash: !u 2833091896
+      Scale:
+        - 5,00000
+        - 5,00000
+        - 13,00000
+      Translate:
+        - -2875,50000
+        - 1569,85000
+        - -3024,87700
+    - Dynamic: {Location: LargeDungeonWind, RigidBodyShapeType: !l 3}
+      Gyaml: LocationArea
+      Hash: '14777753526606376140'
+      Phive:
+        Placement: {ID: 14777753526606376140}
+      SRTHash: !u 331216436
+      Scale:
+        - 150,00000
+        - 10,00000
+        - 150,00000
+      Translate:
+        - -2859,50000
+        - 1485,43400
+        - -3005,50000
+    - Dynamic: {Location: LargeDungeonWind, RigidBodyShapeType: !l 3}
+      Gyaml: LocationArea
+      Hash: '17172666906784374182'
+      Phive:
+        Placement: {ID: 17172666906784374182}
+      SRTHash: !u 2118888846
+      Scale:
+        - 175,00000
+        - 10,00000
+        - 175,00000
+      Translate:
+        - -2859,50000
+        - 1495,43400
+        - -3005,50000
+    - Gyaml: Area
+      Hash: '4675680108953422471'
+      Phive:
+        Placement: {ID: 4675680108953422471}
+      SRTHash: !u 1183206084
+      Scale:
+        - 8,00000
+        - 4,00000
+        - 8,00000
+      Translate:
+        - -2868,50000
+        - 1622,93400
+        - -2905,00000
+    - Dynamic: {RigidBodyShapeType: !l 0}
+      Gyaml: Area
+      Hash: '8843672027837718969'
+      Phive:
+        Placement: {ID: 8843672027837718969}
+      SRTHash: !u 3295800647
+      Scale:
+        - 19,00000
+        - 19,00000
+        - 19,00000
+      Translate:
+        - -2859,50000
+        - 1604,38400
+        - -2992,50000
+    - Gyaml: DestinationAnchor
+      Hash: '10321039702011704272'
+      Name: SwapRestartPosAnchor
+      Phive:
+        Placement: {ID: 10321039702011704272}
+      Rotate:
+        - -3,14159
+        - -0,17453
+        - -3,14159
+      SRTHash: !u 2527650217
+      Translate:
+        - -2854,53000
+        - 1623,43400
+        - -2971,38900
+    - Gyaml: Area
+      Hash: '701590093189762903'
+      Phive:
+        Placement: {ID: 701590093189762903}
+      SRTHash: !u 2829747974
+      Scale:
+        - 6,00000
+        - 8,00000
+        - 12,00000
+      Translate:
+        - -2828,00000
+        - 1587,43400
+        - -2993,50000
+    - Bakeable: true
+      Dynamic: {BancPath: Banc/MainField/Merged/Mrg_12a697d2_Unified_0-0-0-EE33B35B.bcett.byml, PhivePlacementGroupGUID: 1813504151192163622, PhivePlacementId: !l 5220}
+      Gyaml: MergedActorUncond
+      Hash: '14672552283812817172'
+      Phive:
+        Placement: {ID: 14672552283812817172}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 1642717798
+      Translate:
+        - -2882,25000
+        - 1587,43400
+        - -3083,50000
+    - Bakeable: true
+      Dynamic: {BancPath: Banc/MainField/Merged/Mrg_12a697d2_Unified_0-0-0-64223DC7.bcett.byml, PhivePlacementGroupGUID: 5171358951164029943, PhivePlacementId: !l 5223}
+      Gyaml: MergedActorUncond
+      Hash: '4367552799423066276'
+      Phive:
+        Placement: {ID: 4367552799423066276}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 1885963941
+      Translate:
+        - -2899,25000
+        - 1587,43400
+        - -3084,00000
+    - Bakeable: true
+      Dynamic: {BancPath: Banc/MainField/Merged/Mrg_12a697d2_Unified_0-0-0-68DBEF.bcett.byml}
+      Gyaml: MergedActorUncond
+      Hash: '9321779829096508456'
+      Phive:
+        Placement: {ID: 9321779829096508456}
+      SRTHash: !u 2178883925
+      Translate:
+        - -2861,83600
+        - 1621,47900
+        - -3001,02600
+    - Bakeable: true
+      Dynamic: {BancPath: Banc/MainField/Merged/Mrg_12a697d2_Unified_0-0-0-385633B5.bcett.byml, PhivePlacementGroupGUID: 6524099427808610134, PhivePlacementId: !l 5224}
+      Gyaml: MergedActorUncond
+      Hash: '15266234657344932944'
+      Phive:
+        Placement: {ID: 15266234657344932944}
+      Rotate:
+        - 0,00000
+        - 0,00000
+        - 1,57080
+      SRTHash: !u 1674607155
+      Translate:
+        - -2854,00000
+        - 1602,93400
+        - -3002,00000
+    - Bakeable: true
+      Dynamic: {BancPath: Banc/MainField/Merged/Mrg_12a697d2_Unified_0-0-0-150CEF9.bcett.byml}
+      Gyaml: MergedActorUncond
+      Hash: '12842493024734366474'
+      Phive:
+        Placement: {ID: 12842493024734366474}
+      Presence: {FlagName: SageOfWind_IsAfter_DefeatBoss_Exp, IsCheckLazy: false, IsNegation: true}
+      SRTHash: !u 4137801815
+      Translate:
+        - -2857,95800
+        - 1667,76000
+        - -2995,40400
+    - Bakeable: true
+      Dynamic: {BancPath: Banc/MainField/Merged/Mrg_c87fa482_MrgUncond_0-0-0-2B55F073.bcett.byml}
+      Gyaml: MergedActorUncond
+      Hash: '17162118716964689297'
+      Phive:
+        Placement: {ID: 17162118716964689297}
+      Presence: {FlagName: SageOfWind_IsAfter_BossBattle_Exp, IsCheckLazy: true, IsNegation: false}
+      SRTHash: !u 3941941963
+      Translate:
+        - -2859,50000
+        - 1623,41700
+        - -2992,50000
+  AiGroups:
+    - Hash: '50140555186520085'
+      Logic: Logic/Module/LargeDungeonWind_Boss/LargeDungeonWind_Boss_7b36.logic.module.ain
+      References:
+        - {Id: Enemy_DungeonBoss_Rito_0ec8, Path: Enemy_DungeonBoss_Rito_0ec8, Reference: 16817454736981915442}
+        - {Id: Area_df85, Path: Area_df85, Reference: 8746985307684090454}
+        - {Id: Area_f4ec, Path: Area_f4ec, Reference: 5574077269918736026}
+        - {Id: Area_0b55, Path: Area_0b55, Reference: 15028672454631002341}
+        - {Id: Area_6cdb, Path: Area_6cdb, Reference: 13960283695396012774}
+    - Hash: '224457793191880121'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_29ba.logic.module.ain
+      References:
+        - {Id: Test_LeverSwitchStick_A_08cf, Path: _1233/Test_LeverSwitchStick_A_08cf, Reference: 15957090670601982477}
+        - {Id: DgnObj_LeverSwitchBace_A_d6d9, Path: _1233/DgnObj_LeverSwitchBace_A_d6d9, Reference: 13808702842513366714}
+        - {Id: AiGroup, InstanceName: Set_Obj_Lever_1597_cf50, Logic: Logic/Module/Set_Obj_Lever/Set_Obj_Lever_1597.logic.module.ain, Path: _1233/AiGroup}
+        - {Id: EventRequestActor_e597, Path: SS_object_ShutterFenceOnly00_88d3/EventRequestActor_e597, Reference: 3223181588160182251}
+        - {Id: DgnObj_Small_ShutterFence_A_10_b7bb, Path: SS_object_ShutterFenceOnly00_88d3/DgnObj_Small_ShutterFence_A_10_b7bb, Reference: 17751948208791833078}
+        - {Id: DesignateMatrixActor_23cb, Path: SS_object_ShutterFenceOnly00_88d3/DesignateMatrixActor_23cb, Reference: 17773348100500068788}
+        - {Id: AiGroup, InstanceName: ShutterFence_LargeDungeonWind_Logic_1bc8_2aac, Logic: Logic/Module/ShutterFence_LargeDungeonWind_Logic/ShutterFence_LargeDungeonWind_Logic_1bc8.logic.module.ain, Path: SS_object_ShutterFenceOnly00_88d3/AiGroup}
+    - Hash: '250472370555683657'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_61c5.logic.module.ain
+      References:
+        - {Id: GroundControlActor_SimpleMoveTo_c4e4, Path: _b6a4/GroundControlActor_SimpleMoveTo_c4e4, Reference: 1390621722270554690}
+        - {Id: DgnObj_LargeDungeonWind_Oar_A_01_76c3, Path: _b6a4/DgnObj_LargeDungeonWind_Oar_A_01_76c3, Reference: 16473098166601026904}
+        - {Id: AiGroup, InstanceName: DgnObj_LargeDungeonWind_Oar_Move_B_086b_7e30, Logic: Logic/Module/DgnObj_LargeDungeonWind_Oar_Move_B/DgnObj_LargeDungeonWind_Oar_Move_B_086b.logic.module.ain, Path: _b6a4/AiGroup}
+        - {Id: GroundControlActor_SimpleMoveTo_2d61, Path: _cd33/GroundControlActor_SimpleMoveTo_2d61, Reference: 4446323736907807556}
+        - {Id: DgnObj_LargeDungeonWind_Oar_A_01_a2b9, Path: _cd33/DgnObj_LargeDungeonWind_Oar_A_01_a2b9, Reference: 406423351771461059}
+        - {Id: AiGroup, InstanceName: DgnObj_LargeDungeonWind_Oar_Move_A_f534_a14a, Logic: Logic/Module/DgnObj_LargeDungeonWind_Oar_Move_A/DgnObj_LargeDungeonWind_Oar_Move_A_f534.logic.module.ain, Path: _cd33/AiGroup}
+        - {Id: GroundControlActor_SimpleMoveTo_c4e4, Path: _fe12/GroundControlActor_SimpleMoveTo_c4e4, Reference: 3116198416958933102}
+        - {Id: DgnObj_LargeDungeonWind_Oar_A_01_76c3, Path: _fe12/DgnObj_LargeDungeonWind_Oar_A_01_76c3, Reference: 4391771995612441781}
+        - {Id: AiGroup, InstanceName: DgnObj_LargeDungeonWind_Oar_Move_B_086b_c59e, Logic: Logic/Module/DgnObj_LargeDungeonWind_Oar_Move_B/DgnObj_LargeDungeonWind_Oar_Move_B_086b.logic.module.ain, Path: _fe12/AiGroup}
+        - {Id: GroundControlActor_SimpleMoveTo_2d61, Path: _303e/GroundControlActor_SimpleMoveTo_2d61, Reference: 9892562340450059186}
+        - {Id: DgnObj_LargeDungeonWind_Oar_A_01_a2b9, Path: _303e/DgnObj_LargeDungeonWind_Oar_A_01_a2b9, Reference: 15662847698231554471}
+        - {Id: AiGroup, InstanceName: DgnObj_LargeDungeonWind_Oar_Move_A_f534_0456, Logic: Logic/Module/DgnObj_LargeDungeonWind_Oar_Move_A/DgnObj_LargeDungeonWind_Oar_Move_A_f534.logic.module.ain, Path: _303e/AiGroup}
+        - {Id: GroundControlActor_SimpleMoveTo_2d61, Path: _6746/GroundControlActor_SimpleMoveTo_2d61, Reference: 4368802773187685633}
+        - {Id: DgnObj_LargeDungeonWind_Oar_A_01_a2b9, Path: _6746/DgnObj_LargeDungeonWind_Oar_A_01_a2b9, Reference: 8388357773492680200}
+        - {Id: AiGroup, InstanceName: DgnObj_LargeDungeonWind_Oar_Move_A_f534_3b5e, Logic: Logic/Module/DgnObj_LargeDungeonWind_Oar_Move_A/DgnObj_LargeDungeonWind_Oar_Move_A_f534.logic.module.ain, Path: _6746/AiGroup}
+        - {Id: GroundControlActor_SimpleMoveTo_2d61, Path: _6faf/GroundControlActor_SimpleMoveTo_2d61, Reference: 2177019666467090739}
+        - {Id: DgnObj_LargeDungeonWind_Oar_A_01_a2b9, Path: _6faf/DgnObj_LargeDungeonWind_Oar_A_01_a2b9, Reference: 5263361260711723828}
+        - {Id: AiGroup, InstanceName: DgnObj_LargeDungeonWind_Oar_Move_A_f534_43c7, Logic: Logic/Module/DgnObj_LargeDungeonWind_Oar_Move_A/DgnObj_LargeDungeonWind_Oar_Move_A_f534.logic.module.ain, Path: _6faf/AiGroup}
+        - {Id: GroundControlActor_SimpleMoveTo_c4e4, Path: _86db/GroundControlActor_SimpleMoveTo_c4e4, Reference: 17866120003077889227}
+        - {Id: DgnObj_LargeDungeonWind_Oar_A_01_76c3, Path: _86db/DgnObj_LargeDungeonWind_Oar_A_01_76c3, Reference: 17197405407450472511}
+        - {Id: AiGroup, InstanceName: DgnObj_LargeDungeonWind_Oar_Move_B_086b_4e68, Logic: Logic/Module/DgnObj_LargeDungeonWind_Oar_Move_B/DgnObj_LargeDungeonWind_Oar_Move_B_086b.logic.module.ain, Path: _86db/AiGroup}
+        - {Id: GroundControlActor_SimpleMoveTo_c4e4, Path: _95be/GroundControlActor_SimpleMoveTo_c4e4, Reference: 2104214361743109818}
+        - {Id: DgnObj_LargeDungeonWind_Oar_A_01_76c3, Path: _95be/DgnObj_LargeDungeonWind_Oar_A_01_76c3, Reference: 1506299322422305516}
+        - {Id: AiGroup, InstanceName: DgnObj_LargeDungeonWind_Oar_Move_B_086b_5d4b, Logic: Logic/Module/DgnObj_LargeDungeonWind_Oar_Move_B/DgnObj_LargeDungeonWind_Oar_Move_B_086b.logic.module.ain, Path: _95be/AiGroup}
+    - Hash: '1220724298951036586'
+      Logic: Logic/Module/LargeDungeonWind_DoorChimney/LargeDungeonWind_DoorChimney_fe31.logic.module.ain
+      References:
+        - {Id: DgnObj_LargeDungeonWind_Door_A_01_4132, Path: DgnObj_LargeDungeonWind_Door_A_01_4132, Reference: 14398563747058308345}
+        - {Id: Area_5cb3, Path: Area_5cb3, Reference: 6488017613986350955}
+        - {Id: DgnObj_LargeDungeonWind_Door_A_01_900a, Path: DgnObj_LargeDungeonWind_Door_A_01_900a, Reference: 17305860380619209763}
+    - Hash: '1310667874343686874'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_db1d.logic.module.ain
+      References:
+        - {Id: EventRequestActor_b8d5, Path: _8234/EventRequestActor_b8d5, Reference: 16102356091111890111}
+        - {Id: DgnObj_LargeDungeonWind_SwitchShutter_A_05_77ee, Path: _8234/DgnObj_LargeDungeonWind_SwitchShutter_A_05_77ee, Reference: 5580768665962335509}
+        - {Id: DesignateMatrixActor_64ab, Path: _8234/DesignateMatrixActor_64ab, Reference: 5456309156029636712}
+        - {Id: AiGroup, InstanceName: ShutterFence_LargeDungeonWind_B_Logic_a486_5757, Logic: Logic/Module/ShutterFence_LargeDungeonWind_B_Logic/ShutterFence_LargeDungeonWind_B_Logic_a486.logic.module.ain, Path: _8234/AiGroup}
+        - {Id: Test_LeverSwitchStick_A_08cf, Path: _ce4c/Test_LeverSwitchStick_A_08cf, Reference: 841731750573246099}
+        - {Id: DgnObj_LeverSwitchBace_A_d6d9, Path: _ce4c/DgnObj_LeverSwitchBace_A_d6d9, Reference: 7637802930500284268}
+        - {Id: AiGroup, InstanceName: Set_Obj_Lever_1597_8b69, Logic: Logic/Module/Set_Obj_Lever/Set_Obj_Lever_1597.logic.module.ain, Path: _ce4c/AiGroup}
+    - Hash: '1435340304457954664'
+      Logic: Logic/Module/SageOfWind_DungeonSequence/SageOfWind_DungeonSequence_f9b6.logic.module.ain
+      References:
+        - {Id: Area_c03c, Path: Area_c03c, Reference: 9259113553401588877}
+        - {Id: EventRequestActor_49e3, Path: EventRequestActor_49e3, Reference: 604138279464093396}
+        - {Id: EventRequestActor_72d8, Path: EventRequestActor_72d8, Reference: 13500313443732066764}
+        - {Id: Area_045f, Path: Area_045f, Reference: 13353433775977840607}
+        - {Id: Area_2fa0, Path: Area_2fa0, Reference: 4300247037220398538}
+        - {Id: Area_3e43, Path: Area_3e43, Reference: 9122224889874161529}
+        - {Id: Area_5a08, Path: Area_5a08, Reference: 1044068082528695196}
+        - {Id: Area_5ba9, Path: Area_5ba9, Reference: 9607186818263209491}
+        - {Id: Area_ef1d, Path: Area_ef1d, Reference: 9260304709456283619}
+        - {Id: Area_6b8c, Path: Area_6b8c, Reference: 10728936966734422541}
+        - {Id: Area_caa6, Path: Area_caa6, Reference: 18380104059601418653}
+        - {Id: Area_0716, Path: Area_0716, Reference: 9043560357304624817}
+        - {Id: Area_1f40, Path: Area_1f40, Reference: 14096713911854109046}
+        - {Id: Area_abce, Path: Area_abce, Reference: 14117544270423355797}
+        - {Id: Area_ff04, Path: Area_ff04, Reference: 17772785443045871036}
+    - Hash: '1491952171623848891'
+      Logic: Logic/Module/largeDungeonWind_Cannon/largeDungeonWind_Cannon_5f9c.logic.module.ain
+      References:
+        - {Id: DgnObj_LargeDungeonWind_Cannon_A_01_86f9, Path: DgnObj_LargeDungeonWind_Cannon_A_01_86f9, Reference: 13645096082424837189}
+    - Hash: '1570413479290484427'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 5034920037967102482}
+    - Hash: '2182537010682285869'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_ed35.logic.module.ain
+      References:
+        - {Id: EventRequestActor_e597, Path: SS_object_ShutterFenceOnly00_bb5b/EventRequestActor_e597, Reference: 17743788921275663336}
+        - {Id: DgnObj_Small_ShutterFence_A_10_b7bb, Path: SS_object_ShutterFenceOnly00_bb5b/DgnObj_Small_ShutterFence_A_10_b7bb, Reference: 927784606027649510}
+        - {Id: DesignateMatrixActor_23cb, Path: SS_object_ShutterFenceOnly00_bb5b/DesignateMatrixActor_23cb, Reference: 14707859961950762412}
+        - {Id: AiGroup, InstanceName: ShutterFence_LargeDungeonWind_Logic_1bc8_4bc3, Logic: Logic/Module/ShutterFence_LargeDungeonWind_Logic/ShutterFence_LargeDungeonWind_Logic_1bc8.logic.module.ain, Path: SS_object_ShutterFenceOnly00_bb5b/AiGroup}
+        - {Id: Area_167c, Path: Area_167c, Reference: 6769647651311842791}
+        - {Id: Test_LeverSwitchBrokenParts_A_04cc, Path: _dd25/Test_LeverSwitchBrokenParts_A_04cc, Reference: 12117433580931483658}
+        - {Id: DgnObj_LeverSwitchBace_A_2bb6, Path: _dd25/DgnObj_LeverSwitchBace_A_2bb6, Reference: 13943298991787045705}
+        - {Id: AiGroup, InstanceName: Set_Obj_BrokenLever_f787_52b6, Logic: Logic/Module/Set_Obj_BrokenLever/Set_Obj_BrokenLever_f787.logic.module.ain, Path: _dd25/AiGroup}
+    - Hash: '2979140299865110062'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_61ab.logic.module.ain
+      References:
+        - {Id: SpurGearSmall_6509, Path: SpurGearSmall_6509, Reference: 9115383864586258964}
+        - {Id: SwitchGearSmall_65c8, Path: SwitchGearSmall_65c8, Reference: 17718029144832937593}
+        - {Id: DgnObj_ShutterFence_A_04_6c14, Path: DgnObj_ShutterFence_A_04_6c14, Reference: 15629960243246394555}
+        - {Id: Area_83f8, Path: Area_83f8, Reference: 1933730345404634881}
+    - Hash: '3407771238852134794'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_a658.logic.module.ain
+      References:
+        - {Id: Area_a64c, Path: Area_a64c, Reference: 7373220383416276818}
+    - Hash: '5028539833148291577'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 701590093189762903}
+    - Hash: '5138725426734919623'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 809554398072691998}
+    - Hash: '5322130307525327771'
+      Logic: Logic/Module/SageOfWind_DungeonSequence/SageOfWind_DungeonSequence_2f46.logic.module.ain
+      References:
+        - {Id: AnchorAction1_72f1, Path: AnchorAction1_72f1, Reference: 4544752720482699439}
+        - {Id: Npc_Tulin_Sage_b445, Path: Npc_Tulin_Sage_b445, Reference: 9198195316245082575}
+        - {Id: SkyObj_Rito_StonePillar_A_01_19ff, Path: SkyObj_Rito_StonePillar_A_01_19ff, Reference: 9849810750893749641}
+    - Hash: '5965341656247454409'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_6679.logic.module.ain
+      References:
+        - {Id: Area_195d, Path: Area_195d, Reference: 13482577914097903983}
+    - Hash: '6213319362788152105'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_472b.logic.module.ain
+      References:
+        - {Id: ForbidAutoPlacementAreaBox_7f92, Path: ForbidAutoPlacementAreaBox_7f92, Reference: 18002200194359445654}
+    - Hash: '6248398774657114668'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_6ff2.logic.module.ain
+      References:
+        - {Id: DgnObj_LargeDungeonWind_Propeller_02b8, Path: DgnObj_LargeDungeonWind_Propeller_02b8, Reference: 8469852948610318490}
+        - {Id: Area_85c8, Path: Area_85c8, Reference: 7247702441379412178}
+        - {Id: Area_3e02, Path: Area_3e02, Reference: 16026881026943441661}
+    - Hash: '6468704147190741227'
+      Logic: Logic/Module/TalkAboutSageSwitch/TalkAboutSageSwitch_6995.logic.module.ain
+      References:
+        - {Id: Area_46ad, Path: Area_46ad, Reference: 3283853814244853147}
+        - {Id: EventRequestActor_ff38, Path: EventRequestActor_ff38, Reference: 13909061011935581357}
+    - Hash: '6956210272627664622'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_c47b.logic.module.ain
+      References:
+        - {Id: DgnObj_WarpPoint_A_01_09db, Path: DgnObj_WarpPoint_A_01_09db, Reference: 6270655863264061713}
+    - Hash: '6996876640948094508'
+      Logic: Logic/Module/Map_Sky_Rito_AreaSnow_A_05/Map_Sky_Rito_AreaSnow_A_05_86b9.logic.module.ain
+      References:
+        - {Id: SkyOccluder_0369, Path: SkyOccluder_0369, Reference: 3687729016621128728}
+        - {Id: SkyObj_Rito_ThinFilmBoard_A_02_c041, Path: SkyObj_Rito_ThinFilmBoard_A_02_c041, Reference: 949975808461038522}
+    - Hash: '7220327908156990295'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_7d36.logic.module.ain
+      References:
+        - {Id: EventRequestActor_b8d5, Path: _d18e/EventRequestActor_b8d5, Reference: 8042566950127896942}
+        - {Id: DgnObj_LargeDungeonWind_SwitchShutter_A_05_77ee, Path: _d18e/DgnObj_LargeDungeonWind_SwitchShutter_A_05_77ee, Reference: 13390047225535271607}
+        - {Id: DesignateMatrixActor_64ab, Path: _d18e/DesignateMatrixActor_64ab, Reference: 2006407869461370166}
+        - {Id: AiGroup, InstanceName: ShutterFence_LargeDungeonWind_B_Logic_a486_a6b1, Logic: Logic/Module/ShutterFence_LargeDungeonWind_B_Logic/ShutterFence_LargeDungeonWind_B_Logic_a486.logic.module.ain, Path: _d18e/AiGroup}
+        - {Id: Test_LeverSwitchStick_A_08cf, Path: _0fda/Test_LeverSwitchStick_A_08cf, Reference: 3140785106371035180}
+        - {Id: DgnObj_LeverSwitchBace_A_d6d9, Path: _0fda/DgnObj_LeverSwitchBace_A_d6d9, Reference: 3757918463164345505}
+        - {Id: AiGroup, InstanceName: Set_Obj_Lever_1597_ccf7, Logic: Logic/Module/Set_Obj_Lever/Set_Obj_Lever_1597.logic.module.ain, Path: _0fda/AiGroup}
+    - Hash: '7452606396099511439'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_6a73.logic.module.ain
+      References:
+        - {Id: SpurGear_932a, Path: SpurGear_932a, Reference: 14561740795786453484}
+        - {Id: EventRequestActor_e21a, Path: _3d0a/EventRequestActor_e21a, Reference: 7710439938528048922}
+        - {Id: DgnObj_Small_ShutterFence_A_10_e9fa, Path: _3d0a/DgnObj_Small_ShutterFence_A_10_e9fa, Reference: 4209213321305386823}
+        - {Id: DesignateMatrixActor_9023, Path: _3d0a/DesignateMatrixActor_9023, Reference: 11371219625921926789}
+        - {Id: AiGroup, InstanceName: ShutterDence_8x8_Rito_Logic_5a00_a975, Logic: Logic/Module/ShutterDence_8x8_Rito_Logic/ShutterDence_8x8_Rito_Logic_5a00.logic.module.ain, Path: _3d0a/AiGroup}
+        - {Id: Area_3e93, Path: Area_3e93, Reference: 13942567279345234705}
+    - Hash: '7996704712963646355'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_6793.logic.module.ain
+      References:
+        - {Id: FldObj_Terminal_A_01_Event_8988, Path: _9b27/FldObj_Terminal_A_01_Event_8988, Reference: 6385612507684383106}
+        - {Id: EventRequestActor_e732, Path: _9b27/EventRequestActor_e732, Reference: 1349263762710727037}
+        - {Id: AiGroup, InstanceName: TerminalSet_LargeDungeonWInd_0c6f_da17, Logic: Logic/Module/TerminalSet_LargeDungeonWInd/TerminalSet_LargeDungeonWInd_0c6f.logic.module.ain, Path: _9b27/AiGroup}
+        - {Id: FldObj_Terminal_A_01_Event_8988, Path: _c045/FldObj_Terminal_A_01_Event_8988, Reference: 12102379152659006597}
+        - {Id: EventRequestActor_e732, Path: _c045/EventRequestActor_e732, Reference: 10350946645086613299}
+        - {Id: AiGroup, InstanceName: TerminalSet_LargeDungeonWInd_0c6f_ff35, Logic: Logic/Module/TerminalSet_LargeDungeonWInd/TerminalSet_LargeDungeonWInd_0c6f.logic.module.ain, Path: _c045/AiGroup}
+        - {Id: FldObj_Terminal_A_01_Event_8988, Path: _c995/FldObj_Terminal_A_01_Event_8988, Reference: 6383910199485197101}
+        - {Id: EventRequestActor_e732, Path: _c995/EventRequestActor_e732, Reference: 194595367660541900}
+        - {Id: AiGroup, InstanceName: TerminalSet_LargeDungeonWInd_0c6f_0885, Logic: Logic/Module/TerminalSet_LargeDungeonWInd/TerminalSet_LargeDungeonWInd_0c6f.logic.module.ain, Path: _c995/AiGroup}
+        - {Id: FldObj_Terminal_A_01_Event_8988, Path: _cb6b/FldObj_Terminal_A_01_Event_8988, Reference: 12355442457013443377}
+        - {Id: EventRequestActor_e732, Path: _cb6b/EventRequestActor_e732, Reference: 7199467782763098021}
+        - {Id: AiGroup, InstanceName: TerminalSet_LargeDungeonWInd_0c6f_0a5b, Logic: Logic/Module/TerminalSet_LargeDungeonWInd/TerminalSet_LargeDungeonWInd_0c6f.logic.module.ain, Path: _cb6b/AiGroup}
+        - {Id: FldObj_Terminal_A_01_Event_8988, Path: _3fcf/FldObj_Terminal_A_01_Event_8988, Reference: 16598162583819525581}
+        - {Id: EventRequestActor_e732, Path: _3fcf/EventRequestActor_e732, Reference: 12405105163001703881}
+        - {Id: AiGroup, InstanceName: TerminalSet_LargeDungeonWInd_0c6f_7ebf, Logic: Logic/Module/TerminalSet_LargeDungeonWInd/TerminalSet_LargeDungeonWInd_0c6f.logic.module.ain, Path: _3fcf/AiGroup}
+        - {Id: EventRequestActor_45fb, Path: _82f9/EventRequestActor_45fb, Reference: 17724269540620925219}
+        - {Id: SS_object_ShutterFenceOnly00_73ce, Path: _82f9/SS_object_ShutterFenceOnly00_73ce, Reference: 5142858076223792630}
+        - {Id: DesignateMatrixActor_2c49, Path: _82f9/DesignateMatrixActor_2c49, Reference: 11490810683550066428}
+        - {Id: AiGroup, InstanceName: ShutterFence_Logic_142d_05bc, Logic: Logic/Module/ShutterFence_Logic/ShutterFence_Logic_142d.logic.module.ain, Path: _82f9/AiGroup}
+    - Hash: '8070424869027382637'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 5441464134523932885}
+    - Hash: '8550488439712995583'
+      Logic: Logic/Module/TalkAboutSageSwitch/TalkAboutSageSwitch_6995.logic.module.ain
+      References:
+        - {Id: Area_46ad, Path: Area_46ad, Reference: 2789026131749858637}
+        - {Id: EventRequestActor_ff38, Path: EventRequestActor_ff38, Reference: 13252093713273906360}
+    - Hash: '9111068172844705999'
+      Logic: Logic/Module/TalkAboutSageSwitch/TalkAboutSageSwitch_6995.logic.module.ain
+      References:
+        - {Id: Area_46ad, Path: Area_46ad, Reference: 5676428378333918844}
+        - {Id: EventRequestActor_ff38, Path: EventRequestActor_ff38, Reference: 13344763033033911606}
+    - Hash: '9113236950459596559'
+      Logic: Logic/Module/TalkAboutSageSwitch/TalkAboutSageSwitch_6995.logic.module.ain
+      References:
+        - {Id: Area_46ad, Path: Area_46ad, Reference: 3381516328961190168}
+        - {Id: EventRequestActor_ff38, Path: EventRequestActor_ff38, Reference: 13811209338240620294}
+    - Hash: '9945256210168217600'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_0f7e.logic.module.ain
+      References:
+        - {Id: DestinationAnchor_291a, Path: _0d21/DestinationAnchor_291a, Reference: 10321039702011704272}
+        - {Id: Area_73e2, Path: _0d21/Area_73e2, Reference: 8843672027837718969}
+        - {Id: AiGroup, InstanceName: SwapRestartPos_e15f_8e7c, Logic: Logic/Module/SwapRestartPos/SwapRestartPos_e15f.logic.module.ain, Path: _0d21/AiGroup}
+    - Hash: '10393315141064906692'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_4876.logic.module.ain
+      References:
+        - {Id: Area_db97, Path: Area_db97, Reference: 9400635790860734490}
+        - {Id: FldObj_ZonauAlarm_A_01_4069, Path: FldObj_ZonauAlarm_A_01_4069, Reference: 386017846846603477}
+        - {Id: DgnObj_IRBeamDevice_Static_Base_25aa, Path: _9c7a/DgnObj_IRBeamDevice_Static_Base_25aa, Reference: 4869616635716136726}
+        - {Id: DgnObj_IRBeamDevice_Static_Beam_c4f9, Path: _9c7a/DgnObj_IRBeamDevice_Static_Beam_c4f9, Reference: 9515917597814099221}
+        - {Id: AiGroup, InstanceName: IRBeamDevice_7503_3204, Logic: Logic/Module/IRBeamDevice/IRBeamDevice_7503.logic.module.ain, Path: _9c7a/AiGroup}
+        - {Id: DgnObj_IRBeamDevice_Static_Base_25aa, Path: _2f52/DgnObj_IRBeamDevice_Static_Base_25aa, Reference: 16344802029422222509}
+        - {Id: DgnObj_IRBeamDevice_Static_Beam_c4f9, Path: _2f52/DgnObj_IRBeamDevice_Static_Beam_c4f9, Reference: 3449383750260478321}
+        - {Id: AiGroup, InstanceName: IRBeamDevice_7503_c4db, Logic: Logic/Module/IRBeamDevice/IRBeamDevice_7503.logic.module.ain, Path: _2f52/AiGroup}
+        - {Id: DgnObj_IRBeamDevice_Static_Base_25aa, Path: _69a7/DgnObj_IRBeamDevice_Static_Base_25aa, Reference: 3221574192813018841}
+        - {Id: DgnObj_IRBeamDevice_Static_Beam_c4f9, Path: _69a7/DgnObj_IRBeamDevice_Static_Beam_c4f9, Reference: 17328406947073059702}
+        - {Id: AiGroup, InstanceName: IRBeamDevice_7503_ff31, Logic: Logic/Module/IRBeamDevice/IRBeamDevice_7503.logic.module.ain, Path: _69a7/AiGroup}
+        - {Id: DgnObj_IRBeamDevice_Static_Base_25aa, Path: _7063/DgnObj_IRBeamDevice_Static_Base_25aa, Reference: 15859765966775272379}
+        - {Id: DgnObj_IRBeamDevice_Static_Beam_c4f9, Path: _7063/DgnObj_IRBeamDevice_Static_Beam_c4f9, Reference: 4579892763655890536}
+        - {Id: AiGroup, InstanceName: IRBeamDevice_7503_05ec, Logic: Logic/Module/IRBeamDevice/IRBeamDevice_7503.logic.module.ain, Path: _7063/AiGroup}
+        - {Id: DgnObj_IRBeamDevice_Static_Base_25aa, Path: _a5d1/DgnObj_IRBeamDevice_Static_Base_25aa, Reference: 15003231227954494090}
+        - {Id: DgnObj_IRBeamDevice_Static_Beam_c4f9, Path: _a5d1/DgnObj_IRBeamDevice_Static_Beam_c4f9, Reference: 3310235248506550681}
+        - {Id: AiGroup, InstanceName: IRBeamDevice_7503_3b5a, Logic: Logic/Module/IRBeamDevice/IRBeamDevice_7503.logic.module.ain, Path: _a5d1/AiGroup}
+        - {Id: DgnObj_IRBeamDevice_Static_Base_25aa, Path: _8c03/DgnObj_IRBeamDevice_Static_Base_25aa, Reference: 2047232391606566118}
+        - {Id: DgnObj_IRBeamDevice_Static_Beam_c4f9, Path: _8c03/DgnObj_IRBeamDevice_Static_Beam_c4f9, Reference: 17343496200690514625}
+        - {Id: AiGroup, InstanceName: IRBeamDevice_7503_218c, Logic: Logic/Module/IRBeamDevice/IRBeamDevice_7503.logic.module.ain, Path: _8c03/AiGroup}
+        - {Id: DgnObj_IRBeamDevice_Static_Base_25aa, Path: _14b3/DgnObj_IRBeamDevice_Static_Base_25aa, Reference: 16212648988787235491}
+        - {Id: DgnObj_IRBeamDevice_Static_Beam_c4f9, Path: _14b3/DgnObj_IRBeamDevice_Static_Beam_c4f9, Reference: 2715877831132093568}
+        - {Id: AiGroup, InstanceName: IRBeamDevice_7503_aa3c, Logic: Logic/Module/IRBeamDevice/IRBeamDevice_7503.logic.module.ain, Path: _14b3/AiGroup}
+        - {Id: DgnObj_LargeDungeonWind_SwitchShutter_A_04_4db8, Path: DgnObj_LargeDungeonWind_SwitchShutter_A_04_4db8, Reference: 8507247438972079951}
+    - Hash: '10964861800410052222'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_d5f4.logic.module.ain
+      References:
+        - {Id: SS_object_ShutterFenceOnly00_4151, Path: SS_object_ShutterFenceOnly00_4151, Reference: 17705418327141884203}
+    - Hash: '11294323491605004561'
+      Logic: Logic/Module/LargeDungeonWind_Boss/LargeDungeonWind_Boss_c5be.logic.module.ain
+      References:
+        - {Id: Area_e8be, Path: Area_e8be, Reference: 3011577087992986079}
+    - Hash: '11840780725254756182'
+      Logic: Logic/Module/largeDungeonWind_Cannon/largeDungeonWind_Cannon_5f9c.logic.module.ain
+      References:
+        - {Id: DgnObj_LargeDungeonWind_Cannon_A_01_86f9, Path: DgnObj_LargeDungeonWind_Cannon_A_01_86f9, Reference: 4605453201876857175}
+    - Hash: '12381593916441018863'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_6420.logic.module.ain
+      References:
+        - {Id: Area_0361, Path: Area_0361, Reference: 3707773558503239803}
+        - {Id: EventRequestActor_606e, Path: EventRequestActor_606e, Reference: 9533164406663830730}
+    - Hash: '12409604101608165229'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 17157640561044553433}
+    - Hash: '12540189644605619137'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_dd63.logic.module.ain
+      References:
+        - {Id: EnemyLocaterSpeciesZonauRobot_25ce, Path: EnemyLocaterSpeciesZonauRobot_25ce, Reference: 2895547988053188473}
+        - {Id: Area_8ef5, Path: Area_8ef5, Reference: 17915411322696821407}
+        - {Id: Area_c7d0, Path: _631a/Area_c7d0, Reference: 4675680108953422471}
+        - {Id: AiGroup, InstanceName: InvalidateRestartArea_c693_bc0c, Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain, Path: _631a/AiGroup}
+    - Hash: '12893591439129517233'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_bf1d.logic.module.ain
+      References:
+        - {Id: Obj_HeartUtuwa_A_01_ee87, Path: Obj_HeartUtuwa_A_01_ee87, Reference: 179908045554235641}
+    - Hash: '14030617915090518661'
+      Logic: Logic/Module/LargeDungeonWind_DoorChimney/LargeDungeonWind_DoorChimney_e41f.logic.module.ain
+      References:
+        - {Id: DgnObj_LargeDungeonWind_Door_A_01_5f26, Path: DgnObj_LargeDungeonWind_Door_A_01_5f26, Reference: 6275515049541669858}
+        - {Id: Area_4d5a, Path: Area_4d5a, Reference: 906398942778912668}
+        - {Id: DgnObj_LargeDungeonWind_Door_A_01_8343, Path: DgnObj_LargeDungeonWind_Door_A_01_8343, Reference: 13220402961214678964}
+    - Hash: '14361914624909697676'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 10626453401441176182}
+    - Hash: '15150939243841314550'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_4a78.logic.module.ain
+      References:
+        - {Id: EventRequestActor_45fb, Path: _e8d2/EventRequestActor_45fb, Reference: 10841408965218139571}
+        - {Id: SS_object_ShutterFenceOnly00_73ce, Path: _e8d2/SS_object_ShutterFenceOnly00_73ce, Reference: 16998184980351743606}
+        - {Id: DesignateMatrixActor_2c49, Path: _e8d2/DesignateMatrixActor_2c49, Reference: 3746261008784136827}
+        - {Id: AiGroup, InstanceName: ShutterFence_Logic_142d_6b96, Logic: Logic/Module/ShutterFence_Logic/ShutterFence_Logic_142d.logic.module.ain, Path: _e8d2/AiGroup}
+        - {Id: Test_LeverSwitchStick_A_08cf, Path: _bd66/Test_LeverSwitchStick_A_08cf, Reference: 11553046448506505494}
+        - {Id: DgnObj_LeverSwitchBace_A_d6d9, Path: _bd66/DgnObj_LeverSwitchBace_A_d6d9, Reference: 13107780957284786070}
+        - {Id: AiGroup, InstanceName: Set_Obj_Lever_1597_7a83, Logic: Logic/Module/Set_Obj_Lever/Set_Obj_Lever_1597.logic.module.ain, Path: _bd66/AiGroup}
+    - Hash: '15229521884786687502'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_6e77.logic.module.ain
+      References:
+        - {Id: Area_b2c5, Path: Area_b2c5, Reference: 17634331028346183920}
+        - {Id: EventRequestActor_ad8e, Path: EventRequestActor_ad8e, Reference: 5972518190355632930}
+        - {Id: DgnObj_LargeDungeonWind_Hatch_A_01_cfeb, Path: DgnObj_LargeDungeonWind_Hatch_A_01_cfeb, Reference: 8185061513238320564}
+        - {Id: DgnObj_LargeDungeonWind_IceSecretStone_A_01_94a5, Path: DgnObj_LargeDungeonWind_IceSecretStone_A_01_94a5, Reference: 9817323542670390466}
+        - {Id: DgnObj_Terminal_A_01_4852, Path: _ccb4/DgnObj_Terminal_A_01_4852, Reference: 1641822573652587698}
+        - {Id: AiGroup, InstanceName: DgnObj_Terminal_WithAnchor_2e56_9e87, Logic: Logic/Module/DgnObj_Terminal_WithAnchor/DgnObj_Terminal_WithAnchor_2e56.logic.module.ain, Path: _ccb4/AiGroup}
+        - {Id: EventRequestActor_6956, Path: EventRequestActor_6956, Reference: 11049991606844368342}
+        - {Id: Obj_SecretStone_A_01_3358, Path: _4274/Obj_SecretStone_A_01_3358, Reference: 226581661267588918}
+        - {Id: AiGroup, InstanceName: Map_LargeDungeon_SecretStone_A_01_e563_e227, Logic: Logic/Module/Map_LargeDungeon_SecretStone_A_01/Map_LargeDungeon_SecretStone_A_01_e563.logic.module.ain, Path: _4274/AiGroup}
+        - {Id: AscendingCurrent_LargeDungeonWind_Weak_172c, Path: AscendingCurrent_LargeDungeonWind_Weak_172c, Reference: 2738084344503704165}
+        - {Id: DgnObj_LargeDungeonWind_HatchGear_A_01_3a78, Path: DgnObj_LargeDungeonWind_HatchGear_A_01_3a78, Reference: 17177691897030868142}
+        - {Id: DgnObj_LargeDungeonWind_HatchGear_A_01_65a5, Path: DgnObj_LargeDungeonWind_HatchGear_A_01_65a5, Reference: 7175290266841663030}
+        - {Id: DgnObj_LargeDungeonWind_HatchGear_A_01_8030, Path: DgnObj_LargeDungeonWind_HatchGear_A_01_8030, Reference: 7384828302534187051}
+        - {Id: DgnObj_LargeDungeonWind_HatchGear_A_01_b7b9, Path: DgnObj_LargeDungeonWind_HatchGear_A_01_b7b9, Reference: 17115059951745692671}
+        - {Id: DgnObj_LargeDungeonWind_HatchGear_A_01_cad4, Path: DgnObj_LargeDungeonWind_HatchGear_A_01_cad4, Reference: 17239694180058158480}
+        - {Id: DgnObj_LargeDungeonWind_HatchGear_A_01_e94f, Path: DgnObj_LargeDungeonWind_HatchGear_A_01_e94f, Reference: 9182129213680710398}
+        - {Id: DgnObj_LargeDungeonWind_Hatch_A_02_04a7, Path: DgnObj_LargeDungeonWind_Hatch_A_02_04a7, Reference: 6566077140073810251}
+        - {Id: DgnObj_LargeDungeonWind_Hatch_A_02_1340, Path: DgnObj_LargeDungeonWind_Hatch_A_02_1340, Reference: 14604901636517036334}
+        - {Id: DgnObj_LargeDungeonWind_Hatch_A_02_2d85, Path: DgnObj_LargeDungeonWind_Hatch_A_02_2d85, Reference: 6050406304050803435}
+        - {Id: DgnObj_LargeDungeonWind_Hatch_A_02_60d0, Path: DgnObj_LargeDungeonWind_Hatch_A_02_60d0, Reference: 7296392796774092216}
+        - {Id: DgnObj_LargeDungeonWind_Hatch_A_02_7ee6, Path: DgnObj_LargeDungeonWind_Hatch_A_02_7ee6, Reference: 2421748177613784393}
+        - {Id: DgnObj_LargeDungeonWind_Hatch_A_02_fd2e, Path: DgnObj_LargeDungeonWind_Hatch_A_02_fd2e, Reference: 4322325865305910539}
+        - {Id: DgnObj_LargeDungeonWind_WaitingBoss_A_01_18cc, Path: DgnObj_LargeDungeonWind_WaitingBoss_A_01_18cc, Reference: 3823010692829170451}
+        - {Id: GroundControlActor_ResidentMoveTo_5074, Path: GroundControlActor_ResidentMoveTo_5074, Reference: 8260402657505843827}
+    - Hash: '16265174707626528959'
+      Logic: Logic/Module/largeDungeonWind_Cannon/largeDungeonWind_Cannon_5f9c.logic.module.ain
+      References:
+        - {Id: DgnObj_LargeDungeonWind_Cannon_A_01_86f9, Path: DgnObj_LargeDungeonWind_Cannon_A_01_86f9, Reference: 617204742746384654}
+    - Hash: '16764568079052619897'
+      Logic: Logic/Module/TalkAboutSageSwitch/TalkAboutSageSwitch_6995.logic.module.ain
+      References:
+        - {Id: Area_46ad, Path: Area_46ad, Reference: 13554482951430847944}
+        - {Id: EventRequestActor_ff38, Path: EventRequestActor_ff38, Reference: 4636623257612760875}
+    - Hash: '17279308030423995952'
+      Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_c693.logic.module.ain
+      References:
+        - {Id: Area_c7d0, Path: Area_c7d0, Reference: 14682114643383338185}
+    - Hash: '17422880439852782016'
+      Logic: Logic/Module/LargeDungeonWind/LargeDungeonWind_c816.logic.module.ain
+      References:
+        - {Id: GroundControlActor_SimpleMoveTo_51df, Path: GroundControlActor_SimpleMoveTo_51df, Reference: 281581342329269622}
+        - {Id: GroundControlActor_SimpleMoveTo_5b0f, Path: GroundControlActor_SimpleMoveTo_5b0f, Reference: 5458206796942970351}
+        - {Id: DgnObj_IRBeamDevice_Static_Base_25aa, Path: _cde7/DgnObj_IRBeamDevice_Static_Base_25aa, Reference: 17432540567089439401}
+        - {Id: DgnObj_IRBeamDevice_Static_Beam_c4f9, Path: _cde7/DgnObj_IRBeamDevice_Static_Beam_c4f9, Reference: 15337925054195744636}
+        - {Id: AiGroup, InstanceName: IRBeamDevice_7503_6371, Logic: Logic/Module/IRBeamDevice/IRBeamDevice_7503.logic.module.ain, Path: _cde7/AiGroup}
+        - {Id: DgnObj_IRBeamDevice_Static_Base_25aa, Path: _f6a6/DgnObj_IRBeamDevice_Static_Base_25aa, Reference: 10058784184806928344}
+        - {Id: DgnObj_IRBeamDevice_Static_Beam_c4f9, Path: _f6a6/DgnObj_IRBeamDevice_Static_Beam_c4f9, Reference: 5561167984127357837}
+        - {Id: AiGroup, InstanceName: IRBeamDevice_7503_8c30, Logic: Logic/Module/IRBeamDevice/IRBeamDevice_7503.logic.module.ain, Path: _f6a6/AiGroup}
+        - {Id: DgnObj_IRBeamDevice_Static_Base_25aa, Path: _0091/DgnObj_IRBeamDevice_Static_Base_25aa, Reference: 6478487432936926070}
+        - {Id: DgnObj_IRBeamDevice_Static_Beam_c4f9, Path: _0091/DgnObj_IRBeamDevice_Static_Beam_c4f9, Reference: 12079070506746285751}
+        - {Id: AiGroup, InstanceName: IRBeamDevice_7503_961a, Logic: Logic/Module/IRBeamDevice/IRBeamDevice_7503.logic.module.ain, Path: _0091/AiGroup}
+        - {Id: DgnObj_IRBeamDevice_Static_Base_25aa, Path: _9695/DgnObj_IRBeamDevice_Static_Base_25aa, Reference: 4359234100639354006}
+        - {Id: DgnObj_IRBeamDevice_Static_Beam_c4f9, Path: _9695/DgnObj_IRBeamDevice_Static_Beam_c4f9, Reference: 16228187433875484391}
+        - {Id: AiGroup, InstanceName: IRBeamDevice_7503_2c1e, Logic: Logic/Module/IRBeamDevice/IRBeamDevice_7503.logic.module.ain, Path: _9695/AiGroup}
+  FarDeleteGroups:
+    - - 194595367660541900
+      - 1019251142425921310
+      - 1349263762710727037
+      - 2261935291318257601
+      - 2789026131749858637
+      - 3150188809747077132
+      - 3154526769995028760
+      - 3283853814244853147
+      - 3381516328961190168
+      - 4636623257612760875
+      - 5142858076223792630
+      - 5676428378333918844
+      - 6383910199485197101
+      - 6385612507684383106
+      - 6994734968721484805
+      - 7199467782763098021
+      - 7869835096927081641
+      - 8148308869601955023
+      - 9341345957455184430
+      - 10038803242352988263
+      - 10190727762871513668
+      - 10350946645086613299
+      - 10500587146121378875
+      - 10731859317147127784
+      - 11490810683550066428
+      - 12102379152659006597
+      - 12355442457013443377
+      - 12405105163001703881
+      - 12714643868295627188
+      - 13252093713273906360
+      - 13344763033033911606
+      - 13554482951430847944
+      - 13811209338240620294
+      - 13909061011935581357
+      - 14546672289926749462
+      - 14588333559256520782
+      - 14667241248630309140
+      - 15324633833962469991
+      - 16066802153257240599
+      - 16598162583819525581
+      - 17179525226708062344
+      - 17336223380249835845
+      - 17724269540620925219
+    - - 226581661267588918
+      - 1641822573652587698
+      - 2421748177613784393
+      - 2738084344503704165
+      - 3823010692829170451
+      - 4322325865305910539
+      - 5972518190355632930
+      - 6050406304050803435
+      - 6566077140073810251
+      - 7175290266841663030
+      - 7296392796774092216
+      - 7384828302534187051
+      - 8185061513238320564
+      - 8260402657505843827
+      - 9182129213680710398
+      - 9817323542670390466
+      - 11049991606844368342
+      - 14604901636517036334
+      - 17115059951745692671
+      - 17177691897030868142
+      - 17239694180058158480
+      - 17634331028346183920
+    - - 386017846846603477
+      - 2047232391606566118
+      - 2715877831132093568
+      - 3221574192813018841
+      - 3310235248506550681
+      - 3449383750260478321
+      - 4579892763655890536
+      - 4869616635716136726
+      - 8507247438972079951
+      - 9400635790860734490
+      - 9515917597814099221
+      - 15003231227954494090
+      - 15859765966775272379
+      - 16212648988787235491
+      - 16344802029422222509
+      - 17328406947073059702
+      - 17343496200690514625
+    - - 406423351771461059
+      - 1390621722270554690
+      - 1506299322422305516
+      - 2104214361743109818
+      - 2177019666467090739
+      - 3116198416958933102
+      - 4368802773187685633
+      - 4391771995612441781
+      - 4446323736907807556
+      - 5263361260711723828
+      - 8388357773492680200
+      - 9892562340450059186
+      - 15662847698231554471
+      - 16473098166601026904
+      - 17197405407450472511
+      - 17866120003077889227
+    - - 604138279464093396
+      - 1044068082528695196
+      - 4300247037220398538
+      - 9043560357304624817
+      - 9122224889874161529
+      - 9259113553401588877
+      - 9260304709456283619
+      - 9607186818263209491
+      - 10728936966734422541
+      - 13353433775977840607
+      - 13500313443732066764
+      - 14096713911854109046
+      - 14117544270423355797
+      - 17772785443045871036
+      - 18380104059601418653
+    - - 281581342329269622
+      - 4359234100639354006
+      - 5458206796942970351
+      - 5561167984127357837
+      - 6478487432936926070
+      - 10058784184806928344
+      - 12079070506746285751
+      - 15337925054195744636
+      - 16228187433875484391
+      - 17432540567089439401
+    - - 927784606027649510
+      - 6769647651311842791
+      - 12117433580931483658
+      - 13943298991787045705
+      - 14707859961950762412
+      - 17743788921275663336
+    - - 841731750573246099
+      - 5456309156029636712
+      - 5580768665962335509
+      - 7637802930500284268
+      - 16102356091111890111
+    - - 2006407869461370166
+      - 3140785106371035180
+      - 3757918463164345505
+      - 8042566950127896942
+      - 13390047225535271607
+    - - 3223181588160182251
+      - 13808702842513366714
+      - 15957090670601982477
+      - 17751948208791833078
+      - 17773348100500068788
+    - - 3746261008784136827
+      - 10841408965218139571
+      - 11553046448506505494
+      - 13107780957284786070
+      - 16998184980351743606
+    - - 4209213321305386823
+      - 7710439938528048922
+      - 11371219625921926789
+      - 13942567279345234705
+      - 14561740795786453484
+    - - 5574077269918736026
+      - 8746985307684090454
+      - 13960283695396012774
+      - 15028672454631002341
+      - 16817454736981915442
+    - - 1933730345404634881
+      - 9115383864586258964
+      - 15629960243246394555
+      - 17718029144832937593
+    - - 906398942778912668
+      - 6275515049541669858
+      - 13220402961214678964
+    - - 2895547988053188473
+      - 4675680108953422471
+      - 17915411322696821407
+    - - 4544752720482699439
+      - 9198195316245082575
+      - 9849810750893749641
+    - - 4665211994635275631
+      - 10225272184570265844
+      - 12983262384014723436
+    - - 6488017613986350955
+      - 14398563747058308345
+      - 17305860380619209763
+    - - 7247702441379412178
+      - 8469852948610318490
+      - 16026881026943441661
+    - - 10606762674802339858
+      - 10885477843895426519
+      - 16812857117777292864
+    - - 949975808461038522
+      - 3687729016621128728
+    - - 2711645218449881868
+      - 9236800578049459332
+    - - 3707773558503239803
+      - 9533164406663830730
+    - - 8843672027837718969
+      - 10321039702011704272
+    - - 9668759438738380326
+      - 14606584614985142994
+    - - 11049614750253528030
+      - 15483674811188868433
+  FilePath: Work/Banc/Scene/Prefab/LargeDungeonWind.bcett.json
+  PhiveHeader:
+    PlacementGroups:
+      - GroupGUID: 1813504151192163622
+        GroupID: !l 5220
+        ParentGroupGUID: 0
+        ParentLocalID: !l -1
+        Rot:
+          - 3,14159
+          - 1,57080
+          - 3,14159
+        Trans:
+          - -2882,25000
+          - 1587,43400
+          - -3083,50000
+        Type: Default
+      - GroupGUID: 5171358951164029943
+        GroupID: !l 5223
+        ParentGroupGUID: 0
+        ParentLocalID: !l -1
+        Rot:
+          - 3,14159
+          - 1,57080
+          - 3,14159
+        Trans:
+          - -2899,25000
+          - 1587,43400
+          - -3084,00000
+        Type: Default
+      - GroupGUID: 11946618958663195596
+        GroupID: !l 5218
+        ParentGroupGUID: 0
+        ParentLocalID: !l -1
+        Rot:
+          - 3,14159
+          - 1,57080
+          - 2,70526
+        Trans:
+          - -2817,00000
+          - 1577,63400
+          - -3010,95000
+        Type: Default
+      - GroupGUID: 17322180369914105989
+        GroupID: !l 5225
+        ParentGroupGUID: 0
+        ParentLocalID: !l -1
+        Rot:
+          - 1,10715
+          - -1,57080
+          - -0,67082
+        Trans:
+          - -2902,00000
+          - 1577,63400
+          - -3010,95000
+        Type: Default
+      - GroupGUID: 5050110262969830294
+        GroupID: !l 5227
+        ParentGroupGUID: 0
+        ParentLocalID: !l -1
+        Rot:
+          - 3,14159
+          - -1,57080
+          - 2,70526
+        Trans:
+          - -2817,00000
+          - 1577,63400
+          - -3058,17000
+        Type: Default
+      - GroupGUID: 16936080354361665406
+        GroupID: !l 5217
+        ParentGroupGUID: 0
+        ParentLocalID: !l -1
+        Rot:
+          - -1,28901
+          - 1,57080
+          - -0,85268
+        Trans:
+          - -2902,00000
+          - 1577,63400
+          - -3058,17000
+        Type: Default
+      - GroupGUID: 14159990582415993361
+        GroupID: !l 5222
+        ParentGroupGUID: 0
+        ParentLocalID: !l -1
+        Rot:
+          - 1,10715
+          - -1,57080
+          - -0,67082
+        Trans:
+          - -2902,00000
+          - 1577,63400
+          - -2916,51000
+        Type: Default
+      - GroupGUID: 3178608128005470657
+        GroupID: !l 5226
+        ParentGroupGUID: 0
+        ParentLocalID: !l -1
+        Rot:
+          - 1,10715
+          - 1,57080
+          - 1,54348
+        Trans:
+          - -2902,00000
+          - 1577,63400
+          - -2963,75000
+        Type: Default
+      - GroupGUID: 9505293621843469920
+        GroupID: !l 5219
+        ParentGroupGUID: 0
+        ParentLocalID: !l -1
+        Rot:
+          - 3,14159
+          - 1,57080
+          - 2,70526
+        Trans:
+          - -2817,00000
+          - 1577,63400
+          - -2916,51000
+        Type: Default
+      - GroupGUID: 6043385444758377311
+        GroupID: !l 5221
+        ParentGroupGUID: 0
+        ParentLocalID: !l -1
+        Rot:
+          - 3,14159
+          - -1,57080
+          - 2,70526
+        Trans:
+          - -2817,00000
+          - 1577,63400
+          - -2963,75000
+        Type: Default
+      - GroupGUID: 6524099427808610134
+        GroupID: !l 5224
+        ParentGroupGUID: 0
+        ParentLocalID: !l -1
+        Rot:
+          - 0,00000
+          - 0,00000
+          - 1,57080
+        Trans:
+          - -2854,00000
+          - 1602,93400
+          - -3002,00000
+        Type: ResidentMoveTo
+        TypeData:
+          MoveSpeed: 5,00000
+          RotateBasedMoving: false
+          Transforms:
+            - Rot:
+                - 0,00000
+                - 0,00000
+                - 1,57080
+              Trans:
+                - -2854,00000
+                - 1602,93400
+                - -3002,00000
+            - Rot:
+                - 0,00000
+                - 0,00000
+                - 1,57080
+              Trans:
+                - -2854,00000
+                - 1622,68400
+                - -3002,00000
+  PlgGdTable:
+    - {GameDataPath: 'Work/GameData/Entity/LargeDungeonWind_OpenBossDoor.gmdentity.json?LargeDungeonWind_OpenBossDoor', GameDataType: Bool, PlgGuid: 6524099427808610134}
+  Rails:
+    - Gyaml: Guide
+      Hash: '493527393733290629'
+      IsClosed: false
+      Name: Guide
+      Points:
+        - Gyaml: Guide
+          Hash: '8970759143095055323'
+          NextDistance: 44,50000
+          Translate:
+            - -2893,50000
+            - 1623,43400
+            - -2966,50000
+        - Gyaml: Guide
+          Hash: '1039368009423661501'
+          PrevDistance: 44,50000
+          Translate:
+            - -2893,50000
+            - 1623,43400
+            - -3011,00000
+    - Gyaml: Guide
+      Hash: '629795522698381363'
+      IsClosed: false
+      Name: SageOfWind_GoDungeon_Rail
+      Points:
+        - Gyaml: Guide
+          Hash: '13352366686879538299'
+          NextDistance: 17,99609
+          Translate:
+            - -2843,54700
+            - 1641,43400
+            - -2950,78900
+        - Gyaml: Guide
+          Hash: '9200986228547202817'
+          PrevDistance: 17,99609
+          Translate:
+            - -2843,54700
+            - 1623,43800
+            - -2950,78900
+    - Gyaml: Guide
+      Hash: '4176697468866724348'
+      IsClosed: false
+      Name: Guide
+      Points:
+        - Gyaml: Guide
+          Hash: '320614045920659716'
+          NextDistance: 41,50301
+          Translate:
+            - -2835,00000
+            - 1623,43400
+            - -3028,00000
+        - Gyaml: Guide
+          Hash: '17467474454970807940'
+          PrevDistance: 41,50301
+          Translate:
+            - -2876,50000
+            - 1623,43400
+            - -3028,50000
+    - Gyaml: Guide
+      Hash: '4402430804055488117'
+      IsClosed: false
+      Name: Guide
+      Points:
+        - Gyaml: Guide
+          Hash: '15234979021439364190'
+          NextDistance: 19,50031
+          Translate:
+            - -2871,00000
+            - 1587,43400
+            - -3055,50000
+        - Gyaml: Guide
+          Hash: '451589508542135604'
+          NextDistance: 24,61522
+          PrevDistance: 19,50031
+          Translate:
+            - -2890,50000
+            - 1587,43400
+            - -3055,61000
+        - Gyaml: Guide
+          Hash: '1705672184709086942'
+          PrevDistance: 24,61522
+          Translate:
+            - -2890,00000
+            - 1587,43400
+            - -3031,00000
+    - Gyaml: Guide
+      Hash: '4652603282453730371'
+      IsClosed: false
+      Name: Guide
+      Points:
+        - Gyaml: Guide
+          Hash: '11403090594480941742'
+          NextDistance: 18,02530
+          Translate:
+            - -2829,00000
+            - 1644,43400
+            - -3052,98200
+        - Gyaml: Guide
+          Hash: '17676954178294156943'
+          PrevDistance: 18,02530
+          Translate:
+            - -2829,00000
+            - 1644,43400
+            - -3071,00800
+    - Gyaml: Guide
+      Hash: '11022563214731449339'
+      IsClosed: false
+      Name: Guide
+      Points:
+        - Gyaml: Guide
+          Hash: '912638217822551210'
+          NextDistance: 42,00000
+          Translate:
+            - -2827,50000
+            - 1623,43400
+            - -2888,50000
+        - Gyaml: Guide
+          Hash: '466453558421335566'
+          PrevDistance: 42,00000
+          Translate:
+            - -2827,50000
+            - 1623,43400
+            - -2930,50000
+    - Gyaml: Guide
+      Hash: '15258401197041325236'
+      IsClosed: false
+      Name: Guide
+      Points:
+        - Gyaml: Guide
+          Hash: '1495156037042347777'
+          NextDistance: 26,50000
+          Translate:
+            - -2846,50000
+            - 1564,93400
+            - -2988,00000
+        - Gyaml: Guide
+          Hash: '8571640821976062176'
+          PrevDistance: 26,50000
+          Translate:
+            - -2873,00000
+            - 1564,93400
+            - -2988,00000
+  SimultaneousGroups:
+    - - 194595367660541900
+      - 1019251142425921310
+      - 1349263762710727037
+      - 2261935291318257601
+      - 2789026131749858637
+      - 3150188809747077132
+      - 3154526769995028760
+      - 3283853814244853147
+      - 3381516328961190168
+      - 4636623257612760875
+      - 5142858076223792630
+      - 5676428378333918844
+      - 6383910199485197101
+      - 6385612507684383106
+      - 6994734968721484805
+      - 7199467782763098021
+      - 7869835096927081641
+      - 8148308869601955023
+      - 9341345957455184430
+      - 10038803242352988263
+      - 10190727762871513668
+      - 10350946645086613299
+      - 10500587146121378875
+      - 10731859317147127784
+      - 11490810683550066428
+      - 12102379152659006597
+      - 12355442457013443377
+      - 12405105163001703881
+      - 12714643868295627188
+      - 13252093713273906360
+      - 13344763033033911606
+      - 13554482951430847944
+      - 13811209338240620294
+      - 13909061011935581357
+      - 14546672289926749462
+      - 14588333559256520782
+      - 14667241248630309140
+      - 15324633833962469991
+      - 16066802153257240599
+      - 16598162583819525581
+      - 17179525226708062344
+      - 17336223380249835845
+      - 17724269540620925219
+    - - 226581661267588918
+      - 1641822573652587698
+      - 2421748177613784393
+      - 2738084344503704165
+      - 3823010692829170451
+      - 4322325865305910539
+      - 5972518190355632930
+      - 6050406304050803435
+      - 6566077140073810251
+      - 7175290266841663030
+      - 7296392796774092216
+      - 7384828302534187051
+      - 8185061513238320564
+      - 8260402657505843827
+      - 9182129213680710398
+      - 9817323542670390466
+      - 11049991606844368342
+      - 14604901636517036334
+      - 17115059951745692671
+      - 17177691897030868142
+      - 17239694180058158480
+      - 17634331028346183920
+    - - 386017846846603477
+      - 2047232391606566118
+      - 2715877831132093568
+      - 3221574192813018841
+      - 3310235248506550681
+      - 3449383750260478321
+      - 4579892763655890536
+      - 4869616635716136726
+      - 8507247438972079951
+      - 9400635790860734490
+      - 9515917597814099221
+      - 15003231227954494090
+      - 15859765966775272379
+      - 16212648988787235491
+      - 16344802029422222509
+      - 17328406947073059702
+      - 17343496200690514625
+    - - 406423351771461059
+      - 1390621722270554690
+      - 1506299322422305516
+      - 2104214361743109818
+      - 2177019666467090739
+      - 3116198416958933102
+      - 4368802773187685633
+      - 4391771995612441781
+      - 4446323736907807556
+      - 5263361260711723828
+      - 8388357773492680200
+      - 9892562340450059186
+      - 15662847698231554471
+      - 16473098166601026904
+      - 17197405407450472511
+      - 17866120003077889227
+    - - 604138279464093396
+      - 1044068082528695196
+      - 4300247037220398538
+      - 9043560357304624817
+      - 9122224889874161529
+      - 9259113553401588877
+      - 9260304709456283619
+      - 9607186818263209491
+      - 10728936966734422541
+      - 13353433775977840607
+      - 13500313443732066764
+      - 14096713911854109046
+      - 14117544270423355797
+      - 17772785443045871036
+      - 18380104059601418653
+    - - 281581342329269622
+      - 4359234100639354006
+      - 5458206796942970351
+      - 5561167984127357837
+      - 6478487432936926070
+      - 10058784184806928344
+      - 12079070506746285751
+      - 15337925054195744636
+      - 16228187433875484391
+      - 17432540567089439401
+    - - 927784606027649510
+      - 6769647651311842791
+      - 12117433580931483658
+      - 13943298991787045705
+      - 14707859961950762412
+      - 17743788921275663336
+    - - 841731750573246099
+      - 5456309156029636712
+      - 5580768665962335509
+      - 7637802930500284268
+      - 16102356091111890111
+    - - 1933730345404634881
+      - 9115383864586258964
+      - 15629960243246394555
+      - 16163030812287403301
+      - 17718029144832937593
+    - - 2006407869461370166
+      - 3140785106371035180
+      - 3757918463164345505
+      - 8042566950127896942
+      - 13390047225535271607
+    - - 3223181588160182251
+      - 13808702842513366714
+      - 15957090670601982477
+      - 17751948208791833078
+      - 17773348100500068788
+    - - 3746261008784136827
+      - 10841408965218139571
+      - 11553046448506505494
+      - 13107780957284786070
+      - 16998184980351743606
+    - - 4209213321305386823
+      - 7710439938528048922
+      - 11371219625921926789
+      - 13942567279345234705
+      - 14561740795786453484
+    - - 5574077269918736026
+      - 8746985307684090454
+      - 13960283695396012774
+      - 15028672454631002341
+      - 16817454736981915442
+    - - 906398942778912668
+      - 6275515049541669858
+      - 13220402961214678964
+    - - 2895547988053188473
+      - 4675680108953422471
+      - 17915411322696821407
+    - - 4544752720482699439
+      - 9198195316245082575
+      - 9849810750893749641
+    - - 4665211994635275631
+      - 10225272184570265844
+      - 12983262384014723436
+    - - 6488017613986350955
+      - 14398563747058308345
+      - 17305860380619209763
+    - - 7247702441379412178
+      - 8469852948610318490
+      - 16026881026943441661
+    - - 10606762674802339858
+      - 10885477843895426519
+      - 16812857117777292864
+    - - 949975808461038522
+      - 3687729016621128728
+    - - 2711645218449881868
+      - 9236800578049459332
+    - - 3707773558503239803
+      - 9533164406663830730
+    - - 8843672027837718969
+      - 10321039702011704272
+    - - 9668759438738380326
+      - 14606584614985142994
+    - - 11049614750253528030
+      - 15483674811188868433

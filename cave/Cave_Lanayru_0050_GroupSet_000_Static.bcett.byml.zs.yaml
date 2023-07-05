@@ -1,0 +1,51 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_Lanayru_0050
+      Hash: '13974240225542688642'
+      Phive:
+        Placement: {ID: 13974240225542688642}
+      SRTHash: !u 3492709063
+      Translate:
+        - 1726,00000
+        - 133,72620
+        - -161,20000
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '2747136507639067374'
+      Phive:
+        Placement: {ID: 2747136507639067374}
+      SRTHash: !u 3504899474
+      Scale:
+        - 40,00000
+        - 135,00000
+        - 40,00000
+      Translate:
+        - 1726,00000
+        - -166,27380
+        - -161,20000
+    - Bakeable: true
+      Gyaml: Miasma_DeepHole_Normal
+      Hash: '2432656408081424630'
+      Phive:
+        Placement: {ID: 2432656408081424630}
+      SRTHash: !u 6945466
+      Scale:
+        - 3,80000
+        - 14,63636
+        - 3,80000
+      Translate:
+        - 1726,04200
+        - -142,14530
+        - -159,46990
+  AiGroups:
+    - Hash: '6673134222600393473'
+      Logic: Logic/Module/DeepHole_Common_LoadMinusFieldForceCounter/DeepHole_Common_LoadMinusFieldForceCounter_a437.logic.module.ain
+      References:
+        - {Id: Area_e397, Path: Area_e397, Reference: 2747136507639067374}
+  FilePath: Work/Banc/Scene/Prefab/Cave_Lanayru_0050_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []

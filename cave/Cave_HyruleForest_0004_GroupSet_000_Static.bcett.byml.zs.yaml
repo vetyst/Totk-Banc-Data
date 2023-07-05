@@ -1,0 +1,110 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_HyruleForest_0004
+      Hash: '645208444434246480'
+      Phive:
+        Placement: {ID: 645208444434246480}
+      Rotate:
+        - 0,00000
+        - -1,24102
+        - 0,00000
+      SRTHash: !u 3888370271
+      Translate:
+        - 418,47000
+        - 250,00000
+        - -2187,69000
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '4037809050423093063'
+      Phive:
+        Placement: {ID: 4037809050423093063}
+      SRTHash: !u 899372558
+      Scale:
+        - 20,00000
+        - 290,00000
+        - 20,00000
+      Translate:
+        - 415,89010
+        - -350,00000
+        - -2186,89100
+    - Bakeable: true
+      Gyaml: Miasma_DeepHole_Sparse
+      Hash: '12513009201163824929'
+      Phive:
+        Placement: {ID: 12513009201163824929}
+      SRTHash: !u 1054694216
+      Scale:
+        - 3,00000
+        - 33,73254
+        - 3,00000
+      Translate:
+        - 418,47000
+        - -434,19730
+        - -2187,69000
+    - Bakeable: true
+      Gyaml: Miasma_DeepHole_Sparse
+      Hash: '12662752483437371084'
+      Phive:
+        Placement: {ID: 12662752483437371084}
+      SRTHash: !u 1411009408
+      Scale:
+        - 1,00000
+        - 0,92270
+        - 1,00000
+      Translate:
+        - 418,47000
+        - 236,95160
+        - -2187,69000
+    - Bakeable: true
+      Gyaml: TwnObj_Village_Korok_DekuTree_A_08
+      Hash: '3874127509952320456'
+      Links:
+        - {Dst: 10565739767235622361, Gyaml: Reference, Name: Reference, Src: 3874127509952320456}
+      Phive:
+        Placement: {ID: 3874127509952320456}
+      Rotate:
+        - 0,00000
+        - -1,24102
+        - 0,00000
+      SRTHash: !u 3888370271
+      Translate:
+        - 418,47000
+        - 250,00000
+        - -2187,69000
+    - Bakeable: true
+      Gyaml: TwnObj_Village_Korok_DekuTree_A_08_Far
+      Hash: '10565739767235622361'
+      Phive:
+        Placement: {ID: 3874127509952320456}
+      Rotate:
+        - 0,00000
+        - -1,24102
+        - 0,00000
+      SRTHash: !u 3888370271
+      Translate:
+        - 418,47000
+        - 250,00000
+        - -2187,69000
+  AiGroups:
+    - Hash: '9128191856555288754'
+      Logic: Logic/Module/DeepHole_Common_LoadMinusFieldForceCounter/DeepHole_Common_LoadMinusFieldForceCounter_a437.logic.module.ain
+      References:
+        - {Id: Area_e397, Path: Area_e397, Reference: 4037809050423093063}
+    - Hash: '14552404713490630048'
+      Logic: Logic/Module/Cave_HyruleForest_0004_GroupSet_000/Cave_HyruleForest_0004_GroupSet_000_d5da.logic.module.ain
+      References:
+        - {Id: Miasma_DeepHole_Sparse_4aec, Path: Miasma_DeepHole_Sparse_4aec, Reference: 12513009201163824929}
+        - {Id: Miasma_DeepHole_Sparse_8768, Path: Miasma_DeepHole_Sparse_8768, Reference: 12662752483437371084}
+  FarDeleteGroups:
+    - - 12513009201163824929
+      - 12662752483437371084
+  FilePath: Work/Banc/Scene/Prefab/Cave_HyruleForest_0004_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  SimultaneousGroups:
+    - - 12513009201163824929
+      - 12662752483437371084

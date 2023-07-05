@@ -1,0 +1,2215 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Enemy_Dragon_Fire
+      Hash: '9519627828885948178'
+      Phive:
+        Placement: {ID: 9519627828885948178}
+      Rails:
+        - {Dst: 3760915749080096011, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 3237432639
+      Translate:
+        - 4032,00000
+        - -350,00000
+        - -2181,00000
+    - Gyaml: Enemy_Dragon_Ice
+      Hash: '2201151758404492269'
+      Phive:
+        Placement: {ID: 2201151758404492269}
+      Rails:
+        - {Dst: 6223056947015804777, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 1480066688
+      Translate:
+        - 3600,00000
+        - -300,00000
+        - 1345,00000
+    - Gyaml: Enemy_Dragon_Electric
+      Hash: '18061851483618616024'
+      Phive:
+        Placement: {ID: 18061851483618616024}
+      Rails:
+        - {Dst: 9327396586535976721, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 4000194718
+      Translate:
+        - -2477,00000
+        - -300,00000
+        - 3100,00000
+    - Bakeable: true
+      Dynamic: {EnableBeforehandLoadEventRange: '400,00000', RequestEventName: Grab_MasterSword}
+      Gyaml: Weapon_Sword_070_ForGrabEvent
+      Hash: '12782309265692402625'
+      Links:
+        - {Dst: 9638922153370470329, Gyaml: Reference, Name: Reference, Src: 12782309265692402625}
+      Phive:
+        Placement: {ID: 12782309265692402625}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 2048154811
+      Translate:
+        - 150,00000
+        - 1710,00000
+        - 350,00000
+    - Gyaml: Enemy_Dragon_Light_001
+      Hash: '9638922153370470329'
+      Phive:
+        Placement: {ID: 9638922153370470329}
+      Rails:
+        - {Dst: 11451571314453521569, Gyaml: Reference, Name: Reference}
+        - {Dst: 9776055386496242430, Gyaml: Reference, Name: Reference}
+        - {Dst: 13407019102230002153, Gyaml: Reference, Name: Reference}
+        - {Dst: 652363682704881090, Gyaml: Reference, Name: Reference}
+        - {Dst: 2403614233851902047, Gyaml: Reference, Name: Reference}
+      Rotate:
+        - 0,00000
+        - 1,57080
+        - 0,00000
+      SRTHash: !u 1416588447
+      Translate:
+        - 150,00000
+        - 1700,00000
+        - 350,00000
+  AiGroups:
+    - Hash: '8276763394640599679'
+      Logic: Logic/Module/Enemy_Dragon_Light_MasterSword/Enemy_Dragon_Light_MasterSword_4a15.logic.module.ain
+      References:
+        - {Id: Enemy_Dragon_Light_001_f71a, Path: Enemy_Dragon_Light_001_f71a, Reference: 9638922153370470329}
+        - {Id: Weapon_Sword_070_ForGrabEvent_a7b7, Path: Weapon_Sword_070_ForGrabEvent_a7b7, Reference: 12782309265692402625}
+  FarDeleteGroups:
+    - - 9638922153370470329
+      - 12782309265692402625
+  FilePath: Work/Banc/Scene/Prefab/Set_DragonRail.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
+  Rails:
+    - Dynamic: {IsEnabledGameDataFlagName: IsEnabled_LowRail_For_DragonLight, UniqueName: Low_Rail_For_Dragon_Light_Inter}
+      Gyaml: DragonConnectable
+      Hash: '652363682704881090'
+      IsClosed: false
+      Name: DragonConnectable
+      Points:
+        - Gyaml: DragonConnectable
+          Hash: '18179927120142931092'
+          NextDistance: 816,98880
+          Translate:
+            - 4490,10900
+            - 600,00000
+            - -1600,00000
+        - Control0:
+            - 3854,43300
+            - 655,00000
+            - -1747,68200
+          Control1:
+            - 3554,43300
+            - 745,00000
+            - -1847,68200
+          Gyaml: DragonConnectable
+          Hash: '6978096442378266725'
+          NextDistance: 743,98220
+          PrevDistance: 816,98880
+          Translate:
+            - 3704,43300
+            - 700,00000
+            - -1797,68200
+        - Connections:
+            - {RailHash: '11451571314453521569', RailPointIndex: !l 0}
+          Control0:
+            - 3200,00000
+            - 800,00000
+            - -2000,00000
+          Control1:
+            - 2800,00000
+            - 800,00000
+            - -2000,00000
+          Gyaml: DragonConnectable
+          Hash: '11244871115724493354'
+          PrevDistance: 743,98220
+          Translate:
+            - 3000,00000
+            - 800,00000
+            - -2000,00000
+    - Dynamic: {IsEnabledGameDataFlagName: IsEnabled_HighRail_For_DragonLight, UniqueName: High_Rail_For_Dragon_Light_Inter}
+      Gyaml: DragonConnectable
+      Hash: '2403614233851902047'
+      IsClosed: false
+      Name: DragonConnectable
+      Points:
+        - Gyaml: DragonConnectable
+          Hash: '14770849564055105381'
+          NextDistance: 1293,95600
+          Translate:
+            - 4441,08700
+            - 600,00000
+            - -1650,00000
+        - Control0:
+            - 3451,12900
+            - 950,00000
+            - -1596,89700
+          Control1:
+            - 3051,12900
+            - 1250,00000
+            - -1596,89700
+          Gyaml: DragonConnectable
+          Hash: '9526777457307033517'
+          NextDistance: 1002,50800
+          PrevDistance: 1293,95600
+          Translate:
+            - 3251,12900
+            - 1100,00000
+            - -1596,89700
+        - Connections:
+            - {RailHash: '9776055386496242430', RailPointIndex: !l 11}
+          Control0:
+            - 2650,00000
+            - 1600,00000
+            - -2000,00000
+          Control1:
+            - 2350,00000
+            - 1600,00000
+            - -2000,00000
+          Gyaml: DragonConnectable
+          Hash: '3332044801402553427'
+          PrevDistance: 1002,50800
+          Translate:
+            - 2500,00000
+            - 1600,00000
+            - -2000,00000
+    - Dynamic: {UniqueName: Rail_For_Dragon_Fire}
+      Gyaml: DragonConnectable
+      Hash: '3760915749080096011'
+      IsClosed: true
+      Name: DragonConnectable
+      Points:
+        - Gyaml: DragonConnectable
+          Hash: '12076667265191617029'
+          NextDistance: 65,00035
+          PrevDistance: 211,00000
+          Translate:
+            - 4032,00000
+            - 50,00000
+            - -2181,00000
+        - Control0:
+            - 4031,79400
+            - 65,91048
+            - -2181,11300
+          Control1:
+            - 4032,20600
+            - 164,08950
+            - -2180,88700
+          Dynamic: {ASTargetBlendRate: '1,00000', ASTargetBlendTransitionSec: '4,00000'}
+          Gyaml: DragonConnectable
+          Hash: '3706433958958829831'
+          NextDistance: 444,06480
+          PrevDistance: 65,00035
+          Translate:
+            - 4032,00000
+            - 115,00000
+            - -2181,00000
+        - Control0:
+            - 4069,70800
+            - 398,38270
+            - -2192,87000
+          Control1:
+            - 4462,29200
+            - 387,94110
+            - -2488,13000
+          Gyaml: DragonConnectable
+          Hash: '17554621490789878940'
+          NextDistance: 291,83650
+          PrevDistance: 444,06480
+          Translate:
+            - 4266,00000
+            - 393,16190
+            - -2340,50000
+        - Control0:
+            - 4449,51500
+            - 386,85600
+            - -2477,59800
+          Control1:
+            - 4550,48500
+            - 381,46170
+            - -2551,66300
+          Gyaml: DragonConnectable
+          Hash: '11046765890486947300'
+          NextDistance: 655,53450
+          PrevDistance: 291,83650
+          Translate:
+            - 4500,00000
+            - 384,15880
+            - -2514,63000
+        - Control0:
+            - 4793,00000
+            - 370,00000
+            - -2783,76400
+          Control1:
+            - 4607,00000
+            - 370,00000
+            - -3416,23600
+          Gyaml: DragonConnectable
+          Hash: '15984106084947892473'
+          NextDistance: 840,97910
+          PrevDistance: 655,53450
+          Translate:
+            - 4700,00000
+            - 370,00000
+            - -3100,00000
+        - Control0:
+            - 4210,23500
+            - 506,21160
+            - -3320,48400
+          Control1:
+            - 3789,76400
+            - 693,78830
+            - -3287,76700
+          Gyaml: DragonConnectable
+          Hash: '9585652876119802634'
+          NextDistance: 340,15320
+          PrevDistance: 840,97910
+          Translate:
+            - 4000,00000
+            - 600,00000
+            - -3304,12500
+        - Control0:
+            - 3737,95100
+            - 721,60660
+            - -3321,59800
+          Control1:
+            - 3666,04900
+            - 771,15240
+            - -3370,40200
+          Gyaml: DragonConnectable
+          Hash: '12124360245549033652'
+          NextDistance: 498,70970
+          PrevDistance: 340,15320
+          Translate:
+            - 3702,00000
+            - 746,37950
+            - -3346,00000
+        - Control0:
+            - 3508,30400
+            - 830,12680
+            - -3535,80200
+          Control1:
+            - 3015,69600
+            - 829,87320
+            - -3524,19800
+          Gyaml: DragonConnectable
+          Hash: '7694278359961013197'
+          NextDistance: 989,59940
+          PrevDistance: 498,70970
+          Translate:
+            - 3262,00000
+            - 830,00000
+            - -3530,00000
+        - Control0:
+            - 2515,00000
+            - 714,95720
+            - -3300,00000
+          Control1:
+            - 2115,00000
+            - 645,04280
+            - -3300,00000
+          Gyaml: DragonConnectable
+          Hash: '13337248432455190448'
+          NextDistance: 458,70790
+          PrevDistance: 989,59940
+          Translate:
+            - 2315,00000
+            - 680,00000
+            - -3300,00000
+        - Control0:
+            - 1987,17600
+            - 650,20550
+            - -3357,77200
+          Control1:
+            - 1764,82400
+            - 649,79450
+            - -3462,22800
+          Gyaml: DragonConnectable
+          Hash: '10566203800168538078'
+          NextDistance: 399,02210
+          PrevDistance: 458,70790
+          Translate:
+            - 1876,00000
+            - 650,00000
+            - -3410,00000
+        - Control0:
+            - 1635,19000
+            - 650,00020
+            - -3570,23300
+          Control1:
+            - 1398,81000
+            - 649,99980
+            - -3583,76700
+          Gyaml: DragonConnectable
+          Hash: '18285184274177169463'
+          NextDistance: 1022,92100
+          PrevDistance: 399,02210
+          Translate:
+            - 1517,00000
+            - 650,00000
+            - -3577,00000
+        - Control0:
+            - 779,09890
+            - 614,62270
+            - -3555,06400
+          Control1:
+            - 220,90110
+            - 565,37730
+            - -3444,93600
+          Gyaml: DragonConnectable
+          Hash: '6287051493652242088'
+          NextDistance: 492,49340
+          PrevDistance: 1022,92100
+          Translate:
+            - 500,00000
+            - 590,00000
+            - -3500,00000
+        - Control0:
+            - 123,38160
+            - 532,41140
+            - -3314,42500
+          Control1:
+            - 52,01301
+            - 507,58860
+            - -3213,91000
+          Gyaml: DragonConnectable
+          Hash: '660844453322985976'
+          NextDistance: 192,37140
+          PrevDistance: 492,49340
+          Translate:
+            - 87,69730
+            - 520,00000
+            - -3264,16800
+        - Control0:
+            - 27,76885
+            - 491,26720
+            - -3166,56100
+          Control1:
+            - -37,77750
+            - 427,25570
+            - -3048,85000
+          Dynamic: {ASTargetBlendRate: '0,10000', ASTargetBlendTransitionSec: '4,00000'}
+          Gyaml: DragonConnectable
+          Hash: '15838524351013945802'
+          NextDistance: 222,05940
+          PrevDistance: 192,37140
+          Translate:
+            - -5,00433
+            - 459,26140
+            - -3107,70600
+        - Control0:
+            - -70,00000
+            - 370,00000
+            - -2985,00000
+          Control1:
+            - -70,00000
+            - 230,00000
+            - -2985,00000
+          Gyaml: DragonConnectable
+          Hash: '10388601674503136032'
+          NextDistance: 550,00090
+          PrevDistance: 222,05940
+          Translate:
+            - -70,00000
+            - 300,00000
+            - -2985,00000
+        - Control0:
+            - -70,00000
+            - -150,00000
+            - -2984,00000
+          Control1:
+            - -70,00000
+            - -350,00000
+            - -2984,00000
+          Gyaml: DragonConnectable
+          Hash: '7334660961232004450'
+          NextDistance: 194,17630
+          PrevDistance: 550,00090
+          Translate:
+            - -70,00000
+            - -250,00000
+            - -2984,00000
+        - Control0:
+            - -40,96387
+            - -350,14720
+            - -3061,54900
+          Control1:
+            - -11,58416
+            - -359,36550
+            - -3158,45100
+          Dynamic: {ASTargetBlendRate: '1,00000', ASTargetBlendTransitionSec: '4,00000'}
+          Gyaml: DragonConnectable
+          Hash: '4957462790782751801'
+          NextDistance: 272,45750
+          PrevDistance: 194,17630
+          Translate:
+            - -26,27402
+            - -354,75640
+            - -3110,00000
+        - Control0:
+            - 31,18288
+            - -358,20110
+            - -3289,95500
+          Control1:
+            - 77,04015
+            - -339,01510
+            - -3449,95500
+          Gyaml: DragonConnectable
+          Hash: '548439550348101920'
+          NextDistance: 446,73070
+          PrevDistance: 272,45750
+          Translate:
+            - 54,11152
+            - -348,60810
+            - -3369,95500
+        - Control0:
+            - 277,33250
+            - -330,78220
+            - -3569,13400
+          Control1:
+            - 575,99880
+            - -364,12670
+            - -3609,31700
+          Gyaml: DragonConnectable
+          Hash: '17509864711774213709'
+          NextDistance: 558,10620
+          PrevDistance: 446,73070
+          Translate:
+            - 426,66570
+            - -347,45440
+            - -3589,22600
+        - Control0:
+            - 917,86710
+            - -362,67110
+            - -3647,15900
+          Control1:
+            - 1043,88800
+            - -362,67110
+            - -3655,26700
+          Gyaml: DragonConnectable
+          Hash: '2536187819472597688'
+          NextDistance: 547,47870
+          PrevDistance: 558,10620
+          Translate:
+            - 980,87770
+            - -362,67110
+            - -3651,21300
+        - Control0:
+            - 1404,03300
+            - -360,00000
+            - -3674,47400
+          Control1:
+            - 1646,37800
+            - -360,00000
+            - -3577,68400
+          Gyaml: DragonConnectable
+          Hash: '15656719393352622243'
+          NextDistance: 567,20040
+          PrevDistance: 547,47870
+          Translate:
+            - 1525,20500
+            - -360,00000
+            - -3626,07900
+        - Control0:
+            - 1864,99100
+            - -413,20010
+            - -3392,89800
+          Control1:
+            - 2185,32300
+            - -446,79990
+            - -3358,26300
+          Gyaml: DragonConnectable
+          Hash: '670978747068964977'
+          NextDistance: 451,31120
+          PrevDistance: 567,20040
+          Translate:
+            - 2025,15700
+            - -430,00000
+            - -3375,58100
+        - Control0:
+            - 2236,71900
+            - -461,27990
+            - -3599,47100
+          Control1:
+            - 2503,86100
+            - -532,21810
+            - -3662,38800
+          Gyaml: DragonConnectable
+          Hash: '15417661656808525402'
+          NextDistance: 372,97750
+          PrevDistance: 451,31120
+          Translate:
+            - 2370,29000
+            - -496,74900
+            - -3630,93000
+        - Control0:
+            - 2678,87200
+            - -535,52150
+            - -3654,52400
+          Control1:
+            - 2798,12800
+            - -542,47850
+            - -3648,47600
+          Gyaml: DragonConnectable
+          Hash: '11703642726682275839'
+          NextDistance: 157,76350
+          PrevDistance: 372,97750
+          Translate:
+            - 2738,50000
+            - -539,00000
+            - -3651,50000
+        - Control0:
+            - 2839,53900
+            - -555,72520
+            - -3669,61000
+          Control1:
+            - 2948,46100
+            - -548,27480
+            - -3670,39000
+          Gyaml: DragonConnectable
+          Hash: '2575864821448492656'
+          NextDistance: 373,75740
+          PrevDistance: 157,76350
+          Translate:
+            - 2894,00000
+            - -552,00000
+            - -3670,00000
+        - Control0:
+            - 3095,88600
+            - -417,63350
+            - -3636,11700
+          Control1:
+            - 3348,28600
+            - -342,36650
+            - -3637,08300
+          Gyaml: DragonConnectable
+          Hash: '11661992055911798668'
+          NextDistance: 796,89290
+          PrevDistance: 373,75740
+          Translate:
+            - 3222,08600
+            - -380,00000
+            - -3636,60000
+        - Control0:
+            - 3730,00000
+            - -340,00000
+            - -3269,83400
+          Control1:
+            - 4030,00000
+            - -340,00000
+            - -3130,16600
+          Gyaml: DragonConnectable
+          Hash: '1820506538888586448'
+          NextDistance: 473,02980
+          PrevDistance: 796,89290
+          Translate:
+            - 3880,00000
+            - -340,00000
+            - -3200,00000
+        - Control0:
+            - 4210,00000
+            - -370,00000
+            - -3412,38700
+          Control1:
+            - 4390,00000
+            - -370,00000
+            - -3307,61300
+          Gyaml: DragonConnectable
+          Hash: '4471790477096072979'
+          NextDistance: 405,17580
+          PrevDistance: 473,02980
+          Translate:
+            - 4300,00000
+            - -370,00000
+            - -3360,00000
+        - Control0:
+            - 4458,00000
+            - -400,00000
+            - -3180,62400
+          Control1:
+            - 4458,00000
+            - -400,00000
+            - -2833,37600
+          Gyaml: DragonConnectable
+          Hash: '17380144892451981016'
+          NextDistance: 536,50740
+          PrevDistance: 405,17580
+          Translate:
+            - 4458,00000
+            - -400,00000
+            - -3007,00000
+        - Control0:
+            - 4454,70300
+            - -299,00000
+            - -2719,25500
+          Control1:
+            - 4245,29700
+            - -299,00000
+            - -2280,74500
+          Gyaml: DragonConnectable
+          Hash: '5063303756306223175'
+          NextDistance: 517,88700
+          PrevDistance: 536,50740
+          Translate:
+            - 4350,00000
+            - -299,00000
+            - -2500,00000
+        - Control0:
+            - 4032,00000
+            - -291,00000
+            - -2181,00000
+          Control1:
+            - 4032,00000
+            - -31,00000
+            - -2181,00000
+          Dynamic: {ASTargetBlendRate: '0,10000', ASTargetBlendTransitionSec: '4,00000'}
+          Gyaml: DragonConnectable
+          Hash: '12495462205247781709'
+          NextDistance: 211,00000
+          PrevDistance: 517,88700
+          Translate:
+            - 4032,00000
+            - -161,00000
+            - -2181,00000
+    - Dynamic: {UniqueName: Rail_For_Dragon_Ice}
+      Gyaml: DragonConnectable
+      Hash: '6223056947015804777'
+      IsClosed: true
+      Name: DragonConnectable
+      Points:
+        - Control0:
+            - 2061,93900
+            - -352,60900
+            - 652,26490
+          Control1:
+            - 2180,06100
+            - -347,39100
+            - 455,85280
+          Gyaml: DragonConnectable
+          Hash: '4290040692082723661'
+          NextDistance: 460,81600
+          PrevDistance: 386,59010
+          Translate:
+            - 2121,00000
+            - -350,00000
+            - 554,05880
+        - Control0:
+            - 2342,83700
+            - -339,45970
+            - 278,52940
+          Control1:
+            - 2617,16300
+            - -340,54030
+            - 317,85020
+          Gyaml: DragonConnectable
+          Hash: '2470093688418422851'
+          NextDistance: 516,53990
+          PrevDistance: 460,81600
+          Translate:
+            - 2480,00000
+            - -340,00000
+            - 298,18980
+        - Control0:
+            - 2871,77400
+            - -330,00000
+            - 515,81460
+          Control1:
+            - 2968,22600
+            - -330,00000
+            - 604,18540
+          Gyaml: DragonConnectable
+          Hash: '10439686744194048472'
+          NextDistance: 378,13560
+          PrevDistance: 516,53990
+          Translate:
+            - 2920,00000
+            - -330,00000
+            - 560,00000
+        - Control0:
+            - 3109,20600
+            - -333,15060
+            - 760,00000
+          Control1:
+            - 3180,79400
+            - -366,84940
+            - 960,00000
+          Gyaml: DragonConnectable
+          Hash: '14116727446553151493'
+          NextDistance: 364,74450
+          PrevDistance: 378,13560
+          Translate:
+            - 3145,00000
+            - -350,00000
+            - 860,00000
+        - Control0:
+            - 3145,00000
+            - -440,00000
+            - 1090,00000
+          Control1:
+            - 3345,00000
+            - -440,00000
+            - 1290,00000
+          Gyaml: DragonConnectable
+          Hash: '9904202779514023489'
+          NextDistance: 432,12980
+          PrevDistance: 364,74450
+          Translate:
+            - 3245,00000
+            - -440,00000
+            - 1190,00000
+        - Control0:
+            - 3600,00000
+            - -430,00000
+            - 1345,00000
+          Control1:
+            - 3600,00000
+            - -230,00000
+            - 1345,00000
+          Dynamic: {ASTargetBlendRate: '0,10000', ASTargetBlendTransitionSec: '4,00000'}
+          Gyaml: DragonConnectable
+          Hash: '12252085180631486077'
+          NextDistance: 770,33780
+          PrevDistance: 432,12980
+          Translate:
+            - 3600,00000
+            - -330,00000
+            - 1345,00000
+        - Control0:
+            - 3578,00000
+            - 312,50570
+            - 1339,00000
+          Control1:
+            - 3578,00000
+            - 567,49430
+            - 1339,00000
+          Dynamic: {ASTargetBlendRate: '1,00000', ASTargetBlendTransitionSec: '4,00000'}
+          Gyaml: DragonConnectable
+          Hash: '4164693858623371484'
+          NextDistance: 528,35010
+          PrevDistance: 770,33780
+          Translate:
+            - 3578,00000
+            - 440,00000
+            - 1339,00000
+        - Control0:
+            - 3900,00000
+            - 553,15100
+            - 1471,00000
+          Control1:
+            - 4100,00000
+            - 546,84900
+            - 1671,00000
+          Gyaml: DragonConnectable
+          Hash: '3466414073952329249'
+          NextDistance: 478,45940
+          PrevDistance: 528,35010
+          Translate:
+            - 4000,00000
+            - 550,00000
+            - 1571,00000
+        - Control0:
+            - 4028,52400
+            - 464,80940
+            - 1863,95700
+          Control1:
+            - 3931,47600
+            - 335,19060
+            - 2136,04300
+          Gyaml: DragonConnectable
+          Hash: '8371525366103103637'
+          NextDistance: 837,22990
+          PrevDistance: 478,45940
+          Translate:
+            - 3980,00000
+            - 400,00000
+            - 2000,00000
+        - Control0:
+            - 3694,10900
+            - 370,00000
+            - 2638,65200
+          Control1:
+            - 3305,89100
+            - 370,00000
+            - 2661,34800
+          Gyaml: DragonConnectable
+          Hash: '4403225581806807563'
+          NextDistance: 502,44960
+          PrevDistance: 837,22990
+          Translate:
+            - 3500,00000
+            - 370,00000
+            - 2650,00000
+        - Control0:
+            - 3100,19500
+            - 380,30860
+            - 2633,86700
+          Control1:
+            - 2899,80500
+            - 389,69140
+            - 2598,21000
+          Gyaml: DragonConnectable
+          Hash: '3010678252790742239'
+          NextDistance: 487,90530
+          PrevDistance: 502,44960
+          Translate:
+            - 3000,00000
+            - 385,00000
+            - 2616,03900
+        - Control0:
+            - 2689,78000
+            - 396,37300
+            - 2550,00000
+          Control1:
+            - 2510,22000
+            - 603,62700
+            - 2250,00000
+          Gyaml: DragonConnectable
+          Hash: '3070432562587157713'
+          NextDistance: 385,20460
+          PrevDistance: 487,90530
+          Translate:
+            - 2600,00000
+            - 500,00000
+            - 2400,00000
+        - Control0:
+            - 2500,13300
+            - 614,09330
+            - 2166,86700
+          Control1:
+            - 2499,86700
+            - 679,46960
+            - 1963,98500
+          Gyaml: DragonConnectable
+          Hash: '7154328182157525409'
+          NextDistance: 410,32410
+          PrevDistance: 385,20460
+          Translate:
+            - 2500,00000
+            - 646,78140
+            - 2065,42600
+        - Control0:
+            - 2500,01700
+            - 700,00000
+            - 1809,00600
+          Control1:
+            - 2499,98300
+            - 700,00000
+            - 1510,99400
+          Gyaml: DragonConnectable
+          Hash: '5678880207222906516'
+          NextDistance: 702,61580
+          PrevDistance: 410,32410
+          Translate:
+            - 2500,00000
+            - 700,00000
+            - 1660,00000
+        - Control0:
+            - 2218,39500
+            - 583,84420
+            - 1144,58000
+          Control1:
+            - 2101,60500
+            - 536,15580
+            - 995,42000
+          Gyaml: DragonConnectable
+          Hash: '10257840011252122305'
+          NextDistance: 407,13670
+          PrevDistance: 702,61580
+          Translate:
+            - 2160,00000
+            - 560,00000
+            - 1070,00000
+        - Control0:
+            - 1973,00000
+            - 500,63880
+            - 857,00000
+          Control1:
+            - 1973,00000
+            - 139,36120
+            - 857,00000
+          Dynamic: {ASTargetBlendRate: '0,10000', ASTargetBlendTransitionSec: '2,00000'}
+          Gyaml: DragonConnectable
+          Hash: '16435480877754775784'
+          NextDistance: 550,04850
+          PrevDistance: 407,13670
+          Translate:
+            - 1973,00000
+            - 320,00000
+            - 857,00000
+        - Control0:
+            - 1975,00000
+            - -105,00000
+            - 850,00000
+          Control1:
+            - 1975,00000
+            - -355,00000
+            - 850,00000
+          Dynamic: {ASTargetBlendRate: '1,00000'}
+          Gyaml: DragonConnectable
+          Hash: '11820097444938079969'
+          NextDistance: 386,59010
+          PrevDistance: 550,04850
+          Translate:
+            - 1975,00000
+            - -230,00000
+            - 850,00000
+    - Dynamic: {UniqueName: Rail_For_Dragon_Electric}
+      Gyaml: DragonConnectable
+      Hash: '9327396586535976721'
+      IsClosed: true
+      Name: DragonConnectable
+      Points:
+        - Control0:
+            - -2487,00000
+            - -150,00000
+            - 3085,60300
+          Control1:
+            - -2487,00000
+            - 550,00000
+            - 3068,39700
+          Gyaml: DragonConnectable
+          Hash: '9537912580049490158'
+          NextDistance: 790,83150
+          PrevDistance: 380,28460
+          Translate:
+            - -2487,00000
+            - 200,00000
+            - 3077,00000
+        - Control0:
+            - -2665,72100
+            - 550,00000
+            - 2692,50400
+          Control1:
+            - -2665,72100
+            - 550,00000
+            - 2307,49600
+          Dynamic: {ASTargetBlendRate: '1,00000', ASTargetBlendTransitionSec: '4,00000'}
+          Gyaml: DragonConnectable
+          Hash: '2487424498028184745'
+          NextDistance: 626,98740
+          PrevDistance: 790,83150
+          Translate:
+            - -2665,72100
+            - 550,00000
+            - 2500,00000
+        - Control0:
+            - -2540,00000
+            - 550,00000
+            - 2050,00000
+          Control1:
+            - -2200,00000
+            - 550,00000
+            - 1910,00000
+          Gyaml: DragonConnectable
+          Hash: '15870796002255840889'
+          NextDistance: 383,79230
+          PrevDistance: 626,98740
+          Translate:
+            - -2370,00000
+            - 550,00000
+            - 1980,00000
+        - Control0:
+            - -2143,94400
+            - 530,00000
+            - 1923,07200
+          Control1:
+            - -1856,05600
+            - 470,00000
+            - 1976,92800
+          Gyaml: DragonConnectable
+          Hash: '2566365088098718530'
+          NextDistance: 699,54490
+          PrevDistance: 383,79230
+          Translate:
+            - -2000,00000
+            - 500,00000
+            - 1950,00000
+        - Control0:
+            - -1720,00000
+            - 400,00000
+            - 2430,00000
+          Control1:
+            - -1480,00000
+            - 400,00000
+            - 2570,00000
+          Gyaml: DragonConnectable
+          Hash: '7304955811940587298'
+          NextDistance: 608,58180
+          PrevDistance: 699,54490
+          Translate:
+            - -1600,00000
+            - 400,00000
+            - 2500,00000
+        - Control0:
+            - -1145,33000
+            - 398,75020
+            - 2534,16000
+          Control1:
+            - -854,66980
+            - 401,24980
+            - 2465,84000
+          Gyaml: DragonConnectable
+          Hash: '8614640540244481582'
+          NextDistance: 637,78170
+          PrevDistance: 608,58180
+          Translate:
+            - -1000,00000
+            - 400,00000
+            - 2500,00000
+        - Control0:
+            - -486,31540
+            - 400,00000
+            - 2358,66900
+          Control1:
+            - -286,31540
+            - 400,00000
+            - 2294,58300
+          Gyaml: DragonConnectable
+          Hash: '6622128135989285996'
+          NextDistance: 714,83670
+          PrevDistance: 637,78170
+          Translate:
+            - -386,31540
+            - 400,00000
+            - 2326,62600
+        - Control0:
+            - 222,00000
+            - 355,00000
+            - 2117,00000
+          Control1:
+            - 222,00000
+            - 15,00000
+            - 2117,00000
+          Dynamic: {ASTargetBlendRate: '4,00000', ASTargetBlendTransitionSec: '0,10000'}
+          Gyaml: DragonConnectable
+          Hash: '8311108016729171616'
+          NextDistance: 370,00000
+          PrevDistance: 714,83670
+          Translate:
+            - 222,00000
+            - 185,00000
+            - 2117,00000
+        - Control0:
+            - 222,00000
+            - -85,00000
+            - 2117,00000
+          Control1:
+            - 222,00000
+            - -285,00000
+            - 2117,00000
+          Dynamic: {ASTargetBlendRate: '1,00000', ASTargetBlendTransitionSec: '4,00000'}
+          Gyaml: DragonConnectable
+          Hash: '7457085815289142810'
+          NextDistance: 248,90890
+          PrevDistance: 370,00000
+          Translate:
+            - 222,00000
+            - -185,00000
+            - 2117,00000
+        - Control0:
+            - 122,13460
+            - -318,19640
+            - 2173,24900
+          Control1:
+            - 277,86540
+            - -328,45710
+            - 2356,75100
+          Gyaml: DragonConnectable
+          Hash: '15779569547764410042'
+          NextDistance: 326,79410
+          PrevDistance: 248,90890
+          Translate:
+            - 200,00000
+            - -323,32680
+            - 2265,00000
+        - Control0:
+            - 324,21080
+            - -287,11710
+            - 2381,18800
+          Control1:
+            - 531,78920
+            - -288,80690
+            - 2608,81200
+          Gyaml: DragonConnectable
+          Hash: '10807822552882828490'
+          NextDistance: 472,93140
+          PrevDistance: 326,79410
+          Translate:
+            - 428,00000
+            - -287,96200
+            - 2495,00000
+        - Control0:
+            - 655,42610
+            - -310,00000
+            - 2828,60400
+          Control1:
+            - 604,57390
+            - -310,00000
+            - 2991,39600
+          Gyaml: DragonConnectable
+          Hash: '17799322832318972488'
+          NextDistance: 369,05220
+          PrevDistance: 472,93140
+          Translate:
+            - 630,00000
+            - -310,00000
+            - 2910,00000
+        - Control0:
+            - 447,76030
+            - -303,53550
+            - 3174,24500
+          Control1:
+            - 272,23970
+            - -303,53550
+            - 3025,75500
+          Gyaml: DragonConnectable
+          Hash: '12396926659596185705'
+          NextDistance: 433,58890
+          PrevDistance: 369,05220
+          Translate:
+            - 360,00000
+            - -303,53550
+            - 3100,00000
+        - Control0:
+            - 120,58000
+            - -300,00000
+            - 2843,23200
+          Control1:
+            - -104,58000
+            - -300,00000
+            - 2896,76800
+          Gyaml: DragonConnectable
+          Hash: '12262518194048128139'
+          NextDistance: 659,04480
+          PrevDistance: 433,58890
+          Translate:
+            - 8,00000
+            - -300,00000
+            - 2870,00000
+        - Control0:
+            - -500,00000
+            - -246,00000
+            - 3115,00000
+          Control1:
+            - -700,00000
+            - -266,00000
+            - 3115,00000
+          Gyaml: DragonConnectable
+          Hash: '838306818495913977'
+          NextDistance: 814,64420
+          PrevDistance: 659,04480
+          Translate:
+            - -600,00000
+            - -256,00000
+            - 3115,00000
+        - Control0:
+            - -1194,48600
+            - -396,97690
+            - 3147,07100
+          Control1:
+            - -1567,51400
+            - -463,02310
+            - 3338,92900
+          Gyaml: DragonConnectable
+          Hash: '9500223567283469223'
+          NextDistance: 465,15580
+          PrevDistance: 814,64420
+          Translate:
+            - -1381,00000
+            - -430,00000
+            - 3243,00000
+        - Control0:
+            - -1561,20500
+            - -410,00000
+            - 3538,61800
+          Control1:
+            - -1620,79500
+            - -410,00000
+            - 3729,38200
+          Gyaml: DragonConnectable
+          Hash: '13547073862526848963'
+          NextDistance: 322,17320
+          PrevDistance: 465,15580
+          Translate:
+            - -1591,00000
+            - -410,00000
+            - 3634,00000
+        - Control0:
+            - -1759,77700
+            - -410,00000
+            - 3807,57500
+          Control1:
+            - -1940,22300
+            - -410,00000
+            - 3752,42500
+          Gyaml: DragonConnectable
+          Hash: '10716946613120323371'
+          NextDistance: 378,81040
+          PrevDistance: 322,17320
+          Translate:
+            - -1850,00000
+            - -410,00000
+            - 3780,00000
+        - Control0:
+            - -2010,00000
+            - -414,75000
+            - 3500,21500
+          Control1:
+            - -2010,00000
+            - -405,25000
+            - 3399,78400
+          Gyaml: DragonConnectable
+          Hash: '2319103447604885925'
+          NextDistance: 249,41450
+          PrevDistance: 378,81040
+          Translate:
+            - -2010,00000
+            - -410,00000
+            - 3450,00000
+        - Control0:
+            - -2024,89800
+            - -374,59410
+            - 3275,00600
+          Control1:
+            - -2165,10200
+            - -345,40590
+            - 3184,99400
+          Gyaml: DragonConnectable
+          Hash: '7442274322278544667'
+          NextDistance: 481,65650
+          PrevDistance: 249,41450
+          Translate:
+            - -2095,00000
+            - -360,00000
+            - 3230,00000
+        - Control0:
+            - -2476,74000
+            - -328,98580
+            - 3096,33800
+          Control1:
+            - -2491,26000
+            - -31,01419
+            - 3077,66200
+          Dynamic: {ASTargetBlendRate: '0,10000', ASTargetBlendTransitionSec: '4,00000'}
+          Gyaml: DragonConnectable
+          Hash: '11564865832843115258'
+          NextDistance: 380,28460
+          PrevDistance: 481,65650
+          Translate:
+            - -2484,00000
+            - -180,00000
+            - 3087,00000
+    - Dynamic: {IsEnabledGameDataFlagName: IsEnabled_HighRail_For_DragonLight, UniqueName: High_Rail_For_Dragon_Light}
+      Gyaml: DragonConnectable
+      Hash: '9776055386496242430'
+      IsClosed: true
+      Name: DragonConnectable
+      Points:
+        - Control0:
+            - -1000,00000
+            - 1839,54900
+            - -470,00000
+          Control1:
+            - -1000,00000
+            - 1860,45100
+            - -530,00000
+          Gyaml: DragonConnectable
+          Hash: '12773342492682020027'
+          NextDistance: 1317,94200
+          PrevDistance: 821,76720
+          Translate:
+            - -1000,00000
+            - 1850,00000
+            - -500,00000
+        - Control0:
+            - -1000,00000
+            - 2000,00000
+            - -1000,00000
+          Control1:
+            - -2500,00000
+            - 2200,00000
+            - -2000,00000
+          Gyaml: DragonConnectable
+          Hash: '3935683773789613656'
+          NextDistance: 1362,59200
+          PrevDistance: 1317,94200
+          Translate:
+            - -1750,00000
+            - 2100,00000
+            - -1500,00000
+        - Control0:
+            - -2790,00000
+            - 2200,00000
+            - -2000,00000
+          Control1:
+            - -3190,00000
+            - 2200,00000
+            - -2000,00000
+          Gyaml: DragonConnectable
+          Hash: '6785075581070689628'
+          NextDistance: 510,00000
+          PrevDistance: 1362,59200
+          Translate:
+            - -2990,00000
+            - 2200,00000
+            - -2000,00000
+        - Control0:
+            - -3000,00000
+            - 2200,00000
+            - -2000,00000
+          Control1:
+            - -4000,00000
+            - 2200,00000
+            - -2000,00000
+          Gyaml: DragonConnectable
+          Hash: '7794260090173743629'
+          NextDistance: 890,57820
+          PrevDistance: 510,00000
+          Translate:
+            - -3500,00000
+            - 2200,00000
+            - -2000,00000
+        - Control0:
+            - -4000,00000
+            - 2240,00000
+            - -2500,00000
+          Control1:
+            - -4000,00000
+            - 2260,00000
+            - -2700,00000
+          Gyaml: DragonConnectable
+          Hash: '14206406186628775852'
+          NextDistance: 1274,57800
+          PrevDistance: 890,57820
+          Translate:
+            - -4000,00000
+            - 2250,00000
+            - -2600,00000
+        - Control0:
+            - -4050,00000
+            - 2300,00000
+            - -3250,00000
+          Control1:
+            - -2450,00000
+            - 2300,00000
+            - -3750,00000
+          Gyaml: DragonConnectable
+          Hash: '17793953383307812797'
+          NextDistance: 1793,84600
+          PrevDistance: 1274,57800
+          Translate:
+            - -3250,00000
+            - 2300,00000
+            - -3500,00000
+        - Control0:
+            - -2000,00000
+            - 2310,00000
+            - -3575,00000
+          Control1:
+            - -1000,00000
+            - 2310,00000
+            - -3225,00000
+          Gyaml: DragonConnectable
+          Hash: '16598992306963427144'
+          NextDistance: 2045,77100
+          PrevDistance: 1793,84600
+          Translate:
+            - -1500,00000
+            - 2310,00000
+            - -3400,00000
+        - Control0:
+            - 0,00000
+            - 2310,00000
+            - -3000,00000
+          Control1:
+            - 1000,00000
+            - 2310,00000
+            - -3000,00000
+          Gyaml: DragonConnectable
+          Hash: '13718237640451677776'
+          NextDistance: 2077,46900
+          PrevDistance: 2045,77100
+          Translate:
+            - 500,00000
+            - 2310,00000
+            - -3000,00000
+        - Control0:
+            - 2250,00000
+            - 1850,00000
+            - -3000,00000
+          Control1:
+            - 2750,00000
+            - 1690,00000
+            - -3000,00000
+          Gyaml: DragonConnectable
+          Hash: '2889637264801206865'
+          NextDistance: 1260,64600
+          PrevDistance: 2077,46900
+          Translate:
+            - 2500,00000
+            - 1770,00000
+            - -3000,00000
+        - Control0:
+            - 3500,00000
+            - 1600,00000
+            - -3000,00000
+          Control1:
+            - 3500,00000
+            - 1600,00000
+            - -2000,00000
+          Gyaml: DragonConnectable
+          Hash: '18139015574743851318'
+          NextDistance: 793,16000
+          PrevDistance: 1260,64600
+          Translate:
+            - 3500,00000
+            - 1600,00000
+            - -2500,00000
+        - Gyaml: DragonConnectable
+          Hash: '13828428291664711467'
+          NextDistance: 500,00000
+          PrevDistance: 793,16000
+          Translate:
+            - 3000,00000
+            - 1600,00000
+            - -2000,00000
+        - Connections:
+            - {RailHash: '2403614233851902047', RailPointIndex: !l 2}
+          Control0:
+            - 3000,00000
+            - 1600,00000
+            - -2000,00000
+          Control1:
+            - 2000,00000
+            - 1600,00000
+            - -2000,00000
+          Gyaml: DragonConnectable
+          Hash: '14413147520622276159'
+          NextDistance: 1241,85700
+          PrevDistance: 500,00000
+          Translate:
+            - 2500,00000
+            - 1600,00000
+            - -2000,00000
+        - Control0:
+            - 1500,00000
+            - 1600,00000
+            - -1900,00000
+          Control1:
+            - 1500,00000
+            - 1600,00000
+            - -1100,00000
+          Gyaml: DragonConnectable
+          Hash: '12116976730012551903'
+          NextDistance: 845,06820
+          PrevDistance: 1241,85700
+          Translate:
+            - 1500,00000
+            - 1600,00000
+            - -1500,00000
+        - Control0:
+            - 1600,00000
+            - 1639,25800
+            - -950,00000
+          Control1:
+            - 2000,00000
+            - 1760,74200
+            - -550,00000
+          Gyaml: DragonConnectable
+          Hash: '10932507727390565616'
+          NextDistance: 772,75040
+          PrevDistance: 845,06820
+          Translate:
+            - 1800,00000
+            - 1700,00000
+            - -750,00000
+        - Control0:
+            - 2300,00000
+            - 1813,22000
+            - -529,00970
+          Control1:
+            - 2700,00000
+            - 1886,78000
+            - -470,99030
+          Gyaml: DragonConnectable
+          Hash: '17253242947904287015'
+          NextDistance: 617,45400
+          PrevDistance: 772,75040
+          Translate:
+            - 2500,00000
+            - 1850,00000
+            - -500,00000
+        - Control0:
+            - 2890,00000
+            - 1925,00000
+            - -444,64120
+          Control1:
+            - 3290,00000
+            - 1975,00000
+            - -269,37830
+          Gyaml: DragonConnectable
+          Hash: '16255393145004545734'
+          NextDistance: 1323,62800
+          PrevDistance: 617,45400
+          Translate:
+            - 3090,00000
+            - 1950,00000
+            - -357,00980
+        - Control0:
+            - 4000,00000
+            - 2000,00000
+            - 0,00000
+          Control1:
+            - 4000,00000
+            - 2000,00000
+            - 1000,00000
+          Gyaml: DragonConnectable
+          Hash: '5878376831686070473'
+          NextDistance: 1000,00000
+          PrevDistance: 1323,62800
+          Translate:
+            - 4000,00000
+            - 2000,00000
+            - 500,00000
+        - Control0:
+            - 4000,00000
+            - 2000,00000
+            - 1200,00000
+          Control1:
+            - 4000,00000
+            - 2000,00000
+            - 1800,00000
+          Gyaml: DragonConnectable
+          Hash: '5039649352484422155'
+          NextDistance: 1582,35200
+          PrevDistance: 1000,00000
+          Translate:
+            - 4000,00000
+            - 2000,00000
+            - 1500,00000
+        - Control0:
+            - 3750,00000
+            - 1800,00000
+            - 2500,00000
+          Control1:
+            - 2250,00000
+            - 1800,00000
+            - 2500,00000
+          Gyaml: DragonConnectable
+          Hash: '5142977161644729506'
+          NextDistance: 1984,53600
+          PrevDistance: 1582,35200
+          Translate:
+            - 3000,00000
+            - 1800,00000
+            - 2500,00000
+        - Control0:
+            - 2250,00000
+            - 1889,71900
+            - 1400,00000
+          Control1:
+            - 750,00000
+            - 2330,28100
+            - 1400,00000
+          Gyaml: DragonConnectable
+          Hash: '10834022096073659865'
+          NextDistance: 1539,44100
+          PrevDistance: 1984,53600
+          Translate:
+            - 1500,00000
+            - 2110,00000
+            - 1400,00000
+        - Control0:
+            - 1100,00000
+            - 2370,00000
+            - 2350,00000
+          Control1:
+            - -100,00000
+            - 2370,00000
+            - 2350,00000
+          Gyaml: DragonConnectable
+          Hash: '6576065419183970789'
+          NextDistance: 1746,92200
+          PrevDistance: 1539,44100
+          Translate:
+            - 500,00000
+            - 2370,00000
+            - 2350,00000
+        - Control0:
+            - -294,74810
+            - 2390,00000
+            - 1299,57300
+          Control1:
+            - -1305,25200
+            - 2130,00000
+            - 1300,42700
+          Gyaml: DragonConnectable
+          Hash: '7384792141528994842'
+          NextDistance: 1908,80900
+          PrevDistance: 1746,92200
+          Translate:
+            - -800,00000
+            - 2260,00000
+            - 1300,00000
+        - Control0:
+            - -1600,00000
+            - 1900,00000
+            - 2000,00000
+          Control1:
+            - -3400,00000
+            - 2300,00000
+            - 2000,00000
+          Gyaml: DragonConnectable
+          Hash: '11943251113343796553'
+          NextDistance: 1791,86000
+          PrevDistance: 1908,80900
+          Translate:
+            - -2500,00000
+            - 2100,00000
+            - 2000,00000
+        - Control0:
+            - -3700,00000
+            - 2350,00000
+            - 1500,00000
+          Control1:
+            - -3700,00000
+            - 2350,00000
+            - 500,00000
+          Gyaml: DragonConnectable
+          Hash: '739029154920408316'
+          NextDistance: 1791,16200
+          PrevDistance: 1791,86000
+          Translate:
+            - -3700,00000
+            - 2350,00000
+            - 1000,00000
+        - Control0:
+            - -3300,00000
+            - 2300,00000
+            - 0,00000
+          Control1:
+            - -1700,00000
+            - 1720,00000
+            - 0,00000
+          Gyaml: DragonConnectable
+          Hash: '12816800351362784136'
+          NextDistance: 1054,16100
+          PrevDistance: 1791,16200
+          Translate:
+            - -2500,00000
+            - 2010,00000
+            - 0,00000
+        - Control0:
+            - -2000,00000
+            - 1750,00000
+            - 0,00000
+          Control1:
+            - -1000,00000
+            - 1650,00000
+            - 0,00000
+          Gyaml: DragonConnectable
+          Hash: '765656549072148755'
+          NextDistance: 821,76720
+          PrevDistance: 1054,16100
+          Translate:
+            - -1500,00000
+            - 1700,00000
+            - 0,00000
+    - Dynamic: {IsEnabledGameDataFlagName: IsEnabled_LowRail_For_DragonLight, UniqueName: Low_Rail_For_Dragon_Light}
+      Gyaml: DragonConnectable
+      Hash: '11451571314453521569'
+      IsClosed: true
+      Name: DragonConnectable
+      Points:
+        - Connections:
+            - {RailHash: '652363682704881090', RailPointIndex: !l 2}
+          Control0:
+            - 3100,00000
+            - 800,00000
+            - -2000,00000
+          Control1:
+            - 2900,00000
+            - 800,00000
+            - -2000,00000
+          Gyaml: DragonConnectable
+          Hash: '11289517993848165626'
+          NextDistance: 500,00000
+          PrevDistance: 809,49520
+          Translate:
+            - 3000,00000
+            - 800,00000
+            - -2000,00000
+        - Control0:
+            - 3000,00000
+            - 800,06740
+            - -1999,79600
+          Control1:
+            - 2000,00000
+            - 799,93260
+            - -2000,20400
+          Gyaml: DragonConnectable
+          Hash: '6168903040394759660'
+          NextDistance: 1241,90600
+          PrevDistance: 500,00000
+          Translate:
+            - 2500,00000
+            - 800,00000
+            - -2000,00000
+        - Control0:
+            - 1500,00000
+            - 800,00000
+            - -1900,00000
+          Control1:
+            - 1500,00000
+            - 800,00000
+            - -1100,00000
+          Gyaml: DragonConnectable
+          Hash: '9235360306789668518'
+          NextDistance: 836,82860
+          PrevDistance: 1241,90600
+          Translate:
+            - 1500,00000
+            - 800,00000
+            - -1500,00000
+        - Control0:
+            - 1600,00000
+            - 800,00000
+            - -950,00000
+          Control1:
+            - 2000,00000
+            - 800,00000
+            - -550,00000
+          Gyaml: DragonConnectable
+          Hash: '8061215288452494841'
+          NextDistance: 764,36050
+          PrevDistance: 836,82860
+          Translate:
+            - 1800,00000
+            - 800,00000
+            - -750,00000
+        - Control0:
+            - 2250,00000
+            - 800,00000
+            - -500,00000
+          Control1:
+            - 2750,00000
+            - 800,00000
+            - -500,00000
+          Gyaml: DragonConnectable
+          Hash: '1508846671721331186'
+          NextDistance: 504,27170
+          PrevDistance: 764,36050
+          Translate:
+            - 2500,00000
+            - 800,00000
+            - -500,00000
+        - Control0:
+            - 2850,00000
+            - 800,00000
+            - -490,00000
+          Control1:
+            - 3150,00000
+            - 800,00000
+            - -410,00000
+          Gyaml: DragonConnectable
+          Hash: '13958946617103491332'
+          NextDistance: 1499,07300
+          PrevDistance: 504,27170
+          Translate:
+            - 3000,00000
+            - 800,00000
+            - -450,00000
+        - Control0:
+            - 4000,00000
+            - 800,00000
+            - -50,00000
+          Control1:
+            - 4000,00000
+            - 800,00000
+            - 1150,00000
+          Gyaml: DragonConnectable
+          Hash: '7862599929919510643'
+          NextDistance: 950,00000
+          PrevDistance: 1499,07300
+          Translate:
+            - 4000,00000
+            - 800,00000
+            - 550,00000
+        - Control0:
+            - 4000,00000
+            - 800,00000
+            - 1200,00000
+          Control1:
+            - 4000,00000
+            - 800,00000
+            - 1800,00000
+          Gyaml: DragonConnectable
+          Hash: '7299609140320779952'
+          NextDistance: 1567,00800
+          PrevDistance: 950,00000
+          Translate:
+            - 4000,00000
+            - 800,00000
+            - 1500,00000
+        - Control0:
+            - 3750,00000
+            - 800,00000
+            - 2500,00000
+          Control1:
+            - 2250,00000
+            - 800,00000
+            - 2500,00000
+          Gyaml: DragonConnectable
+          Hash: '17550119710202094193'
+          NextDistance: 1860,10800
+          PrevDistance: 1567,00800
+          Translate:
+            - 3000,00000
+            - 800,00000
+            - 2500,00000
+        - Control0:
+            - 2250,00000
+            - 800,00000
+            - 1400,00000
+          Control1:
+            - 750,00000
+            - 800,00000
+            - 1400,00000
+          Gyaml: DragonConnectable
+          Hash: '2546065476772735905'
+          NextDistance: 1469,12800
+          PrevDistance: 1860,10800
+          Translate:
+            - 1500,00000
+            - 800,00000
+            - 1400,00000
+        - Control0:
+            - 1100,00000
+            - 800,00000
+            - 2300,00000
+          Control1:
+            - -100,00000
+            - 800,00000
+            - 2300,00000
+          Gyaml: DragonConnectable
+          Hash: '7565936615275231902'
+          NextDistance: 1778,99900
+          PrevDistance: 1469,12800
+          Translate:
+            - 500,00000
+            - 800,00000
+            - 2300,00000
+        - Control0:
+            - -200,00000
+            - 800,00000
+            - 1400,00000
+          Control1:
+            - -1600,00000
+            - 800,00000
+            - 1200,00000
+          Gyaml: DragonConnectable
+          Hash: '10246496625334648530'
+          NextDistance: 1811,36900
+          PrevDistance: 1778,99900
+          Translate:
+            - -900,00000
+            - 800,00000
+            - 1300,00000
+        - Control0:
+            - -1600,00000
+            - 800,00000
+            - 2000,00000
+          Control1:
+            - -3400,00000
+            - 800,00000
+            - 2000,00000
+          Gyaml: DragonConnectable
+          Hash: '7527638713690764136'
+          NextDistance: 1784,21600
+          PrevDistance: 1811,36900
+          Translate:
+            - -2500,00000
+            - 800,00000
+            - 2000,00000
+        - Control0:
+            - -3700,00000
+            - 1000,00000
+            - 1500,00000
+          Control1:
+            - -3700,00000
+            - 1000,00000
+            - 500,00000
+          Gyaml: DragonConnectable
+          Hash: '11253304181852275055'
+          NextDistance: 1761,61200
+          PrevDistance: 1784,21600
+          Translate:
+            - -3700,00000
+            - 1000,00000
+            - 1000,00000
+        - Control0:
+            - -3300,00000
+            - 800,00000
+            - 0,00000
+          Control1:
+            - -1700,00000
+            - 800,00000
+            - 0,00000
+          Gyaml: DragonConnectable
+          Hash: '14262020085580061696'
+          NextDistance: 1000,00000
+          PrevDistance: 1761,61200
+          Translate:
+            - -2500,00000
+            - 800,00000
+            - 0,00000
+        - Control0:
+            - -2000,00000
+            - 800,00000
+            - 0,00000
+          Control1:
+            - -1000,00000
+            - 800,00000
+            - 0,00000
+          Gyaml: DragonConnectable
+          Hash: '8580631438528046419'
+          NextDistance: 793,16000
+          PrevDistance: 1000,00000
+          Translate:
+            - -1500,00000
+            - 800,00000
+            - 0,00000
+        - Gyaml: DragonConnectable
+          Hash: '10305819140039076333'
+          NextDistance: 1289,32900
+          PrevDistance: 793,16000
+          Translate:
+            - -1000,00000
+            - 800,00000
+            - -500,00000
+        - Control0:
+            - -1000,00000
+            - 800,00000
+            - -1000,00000
+          Control1:
+            - -2500,00000
+            - 800,00000
+            - -2000,00000
+          Gyaml: DragonConnectable
+          Hash: '4479136472313868563'
+          NextDistance: 1358,43900
+          PrevDistance: 1289,32900
+          Translate:
+            - -1750,00000
+            - 800,00000
+            - -1500,00000
+        - Control0:
+            - -2790,00000
+            - 790,00000
+            - -2000,00000
+          Control1:
+            - -3190,00000
+            - 770,00000
+            - -2000,00000
+          Gyaml: DragonConnectable
+          Hash: '17653491454959053266'
+          NextDistance: 510,88640
+          PrevDistance: 1358,43900
+          Translate:
+            - -2990,00000
+            - 780,00000
+            - -2000,00000
+        - Control0:
+            - -3000,00000
+            - 780,00000
+            - -2000,00000
+          Control1:
+            - -4000,00000
+            - 720,00000
+            - -2000,00000
+          Gyaml: DragonConnectable
+          Hash: '16275408688961224880'
+          NextDistance: 890,33500
+          PrevDistance: 510,88640
+          Translate:
+            - -3500,00000
+            - 750,00000
+            - -2000,00000
+        - Control0:
+            - -4000,00000
+            - 700,00000
+            - -2500,00000
+          Control1:
+            - -4000,00000
+            - 700,00000
+            - -2700,00000
+          Gyaml: DragonConnectable
+          Hash: '7848820128287981546'
+          NextDistance: 1274,35800
+          PrevDistance: 890,33500
+          Translate:
+            - -4000,00000
+            - 700,00000
+            - -2600,00000
+        - Control0:
+            - -4050,00000
+            - 700,00000
+            - -3250,00000
+          Control1:
+            - -2450,00000
+            - 800,00000
+            - -3750,00000
+          Gyaml: DragonConnectable
+          Hash: '11454703574381106795'
+          NextDistance: 1804,15600
+          PrevDistance: 1274,35800
+          Translate:
+            - -3250,00000
+            - 750,00000
+            - -3500,00000
+        - Control0:
+            - -2000,00000
+            - 820,00000
+            - -3505,00000
+          Control1:
+            - -1000,00000
+            - 820,00000
+            - -3155,00000
+          Gyaml: DragonConnectable
+          Hash: '5181241851665948023'
+          NextDistance: 2039,02100
+          PrevDistance: 1804,15600
+          Translate:
+            - -1500,00000
+            - 820,00000
+            - -3330,00000
+        - Control0:
+            - -500,00000
+            - 800,00000
+            - -3000,00000
+          Control1:
+            - 1500,00000
+            - 800,00000
+            - -3000,00000
+          Gyaml: DragonConnectable
+          Hash: '12192861158257269005'
+          NextDistance: 2000,00000
+          PrevDistance: 2039,02100
+          Translate:
+            - 500,00000
+            - 800,00000
+            - -3000,00000
+        - Gyaml: DragonConnectable
+          Hash: '11669656905952024283'
+          NextDistance: 1223,37600
+          PrevDistance: 2000,00000
+          Translate:
+            - 2500,00000
+            - 800,00000
+            - -3000,00000
+        - Control0:
+            - 3500,00000
+            - 800,00000
+            - -3000,00000
+          Control1:
+            - 3500,00000
+            - 800,00000
+            - -2000,00000
+          Gyaml: DragonConnectable
+          Hash: '1522105286444888747'
+          NextDistance: 809,49520
+          PrevDistance: 1223,37600
+          Translate:
+            - 3500,00000
+            - 800,00000
+            - -2500,00000
+    - Dynamic: {IsEnabledGameDataFlagName: IsEnabled_FirstIslandRail_For_DragonLight, UniqueName: First_Island_Rail_For_Dragon_Light}
+      Gyaml: DragonConnectable
+      Hash: '13407019102230002153'
+      IsClosed: true
+      Name: DragonConnectable
+      Points:
+        - Control0:
+            - 350,00000
+            - 1800,00000
+            - 151,00000
+          Control1:
+            - -50,00000
+            - 1800,00000
+            - 151,00000
+          Gyaml: DragonConnectable
+          Hash: '15121958422693274860'
+          NextDistance: 400,67790
+          PrevDistance: 600,00090
+          Translate:
+            - 150,00000
+            - 1800,00000
+            - 151,00000
+        - Control0:
+            - -50,00000
+            - 1800,00000
+            - -50,00000
+          Control1:
+            - 350,00000
+            - 1800,00000
+            - -50,00000
+          Gyaml: DragonConnectable
+          Hash: '8612024388237510341'
+          NextDistance: 600,00000
+          PrevDistance: 400,67790
+          Translate:
+            - 150,00000
+            - 1800,00000
+            - -50,00000
+        - Control0:
+            - 550,00000
+            - 1800,00000
+            - -50,00000
+          Control1:
+            - 950,00000
+            - 1800,00000
+            - -50,00000
+          Gyaml: DragonConnectable
+          Hash: '923955087817968403'
+          NextDistance: 399,96690
+          PrevDistance: 600,00000
+          Translate:
+            - 750,00000
+            - 1800,00000
+            - -50,00000
+        - Control0:
+            - 950,00000
+            - 1800,00000
+            - 150,00000
+          Control1:
+            - 550,00000
+            - 1800,00000
+            - 150,00000
+          Gyaml: DragonConnectable
+          Hash: '965671743969493761'
+          NextDistance: 600,00090
+          PrevDistance: 399,96690
+          Translate:
+            - 750,00000
+            - 1800,00000
+            - 150,00000
+  SimultaneousGroups:
+    - - 9638922153370470329
+      - 12782309265692402625

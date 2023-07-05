@@ -1,0 +1,51 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_GerudoHighlands_0013
+      Hash: '5830376072382042792'
+      Phive:
+        Placement: {ID: 5830376072382042792}
+      SRTHash: !u 2237489159
+      Translate:
+        - -3676,22300
+        - 0,01221
+        - 1856,98200
+    - Dynamic: {RigidBodyShapeType: !l 3}
+      Gyaml: Area
+      Hash: '1893803780992646369'
+      Phive:
+        Placement: {ID: 1893803780992646369}
+      SRTHash: !u 2552123399
+      Scale:
+        - 100,00000
+        - 120,00000
+        - 100,00000
+      Translate:
+        - -3676,22300
+        - -99,98779
+        - 1856,98200
+    - Bakeable: true
+      Gyaml: Miasma_DeepHole_Dense
+      Hash: '9492673530360675312'
+      Phive:
+        Placement: {ID: 9492673530360675312}
+      SRTHash: !u 659867876
+      Scale:
+        - 12,00000
+        - 16,09930
+        - 12,00000
+      Translate:
+        - -3676,00000
+        - -133,97860
+        - 1855,00000
+  AiGroups:
+    - Hash: '1471635361801641433'
+      Logic: Logic/Module/DeepHole_Common_LoadMinusFieldForceCounter/DeepHole_Common_LoadMinusFieldForceCounter_a437.logic.module.ain
+      References:
+        - {Id: Area_e397, Path: Area_e397, Reference: 1893803780992646369}
+  FilePath: Work/Banc/Scene/Prefab/Cave_GerudoHighlands_0013_GroupSet_000.bcett.json
+  PhiveHeader:
+    PlacementGroups: []

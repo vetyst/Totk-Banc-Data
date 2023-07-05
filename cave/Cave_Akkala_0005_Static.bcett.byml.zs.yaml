@@ -1,0 +1,175 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - Gyaml: Cave_Akkala_0005
+      Hash: '1337373874212037374'
+      Phive:
+        Placement: {ID: 1337373874212037374}
+      Rotate:
+        - 0,00000
+        - -0,87266
+        - 0,00000
+      SRTHash: !u 2072227618
+      Translate:
+        - 3940,40000
+        - 215,20000
+        - -1586,20000
+    - Bakeable: true
+      Gyaml: Obj_TreeTomato_A_01
+      Hash: '9233674797422296280'
+      Links:
+        - {Dst: 4741554427980821987, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 9233674797422296280}
+        - {Dst: 12584689097390219588, Gyaml: NoticeLumbered, Name: NoticeLumbered, Src: 9233674797422296280}
+      Phive:
+        Placement: {ID: 9233674797422296280}
+      Rotate:
+        - 3,14159
+        - 1,06841
+        - 3,14159
+      SRTHash: !u 4197354724
+      Translate:
+        - 3916,96700
+        - 233,51300
+        - -1586,02700
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: Item_Fruit_M
+      Hash: '4741554427980821987'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 9233674797422296280, Gyaml: Reference, Name: Reference, Src: 4741554427980821987}
+      Phive:
+        ConstraintLink:
+          ID: 4741554427980821987
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - 2,82014
+                  - 0,27545
+                  - -3,08133
+                Trans:
+                  - 3917,24400
+                  - 234,62830
+                  - -1586,24200
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 2,00000
+                BallSocketSpringStiffness: 10,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: true
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: false
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - 0,15000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 3,14159
+                  - 1,06841
+                  - 3,14159
+                Trans:
+                  - 3917,00100
+                  - 236,60260
+                  - -1586,04600
+              Type: BallAndSocket
+        Placement: {ID: 4741554427980821987}
+      Rotate:
+        - 3,14154
+        - 0,27755
+        - 3,12483
+      SRTHash: !u 2642786544
+      Translate:
+        - 3917,22000
+        - 234,61950
+        - -1586,19700
+    - Dynamic: {PlacementMotion_MotionType: !l 0}
+      Gyaml: Item_Fruit_M
+      Hash: '12584689097390219588'
+      IsPhysicsStable: true
+      Links:
+        - {Dst: 9233674797422296280, Gyaml: Reference, Name: Reference, Src: 12584689097390219588}
+      Phive:
+        ConstraintLink:
+          ID: 12584689097390219588
+          Owners:
+            - BreakableData: {IsBreakable: false}
+              ClusterData: {DisableContact: true}
+              OwnerPose:
+                Rotate:
+                  - -0,75227
+                  - 0,00061
+                  - 0,17979
+                Trans:
+                  - 3916,92400
+                  - 234,90570
+                  - -1585,75800
+              ParamData:
+                BallSocketFrictionForce: 0,50000
+                BallSocketSpringDamping: 2,00000
+                BallSocketSpringStiffness: 10,00000
+                ConeAngleLimitMax: 20,00000
+                EnableBallSocketSpring: true
+                EnableConeAngleLimit: true
+                EnableLockAxisRotation: false
+              PivotData:
+                Axis: !l 1
+                Pivot:
+                  - 0,00000
+                  - 0,15000
+                  - 0,00000
+              Refer: 0
+              ReferPose:
+                Rotate:
+                  - 3,14159
+                  - 1,06841
+                  - 3,14159
+                Trans:
+                  - 3917,00100
+                  - 236,60260
+                  - -1586,04600
+              Type: BallAndSocket
+        Placement: {ID: 12584689097390219588}
+      Rotate:
+        - -1,78769
+        - -1,15780
+        - 1,92993
+      SRTHash: !u 1321619830
+      Translate:
+        - 3916,92200
+        - 234,87650
+        - -1585,80100
+    - Bakeable: true
+      Gyaml: CaveEntrance_80f55a88
+      Hash: '10596474402787871547'
+      Links:
+        - {Dst: 714988345401640894, Gyaml: Reference, Name: Reference, Src: 10596474402787871547}
+      Name: CaveEntrance_80f55a88
+      Phive:
+        Placement: {ID: 10596474402787871547}
+      SRTHash: !u 1996196403
+      Translate:
+        - 3966,18700
+        - 186,10900
+        - -1609,99800
+    - Bakeable: true
+      Gyaml: CaveEntrance_80f55a88_Far
+      Hash: '714988345401640894'
+      Name: CaveEntrance_80f55a88
+      Phive:
+        Placement: {ID: 10596474402787871547}
+      SRTHash: !u 1996196403
+      Translate:
+        - 3966,18700
+        - 186,10900
+        - -1609,99800
+  FilePath: Work/Banc/Scene/Prefab/Cave_Akkala_0005.bcett.json
+  PhiveHeader:
+    PlacementGroups: []
